@@ -2,126 +2,151 @@
   {
     "name": "BBC World",
     "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
-    "category": "Світ"
+    "category": "Світ",
+    "language": "en"
   },
   {
     "name": "The Guardian",
     "url": "https://www.theguardian.com/world/rss",
-    "category": "Світ"
+    "category": "Світ",
+    "language": "en"
   },
   {
     "name": "Al Jazeera",
     "url": "https://www.aljazeera.com/xml/rss/all.xml",
-    "category": "Світ"
+    "category": "Світ",
+    "language": "en"
   },
   {
     "name": "Deutsche Welle",
     "url": "https://rss.dw.com/xml/rss-en-all",
-    "category": "Світ"
+    "category": "Світ",
+    "language": "en"
   },
   {
     "name": "Euronews",
     "url": "https://www.euronews.com/rss",
-    "category": "Світ"
+    "category": "Світ",
+    "language": "en"
   },
   {
     "name": "RMF24 Świat",
     "url": "https://www.rmf24.pl/fakty/swiat/feed",
-    "category": "Світ"
+    "category": "Світ",
+    "language": "pl"
   },
   {
     "name": "Українська правда",
     "url": "https://www.pravda.com.ua/rss/view_news/",
-    "category": "Україна"
+    "category": "Україна",
+    "language": "uk"
   },
   {
     "name": "RMF24 Polska",
     "url": "https://www.rmf24.pl/fakty/polska/feed",
-    "category": "Польща"
+    "category": "Польща",
+    "language": "pl"
   },
   {
     "name": "Notes from Poland",
     "url": "https://notesfrompoland.com/feed/",
-    "category": "Польща"
+    "category": "Польща",
+    "language": "en"
   },
   {
     "name": "BBC Business",
     "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
-    "category": "Бізнес"
+    "category": "Бізнес",
+    "language": "en"
   },
   {
     "name": "The Guardian Business",
     "url": "https://www.theguardian.com/business/rss",
-    "category": "Бізнес"
+    "category": "Бізнес",
+    "language": "en"
   },
   {
     "name": "RMF24 Ekonomia",
     "url": "https://www.rmf24.pl/ekonomia/feed",
-    "category": "Бізнес"
+    "category": "Бізнес",
+    "language": "pl"
   },
   {
     "name": "BBC Technology",
     "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
-    "category": "Технології"
+    "category": "Технології",
+    "language": "en"
   },
   {
     "name": "The Guardian Technology",
     "url": "https://www.theguardian.com/technology/rss",
-    "category": "Технології"
+    "category": "Технології",
+    "language": "en"
   },
   {
     "name": "Hacker News",
     "url": "https://hnrss.org/frontpage",
-    "category": "Технології"
+    "category": "Технології",
+    "language": "en"
   },
   {
     "name": "TechCrunch",
     "url": "https://techcrunch.com/feed/",
-    "category": "Технології"
+    "category": "Технології",
+    "language": "en"
   },
   {
     "name": "The Verge",
     "url": "https://www.theverge.com/rss/index.xml",
-    "category": "Технології"
+    "category": "Технології",
+    "language": "en"
   },
   {
     "name": "Ars Technica",
     "url": "https://feeds.arstechnica.com/arstechnica/index",
-    "category": "Технології"
+    "category": "Технології",
+    "language": "en"
   },
   {
     "name": "Engadget",
     "url": "https://www.engadget.com/rss.xml",
-    "category": "Технології"
+    "category": "Технології",
+    "language": "en"
   },
   {
     "name": "ITC.ua",
     "url": "https://feeds.feedburner.com/itcua",
-    "category": "Технології"
+    "category": "Технології",
+    "language": "uk"
   },
   {
     "name": "The Verge AI",
     "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
-    "category": "AI"
+    "category": "AI",
+    "language": "en"
   },
   {
     "name": "WIRED AI",
     "url": "https://www.wired.com/feed/tag/ai/latest/rss",
-    "category": "AI"
+    "category": "AI",
+    "language": "en"
   },
   {
     "name": "BBC Science",
     "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
-    "category": "Наука"
+    "category": "Наука",
+    "language": "en"
   },
   {
     "name": "WIRED Science",
     "url": "https://www.wired.com/feed/category/science/latest/rss",
-    "category": "Наука"
+    "category": "Наука",
+    "language": "en"
   },
   {
     "name": "Smashing Magazine",
     "url": "https://www.smashingmagazine.com/feed/",
-    "category": "Дизайн"
+    "category": "Дизайн",
+    "language": "en"
   }
 ]

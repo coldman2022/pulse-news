@@ -3,3 +3,43 @@
 
 /* Allow long feed URLs and the search field to fit narrow content columns. */
 main,.search{min-width:0}.summary,h2{overflow-wrap:anywhere}
+
+
+/* Prevent horizontal page expansion and iOS Safari's focus zoom. */
+html, body { max-width: 100%; min-width: 0; overflow-x: clip; }
+.shell, main, .toolbar, #news, .story, .story > div { min-width: 0; max-width: 100%; }
+header { min-width: 0; width: 100%; }
+.tabs {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+  touch-action: pan-x;
+  gap: 8px;
+}
+.tabs::-webkit-scrollbar { display: none; }
+.tabs button { flex: 0 0 auto; white-space: nowrap; }
+.translation-error { color: #a44322; width: 100%; font-size: 13px; }
+.actions .translate-btn { margin-left: 0; border-color: #bdcaf7; color: var(--blue); background: #eff3ff; }
+.actions .translate-btn:disabled { opacity: 0.65; cursor: progress; }
+@media (max-width: 760px) {
+  html, body { width: 100%; }
+  header { gap: 8px; }
+  header button { margin-left: auto; white-space: nowrap; }
+  main { width: 100%; min-width: 0; padding: 26px 20px; }
+  .toolbar { width: 100%; min-width: 0; }
+  .search, .source-label { min-width: 0; max-width: 100%; }
+  .source-label select { min-width: 0; max-width: min(65vw, 240px); font-size: 16px; }
+  input, select { font-size: 16px; }
+  .tabs { margin-top: 20px; padding-bottom: 13px; }
+  .tabs button { padding: 10px 14px; min-height: 44px; }
+  #status { overflow-wrap: anywhere; }
+  .story { width: 100%; }
+  .actions button { min-height: 40px; }
+}

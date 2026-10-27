@@ -45,7 +45,7 @@ def parse_feed(raw, source):
                 stamp = 0
         result.append(dict(id=hashlib.sha256(url.encode()).hexdigest()[:20], title=title, url=url,
                            summary=clean(value('description', atom + 'summary', atom + 'content'))[:600],
-                           source=source['name'], category=source['category'], published=stamp))
+                           source=source['name'], category=source['category'], language=source.get('language','en'), published=stamp))
     return result
 
 def fetch_source(source):
