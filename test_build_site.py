@@ -34,8 +34,8 @@ class BuildTests(unittest.TestCase):
                              dict(name='The Guardian', ok=False, cached=True))
             self.assertEqual(json.loads((output / 'news.json').read_text()), payload)
             html = (output / 'index.html').read_text()
-            self.assertIn('href="./style.css"', html)
-            self.assertIn('src="./app.js"', html)
+            self.assertIn('href="./style.css?v=2"', html)
+            self.assertIn('src="./app.js?v=2"', html)
             self.assertTrue((output / '.nojekyll').exists())
 
     def test_total_failure_preserves_previous_snapshot(self):
