@@ -29,10 +29,9 @@ jobs:
       - run: node --check static/app.js
 
   build:
-    if: github.event_name != 'pull_request'
     needs: test
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 15
     permissions:
       contents: read
       pages: read
@@ -41,6 +40,25 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-translate.txt
+      - name: Install the CPU translation runtime
+        run: |
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+          python -m pip install -r requirements-translate.txt
+      - name: Restore the English/Ukrainian model
+        uses: actions/cache@v4
+        with:
+          path: .argos
+          key: argos-en-uk-1.4-spacy-v1-${{ runner.os }}-${{ hashFiles('requirements-translate.txt') }}
+      - name: Install and verify offline translation
+        run: python translate_news.py --install --smoke-test
+      - name: Restore previously translated texts
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/translations.json
+          key: translations-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: translations-v1-
       - name: Restore the last successful RSS snapshot
         uses: actions/cache/restore@v4
         with:
@@ -48,18 +66,33 @@ jobs:
           key: rss-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: rss-
       - name: Fetch RSS and build the static site
-        run: python build_site.py
+        run: python build_site.py --translate
+      - name: Save translated texts
+        uses: actions/cache/save@v4
+        with:
+          path: .cache/translations.json
+          key: translations-v1-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Save RSS for partial source outages
         uses: actions/cache/save@v4
         with:
           path: _site/news.json
           key: rss-${{ github.run_id }}-${{ github.run_attempt }}
       - uses: actions/configure-pages@v5
+        if: github.event_name != 'pull_request'
       - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
         with:
           path: _site
+      - name: Upload PR preview for review
+        if: github.event_name == 'pull_request'
+        uses: actions/upload-artifact@v4
+        with:
+          name: pulse-preview
+          path: _site
+          retention-days: 3
 
   deploy:
+    if: github.event_name != 'pull_request'
     needs: build
     runs-on: ubuntu-latest
     timeout-minutes: 10

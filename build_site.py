@@ -8,7 +8,7 @@ from pathlib import Path
 import server
 
 
-def build(output):
+def build(output, translate=False, translation_cache='.cache/translations.json'):
     output = Path(output)
     snapshot = output / 'news.json'
     server.CACHE.clear()
@@ -22,6 +22,9 @@ def build(output):
     # Never replace a working deployment with an empty or entirely failed fetch.
     if not payload['articles'] or not any(s['ok'] for s in payload['sources']):
         raise RuntimeError('All RSS sources failed; keep the previous deployment and retry later.')
+    if translate:
+        from translate_news import translate_payload
+        translate_payload(payload, translation_cache)
     output.mkdir(parents=True, exist_ok=True)
     for name in ('index.html', 'app.js', 'style.css'):
         shutil.copyfile(server.ROOT / 'static' / name, output / name)
@@ -36,4 +39,6 @@ def build(output):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--output', default='_site')
-    build(parser.parse_args().output)
+    parser.add_argument('--translate', action='store_true')
+    args = parser.parse_args()
+    build(args.output, translate=args.translate)
