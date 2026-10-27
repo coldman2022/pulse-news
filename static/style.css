@@ -3,3 +3,5 @@
 
 /* Allow long feed URLs and the search field to fit narrow content columns. */
 main,.search{min-width:0}.summary,h2{overflow-wrap:anywhere}
+
+.meta{flex-wrap:wrap}.original{font-size:13px;color:var(--muted);margin:0 0 18px;overflow-wrap:anywhere}.original summary{cursor:pointer;color:var(--blue)}.original p{margin:8px 0}
