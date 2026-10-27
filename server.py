@@ -88,7 +88,7 @@ def news():
 class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
         route = urllib.parse.urlsplit(self.path).path
-        if route == '/api/news':
+        if route in ('/api/news', '/news.json'):
             try:
                 data = json.dumps(news(), ensure_ascii=False).encode()
                 self.send_response(200)
@@ -122,3 +122,4 @@ if __name__ == '__main__':
         pass
     except OSError as error:
         parser.exit(1, f'Cannot start: {error}. Try --port 8766\n')
+
