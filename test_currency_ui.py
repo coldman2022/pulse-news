@@ -77,7 +77,7 @@ class MonobankRatesTests(unittest.TestCase):
         self.assertNotIn('id="fx-date"',html)
         self.assertNotIn("НБУ",html)
         self.assertIn('currency.js?v=2',html)
-        self.assertIn('style.css?v=15',html)
+        self.assertIn('style.css?v=16',html)
         self.assertNotIn('id="refresh"',html)
         self.assertNotIn("$('#refresh')",js)
         self.assertIn("setInterval(load,300000)",js)
@@ -98,7 +98,25 @@ class MonobankRatesTests(unittest.TestCase):
                       ".fx-bar{"):
             self.assertIn(token,css)
         for page in ("digest.html","opportunities.html","reddit.html"):
-            self.assertIn("style.css?v=15",(ROOT/"static"/page).read_text(encoding="utf-8"))
+            self.assertIn("style.css?v=16",(ROOT/"static"/page).read_text(encoding="utf-8"))
+
+
+    def test_v16_visual_system_uses_square_neutral_surfaces(self):
+        css=(ROOT/"static/style.css").read_text(encoding="utf-8")
+        self.assertIn("Pulse v16 — calm utility design system",css)
+        self.assertIn("--paper:#f2f3f3",css)
+        self.assertIn("--pulse-white:#ffffff",css)
+        self.assertIn("border-radius: 0 !important",css)
+        self.assertIn("#news .story--feature",css)
+        self.assertIn("aside nav > .opp-nav,aside nav > button",css)
+        self.assertIn("#categories button.active::after",css)
+        self.assertIn(".event-card[data-topic=\"Design\"]",css)
+        self.assertIn(".reddit-post{background:#fff",css)
+        self.assertNotIn("#ffcc00",css.split("/* Pulse v16 — calm utility design system")[1])
+        for page in ("index.html","digest.html","opportunities.html","reddit.html"):
+            html=(ROOT/"static"/page).read_text(encoding="utf-8")
+            self.assertIn("style.css?v=16",html)
+            self.assertIn('content="#f2f3f3"',html)
 
 if __name__=="__main__":
     unittest.main()
