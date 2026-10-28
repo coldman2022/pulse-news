@@ -171,7 +171,7 @@ window.PulseHub=(()=>{
    const form=make('form','hub-form'),input=make('input','hub-input');
    input.type='search';input.placeholder='Пошук по всьому Pulse…';input.value=new URLSearchParams(location.search).get('q')||'';
    const submit=make('button','hub-primary','Знайти');submit.type='submit';form.append(input,submit);
-   const options=make('div','hub-search-settings'),topic=make('select','hub-select'),range=make('select','hub-select');
+   const options=make('div','hub-search-settings'),topic=make('select','hub-select'),range=make('select','hub-select'),source=make('select','hub-select');
    for(const [value,label] of [['','Усі теми'],['Імміграція','Імміграція'],['AI','AI'],['Мотивація','Мотивація'],['Бізнес','Бізнес'],['Польща','Польща'],['Світ','Світ']]){
      const opt=make('option','',label);opt.value=value;topic.append(opt);
    }
@@ -179,13 +179,19 @@ window.PulseHub=(()=>{
      const opt=make('option','',label);opt.value=value;range.append(opt);
    }
    const unread=make('label','hub-checkbox'),onlyUnread=make('input');onlyUnread.type='checkbox';
-   unread.append(onlyUnread,make('span','','Лише непрочитані'));options.append(topic,range,unread);
+   unread.append(onlyUnread,make('span','','Лише непрочитані'));options.append(topic,range,source,unread);
    const status=make('p','hub-muted','Завантажуємо архів…'),out=make('div','hub-results');
    root.append(form,options,make('p','hub-muted','Візьми точну фразу у лапки; додай -слово, щоб виключити його. Пошук включає архів, мотивацію та збережене.'),status,out);
    const {items,translations}=await loadIndex();
+   const anySource=make('option','','Усі джерела');anySource.value='';source.append(anySource);
+   for(const value of [...new Set(items.map(a=>a.publisher||a.source).filter(Boolean))].sort()){
+     const opt=make('option','',value);opt.value=value;source.append(opt);
+   }
    function render(){
      const now=Date.now()/1000,days=Number(range.value),query=input.value.trim();
-     const matched=items.filter(a=>(!topic.value||a.category===topic.value)&&(!days||a.published>=now-days*86400)
+     const matched=items.filter(a=>(!topic.value||a.category===topic.value)
+       &&(!source.value||a.publisher===source.value||a.source===source.value)
+       &&(!days||a.published>=now-days*86400)
        &&(!onlyUnread.checked||!isRead(a.id))
        &&matchesQuery(a,query,[titleFor(a,translations)?.title,titleFor(a,translations)?.summary].join(' ')));
      status.textContent='Знайдено '+matched.length+' · показано '+Math.min(80,matched.length);
@@ -193,7 +199,7 @@ window.PulseHub=(()=>{
      if(!matched.length)out.append(make('p','hub-empty','Нічого не знайдено. Зміни фразу або фільтри.'));
    }
    form.onsubmit=e=>{e.preventDefault();history.replaceState(null,'','?q='+encodeURIComponent(input.value.trim()));render();};
-   input.oninput=render;topic.onchange=render;range.onchange=render;onlyUnread.onchange=render;render();
+   input.oninput=render;topic.onchange=render;source.onchange=render;range.onchange=render;onlyUnread.onchange=render;render();
  }
  function collectionsPage(){
    const root=document.querySelector('#hub-main');if(!root)return;
@@ -201,17 +207,26 @@ window.PulseHub=(()=>{
    const form=make('form','hub-form'),input=make('input','hub-input');
    input.placeholder='Нова колекція';input.maxLength=45;const create=make('button','hub-primary','Створити');create.type='submit';form.append(input,create);
    const exportButton=make('button','hub-chip','Експортувати JSON');exportButton.type='button';
-   const status=make('p','hub-muted'),out=make('div','hub-results');root.append(form,exportButton,status,out);
+   const selectFolder=make('select','hub-select');selectFolder.setAttribute('aria-label','Фільтр за колекцією');
+   const status=make('p','hub-muted'),out=make('div','hub-results');root.append(form,selectFolder,exportButton,status,out);
    function render(){
      const data=folders(),articles=Object.values(saved()).filter(a=>a?.id&&a.url);
+     const selected=selectFolder.value;
+     selectFolder.replaceChildren();
+     for(const [value,label] of [['','Усі колекції'],['__unassigned','Без колекції'],...data.names.map(x=>[x,x])]){
+       const item=make('option','',label);item.value=value;selectFolder.append(item);
+     }
+     selectFolder.value=selected;
      status.textContent=articles.length+' збережених · '+data.names.length+' колекцій';
      out.replaceChildren();if(!articles.length)out.append(make('p','hub-empty','Збережи статтю закладкою в основній стрічці.'));
      for(const a of articles.sort((a,b)=>(b.published||0)-(a.published||0))){
+       if(selectFolder.value==='__unassigned'&&data.assign[a.id])continue;
+       if(selectFolder.value&&selectFolder.value!=='__unassigned'&&data.assign[a.id]!==selectFolder.value)continue;
        const card=result(a,{}),actions=make('div','hub-collection-actions'),select=make('select','hub-select');
        const base=make('option','','Без колекції');base.value='';select.append(base);
        for(const name of data.names){const opt=make('option','',name);opt.value=name;select.append(opt);}
        select.value=data.assign[a.id]||'';
-       select.onchange=()=>{const d=folders();d.assign[a.id]=select.value;put(KEY.collections,d);};
+       select.onchange=()=>{const d=folders();d.assign[a.id]=select.value;put(KEY.collections,d);if(selectFolder.value)render();};
        const note=make('textarea','hub-note');note.placeholder='Твоя нотатка…';note.maxLength=900;note.rows=2;note.value=data.notes[a.id]||'';
        note.onchange=()=>{const d=folders();d.notes[a.id]=note.value;put(KEY.collections,d);};
        actions.append(select,note);card.append(actions);out.append(card);
@@ -222,6 +237,7 @@ window.PulseHub=(()=>{
        data.names.push(name);put(KEY.collections,data);input.value='';render();
      }
    };
+   selectFolder.onchange=render;
    exportButton.onclick=()=>{
      const data={exported:new Date().toISOString(),saved:saved(),collections:folders()};
      const blob=new Blob([JSON.stringify(data,null,2)],{type:'application/json'});
