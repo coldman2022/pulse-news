@@ -84,6 +84,33 @@
   let library=null;
   let libraryPromise=null;
   let previousOverflow='';
+  // Safari on iPhone keeps bottom-fixed panels behind the software keyboard.
+  // While the search field is focused, place the sheet inside the *visible*
+  // viewport instead. Resize/scroll events keep it aligned as iOS animates
+  // the keyboard and changes browser toolbar heights.
+  function syncSearchViewport(){
+    const editing=!searchPanel.hidden &&
+      document.activeElement===searchInput &&
+      window.matchMedia('(max-width:760px)').matches;
+    searchPanel.classList.toggle('pulse-dock-search--editing',editing);
+    if(!editing){
+      searchPanel.style.removeProperty('--pulse-visible-top');
+      searchPanel.style.removeProperty('--pulse-visible-height');
+      return;
+    }
+    const viewport=window.visualViewport;
+    const top=Math.max(0,viewport?.offsetTop||0);
+    const height=Math.max(120,viewport?.height||window.innerHeight);
+    searchPanel.style.setProperty('--pulse-visible-top',Math.round(top)+'px');
+    searchPanel.style.setProperty('--pulse-visible-height',Math.round(height)+'px');
+  }
+  if(window.visualViewport){
+    window.visualViewport.addEventListener('resize',syncSearchViewport,{passive:true});
+    window.visualViewport.addEventListener('scroll',syncSearchViewport,{passive:true});
+  }
+  window.addEventListener('resize',syncSearchViewport,{passive:true});
+  searchInput.addEventListener('focus',syncSearchViewport);
+  searchInput.addEventListener('blur',syncSearchViewport);
   function selected(mode) {
     if(!['search','menu'].includes(mode))primaryMode=mode;
     buttons.forEach((button,key)=>{
@@ -101,8 +128,10 @@
   }
   function closeSearch() {
     if(searchPanel.hidden)return;
+    searchInput.blur();
     searchPanel.hidden=true;
     backdrop.hidden=true;
+    syncSearchViewport();
     searchButton.setAttribute('aria-expanded','false');
     document.body.classList.remove('pulse-search-open');
     document.body.style.overflow=previousOverflow;
@@ -208,6 +237,7 @@
     document.body.style.overflow='hidden';
     renderSearch();
     searchInput.focus({preventScroll:true});
+    syncSearchViewport();
     try {await loadSearch();if(!searchPanel.hidden)renderSearch();}
     catch {if(!searchPanel.hidden)empty('Пошук тимчасово недоступний. Перевір з’єднання і відкрий пошук ще раз.');}
   }
