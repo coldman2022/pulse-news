@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parent / "static"
 class PaletteV21Tests(unittest.TestCase):
     def test_color_tokens_and_theme_are_consistent(self):
         css=(ROOT / "style.css").read_text(encoding="utf-8")
-        theme=css.split("/* Pulse v21 — COLORS ONLY.",1)[1]
+        theme=css.split("/* Pulse v21 — COLORS ONLY.",1)[1].split("/* Pulse v22:",1)[0]
         for token in (
             "--pulse-accent:#4e2bb8", "--pulse-accent-strong:#25158a",
             "--pulse-lime:#e2e739", "--pulse-purple:#9557d2",
@@ -21,11 +21,11 @@ class PaletteV21Tests(unittest.TestCase):
             self.assertIn(token,theme)
         for page in ("index.html","digest.html","opportunities.html","reddit.html"):
             html=(ROOT / page).read_text(encoding="utf-8")
-            self.assertIn('style.css?v=22',html)
-            self.assertIn('content="#f7f3ec"',html)
+            self.assertIn('style.css?v=23',html)
+            self.assertIn('content="#fcfbfd"',html)
         manifest=(ROOT/"manifest.webmanifest").read_text(encoding="utf-8")
-        self.assertIn('"background_color": "#f7f3ec"',manifest)
-        self.assertIn('"theme_color": "#f7f3ec"',manifest)
+        self.assertIn('"background_color": "#fcfbfd"',manifest)
+        self.assertIn('"theme_color": "#fcfbfd"',manifest)
 
     def test_only_color_paint_properties_in_override(self):
         css=(ROOT / "style.css").read_text(encoding="utf-8")
