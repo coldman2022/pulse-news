@@ -219,7 +219,8 @@ class Handler(BaseHTTPRequestHandler):
             try:
                 import daily_digest
                 payload = news()
-                data = json.dumps(daily_digest.build_digest(payload['articles'], payload['updated']),
+                from editorial_feed import relevant
+                data = json.dumps(daily_digest.build_digest([a for a in payload['articles'] if relevant(a)], payload['updated']),
                                   ensure_ascii=False).encode()
                 self.send_response(200)
             except Exception:
