@@ -77,7 +77,7 @@ class MonobankRatesTests(unittest.TestCase):
         self.assertNotIn('id="fx-date"',html)
         self.assertNotIn("НБУ",html)
         self.assertIn('currency.js?v=3',html)
-        self.assertIn('style.css?v=28',html)
+        self.assertIn('style.css?v=29',html)
         self.assertNotIn('id="refresh"',html)
         self.assertNotIn("$('#refresh')",js)
         self.assertIn("setInterval(load,300000)",js)
@@ -98,7 +98,7 @@ class MonobankRatesTests(unittest.TestCase):
                       ".fx-bar{"):
             self.assertIn(token,css)
         for page in ("digest.html","opportunities.html","reddit.html"):
-            self.assertIn("style.css?v=28",(ROOT/"static"/page).read_text(encoding="utf-8"))
+            self.assertIn("style.css?v=29",(ROOT/"static"/page).read_text(encoding="utf-8"))
 
 
     def test_v16_visual_system_uses_square_neutral_surfaces(self):
@@ -115,7 +115,7 @@ class MonobankRatesTests(unittest.TestCase):
         self.assertNotIn("#ffcc00",css.split("/* Pulse v16 — calm utility design system")[1])
         for page in ("index.html","digest.html","opportunities.html","reddit.html"):
             html=(ROOT/"static"/page).read_text(encoding="utf-8")
-            self.assertIn("style.css?v=28",html)
+            self.assertIn("style.css?v=29",html)
             self.assertIn('content="#f0f0f3"',html)
 
 if __name__=="__main__":
