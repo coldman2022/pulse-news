@@ -28,6 +28,8 @@ jobs:
       - run: python -m unittest -v
       - run: node --check static/app.js
       - run: node --check static/opportunities.js
+      - run: node --check static/digest.js
+      - run: node --check static/events.js
 
   build:
     if: github.event_name != 'pull_request'
