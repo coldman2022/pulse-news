@@ -28,7 +28,8 @@ class BuildTests(unittest.TestCase):
                     raise OSError('offline')
                 return [self.article(source['name'], 'https://example.org/' + source['name'])]
 
-            with patch.object(server, 'fetch_source', side_effect=fetch):
+            with patch.object(server, 'fetch_source', side_effect=fetch), \
+                 patch.object(build_site.reddit_feed, 'build_reddit_preview', return_value={}):
                 payload = build_site.build(output)
             self.assertIn(old, payload['articles'])
             self.assertEqual(next(s for s in payload['sources'] if s['name'] == 'The Guardian'),
@@ -45,6 +46,7 @@ class BuildTests(unittest.TestCase):
             self.assertTrue((output / 'digest.html').exists())
             self.assertTrue((output / 'digest.js').exists())
             self.assertTrue((output / 'reddit.html').exists())
+            self.assertTrue((output / 'reddit.js').exists())
             self.assertTrue((output / 'feed.json').exists())
             editorial = json.loads((output / 'feed.json').read_text())
             self.assertIn('articles', editorial)
