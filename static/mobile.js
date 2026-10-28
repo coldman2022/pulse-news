@@ -7,7 +7,7 @@
     focus:'<circle cx="12" cy="12" r="8"/><path d="m8.5 12 2.5 2.5 4.5-5"/>',
     search:'<circle cx="10.7" cy="10.7" r="6.7"/><path d="m16 16 5 5"/>',
     save:'<path d="M6 4h12v17l-6-4-6 4z"/>',
-    menu:'<path d="M4 6h16M4 12h16M4 18h16"/>',
+    menu:'<rect x="4" y="4" width="6" height="6"/><rect x="14" y="4" width="6" height="6"/><rect x="4" y="14" width="6" height="6"/><rect x="14" y="14" width="6" height="6"/>',
     up:'<path d="m5 14 7-7 7 7M12 7v14"/>'
   };
   const icon = key => '<svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">'+icons[key]+'</svg>';
