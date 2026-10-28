@@ -1,0 +1,32 @@
+{
+  "name": "Pulse — новини у вашому ритмі",
+  "short_name": "Pulse",
+  "description": "Персональний агрегатор новин, подій та корисних обговорень.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f2f3f3",
+  "theme_color": "#f2f3f3",
+  "lang": "uk",
+  "icons": [
+    {
+      "src": "./pulse-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./pulse-icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./pulse-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
