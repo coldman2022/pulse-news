@@ -261,6 +261,15 @@ class Handler(BaseHTTPRequestHandler):
                 data = b'{"error":"Cannot prepare personal feed"}'
                 self.send_response(500)
             mime = 'application/json; charset=utf-8'
+        elif route == '/currency.json':
+            from currency_rates import build_rates
+            try:
+                payload = build_rates(ROOT / '_site' / 'currency.json')
+                data = json.dumps(payload, ensure_ascii=False).encode()
+            except Exception:
+                data = b'{"source":"НБУ","status":"unavailable","rates":{}}'
+            self.send_response(200)
+            mime = 'application/json; charset=utf-8'
         elif route == '/reddit.json':
             # Same independent preview as Pages, never mix user posts into news.
             from reddit_feed import build_reddit_preview
@@ -281,11 +290,11 @@ class Handler(BaseHTTPRequestHandler):
                 data = b'{"error":"Cannot read sources.json"}'
                 self.send_response(500)
             mime = 'application/json; charset=utf-8'
-        elif route in ('/', '/app.js', '/style.css', '/reddit.html', '/reddit.js', '/opportunities.html', '/opportunities.js', '/digest.html', '/digest.js', '/events.js', '/events.json'):
+        elif route in ('/', '/app.js', '/style.css', '/currency.js', '/reddit.html', '/reddit.js', '/opportunities.html', '/opportunities.js', '/digest.html', '/digest.js', '/events.js', '/events.json'):
             name = 'index.html' if route == '/' else route[1:]
             data = (ROOT / 'static' / name).read_bytes()
             self.send_response(200)
-            mime = {'index.html':'text/html', 'reddit.html':'text/html', 'reddit.js':'text/javascript', 'app.js':'text/javascript', 'style.css':'text/css', 'opportunities.html':'text/html', 'opportunities.js':'text/javascript', 'digest.html':'text/html', 'digest.js':'text/javascript', 'events.js':'text/javascript', 'events.json':'application/json'}[name] + '; charset=utf-8'
+            mime = {'index.html':'text/html', 'reddit.html':'text/html', 'reddit.js':'text/javascript', 'currency.js':'text/javascript', 'app.js':'text/javascript', 'style.css':'text/css', 'opportunities.html':'text/html', 'opportunities.js':'text/javascript', 'digest.html':'text/html', 'digest.js':'text/javascript', 'events.js':'text/javascript', 'events.json':'application/json'}[name] + '; charset=utf-8'
         else:
             self.send_error(404)
             return
