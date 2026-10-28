@@ -36,7 +36,11 @@
   sheet.className='pulse-dock-sheet';
   sheet.id='pulse-dock-sheet';
   sheet.hidden=true;
-  sheet.innerHTML='<a href="./#events-section">Календар подій</a>'+
+  sheet.innerHTML='<a href="./today.html">Мій день · головне</a>'+
+    '<a href="./radar.html">Мій радар</a>'+
+    '<a href="./search.html">Пошук по всьому архіву</a>'+
+    '<a href="./collections.html">Мої колекції</a>'+
+    '<a href="./#events-section">Календар подій</a>'+
     '<a href="./digest.html">Огляд дня</a>'+
     '<a href="./opportunities.html">Імміграційні можливості</a>'+
     '<a href="./reddit.html">Обговорення Reddit</a>'+
@@ -135,7 +139,10 @@
         chip.onclick=()=>{searchInput.value=term;renderSearch();searchInput.focus();};
         quick.append(chip);
       }
-      searchResults.replaceChildren(hint,quick);
+      const advanced=document.createElement('a');
+      advanced.href='./search.html';advanced.className='pulse-dock-search-result';
+      advanced.textContent='Пошук по всьому архіву, мотивації та збереженому ↗';
+      searchResults.replaceChildren(hint,quick,advanced);
       return;
     }
     const words=query.split(/\s+/).filter(Boolean);
@@ -154,7 +161,11 @@
     const summary=document.createElement('p');
     summary.className='pulse-dock-search-count';
     summary.textContent=total?('Знайдено '+total+' · показано '+Math.min(total,15)):'Нічого не знайдено';
-    searchResults.replaceChildren(summary);
+    const extended=document.createElement('a');
+    extended.href='./search.html?q='+encodeURIComponent(searchInput.value);
+    extended.className='pulse-dock-search-result';
+    extended.textContent='Шукати в усьому архіві ↗';
+    searchResults.replaceChildren(summary,extended);
     for(const item of results) {
       const href=safeArticleLink(item.url);
       if(!href)continue;
