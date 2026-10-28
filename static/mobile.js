@@ -84,6 +84,10 @@
   let library=null;
   let libraryPromise=null;
   let previousOverflow='';
+  // A touch on iOS can be retargeted to the bottom dock while the keyboard
+  // collapses. Ignore this single follow-up tap instead of opening a ghost sheet.
+  let lastSearchDismissedAt=0;
+  const searchWasJustDismissed=()=>Date.now()-lastSearchDismissedAt<400;
   // Safari on iPhone keeps bottom-fixed panels behind the software keyboard.
   // While the search field is focused, place the sheet inside the *visible*
   // viewport instead. Resize/scroll events keep it aligned as iOS animates
@@ -128,11 +132,19 @@
   }
   function closeSearch() {
     if(searchPanel.hidden)return;
-    searchInput.blur();
+    lastSearchDismissedAt=Date.now();
+    // Hide the entire overlay BEFORE blurring the input. On iOS, blur removes
+    // keyboard-safe positioning; doing it first briefly paints a second small
+    // bottom sheet, and its closing touch may hit the dock underneath.
+    searchPanel.style.animation='none';
     searchPanel.hidden=true;
     backdrop.hidden=true;
-    syncSearchViewport();
+    sheet.hidden=true;
+    menuBackdrop.hidden=true;
+    menu.setAttribute('aria-expanded','false');
     searchButton.setAttribute('aria-expanded','false');
+    searchInput.blur();
+    syncSearchViewport();
     document.body.classList.remove('pulse-search-open');
     document.body.style.overflow=previousOverflow;
     selected(primaryMode);
@@ -229,6 +241,7 @@
   async function openSearch() {
     closeSheet();
     previousOverflow=document.body.style.overflow;
+    searchPanel.style.removeProperty('animation');
     searchPanel.hidden=false;
     backdrop.hidden=false;
     searchButton.setAttribute('aria-expanded','true');
@@ -241,16 +254,25 @@
     try {await loadSearch();if(!searchPanel.hidden)renderSearch();}
     catch {if(!searchPanel.hidden)empty('Пошук тимчасово недоступний. Перевір з’єднання і відкрий пошук ще раз.');}
   }
-  menu.addEventListener('click',()=>{
+  menu.addEventListener('click',event=>{
+    if(searchPanel.hidden && searchWasJustDismissed()){
+      event.preventDefault();
+      return;
+    }
     closeSearch();
     sheet.hidden=!sheet.hidden;
     menuBackdrop.hidden=sheet.hidden;
     menu.setAttribute('aria-expanded',String(!sheet.hidden));
     selected(sheet.hidden?primaryMode:'menu');
   });
-  searchButton.addEventListener('click',()=>{
-    if(searchPanel.hidden)openSearch();
-    else closeSearch();
+  searchButton.addEventListener('click',event=>{
+    if(searchPanel.hidden){
+      if(searchWasJustDismissed()){
+        event.preventDefault();
+        return;
+      }
+      openSearch();
+    }else closeSearch();
   });
   searchPanel.querySelector('.pulse-dock-search-close').addEventListener('click',closeSearch);
   searchInput.addEventListener('input',renderSearch);

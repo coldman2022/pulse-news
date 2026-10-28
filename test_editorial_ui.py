@@ -53,7 +53,7 @@ class EditorialDesignTests(unittest.TestCase):
         self.assertIn('app.js?v=22',html)
         self.assertIn('id="reddit-preview-heading">Обговорення Reddit</h2>',html)
         self.assertIn('href="./reddit.html">Усі ↗</a>',html)
-        self.assertIn('src="./mobile.js?v=7"',html)
+        self.assertIn('src="./mobile.js?v=8"',html)
         self.assertIn('aria-label="Календар подій"',html)
         self.assertNotIn('<span>Календар</span>',html)
         self.assertNotIn('class="event-sources"',html)
