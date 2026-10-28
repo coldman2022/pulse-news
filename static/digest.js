@@ -16,8 +16,19 @@ function readCached(key){
 }
 const cachedTitles=readCached('pulse-title-translations');
 const cachedPreviews=readCached('pulse-translations');
+let sharedPreviews={};
+async function loadSharedPreviews(){
+ try{
+   const response=await fetch('./translations.json',{cache:'no-store'});
+   if(!response.ok)return;
+   const data=await response.json();
+   if(data.schema===1 && data.articles && typeof data.articles==='object' &&
+      !Array.isArray(data.articles))sharedPreviews=data.articles;
+ }catch{/* Digests also work before the offline translation job runs. */}
+}
 async function loadDigest(){
  const target=$('#digest-sections');
+ await loadSharedPreviews();
  try{
   const response=await fetch('./digest.json',{cache:'no-store'});
   if(!response.ok)throw new Error('HTTP '+response.status);
@@ -39,8 +50,12 @@ async function loadDigest(){
       for(const item of section.items){
         const row=make('li',null,'digest-item');
         const translated=cachedPreviews[item.id]||{};
-        const title=typeof translated.title==='string'&&translated.title?translated.title:cachedTitles[item.id]||item.title;
-        const summary=typeof translated.summary==='string'&&translated.summary?translated.summary:item.summary;
+        const saved=sharedPreviews[item.id];
+        const shared=saved && saved.source_title===item.title ? saved : {};
+        const title=(typeof translated.title==='string'&&translated.title)||
+          shared.title||cachedTitles[item.id]||item.title;
+        const summary=(typeof translated.summary==='string'&&translated.summary)||
+          shared.summary||item.summary;
         const anchor=make('a',title,'digest-item-title');
         try{const url=new URL(item.url);if(url.protocol!=='https:')continue;anchor.href=url.href;}catch{continue;}
         anchor.target='_blank';anchor.rel='noopener noreferrer';
