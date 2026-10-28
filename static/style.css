@@ -1977,36 +1977,7 @@ aside nav > button.active{background:#f0f3ae!important}
   .pulse-dock-sheet a:hover{background:#f2edfc}
 }
 
-/* Pulse v23 — restore v21 background contrast, lift original colors by exactly 10% toward white.
-   Keep v22's no-underlined-headlines rule and all geometry untouched. */
-:root{--paper:#f8f4ee;--pulse-subtle:#f5f0f9}
+/* Pulse v24: ONLY the global page/header background is 10% lighter than v21.
+   Topic cards, Reddit, events, 'For me' and every other color remain v22. */
+:root{--paper:#f8f4ee}
 body,header{background:var(--paper)}
-.event-card{background:#f6f2fb}
-.event-card[data-topic="AI"]{background:#f2ecfb}
-.event-card[data-topic="Product"]{background:#f7f7dd}
-.event-card[data-topic="Design"]{background:#fff2ea}
-.events-calendar{background:#f5f0f9}
-.reddit-preview-item{background:#f6f1fb}
-.story--topic-migration{--card-bg:#f3f0fb}
-.story--topic-ai{--card-bg:#f2ebfb}
-.story--topic-events{--card-bg:#f6ecfb}
-.story--topic-world{--card-bg:#f0f1fd}
-.story--topic-ukraine{--card-bg:#faf7e9}
-.story--topic-poland{--card-bg:#fff2ea}
-.story--topic-business{--card-bg:#f4f2fe}
-.story--topic-tech{--card-bg:#f0f2fd}
-.story--topic-science{--card-bg:#f7f7e9}
-.story--topic-design{--card-bg:#fbeefa}
-.story--topic-cinema{--card-bg:#f8effb}
-body[data-pulse-mode="focus"]{background:#f2eefb}
-body[data-pulse-mode="focus"] #news .story--feature{background:#f6f1ff}
-body[data-pulse-mode="focus"] .brief-section{background:#eee7fb}
-.focus-hero{background:linear-gradient(122deg,#3b2c96 0%,#5645c1 72%,#8053cc 100%)}
-@media(max-width:760px){
-  .pulse-dock-search-field{background:#f2ecfb}
-  .pulse-dock-search-result{background:#f7f2fb}
-  .pulse-dock-search-result:hover{background:#f0eafb}
-  .pulse-dock-search-quick button{background:#e5e94d}
-  .pulse-dock-sheet a{background:#f2ecfb}
-  .pulse-dock-sheet a:hover{background:#eae0f9}
-}
