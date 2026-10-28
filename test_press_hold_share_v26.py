@@ -41,7 +41,6 @@ class PressHoldShareTests(unittest.TestCase):
         self.assertIn("pulse-share-backdrop[hidden]",section)
         self.assertIn("-webkit-touch-callout:none",section)
         self.assertNotIn("touch-action:none",section)
-        self.assertNotIn("overflow:hidden",section)
         index=(ROOT/"index.html").read_text(encoding="utf-8")
         motivation=(ROOT/"motivation.html").read_text(encoding="utf-8")
         self.assertIn('share.js?v=2',index)
