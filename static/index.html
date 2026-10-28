@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f4f6fa"><meta name="description" content="Pulse — особиста стрічка новин із RSS-джерел."><title>Pulse — новини у вашому ритмі</title><link rel="icon" href="data:,"><link rel="stylesheet" href="./style.css?v=15"><script defer src="./app.js?v=14"></script><script defer src="./events.js?v=4"></script><script defer src="./currency.js?v=1"></script></head>
-<body><header><a class="brand" href="./" aria-label="Pulse — головна">pulse<span>●</span></a><div id="fx-bar" class="fx-bar" aria-label="Офіційні курси валют НБУ">
+<html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f4f6fa"><meta name="description" content="Pulse — особиста стрічка новин із RSS-джерел."><title>Pulse — новини у вашому ритмі</title><link rel="icon" href="data:,"><link rel="stylesheet" href="./style.css?v=15"><script defer src="./app.js?v=14"></script><script defer src="./events.js?v=4"></script><script defer src="./currency.js?v=2"></script></head>
+<body><header><a class="brand" href="./" aria-label="Pulse — головна">pulse<span>●</span></a><div id="fx-bar" class="fx-bar" aria-label="Курси валют Monobank">
   <div class="fx-quotes">
     <span class="fx-quote"><span class="fx-symbol">PLN</span><strong id="fx-pln">—</strong></span>
     <span class="fx-quote"><span class="fx-symbol">USD</span><strong id="fx-usd">—</strong></span>
   </div>
-  <a id="fx-date" class="fx-source" href="https://bank.gov.ua/ua/markets/exchangerates" target="_blank" rel="noopener noreferrer" title="Офіційні курси Національного банку України">НБУ · завантаження</a>
+  <a id="fx-source" class="fx-source" href="https://api.monobank.ua/docs/index.html" target="_blank" rel="noopener noreferrer" title="Курси валют Monobank">Monobank</a>
 </div></header>
 <div class="shell"><aside><nav aria-label="Розділи"><a class="opp-nav" href="./digest.html">Огляд дня <span>↗</span></a><a class="opp-nav" href="./opportunities.html">Імміграційні можливості <span>↗</span></a><a class="opp-nav" href="./reddit.html">Reddit · спільноти <span>↗</span></a><button data-mode="focus">Для мене <span>↗</span></button><button class="active" data-mode="all">Стрічка <span>↗</span></button><button data-mode="archive">Весь архів <span>↗</span></button><button data-mode="saved">Збережене <span id="saved-count">0</span></button></nav></aside>
 <main><div class="intro"><div><p id="today" class="eyebrow"></p><h1>Новини</h1></div></div>
