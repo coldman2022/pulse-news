@@ -59,6 +59,12 @@ function translationStatus() {
         : 'Денний ліміт автоперекладу вичерпано'
     : 'Автопереклад вимкнено';
 }
+function isArticleOnScreen(id) {
+  const card=$('#news').querySelector('[data-pulse-article-id="'+id+'"]');
+  if (!card) return false;
+  const bounds=card.getBoundingClientRect();
+  return bounds.height > 0 && bounds.bottom > 0 && bounds.top < window.innerHeight;
+}
 function queueVisible(article) {
   if (!autoEnabled || autoPaused || !article || articleLanguage(article)==='uk' ||
       translatedTitles[article.id] || autoSeen.has(article.id) ||
@@ -78,6 +84,9 @@ async function drainAutoQueue() {
     while (autoQueue.length && autoEnabled && !autoPaused) {
       const article=autoQueue.shift();
       if (!article || translatedTitles[article.id] || translationState[article.id]?.loading) continue;
+      // The visitor may have scrolled elsewhere while another title was translating.
+      // Skip off-screen requests; allow a retry when the article is visible again.
+      if (!isArticleOnScreen(article.id)) { autoSeen.delete(article.id); continue; }
       if (dailyUsage.day !== todayKey()) dailyUsage={day:todayKey(),chars:0};
       const title=article.title.trim();
       if (dailyUsage.chars+title.length>AUTO_MAX_CHARS) {translationStatus(); break;}
@@ -85,7 +94,11 @@ async function drainAutoQueue() {
       trackUsage(title.length);
       translationStatus();
       try {
-        const translated=await translatePiece(title,articleLanguage(article));
+        const translatedParts=[];
+        for (const chunk of translationChunks(title)) {
+          translatedParts.push(await translatePiece(chunk,articleLanguage(article)));
+        }
+        const translated=translatedParts.join(' ');
         storeTitle(article.id,translated);
         render();
       } catch (error) {
