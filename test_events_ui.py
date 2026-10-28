@@ -27,7 +27,7 @@ class EventCarouselTests(unittest.TestCase):
         js = (ROOT / "static" / "events.js").read_text(encoding="utf-8")
         css = (ROOT / "static" / "style.css").read_text(encoding="utf-8")
         for item in ('id="events-section"', 'id="events-track"', 'id="events-prev"',
-                     'id="events-next"', 'data-events-region="PL"', 'events.js?v=2'):
+                     'id="events-next"', 'data-events-region="PL"', 'events.js?v=3'):
             self.assertIn(item, html)
         self.assertIn("event.end >= eventDay()", js)
         self.assertIn("eventTrack.scrollBy", js)
@@ -35,6 +35,9 @@ class EventCarouselTests(unittest.TestCase):
         self.assertIn("eventSection.hidden = false", js)
         self.assertIn("PULSE_BUILD_EVENTS_JSON", js)
         self.assertIn("embeddedEvents.filter(eventIsValid)", js)
+        self.assertIn("accessibleCountries[event.country] === event.region", js)
+        self.assertIn("let eventRegion = 'PL'", js)
+        self.assertNotIn('data-events-region="all"', html)
         self.assertIn("scroll-snap-type: x mandatory", css)
         self.assertIn("border-radius: 0 !important", css)
         self.assertIn("text-decoration: underline", css)
