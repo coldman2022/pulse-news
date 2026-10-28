@@ -98,13 +98,6 @@
     "origin": "media"
   },
   {
-    "name": "Hacker News",
-    "url": "https://hnrss.org/frontpage",
-    "category": "Технології",
-    "language": "en",
-    "origin": "community"
-  },
-  {
     "name": "TechCrunch",
     "url": "https://techcrunch.com/feed/",
     "category": "Технології",
