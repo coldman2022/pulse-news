@@ -29,7 +29,7 @@ class PaletteV21Tests(unittest.TestCase):
 
     def test_only_color_paint_properties_in_override(self):
         css=(ROOT / "style.css").read_text(encoding="utf-8")
-        theme=css.split("/* Pulse v21 — COLORS ONLY.",1)[1]
+        theme=css.split("/* Pulse v21 — COLORS ONLY.",1)[1].split("/* Pulse v22:",1)[0]
         # v21 must not silently change card shape, spacing, type, layout or navigation.
         forbidden = (
             "padding", "margin", "width", "height", "min-height", "max-height",
