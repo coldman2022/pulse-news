@@ -219,7 +219,8 @@ class Handler(BaseHTTPRequestHandler):
             try:
                 import daily_digest
                 payload = news()
-                data = json.dumps(daily_digest.build_digest(payload['articles'], payload['updated']),
+                from editorial_feed import relevant
+                data = json.dumps(daily_digest.build_digest([a for a in payload['articles'] if relevant(a)], payload['updated']),
                                   ensure_ascii=False).encode()
                 self.send_response(200)
             except Exception:
@@ -235,6 +236,17 @@ class Handler(BaseHTTPRequestHandler):
                 self.send_response(200)
             except Exception:
                 data = b'{"error":"Cannot prepare opportunities"}'
+                self.send_response(500)
+            mime = 'application/json; charset=utf-8'
+        elif route in ('/feed.json', '/api/feed'):
+            try:
+                from editorial_feed import build_editorial_feed
+                payload = news()
+                selection = build_editorial_feed(payload['articles'], payload['updated'], payload['sources'])
+                data = json.dumps(selection, ensure_ascii=False).encode()
+                self.send_response(200)
+            except Exception:
+                data = b'{"error":"Cannot prepare editorial feed"}'
                 self.send_response(500)
             mime = 'application/json; charset=utf-8'
         elif route in ('/personal.json', '/api/personal'):

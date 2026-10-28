@@ -7,7 +7,11 @@ const eventPrev = document.querySelector('#events-prev');
 const eventNext = document.querySelector('#events-next');
 let curatedEvents = [];
 const embeddedEvents = /* PULSE_BUILD_EVENTS_JSON */ [];
-let eventRegion = 'all';
+const accessibleCountries = {
+  'Польща': 'PL', 'Німеччина': 'EU', 'Чехія': 'EU', 'Словаччина': 'EU',
+  'Румунія': 'EU', 'Італія': 'EU', 'Угорщина': 'EU', 'Австрія': 'EU'
+};
+let eventRegion = 'PL';
 
 function eventDay() {
   const now = new Date();
@@ -41,7 +45,7 @@ function safeEventUrl(raw) {
 function eventIsValid(event) {
   return event && /^\d{4}-\d{2}-\d{2}$/.test(event.start || '') &&
     /^\d{4}-\d{2}-\d{2}$/.test(event.end || '') && event.start <= event.end &&
-    event.end >= eventDay() && ['PL', 'EU'].includes(event.region) &&
+    event.end >= eventDay() && accessibleCountries[event.country] === event.region &&
     ['AI', 'Product', 'Design'].includes(event.topic) && safeEventUrl(event.url) &&
     typeof event.title === 'string' && typeof event.city === 'string';
 }
@@ -51,7 +55,7 @@ function updateEventArrows() {
   eventNext.disabled = overflow <= 2 || eventTrack.scrollLeft >= overflow - 2;
 }
 function renderEvents() {
-  const events = curatedEvents.filter(item => eventRegion === 'all' || item.region === eventRegion);
+  const events = curatedEvents.filter(item => item.region === eventRegion);
   eventFilters.forEach(button => {
     const active = button.dataset.eventsRegion === eventRegion;
     button.classList.toggle('active', active);

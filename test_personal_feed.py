@@ -56,7 +56,7 @@ class PersonalFeedTests(unittest.TestCase):
     def test_expired_and_http_news_are_not_in_personal_feed(self):
         items=[
             article("OpenAI launches new GPT model", "AI", origin="developer", idx="fresh"),
-            article("OpenAI launches a major model", "AI", origin="developer", idx="old", stamp=NOW-96*3600),
+            article("OpenAI launches a major model", "AI", origin="developer", idx="old", stamp=NOW-200*3600),
             article("New citizenship application rules", "Імміграція", idx="http"),
         ]
         items[-1]["url"]="http://example.com/http"
@@ -92,9 +92,11 @@ class PersonalFeedTests(unittest.TestCase):
         self.assertIn("'personal.json'",build)
         self.assertIn('data-mode="focus"',html)
         self.assertIn('id="brief-list"',html)
-        self.assertIn("isFull?'./news.json':'./personal.json'",js)
+        self.assertIn("'./feed.json'",js)
+        self.assertIn("'./personal.json'",js)
+        self.assertIn("'./news.json'",js)
         self.assertIn("function renderBrief()",js)
-        self.assertIn("mode==='focus'?focusArticles:articles",js)
+        self.assertIn("mode==='focus'?focusArticles:mode==='archive'?archiveArticles:articles",js)
 
 
 if __name__ == "__main__":

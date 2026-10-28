@@ -21,7 +21,10 @@ class RestoreFeedTests(unittest.TestCase):
         js = (ROOT / "static" / "app.js").read_text(encoding="utf-8")
         self.assertIn('<button class="active" data-mode="all">', html)
         self.assertIn("mode = 'all'", js)
-        self.assertIn("isFull?'./news.json':'./personal.json'", js)
+        self.assertIn("'./feed.json'", js)
+        self.assertIn("'./news.json'", js)
+        self.assertIn('data-mode="archive"', html)
+        self.assertIn("mode = 'all'", js)
         self.assertIn('data-mode="focus"', html)
         self.assertIn("visibleLimit+=60", js)
 

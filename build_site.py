@@ -10,6 +10,7 @@ import server
 import opportunities
 import daily_digest
 import personal_feed
+import editorial_feed
 
 
 # The previous snapshot is restored by GitHub Actions cache when available.
@@ -90,14 +91,20 @@ def build(output):
     opportunity_temp = output / 'opportunities.json.tmp'
     opportunity_temp.write_text(json.dumps(opportunities_payload, ensure_ascii=False), encoding='utf-8')
     opportunity_temp.replace(output / 'opportunities.json')
+    editorial = editorial_feed.build_editorial_feed(
+        payload['articles'], payload['updated'], payload['sources']
+    )
     # No second RSS fetch or AI API. A rolling 24-hour briefing built from the
     # same publisher-provided headlines and short RSS descriptions.
-    digest = daily_digest.build_digest(payload['articles'], payload['updated'])
+    digest = daily_digest.build_digest(editorial['articles'], payload['updated'])
     digest_temp = output / 'digest.json.tmp'
     digest_temp.write_text(json.dumps(digest, ensure_ascii=False), encoding='utf-8')
     digest_temp.replace(output / 'digest.json')
+    curated_temp = output / 'feed.json.tmp'
+    curated_temp.write_text(json.dumps(editorial, ensure_ascii=False), encoding='utf-8')
+    curated_temp.replace(output / 'feed.json')
     # Personal front page is a small ranked view; the complete archive is preserved.
-    personal_payload = personal_feed.build_personal_feed(payload['articles'], payload['updated'])
+    personal_payload = personal_feed.build_personal_feed(editorial['articles'], payload['updated'])
     personal_payload['sources'] = payload['sources']
     personal_temp = output / 'personal.json.tmp'
     personal_temp.write_text(json.dumps(personal_payload, ensure_ascii=False), encoding='utf-8')
