@@ -7,6 +7,7 @@ The complete news.json remains available separately.
 from collections import Counter
 import re
 from urllib.parse import urlsplit
+import migration_relevance
 
 WINDOW_HOURS = 168
 FEATURED_LIMITS = {"Імміграція": 18, "AI": 20, "Польща": 10, "Дизайн": 6, "Україна": 25, "Кіно": 8}
@@ -119,14 +120,19 @@ def classify(article):
     # they mention Poland or refugees; they remain in the full archive.
     if CRIME_NOISE.search(title) or (category != 'Кіно' and LIFESTYLE_NOISE.search(title)):
         return None, 0
+    if category == "Імміграція":
+        scope = migration_relevance.migration_scope(article)
+        if scope == "ukrainian":
+            return "featured", 18 + int(article.get("origin") == "official")
+        if scope == "general":
+            return ("featured", 11) if LAW_CHANGE.search(title) else ("brief", 5)
+        return None, 0
     has_immigration = bool(IMMIGRATION.search(title))
     law = bool(LAW_CHANGE.search(title))
     rights = bool(UKRAINIAN.search(title) or POLISH.search(title) or "pesel" in title or "cukr" in title)
     if has_immigration and (law or rights):
         # Rights/immigration updates must outrank crime-noise patterns.
         return "featured", 15 + int(article.get("origin") == "official")
-    if category == "Імміграція":
-        return ("featured", 12) if law else ("brief", 5)
     if category == "Польща" and law and rights:
         return "featured", 14
     if category in ("Польща", "Світ", "Україна") and (CRIME_NOISE.search(title) or LIFESTYLE_NOISE.search(title)):
