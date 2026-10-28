@@ -384,15 +384,51 @@ function renderBrief(){
  section.hidden=!filtered.length;
  for(const a of filtered){
    const row=el('div',null,'brief-item');
-   const title=link(translatedTitles[a.id]||a.title,a.url);
+   const translation=translationState[a.id]||{};
+   const currentTitle=translation.shown===false?a.title:translation.shown&&translation.title||translatedTitles[a.id]||a.title;
+   const title=link(currentTitle,a.url);
    title.className='brief-title';
    const meta=el('div',null,'brief-meta');
    meta.append(el('span',a.category||'Новини','brief-topic'));
+   meta.append(el('span',a.publisher||a.source||'Джерело','brief-publisher'));
    const stamp=document.createElement('time');
    stamp.textContent=articleDate(a.published);
    if(a.published)stamp.dateTime=new Date(a.published*1000).toISOString();
    meta.append(stamp);
-   row.append(title,meta);
+   const tools=el('div',null,'brief-tools');
+   const lang=articleLanguage(a);
+   const translate=el('button',null,'brief-action brief-translate');
+   translate.type='button';translate.append(newsIcon('languages'));
+   translate.disabled=Boolean(translation.loading)||lang==='uk';
+   translate.title=lang==='uk'?'Вже українською':translation.loading?'Перекладаємо':'Перекласти / показати оригінал';
+   translate.setAttribute('aria-label',translate.title+': '+a.title);
+   if(lang!=='uk')translate.onclick=async()=>{
+     if(translationState[a.id]?.shown || (translatedTitles[a.id] && translationState[a.id]?.shown!==false)){
+       translationState[a.id]={...translationState[a.id],shown:false};render();return;
+     }
+     if(translationCache[a.id]){
+       translationState[a.id]={...translationCache[a.id],shown:true};render();return;
+     }
+     translationState[a.id]={loading:true};render();
+     try{
+       const result=await translateArticlePreview(a);
+       storeTranslation(a.id,result);
+       translationState[a.id]={...result,shown:true};
+     }catch{translationState[a.id]={error:true};}
+     render();
+   };
+   const saver=el('button',null,'brief-action brief-save'+(saved[a.id]?' is-saved':''));
+   saver.type='button';saver.append(newsIcon('bookmark'));
+   saver.title=saved[a.id]?'Прибрати зі збереженого':'Зберегти статтю';
+   saver.setAttribute('aria-label',saver.title+': '+a.title);
+   saver.setAttribute('aria-pressed',String(Boolean(saved[a.id])));
+   saver.onclick=()=>{
+     if(saved[a.id])delete saved[a.id];
+     else saved[a.id]=a;
+     persist();render();
+   };
+   tools.append(translate,saver);
+   row.append(title,meta,tools);
    root.append(row);
  }
 }
