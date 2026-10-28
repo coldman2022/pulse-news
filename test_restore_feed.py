@@ -48,7 +48,8 @@ class RestoreFeedTests(unittest.TestCase):
                     source=source['name'], category=source['category'],
                     published=now, summary=""
                 )]
-            with patch.object(server, 'fetch_source', side_effect=fetch):
+            with patch.object(server, 'fetch_source', side_effect=fetch), \
+                 patch.object(build_site.reddit_feed, 'build_reddit_preview', return_value={}):
                 data = build_site.build(output)
             self.assertGreaterEqual(len(data['articles']), 1220)
             self.assertIn("https://example.org/archive/1000",
