@@ -1,7 +1,13 @@
 'use strict';
 const $=s=>document.querySelector(s);
 const make=(tag,txt,cls)=>{const e=document.createElement(tag);if(txt!=null)e.textContent=String(txt);if(cls)e.className=cls;return e;};
-const fmt=ts=>ts?new Date(ts*1000).toLocaleDateString('uk-UA',{day:'numeric',month:'short'}):'';
+const fmt=ts=>{
+  if(!ts)return '';
+  const date=new Date(ts*1000);
+  if(Number.isNaN(date.getTime()))return '';
+  return date.toLocaleDateString('uk-UA',{day:'numeric',month:'short'})+' · '+
+    date.toLocaleTimeString('uk-UA',{hour:'2-digit',minute:'2-digit',hour12:false});
+};
 function readCached(key){
  try{
    const data=JSON.parse(localStorage.getItem(key)||'{}');
