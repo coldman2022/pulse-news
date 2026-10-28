@@ -533,5 +533,40 @@
     "category": "Світ",
     "language": "en",
     "origin": "media"
+  },
+  {
+    "name": "The New York Times Movies",
+    "url": "https://rss.nytimes.com/services/xml/rss/nyt/Movies.xml",
+    "category": "Кіно",
+    "language": "en",
+    "origin": "media"
+  },
+  {
+    "name": "Variety Film",
+    "url": "https://variety.com/v/film/feed/",
+    "category": "Кіно",
+    "language": "en",
+    "origin": "media"
+  },
+  {
+    "name": "The Guardian Film",
+    "url": "https://www.theguardian.com/film/rss",
+    "category": "Кіно",
+    "language": "en",
+    "origin": "media"
+  },
+  {
+    "name": "Slashfilm",
+    "url": "https://feeds2.feedburner.com/slashfilm",
+    "category": "Кіно",
+    "language": "en",
+    "origin": "media"
+  },
+  {
+    "name": "IndieWire Film",
+    "url": "https://www.indiewire.com/feed/",
+    "category": "Кіно",
+    "language": "en",
+    "origin": "media"
   }
 ]
