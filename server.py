@@ -236,6 +236,18 @@ class Handler(BaseHTTPRequestHandler):
                 data = b'{"error":"Cannot prepare opportunities"}'
                 self.send_response(500)
             mime = 'application/json; charset=utf-8'
+        elif route in ('/personal.json', '/api/personal'):
+            try:
+                from personal_feed import build_personal_feed
+                payload = news()
+                curated = build_personal_feed(payload['articles'], payload['updated'])
+                curated['sources'] = payload['sources']
+                data = json.dumps(curated, ensure_ascii=False).encode()
+                self.send_response(200)
+            except Exception:
+                data = b'{"error":"Cannot prepare personal feed"}'
+                self.send_response(500)
+            mime = 'application/json; charset=utf-8'
         elif route in ('/api/news', '/news.json'):
             try:
                 data = json.dumps(news(), ensure_ascii=False).encode()
@@ -244,11 +256,11 @@ class Handler(BaseHTTPRequestHandler):
                 data = b'{"error":"Cannot read sources.json"}'
                 self.send_response(500)
             mime = 'application/json; charset=utf-8'
-        elif route in ('/', '/app.js', '/style.css', '/opportunities.html', '/opportunities.js', '/digest.html', '/digest.js'):
+        elif route in ('/', '/app.js', '/style.css', '/opportunities.html', '/opportunities.js', '/digest.html', '/digest.js', '/events.js', '/events.json'):
             name = 'index.html' if route == '/' else route[1:]
             data = (ROOT / 'static' / name).read_bytes()
             self.send_response(200)
-            mime = {'index.html':'text/html', 'app.js':'text/javascript', 'style.css':'text/css', 'opportunities.html':'text/html', 'opportunities.js':'text/javascript', 'digest.html':'text/html', 'digest.js':'text/javascript'}[name] + '; charset=utf-8'
+            mime = {'index.html':'text/html', 'app.js':'text/javascript', 'style.css':'text/css', 'opportunities.html':'text/html', 'opportunities.js':'text/javascript', 'digest.html':'text/html', 'digest.js':'text/javascript', 'events.js':'text/javascript', 'events.json':'application/json'}[name] + '; charset=utf-8'
         else:
             self.send_error(404)
             return
