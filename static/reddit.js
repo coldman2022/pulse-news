@@ -48,8 +48,8 @@
       if(Number.isFinite(p.published) && p.published > 0){
         const date = new Date(p.published*1000);
         if(!Number.isNaN(date.getTime())){
-          const stamp = el('time',date.toLocaleDateString('uk-UA',{day:'numeric',month:'short'})+' · '+
-            date.toLocaleTimeString('uk-UA',{hour:'2-digit',minute:'2-digit'}));
+          const stamp = el('time',date.toLocaleTimeString('uk-UA',{hour:'2-digit',minute:'2-digit'})+' · '+
+            date.toLocaleDateString('uk-UA',{day:'numeric',month:'short'}));
           stamp.dateTime = date.toISOString();
           meta.append(stamp);
         }
