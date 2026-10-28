@@ -33,6 +33,8 @@ class RedditTrialTests(unittest.TestCase):
         self.assertEqual(result[0]['url'],
                          'https://www.reddit.com/r/LocalLLaMA/comments/abc123/new_model/')
         self.assertEqual(result[0]['topic'],'AI')
+        self.assertEqual(result[0]['work_topic'],'')
+        self.assertEqual(result[0]['work_score'],0)
         self.assertNotIn('author', result[0])
         self.assertNotIn('summary', result[0])
 
@@ -78,6 +80,33 @@ class RedditTrialTests(unittest.TestCase):
         self.assertNotIn("'./feed.json'",frontend)
         workflow=(Path(__file__).parent/'.github/workflows/pages.yml').read_text(encoding='utf-8')
         self.assertIn('_site/reddit.json',workflow)
+
+
+    def test_relevance_matches_practical_work_not_generic_ai_news(self):
+        import reddit_feed
+        self.assertEqual(reddit_feed.practical_work_signal(
+            'How I built an app with Claude Code', 'ClaudeAI')[0], 'Розробка')
+        self.assertEqual(reddit_feed.practical_work_signal(
+            'My AI workflow using Figma in design', 'FigmaDesign')[0], 'Дизайн')
+        self.assertEqual(reddit_feed.practical_work_signal(
+            'Using Claude AI to deploy my Docker server', 'selfhosted')[0], 'Адміністрування')
+        self.assertEqual(reddit_feed.practical_work_signal(
+            'How to build my own server', 'selfhosted'), ('', 0))
+        self.assertEqual(reddit_feed.practical_work_signal(
+            'New AI model available today', 'ClaudeAI'), ('', 0))
+        self.assertIn(('vibecoding', 'Застосунки'), reddit_feed.COMMUNITIES)
+        self.assertIn(('selfhosted', 'Автоматизація'), reddit_feed.COMMUNITIES)
+
+    def test_main_page_has_small_related_reddit_window(self):
+        home=(Path(__file__).parent/'static/index.html').read_text(encoding='utf-8')
+        app=(Path(__file__).parent/'static/app.js').read_text(encoding='utf-8')
+        self.assertIn('id="reddit-preview"', home)
+        self.assertIn('id="reddit-preview-list"', home)
+        self.assertIn('href="./reddit.html"', home)
+        self.assertIn("'./reddit.json'",app)
+        self.assertIn("work_score",app)
+        self.assertIn("chosen.length===4",app)
+        self.assertIn("safeRedditUrl",app)
 
 if __name__=='__main__':
     unittest.main()
