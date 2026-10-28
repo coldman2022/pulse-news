@@ -35,7 +35,7 @@ class FreshFeedV25(unittest.TestCase):
         result=editorial_feed.build_editorial_feed([good,crime,old,future],NOW)
         self.assertEqual([x["id"] for x in result["articles"]],["good"])
         self.assertEqual(result["archive_total"],4)
-        self.assertEqual(result["method"],"all_fresh_topics_7d+obvious_noise_filter+story_groups_v1")
+        self.assertEqual(result["method"],"all_fresh_topics_7d+story_groups_validated_translations_v2")
 
     def test_browser_has_share_and_archive_routes(self):
         index=(ROOT/"static/index.html").read_text()
