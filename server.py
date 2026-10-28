@@ -14,6 +14,32 @@ def clean(value):
 def safe_url(value):
     return value if urllib.parse.urlsplit(value or '').scheme in ('http', 'https') else ''
 
+# A conservative publisher allow-list for results discovered via Google News.
+# Being listed here means a known publishing domain, NOT proof an article is true.
+DISCOVERY_DOMAINS = (
+    'canada.ca', 'gov.uk', 'gov.pl', 'europa.eu', 'gov.au', 'govt.nz',
+    'homeaffairs.gov.au', 'immigration.govt.nz', 'uscis.gov', 'gov.pt',
+    'reuters.com', 'apnews.com', 'bbc.com', 'bbc.co.uk', 'dw.com',
+    'theguardian.com', 'euronews.com', 'ft.com', 'bloomberg.com',
+    'cbc.ca', 'ctvnews.ca', 'globalnews.ca', 'cnn.com', 'nytimes.com',
+    'washingtonpost.com', 'politico.eu', 'politico.com', 'nbcnews.com',
+    'pap.pl', 'rmf24.pl', 'tvn24.pl', 'notesfrompoland.com',
+    'pravda.com.ua', 'ukrinform.ua', 'rbc.ua', 'itc.ua',
+    'theverge.com', 'techcrunch.com', 'arstechnica.com', 'wired.com',
+    'technologyreview.com', 'forbes.com', 'nature.com', 'science.org',
+    'openai.com', 'anthropic.com', 'mistral.ai', 'deepmind.google',
+    'google.com', 'huggingface.co', 'nvidia.com', 'microsoft.com',
+    'github.com', 'linuxfoundation.org', 'iclr.cc', 'neurips.cc',
+    'icml.cc', 'acm.org', 'ieee.org',
+)
+
+
+def recognized_publisher(url):
+    host = urllib.parse.urlsplit(url or '').hostname or ''
+    host = host.lower().rstrip('.')
+    return any(host == d or host.endswith('.' + d) for d in DISCOVERY_DOMAINS)
+
+
 def parse_feed(raw, source):
     root = ET.fromstring(raw)
     atom = '{http://www.w3.org/2005/Atom}'
@@ -35,6 +61,19 @@ def parse_feed(raw, source):
         title = clean(value('title', atom + 'title'))
         if not title or not url:
             continue
+        summary = clean(value('description', atom + 'summary', atom + 'content'))[:600]
+        required = source.get('require_terms', ())
+        if required and not any(term.lower() in (title + ' ' + summary).lower() for term in required):
+            continue
+        publisher = source['name']
+        if source.get('origin') == 'discovery':
+            provider = item.find('source')
+            provider_url = provider.get('url', '') if provider is not None else ''
+            # Google News is a discovery index. Only display results
+            # attributed to a known publishing domain.
+            if not recognized_publisher(provider_url):
+                continue
+            publisher = clean(provider.text) or urllib.parse.urlsplit(provider_url).hostname
         date = value('pubDate', atom + 'published', atom + 'updated')
         try:
             stamp = email.utils.parsedate_to_datetime(date).timestamp()
@@ -44,8 +83,9 @@ def parse_feed(raw, source):
             except (ValueError, TypeError):
                 stamp = 0
         result.append(dict(id=hashlib.sha256(url.encode()).hexdigest()[:20], title=title, url=url,
-                           summary=clean(value('description', atom + 'summary', atom + 'content'))[:600],
-                           source=source['name'], category=source['category'], language=source.get('language','en'), published=stamp))
+                           summary=summary, publisher=publisher, origin=source.get('origin', 'media'),
+                           country=source.get('country', ''), source=source['name'],
+                           category=source['category'], language=source.get('language', 'en'), published=stamp))
     return result
 
 def fetch_source(source):
@@ -66,7 +106,7 @@ def news():
             return CACHE['payload']
         previous = CACHE.get('by_source', {})
         by_source, statuses = {}, []
-        with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=12) as pool:
             futures = {pool.submit(fetch_source, s): s for s in sources}
             for future in concurrent.futures.as_completed(futures):
                 s = futures[future]

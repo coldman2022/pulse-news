@@ -43,3 +43,30 @@ header { min-width: 0; width: 100%; }
   .story { width: 100%; }
   .actions button { min-height: 40px; }
 }
+
+/* More source types, country filters and long-list performance. */
+.toolbar { flex-wrap: wrap; gap: 12px; }
+.toolbar .search { flex: 1 1 280px; }
+.toolbar .source-label { flex: 0 1 auto; }
+.toolbar select { max-width: 220px; min-width: 0; }
+.meta { flex-wrap: wrap; gap: 7px 12px; }
+.meta .origin { font-weight: 600; font-size: 11px; color: #40536f; }
+.meta .origin-official { color: #137351; }
+.meta .origin-discovery { color: #6c5b42; }
+.feed-health { font-size: 12px; color: var(--muted); margin: -6px 0 16px; }
+.feed-health summary { cursor: pointer; display: inline-block; text-decoration: underline; text-underline-offset: 3px; }
+.feed-health ul { padding-left: 19px; max-height: 180px; overflow: auto; }
+.load-more { display: block; margin: 20px auto; background: #e5ebff; color: #2345c4; border-color: #bac9f5; }
+.load-more[hidden] { display: none; }
+.reference-links { margin-top: 14px; display: flex; gap: 8px 16px; flex-wrap: wrap; }
+.reference-links span { width: 100%; }
+.reference-links a { color: var(--blue); }
+@media (max-width: 760px) {
+  .toolbar { display: flex; gap: 10px; }
+  .toolbar .search { flex: 0 0 100%; }
+  .toolbar .source-label { flex: 1 1 calc(50% - 10px); display: flex; flex-direction: column; align-items: stretch; gap: 4px; }
+  .toolbar .source-label select { max-width: 100%; width: 100%; font-size: 16px; }
+  .meta .origin { white-space: normal; }
+  .load-more { width: 100%; }
+  .reference-links { gap: 7px 12px; }
+}

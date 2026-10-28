@@ -3,150 +3,507 @@
     "name": "BBC World",
     "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
     "category": "Світ",
-    "language": "en"
+    "language": "en",
+    "origin": "media"
   },
   {
     "name": "The Guardian",
     "url": "https://www.theguardian.com/world/rss",
     "category": "Світ",
-    "language": "en"
+    "language": "en",
+    "origin": "media"
   },
   {
     "name": "Al Jazeera",
     "url": "https://www.aljazeera.com/xml/rss/all.xml",
     "category": "Світ",
-    "language": "en"
+    "language": "en",
+    "origin": "media"
   },
   {
     "name": "Deutsche Welle",
     "url": "https://rss.dw.com/xml/rss-en-all",
     "category": "Світ",
-    "language": "en"
+    "language": "en",
+    "origin": "media"
   },
   {
     "name": "Euronews",
     "url": "https://www.euronews.com/rss",
     "category": "Світ",
-    "language": "en"
+    "language": "en",
+    "origin": "media"
   },
   {
     "name": "RMF24 Świat",
     "url": "https://www.rmf24.pl/fakty/swiat/feed",
     "category": "Світ",
-    "language": "pl"
+    "language": "pl",
+    "origin": "media"
   },
   {
     "name": "Українська правда",
     "url": "https://www.pravda.com.ua/rss/view_news/",
     "category": "Україна",
-    "language": "uk"
+    "language": "uk",
+    "origin": "media"
   },
   {
     "name": "RMF24 Polska",
     "url": "https://www.rmf24.pl/fakty/polska/feed",
     "category": "Польща",
-    "language": "pl"
+    "language": "pl",
+    "origin": "media"
   },
   {
     "name": "Notes from Poland",
     "url": "https://notesfrompoland.com/feed/",
     "category": "Польща",
-    "language": "en"
+    "language": "en",
+    "origin": "media"
   },
   {
     "name": "BBC Business",
     "url": "https://feeds.bbci.co.uk/news/business/rss.xml",
     "category": "Бізнес",
-    "language": "en"
+    "language": "en",
+    "origin": "media"
   },
   {
     "name": "The Guardian Business",
     "url": "https://www.theguardian.com/business/rss",
     "category": "Бізнес",
-    "language": "en"
+    "language": "en",
+    "origin": "media"
   },
   {
     "name": "RMF24 Ekonomia",
     "url": "https://www.rmf24.pl/ekonomia/feed",
     "category": "Бізнес",
-    "language": "pl"
+    "language": "pl",
+    "origin": "media"
   },
   {
     "name": "BBC Technology",
     "url": "https://feeds.bbci.co.uk/news/technology/rss.xml",
     "category": "Технології",
-    "language": "en"
+    "language": "en",
+    "origin": "media"
   },
   {
     "name": "The Guardian Technology",
     "url": "https://www.theguardian.com/technology/rss",
     "category": "Технології",
-    "language": "en"
+    "language": "en",
+    "origin": "media"
   },
   {
     "name": "Hacker News",
     "url": "https://hnrss.org/frontpage",
     "category": "Технології",
-    "language": "en"
+    "language": "en",
+    "origin": "community"
   },
   {
     "name": "TechCrunch",
     "url": "https://techcrunch.com/feed/",
     "category": "Технології",
-    "language": "en"
+    "language": "en",
+    "origin": "media"
   },
   {
     "name": "The Verge",
     "url": "https://www.theverge.com/rss/index.xml",
     "category": "Технології",
-    "language": "en"
+    "language": "en",
+    "origin": "media"
   },
   {
     "name": "Ars Technica",
     "url": "https://feeds.arstechnica.com/arstechnica/index",
     "category": "Технології",
-    "language": "en"
+    "language": "en",
+    "origin": "media"
   },
   {
     "name": "Engadget",
     "url": "https://www.engadget.com/rss.xml",
     "category": "Технології",
-    "language": "en"
+    "language": "en",
+    "origin": "media"
   },
   {
     "name": "ITC.ua",
     "url": "https://feeds.feedburner.com/itcua",
     "category": "Технології",
-    "language": "uk"
+    "language": "uk",
+    "origin": "media"
   },
   {
     "name": "The Verge AI",
     "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
     "category": "AI",
-    "language": "en"
+    "language": "en",
+    "origin": "media"
   },
   {
     "name": "WIRED AI",
     "url": "https://www.wired.com/feed/tag/ai/latest/rss",
     "category": "AI",
-    "language": "en"
+    "language": "en",
+    "origin": "media"
   },
   {
     "name": "BBC Science",
     "url": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
     "category": "Наука",
-    "language": "en"
+    "language": "en",
+    "origin": "media"
   },
   {
     "name": "WIRED Science",
     "url": "https://www.wired.com/feed/category/science/latest/rss",
     "category": "Наука",
-    "language": "en"
+    "language": "en",
+    "origin": "media"
   },
   {
     "name": "Smashing Magazine",
     "url": "https://www.smashingmagazine.com/feed/",
     "category": "Дизайн",
-    "language": "en"
+    "language": "en",
+    "origin": "expert"
+  },
+  {
+    "name": "IRCC — уряд Канади",
+    "url": "https://api.io.canada.ca/io-server/gc/news/en/v2?dept=departmentofcitizenshipandimmigration&sort=publishedDate&orderBy=desc&publishedDate%3E=2021-07-23&pick=50&format=atom&atomtitle=Immigration,%20Refugees%20and%20Citizenship%20Canada",
+    "category": "Імміграція",
+    "language": "en",
+    "country": "Канада",
+    "origin": "official"
+  },
+  {
+    "name": "UKVI — уряд Великої Британії",
+    "url": "https://www.gov.uk/search/news-and-communications.atom?organisations%5B%5D=uk-visas-and-immigration",
+    "category": "Імміграція",
+    "language": "en",
+    "country": "Велика Британія",
+    "origin": "official"
+  },
+  {
+    "name": "UK Home Office — правила",
+    "url": "https://www.gov.uk/government/organisations/home-office.atom",
+    "category": "Імміграція",
+    "language": "en",
+    "country": "Велика Британія",
+    "origin": "official",
+    "require_terms": [
+      "immigration",
+      "visa",
+      "asylum",
+      "residence",
+      "resident",
+      "citizenship",
+      "refugee",
+      "settlement",
+      "work permit",
+      "border",
+      "migrant",
+      "sponsor",
+      "evisa",
+      "leave to remain",
+      "temporary protection",
+      "migration"
+    ]
+  },
+  {
+    "name": "OpenAI — офіційні новини",
+    "url": "https://openai.com/news/rss.xml",
+    "category": "AI",
+    "language": "en",
+    "origin": "developer"
+  },
+  {
+    "name": "Google DeepMind",
+    "url": "https://deepmind.google/blog/rss.xml",
+    "category": "AI",
+    "language": "en",
+    "origin": "developer"
+  },
+  {
+    "name": "Hugging Face — блог",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "category": "AI",
+    "language": "en",
+    "origin": "developer"
+  },
+  {
+    "name": "Google AI Blog",
+    "url": "https://blog.google/technology/ai/rss/",
+    "category": "AI",
+    "language": "en",
+    "origin": "developer"
+  },
+  {
+    "name": "Google Research",
+    "url": "https://research.google/blog/rss/",
+    "category": "AI",
+    "language": "en",
+    "origin": "developer"
+  },
+  {
+    "name": "Apple ML Research",
+    "url": "https://machinelearning.apple.com/rss.xml",
+    "category": "AI",
+    "language": "en",
+    "origin": "developer"
+  },
+  {
+    "name": "Microsoft Research",
+    "url": "https://www.microsoft.com/en-us/research/feed/",
+    "category": "AI",
+    "language": "en",
+    "origin": "developer"
+  },
+  {
+    "name": "NVIDIA — AI",
+    "url": "https://blogs.nvidia.com/feed/",
+    "category": "AI",
+    "language": "en",
+    "origin": "developer"
+  },
+  {
+    "name": "AWS Machine Learning",
+    "url": "https://aws.amazon.com/blogs/machine-learning/feed/",
+    "category": "AI",
+    "language": "en",
+    "origin": "developer"
+  },
+  {
+    "name": "TechCrunch AI",
+    "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+    "category": "AI",
+    "language": "en",
+    "origin": "media"
+  },
+  {
+    "name": "MIT Technology Review AI",
+    "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed",
+    "category": "AI",
+    "language": "en",
+    "origin": "media"
+  },
+  {
+    "name": "Simon Willison — LLM",
+    "url": "https://simonwillison.net/atom/everything/",
+    "category": "AI",
+    "language": "en",
+    "origin": "expert"
+  },
+  {
+    "name": "Import AI — research",
+    "url": "https://importai.substack.com/feed",
+    "category": "AI",
+    "language": "en",
+    "origin": "expert"
+  },
+  {
+    "name": "arXiv — AI papers",
+    "url": "https://export.arxiv.org/rss/cs.AI",
+    "category": "AI",
+    "language": "en",
+    "origin": "research"
+  },
+  {
+    "name": "Імміграція — нові програми",
+    "url": "https://news.google.com/rss/search?q=%22immigration%20program%22%20OR%20%22new%20immigration%20pathway%22%20OR%20%22new%20visa%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "category": "Імміграція",
+    "country": "Світ",
+    "language": "en",
+    "origin": "discovery"
+  },
+  {
+    "name": "Імміграція — робота та ВНЖ",
+    "url": "https://news.google.com/rss/search?q=%22work%20permit%22%20OR%20%22residence%20permit%22%20OR%20%22skilled%20worker%20visa%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "category": "Імміграція",
+    "country": "Світ",
+    "language": "en",
+    "origin": "discovery"
+  },
+  {
+    "name": "Імміграція — digital nomad",
+    "url": "https://news.google.com/rss/search?q=%22digital%20nomad%20visa%22%20OR%20%22residency%20program%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+    "category": "Імміграція",
+    "country": "Світ",
+    "language": "en",
+    "origin": "discovery"
+  },
+  {
+    "name": "Імміграція — Канада",
+    "url": "https://news.google.com/rss/search?q=%22IRCC%22%20OR%20%22Express%20Entry%22%20OR%20%22provincial%20nominee%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "category": "Імміграція",
+    "country": "Канада",
+    "language": "en",
+    "origin": "discovery"
+  },
+  {
+    "name": "Імміграція — Canada.ca",
+    "url": "https://news.google.com/rss/search?q=site%3Acanada.ca%20%22immigration%22%20OR%20%22permanent%20residence%22%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
+    "category": "Імміграція",
+    "country": "Канада",
+    "language": "en",
+    "origin": "discovery"
+  },
+  {
+    "name": "Імміграція — Польща",
+    "url": "https://news.google.com/rss/search?q=%22karta%20pobytu%22%20OR%20%22PESEL%20UKR%22%20OR%20%22ochrona%20czasowa%22%20when%3A14d&hl=pl-PL&gl=PL&ceid=PL:pl",
+    "category": "Імміграція",
+    "country": "Польща",
+    "language": "pl",
+    "origin": "discovery"
+  },
+  {
+    "name": "Імміграція — UdSC Польща",
+    "url": "https://news.google.com/rss/search?q=site%3Agov.pl%2Fweb%2Fudsc%20%22cudzoziemc%C3%B3w%22%20OR%20%22pobytu%22%20when%3A30d&hl=pl-PL&gl=PL&ceid=PL:pl",
+    "category": "Імміграція",
+    "country": "Польща",
+    "language": "pl",
+    "origin": "discovery"
+  },
+  {
+    "name": "Імміграція — ЄС",
+    "url": "https://news.google.com/rss/search?q=%22EU%20Blue%20Card%22%20OR%20%22temporary%20protection%22%20OR%20%22EU%20immigration%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+    "category": "Імміграція",
+    "country": "ЄС",
+    "language": "en",
+    "origin": "discovery"
+  },
+  {
+    "name": "Імміграція — Єврокомісія",
+    "url": "https://news.google.com/rss/search?q=site%3Ahome-affairs.ec.europa.eu%20%22migration%22%20OR%20%22asylum%22%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
+    "category": "Імміграція",
+    "country": "ЄС",
+    "language": "en",
+    "origin": "discovery"
+  },
+  {
+    "name": "Імміграція — UK",
+    "url": "https://news.google.com/rss/search?q=site%3Agov.uk%20%22visa%22%20%22immigration%22%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
+    "category": "Імміграція",
+    "country": "Велика Британія",
+    "language": "en",
+    "origin": "discovery"
+  },
+  {
+    "name": "Імміграція — Австралія",
+    "url": "https://news.google.com/rss/search?q=%22Australia%20skilled%20migration%22%20OR%20%22Australia%20visa%20reform%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+    "category": "Імміграція",
+    "country": "Австралія",
+    "language": "en",
+    "origin": "discovery"
+  },
+  {
+    "name": "Імміграція — Нова Зеландія",
+    "url": "https://news.google.com/rss/search?q=%22Immigration%20New%20Zealand%22%20OR%20%22New%20Zealand%20residency%20visa%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+    "category": "Імміграція",
+    "country": "Нова Зеландія",
+    "language": "en",
+    "origin": "discovery"
+  },
+  {
+    "name": "Імміграція — США",
+    "url": "https://news.google.com/rss/search?q=%22USCIS%22%20OR%20%22US%20work%20visa%22%20OR%20%22US%20immigration%20policy%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+    "category": "Імміграція",
+    "country": "США",
+    "language": "en",
+    "origin": "discovery"
+  },
+  {
+    "name": "Імміграція — Італія/Португалія",
+    "url": "https://news.google.com/rss/search?q=%22Italy%20residence%20permit%22%20OR%20%22Portugal%20residency%20visa%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+    "category": "Імміграція",
+    "country": "ЄС",
+    "language": "en",
+    "origin": "discovery"
+  },
+  {
+    "name": "AI — Anthropic та Mistral",
+    "url": "https://news.google.com/rss/search?q=site%3Aanthropic.com%20OR%20site%3Amistral.ai%20%22new%20model%22%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
+    "category": "AI",
+    "country": "Світ",
+    "language": "en",
+    "origin": "discovery"
+  },
+  {
+    "name": "AI — релізи моделей",
+    "url": "https://news.google.com/rss/search?q=%22OpenAI%22%20OR%20%22Anthropic%22%20OR%20%22DeepMind%22%20%22model%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "category": "AI",
+    "country": "Світ",
+    "language": "en",
+    "origin": "discovery"
+  },
+  {
+    "name": "AI — відкриті моделі",
+    "url": "https://news.google.com/rss/search?q=%22open%20source%20LLM%22%20OR%20%22AI%20agents%22%20%22release%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "category": "AI",
+    "country": "Світ",
+    "language": "en",
+    "origin": "discovery"
+  },
+  {
+    "name": "AI — дослідження",
+    "url": "https://news.google.com/rss/search?q=%22machine%20learning%22%20OR%20%22neural%20network%22%20%22breakthrough%22%20when%3A7d&hl=en-US&gl=US&ceid=US:en",
+    "category": "AI",
+    "country": "Світ",
+    "language": "en",
+    "origin": "discovery"
+  },
+  {
+    "name": "AI-події — анонси",
+    "url": "https://news.google.com/rss/search?q=%22AI%20conference%22%20OR%20%22machine%20learning%20conference%22%20when%3A14d&hl=en-US&gl=US&ceid=US:en",
+    "category": "AI-події",
+    "country": "Світ",
+    "language": "en",
+    "origin": "discovery"
+  },
+  {
+    "name": "AI-події — конференції",
+    "url": "https://news.google.com/rss/search?q=%22NeurIPS%22%20OR%20%22ICLR%22%20OR%20%22ICML%22%20%22conference%22%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
+    "category": "AI-події",
+    "country": "Світ",
+    "language": "en",
+    "origin": "discovery"
+  },
+  {
+    "name": "AI-події — NVIDIA GTC",
+    "url": "https://news.google.com/rss/search?q=%22NVIDIA%20GTC%22%20OR%20%22AI%20Engineer%22%20%22conference%22%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
+    "category": "AI-події",
+    "country": "Світ",
+    "language": "en",
+    "origin": "discovery"
+  },
+  {
+    "name": "AI-події — дедлайни",
+    "url": "https://news.google.com/rss/search?q=%22call%20for%20papers%22%20%22AI%22%20%22conference%22%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
+    "category": "AI-події",
+    "country": "Світ",
+    "language": "en",
+    "origin": "discovery"
+  },
+  {
+    "name": "Світ — Reuters",
+    "url": "https://news.google.com/rss/search?q=site%3Areuters.com%2Fworld%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+    "category": "Світ",
+    "country": "Світ",
+    "language": "en",
+    "origin": "discovery"
+  },
+  {
+    "name": "Світ — AP News",
+    "url": "https://news.google.com/rss/search?q=site%3Aapnews.com%20%22world%22%20when%3A2d&hl=en-US&gl=US&ceid=US:en",
+    "category": "Світ",
+    "country": "Світ",
+    "language": "en",
+    "origin": "discovery"
   }
 ]

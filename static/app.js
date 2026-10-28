@@ -1,6 +1,6 @@
 'use strict';
 const $ = s => document.querySelector(s);
-let articles = [], sourceStatuses = [], updated = 0, mode = 'all', category = '', saved = {};
+let articles = [], sourceStatuses = [], updated = 0, mode = 'all', category = '', saved = {}, visibleLimit = 60;
 let storageOK = true;
 try { saved = JSON.parse(localStorage.getItem('pulse-saved') || '{}'); if (!saved || Array.isArray(saved) || typeof saved !== 'object') saved = {}; } catch { storageOK = false; }
 $('#today').textContent = new Intl.DateTimeFormat('uk-UA', {day:'numeric',month:'long',year:'numeric'}).format(new Date());
@@ -83,16 +83,35 @@ function storeTranslation(id, value) {
 function render(){
  $('#saved-count').textContent=Object.keys(saved).length;
  const q=$('#search').value.trim().toLocaleLowerCase('uk');
- const list=(mode==='saved'?Object.values(saved):articles).filter(a=>(!category||a.category===category)&&(!$('#source').value||a.source===$('#source').value)&&(!q||(a.title+' '+a.summary).toLocaleLowerCase('uk').includes(q)));
+ const weight={'Імміграція':36,'AI':24,'AI-події':20,'Світ':3};
+ const list=(mode==='saved'?Object.values(saved):articles)
+   .filter(a=>(!category||a.category===category)&&(!$('#source').value||a.source===$('#source').value)
+      &&(!$('#country').value||a.country===$('#country').value)
+      &&(!$('#origin').value||a.origin===$('#origin').value)
+      &&(!q||(a.title+' '+a.summary+' '+(a.publisher||'')+' '+(a.country||'')).toLocaleLowerCase('uk').includes(q)))
+   .sort((a,b)=>{
+      if($('#sort').value==='recent') return (b.published||0)-(a.published||0);
+      const score=a=>(a.published||0)+3600*(weight[a.category]||0)+(a.origin==='official'?12*3600:0)+(a.origin==='developer'?3*3600:0);
+      return score(b)-score(a);
+   });
  $('#news').replaceChildren();
  const failed=sourceStatuses.filter(s=>!s.ok).map(s=>s.name+(s.cached?' (кеш)':''));
  const working=sourceStatuses.filter(s=>s.ok).length;
- $('#status').textContent=`${list.length} матеріалів · ${working}/${sourceStatuses.length} RSS-джерел доступні`+(updated?' • Збір RSS: '+new Date(updated*1000).toLocaleString('uk-UA',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}):'')+(failed.length?' • Недоступні джерела: '+failed.join(', '):'')+(!storageOK?' • Браузер не дозволяє зберігати новини між сеансами.':'');
+ $('#status').textContent=`${list.length} матеріалів · ${working}/${sourceStatuses.length} потоків доступні`+(updated?' • Збір: '+new Date(updated*1000).toLocaleString('uk-UA',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}):'')+(failed.length?' • Помилки джерел: '+failed.length:'')+(!storageOK?' • Закладки можуть не зберегтися.':'');
+ const issues=$('#feed-issues'); issues.replaceChildren();
+ if(!failed.length) issues.append(el('li','Усі джерела відповіли.'));
+ else for(const name of failed) issues.append(el('li',name));
+ $('#load-more').hidden=list.length<=visibleLimit;
+ $('#load-more').textContent=`Показати ще ${Math.min(60,list.length-visibleLimit)} із ${list.length-visibleLimit} матеріалів`;
  if(!list.length) $('#news').append(el('p',mode==='saved'?'Збережених новин за цими фільтрами немає. Натисніть «Зберегти» біля матеріалу або змініть фільтри.':articles.length?'Нічого не знайдено. Змініть пошук або фільтри.':'Джерела не повернули новин. Повторіть спробу пізніше.','empty'));
- for(const a of list){
+ for(const a of list.slice(0,visibleLimit)){
   const row=el('article',null,'story'), stamp=el('div',a.published?new Date(a.published*1000).toLocaleTimeString('uk-UA',{hour:'2-digit',minute:'2-digit'}):'Без дати','stamp');
   stamp.append(el('span',a.published?new Date(a.published*1000).toLocaleDateString('uk-UA',{day:'numeric',month:'short'}):''));
-  const body=el('div'), meta=el('div',null,'meta');meta.append(el('b',a.source),el('span',a.category));
+  const body=el('div'), meta=el('div',null,'meta');meta.append(el('b',a.publisher||a.source),el('span',a.category));
+  if(a.country && a.country!=='Світ') meta.append(el('span',a.country));
+  const originNames={official:'Держорган',developer:'Розробник AI',discovery:'Через Google News',research:'Наукова публікація',expert:'Експертний блог',community:'Спільнота',media:'Медіа'};
+  const origin=el('span',originNames[a.origin]||'Джерело','origin origin-'+(a.origin||'media'));
+  meta.append(origin);
   const translation=translationState[a.id] || {};
   const shown=translation.shown === true;
   const h=el('h2');h.append(link(shown ? translation.title : a.title,a.url));
@@ -132,12 +151,20 @@ function render(){
 async function load(){
  $('#refresh').disabled=true;$('#refresh').textContent='Оновлення…';$('#status').textContent='Завантажуємо новини з джерел…';
  try{const r=await fetch('./news.json', {cache:'no-store'});if(!r.ok)throw Error();const data=await r.json();articles=data.articles;sourceStatuses=data.sources;updated=data.updated;
- const selected=$('#source').value;$('#source').replaceChildren(new Option('Усі джерела',''));for(const name of [...new Set([...sourceStatuses.map(s=>s.name),...Object.values(saved).map(a=>a.source)])].sort())$('#source').append(new Option(name,name));$('#source').value=selected;render();
+ const selected=$('#source').value;$('#source').replaceChildren(new Option('Усі джерела',''));for(const name of [...new Set([...sourceStatuses.map(s=>s.name),...Object.values(saved).map(a=>a.source)])].sort())$('#source').append(new Option(name,name));$('#source').value=selected;
+ const previousCountry=$('#country').value;
+ $('#country').replaceChildren(new Option('Усі країни',''));
+ for(const name of [...new Set(articles.map(a=>a.country).filter(Boolean))].sort())$('#country').append(new Option(name,name));
+ $('#country').value=previousCountry;
+ render();
  }catch{render();$('#status').textContent='Не вдалося завантажити стрічку. Перевірте з’єднання та повторіть спробу.';}
  finally{$('#refresh').disabled=false;$('#refresh').textContent='Оновити стрічку';}
 }
-$('#search').oninput=render;$('#source').onchange=render;$('#refresh').onclick=load;
-for(const b of document.querySelectorAll('[data-mode]')){b.onclick=()=>{mode=b.dataset.mode;for(const n of document.querySelectorAll('[data-mode]')){n.classList.toggle('active',n===b);n.setAttribute('aria-pressed',String(n===b));}render();};b.setAttribute('aria-pressed',String(b.classList.contains('active')));}
-for(const b of document.querySelectorAll('[data-category]')){b.onclick=()=>{category=b.dataset.category;for(const n of document.querySelectorAll('[data-category]')){n.classList.toggle('active',n===b);n.setAttribute('aria-pressed',String(n===b));}render();};b.setAttribute('aria-pressed',String(b.classList.contains('active')));}
+function resetFilter(){visibleLimit=60;render();}
+ $('#search').oninput=resetFilter;$('#source').onchange=resetFilter;$('#country').onchange=resetFilter;
+ $('#origin').onchange=resetFilter;$('#sort').onchange=resetFilter;$('#refresh').onclick=load;
+ $('#load-more').onclick=()=>{visibleLimit+=60;render();};
+for(const b of document.querySelectorAll('[data-mode]')){b.onclick=()=>{mode=b.dataset.mode;visibleLimit=60;for(const n of document.querySelectorAll('[data-mode]')){n.classList.toggle('active',n===b);n.setAttribute('aria-pressed',String(n===b));}render();};b.setAttribute('aria-pressed',String(b.classList.contains('active')));}
+for(const b of document.querySelectorAll('[data-category]')){b.onclick=()=>{category=b.dataset.category;visibleLimit=60;for(const n of document.querySelectorAll('[data-category]')){n.classList.toggle('active',n===b);n.setAttribute('aria-pressed',String(n===b));}render();};b.setAttribute('aria-pressed',String(b.classList.contains('active')));}
 load();setInterval(load,300000);
 
