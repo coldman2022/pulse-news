@@ -26,8 +26,8 @@ const fmtDate = stamp => {
   if (!stamp) return 'Не вказано';
   const date = new Date(stamp * 1000);
   if (Number.isNaN(date.getTime())) return 'Не вказано';
-  return date.toLocaleDateString('uk-UA', {day:'numeric',month:'short'}) +
-    ' · ' + date.toLocaleTimeString('uk-UA', {hour:'2-digit',minute:'2-digit',hour12:false});
+  return date.toLocaleTimeString('uk-UA', {hour:'2-digit',minute:'2-digit',hour12:false}) +
+    ' · ' + date.toLocaleDateString('uk-UA', {day:'numeric',month:'short'});
 };
 const evidenceOfficial = card => card.evidence === 'офіційне повідомлення';
 function render() {
