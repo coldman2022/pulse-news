@@ -29,7 +29,7 @@ class MobileAndTranslationTests(unittest.TestCase):
         html = (ROOT / "static" / "index.html").read_text(encoding="utf-8")
         self.assertIn("api.mymemory.translated.net/get", js)
         self.assertIn("translationChunks", js)
-        self.assertIn("Перекласти опис українською", js)
+        self.assertIn("Перекласти українською", js)
         self.assertNotIn("translate.google.com/translate?", js)
         self.assertIn("overflow-x: auto;", css)
         self.assertIn("flex-wrap: nowrap;", css)
