@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parent / "static"
 class BackgroundOnlyV24Tests(unittest.TestCase):
     def test_v24_override_only_paints_global_page(self):
         css = (ROOT / "style.css").read_text(encoding="utf-8")
-        section = css.split("/* Pulse v24: ONLY the global background", 1)[1]
+        section = css.split("/* Pulse v24: ONLY the global background", 1)[1].split("/* Pulse v25:",1)[0]
         self.assertIn(":root{--paper:#f0f0f3}", section)
         self.assertIn("body,header{background:var(--paper)}", section)
         self.assertNotIn(".event-card", section)
