@@ -436,7 +436,7 @@ function renderBrief(){
  }
 }
 async function load(){
-  $('#refresh').disabled=true;$('#refresh').textContent='Оновлення…';$('#status').textContent='Завантажуємо новини з джерел…';
+  $('#status').textContent='Завантажуємо новини з джерел…';
   try{
     const requestedMode = mode === 'archive' ? 'archive' : mode === 'focus' ? 'focus' : 'all';
     const feedUrl = requestedMode === 'archive' ? './news.json'
@@ -472,11 +472,11 @@ async function load(){
     $('#country').value=previousCountry;
     render();
   }catch{render();$('#status').textContent='Не вдалося завантажити стрічку. Перевірте з’єднання та повторіть спробу.';}
-  finally{$('#refresh').disabled=false;$('#refresh').textContent='Оновити стрічку';}
+  finally{/* The feed still refreshes automatically every five minutes. */}
 }
 function resetFilter(){visibleLimit=60;render();}
  $('#search').oninput=resetFilter;$('#source').onchange=resetFilter;$('#country').onchange=resetFilter;
- $('#origin').onchange=resetFilter;$('#refresh').onclick=load;
+ $('#origin').onchange=resetFilter;
  $('#load-more').onclick=()=>{visibleLimit+=60;render();};
 const filterToggle=$('#filter-toggle');
 const filterPanel=$('#filter-panel');
