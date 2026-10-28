@@ -138,7 +138,7 @@ class LocalMarian:
             )
             with torch.inference_mode():
                 tokens = model.generate(
-                    **inputs, max_new_tokens=240, num_beams=1
+                    **inputs, max_new_tokens=240, num_beams=2
                 )
             results.extend(tokenizer.batch_decode(tokens, skip_special_tokens=True))
         return [value.strip() for value in results]
@@ -206,6 +206,18 @@ def clean_translation(value, original):
     if not value or len(value) > 1800:
         return None
     if len(original) > 30 and value.casefold() == original.casefold():
+        return None
+    # Keep original rather than publishing a translation that changes numbers,
+    # years, percentages, monetary amounts, or loses Ukrainian entirely.
+    numbers = lambda text: sorted(re.findall(r"(?<![\w])\d+(?:[.,]\d+)*%?(?![\w])", text))
+    if numbers(original) != numbers(value):
+        return None
+    if re.search(r"[A-Za-zА-Яа-яІіЇїЄєҐґ]", original):
+        if not re.search(r"[А-Яа-яІіЇїЄєҐґ]", value):
+            return None
+    # Avoid implausibly shortened or ballooning outputs from noisy RSS descriptions.
+    if len(original) >= 40 and (len(value) < len(original) * .23
+                                or len(value) > len(original) * 3.5):
         return None
     return value
 
