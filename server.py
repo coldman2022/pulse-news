@@ -200,7 +200,14 @@ def news():
                 try:
                     by_source[s['name']] = future.result()
                     statuses.append(dict(name=s['name'], ok=True, cached=False))
-                except Exception:
+                except Exception as error:
+                    # Do not hide transient 403/429, timeouts or malformed RSS
+                    # behind the previous cached snapshot in Actions logs.
+                    status = getattr(error, 'code', None)
+                    failure = type(error).__name__
+                    if isinstance(status, int):
+                        failure += ' HTTP ' + str(status)
+                    print('RSS source failed: ' + s['name'] + ' — ' + failure, flush=True)
                     by_source[s['name']] = previous.get(s['name'], [])
                     statuses.append(dict(name=s['name'], ok=False, cached=bool(by_source[s['name']])))
         unique = {}
@@ -209,6 +216,12 @@ def news():
                 unique.setdefault(article['url'], article)
         payload = dict(articles=sorted(unique.values(), key=lambda a: a['published'], reverse=True),
                        sources=sorted(statuses, key=lambda s: s['name']), updated=time.time())
+        good = sum(1 for item in statuses if item['ok'])
+        newest = max((row.get('published') or 0 for row in payload['articles']), default=0)
+        newest_age_min = round(max(0, time.time() - newest) / 60) if newest else None
+        print('RSS collection: ' + str(good) + '/' + str(len(statuses)) +
+              ' sources OK; ' + str(len(payload['articles'])) +
+              ' articles; newest age (minutes): ' + str(newest_age_min), flush=True)
         CACHE.update(time=time.time(), payload=payload, by_source=by_source)
         return payload
 
