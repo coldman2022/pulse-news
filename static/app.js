@@ -58,6 +58,29 @@ function link(text, url) {const a=el('a',text); a.href=url; a.target='_blank'; a
 function persist() {try{localStorage.setItem('pulse-saved',JSON.stringify(saved));}catch{storageOK=false;}}
 
 const translationState = Object.create(null);
+let sharedTranslations = Object.create(null);
+let sharedTranslationsPending = true;
+function sharedTranslation(article){
+  const item=sharedTranslations[article.id];
+  return item && item.source_title===article.title &&
+    item.language===articleLanguage(article) && typeof item.title==='string' &&
+    typeof item.summary==='string' ? item : null;
+}
+async function loadSharedTranslations(){
+  try{
+    const response=await fetch('./translations.json',{cache:'no-store'});
+    if(!response.ok)throw Error('Batch translations unavailable');
+    const data=await response.json();
+    if(data.schema!==1 || !data.articles || Array.isArray(data.articles) ||
+       typeof data.articles!=='object')throw Error('Unexpected translations format');
+    sharedTranslations=data.articles;
+  }catch{
+    // Browsers still retain on-demand MyMemory translations if the batch is absent.
+  }finally{
+    sharedTranslationsPending=false;
+    if(articles.length || archiveArticles.length || focusArticles.length)render();
+  }
+}
 let translationCache = {};
 try {
   const previous = JSON.parse(localStorage.getItem('pulse-translations') || '{}');
@@ -108,7 +131,8 @@ function isArticleOnScreen(id) {
   return bounds.height > 0 && bounds.bottom > 0 && bounds.top < window.innerHeight;
 }
 function queueVisible(article) {
-  if (!autoEnabled || autoPaused || !article || articleLanguage(article)==='uk' ||
+  if (!autoEnabled || autoPaused || sharedTranslationsPending || !article ||
+      sharedTranslation(article) || articleLanguage(article)==='uk' ||
       translatedTitles[article.id] || autoSeen.has(article.id) ||
       translationState[article.id]?.loading) return;
   const title=(article.title||'').trim();
@@ -125,7 +149,8 @@ async function drainAutoQueue() {
   try {
     while (autoQueue.length && autoEnabled && !autoPaused) {
       const article=autoQueue.shift();
-      if (!article || translatedTitles[article.id] || translationState[article.id]?.loading) continue;
+      if (!article || sharedTranslation(article) || translatedTitles[article.id] ||
+          translationState[article.id]?.loading) continue;
       // The visitor may have scrolled elsewhere while another title was translating.
       // Skip off-screen requests; allow a retry when the article is visible again.
       if (!isArticleOnScreen(article.id)) { autoSeen.delete(article.id); continue; }
@@ -166,7 +191,8 @@ function watchVisibleHeadlines(rows) {
   if (viewportObserver) viewportObserver.disconnect();
   for (const timer of dwellTimers.values()) clearTimeout(timer);
   dwellTimers.clear();
-  if (!autoEnabled || autoPaused || typeof IntersectionObserver==='undefined') return;
+  if (!autoEnabled || autoPaused || sharedTranslationsPending ||
+      typeof IntersectionObserver==='undefined') return;
   viewportObserver = new IntersectionObserver(entries => {
     for (const entry of entries) {
       const id=entry.target.dataset.pulseArticleId;
@@ -176,7 +202,8 @@ function watchVisibleHeadlines(rows) {
         dwellTimers.delete(id);
       } else if (!dwellTimers.has(id)) {
         const article=rows.get(id);
-        if (!article || translatedTitles[id] || articleLanguage(article)==='uk') continue;
+        if (!article || sharedTranslation(article) || translatedTitles[id] ||
+            articleLanguage(article)==='uk') continue;
         const timer=setTimeout(() => {
           dwellTimers.delete(id);
           if (entry.target.isConnected && autoEnabled) queueVisible(article);
@@ -186,7 +213,7 @@ function watchVisibleHeadlines(rows) {
     }
   }, {threshold:0.35, rootMargin:'0px 0px 35px 0px'});
   for (const [id, article] of rows) {
-    if (articleLanguage(article)==='uk' || translatedTitles[id]) continue;
+    if (articleLanguage(article)==='uk' || sharedTranslation(article) || translatedTitles[id]) continue;
     const card=$('#news').querySelector('[data-pulse-article-id="'+id+'"]');
     if (card) viewportObserver.observe(card);
   }
@@ -357,12 +384,13 @@ function render(){
   const translation=translationState[a.id]||{};
   const shown=translation.shown===true;
   const userSelectedOriginal=translation.shown===false;
-  const autoTitle=autoEnabled&&!userSelectedOriginal?translatedTitles[a.id]:'';
+  const shared=sharedTranslation(a);
+  const autoTitle=autoEnabled&&!userSelectedOriginal?(shared?.title || translatedTitles[a.id]):'';
   const content=el('div',null,'story-content');
   const copy=el('div',null,'story-copy');
   const h=el('h2',null,'story-heading');
-  h.append(link(shown?translation.title:(autoTitle||a.title),a.url));
-  const summary=el('p',shown?translation.summary:a.summary,'story-summary');
+  h.append(link(userSelectedOriginal ? a.title : (shown&&translation.title)||autoTitle||a.title,a.url));
+  const summary=el('p',userSelectedOriginal?a.summary:((shown&&translation.summary)||shared?.summary||a.summary),'story-summary');
   copy.append(h,summary);
 
   const lang=articleLanguage(a);
@@ -374,8 +402,12 @@ function render(){
   tButton.setAttribute('aria-label',label+': '+a.title);
   tButton.title=label;
   if(lang!=='uk')tButton.onclick=async()=>{
-    if(translationState[a.id]?.shown || (translatedTitles[a.id] && translationState[a.id]?.shown!==false)){
+    if(translationState[a.id]?.shown ||
+       ((shared || translatedTitles[a.id]) && translationState[a.id]?.shown!==false)){
       translationState[a.id]={...translationState[a.id],shown:false};render();return;
+    }
+    if(shared){
+      translationState[a.id]={shown:true};render();return;
     }
     if(translationCache[a.id]){
       translationState[a.id]={...translationCache[a.id],shown:true};render();return;
@@ -498,7 +530,8 @@ function renderBrief(){
  for(const a of filtered){
    const row=el('div',null,'brief-item');
    const translation=translationState[a.id]||{};
-   const currentTitle=translation.shown===false?a.title:translation.shown&&translation.title||translatedTitles[a.id]||a.title;
+   const shared=sharedTranslation(a);
+   const currentTitle=translation.shown===false?a.title:(translation.shown&&translation.title)||shared?.title||translatedTitles[a.id]||a.title;
    const title=link(currentTitle,a.url);
    title.className='brief-title';
    const meta=el('div',null,'brief-meta');
@@ -516,9 +549,10 @@ function renderBrief(){
    translate.title=lang==='uk'?'Вже українською':translation.loading?'Перекладаємо':'Перекласти / показати оригінал';
    translate.setAttribute('aria-label',translate.title+': '+a.title);
    if(lang!=='uk')translate.onclick=async()=>{
-     if(translationState[a.id]?.shown || (translatedTitles[a.id] && translationState[a.id]?.shown!==false)){
+     if(translationState[a.id]?.shown || ((shared||translatedTitles[a.id]) && translationState[a.id]?.shown!==false)){
        translationState[a.id]={...translationState[a.id],shown:false};render();return;
      }
+     if(shared){translationState[a.id]={shown:true};render();return;}
      if(translationCache[a.id]){
        translationState[a.id]={...translationCache[a.id],shown:true};render();return;
      }
@@ -623,6 +657,7 @@ for(const b of document.querySelectorAll('[data-mode]')){b.onclick=()=>{sharedAr
 for(const b of document.querySelectorAll('[data-category]')){b.onclick=()=>{category=b.dataset.category;visibleLimit=60;for(const n of document.querySelectorAll('[data-category]')){n.classList.toggle('active',n===b);n.setAttribute('aria-pressed',String(n===b));}render();};b.setAttribute('aria-pressed',String(b.classList.contains('active')));}
 $('#how-focus-works').onclick=()=>{const b=$('#how-focus-works');const expanded=b.getAttribute('aria-expanded')==='true';$('#focus-help').hidden=expanded;b.setAttribute('aria-expanded',String(!expanded));};
 $('#feedback-reset').onclick=()=>{votes={};saveFeedback();focusArticles=personalizedFocus();render();};
+void loadSharedTranslations();
 load();setInterval(load,300000);
 
 
