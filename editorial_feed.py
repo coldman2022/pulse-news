@@ -5,6 +5,7 @@ headline-and-RSS-category filter, not fact checking or legal eligibility advice.
 """
 import re
 import personal_feed
+import migration_relevance
 
 NOISE = re.compile(
     r"корупц\w*|коррупц\w*|хабар\w*|крадіж\w*|затриман\w*|"
@@ -120,12 +121,7 @@ def relevant(article):
     if NOISE.search(title) or personal_feed.CRIME_NOISE.search(title):
         return False
     if category == "Імміграція":
-        country = article.get("country") or ""
-        if country not in TARGET_COUNTRIES and not personal_feed.UKRAINIAN.search(title):
-            return False
-        if SPECIFIC_OTHER_NATIONALITY.search(title) and not personal_feed.UKRAINIAN.search(title):
-            return False
-        return bool(IMMIGRATION_SYSTEM.search(title) or personal_feed.UKRAINIAN.search(title) or (personal_feed.IMMIGRATION.search(title) and personal_feed.LAW_CHANGE.search(title)))
+        return migration_relevance.migration_scope(article) is not None
     if category == "Україна":
         # National coverage is deliberately broad; exclude only explicit noise.
         return True
@@ -156,6 +152,8 @@ def build_editorial_feed(articles, updated, sources=()):
         if not url or url in seen_urls or not relevant(article):
             continue
         seen_urls.add(url)
+        if article.get("category") == "Імміграція":
+            article = dict(article, migration_scope=migration_relevance.migration_scope(article))
         selected.append(article)
     return {
         "articles": selected,
