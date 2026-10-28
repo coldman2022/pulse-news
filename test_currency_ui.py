@@ -1,87 +1,90 @@
-"""Offline rates / soft visual system smoke tests."""
+"""Offline Monobank exchange-rate and header smoke tests."""
 import datetime as dt
 import json
 import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
-
 import currency_rates
 
 ROOT=Path(__file__).resolve().parent
 NOW=dt.datetime(2026,10,28,12,0,tzinfo=dt.timezone.utc).timestamp()
+STAMP=int(NOW-1800)
 
 
-class NbuRatesTests(unittest.TestCase):
-    def test_normalize_official_uah_quotes(self):
-        records=[
-            {"cc":"PLN","rate":10.1234,"exchangedate":"28.10.2026"},
-            {"cc":"USD","rate":44.9876,"exchangedate":"28.10.2026"},
-            {"cc":"EUR","rate":51.0,"exchangedate":"28.10.2026"}
-        ]
-        fx=currency_rates.normalize_rates(records,updated=NOW)
-        self.assertEqual(fx["source"],"НБУ")
-        self.assertEqual(fx["rates"]["PLN"],{"uah":10.1234,"date":"2026-10-28"})
-        self.assertEqual(fx["rates"]["USD"],{"uah":44.9876,"date":"2026-10-28"})
-        self.assertTrue(currency_rates.valid_snapshot(fx,NOW))
+def mono_rows(stamp=STAMP):
+    return [
+        {"currencyCodeA":985,"currencyCodeB":980,"date":stamp,"rateCross":11.6566},
+        {"currencyCodeA":840,"currencyCodeB":980,"date":stamp,"rateBuy":45.51,"rateSell":45.861},
+        {"currencyCodeA":978,"currencyCodeB":980,"date":stamp,"rateBuy":50.6,"rateSell":51.2689},
+    ]
+
+
+class MonobankRatesTests(unittest.TestCase):
+    def test_normalize_bank_sell_and_cross_quotes(self):
+        result=currency_rates.normalize_rates(mono_rows(),updated=NOW)
+        self.assertEqual(result["source"],"Monobank")
+        self.assertEqual(result["rates"]["PLN"],{"uah":11.6566,"timestamp":STAMP,"kind":"cross"})
+        self.assertEqual(result["rates"]["USD"],{"uah":45.861,"timestamp":STAMP,"kind":"sell"})
+        self.assertTrue(currency_rates.valid_snapshot(result,NOW))
 
     def test_reject_missing_invalid_and_stale_rates(self):
-        for records in (
+        for rows in (
             [],
-            [{"cc":"PLN","rate":10.123,"exchangedate":"28.10.2026"}],
-            [{"cc":"PLN","rate":float("nan"),"exchangedate":"28.10.2026"},
-             {"cc":"USD","rate":44,"exchangedate":"28.10.2026"}],
-            [{"cc":"PLN","rate":10,"exchangedate":"not-a-date"},
-             {"cc":"USD","rate":44,"exchangedate":"28.10.2026"}]
+            [{"currencyCodeA":985,"currencyCodeB":980,"date":STAMP,"rateCross":11.6}],
+            [{"currencyCodeA":985,"currencyCodeB":980,"date":STAMP,"rateCross":float("nan")},
+             {"currencyCodeA":840,"currencyCodeB":980,"date":STAMP,"rateSell":45}],
+            [{"currencyCodeA":985,"currencyCodeB":980,"date":"bad","rateCross":11.6},
+             {"currencyCodeA":840,"currencyCodeB":980,"date":STAMP,"rateSell":45}],
         ):
             with self.assertRaises(ValueError):
-                currency_rates.normalize_rates(records,NOW)
-        stale = currency_rates.normalize_rates([
-            {"cc":"PLN","rate":10.1,"exchangedate":"12.09.2026"},
-            {"cc":"USD","rate":43.2,"exchangedate":"12.09.2026"}],updated=NOW)
+                currency_rates.normalize_rates(rows,NOW)
+        stale=currency_rates.normalize_rates(mono_rows(int(NOW-10*86400)),updated=NOW)
         self.assertFalse(currency_rates.valid_snapshot(stale,NOW))
+        future=currency_rates.normalize_rates(mono_rows(int(NOW+7200)),updated=NOW)
+        self.assertFalse(currency_rates.valid_snapshot(future,NOW))
 
-    def test_provider_outage_uses_valid_cache_not_guessed_values(self):
-        entries=[{"cc":"PLN","rate":10.1,"exchangedate":"27.10.2026"},
-                 {"cc":"USD","rate":44.2,"exchangedate":"27.10.2026"}]
-        snapshot=currency_rates.normalize_rates(entries,updated=NOW-86400)
+    def test_provider_outage_uses_recent_cache_not_nbu(self):
+        snapshot=currency_rates.normalize_rates(mono_rows(),updated=NOW-3600)
         with tempfile.TemporaryDirectory() as tmp:
             target=Path(tmp)/"currency.json"
             target.write_text(json.dumps(snapshot))
-            with patch.object(currency_rates,"fetch_official_rates",side_effect=OSError("503")):
-                saved=currency_rates.build_rates(target,NOW)
-            self.assertEqual(saved["status"],"cached")
-            self.assertEqual(saved["rates"]["PLN"]["uah"],10.1)
-            with patch.object(currency_rates,"fetch_official_rates",side_effect=OSError("503")):
-                expired=currency_rates.build_rates(target,NOW+15*86400)
+            with patch.object(currency_rates,"fetch_monobank_rates",side_effect=OSError("429")):
+                cached=currency_rates.build_rates(target,NOW)
+            self.assertEqual(cached["status"],"cached")
+            self.assertEqual(cached["rates"]["PLN"]["uah"],11.6566)
+            with patch.object(currency_rates,"fetch_monobank_rates",side_effect=OSError("503")):
+                expired=currency_rates.build_rates(target,NOW+10*86400)
             self.assertEqual(expired["status"],"unavailable")
             self.assertEqual(expired["rates"],{})
 
     def test_new_valid_rates_written(self):
-        snapshot=currency_rates.normalize_rates([
-            {"cc":"PLN","rate":11.1234,"exchangedate":"28.10.2026"},
-            {"cc":"USD","rate":45.1234,"exchangedate":"28.10.2026"}],updated=NOW)
+        snapshot=currency_rates.normalize_rates(mono_rows(),updated=NOW)
         with tempfile.TemporaryDirectory() as tmp:
             path=Path(tmp)/"currency.json"
-            with patch.object(currency_rates,"fetch_official_rates",return_value=snapshot):
+            with patch.object(currency_rates,"fetch_monobank_rates",return_value=snapshot):
                 result=currency_rates.build_rates(path,NOW)
             self.assertEqual(result["status"],"ok")
-            self.assertEqual(json.loads(path.read_text())["rates"]["USD"]["uah"],45.1234)
+            self.assertEqual(json.loads(path.read_text())["rates"]["USD"]["uah"],45.861)
 
-    def test_header_has_two_rates_instead_of_refresh_button(self):
+    def test_header_has_two_rates_without_date(self):
         html=(ROOT/"static/index.html").read_text(encoding="utf-8")
         js=(ROOT/"static/app.js").read_text(encoding="utf-8")
         fx=(ROOT/"static/currency.js").read_text(encoding="utf-8")
         self.assertIn('id="fx-pln"',html)
         self.assertIn('id="fx-usd"',html)
-        self.assertIn('id="fx-date"',html)
-        self.assertIn('currency.js?v=1',html)
+        self.assertIn('id="fx-source"',html)
+        self.assertNotIn('id="fx-date"',html)
+        self.assertNotIn("НБУ",html)
+        self.assertIn('currency.js?v=2',html)
         self.assertIn('style.css?v=15',html)
         self.assertNotIn('id="refresh"',html)
         self.assertNotIn("$('#refresh')",js)
         self.assertIn("setInterval(load,300000)",js)
         self.assertIn("'./currency.json'",fx)
-        self.assertIn("'./currency.json'",fx)
+        self.assertNotIn("rate.date",fx)
+        self.assertNotIn("НБУ",fx)
+        self.assertIn("Monobank",fx)
 
     def test_no_card_outlines_and_topic_tints_are_muted(self):
         css=(ROOT/"static/style.css").read_text(encoding="utf-8")
