@@ -2096,3 +2096,18 @@ body,header{background:var(--paper)}
     -webkit-user-select:none;user-select:none;
   }
 }
+
+
+/* Pulse v27 — softly dim the page only while the bottom menu is open. */
+.pulse-dock-menu-backdrop[hidden]{display:none!important}
+@media(max-width:760px){
+  .pulse-dock-menu-backdrop{
+    position:fixed;
+    inset:0;
+    z-index:118;
+    background:rgba(28,24,45,.24);
+  }
+}
+@media(min-width:761px){
+  .pulse-dock-menu-backdrop{display:none!important}
+}
