@@ -267,7 +267,7 @@ class Handler(BaseHTTPRequestHandler):
                 payload = build_rates(ROOT / '_site' / 'currency.json')
                 data = json.dumps(payload, ensure_ascii=False).encode()
             except Exception:
-                data = b'{"source":"НБУ","status":"unavailable","rates":{}}'
+                data = '{"source":"НБУ","status":"unavailable","rates":{}}'.encode("utf-8")
             self.send_response(200)
             mime = 'application/json; charset=utf-8'
         elif route == '/reddit.json':
