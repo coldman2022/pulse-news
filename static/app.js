@@ -363,8 +363,10 @@ function render(){
     img.src=image;img.alt='';img.loading='lazy';img.decoding='async';
     img.referrerPolicy='no-referrer';
     img.addEventListener('error',()=>{
-      figure.classList.add('image-failed');
-      img.remove();
+      figure.remove();
+      card.classList.remove('story--with-image');
+      card.classList.add('story--no-image');
+      if(index===0) content.append(el('div',null,'story-abstract'));
     },{once:true});
     mediaLink.append(img);figure.append(mediaLink);
     if(a.image_credit)figure.append(el('figcaption',a.image_credit,'story-credit'));
