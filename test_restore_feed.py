@@ -56,6 +56,7 @@ class RestoreFeedTests(unittest.TestCase):
             (ROOT / 'sources.json').read_text(encoding='utf-8'))}
         self.assertNotIn("Simon Willison — LLM", names)
         self.assertNotIn("Import AI — research", names)
+        self.assertNotIn("Hacker News", names)
         for publisher in ["CNBC World", "CNBC Technology", "POLITICO Europe",
                           "The New York Times World", "France 24", "NPR News", "Sky News World"]:
             self.assertIn(publisher, names)
