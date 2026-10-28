@@ -9,6 +9,7 @@ from pathlib import Path
 import server
 import opportunities
 import daily_digest
+import personal_feed
 
 
 # The previous snapshot is restored by GitHub Actions cache when available.
@@ -75,6 +76,12 @@ def build(output):
     digest_temp = output / 'digest.json.tmp'
     digest_temp.write_text(json.dumps(digest, ensure_ascii=False), encoding='utf-8')
     digest_temp.replace(output / 'digest.json')
+    # Personal front page is a small ranked view; the complete archive is preserved.
+    personal_payload = personal_feed.build_personal_feed(payload['articles'], payload['updated'])
+    personal_payload['sources'] = payload['sources']
+    personal_temp = output / 'personal.json.tmp'
+    personal_temp.write_text(json.dumps(personal_payload, ensure_ascii=False), encoding='utf-8')
+    personal_temp.replace(output / 'personal.json')
     (output / '.nojekyll').touch()
     print(f"Built {len(payload['articles'])} articles; sources: {payload['sources']}")
     return payload
