@@ -111,8 +111,6 @@ async function drainAutoQueue() {
           if(button&&!translationState[article.id]?.shown){
             button.title='Показати оригінал';
             button.setAttribute('aria-label','Показати оригінал: '+article.title);
-            const label=button.querySelector('.translate-label');
-            if(label) label.textContent='Оригінал';
           }
         }
       } catch (error) {
@@ -259,17 +257,12 @@ function editorialLayout(index) {
 function render(){
  $('#saved-count').textContent=Object.keys(saved).length;
  const q=$('#search').value.trim().toLocaleLowerCase('uk');
- const weight={'Імміграція':36,'AI':24,'AI-події':20,'Світ':3};
  const list=(mode==='saved'?Object.values(saved):articles)
    .filter(a=>(!category||a.category===category)&&(!$('#source').value||a.source===$('#source').value)
       &&(!$('#country').value||a.country===$('#country').value)
       &&(!$('#origin').value||a.origin===$('#origin').value)
       &&(!q||(a.title+' '+a.summary+' '+(a.publisher||'')+' '+(a.country||'')).toLocaleLowerCase('uk').includes(q)))
-   .sort((a,b)=>{
-      if($('#sort').value==='recent') return (b.published||0)-(a.published||0);
-      const score=a=>(a.published||0)+3600*(weight[a.category]||0)+(a.origin==='official'?12*3600:0)+(a.origin==='developer'?3*3600:0);
-      return score(b)-score(a);
-   });
+   .sort((a,b)=>(b.published||0)-(a.published||0));
  const news=$('#news');
  news.replaceChildren();
  const viewportRows=new Map();
@@ -286,7 +279,9 @@ function render(){
  for(const [index,a] of list.slice(0,visibleLimit).entries()){
   const layout=editorialLayout(index);
   const image=imagesEnabled&&(index===0||index%3===0||layout==='story--wide')?safePreviewImage(a.image_url):'';
-  const card=el('article',null,'story '+layout+' story--tone-'+(index%5)+(image?' story--with-image':' story--no-image'));
+  const topicTone={'Імміграція':'migration','AI':'ai','AI-події':'events','Світ':'world','Україна':'ukraine','Польща':'poland','Бізнес':'business','Технології':'tech','Наука':'science','Дизайн':'design'};
+  const tone=topicTone[a.category]||'neutral';
+  const card=el('article',null,'story '+layout+' story--topic-'+tone+(image?' story--with-image':' story--no-image'));
   card.dataset.pulseArticleId=a.id;
   viewportRows.set(a.id,a);
 
@@ -311,48 +306,43 @@ function render(){
   const autoTitle=autoEnabled&&!userSelectedOriginal?translatedTitles[a.id]:'';
   const content=el('div',null,'story-content');
   const copy=el('div',null,'story-copy');
-  if(index===0) copy.append(el('span','ГОЛОВНА ТЕМА','story-eyebrow'));
   const h=el('h2',null,'story-heading');
   h.append(link(shown?translation.title:(autoTitle||a.title),a.url));
   const summary=el('p',shown?translation.summary:a.summary,'story-summary');
   copy.append(h,summary);
 
-  const readerActions=el('div',null,'story-actions');
-  const original=link('До статті',a.url);original.className='story-read';
-  original.append(newsIcon('external'));readerActions.append(original);
   const lang=articleLanguage(a);
+  let translateButton=null;
   if(lang!=='uk'){
    const tButton=el('button',null,'translate-btn story-translate');
-   tButton.type='button';tButton.disabled=Boolean(translation.loading);
-   const text=translation.loading?'Перекладаємо':shown||autoTitle?'Показати оригінал':'Переклад';
-   tButton.append(newsIcon('languages'),el('span',text,'translate-label'));
-   tButton.title=translation.loading?'Перекладаємо':shown||autoTitle?'Показати оригінал':'Перекласти опис українською';
-   tButton.setAttribute('aria-label',tButton.title+': '+a.title);
+   tButton.type='button';
+   tButton.disabled=Boolean(translation.loading);
+   tButton.append(newsIcon('languages'));
+   const label=translation.loading?'Перекладаємо':shown||autoTitle?'Показати оригінал':'Перекласти українською';
+   tButton.setAttribute('aria-label',label+': '+a.title);
+   tButton.title=label;
    tButton.onclick=async()=>{
-    if(translationState[a.id]?.shown||(!translationState[a.id]?.loading && translatedTitles[a.id] && translationState[a.id]?.shown!==false)){
+    if(translationState[a.id]?.shown || (translatedTitles[a.id] && translationState[a.id]?.shown!==false)){
       translationState[a.id]={...translationState[a.id],shown:false};render();return;
     }
-    if(translationCache[a.id]){translationState[a.id]={...translationCache[a.id],shown:true};render();return;}
+    if(translationCache[a.id]){
+      translationState[a.id]={...translationCache[a.id],shown:true};render();return;
+    }
     autoSeen.add(a.id);
     translationState[a.id]={loading:true};render();
     try{
-     const result=await translateArticlePreview(a);
-     storeTranslation(a.id,result);
-     translationState[a.id]={...result,shown:true};
-    }catch{
-     translationState[a.id]={error:true};
-    }
+      const result=await translateArticlePreview(a);
+      storeTranslation(a.id,result);
+      translationState[a.id]={...result,shown:true};
+    }catch{translationState[a.id]={error:true};}
     render();
    };
-   readerActions.append(tButton);
+   translateButton=tButton;
    if(translation.error){
-    const fallback='https://translate.google.com/?sl=auto&tl=uk&text='+encodeURIComponent(a.title+'\n\n'+(a.summary||''))+'&op=translate';
-    const warning=el('span','Не вдалося перекласти.','translation-error');
-    const backup=link('Google Translate',fallback);backup.className='story-fallback';
-    readerActions.append(warning,backup);
+     const warning=el('span','Переклад недоступний','translation-error');
+     copy.append(warning);
    }
   }
-  copy.append(readerActions);
   content.append(copy);
 
   if(image){
@@ -381,8 +371,7 @@ function render(){
   if(a.published) date.dateTime=new Date(a.published*1000).toISOString();
   bottom.append(date);
   bottom.append(el('span',a.category||'Новини','story-tag story-tag--topic'));
-  if(a.country&&a.country!=='Світ')bottom.append(el('span',a.country,'story-tag'));
-  bottom.append(el('span',originNames[a.origin]||'Джерело','story-tag story-tag--origin'));
+  if(translateButton)bottom.append(translateButton);
   card.append(top,content,bottom);
   news.append(card);
  }
@@ -404,8 +393,20 @@ async function load(){
 }
 function resetFilter(){visibleLimit=60;render();}
  $('#search').oninput=resetFilter;$('#source').onchange=resetFilter;$('#country').onchange=resetFilter;
- $('#origin').onchange=resetFilter;$('#sort').onchange=resetFilter;$('#refresh').onclick=load;
+ $('#origin').onchange=resetFilter;$('#refresh').onclick=load;
  $('#load-more').onclick=()=>{visibleLimit+=60;render();};
+const filterToggle=$('#filter-toggle');
+const filterPanel=$('#filter-panel');
+filterToggle.onclick=()=>{
+  const expanded=filterToggle.getAttribute('aria-expanded')==='true';
+  filterToggle.setAttribute('aria-expanded',String(!expanded));
+  filterPanel.hidden=expanded;
+};
+$('#clear-filters').onclick=()=>{
+  $('#source').value='';$('#country').value='';$('#origin').value='';
+  filterPanel.hidden=true;filterToggle.setAttribute('aria-expanded','false');
+  resetFilter();
+};
 $('#show-images').checked=imagesEnabled;
 $('#show-images').onchange=()=>{
   imagesEnabled=$('#show-images').checked;
