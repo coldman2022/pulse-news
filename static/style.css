@@ -811,3 +811,344 @@ input:focus-visible,select:focus-visible,button:focus-visible,a:focus-visible {
   .fx-quotes{gap:8px}
   .fx-quote strong{font-size:12px}
 }
+
+
+/* Pulse v16 — calm utility design system: InPost-like hierarchy, never yellow. */
+:root{
+  --ink:#1c2023;
+  --blue:#556671;
+  --paper:#f2f3f3;
+  --line:#e7e9ea;
+  --muted:#777d83;
+  --pulse-white:#ffffff;
+  --pulse-subtle:#f5f6f6;
+}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+  letter-spacing:-.008em;
+  line-height:1.48;
+}
+header{
+  background:var(--paper);
+  padding:0 3.4%;
+  height:87px;
+  gap:18px;
+}
+.brand{font-size:36px;font-weight:850;letter-spacing:-2.2px;color:#17191b}
+.brand span{color:#7b9294}
+.fx-bar{background:var(--pulse-white);padding:10px 15px;align-items:flex-end;gap:2px}
+.fx-quote strong{color:#1b1e20;font-size:16px;font-weight:800;letter-spacing:-.35px}
+.fx-symbol{color:#858b8e;font-size:10px;font-weight:750}
+.fx-source{color:#92989a;font-size:10px}
+.fx-source:hover{color:#465962}
+.shell{max-width:1480px;grid-template-columns:228px minmax(0,1fr);gap:0}
+aside{padding:19px 0 24px 19px;border:0}
+aside nav{display:grid;gap:2px;background:var(--pulse-white);padding:12px}
+aside nav > .opp-nav,aside nav > button{
+  min-height:43px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:10px 11px;
+  border:0;
+  background:transparent;
+  color:#34383c;
+  font-size:13px;
+  line-height:1.28;
+  font-weight:660;
+  text-align:left;
+  text-decoration:none;
+  letter-spacing:-.01em;
+}
+aside nav span{font-weight:550;color:#8b9295}
+aside nav > button.active{
+  background:#eef0f0!important;
+  color:#15191c!important;
+  text-decoration:none!important;
+  font-weight:780;
+}
+aside nav > .opp-nav:hover,aside nav > button:hover{
+  background:#f4f5f5;
+  color:#15191c;
+  text-decoration:none;
+}
+main{padding:23px 3.7% 70px}
+.intro{margin-bottom:17px}
+.intro h1,.digest-intro h1,.opp-intro h1,.reddit-shell h1{
+  color:#17191b;
+  font-weight:820;
+  letter-spacing:-1.3px;
+  line-height:1.12;
+}
+.intro h1{font-size:clamp(35px,3.9vw,50px)}
+.intro .eyebrow{font-size:11px;letter-spacing:.09em;text-transform:uppercase;color:#83898b;font-weight:700}
+.events-section{
+  padding:17px 20px 15px;
+  margin:0 0 15px;
+  background:var(--pulse-white);
+  border:0!important;
+}
+.events-header{margin-bottom:13px;align-items:center}
+.events-header h2{font-size:clamp(20px,2.2vw,26px);font-weight:800;letter-spacing:-.55px;color:#1a1e20}
+.events-controls{gap:6px}
+.events-regions{gap:0;background:#f1f2f2;padding:3px;margin-right:4px}
+.events-regions button{
+  min-height:32px;
+  padding:5px 11px;
+  color:#626b70;
+  text-decoration:none!important;
+  font-weight:640;
+}
+.events-regions button.active{
+  background:#fff!important;
+  color:#1c2023!important;
+  text-decoration:none!important;
+}
+.event-arrow{background:#f1f2f2;border:0!important;color:#353a3d}
+.event-arrow:not(:disabled):hover{background:#e9ebeb;color:#1a1e20}
+.events-track{gap:8px}
+.event-card{
+  min-height:210px;
+  padding:14px 15px 12px;
+  background:#f6f7f7;
+  border:0!important;
+}
+.event-card[data-topic="AI"]{background:#f7f5fb}
+.event-card[data-topic="Product"]{background:#f4f8fa}
+.event-card[data-topic="Design"]{background:#fbf5f8}
+.event-title{font-weight:770;font-size:18px;color:#1b1e21;letter-spacing:-.35px}
+.event-description{color:#70787d;line-height:1.47}
+.event-location{font-size:11px}
+.event-bottom{margin-top:auto;gap:6px;padding-top:8px;border:0!important}
+.event-fee{font-size:10px;font-weight:750;line-height:1.25}
+.event-sources{margin:10px 0 1px}
+.toolbar{gap:8px}
+.search{
+  min-height:49px;
+  padding:10px 15px;
+  background:var(--pulse-white);
+  border:0!important;
+}
+.search span{display:grid;place-items:center;color:#22282c;line-height:1}
+.search svg{display:block;width:21px;height:21px}
+.search:focus-within{background:var(--pulse-white)}
+.search input{color:#1c2023;font-weight:500}
+.search input::placeholder{color:#969b9f}
+.filter-icon-button{
+  width:49px;height:49px;flex-basis:49px;
+  border:0!important;
+  background:#fff;
+  color:#353b3e;
+}
+.filter-icon-button:hover,.filter-icon-button[aria-expanded="true"]{
+  background:#e8ebeb;
+  color:#202729;
+  border:0!important;
+}
+.filter-panel{background:#fff;padding:12px 14px;margin:8px 0 0;gap:9px}
+.filter-panel .source-label{color:#747a7d;font-size:11px;font-weight:650}
+.filter-panel select,.opp-filters input,.opp-filters select{
+  min-height:42px;background:#f3f4f4;color:#242a2e;border:0!important;
+}
+.clear-filters,.load-more,.opp-save{
+  background:#e7ebeb;color:#333e43;border:0!important;font-weight:690;
+}
+.clear-filters:hover,.load-more:hover,.opp-save:hover{background:#dce3e3;color:#1e282d}
+#categories{
+  margin:14px 0 0;
+  padding:0 0 2px;
+  display:flex;gap:3px;
+  background:transparent;border:0!important;
+}
+#categories button{
+  position:relative;
+  color:#697075;
+  padding:10px 12px 12px;
+  min-height:43px;
+  font-size:12px;
+  font-weight:680;
+  line-height:1.25;
+  text-decoration:none!important;
+}
+#categories button.active{
+  color:#171b1e!important;
+  font-weight:800;
+  background:transparent!important;
+  text-decoration:none!important;
+}
+#categories button.active::after{
+  content:"";position:absolute;left:10px;right:10px;bottom:2px;height:3px;background:#7e9194;
+}
+#categories button:hover{color:#1f272a}
+#focus-explainer{margin:8px 0 3px}
+#focus-explainer button{color:#546970;font-weight:650}
+#status{color:#899093;margin:9px 0 8px}
+#news{gap:9px}
+.story--topic-migration{--card-bg:#f9fcfa;--card-accent:#537b65}
+.story--topic-ai{--card-bg:#faf9fd;--card-accent:#75668e}
+.story--topic-events{--card-bg:#fbfafd;--card-accent:#806b94}
+.story--topic-world{--card-bg:#f9fbfd;--card-accent:#58748e}
+.story--topic-ukraine{--card-bg:#fdfbf8;--card-accent:#947b58}
+.story--topic-poland{--card-bg:#fdfafb;--card-accent:#936b76}
+.story--topic-business{--card-bg:#f9fcfb;--card-accent:#657f82}
+.story--topic-tech{--card-bg:#f8fcfb;--card-accent:#5b8380}
+.story--topic-science{--card-bg:#fcfcf9;--card-accent:#83846a}
+.story--topic-design{--card-bg:#fdfafb;--card-accent:#8f6d83}
+.story--topic-cinema{--card-bg:#fcfafc;--card-accent:#8d728c}
+.story--topic-neutral{--card-bg:#ffffff;--card-accent:#758399}
+#news .story,#news .story--feature{
+  padding:17px 19px 13px;
+  background:var(--card-bg,#fff);
+  color:#1c2023;
+  border:0!important;
+  box-shadow:none!important;
+}
+#news .story--feature{padding:20px 23px 16px}
+#news .story-content{gap:11px}
+#news .story-heading,#news .story--compact .story-heading{
+  color:#1a1d1f;
+  font-size:clamp(18px,1.65vw,22px);
+  line-height:1.27;
+  font-weight:770;
+  letter-spacing:-.39px;
+  margin-bottom:6px;
+}
+#news .story--feature .story-heading{font-size:clamp(22px,2.4vw,29px);line-height:1.22;font-weight:810}
+#news .story-summary,#news .story--feature .story-summary{
+  color:#777e82;
+  line-height:1.5;
+  font-size:12px;
+}
+#news .story-media{background:#f0f1f1}
+#news .story-bottom,#news .story--feature .story-bottom{margin-top:11px;padding-top:8px;border:0!important}
+#news .story-date{color:#949a9f;font-size:11px;font-weight:580}
+#news .story-publisher-bottom{color:#7e858a;font-size:11px}
+#news .story-tag--topic,#news .story--feature .story-tag--topic{font-weight:790;color:var(--card-accent,#617580)}
+#news .story-bookmark,#news .story-translate{color:#647579}
+#news .story-bookmark:hover,#news .story-translate:not(:disabled):hover{background:rgba(36,47,51,.06)}
+.brief-section{margin-top:18px;padding-top:16px}
+.brief-head h2{font-weight:810;color:#1c2023}
+.brief-item{
+  margin:0 0 5px;
+  padding:11px 14px;
+  background:#fff;
+  border:0!important;
+  align-items:center;
+}
+.brief-title{color:#23282b;font-size:14px;font-weight:690}
+.brief-meta{color:#8d9597}
+.opp-shell,.digest-shell,.reddit-shell{color:#202427}
+.opp-lead,.digest-description,.reddit-intro{color:#747a7e}
+.opp-stats>div,.opp-card,.digest-section,.reddit-community{
+  background:var(--pulse-white);
+  border:0!important;
+  box-shadow:none!important;
+}
+.opp-stats>div{padding:19px 20px}
+.opp-stats strong{color:#27363c;font-weight:810}
+.opp-card{padding:21px 22px;gap:10px}
+.opp-card h2,.digest-heading h2,.reddit-shell section h2{color:#1e2427;font-weight:790;letter-spacing:-.38px}
+.opp-facts{border:0!important;background:#f6f7f7;padding:13px}
+.opp-country,.opp-evidence,.opp-evidence.is-official{background:#eff2f2;color:#66747a}
+.opp-warning,.digest-note{
+  background:#e9eded;
+  color:#5c696d;
+  padding:14px 16px;
+  border:0!important;
+}
+.digest-item{border:0!important;padding:12px 0}
+.digest-heading{border:0!important;padding-bottom:9px}
+.digest-item-title{color:#202427;font-weight:760}
+.digest-item-summary{color:#747d81}
+.reddit-scope,.reddit-live,.reddit-tabs{border:0!important}
+.reddit-tabs button.active{
+  border:0!important;
+  color:#1e272b;
+  text-decoration:none!important;
+  font-weight:770;
+}
+.reddit-tabs button.active::after{content:"";display:block;height:3px;background:#89999c;margin-top:5px}
+.reddit-community{padding:17px}
+.reddit-post{background:#fff;padding:13px 15px;margin:0 0 5px;border:0!important;align-items:flex-start}
+.reddit-post-title{color:#1f2529;font-weight:700}
+.reddit-post-meta{color:#899195}
+.reddit-footer{border:0!important}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{
+  outline:2px solid #60787c!important;
+  outline-offset:3px;
+}
+@media(min-width:761px) and (max-width:1050px){
+  .shell{grid-template-columns:205px minmax(0,1fr)}
+  aside{padding-left:10px}
+  aside nav{padding:8px}
+  main{padding:21px 2.5% 60px}
+}
+@media(max-width:760px){
+  header{
+    min-height:78px;height:auto;
+    padding:12px 15px;
+    gap:8px;
+  }
+  .brand{font-size:32px}
+  .fx-bar{padding:8px 9px}
+  .fx-quotes{gap:10px}
+  .fx-quote{gap:5px}
+  .fx-quote strong{font-size:12px}
+  .fx-symbol{font-size:9px}
+  .fx-source{font-size:9px}
+  .shell{display:block}
+  aside{padding:0 15px 12px;border:0}
+  aside nav{
+    display:flex;flex-wrap:nowrap;overflow:auto;
+    width:100%;gap:2px;
+    padding:5px 7px;
+    background:#fff;
+    scrollbar-width:none;
+  }
+  aside nav > .opp-nav,aside nav > button{
+    flex:0 0 auto;
+    font-size:12px;
+    min-height:40px;
+    padding:9px 10px;
+    white-space:nowrap;
+  }
+  main{padding:10px 15px 50px}
+  .intro{margin-bottom:14px}
+  .intro h1{font-size:33px;letter-spacing:-.9px}
+  .events-section{padding:15px 14px 12px;margin-bottom:12px}
+  .events-header{gap:10px}
+  .events-header h2{font-size:21px}
+  .events-regions button{font-size:12px}
+  .events-track{grid-auto-columns:min(78vw,276px);gap:8px}
+  .event-card{min-height:208px;padding:13px 14px}
+  .event-title{font-size:17px}
+  .event-arrow{width:30px;height:30px}
+  .search{min-height:46px;padding:9px 12px}
+  .filter-icon-button{width:46px;height:46px;flex-basis:46px}
+  .filter-panel{padding:12px}
+  #categories{margin-top:10px}
+  #categories button{font-size:12px;min-height:42px;padding:9px 11px}
+  #news{gap:7px}
+  #news .story,#news .story--feature,#news .story--wide,#news .story--compact,#news .story--standard{
+    padding:14px 15px 12px;
+  }
+  #news .story--feature .story-heading{font-size:21px}
+  #news .story-heading,#news .story--compact .story-heading{font-size:18px;line-height:1.26}
+  #news .story-summary,#news .story--feature .story-summary{font-size:12px}
+  #news .story-content{gap:9px}
+  #news .story-bottom,#news .story--feature .story-bottom{margin-top:9px;padding-top:6px}
+  #news .story-publisher-bottom,#news .story-date{font-size:10px}
+  .brief-item{padding:11px 12px}
+  .opp-shell{padding:22px 15px 52px}
+  .digest-shell{padding:22px 15px 52px}
+  .reddit-shell{width:calc(100% - 30px);margin:19px auto 52px}
+  .opp-card{padding:18px}
+  .digest-section{padding:15px}
+}
+@media(max-width:355px){
+  header{flex-wrap:wrap}
+  .fx-bar{margin-left:auto}
+  .brand{font-size:29px}
+}
