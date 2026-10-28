@@ -2,6 +2,8 @@
 const $ = s => document.querySelector(s);
 let articles = [], sourceStatuses = [], updated = 0, mode = 'all', category = '', saved = {}, visibleLimit = 60;
 let storageOK = true;
+let imagesEnabled = true;
+try { imagesEnabled = localStorage.getItem('pulse-show-images') !== 'off'; } catch {}
 try { saved = JSON.parse(localStorage.getItem('pulse-saved') || '{}'); if (!saved || Array.isArray(saved) || typeof saved !== 'object') saved = {}; } catch { storageOK = false; }
 $('#today').textContent = new Intl.DateTimeFormat('uk-UA', {day:'numeric',month:'long',year:'numeric'}).format(new Date());
 const el = (tag, text, cls) => {const n = document.createElement(tag); if(text) n.textContent=text; if(cls) n.className=cls; return n;};
@@ -283,7 +285,7 @@ function render(){
  const originNames={official:'Держорган',developer:'Розробник AI',discovery:'Google News',research:'Дослідження',expert:'Експерт',community:'Спільнота',media:'Медіа'};
  for(const [index,a] of list.slice(0,visibleLimit).entries()){
   const layout=editorialLayout(index);
-  const image=(index===0||index%3===0||layout==='story--wide')?safePreviewImage(a.image_url):'';
+  const image=imagesEnabled&&(index===0||index%3===0||layout==='story--wide')?safePreviewImage(a.image_url):'';
   const card=el('article',null,'story '+layout+' story--tone-'+(index%5)+(image?' story--with-image':' story--no-image'));
   card.dataset.pulseArticleId=a.id;
   viewportRows.set(a.id,a);
@@ -401,6 +403,12 @@ function resetFilter(){visibleLimit=60;render();}
  $('#search').oninput=resetFilter;$('#source').onchange=resetFilter;$('#country').onchange=resetFilter;
  $('#origin').onchange=resetFilter;$('#sort').onchange=resetFilter;$('#refresh').onclick=load;
  $('#load-more').onclick=()=>{visibleLimit+=60;render();};
+$('#show-images').checked=imagesEnabled;
+$('#show-images').onchange=()=>{
+  imagesEnabled=$('#show-images').checked;
+  try{localStorage.setItem('pulse-show-images',imagesEnabled?'on':'off');}catch{}
+  render();
+};
 $('#auto-translate').checked=autoEnabled;
 $('#auto-translate').onchange=()=>{
   autoEnabled=$('#auto-translate').checked;
