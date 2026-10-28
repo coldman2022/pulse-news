@@ -110,6 +110,7 @@ def build(output):
     personal_temp.write_text(json.dumps(personal_payload, ensure_ascii=False), encoding='utf-8')
     personal_temp.replace(output / 'personal.json')
     (output / '.nojekyll').touch()
+    print(f"Editorial {len(editorial['articles'])} of {len(payload['articles'])} archived articles")
     print(f"Built {len(payload['articles'])} articles; sources: {payload['sources']}")
     return payload
 
