@@ -1,6 +1,6 @@
 {
   "curated": "2026-10-28",
-  "note": "Дати та URL перевірено на сторінках організаторів. Добірка редакційна, без автоматичного парсингу.",
+  "note": "Події тільки в Польщі, Німеччині, Чехії, Словаччині, Румунії, Італії, Угорщині та Австрії; перевірені за сторінками організаторів.",
   "events": [
     {
       "id": "pmday-bologna-2026",
@@ -31,20 +31,6 @@
       "verified_on": "2026-10-28"
     },
     {
-      "id": "web-summit-lisbon-2026",
-      "title": "Web Summit 2026",
-      "start": "2026-11-09",
-      "end": "2026-11-12",
-      "city": "Лісабон",
-      "country": "Португалія",
-      "region": "EU",
-      "topic": "AI",
-      "organizer": "Web Summit",
-      "description": "Технологічні компанії, презентації продуктів, AI, стартапи та міжнародний нетворкінг.",
-      "url": "https://websummit.com/web-summit-2026/",
-      "verified_on": "2026-10-28"
-    },
-    {
       "id": "digitale-leute-2026",
       "title": "Digitale Leute Summit 2026",
       "start": "2026-11-17",
@@ -70,20 +56,6 @@
       "organizer": "GDG Poznań · Sii",
       "description": "Безкоштовна зустріч з виступами про AI, Google-технології та обговоренням із фахівцями.",
       "url": "https://gdg.community.dev/events/details/google-gdg-poznan-presents-devfest-poznan-2026-x-sii-poznan-x-techweek-pozitivetech/",
-      "verified_on": "2026-10-28"
-    },
-    {
-      "id": "slush-helsinki-2026",
-      "title": "Slush 2026",
-      "start": "2026-11-18",
-      "end": "2026-11-19",
-      "city": "Гельсінкі",
-      "country": "Фінляндія",
-      "region": "EU",
-      "topic": "Product",
-      "organizer": "Slush",
-      "description": "Великий стартап-саміт, зустрічі з фаундерами, інвесторами та продуктовими командами.",
-      "url": "https://slush.org/event-info",
       "verified_on": "2026-10-28"
     },
     {
