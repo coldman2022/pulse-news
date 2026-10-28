@@ -9,12 +9,12 @@ import re
 from urllib.parse import urlsplit
 
 WINDOW_HOURS = 72
-FEATURED_LIMITS = {"Імміграція": 11, "AI": 11, "Польща": 5, "Дизайн": 3}
+FEATURED_LIMITS = {"Імміграція": 9, "AI": 7, "Польща": 5, "Дизайн": 2}
 BRIEF_LIMITS = {"Світ": 6, "Технології": 7, "Україна": 4,
                 "Бізнес": 3, "Наука": 2, "AI-події": 3,
                 "Імміграція": 4, "AI": 4, "Польща": 3, "Дизайн": 2}
-MAX_FEATURED = 26
-MAX_BRIEF = 20
+MAX_FEATURED = 18
+MAX_BRIEF = 12
 
 IMMIGRATION = re.compile(
     r"immigra\w*|migracj\w*|migrant\w*|residen\w*|resydencj\w*|"
@@ -114,6 +114,10 @@ def classify(article):
     category = article.get("category") or ""
     title = _title(article)
     if not title:
+        return None, 0
+    # Exclude routine murders, violent-crime and lifestyle stories even when
+    # they mention Poland or refugees; they remain in the full archive.
+    if CRIME_NOISE.search(title) or LIFESTYLE_NOISE.search(title):
         return None, 0
     has_immigration = bool(IMMIGRATION.search(title))
     law = bool(LAW_CHANGE.search(title))
