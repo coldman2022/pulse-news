@@ -83,6 +83,21 @@ class PersonalFeedTests(unittest.TestCase):
             sorted((a["published"] for a in feed["featured"]),reverse=True)
         )
 
+    def test_reaction_candidate_pool_is_bounded_and_contains_only_featured(self):
+        data=[
+            article("OpenAI launches new GPT model version " + str(n),
+                    "AI", "developer", "Publisher" + str(n), NOW-n*30, str(n))
+            for n in range(250)
+        ]
+        data.append(article("Police investigate local murder", "Світ",
+                            idx="unrelated"))
+        result=personal_feed.build_personal_feed(data, NOW)
+        self.assertLessEqual(len(result["candidates"]), 180)
+        self.assertNotIn("unrelated", [item["id"] for item in result["candidates"]])
+        self.assertTrue(all(isinstance(item["relevance_score"], int)
+                            for item in result["candidates"]))
+        self.assertEqual(len(result["featured"]), personal_feed.MAX_FEATURED)
+
     def test_integration_json_stays_independent_from_complete_feed(self):
         from pathlib import Path
         root=Path(__file__).resolve().parent
