@@ -52,7 +52,7 @@ class IOSKeyboardSearchTests(unittest.TestCase):
                      "digest","opportunities","reddit"):
             html=(ROOT/(page+".html")).read_text(encoding="utf-8")
             self.assertIn("style.css?v=29",html,page)
-            self.assertIn("mobile.js?v=7",html,page)
+            self.assertIn("mobile.js?v=8",html,page)
 
 if __name__=="__main__":
     unittest.main()
