@@ -47,7 +47,7 @@ class PressHoldShareTests(unittest.TestCase):
         self.assertIn('app.js?v=22',index)
         self.assertIn('motivation.js?v=4',motivation)
         for file in ("index.html","motivation.html","digest.html","reddit.html","opportunities.html"):
-            self.assertIn("style.css?v=28",(ROOT/file).read_text(encoding="utf-8"))
+            self.assertIn("style.css?v=29",(ROOT/file).read_text(encoding="utf-8"))
 
 if __name__=="__main__":
     unittest.main()

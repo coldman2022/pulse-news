@@ -37,7 +37,7 @@ class BuildTests(unittest.TestCase):
                              dict(name='The Guardian', ok=False, cached=True))
             self.assertEqual(json.loads((output / 'news.json').read_text()), payload)
             html = (output / 'index.html').read_text()
-            self.assertIn('href="./style.css?v=28"', html)
+            self.assertIn('href="./style.css?v=29"', html)
             self.assertIn('src="./app.js?v=22"', html)
             self.assertTrue((output / '.nojekyll').exists())
             self.assertTrue((output / 'opportunities.html').exists())
