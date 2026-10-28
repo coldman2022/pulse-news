@@ -1,6 +1,7 @@
 'use strict';
 const $ = s => document.querySelector(s);
-let articles = [], archiveArticles = [], archiveCount = 0, focusArticles = [], briefArticles = [], sourceStatuses = [], updated = 0, mode = 'all', category = '', saved = {}, visibleLimit = 60;
+const initialMode = new URLSearchParams(location.search).get('mode');
+let articles = [], archiveArticles = [], archiveCount = 0, focusArticles = [], briefArticles = [], sourceStatuses = [], updated = 0, mode = ['all','focus','saved','archive'].includes(initialMode) ? initialMode : 'all', category = '', saved = {}, visibleLimit = 60;
 let storageOK = true;
 const imagesEnabled = true;
 try { saved = JSON.parse(localStorage.getItem('pulse-saved') || '{}'); if (!saved || Array.isArray(saved) || typeof saved !== 'object') saved = {}; } catch { storageOK = false; }
@@ -241,7 +242,7 @@ function articleDate(ts) {
  if(Number.isNaN(date.getTime()))return 'Без дати';
  const dayMonth=date.toLocaleDateString('uk-UA',{day:'numeric',month:'short'});
  const time=date.toLocaleTimeString('uk-UA',{hour:'2-digit',minute:'2-digit',hour12:false});
- return dayMonth+' · '+time;
+ return time+' · '+dayMonth;
 }
 function editorialLayout(index) {
  if(index===0)return 'story--feature';
@@ -493,7 +494,7 @@ $('#clear-filters').onclick=()=>{
   resetFilter();
 };
  translationStatus();
-for(const b of document.querySelectorAll('[data-mode]')){b.onclick=()=>{mode=b.dataset.mode;visibleLimit=60;for(const n of document.querySelectorAll('[data-mode]')){n.classList.toggle('active',n===b);n.setAttribute('aria-pressed',String(n===b));}if(mode==='all'&&!articles.length || mode==='archive'&&!archiveArticles.length || mode==='focus'&&!focusArticles.length)load();else render();};b.setAttribute('aria-pressed',String(b.classList.contains('active')));}
+for(const b of document.querySelectorAll('[data-mode]')){b.onclick=()=>{mode=b.dataset.mode;visibleLimit=60;for(const n of document.querySelectorAll('[data-mode]')){const active=n.dataset.mode===mode;n.classList.toggle('active',active);n.setAttribute('aria-pressed',String(active));}window.dispatchEvent(new CustomEvent('pulse-mode',{detail:{mode}}));if(mode==='all'&&!articles.length || mode==='archive'&&!archiveArticles.length || mode==='focus'&&!focusArticles.length)load();else render();};const active=b.dataset.mode===mode;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));}
 for(const b of document.querySelectorAll('[data-category]')){b.onclick=()=>{category=b.dataset.category;visibleLimit=60;for(const n of document.querySelectorAll('[data-category]')){n.classList.toggle('active',n===b);n.setAttribute('aria-pressed',String(n===b));}render();};b.setAttribute('aria-pressed',String(b.classList.contains('active')));}
 $('#how-focus-works').onclick=()=>{const b=$('#how-focus-works');const expanded=b.getAttribute('aria-expanded')==='true';$('#focus-help').hidden=expanded;b.setAttribute('aria-expanded',String(!expanded));};
 load();setInterval(load,300000);
