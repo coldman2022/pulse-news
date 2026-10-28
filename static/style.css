@@ -2111,3 +2111,31 @@ body,header{background:var(--paper)}
 @media(min-width:761px){
   .pulse-dock-menu-backdrop{display:none!important}
 }
+
+
+/* Pulse v30 — iOS keyboard-safe search. During editing, fit the sheet in the
+   visible viewport rather than leaving it bottom-anchored under the keyboard. */
+@media(max-width:760px){
+  .pulse-dock-search.pulse-dock-search--editing{
+    top:calc(var(--pulse-visible-top,0px) + 8px);
+    bottom:auto;
+    height:calc(var(--pulse-visible-height,100dvh) - 16px);
+    max-height:calc(var(--pulse-visible-height,100dvh) - 16px);
+    min-height:0;
+    box-sizing:border-box;
+    overflow:hidden;
+    padding-top:12px;
+  }
+  .pulse-dock-search--editing .pulse-dock-search-results{
+    min-height:0;
+    overflow-y:auto;
+    flex:1 1 auto;
+  }
+  body.pulse-search-open:has(.pulse-dock-search--editing) .pulse-dock{
+    visibility:hidden;
+    pointer-events:none;
+  }
+}
+@media(prefers-reduced-motion:no-preference){
+  .pulse-dock-search.pulse-dock-search--editing{animation:none}
+}
