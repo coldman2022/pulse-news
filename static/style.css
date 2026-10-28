@@ -621,3 +621,7 @@ nav button.active, #categories button.active, .events-regions button.active {
  .brief-item .brief-meta {grid-column:1;max-width:100%;justify-content:flex-start;margin:0;gap:3px 7px;}
  .brief-item .brief-tools {grid-column:2;grid-row:2;}
 }
+
+/* Cinema gets a distinct fixed topic hue, not a position-based card color. */
+.story--topic-cinema{--card-bg:#f5eaf2;--card-accent:#873c74}
+#news .story--topic-cinema .story-tag--topic{color:#873c74}
