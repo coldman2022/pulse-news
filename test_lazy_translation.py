@@ -8,8 +8,8 @@ class LazyTranslationTests(unittest.TestCase):
         html=(ROOT/'static/index.html').read_text(encoding='utf-8')
         self.assertIn('id="auto-translate"', html)
         self.assertIn('id="translation-budget"', html)
-        self.assertIn('style.css?v=6',html)
-        self.assertIn('app.js?v=6',html)
+        self.assertIn('style.css?v=7',html)
+        self.assertIn('app.js?v=7',html)
 
     def test_viewport_only_with_budget_and_per_browser_cache(self):
         js=(ROOT/'static/app.js').read_text(encoding='utf-8')
