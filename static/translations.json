@@ -1,9 +1,1812 @@
 {
   "schema": 1,
-  "updated": 0,
-  "articles": {},
+  "updated": 1793188434,
+  "articles": {
+    "b5cc17aeeea9e10a1bc1": {
+      "source_title": "At least 30 people reported dead in high-speed Spain train crash",
+      "source_summary": "It is the second deadly high-speed train collision in Spain this year.",
+      "language": "en",
+      "title": "Принаймні 30 чоловік загинуло в іспанському аварії.",
+      "summary": "Це друге смертельне зіткнення швидкісного поїзда в Іспанії цього року.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "3c84bdc9f1b42a292410": {
+      "source_title": "Meta quietly launched an ‘AI pet journal’ app",
+      "source_summary": "Meta has launched a \"tamagotchi-style\" pet game called Waddle World, with virtual creatures that chat with users and create doodles to illustrate conversations. According to its Apple and Play Store listings, the \"16-bit pet care game\" is not really a game, but \"a daily journal disguised as a pet.\" Users should talk, not type, with […]",
+      "language": "en",
+      "title": "Метапокрокова програма \"АІТі\"",
+      "summary": "Мета запустила гру у стилі \" Tamagochi \" з назвою World з віртуальними істотами, які спілкуються з користувачами і створюють каракулі для ілюстрації розмов. Згідно зі списками Apple і Play Tell, гра \" 16- бітова домашня гра \" не є насправді грою, але \" щоденником, що замаскований як домашня тварина .\" Користувачам слід розмовляти, не набрати на клавіатурі, з [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "96b2dacc459d1285545b": {
+      "source_title": "Black Friday or Travel Tuesday? How to secure the best deals on hotels and flights in 2026",
+      "source_summary": "We might not celebrate Thanksgiving in Europe, but that doesn’t mean you can’t snag yourself a holiday bargain this November.",
+      "language": "en",
+      "title": "Як забезпечити найкраще вирішення проблем готелів та польотів у 2026 році?",
+      "summary": "Ми не можемо відзначити День подяки в Європі, але це не означає, що ви можете піти у відпустку.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "76339f51e8bdbad22e44": {
+      "source_title": "Death toll in Spain train crash rises to at least 30, with rescue and recovery operations ongoing",
+      "source_summary": "Two high speed trains carrying hundreds of passengers collided in central Spain south of Madrid. Officials warn that the death toll is likely to increase. Follow DW.",
+      "language": "en",
+      "title": "В Іспанії сталася аварія, і в результаті подальших заходів порятунку та відновлення здоров'я не вщухали.",
+      "summary": "У Центральній Іспанії на південь від Мадрида два швидкісних поїзди, які перевозили сотні пасажирів, зіткнулися.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "d4a0007346efecc0f3f6": {
+      "source_title": "Here’s the latest.",
+      "source_summary": "One train rear-ended another, sending two carriages down an embankment.",
+      "language": "en",
+      "title": "Тут ми знаходимо останні новини.",
+      "summary": "Один поїзд задніх за іншим, відправляючи два вагони по березі.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "58e15c15b70a3aa2b848": {
+      "source_title": "Social media on trial again: Meta and Snap face jury over alleged harm to teens",
+      "source_summary": "The latest case is a sign of the mounting legal pushback around the world against the alleged harms of social media to users, especially children and teens.",
+      "language": "en",
+      "title": "Соціальні медіа знову на суд: Мета і приклеювання особи присяжні за гадану шкоду підліткам",
+      "summary": "Останні дані показують, що по всьому світі дедалі більше людей відхиляється від уявних небезпек соціальних медіа, особливо дітей і підлітків.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "4c6f47408e7ef7a06714": {
+      "source_title": "Here’s the latest.",
+      "source_summary": "",
+      "language": "en",
+      "title": "Тут ми знаходимо останні новини.",
+      "summary": "",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "98772596cc6eceb3eef3": {
+      "source_title": "Spain: First footage reveals wreckage of deadly high-speed train crash",
+      "source_summary": "At least 10 people died when a high-speed train struck another near Toledo, Spain. Two carriages derailed, leaving rescuers searching through the wreckage as authorities warned the death toll could rise.",
+      "language": "en",
+      "title": "Іспанія: Перший матеріал показує, що смертельний високошвидкісний поїзд розбився.",
+      "summary": "Два вагони з дорогими вагонами, що залишили рятувальників, які обшукували уламки, як влада попереджала про те, що кількість жертв може повисти.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "a98c75a555f4333abc23": {
+      "source_title": "Eurovision confirms candidates for 2027 — but 2 EU countries are still on the fence",
+      "source_summary": "Ireland, the Netherlands and Iceland will once again boycott the competition next year.",
+      "language": "en",
+      "title": "Євровидіння підтверджує кандидатів на 2027 ⇩ Але 2 країни ЄС все ще на паркані.",
+      "summary": "Ірландія, Нідерланди та Ісландія знову бойкотуватимуть змагання наступного року.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "7e10966bd252ba3af43e": {
+      "source_title": "Rivals in Israel Election Strike Tone of Triumph, but Outcome Is Far From Clear",
+      "source_summary": "Addressing supporters after midnight, Prime Minister Benjamin Netanyahu and Gadi Eisenkot, who leads a bloc of opposition parties, both expressed confidence that they will lead Israel’s next government. Vote counting could take days.",
+      "language": "en",
+      "title": "Перемоги в Ізраїлі відібрали від перемоги, але результати далеко нестільні",
+      "summary": "Звернення до прихильників після півночі, прем'єр-міністр Бенджамін Нетанягу і Ґаді Ейзенкот, які очолюють блок опозиційних партій, висловили впевненість, що вони вестимуть Ізраїль, наступний уряд.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "a46c124bc6fa2fef1b3f": {
+      "source_title": "Israel election results live: Netanyahu bloc and main opposition set to fall short of majority as 84% of ballots counted",
+      "source_summary": "Opposition bloc and Netanyahu’s coalition predicted to fall short of 61 seats needed to form a government, while Palestinian parties set for big gainsFull report: Coalition talks loom as Israel exit polls suggest Netanyahu and Eisenkot blocs tiedAnalysis: Rise of Palestinian parties in Knesset will redraw Israel’s political landscapeIsrael election: what we know so farOne apparent loser from Tuesday’s election was far-right national security minister Itamar Ben-Gvir, who was expected to better his party’s result of six seats from the 2022 elections.But instead there was stunned silence at the",
+      "language": "en",
+      "title": "В Ізраїлі відбуваються вибори: блок Нетаньягу і головний опір, який не відповідає більшості, становлять 84% від кількості балотів.",
+      "summary": "Протистояння та союз Нетаньягу, які передбачають, що не будуть 61 місця, потрібні для встановлення уряду, а палестинські партії, які встановлюються для великих вигод, звіт: Коаліція говорить \"обговорення\" про вихід Ізраїлю, що передбачає, що Nalananajo та Eisencot блоки зв'язані Аналікс: \"Вибори палестинських партій\" на Кнесет відб'є Ізраїль на політичній площі: те, що ми знаємо настільки помітний невдаха з вівторгів у вівторок був далекою національним міністром безпеки Імар Бен-Гарі, який очікував кращого результату його партій з 2022 виборів. Але замість цього, було приголомшено на в залі Сполучених Штатах,",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "d7104bfcd17c1bd841b6": {
+      "source_title": "At least 30 dead after two trains collide in Spain – latest updates",
+      "source_summary": "Spain’s rail system operator ADIF said the crash occurred Wednesday morning in the province of ToledoFull report from SpainAt least 30 people are believed to have died after two high-speed trains collided in the province of Toledo in Spain, with concerns the death toll could be much higher.The number of people affected is expected to rise (10:46), local authorities said, with growing concerns about a “major tragedy” (11:03).The affected trains are understood to be Iryo 7076 with 146 passengers plus one baby on board, and AVE 2080 with 397 passengers on board, making it 544 people in total on b",
+      "language": "en",
+      "title": "Принаймні 30 мертвих після зіткнення двох поїздів в Іспанії ♫ Останні оновлення",
+      "summary": "В Іспанії оператор рейкового апарату АДІФ сказав, що аварія сталася в середу ранком у провінції Толедо Фалл, що виходить з Іспанії щонайменше 30 чоловік, які померли після того, як два швидкісні поїзди зіткнулися в провінції Толедо в Іспанії, з занепокоєнням, що смертельна втрата може бути набагато вищою. Кількість жертв, на яку нанесено шкоду, очікується підвищення числа 10: 46), місцева влада сказала, що з огляду на зростання уваги щодо трагедії у місті Амаджо (11:03). Затьмарені поїзди, як вважають, були Ірино 7076 з 146 пасажирами, а одна дитина на дошці, а 20VE з 397 пасажирами на дошці, що на борту, зробили це число 544 осіб на 544 на 57 осіб.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "6913a1dc75755c92e00d": {
+      "source_title": "US to grant Flavio Bolsonaro visa as he flees Brazil and makes brief stop in Ecuador via Argentina",
+      "source_summary": "On Monday, Bolsonaro described the travel ban as an attempt to intimidate him, insisting he had no plans to leave Brazil.",
+      "language": "en",
+      "title": "США, щоб дати Флавіо Болсонаро візу, коли він тікає з Бразилії і робить коротку зупинку в Еквадорі через Аргентину.",
+      "summary": "У понеділок Болсонаро назвав заборону на подорожі спробою залякати його, наполягаючи, що він не має наміру залишити Бразилію.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "f6b44ffa500805bdecad": {
+      "source_title": "Oil prices rise as Houthi attacks on Saudi refinery raise supply worries",
+      "source_summary": "Oil prices climbed Wednesday as investors weighed the prospect of a prolonged conflict in the Middle East.",
+      "language": "en",
+      "title": "Коли Хіті атакує газопереробний завод, ціни на нафту зростають.",
+      "summary": "По середах ціни на нафту підвищилися, коли інвестори зважали на перспективу тривалої війни на Близькому Сході.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "6258bd53ab6b73b9d32a": {
+      "source_title": "Budget 2026 live: gas standing charges to be scrapped for millions as chancellor prepares to deliver budget",
+      "source_summary": "John Healey says UK faces ‘difficult moment’ as he prepares to deliver first budget of Andy Burnham’s governmentYou be the chancellor: play our budget game to see if you can balance the booksMartin Lewis said that, when he met John Healey this morning, the chancellor said that, having removed standing charges from gas bills, he would also like to get rid of them from electricity bills. Lewis said:The chancellor said he will be talking to Ofgem about how they get rid of the charge on electricity as well, but that is ‘trickier’ apparently and will take longer. Continue reading...",
+      "language": "en",
+      "title": "Бюджет 2026 року живий: мільйони людей повинні зняти з себе газ, який буде вичерпано, коли канцлер готується до до доставки бюджету.",
+      "summary": "Джон Хайлі говорить, що Великобританія дивиться на ♫ Коли він готується до першого бюджету Енді Бернема, який є канцлером: грайте у бюджет, щоб побачити, чи можна збалансувати книжки \" Марті Луїс \" (англ.), сказав, що коли він зустрів Джона Гілі сьогодні вранці, канцлер сказав, що, усунувши заряди з газових куп, він також хотів би позбутися їх від електроенергійних купюр.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "049aa08fa44519ff4108": {
+      "source_title": "First aerial images show scene of deadly train crash in Toledo, Spain",
+      "source_summary": "Aerial footage shows the aftermath of a collision between two high-speed trains near Urda, in Spain's Toledo province, as emergency crews continue rescue and response operations.",
+      "language": "en",
+      "title": "Перша аерофотографія показує, як смертельно розбивався поїзд у Толедо (Іспанія).",
+      "summary": "Аерофотографія показує наслідки зіткнення двох швидкісних поїздів поблизу Урди, в іспанській провінції Толедо, оскільки екіпажі продовжують рятувальні дії та реагують на допомогу.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "d7ec8cdf3b7ee95fe15b": {
+      "source_title": "Japan football association official resigns after AFC aligns with Infantino",
+      "source_summary": "Vice president Takeshi Okada said responses to several World Cup controversies did not align with his personal values.",
+      "language": "en",
+      "title": "Японське товариство футболістів відступає після того, як токсини вирівняють з пітіно",
+      "summary": "Віце-президент Такеші Окада сказав, що відповіді на кілька світових суперечок не відповідають його особистим цінностям.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "ca153a5d261a1ac61cd2": {
+      "source_title": "Facing Waters ‘the Color of Chocolate,’ Mexico Declares War on Seaweed",
+      "source_summary": "To protect Mexico’s tourism-reliant economy, the Navy is fighting a massive sargassum bloom that dumps thousands of tons of seaweed onto Caribbean beaches daily.",
+      "language": "en",
+      "title": "Description",
+      "summary": "Щоб захистити Мексіку, морський флот бореться з масивним цвітом саргассум, який щодня викидає тисячі тонн водоростей на узбережжя Карибського моря.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "99728b8abb3fa147aebf": {
+      "source_title": "Deadly high-speed train collision in Spain",
+      "source_summary": "At least 39 people have been killed after two high-speed trains collided near Urda, Spain.",
+      "language": "en",
+      "title": "Смертельне зіткнення швидкісного поїзда в Іспанії",
+      "summary": "Принаймні 39 людей загинуло після зіткнення двох швидкісних поїздів біля Урди, Іспанії.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "80c37456e724e6e5ab01": {
+      "source_title": "Spain train crash: at least 30 dead after collision in Toledo province",
+      "source_summary": "High-speed service reportedly runs into back of another, knocking two carriages off trackSpain train crash – latest updatesAt least 30 people have been killed after two high-speed trains collided in Toledo province in central Spain, on the line between Madrid and Seville.Footage broadcast by the regional channel CMM TV ​showed a derailed train with at least one carriage remaining on an elevated section of track. Twisted metal, broken panels and wreckage could be seen strewn across an embankment beneath the line. Continue reading...",
+      "language": "en",
+      "title": "Катастрофа іспанського поїзда: принаймні 30 мертвих після зіткнення в Толедо провінції",
+      "summary": "Кажуть, що швидкодію везуть у іншу, і дві вагони, що проходять з поїзда до Іспанії, ♫ Останні оновлення принаймі 30 людей було вбито після того, як два швидкісні поїзди зіштовхнулися у Толедо провінції центральної Іспанії, на лінії між Мадридом і Севільєю. Передбачення регіонального каналу CMT ТБ показали роз'єднаний поїзд з принаймні одним вагоном, який залишився на підвищеному секторі треку. Поламані панелі і уламки можна було побачити на розмиті вздовж блони під рейкою. Продовжуючи читання...",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "bab4d2d109d6ff570d7f": {
+      "source_title": "China’s snooping around Pacific undersea cables raises risks for Big Tech",
+      "source_summary": "US-owned trans-Pacific cables face growing risks from sabotage and China.",
+      "language": "en",
+      "title": "Китай плюнув навколо Тихого океану під морськими кабелями, і це збільшує ризик для Великої Технології.",
+      "summary": "Передові кабелі, що лежать в основі США, ризикують збанкрутувати та у Китаї.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "21457ab912227897ca8c": {
+      "source_title": "Palestinian activist Mahmoud Khalil returns to Columbia after US detention",
+      "source_summary": "Pro-Palestinian activist Mahmoud Khalil returned to Columbia University for the first time since his US detention.",
+      "language": "en",
+      "title": "Палестинський активіст Махмуд Халіль повертається до Колумбії після арешту США",
+      "summary": "Пролестинський активіст Махмуд Халіль повернувся до Колумбійського університету вперше після арешту в США.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "e3d9fe5ced46bf48c688": {
+      "source_title": "Latest news bulletin | October 28th, 2026 – Midday",
+      "source_summary": "Catch up with the most important stories from around Europe and beyond this October 28th, 2026 - latest news, breaking news, World, Business, Entertainment, Politics, Culture, Travel.",
+      "language": "en",
+      "title": "Останні новини про випуск 28 жовтня, 2026 }Дня",
+      "summary": "Досліджуйте найважливіші історії з цілої Європи і за цим 28 жовтня 2026 року - останні новини, новини про новини, світ, бізнес, розваги, політика, культура, подорожі.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "979f4b376d01b3fa99a8": {
+      "source_title": "Google alters its cloud playbook, enlisting partners to sell more AI chips",
+      "source_summary": "Google is opening its TPU business beyond its own cloud as custom chips become a bigger engine for growth.",
+      "language": "en",
+      "title": "Google змінює свою \"чарівну книгу\" з завербуванням партнерів на продаж більше чіпів комп'ютера",
+      "summary": "Гугл відкриває свій бізнес ТПУ поза своєю хмарою, оскільки звичайні чіпи стають більш потужним двигуном для росту.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "94ff30a2cce927620910": {
+      "source_title": "Our Favorite L.A. Movies: Artists, Directors and Other Locals Share the Films That Capture the City",
+      "source_summary": "Artists, directors and other locals on their favorite films set in the city, both in and beyond Hollywood.",
+      "language": "en",
+      "title": "Наші улюблені фільми Лос-Анджелеса: художники, режисери та інші місцеві дільниці діляться фільмами, які захоплюють місто",
+      "summary": "Художники, режисери та інші місцеві жителі на своїх улюблених фільмах, що були в місті, як у Голлівуді, так і за його межами.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "64a536a31f05725e4f5f": {
+      "source_title": "Investors brace for a hawkish hold and tech on tap",
+      "source_summary": "Earnings from Alphabet and Microsoft will give another pulse check on AI",
+      "language": "en",
+      "title": "Інвестори готуються до яструбівського хаща і техніки на крані.",
+      "summary": "Вухо від Alphabet і Microsoft дасть ще один пульсатор на комп'ютері",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "d871267852331796205e": {
+      "source_title": "Can we regrow damaged seagrass meadows?",
+      "source_summary": "Seagrass protects coasts, shelters thousands of species and stores CO2. But some 30% of this valuable ecosystem has disappeared since the late 19th century. Can we bring it back?",
+      "language": "en",
+      "title": "Чи можемо ми відновити пошкоджені луги?",
+      "summary": "Морські трави захищають береги, притуляють до сховища тисячі видів та зберігають CO2.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "e81d58d2908831501a7f": {
+      "source_title": "Ukraine: Ceasefire holds for its first 30 hours in occupied Oleshky",
+      "source_summary": "A local ceasefire in the Russian-occupied southern Ukrainian city of Oleshky held through its first day and night, despite continued fighting between Moscow and Kyiv elsewhere. The truce, which began on Tuesday in the devastated city, is expected to remain in place until Sunday. Emerald Maxwell reports.",
+      "language": "en",
+      "title": "Україна: Упродовж перших 30 годин перебування в Олескі, яке займало територію, де було окуповане пожежа.",
+      "summary": "Перемир'я, що почалося у вівторок зруйнованого міста, має залишатися на місці до неділі.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "1d4e8462f96e7f025266": {
+      "source_title": "Norway's premier says call with Putin was effort to present European views - Reuters",
+      "source_summary": "Norway's premier says call with Putin was effort to present European views Reuters",
+      "language": "en",
+      "title": "Допит Путіна був першим, хто звернувся до Норвегії, щоб представити європейські погляди.",
+      "summary": "Прем'єр Норвегії сказав, що виклик з Путіном був спробою представити європейські погляди Рейтер",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "d56f17846059b81787af": {
+      "source_title": "For Israel’s Neighbors in Middle East, the Election Offers Little Hope of a Reset",
+      "source_summary": "Few countries in the Middle East expect a turning point in relations with Israel. But the outcome of the vote has implications for the regional conflict with Iran.",
+      "language": "en",
+      "title": "Для Ізраїлю дріт на Близькому Сході есе приносить маленьку надію на скинення",
+      "summary": "Мало хто з країн Близького Сходу очікує поворотного пункту у стосунках з Ізраїлем, але наслідки голосування стосуються регіонального конфлікту з Іраном.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "39e0b6019d977ae2d84a": {
+      "source_title": "Flávio Bolsonaro Leaves Brazil for the U.S. After Election Defeat",
+      "source_summary": "Officials in Argentina said Mr. Bolsonaro entered the country by land then flew to Ecuador. Brazilian police had asked him to hand over his passports because of his links to an investigation.",
+      "language": "en",
+      "title": "Флавіо Болсонаро покидає Бразилію після перемоги над електрою в США",
+      "summary": "Офіціарі Аргентини сказали, що пан Болсонаро, полетівши в Еквадор, прибув до країни.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "1e415517cc70f6745221": {
+      "source_title": "US midterms: Slashing of food stamps in Arizona angers voters",
+      "source_summary": "With the US midterm elections just under a week away, the cost of living has emerged as a key campaign issue. In Arizona, many Americans are criticising the administration’s decision to slash food stamps, which has had significant consequences for the poorest. Camille Corcoran reports.",
+      "language": "en",
+      "title": "Середні іспити США: сплеск харчових марок у виборці гніву Арізони.",
+      "summary": "У США, коли вибори на середній день не вийдуть на тиждень, вартість прожитку стала ключовою справою.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "1b6803917ecc9a6be46c": {
+      "source_title": "Burnham’s government unveils its first UK budget: What to expect",
+      "source_summary": "UK chancellor to present an autumn budget amid rising living costs and energy bills.",
+      "language": "en",
+      "title": "Бернгам промовляє уряд, який бере свій перший бюджет у Великобританії: чого сподіватися",
+      "summary": "УКРАЙНІ варто було б скласти осінній бюджет, щоб покрити витрати на життя та витрати на енергозбереження.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "d17ee76d41d5fcd26a9d": {
+      "source_title": "You may get the right to find out what your colleagues earn - here's why",
+      "source_summary": "Employees should legally be able to find out what their co-workers are earning, the UK's equality watchdog says",
+      "language": "en",
+      "title": "Ви можете отримати право дізнатися, що ваші колеги заробляють - ось чому",
+      "summary": "Працівники повинні мати законну можливість дізнатися, що заробляють їхні співробітники, а рівність вартових у Великобританії каже:",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "8f103c660deba380c00e": {
+      "source_title": "Israeli forces continue West Bank raids as Hebron lockdown enters sixth day",
+      "source_summary": "UN agency expresses 'grave concern' in Hebron and warns of echoes of 2025 'Iron Wall' operation.",
+      "language": "en",
+      "title": "Ізраїльські війська продовжують набіги на Західний банк, коли Хеврон Клоцдаун вступає в шостий день.",
+      "summary": "Агентство ООН виражає \"важливу турботу\" у Хевроні і попереджає про відлуння \"Артарної стіни\" 2025 року.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "8cf30a1bb8f94699016c": {
+      "source_title": "‘Russia is already part of who I am’: African students in Moscow",
+      "source_summary": "As the Russia-Africa Summit gets under way, students in the capital say education is helping to build ties.",
+      "language": "en",
+      "title": "♫Уже частина мого студента: африканські студенти з Москви.",
+      "summary": "Коли починається Конференційна конференція Росії-Африки, студенти в столиці кажуть, що освіта допомагає будувати зв'язки.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "49b7ce80312cbe77ed92": {
+      "source_title": "At least 30 people die in major Spanish train crash",
+      "source_summary": "The collision brings back memories of the January train crash in Adamuz, which killed 46 people.",
+      "language": "en",
+      "title": "В іспанському поїзді гине щонайменше 30 чоловік.",
+      "summary": "Зіткнення нагадало нам про аварію на січень, яка сталася в місті Адамуза, внаслідок якої загинуло 46 чоловік.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "8da7fbbe1ccb365f9ff2": {
+      "source_title": "The banker, the basketball star, the cardiologist and the chemist: meet Serbia's potential new leaders - Reuters",
+      "source_summary": "The banker, the basketball star, the cardiologist and the chemist: meet Serbia's potential new leaders Reuters",
+      "language": "en",
+      "title": "Банкір, баскетбольна зірка, кардіолог і хімік: Зустрічайте нових лідерів Сербії - Рейтер.",
+      "summary": "Банкір, баскетбольна зірка, кардіолог і хімік: зустрічайте потенційних лідерів Сербії Рейтер",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "87f2c9c2352bbc9eebab": {
+      "source_title": "Netanyahu and Eisenkot face difficult paths to power as neither set to win majority",
+      "source_summary": "The two main blocs appear to have too few seats to form the next government without reliance on Arab parties.",
+      "language": "en",
+      "title": "Неанягу і Ейсінкотт стикаються з складними шляхами до влади, оскільки жоден з них не має виграти більшість.",
+      "summary": "Здається, що два головні блоки мають замало місць, щоб сформувати наступний уряд без довір'я до арабських партій.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "7f04717eb373e2f4457c": {
+      "source_title": "BNP Paribas downplays French debt exposure as stock trading lifts profit",
+      "source_summary": "The French multinational bank BNP Paribas beat profit forecasts in the third quarter as revenue from equities trading surged 50%, and announced a €1.3 billion share buyback while playing down its exposure to French debt.",
+      "language": "en",
+      "title": "BNP Paribas применшує борг Франції, як торговий капітал, що займається придбанням прибутку.",
+      "summary": "Французький багатонаціональний банк BNP Paribas перевищив прогнози прибутків у третьому кварталі, що є доходом від конкурентів торгівлі зріс на 50%, і оголосив про спад ціни у 1,3 мільярда євро, коли він відтворював свій борг у Франції.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "ae8ffa1413817c2afe26": {
+      "source_title": "US midterms: Six days left – who leads in the polls as Trump, Obama rally",
+      "source_summary": "Democrats lead national polls as Trump and Obama campaign in key states six days before the US midterm elections.",
+      "language": "en",
+      "title": "Шість днів залишилося, який в результаті опитування був Трампом Обама.",
+      "summary": "Демократи очолюють державні опитування як кампанію Трампа і Обами у ключових штатах за шість днів до виборів в США.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "6e78bdc037659a9d764d": {
+      "source_title": "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
+      "source_summary": "The Villa Vie Odyssey suspended its voyage and is working with passengers on \"temporary living arrangements\".",
+      "language": "en",
+      "title": "Розкішні пасажири висадилися в Камбоджі через збільшення витрат на паливо.",
+      "summary": "Вілья Вай Одіссея відклала свою подорож і працює з пасажирами на \" тимчасовому живому устрої.\"",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "ef82c3eec52f70a1a83c": {
+      "source_title": "Norway and Finland hold rare phone call with Putin: What that means",
+      "source_summary": "The two Nordic leaders are attempting to influence US-brokered talks in Abu Dhabi to end the war in Ukraine.",
+      "language": "en",
+      "title": "Норвегія та Фінляндія тримають рідкісний телефонний дзвінок з Путін: Що це означає",
+      "summary": "Два скандинавські лідери намагаються вплинути на переговори США в Абу Дабі, щоб закінчити війну в Україні.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "50a29777ddf467f66b9f": {
+      "source_title": "Abandon ship! Around 200 ‘cruise for life’ passengers stranded in Cambodia",
+      "source_summary": "US-based operator Villa Vie Residences has suspended operations due to an ‘extraordinary’ rise in fuel costs since the Iran war began.",
+      "language": "en",
+      "title": "Залишати корабель! О пів на шосту за життя ♫ пасажири, що опинилися в Камбоджі",
+      "summary": "Оператор, заснований на США, Вілла Віес Переправа призупинила дії через }екстраордіна} зростає в витратах на пальне з часів початку Іранської війни.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "9445337bcf5e9f29a48e": {
+      "source_title": "What do you want from the Budget?",
+      "source_summary": "The BBC spoke to people in Cardiff and County Durham about their concerns ahead of the chancellor's Autumn Budget.",
+      "language": "en",
+      "title": "Що ви хочете від бюджету?",
+      "summary": "BBC говорила з людьми у Кардіффі та графікру Дургам про їхні побоювання попереду осіньного бюджету канцлера.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "0115424d66b360e563fe": {
+      "source_title": "EU's 'Made in Europe' push unnerves global auto suppliers",
+      "source_summary": "In shielding Europe's carmakers from Chinese rivals, the EU risks hurting close partners from Turkey and Morocco to Japan and South Korea. Billions in trade and hundreds of thousands of European jobs are at stake.",
+      "language": "en",
+      "title": "\"Суди в Європі\"добуваєдопомогу глобальним постачальникам автотранспортів",
+      "summary": "Захищаючи власників машин в Європі від китайських суперників, ризики, пов'язані з ризиками, пов'язані з ризиками для близьких партнерів з Туреччини та Марокко, Японії та Південної Кореї.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "dd43932660996d1358a3": {
+      "source_title": "Poland and UK sign Warsaw Defence Plan to “deter Russian threats”",
+      "source_summary": "\"Poland is one of the UK’s closest allies,\" says the British defence secretary.",
+      "language": "en",
+      "title": "Польща та Великобританія підпис \" Захисна оборона Варшави \" на російську марку",
+      "summary": "\"Поля - один з найближчих союзників Великобританії,\" - говорить секретар захисту Великобританії.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "4e8c891aca0ecb32e87d": {
+      "source_title": "‘One Cut of the Dead’ Director Ueda Shinichiro on Turning a Microdrama Into Tokyo Feature ‘Earthlings in Love’",
+      "source_summary": "Director Ueda Shinichiro made a name for himself with filmmaking that has embraced self-reflexivity: the beloved cult zombie film “One Cut of the Dead” was continually transforming, from a single-take horror-comedy into a meditation on the act of filmmaking and then the chaos of actually being on set. His new feature “Earthlings in Love,” showing […]",
+      "language": "en",
+      "title": "] Видовище мертвих далі в центрі кохання",
+      "summary": "Директор Удеа Шінічіро створив ім'я з плівкою, яка прийняла самовідтворення: улюблений культ зомбі фільм ♫ 1 Виставка Мертвого постійно трансформувалася, від одного знімального комісу в медитацію над актом створення фільму і хаосу фактично на сцені.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "0f94fa5b7b80c997f37f": {
+      "source_title": "Germany news: Nearly three-quarters of Germans unlikely to celebrate Halloween. Meanwhile, parties debate who should succeed President Steinmeier",
+      "source_summary": "Most Germans are giving Halloween a miss this year, although younger adults are much more enthusiastic. Meanwhile, politicians are lining up behind potential candidates to be Germany's next president. Keep up with DW.",
+      "language": "en",
+      "title": "Новини в Німеччині: майже три чверті німців не мають шансів відзначити Галовін. Тим часом, учасники торгівельних спорів хто має стати наступником президента Штайнмаєра.",
+      "summary": "Більшість німців пропускають Галовін цього року, хоча молоді люди мають набагато більше ентузіазму, а політики стоять за кандидатами на кандидатів, щоб стати наступним президентом Німеччини.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "d7e6413659b3a39287a1": {
+      "source_title": "Israel: Netanyahu edges closer to a majority",
+      "source_summary": "The final results are expected tonight or tomorrow morning. For now, the picture is looking increasingly favourable for Benjamin Netanyahu and his bloc, but the Israeli prime minister is still short of a clear victory, as he needs 61 seats to secure a parliamentary majority. He addressed his supporters at the National Congress Centre at around 3 a.m. local time. France 24’s Clovis Casali joins us live from Jerusalem with the latest.",
+      "language": "en",
+      "title": "Ізраель: краї неанягу ближче до більшості",
+      "summary": "Останні результати очікують сьогодні або завтра вранці.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "4f2aaf53e65cc6792ed3": {
+      "source_title": "Stellantis reports $4.5 billion cash drain as massive turnaround plan continues",
+      "source_summary": "European car giant Stellantis said Wednesday that it recorded a 4 billion euro ($4.5 billion) cash shortfall in the third quarter.",
+      "language": "en",
+      "title": "Стеттінс повідомляє про $ 4,5 млрд грошових трахлерів, оскільки план масового розвороту продовжується.",
+      "summary": "Європейський велетень автошляхів Стелантіс сказав, що середа записала 4 більйони євро (4,5 мільярдів доларів) грошового скорочення в третьому кварталі.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "c06bd514c9956513d9cd": {
+      "source_title": "Spain: Local authorities confirm at least 10 dead in train accident",
+      "source_summary": "Two trains travelling in opposite directions have collided in southern Spain, on the route between Madrid and Seville. At least 10 deaths have been confirmed, although some media reports put the toll as high as 39. The crash brings back painful memories of a deadly train accident in Córdoba in January. The cause of the collision remains unknown. France 24 correspondent Sarah Morris joins us live from Madrid with the latest.",
+      "language": "en",
+      "title": "Іспанія: Місцева влада підтверджує принаймні 10 смертей у автокатастрофі.",
+      "summary": "Хоча в деяких країнах кількість жертв, що їхали внаслідок аварії, становила 39, причиною смерті людей у Кордові в січні є принаймні 10 чоловік, але у деяких повідомленнях з'явилася така думка: \" Трагедія \" - це найтяжча з усіх причин, що сталася в Кордові, - і досі невідомо, що сталося.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "5df93ff60c3aa8b9370b": {
+      "source_title": "Plaid demands more cash, but how could the Budget affect Wales?",
+      "source_summary": "Welsh Finance Minister Elin Jones has called for a spending plan that \"finally treats us fairly\".",
+      "language": "en",
+      "title": "Але як бюджет може вплинути на Уельс?",
+      "summary": "Міністр фінансів Уельсу Елін Джонс закликав продумати план витрат, який \"справжньо обходиться з нами справедливо.\"",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "9add6b63714906d9c48e": {
+      "source_title": "Small and very scary: Rare miniature T.rex dinosaur skeleton fetches €42 million at auction",
+      "source_summary": "A dinosaur that looks like a tiny Tyrannosaurus rex is now one of the world's most expensive fossils having been sold at a Sotheby's auction for €42.6 million in New York.",
+      "language": "en",
+      "title": "Маленькі і дуже лякаючі: Cronicle T.rex Cronicle придбає на аукціоні 42 мільйони євро",
+      "summary": "Динозавр, который похож на маленький Тюранозаврский рекс, теперь один из самых дорогой в мире экземпляров, проданных на аукционе Соеби за 42,6 миллионов в Нью-Йорке.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "3443bd97457636f41fd1": {
+      "source_title": "Israeli election: 'Wishful thinking' for pro- and anti-Netanyahu parties?",
+      "source_summary": "PRESS REVIEW – Wednesday, October 28: Papers react to the ongoing election results in Israel. Next: Macklemore's Free Palestine tour is coming to Paris. Also: antidepressants don't work the way we thought. Finally: a sneak peek into boomer divorcées' dating lives.",
+      "language": "en",
+      "title": "Ізраїльські вибори: \"Жадібне мислення\" для про- та проти-не-єдиних партій?",
+      "summary": "ПРЕССУ ®СУ, 28 жовтня: Папи реагують на постійні вибори в Ізраїлі.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "40cf53196ad81911748b": {
+      "source_title": "Macmillan Staff Say the Publisher Threw a Party for a Workplace AI Assistant That Was Later Killed",
+      "source_summary": "Workers tell WIRED that NOA—or “No Ordinary Assistant”—was unhelpful. Bestselling authors also say AI is ruining their relationships with Big Five publishers.",
+      "language": "en",
+      "title": "Макміллан Стафф каже, що видавець Трев - партія на робочому місці помічника, якого пізніше вбили",
+      "summary": "Автори, які пропонують послуги, також кажуть, що ШІ руйнує їхні стосунки з Великими п'ятьма вісниками.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "e4fb24e24adf11c69250": {
+      "source_title": "Flavio Bolsonaro on way to Ecuador from Argentina after fleeing Brazil",
+      "source_summary": "Defeated right-wing presidential candidate Flavio Bolsonaro was on his way to Ecuador after fleeing Brazil, Argentina's government said on Wednesday, October 28. The 45-year-old senator and his family were granted United States visas the day before by the Trump administration. France 24's correspondent in Washington Fraser Jackson reports the latest.",
+      "language": "en",
+      "title": "Флавіо Болсонаро, який прямує з Аргентини до Еквадору після втечі з Бразилії.",
+      "summary": "Уряд Аргентини повідомив, що в середу 28 жовтня 45-річний сенатор та його сім'я отримали візи в США за день до того, як уряд Трумп повідомив про останню, що Франція 24 кореспондент у Вашингтоні Фрейзер Джексон.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "7f1ca5f482ca848ace25": {
+      "source_title": "Israelis await final election results as Netanyahu remains far from defeated",
+      "source_summary": "Arab-led parties appear to have made a historic showing in the Israeli election, but it’s not clear if other opponents of Netanyahu's government would form a coalition with them for a majority in the next parliament. Issues around the Palestinians and their descendants remain incredibly sensitive in Israel. France 24 24's International Affairs Commentator Douglas Herbert shares further insights.",
+      "language": "en",
+      "title": "Ізраїльтяни чекають на кінцеві результати виборів, оскільки Неанягу залишається далеко не переможеним",
+      "summary": "Учасниці арабського народу, здається, зробили історичне відкриття на виборах Ізраїлю, але це не зрозуміло, якщо інші противники уряду Нетанягу утворять коаліцію з ними для більшості у наступному парламенті.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "af73883b4eb48f15c27b": {
+      "source_title": "Spain: At least 10 dead in crash between 2 high-speed trains",
+      "source_summary": "At least ten people have died in a crash between two trains in central Spain. The crash occurred Wednesday morning in the province of Toledo. Rail service is suspended between Madrid, Ciudad Real and Andalusia. France 24's correspondent in Madrid Sarah Morris reports the latest.",
+      "language": "en",
+      "title": "Іспанія: принаймні 10 мертвих у аварії між 2 високошвидкісними поїздами",
+      "summary": "У середу вранці в провінції Толедо сталася аварія між двома поїздами. 24 - й кореспондент у Мадриді Сарри Морріс повідомляє про останню подорож.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "aeecd09938a56dc1753a": {
+      "source_title": "At least 30 dead in crash between two trains in central Spain, media say",
+      "source_summary": "A high-speed train slammed into the rear of another train that had stopped, derailing two cars and killing at least 30 people on Wednesday in central Spain, according to local media.",
+      "language": "en",
+      "title": "За словами засобів масової інформації, принаймні 30 мертвих у аварії між двома поїздами в центральній Іспанії",
+      "summary": "Високошвидкісний поїзд врізався в задню частину іншого поїзда, який зупинився, збив дві машини і вбив щонайменше 30 чоловік у середу в центральній Іспанії, згідно з місцевими ЗМІ.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "443368ca24baf23727a8": {
+      "source_title": "Has the White House tipped rapper Nicki Minaj as Donald Trump's new press secretary?",
+      "source_summary": "Rapper Nicki Minaj appeared with Trump at a recent rally in Michigan, where he made a comment about her “beautiful” and “hard to miss” butt. Now there's even talk of a possible job at the White House for the MAGA-loving rapper.",
+      "language": "en",
+      "title": "Чи Білий дім дав репперу Нікі Мінаджу нового прес-служителя Дональда Трампа?",
+      "summary": "У нас є навіть промови про можливу роботу в Білому Домі для люблячого реппера.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "cacef5bab6ece5af8e4d": {
+      "source_title": "Amazon MGM Studios Japan ‘Doubling’ Investment to Meet Global Standards, Local Chief Buddy Marini Reveals at Tokyo Market",
+      "source_summary": "Amazon MGM Studios Japan is doubling its investment to bring its content up to global standards, studio head Buddy Marini said Wednesday at a Tokyo International Film Festival TIFFCOM market session on unlocking the global potential of Japanese IP. The session, organized by the Motion Picture Association (MPA) and UniJapan, also featured Credeus CEO Matsuhashi […]",
+      "language": "en",
+      "title": "Amazon MGM Studios Japan ⁄Dubling } Інвестиція на зустріч з глобальними стандартами, місцевим головним Городом Маріні Відкриваються на токійському ринку",
+      "summary": "Amazon MGM Studios Japan подвоює свої інвестиції, щоб привести їх до глобальних стандартів, головний студії, Друже Маріні сказав, що середа на міжнародній ринковій сесії ринку фільмів у Токіо, де розблоковують глобальний потенціал японського IP. Сеанс, організований Асоціацією кінокарток (MPA) і UniJanipan, також показував Credeus Centifican Matshashuhashi Codeus Matsuhashi [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "91467dfa76102b8182b2": {
+      "source_title": "New Study on Law Enforcement Training in the EU - Migration and Home Affairs",
+      "source_summary": "New Study on Law Enforcement Training in the EU Migration and Home Affairs",
+      "language": "en",
+      "title": "Нова студія з юридичного навчання в ЄС - міграція та внутрішніх справ",
+      "summary": "Нова студія з юридичного навчання в міграції та внутрішніх справ ЄС",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "28307cae0b8be5757e2a": {
+      "source_title": "2 Trains Collide in Spain, Killing at Least 10, Officials Say",
+      "source_summary": "One train was said to have rear-ended another, sending two carriages down an embankment.",
+      "language": "en",
+      "title": "2 Кораблі в Іспанії, вбиваючи при десятому ступені",
+      "summary": "Кажуть, що один поїзд зробив на задніх сидіннях інший, відправляючи два вагони по берегу.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "15ed575d9dbf07c2834b": {
+      "source_title": "Hormuz oil spill forces closure of UAE beaches",
+      "source_summary": "An oil spill from a damaged tanker in the Strait of Hormuz has reached the UAE’s beaches, forcing their closure.",
+      "language": "en",
+      "title": "Затока гормонів розливу нафти закриває пляжі УАЕ.",
+      "summary": "Олія, що витікає з пошкодженого танку в Гормузі, дійшла до \" УАЕ ,\" змушуючи їх закритися.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "a168bb4e6b68e4eefa19": {
+      "source_title": "Cross-border network helps EU workers abroad claim wages and benefits",
+      "source_summary": "A cross-border network of counsellors, funded by the EU, is helping Europeans who work in other member states to claim the wages and social rights they are entitled to.",
+      "language": "en",
+      "title": "Перехідний зв'язок з мережею допомагає працівникам ЄСзакордонних заробітної плати та пільги.",
+      "summary": "Перехідний контроль за позикою міжконфесійних консультантів, що фінансуються ЄС, допомагає європейцям, які працюють в інших країнах ЄС, заявляти на заробітну плату та соціальні права, на які вони мають право.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "320f8010edb8e4465ca5": {
+      "source_title": "Netanyahu or Eisenkot? Can you form Israel’s next coalition government?",
+      "source_summary": "Israel has only ever been governed by coalitions. Can you put one together that reaches 61 of the Knesset's 120 seats?",
+      "language": "en",
+      "title": "Чи можна сформувати Ізраїль, щоб створити наступний коаліційний уряд?",
+      "summary": "Чи можна скласти одну з них, яка досягає 61 з 120 місць Кнесета?",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "7859be28d1cfa68a764a": {
+      "source_title": "A US woman feared dead was reported alive in Mexico. But cops now say that isn’t true",
+      "source_summary": "Mexican police had said they found Shayna Feinman in Tijuana, raising the hopes of missing Arizonan’s familyArizona authorities say their Mexican counterparts were resoundingly mistaken when they publicly claimed recently that they found alive a woman who was feared slain after disappearing in 2024 – a turn of events that her sister has called “turmoil” and “heartbreaking”.The case in question centers on Shayna Feinman, who was reported missing in rural Yavapai county, Arizona, in March 2024 at age 38. Continue reading...",
+      "language": "en",
+      "title": "Одна жінка, яка боялася смерті, була повідомлена в Мексиці живою.",
+      "summary": "Мексиканська поліція сказала, що вони знайшли Шайну Фейнмана в Тіхуані, подаючи надії про пропущення Арізона, що власті Арізони кажуть, що їхні мексиканські колеги були дуже неправильні, коли публічно заявляли, що недавно вони знайшли живу жінку, якої боялися після зникнення у 2024 році } поворот подій, яких її сестра назвала нярмолом і тяхотою.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "24350fb4261b73b28af1": {
+      "source_title": "Fed set to hold interest rates steady in last decision before midterms",
+      "source_summary": "US central bank last month raised rates for first time since 2023, in move that infuriated Donald TrumpThe US Federal Reserve is expected to leave interest rates unchanged on Wednesday during its last rate-setting meeting before the midterm elections, keeping rates at one of the highest pre-election levels seen in over 20 years.Last month, Fed officials raised rates for the first time since 2023, citing rising inflation. Inflation has hovered for years above the Fed’s target rate of 2%, and for most of this year, the annualized inflation rate has remained above 3%. Continue reading...",
+      "language": "en",
+      "title": "Набір ФРС для утримання відсоткових ставок сталою при останньому рішенні перед проміжними іспитами",
+      "summary": "Центральний банк США, коли був у першому місяці, підвищив ставки вперше з 2023 року, коли розлючений Дональд Трамппард Федеральний Резерв США сподівався, що відсоткова ставка не зміниться у середу під час останньої зустрічі з впровадження ставок до проміжних виборів, утримуючи ставки на одному з найвищих рівнів попереднього вибору понад 20 років. Останній місяць, федеративні чиновники вперше підняли ставки з 2023 року, посилюючи зростання інфляції. Інфляція зменшувалась роками вище за норму \" Фрид \" 2% ,\" і протягом більшої частини цього року, щорічна ставка інфляції залишилась вище 3%. Продовження читання...",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "d71deb2980d4068a67db": {
+      "source_title": "Knife attacker shot dead by police outside Israeli embassy",
+      "source_summary": "A man carrying knives has been killed by police after attacking an officer outside the Israeli embassy in Belgrade.",
+      "language": "en",
+      "title": "Нападник на поліцейських застрелив його біля ізраїльського посольства.",
+      "summary": "Поліція вбила чоловіка з ножами після того, як він напав на офіцера біля ізраїльського посольства у Белграді.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "b047e4971b28b93a892c": {
+      "source_title": "Stellantis operating profit rises as cost cuts gain traction - Reuters",
+      "source_summary": "Stellantis operating profit rises as cost cuts gain traction Reuters",
+      "language": "en",
+      "title": "Слонтіс, що працює, приносить більше прибутку, ніж потрібно, - Рейтер.",
+      "summary": "Слонтіс, що працює, приносить більше прибутку, ніж потрібно, щоб зменшити витрати на доставку доставки.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "a8eeaa41095a42df658a": {
+      "source_title": "Israel’s stock market drops as exit polls show no clear election winner",
+      "source_summary": "Benchmark Tel Aviv 125 index falls more than 3 percent amid uncertainty over who will lead the next government.",
+      "language": "en",
+      "title": "На ринку акцій Ізраїлю падає вихідний виборчий переможець.",
+      "summary": "Бенхмарк Тель Ейв 125, індекс падає більше як 3 проценти серед непевності відносно того, хто буде керувати наступним урядом.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "93d5d91032d5c2553b8f": {
+      "source_title": "Healey poised to overturn cut to cash Isa allowance in first budget",
+      "source_summary": "Chancellor’s predecessor Rachel Reeves had planned to reduce allowance from £20,000 to £12,000 a year from April Business live – latest updatesWhat to expect from the budget: who wins, who pays?John Healey is to use his first budget to ditch plans to slash the annual cash Isa allowance, the Guardian understands, preferring a carrot rather than a stick to encourage people to invest more in shares.City experts welcomed news that the chancellor will overturn a decision by his predecessor, Rachel Reeves, to cut the allowance from £20,000 to £12,000 a year from April to get more money flowing into",
+      "language": "en",
+      "title": "\" Во время пересадки \"",
+      "summary": "Канцлерка Рейчел Рейвс планувала скоротити кишенькові витрати з 20 000 до 12 000 фунтів на рік від квітня Бізнесу живо.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "72601d90053bb390c542": {
+      "source_title": "Former Conservative chancellor unsure Budget will 'fix big problems'",
+      "source_summary": "Sir Jeremy Hunt spoke to BBC Breakfast about his hopes and qualms ahead of John Healey's autumn Budget.",
+      "language": "en",
+      "title": "Колишній Канцлер непевного бюджету \"виправить великі проблеми\"",
+      "summary": "Сер Джеремі Гант розмовляв з Снідаком БіБіБіБіБіБіБіСі про свої надії та пробки попереду осінніх бюджетів Джона Хилі.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "d194278a45e462dd527e": {
+      "source_title": "Russia in Africa: What is Putin hoping to achieve?",
+      "source_summary": "Following its invasion of Ukraine and the resulting rift with the West, Russia has declared that it intends to make a \"historic return\" to Africa. What have we seen of this so far?",
+      "language": "en",
+      "title": "Росія в Африці: Що Путін сподівається досягти?",
+      "summary": "Після вторгнення України та розколу на Заході Росія оголосила, що має намір повернути \"історичний\" до Африки.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "ad0ee30eba5cee576651": {
+      "source_title": "Legora is building the agentic operating system for legal work - OpenAI",
+      "source_summary": "Legora is building the agentic operating system for legal work OpenAI",
+      "language": "en",
+      "title": "Леґора будує агентську операційну систему для юридичної роботи - OpenAI",
+      "summary": "Леґора будує агентську операційну систему для юридичної роботи OpenAI",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "091b9be52def02aa7bbc": {
+      "source_title": "Two high-speed trains collide in Spain, at least 10 dead - Reuters",
+      "source_summary": "Two high-speed trains collide in Spain, at least 10 dead Reuters",
+      "language": "en",
+      "title": "Два швидкісних поїзди зіштовхуються в Іспанії, принаймні 10 мертвих - Рейтер.",
+      "summary": "Два швидкісних поїзди зіштовхуються в Іспанії, принаймні 10 мертвих Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "321866bc4cd4c97166a2": {
+      "source_title": "Mapping the siege of Yemen’s Taiz, and the price families are paying",
+      "source_summary": "Three weeks into the siege of Yemen’s third-largest city, prices have doubled, and families are down to the basics.",
+      "language": "en",
+      "title": "Примітити облогу ЄАР ♫ Таїз, і ціни за них платять сім'ї.",
+      "summary": "Три тижні в облогу ЄАР ♫ третє велике місто, ціни подвоїлись, і сім'ї доходять до основних.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "3a58a6b976c6e9ad286c": {
+      "source_title": "Israel: The economic challenges ahead",
+      "source_summary": "Questions over the future of Israel’s economy are looming in the wake of the elections. With one of the highest costs of living in the region, and defence spending continuing to rise, households are facing growing financial pressure. Caitlin Brown reports.",
+      "language": "en",
+      "title": "Ізраїль: економічні труднощі, які чекають нас попереду",
+      "summary": "Питання щодо майбутнього Ізраїлю: \"Економія\" настає після виборів, і з однією з найвищих витрат на життя в регіоні, і витратами захисту, що продовжують зростати, домогосподарства зазнають зростаючого фінансового тиску.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "b3a0701b6dba998c7038": {
+      "source_title": "UBS pretax profits jump 27% in third quarter to $3.59 billion as wealth inflows surge",
+      "source_summary": "UBS reported a third quarter pretax profit of almost $3.6 billion.",
+      "language": "en",
+      "title": "Додаткові прибутки в США сягають 27% у третій чверті до 3,59 млрд доларів, як збільшення багатства",
+      "summary": "У США було звітовано про третій процент прибутку майже 3,6 мільярда доларів.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "04a90678398c900742d7": {
+      "source_title": "At least 10 dead in collision of two high-speed trains in Spain",
+      "source_summary": "The accident occurred at 8:54 a.m. near Urda. Two carriages derailed and plunged down an embankment, halting rail traffic between Madrid and Andalusia in both directions.",
+      "language": "en",
+      "title": "Принаймні 10 мертвих у зіткненнях двох швидкісних поїздів в Іспанії",
+      "summary": "Два вагони роз'їхалися і повалили берег, зупинивши рух рейок між Мадридом і Андалусією в обох напрямках.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "4b8ec9a18934c698ddb5": {
+      "source_title": "Israel election: There's no clear winner",
+      "source_summary": "The path ahead remains uncertain in the Knesset in Jerusalem, as the Central Elections Committee continues to count the votes. With more than 60% of ballots tallied, Prime Minister Benjamin Netanyahu’s camp is narrowly ahead of the opposition, but still short of a clear majority. These are still partial results and could change, meaning no clear winner has emerged so far. Both leading candidates for the prime minister’s office traded barbs in their respective speeches after polls closed. Antonia Kerrigan reports.",
+      "language": "en",
+      "title": "Вибори в Ізраїлі: немає ясного переможця",
+      "summary": "Шлях попереду залишається непевним у таборі \" Кнессе \" в Єрусалимі, оскільки Центральний комітет ельфів, як і раніше, продовжує рахувати голоси. Оскільки більш ніж 60% балатів висотяться, прем'єр - міністр Бенджамін Нетаньягус ледве попереду опору, але більшість з них не має чітких результатів. Ці результати все ще залишаються частковими і можуть змінитися, це означає, що не з'являється чіткий переможець. Обидва провідні кандидати офісу прем'єр- міністрів торгують барби у своїх промовах після закриття опитування.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "da2f71c1e9cc8071860f": {
+      "source_title": "UK’s Streeting to visit Berlin for defense talks with Pistorius",
+      "source_summary": "The British defense secretary will meet his German counterpart in Berlin for talks on NATO, Ukraine and joint weapons projects as the two countries deepen military cooperation.",
+      "language": "en",
+      "title": "УКРАЇНА йде до Берліна, щоб захистити виступи з Пісторієм.",
+      "summary": "Британський секретар оборони зустріне свого німецького двійника в Берліні для промов про НАТО, Україну та спільні проекти зброї, коли ці дві країни поглиблюють військову співпрацю.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "6dbae2bdfca228da54ca": {
+      "source_title": "Africa’s ‘unprecedented’ Ebola outbreak could reach UK, says top health official",
+      "source_summary": "Jean Kaseya, of the Africa CDC, warns of the illness spreading like Covid unless more funding is secured to increase preparedness and possible treatmentThe “unprecedented” spread of the Ebola outbreak means it could reach the UK and other countries, according to one of Africa’s top health officials.As the current outbreak reached 10,000 cases, with almost 5,000 deaths, Dr Jean Kaseya, director general of the Africa Centres for Disease Control and Prevention (CDC), compared the outbreak to the Covid pandemic, which first took hold in China before spreading to countries across the world, claimin",
+      "language": "en",
+      "title": "Африка и nuncasted } Ебола може досягти Британії, каже головний представник охорони здоров'я",
+      "summary": "Жан Касіа з африканського CDC застерігає про поширення хвороби, як Ковід, якщо не буде забезпечено збільшенням витрат на підготовку та можливу можливу терапію.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "d54dbaf5a9bf48460986": {
+      "source_title": "Israeli right makes provocative statements as election votes are counted",
+      "source_summary": "Netanyahu and Smotrich rail against Arab voters as rival political camps face an uncertain path to power.",
+      "language": "en",
+      "title": "Ізраїльське право робить провокаційні заяви як вибори підраховано",
+      "summary": "Нетанягу і Смотричкі рейки проти арабських виборців, як суперницькі політичні табори, стоять непевний шлях до влади.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "3106e6a63834e63c7a3a": {
+      "source_title": "Robinhood shares fall as crypto slump weighs on profits, offsetting gains in new businesses",
+      "source_summary": "Robinhood's third-quarter revenue met expectations, fueled by the company's expansion into options, predictions markets and other financial services.",
+      "language": "en",
+      "title": "Акції про Роханство падають, як криптова зниження ваги над прибутками, складання прибутків у нових бізнесах.",
+      "summary": "Третього четверту частину доходу Робінха було забезпечено очікуваннями, що підтримуються розширенням компанії у опціони, прогнозні ринки та інші фінансові послуги.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "377ed14b56830c40d006": {
+      "source_title": "Global shares are mixed after US stock rally, and oil prices gain more than 1% - AP News",
+      "source_summary": "Global shares are mixed after US stock rally, and oil prices gain more than 1% AP News",
+      "language": "en",
+      "title": "Глобальні акції змішуються після демонстрації фондів США, а ціни на нафту набувають більше 1% - AP News",
+      "summary": "Глобальні акції змішуються після демонстрації фондів США, а ціни на нафту набувають більше 1% AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "344782d1be6c987590c7": {
+      "source_title": "Japanese-Brazilian Grief Drama ‘Yellow Chrysanthemum,’ Set During the 2014 Soccer World Cup, Joins Tokyo Gap-Financing Market",
+      "source_summary": "A Japanese-Brazilian teenager forced to face a family loss nobody will talk about is at the heart of “Yellow Chrysanthemum,” the first feature from Japanese-Brazilian director André Hayato Saito, which is among the projects at this year’s Tokyo Gap-Financing Market. The film is set in São Paulo in July 2014, while Brazil is staging the […]",
+      "language": "en",
+      "title": "Японська-Бразільська драма \"Горітальний прохід\" (\"Желловий хризантемум\") ♫ Створила під час Чемпіонату світу в 2014 році, об'єднується з Торкійським торговим ринку.",
+      "summary": "Японський підліток з Бразилії змушений зіткнутися з втратою сім'ї ніхто не буде говорити про це в серці \"Іельлова хризантема,\" ♫ перша риса японського директора Андре Гаато Саіто, яка є серед проектів цього року, що вступає в ринок Торкійського мармуру.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "fab4c124e7745ac563be": {
+      "source_title": "High-speed train crash in Spain kills at least 30 people, with multiple people injured",
+      "source_summary": "The collision occured in central Spanish province of Toledo, south of Madrid. Rail service is now suspended between Madrid, Ciudad Real and Andalusia.",
+      "language": "en",
+      "title": "В Іспанії сталася аварія високої швидкості, і в результаті загинуло щонайменше 30 чоловік, багато людей було поранено.",
+      "summary": "У центральній Іспанії Толедо, що на південь від Мадрида, зіткнення відбувається.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "3664ef1a1917fe196285": {
+      "source_title": "Train collision in Spain kills at least 30 people",
+      "source_summary": "Crash occurred near Urda in Toledo province, south of Madrid, on high-speed line connecting the capital with Seville.",
+      "language": "en",
+      "title": "Зіткнення з поїздом в Іспанії вбиває щонайменше 30 чоловік.",
+      "summary": "Кріп стався поблизу Урди в провінції Толедо, на півдні Мадрида, на високошвидкісній лінії, що з'єднувала столицю з Севільєю.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "6141de521635b15c3d9d": {
+      "source_title": "'Dead Poets Society' sells out eight consecutive months at Teatro da Trindade",
+      "source_summary": "The stage version of the film that captivated generations is sold out at Teatro da Trindade until the end of the year, before touring nationwide.",
+      "language": "en",
+      "title": "\"Мертва Потс Товариства\" продає вісім місяців підряд в Teitro da Trindade",
+      "summary": "Сценарій фільму, який полонив покоління людей, продають у Тітро да Тріндададі до кінця року, перед екскурсією по цілій країні.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "ba2be1f196b6c0180678": {
+      "source_title": "'Government to decide who to help and who picks up the tab'",
+      "source_summary": "Helen Miller, director at the Institute for Fiscal Studies, speaks to the Today programme about challenges in the budget.",
+      "language": "en",
+      "title": "\"Поряд, вирішувати, кому допомогти, і хто візьме на себе вкладку\"",
+      "summary": "Хелен Міллер, директор Інституту фіскальних досліджень, звертається до Програми \" Сьогодні \" про труднощі бюджету.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "7ce76d9833babb6d603e": {
+      "source_title": "Energy bill help, minimum wage rise and bank taxes - what could be in the Budget?",
+      "source_summary": "Chancellor John Healey will set out his plans for UK taxes on 28 October.",
+      "language": "en",
+      "title": "Помагати в облік енергії, збільшення заробітної платні і податки в банку - що може бути в бюджеті?",
+      "summary": "Канцлер Джон Хилі визначить свої плани щодо податків у Великобританії 28 жовтня.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "ea21a88ce7de1a15e618": {
+      "source_title": "Treasury yields tick higher ahead of Federal Reserve interest rate decision",
+      "source_summary": "Treasury yields edged higher as traders await the Federal Reserve's latest monetary policy decision.",
+      "language": "en",
+      "title": "Фінансовий прибуток більше перевищує рішення Федерального резервного резерву.",
+      "summary": "Грошові суми стають вищими, коли торговці очікують останнього грошового рішення Федерального заповідника.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "431d7473a3e4377df557": {
+      "source_title": "Dutch pledge Ukraine reconstruction support as Zelenskiy visits - Reuters",
+      "source_summary": "Dutch pledge Ukraine reconstruction support as Zelenskiy visits Reuters",
+      "language": "en",
+      "title": "Датська декларація щодо реконструкції України підтримує відвідини Зеленського - Рейтер.",
+      "summary": "Датська декларація про підтримку реконструкції України під час відвідин агентства \"Зеленський.\"",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "05c4bd4474783c1c669b": {
+      "source_title": "Several people killed after high-speed trains collide in central Spain",
+      "source_summary": "At least 10 people have been killed in a train crash in central Spain, local authorities have confirmed. Rail services between Madrid and Seville have been suspended.",
+      "language": "en",
+      "title": "Кілька людей загинуло після зіткнення швидкісних поїздів у центральній Іспанії.",
+      "summary": "Місцева влада підтвердила, що внаслідок аварії поїзда в центральній Іспанії загинуло принаймні 10 чоловік.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "cae2ba4969335a7d0847": {
+      "source_title": "At least 30 people killed after high-speed trains collide in central Spain",
+      "source_summary": "At least 30 people have been killed in a train crash in central Spain, local authorities have confirmed. Rail services between Madrid and Seville have been suspended.",
+      "language": "en",
+      "title": "Принаймні 30 людей загинуло після зіткнення швидкісних поїздів у центральній Іспанії.",
+      "summary": "Місцева влада підтвердила, що внаслідок аварії поїзда в центральній Іспанії загинуло щонайменше 30 чоловік.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "1d5eab9dadd9fe045020": {
+      "source_title": "At least 10 people killed after high-speed trains collide in central Spain",
+      "source_summary": "At least ten people have been killed in a train crash in central Spain, with the death toll expected to rise. Rail services between Madrid and Seville have been suspended.",
+      "language": "en",
+      "title": "Принаймні 10 людей загинуло після зіткнення швидкісних поїздів у центральній Іспанії.",
+      "summary": "У центральній Іспанії загинуло щонайменше десять чоловік, а кількість жертв зросла.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "f126a5a09e6c38160a9d": {
+      "source_title": "Spain: Injuries reported after high speed trains collide",
+      "source_summary": "Several people have reportedly been injured following a train crash in southern Spain. Rail services between Madrid and Seville have been suspended.",
+      "language": "en",
+      "title": "Іспанія: Удари, які повідомляються після зіткнення швидкісних поїздів",
+      "summary": "Кажуть, що декілька людей було поранено після аварії поїзда на півдні Іспанії.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "9b53b82218449d665eb6": {
+      "source_title": "Volkswagen, in strategy shift, plans to globalise China-developed technology - Reuters",
+      "source_summary": "Volkswagen, in strategy shift, plans to globalise China-developed technology Reuters",
+      "language": "en",
+      "title": "Фольксваген, в стратегічних змінах, планується глобалізувати технологію, що розвивається в Китаї - Рейтер",
+      "summary": "Фольксваген, в стратегічних змінах, планується глобалізувати технологічний Рейтер, що розвивається в Китаї",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "59921a14d90b72c01a65": {
+      "source_title": "Israeli bonds, shekel fall as election leaves Netanyahu and others far short of majorities",
+      "source_summary": "Exit polls show Prime Minister Benjamin Netanyahu's alliance and Gadi Eisenkot's opposition bloc both well off the numbers needed to form a governing majority.",
+      "language": "en",
+      "title": "Ізраїльські облігації, шекель падає, вибори залишають Ненаягу та інші набагато менші території.",
+      "summary": "У результаті опитування прем'єр-міністр Бенджамін Нетанягу об'єднався і Опір Ґаді Ейзенкот показав, що обидва блоки повинні добре відстоювати цифри, які в свою чергу вносять у керівну більшість.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "75700264b36d50170ac8": {
+      "source_title": "Academy CEO Bill Kramer Maps Oscars’ Global Ambitions in Tokyo: ‘Parasite’ Win Was ‘a Pivot, a Shift’",
+      "source_summary": "The Academy plans to keep taking the Oscars global, from recruiting members in underrepresented countries to streaming the ceremony free on YouTube, its leadership said in Tokyo, where CEO Bill Kramer said the share of members living outside the U.S. has grown from around 5% to 25% in a decade. Kramer was speaking at an […]",
+      "language": "en",
+      "title": "Головний директор Академії Біл Термер Карти Оскарс: \"Головні амбіії в Токіо\"",
+      "summary": "Академія планує продовжувати запроваджувати членів неповноцінних країн до проведення церемонії, вільної на YouTube, де директор Біл Крамер сказав, що частка членів, які живуть за межами США зросла з 5% до 25% за десять років.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "c77762aceedf9093cb19": {
+      "source_title": "Africa's first Youth Olympics open in Senegal amid hope and scrutiny",
+      "source_summary": "Senegal is hosting Africa's first Youth Olympics, with 2,700 young athletes competing in Dakar, Diamniadio and Saly. The Games bring pride and hope, but also questions over cost, rights and legacy.",
+      "language": "en",
+      "title": "Перший в Африці Олімпійський олімпійський олімпій у Сенегалі, який з нетерпінням чекає і уважно слухає",
+      "summary": "Сенегал проводить перший в Африці олімпійський олімпійський університет молоді, де змагаються 2700 молодих спортсменів на Дакарі, Діамніядіо та Сайлі.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "a97a1636a59680f99de3": {
+      "source_title": "Qatari mediators present Iran with new deal to end the war, official says - Reuters",
+      "source_summary": "Qatari mediators present Iran with new deal to end the war, official says Reuters",
+      "language": "en",
+      "title": "Агенти Катарі представляють Іран з новою угодою, щоб закінчити війну, офіційне агентство Рейтер",
+      "summary": "За офіційними даними Рейтер, посередники Катарі представляють Іран з новими угодами, щоб закінчити війну.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "c4056162f76f9030d9c8": {
+      "source_title": "Israel: Netanyahu and Eisenkot both pledge to form government",
+      "source_summary": "🗳️ Both Israeli Prime Minister Benjamin #Netanyahu and rival Gadi #Eisenkot pledged to form a government as the two are projected to finish neck and neck in #Israel's critical election Tuesday. Exit polls show both blocs falling short of a parliamentary majority.",
+      "language": "en",
+      "title": "Ізраель: Нханьягу та Ейсінкотт обоє обіцяють сформувати уряд.",
+      "summary": "І ізраїльський прем'єр-міністр Бенджамін # Неанягу і суперник Ґаді # Єленкотт пообіцяв сформувати уряд, як про це планується, щоб докінчити шию і шию в # критичні вибори Ізраїлю у вівторок. Вихідні опитування показують, що обидва блоки закінчуються парламентською більшістю.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "1c55a49722318ccfb1ea": {
+      "source_title": "Italians Protesting High Prices Fear a Listless Future, Too",
+      "source_summary": "Inspired in part by French demonstrations, protests in Italy by students in the north and truckers in the south could affect national elections next year.",
+      "language": "en",
+      "title": "Італійці, які ставлять високі ціни на страх безлікові майбутність, теж",
+      "summary": "Натхнені французькими демонстраціями, наступного року в Італії протести студентів півночі та вантажних автомобілів можуть вплинути на державні вибори.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "73b1769b0600d6145595": {
+      "source_title": "‘One Job Away’ Tries to Help Actors Keep Their Health Insurance",
+      "source_summary": "The actor Cheyenne Jackson’s social media campaign highlights the increasing struggles of working actors to book enough parts to remain insured.",
+      "language": "en",
+      "title": "♫ Завдання] Попраця на допомогу акторам - гарантіям - гарантіям на здоров'я",
+      "summary": "Фак Шайен Джексон ♫ Кампанія соціальних медіа підкреслює чимраз більшу потребу працюючих акторів у складі достатньо частин, щоб залишатися застрахованими.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "61b386e80d8fdf795626": {
+      "source_title": "‘Ali G: Who Iz I?’ Review: A Bit Too Tired for This Media Age",
+      "source_summary": "Sacha Baron Cohen’s revival of his early 2000s persona is meant to speak to a polarized country, but the results are mixed.",
+      "language": "en",
+      "title": "Перегляд: \" Доба цієї медіа \" вже занадто втомлена",
+      "summary": "Саха Барон відходить від своєї першої персони 2000 року, щоб поговорити з поляризованою країною, але результати змішані.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "4579dbab82d47962f9e6": {
+      "source_title": "Rare Wartime Dissent in Moscow Over Plans to Dismantle Russia’s ‘Eiffel Tower’",
+      "source_summary": "A state broadcaster says it cannot afford the restoration of a 1922 steel tower, prompting rare wartime dissent and a movement to save the Modernist masterpiece.",
+      "language": "en",
+      "title": "Рідкісний воєнний похід у Москві виступає за плани на Діммантлі Росіяс Ефітель Тауер",
+      "summary": "Один державний диктор каже, що він не може відновити сталеву вежу 1922 року, спонукуючи рідкісну воєнну незгоду й рух зберегти сучасний шедевр.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "4364d390059fe872587b": {
+      "source_title": "‘On the Road’ Review: A Queer Romantic Thriller",
+      "source_summary": "A young outcast hitches a ride with an older, married trucker in this atmospherically charged drama that traverses northern Mexico.",
+      "language": "en",
+      "title": "}Уперед: романський трепет",
+      "summary": "Молодий вигнанець під'їхав зі старшим, одруженим водієм у цій атмосфері, яка проходить через північ Мексики.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "d9e0c64a91872bcdc9e5": {
+      "source_title": "‘Closure’ Review: Looking for Hope in a River",
+      "source_summary": "A gorgeous and devastating documentary follows a father obsessively looking for his missing son.",
+      "language": "en",
+      "title": "Перегляд: \" Пошуки надії в річці \"",
+      "summary": "За чудовим і спустошливим документальним фільмом батько одержимо шукає свого сина.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "fda96df1eec310da053a": {
+      "source_title": "'Nobody heard us' – why Gen Z are leading protests across Europe - Reuters",
+      "source_summary": "'Nobody heard us' – why Gen Z are leading protests across Europe Reuters",
+      "language": "en",
+      "title": "\"Ніхто не чув\" ♫ Чому 1-йс є провідними протестами по всій Європі - Reuters",
+      "summary": "\"Ніхто не чув\" ♫ Чому 1-йс є провідними протестами через європейське агентство",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "15f56b40dbb719d74f18": {
+      "source_title": "With drones, DJs and a helipad, Ambani throws a party for Jio’s record IPO - Reuters",
+      "source_summary": "With drones, DJs and a helipad, Ambani throws a party for Jio’s record IPO Reuters",
+      "language": "en",
+      "title": "З дронами, ді-джеями та геліпадом Амбані влаштовує вечірку для запису IPO - Reuters",
+      "summary": "З дронами, ді-джеями та геліпадом Амбані влаштовує вечірку для запису IPO Reuters",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "60afea1444cf4c0c47d1": {
+      "source_title": "🔴 Two high-speed trains collide in Spain, halting traffic on Madrid-Andalusia line",
+      "source_summary": "",
+      "language": "en",
+      "title": "} Два швидкісних поїзди зіштовхуються в Іспанії, зупиняючи трафік на лінії Мадрид-Андалусії",
+      "summary": "",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "12e0565a66a476ced74e": {
+      "source_title": "How to Plan a Trip Around a Running Race",
+      "source_summary": "When should you arrive? How do you choose an event? Here are some tips on how best to center a vacation around a race.",
+      "language": "en",
+      "title": "Як планувати подорож навколо бігу",
+      "summary": "Коли вам слід прибути на місце події? Як обрати подію? Нижче наведено декілька порад щодо того, як найкраще провести відпустку навколо гонки.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "635876f7a9a8d96cf266": {
+      "source_title": "Yvette Cooper drops plans to abolish NHS patient champion after outcry",
+      "source_summary": "Exclusive: Health secretary to extend role of watchdog, which backers say helps hold service in England to accountYvette Cooper has abandoned plans to abolish the NHS’s independent patient champion after an outcry from MPs across the political spectrum.The health secretary has decided to keep and extend the role of Healthwatch England, which was due to be axed as part of the government’s reorganisation of the health service in England.axe the Health Services Safety Investigations Body.end councils’ automatic representation on the boards of ICBs.remove the requirement for a nurse on every NHS f",
+      "language": "en",
+      "title": "Івет Купер вкладає плани, щоб скасувати чемпіона з NHS після крику",
+      "summary": "Екватор здоров'я, щоб розширити роль сторожового пса, який кажуть, допомагає утримати службу в Англії, щоб відмічати Юветту Купера, відмовився від планів скасувати NHS, незалежного пацієнта, по черзі від MP через політичний спектр. Секретар охорони здоров'я вирішив підтримувати і розширити роль програми \" Здоров'я\" Англії, яка була частиною уряду, що реорганізувалася в Англії, а також, як організація служби охорони здоров'я. Соціонує тіло служби охорони здоров'я.ends автоматичне представлення на дошках МКБ. Присвоює вимогу для медсестри на кожному полі НГС",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "c930f892301c8fde07a7": {
+      "source_title": "Everest: The Other Side review – couple’s climb on the mountain’s toughest face comes with tricky moral questions over their lofty ambitions",
+      "source_summary": "Immersive portrait of mountaineers Jim Morrison and Hilaree Nelson as they seek to become the first people to ski down Everest’s north faceWith some of its showings in the huge Imax format, this National Geographic-backed documentary feels like a callback to the early, glory days of large-format cinema when it was all about spectacle and scale, turning footage of natural-world wonders into an immersive experience. Those with a fear of heights or prone to vertigo may find this all a bit too immersive, in fact. That’s even more the case considering the point of the movie appears to be to provoke",
+      "language": "en",
+      "title": "Еверест: \"Інша сторона\" підсумовує пару на вершинах, найжорстокіших облич, що мають складні моральні питання, а не їхні високі амбіції.",
+      "summary": "Іммеруючий портрет горирів Джим Моррісон і Гіларі Нельсон, які намагаються стати першими людьми, які ступили на вершки на вершечку, з деякими її показами у величезному форматі іматичному, цей Національний документальний фільм виглядає як зворотний зв'язок у ранні, славні дні кіно великого формату, коли все це було про видовище і масштаб, перетворення кадрів чудес природного світу в неймовірний досвід. ті з страхом висоти або схильні до запаморочення можуть виявити, що це все є трохи неуважні, насправді.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "5f020f87a8c302a54d60": {
+      "source_title": "How a lifelong Republican came to lead the data center battle in Ohio",
+      "source_summary": "In Ohio, many people are displeased with the state's rapid buildout of data centers. It's a hot issue in the midterms, as political candidates from both parties try to ease voter concerns.",
+      "language": "en",
+      "title": "Як республіканець на все життя прийшов, щоб очолити битву в центрі даних в Огайо?",
+      "summary": "В Огайо, багато людей незадоволені швидким збиранням державних центрів з даними.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "678bd4db663f29a78f60": {
+      "source_title": "Why many student voters have a right to choose where to register to vote",
+      "source_summary": "Student voters studying outside their hometown have a right to choose where they register to vote. Advocates say a Montana legal fight is a reminder of a misunderstanding of those students' rights.",
+      "language": "en",
+      "title": "Чому багато студентів мають право вирішувати, де зареєструватися?",
+      "summary": "Прихильники кажуть, що юридична боротьба в Монтані є нагадуванням про непорозуміння прав тих студентів.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "1db8cd2d8a4b84958bea": {
+      "source_title": "Partnerships between ICE and local police surge, report finds",
+      "source_summary": "The number of state and local officers working with Immigration and Customs Enforcement has doubled in size in the last eight months, according to a new report from the immigration reform advocacy group FWD.us.",
+      "language": "en",
+      "title": "Партнери між ICE та місцевим поличним сплеском, з'ясовано",
+      "summary": "Кількість державних і місцевих офіцерів, які працювали з імміграцією та Залученням митниць, подвоїлася за останні вісім місяців, згідно з новим звітом з реформи імміграції групи підтримки поліції.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "9731125c31d0cbaa0f57": {
+      "source_title": "Senate candidates built up massive campaign war chests with out-of-state donations",
+      "source_summary": "In several competitive U.S. Senate contests, candidates have built healthy campaign accounts with out-of-state donations. But the messages to those donors is very different from the one back at home.",
+      "language": "en",
+      "title": "Кандидати в сенаті будували масові воєнні скриньки з недержавними пожертвами.",
+      "summary": "На кількох змаганнях в сенатах США кандидати створили здорові рахунки за кампанії з пожертвами на недержавні посади, але повідомлення для цих донорів дуже відрізняються від повідомлень, які були в минулому.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "e6bc56689e7d47b3a018": {
+      "source_title": "Are you an organ donor? Here are some rule changes you may want to know",
+      "source_summary": "Transplant teams can talk to families about organ donation before they've decided whether to continue life-sustaining medical care for loved ones. Until now, that has been forbidden.",
+      "language": "en",
+      "title": "Ви донор органа? Вам, мабуть, цікаво дещо змінити у правилах.",
+      "summary": "Групи трансплант можуть говорити з сім'ями про донорство органів ще до того, як вони вирішують продовжувати рятівну медичну допомогу для близьких людей.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "1a88758687ea2538ec42": {
+      "source_title": "New teachers union president wants to steer educators away from partisan politics",
+      "source_summary": "NEA President Princess Moss wants to move her organization, the nation's largest labor union, toward issue-based advocacy — and away from party politics.",
+      "language": "en",
+      "title": "Новий президент профспілки вчителів хоче відвернути педагогів від партизанської політики",
+      "summary": "ПАПЕСКРЕСОНАКСОНИЯ Мосс хочет перевезти свою организцию, крупную профспілку, направленную на дело, на восстановление и отсутствие от партийной политики.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "26cc98ac9dbc322ca026": {
+      "source_title": "China says it takes Mbappe’s apology ‘seriously’ after Mao dictator comment",
+      "source_summary": "France international Kylian Mbappe's remarks saw him become the latest foreign sports figure to anger Beijing.",
+      "language": "en",
+      "title": "Китай каже, що це бере Мбапес сауууууу після коментаря Мао диктатора",
+      "summary": "У Франції, за словами кісіан Мбаппе, він став останнім спортивним спортсменом, що лютував у Пекіні.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "51511f3c41e02be90864": {
+      "source_title": "Mao meme comments won't 'cause serious economic problems' for Mbappé, says expert",
+      "source_summary": "Sports journalist Ken Early said Kylian Mbappé was probably “as surprised as anybody” after a joke involving a meme depicting the Real Madrid forward as Mao Zedong sparked a reaction by China.",
+      "language": "en",
+      "title": "Мао Меме коментарі не будуть причиною серйозних економічних проблем для Мбепре, говорить експерт",
+      "summary": "Спортивний журналіст Кен Ерл сказав, що Кілліан Мбеппе був, мабуть, здивований, як ми зараз ♫ після жарту, що включає в себе мема, що зображає справжній Мадрид вперед, як Мао Цзедоні викликав реакцію Китаю.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "07839969ec4749012227": {
+      "source_title": "French Senate backs bill making protesters pay up to €10,000 for unrest damage",
+      "source_summary": "Under the proposed law, which would also have to pass in the National Assembly, protesters could be required to pay up to €10,000 for damage caused during demonstrations.",
+      "language": "en",
+      "title": "Французький сенат повертає законопроект протестуючих, що платять до 10 000 євро за шкоду, завдану неспокою.",
+      "summary": "Згідно з запропонованим законом, який також мав відбутися на Національній Асамблеї, протестуючим було потрібно заплатити до 10 000 євро за шкоду, якої зазнали під час демонстрації.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "9d8273c8a26241675519": {
+      "source_title": "Policeman kills knife attacker outside Israeli embassy in Serbia - Reuters",
+      "source_summary": "Policeman kills knife attacker outside Israeli embassy in Serbia Reuters",
+      "language": "en",
+      "title": "Поліцейський вбиває нападника біля ізраїльського посольства в Сербії - Рейтер.",
+      "summary": "Поліцейський вбиває нападника біля ізраїльського посольства в Сербії Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "572d103726e4176bf55c": {
+      "source_title": "Canada signs trade deal with UAE in push for non-US markets",
+      "source_summary": "The agreement aims to cut tariffs, reduce red tape and improve market access for businesses in both countries.",
+      "language": "en",
+      "title": "Канада підписує торгові угоди з UAE в просуванні для непродуктивних ринків",
+      "summary": "Угода має на меті зменшити тарифи, зменшити кількість червоних стрічок і поліпшити доступ до ринку для підприємств обох країн.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "06336d6a38631238cad9": {
+      "source_title": "For Israel’s Arab Minority, a Historic Show of Strength",
+      "source_summary": "Voters supporting two leading Arab parties turned out in record numbers to voice their opposition to the Netanyahu government in Tuesday’s election.",
+      "language": "en",
+      "title": "Для Ізраїлю ́ Арабська Менша, історична ознака сили",
+      "summary": "Витерпи підтримували дві головні арабські партії, виявились у рекордних числах, щоб висловити свою опозицію до уряду Нетанаягу в вівторок.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "26f72235010bf929ef0b": {
+      "source_title": "Ex-Israel government spokesperson: 'Extraordinary comeback' by Netanyahu",
+      "source_summary": "Despite the fallout from the 7 October attacks, three years of war and widespread public dissatisfaction, Benjamin Netanyahu emerged from Israel's election with his political position strengthened, even as neither political bloc is assured of a parliamentary majority.",
+      "language": "en",
+      "title": "Колишній уряд Ізраїлю промовляв до особи: \"Весна повернення\" Неанягу",
+      "summary": "Незважаючи на падіння від нападу 7 жовтня, то три роки війни й велике публічне незадоволення, Бенджамін Нетанягу вийшов з ізраїльського вибору з його політичним становищем, так як не запевняється про парламентську більшість.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "25ad770547982c58f742": {
+      "source_title": "Serbian police shoot dead assailant at Israeli Embassy",
+      "source_summary": "A \"minor\" has been killed by police after attacking a guard at Israel's embassy in Belgrade with knives, the interior minister says. Ivica Dacic said police had declared the highest terror alert after the incident.",
+      "language": "en",
+      "title": "Сербська поліція стріляла у вбитому напали на ізраїльське посольство.",
+      "summary": "Поліція вбила \"мінор\" після того, як напала на охоронця в посольстві Ізраїлю у Белграді з ножами, каже міністр внутрішніх справ Івіца Дакік.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "c54334d21acd826f1086": {
+      "source_title": "Morning news brief",
+      "source_summary": "President Trump crisscrosses the country with scattershot closing messages midterms approach, deadlock after Israeli election shows no clear winner, Fed expected to hold interest rates steady.",
+      "language": "en",
+      "title": "Короткі ранкові новини",
+      "summary": "Президент Трамп перетинає країну з підходом до проміжних повідомлень, замкнення після ізраїльських виборів не показує чіткого переможця, ФРС очікував, що відсоткові ставки будуть стабільними.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "6b01621bd4c1f27c68bd": {
+      "source_title": "Partial results from Israel's contentious election show no clear winner",
+      "source_summary": "Prime Minister Benjamin Netanyahu's right-wing bloc was leading opposition rival Gadi Eisenkot. Arab parties had a strong showing, and a key question now is whether Eisenkot's bloc will consider forming a coalition with them.",
+      "language": "en",
+      "title": "Часткові результати сварливих виборів в Ізраїлі не показують, що вони не є ясною перемогою.",
+      "summary": "Прем'єр-міністр Бенджамін Нетанягу був першим суперником Ґаді Ейзенкот. Арабські партії мали потужну виставу, і ключове питання зараз - чи буде блок Ейзенкота формувати з ними коаліцію.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "0cbfbcaf1224d39ffee1": {
+      "source_title": "French Senate debates new 'rioters pay' bill",
+      "source_summary": "As thousands of French businesses grapple with the fallout from recent riots, French senators are debating a new bill aimed at making not only the perpetrators but also those belonging to the same group pay for damages. The idea of \"collective civil liability\" divides lawmakers, with opponents saying it could potentially violate people's democratic rights to protest as some might stay clear of demonstrations for fear of being in the wrong place at the wrong time.",
+      "language": "en",
+      "title": "Французький сенат дебатує нові \"ріотери платять\" законопроект",
+      "summary": "Оскільки тисячі французьких підприємств борються з падінням від недавніх заколотів, французькі сенатори обговорюють новий законопроект, спрямовані на те, щоб зробити не лише порушників, але й тих, хто належить до тієї самої групи, щоб отримати збитки.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "c44a46076e9869b359da": {
+      "source_title": "Meta's Waddle World is a Tamagotchi-like AI pet app",
+      "source_summary": "Meta describes Waddle World as a 'daily journal disguised as a pet.'",
+      "language": "en",
+      "title": "Світ адміністрування Meta - це улюбленець для Тамаготі, схожий на комп'ютерну програму для комп'ютерної програми",
+      "summary": "Мета описує World бути \"Woadle World як\" щоденник, замаскований як домашня тварина. \"",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "b0114f32c982968d4811": {
+      "source_title": "Octopus Energy boss on standing charges",
+      "source_summary": "CEO Greg Jackson spoke to BBC Breakfast after the chancellor announced cuts to gas bills for millions.",
+      "language": "en",
+      "title": "Окселлус Енергетичний бос під час винесення зарядів",
+      "summary": "Президент Грег Джексон виступав з \"Бі-Бі-Сідінгом\" після того, як канцлер оголосив про скорочення викидів газу мільйонами.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "79a813a1eb2382dc0181": {
+      "source_title": "Zookeeper dies after leopard attack",
+      "source_summary": "A woman has died after being attacked by a leopard at the safari park where she spent almost her entire 40-year career.",
+      "language": "en",
+      "title": "Звіринець помирає після нападу леопарда.",
+      "summary": "Жінка померла після нападу леопарда в парку Сафарі, де вона провела майже всю свою 40-річну кар'єру.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "7db23138d52a44d6d6f2": {
+      "source_title": "Khouri: Strong Israel-Arab bloc result does not mean Israel has changed",
+      "source_summary": "Rami Khouri challenges the idea that a strong IsraelI-Arab bloc result signals any positive shift in Israeli society.",
+      "language": "en",
+      "title": "Kgori: Результат потужного ізраїльського блоку не означає, що Ізраїль змінився",
+      "summary": "Рамі Кхоррі заперечує ідею, що сильний блок з Ізраїль-Арабів призводить до будь-якої позитивної зміни в ізраїльському суспільстві.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "22a27df1f33e1e8c0405": {
+      "source_title": "Brazil: Lula celebrates 81st birthday after re-election victory",
+      "source_summary": "Brazil's re-elected President Luiz Inácio Lula da Silva celebrated his 81st birthday on Tuesday, 27 October, with dozens of supporters outside the Alvorada presidential palace in Brasília, just two days after winning a closely contested election.",
+      "language": "en",
+      "title": "Бразилія: Лула святкує 81 день народження після перемоги від вибору знову",
+      "summary": "Президент Бразилії Луї Інасіо Лала да Сільва відзначив свій 81 день народження у вівторок 27 жовтня з десятками прихильників за межами президентського палацу Альворада в Бразиліа всього через два дні після того, як виграв вибори.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "9e59d092eeb7dd64758c": {
+      "source_title": "AI Emergency Alerts Are Coming. Humans Might Not Be Ready",
+      "source_summary": "Human beings struggle with emergency communication. Chatbots can help—if people take them seriously.",
+      "language": "en",
+      "title": "Люди не можуть бути готовими",
+      "summary": "Битви можуть допомогти людям якщо вони серйозно ставляться до них.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "5726b328bcaa55e0d373": {
+      "source_title": "Israel election: Netanyahu-led bloc in slight lead with more than half of votes counted",
+      "source_summary": "While partial results show the pro-Netanyahu bloc ahead of the anti-Netanyahu bloc, the final tally could take days. Neither grouping is expected to win a majority, with tough coalition talks ahead. Follow DW.",
+      "language": "en",
+      "title": "Вибори в Ізраїлі: блок з невеликими голосами, що враховує більше половини голосів",
+      "summary": "Хоча часткові результати показують, що блок про- Неєньягу знаходиться вище блоку проти Неєньягу, але остаточне збільшення може тривати декілька днів. Не очікується, що більшість отримає групу, а попереду - складні коаліційні переговори.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "19d688995c8bfe7a9267": {
+      "source_title": "Is AIPAC losing its grip on US politics?",
+      "source_summary": "Pro-Israel lobby, AIPAC, is changing its strategy, ending candidate endorsements and direct campaign contributions.",
+      "language": "en",
+      "title": "Чи АІПАК втрачає владу над політикою США?",
+      "summary": "Про-Ізраїль фойє, AIPIAC, змінює стратегію, фіналісти, що підтримують та прямі внески в кампанію.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "f0456e7cc127e5380662": {
+      "source_title": "Former world No 3 Stan Wawrinka ends career in home match defeat in Basel",
+      "source_summary": "Stan Wawrinka, one of few players to win multiple Grand Slams in era dominated by Federer, Nadal and Djokovic, retires.",
+      "language": "en",
+      "title": "Колишній світ No 3 Стен Ваурінка завершує кар'єру в домашньому матчі в Базелі.",
+      "summary": "Стен Ваврінка, один з небагатьох гравців, що здобув перемогу над численними Великими Сламами в епоху, над яким панували Федерер, Надал і Доковіч, пенсіонери.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "05dd67341045bf41759c": {
+      "source_title": "Why is the system failing France’s younger generation?",
+      "source_summary": "Why are French youth rioting?",
+      "language": "en",
+      "title": "Чому система Франції зменшується?",
+      "summary": "Чому французи бунтуються?",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "231fa16c110cf6c88b01": {
+      "source_title": "Xhaka, Embolo return to Swiss squad after fake COVID docs affair",
+      "source_summary": "Granit Xhaka and Breel Embolo's return to Switzerland 'the right course of action,' national team director says.",
+      "language": "en",
+      "title": "Xhaka, Embolo turn to minster team after figure COVID docs pyle",
+      "summary": "Граніт Xhakea і Бріл Емболо повернувся до Швейцарії \"правильний шлях дії,\" каже керівник національної команди.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "721e0163a13e5fb2778a": {
+      "source_title": "Taiwan-Japan Film Fund Daily Capital Launches at Tokyo Market, Backs Period Romance ‘Love Ends in Bloom’",
+      "source_summary": "Daily Capital, a new fund focused on Taiwan-Japan film and television co-productions, launched on the Tokyo International Film Festival market TIFFCOM’s opening day at the “Taiwan Originals: Project Showcase” event. The fund aims to raise NT$100 million (about $3.1 million) and invest in at least five projects across film, television and animation over its first […]",
+      "language": "en",
+      "title": "Тайван-японський фонд фільмів \"Дейлі Капітал\" виходить на токійському ринку, \"Росія романа\" в Блум",
+      "summary": "Щоденна столиця, новий фонд, зосереджений на фільмі та телепродукції, що запускаються на токійському міжнародному ринку TIFF}Цокання починається у день на }Тайван початковий: Проект Шоуті-Паці, фонд має на меті зібрати NT100 мільйонів (приблизно $ 3,1 млн) і інвестувати в принаймні п'ять проектів на другому боці фільму, телебачення та анімацію над першою [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "63e91ed5b11d3b08af1b": {
+      "source_title": "'Nail-biting' midterms may deliver Democratic wins across the US, says top Democratic strategist",
+      "source_summary": "Democratic party strategist Keith Brannum calls the upcoming US mid-term elections \"far more nail-biting\" than Republicans would have wanted, with many more potential wins for Democratic candidates than expected when first moving into 2026.",
+      "language": "en",
+      "title": "\"Поточні іспити на рівні до кінця світу можуть забезпечити демократичні перемоги в США, каже головний демократичний стратег.",
+      "summary": "Деморатист-моралізатор Кейт Браннум називає наступні вибори США значно більш ударними, ніж республіканці хотіли б, і з набагато більшою кількістю потенційних виграшів для кандидатів-демократів, ніж очікувалося, коли вони вперше переселилися в 2026 рік.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "d8c9db5112b3690276e2": {
+      "source_title": "Why the US midterms matter even if you don’t live in America",
+      "source_summary": "From military aid and sanctions to trade and tariffs, the US midterms could shape decisions that affect millions.",
+      "language": "en",
+      "title": "Чому саме американська середня частина матерії, навіть якщо ви не живете в Америці",
+      "summary": "Від військової допомоги та санкції до торгівлі та тарифів, проміжні іспити США могли б вплинути на рішення, що вплинули б на мільйони людей.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "6a6fea46e3533ba2066f": {
+      "source_title": "Will Andy Burnham actually like his own budget?",
+      "source_summary": "It’s budget day – and it’s a critical moment for the chancellor and the UK economy. So, what are the plans to ease the squeeze on household bills and the cost-of-living crisis? Sam Coates and Anne McElvoy unpack the high-stakes decisions facing the government, and how John Healey plans to raise billions in additional revenue […]",
+      "language": "en",
+      "title": "Енді Бернем сподобається у своєму бюджеті?",
+      "summary": "Отже, які плани щодо полегшення стиснень на домашні купюри і кризи життя?",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "2f9dd74b117a327b40e0": {
+      "source_title": "At least 3 dead after Cylone Arnab hits southern India",
+      "source_summary": "Authorities evacuate 180,000 people as storm causes flooding, disrupting flights and train schedules.",
+      "language": "en",
+      "title": "Принаймні 3 після смерті Сілона Арнаба, що на півдні Індії.",
+      "summary": "Влада евакуювала 180,000 людей, тому що буря спричиняє повінь, розладнаючи польоти й графіки поїздів.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "e9da9919f140308e9342": {
+      "source_title": "Serbian elections winner 'clearly seek better relations' with the EU, says expert",
+      "source_summary": "Marko Prelec, analyst at the International Crisis Group, believes dismantling outgoing prime minister Aleksandar Vučić system will take a long time but thinks it's \"premature\" to worry about the Students List movement capacity to lead the country.",
+      "language": "en",
+      "title": "За словами експерта з питань виборів Сербів, \" явно шукаючи кращого зв'язку з ЄС,",
+      "summary": "Марко Пресек, аналітик Міжнародної групи криз, вважає, що демантація відхідної прем'єр-міністра Александара Вукичної системи триватиме досить довго, але вважає, що \"підготовлення\" - це здатність до руху Списку студентів керувати країною.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "3cf0ff1ba0e590c61877": {
+      "source_title": "NBA: Portland Blazers prevail in battle of unbeatens against LA Lakers",
+      "source_summary": "Portland beat Lakers, while Jayson Tatum lifts Celtics over Nets and Knicks avert 0-4 start with win against Pistons.",
+      "language": "en",
+      "title": "NBA: Портленд Блазерс б'ється в битві з Лос- Лейкерс",
+      "summary": "Портленд бив Лейкерс, а Джайсон Тайтум піднімає кельти через неводи і Нейкс запобігає нулю-4, щоб перемогти пістонів.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "fc419248ef72006da443": {
+      "source_title": "‘Ferritin face’: are social media claims about iron deficiency fact – or fiction?",
+      "source_summary": "Experts say symptoms such as dark circles under the eyes, grey skin, cracked lips and hair loss can be a warning sign – but there are other factors tooTikTok is rife with influencers warning of “ferritin face”, a term they use to describe the pallor, dark circles, dry skin, and hair loss claimed to indicate low iron stores. But is this based on fact or fiction, and when is it time to head to the GP? Continue reading...",
+      "language": "en",
+      "title": "Чи соціальні медіа заявляють про існування фестивалю чи вигадки?",
+      "summary": "Фахівці кажуть, що такі темні кола під очима, сіра шкіра, потріскані губи й втрата волосся можуть бути попереджальним знаком ♫ Але є й інші фактори, які є дуже поширені з факторами попередження про epeferiste },\" тобто, термін, яким вони описують пафо, темні кола, суху шкіру, і втрата волосся, що вказує на низькі запаси заліза.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "15a53d1cd031f66fe535": {
+      "source_title": "Northern Ontario communities welcome expansion of rural immigration program - CBC",
+      "source_summary": "Northern Ontario communities welcome expansion of rural immigration program CBC",
+      "language": "en",
+      "title": "Північно- Онтаріо радо вітає розширення програми імміграції сільських місцевостей - Сі - Сі - Сі - Сі - Сі - Сі",
+      "summary": "Північно- Онтаріо радо вітає розширення програми імміграції сільських місцевостей.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "f85c3cdd79e4b945aa75": {
+      "source_title": "Flavor Flav, Hillary Clinton weigh in as WNBA takes flak for weekday lunchtime finals game",
+      "source_summary": "The Atlanta Dream criticized the WNBA for scheduling a Finals game on Thursday afternoon, drawing reactions from Flavor Flav and Hillary Clinton.",
+      "language": "en",
+      "title": "Flavor Flav, Garriel Coliston зважує, як WNBA робить flac для гри у робочий день під час обідніх засідань",
+      "summary": "У \" Мрія Атланти \" (англ.) було критиковано WNBA за планування фінальної гри в четвер пополудні, що викликало реакцію від Flavor Flav і Garriel Clinphin.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "cfdb8b538e854fb422b6": {
+      "source_title": "A U.S. cruise ship ends voyage due to fuel costs and passengers lose their homes",
+      "source_summary": "The Odyssey set sail two years ago on a three-year voyage to the seven continents marketed as combining long-term living at sea with global travel.",
+      "language": "en",
+      "title": "Круїзний корабель США закінчується плаванням через витрати на пальне і пасажири втрачають свої домівки.",
+      "summary": "\"Одіссея\" вирушив на пару два роки тому у трирічну подорож до семи континентів, які торгують, поєднуючи довготермінові життя на морі з глобальними подорожами.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "28e9eaa0d06d088e36e3": {
+      "source_title": "German chemicals giant BASF raises profit guidance after Iran war price hikes",
+      "source_summary": "German chemicals giant BASF raised its 2026 outlook for the second time this year on Wednesday after raising prices for some products following the outbreak of the Iran war.",
+      "language": "en",
+      "title": "Німецький хімікалій великий BASF підвищує прибуткове керівництво після походів за війну в Ірані.",
+      "summary": "Німецький велетень \"BASF\" підніс свій 2026-й світогляд у середу, після вибуху Іранської війни, після підвищення цін на деякі продукти.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "713266e7d29b1644de38": {
+      "source_title": "Where does Arsenal’s Fleetwood humiliation place in English cup shocks?",
+      "source_summary": "How big a shock is the Premier League champions' 5-3 defeat on penalties after a 1-1 draw with a fourth-tier club?",
+      "language": "en",
+      "title": "Де ведь в английских шоках от мухи Перетвуда?",
+      "summary": "Наскільки великим шоком є поразка чемпіонів прем'єр-міністра Ліги з покаранням після першого з 1-1 з четвертим клубом?",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "794fbde823643efe4f4b": {
+      "source_title": "Meta- and Google-backed Jio Platforms’ shares soar over 21% on trading debut after record IPO",
+      "source_summary": "Jio had offered 270 million shares in the IPO priced at 1,119 rupees apiece, raising 302 billion rupees ($3.2 billion) in the country's largest-ever IPO.",
+      "language": "en",
+      "title": "Мета- та в Гугл-близнюки Джіо-стоп'є злітають над 21% на продаж після запису IPO",
+      "summary": "Джіо запропонував 270 мільйонів акцій в IPO за ціною 119 рупій, підвищуючи 302 мільярди рупій (3.2 мільярди) у найбільшому в країні IPO.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "194e42f4572404c8c88d": {
+      "source_title": "Kilka mieszkań przestało istnieć. Potężna eksplozja wstrząsnęła blokiem",
+      "source_summary": "Kilka mieszkań przestało istnieć. Potężna eksplozja wstrząsnęła blokiem",
+      "language": "pl",
+      "title": "По одному з будинків було зруйновано, а через сильний вибух стався землетрус.",
+      "summary": "По одному з будинків було зруйновано, а через сильний вибух стався землетрус.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "d2b01ba4565b54b172c7": {
+      "source_title": "Gęsta mgła nad Polską. IMGW wydał ostrzeżenia dla mieszkańców 10 województw",
+      "source_summary": "Gęsta mgła nad Polską. IMGW wydał ostrzeżenia dla mieszkańców 10 województw",
+      "language": "pl",
+      "title": "Глава туманність над Польщею.",
+      "summary": "Глава туманність над Польщею.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "79e0d58a5b9fa118c153": {
+      "source_title": "Koniec TikToka dla dzieci? Rząd szykuje nowe przepisy",
+      "source_summary": "Koniec TikToka dla dzieci? Rząd szykuje nowe przepisy",
+      "language": "pl",
+      "title": "Кінець Тіктока для дітей?",
+      "summary": "Кінець Тіктока для дітей?",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "08356375c8c49ad9d234": {
+      "source_title": "Czerwona plaża „ożywa” właśnie teraz. Gdzie można zobaczyć to niezwykłe zjawisko?",
+      "source_summary": "Czerwona plaża „ożywa” właśnie teraz. Gdzie można zobaczyć to niezwykłe zjawisko?",
+      "language": "pl",
+      "title": "Червоне узбережжя « живе зараз », де можна побачити це дивовижне явище?",
+      "summary": "Червоне узбережжя « живе зараз », де можна побачити це дивовижне явище?",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "2755772649ed810bedf5": {
+      "source_title": "Ryzykowna „pamiątka” na lotnisku. Chciał przewieźć kawałek rafy",
+      "source_summary": "Ryzykowna „pamiątka” na lotnisku. Chciał przewieźć kawałek rafy",
+      "language": "pl",
+      "title": "В аеропорту він хотів перевезти шматок рифу.",
+      "summary": "В аеропорту він хотів перевезти шматок рифу.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "62167ea91b286f0e9834": {
+      "source_title": "Smakołyk jak żaden inny. Przyznano certyfikaty na wypiek rogali świętomarcińskich",
+      "source_summary": "Smakołyk jak żaden inny. Przyznano certyfikaty na wypiek rogali świętomarcińskich",
+      "language": "pl",
+      "title": "Речовина, як і будь-який інший. Виготовили сертифікати для випіків.",
+      "summary": "Речовина, як і будь-який інший. Виготовили сертифікати для випіків.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "ea7a9533c3de1fe259c4": {
+      "source_title": "„Jak wiecie, jestem z branży też kościelnej”. Hołownia o „złotej akcji” w rządzie",
+      "source_summary": "„Jak wiecie, jestem z branży też kościelnej”. Hołownia o „złotej akcji” w rządzie",
+      "language": "pl",
+      "title": "« Як ви знаєте, я є членом церковної індустрії ЄС.",
+      "summary": "« Як ви знаєте, я є членом церковної індустрії ЄС.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "1e447c5d498e260a076e": {
+      "source_title": "Sikorski uderzył w Nawrockiego, Przydacz i Fogiel odpowiadają. „Cham”",
+      "source_summary": "Sikorski uderzył w Nawrockiego, Przydacz i Fogiel odpowiadają. „Cham”",
+      "language": "pl",
+      "title": "Сікорський вдарив Наркотика, Доставка і Фокул відповідають:",
+      "summary": "Сікорський вдарив Наркотика, Доставка і Фокул відповідають:",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "9ea13cbb7a593297ada0": {
+      "source_title": "Przewodnicząca Parlamentu Europejskiego odwiedzi Polskę. Mają paść ważne słowa",
+      "source_summary": "Przewodnicząca Parlamentu Europejskiego odwiedzi Polskę. Mają paść ważne słowa",
+      "language": "pl",
+      "title": "Вони мають бути дуже важливими словами.",
+      "summary": "Вони мають бути дуже важливими словами.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "ae95c379e0f82f104104": {
+      "source_title": "Nie żyje wieloletni prezes wrocławskiego zoo. Radosław Ratajszczak miał 69 lat",
+      "source_summary": "Nie żyje wieloletni prezes wrocławskiego zoo. Radosław Ratajszczak miał 69 lat",
+      "language": "pl",
+      "title": "Ратайський зоопарк, який був багаторічним президентом, помер у віці 69 років.",
+      "summary": "Ратайський зоопарк, який був багаторічним президентом, помер у віці 69 років.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "19ad03557e27a8c6c22c": {
+      "source_title": "Tragedia w Argentynie: 12-dniowy noworodek zmarł po uderzeniu przez spadające awokado",
+      "source_summary": "Tragedia w Argentynie: 12-dniowy noworodek zmarł po uderzeniu przez spadające awokado",
+      "language": "pl",
+      "title": "Трагедія в Аргентині: 12-денний новонароджений помер після удару авокадо, що спадав.",
+      "summary": "Трагедія в Аргентині: 12-денний новонароджений помер після удару авокадо, що спадав.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "f585bcfe313d968b3f45": {
+      "source_title": "Kolizja na morzu. Statek wycieczkowy zderzył się z kontenerowcami",
+      "source_summary": "Kolizja na morzu. Statek wycieczkowy zderzył się z kontenerowcami",
+      "language": "pl",
+      "title": "Колібрі на морі. Екскурсія наткнулася на контейнери.",
+      "summary": "Колібрі на морі. Екскурсія наткнулася на контейнери.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "bcb862a1588806d72a07": {
+      "source_title": "Tylko co czwarty Polak zadowolony ze swoich finansów. Jest gorzej niż przed rokiem",
+      "source_summary": "Tylko co czwarty Polak zadowolony ze swoich finansów. Jest gorzej niż przed rokiem",
+      "language": "pl",
+      "title": "Лише одна з чотирьох Поляків, які задоволені своїми фінансами, є нижчою, ніж раніше, за рік.",
+      "summary": "Лише одна з чотирьох Поляків, які задоволені своїми фінансами, є нижчою, ніж раніше, за рік.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "b01e846a7625a798d931": {
+      "source_title": "To miał być rejs dookoła świata. Nietypowy powód „uziemienia” luksusowego statku w Kambodży",
+      "source_summary": "To miał być rejs dookoła świata. Nietypowy powód „uziemienia” luksusowego statku w Kambodży",
+      "language": "pl",
+      "title": "Неймовірна причина, чому ми плавали навколо світу, це розкішний корабель у Камбоджі.",
+      "summary": "Неймовірна причина, чому ми плавали навколо світу, це розкішний корабель у Камбоджі.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "10b57ea786f023d36d46": {
+      "source_title": "Podwójne koperty zmienią wynik wyborów? Były ich setki tysięcy",
+      "source_summary": "Podwójne koperty zmienią wynik wyborów? Były ich setki tysięcy",
+      "language": "pl",
+      "title": "Два конверти змінять результат виборів?",
+      "summary": "Два конверти змінять результат виборів?",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "1f16c74b7e132a57214d": {
+      "source_title": "Kilka osób trafiło do szpitala. Poważny wypadek autobusu w Olsztynie",
+      "source_summary": "Kilka osób trafiło do szpitala. Poważny wypadek autobusu w Olsztynie",
+      "language": "pl",
+      "title": "Серйозна аварія на автобусі в Олштіні.",
+      "summary": "Серйозна аварія на автобусі в Олштіні.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "94fdfe069db04a1c516f": {
+      "source_title": "1 listopada w Poznaniu. Jak dojechać na cmentarz?",
+      "source_summary": "1 listopada w Poznaniu. Jak dojechać na cmentarz?",
+      "language": "pl",
+      "title": "Як ми доїхати на кладовище?",
+      "summary": "Як ми доїхати на кладовище?",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "d68ebce5bf71864cab69": {
+      "source_title": "Grecja zakazuje social mediów dzieciom. Inne kraje UE chcą iść w jej ślady",
+      "source_summary": "Grecja zakazuje social mediów dzieciom. Inne kraje UE chcą iść w jej ślady",
+      "language": "pl",
+      "title": "Греція забороняє медіа-соціал для дітей. Інші країни ЄС хочуть, щоб це було по-іншому.",
+      "summary": "Греція забороняє медіа-соціал для дітей. Інші країни ЄС хочуть, щоб це було по-іншому.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "76eac92ecdcdcf4bbe37": {
+      "source_title": "Sąd uchylił decyzję ws. doprowadzenia Ziobry. Były minister może żądać odszkodowania",
+      "source_summary": "Sąd uchylił decyzję ws. doprowadzenia Ziobry. Były minister może żądać odszkodowania",
+      "language": "pl",
+      "title": "Колишній міністр може вимагати компенсації",
+      "summary": "Колишній міністр може вимагати компенсації",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "c4c560076338735fadc3": {
+      "source_title": "Sardynia mówi \"nie\" telefonom przy stole. Te restauracje wprowadzają zakaz",
+      "source_summary": "Sardynia mówi \"nie\" telefonom przy stole. Te restauracje wprowadzają zakaz",
+      "language": "pl",
+      "title": "Сардинія каже \"ні\" телефонам за столом, а ресторани заборонили.",
+      "summary": "Сардинія каже \"ні\" телефонам за столом, а ресторани заборонили.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "433c0ef8e4da3f0ef4e3": {
+      "source_title": "Nowy ranking: Gdzie w Polsce żyje się najlepiej? Dwa miasta liderami",
+      "source_summary": "Nowy ranking: Gdzie w Polsce żyje się najlepiej? Dwa miasta liderami",
+      "language": "pl",
+      "title": "Новий рейтинг: де живе найкраще?",
+      "summary": "Новий рейтинг: де живе найкраще?",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "085be71d25a02bf2305d": {
+      "source_title": "Wstrząsające sceny na stacji w Sopocie. Wpadł między peron a pociąg SKM",
+      "source_summary": "Wstrząsające sceny na stacji w Sopocie. Wpadł między peron a pociąg SKM",
+      "language": "pl",
+      "title": "Поворотні сцени на станції в Сопоті.",
+      "summary": "Поворотні сцени на станції в Сопоті.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "617ab429c5eed5a854e6": {
+      "source_title": "Wydano alert RCB. Rosyjski atak powietrzny na Ukrainie",
+      "source_summary": "Wydano alert RCB. Rosyjski atak powietrzny na Ukrainie",
+      "language": "pl",
+      "title": "У Україні було зроблено алерт RCB. Російський повітряний напад",
+      "summary": "У Україні було зроблено алерт RCB. Російський повітряний напад",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "734f9da3c4e3c0a01da8": {
+      "source_title": "Wielkie zmiany na S7. Sprawdź, co czeka kierowców już w najbliższych dniach",
+      "source_summary": "Wielkie zmiany na S7. Sprawdź, co czeka kierowców już w najbliższych dniach",
+      "language": "pl",
+      "title": "Зверніть увагу на те, що станеться з водіями в найближчі дні.",
+      "summary": "Зверніть увагу на те, що станеться з водіями в найближчі дні.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "4197e39fe77ee487e8fa": {
+      "source_title": "Szkielet nanotyrannusa sprzedany za fortunę. Wystarczyło 12 minut",
+      "source_summary": "Szkielet nanotyrannusa sprzedany za fortunę. Wystarczyło 12 minut",
+      "language": "pl",
+      "title": "Скелет нанотирануса проданий за коноплі.",
+      "summary": "Скелет нанотирануса проданий за коноплі.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "4edc45b212ef96b23085": {
+      "source_title": "Zasiłek pogrzebowy wyższy od tego roku. Planowane są kolejne zmiany",
+      "source_summary": "Zasiłek pogrzebowy wyższy od tego roku. Planowane są kolejne zmiany",
+      "language": "pl",
+      "title": "З цього року планується провести похоронні операції.",
+      "summary": "З цього року планується провести похоронні операції.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "3f54cd1f06493349eef2": {
+      "source_title": "Sędzia miała kolizję. Posiedzenie w sprawie posła odwołane przez telefon",
+      "source_summary": "Sędzia miała kolizję. Posiedzenie w sprawie posła odwołane przez telefon",
+      "language": "pl",
+      "title": "Суддя мав зіткнення. що його скасовують по телефону.",
+      "summary": "Суддя мав зіткнення. що його скасовують по телефону.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "84d176cfb9044a678fbb": {
+      "source_title": "Pierwsze śnieżyce możliwe już na początku listopada. Ściśnie też mróz",
+      "source_summary": "Pierwsze śnieżyce możliwe już na początku listopada. Ściśnie też mróz",
+      "language": "pl",
+      "title": "Перші снігові бурі, які можна побачити на початку листопада.",
+      "summary": "Перші снігові бурі, які можна побачити на початку листопада.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "2a50838963096b25098e": {
+      "source_title": "Wielkie role, ważne słowa, niezwykłe biografie. Oni odeszli w 2026 roku",
+      "source_summary": "Wielkie role, ważne słowa, niezwykłe biografie. Oni odeszli w 2026 roku",
+      "language": "pl",
+      "title": "Великі ролі, важливі слова, дивовижні біографії, вони пішли в 2026 році.",
+      "summary": "Великі ролі, важливі слова, дивовижні біографії, вони пішли в 2026 році.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "445799e14329feac7a2b": {
+      "source_title": "Nawet 300 zł za wiązankę na Wszystkich Świętych. Nowy trend na grobach",
+      "source_summary": "Nawet 300 zł za wiązankę na Wszystkich Świętych. Nowy trend na grobach",
+      "language": "pl",
+      "title": "Новий тренд на могилах.",
+      "summary": "Новий тренд на могилах.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "752a3e0ba5d8ad870f46": {
+      "source_title": "Zderzenie pociągów w Hiszpanii. Zawieszono kursowanie kolei dużej prędkości",
+      "source_summary": "Zderzenie pociągów w Hiszpanii. Zawieszono kursowanie kolei dużej prędkości",
+      "language": "pl",
+      "title": "Подорож автомобілем з великою швидкістю призупинилась",
+      "summary": "Подорож автомобілем з великою швидкістю призупинилась",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "a38e1e864fc9b785d255": {
+      "source_title": "Interaktywna mapa pomoże dotrzeć na cmentarz, czyli Wszystkich Świętych w Krakowie",
+      "source_summary": "Interaktywna mapa pomoże dotrzeć na cmentarz, czyli Wszystkich Świętych w Krakowie",
+      "language": "pl",
+      "title": "Інтерактивна карта допоможе нам дістатися до кладовища, тобто до всіх святих у Кракові.",
+      "summary": "Інтерактивна карта допоможе нам дістатися до кладовища, тобто до всіх святих у Кракові.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "4ba99c5ecb9d3d57574b": {
+      "source_title": "Wilki podchodzą pod domy. Wójt tej gminy włącza latarnie na całą noc",
+      "source_summary": "Wilki podchodzą pod domy. Wójt tej gminy włącza latarnie na całą noc",
+      "language": "pl",
+      "title": "Вовки підходять до будинків.",
+      "summary": "Вовки підходять до будинків.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "d22be303aa745392f98f": {
+      "source_title": "Krzyczał „Allahu Akbar”. Nożownik zastrzelony przed ambasadą",
+      "source_summary": "Krzyczał „Allahu Akbar”. Nożownik zastrzelony przed ambasadą",
+      "language": "pl",
+      "title": "Нужник, що застрелив під амбасадором.",
+      "summary": "Нужник, що застрелив під амбасадором.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "3c35853c59e382785bbf": {
+      "source_title": "Setki ciężarówek przekraczają nowy most graniczny. Są zdjęcia satelitarne",
+      "source_summary": "Setki ciężarówek przekraczają nowy most graniczny. Są zdjęcia satelitarne",
+      "language": "pl",
+      "title": "Сотні вантажівок перетнули кордон. Є супутникові знімки.",
+      "summary": "Сотні вантажівок перетнули кордон. Є супутникові знімки.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "076ca78d7ff2358b3a36": {
+      "source_title": "Rozszczelnił się wagon z siarką. Akcja strażaków w Łódzkiem",
+      "source_summary": "Rozszczelnił się wagon z siarką. Akcja strażaków w Łódzkiem",
+      "language": "pl",
+      "title": "Вівся вагон із сіркою.",
+      "summary": "Вівся вагон із сіркою.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "5b88b3aec71183508f42": {
+      "source_title": "CERT Polska ostrzega przed oszustwami internetowymi. „Nowy motyw”",
+      "source_summary": "CERT Polska ostrzega przed oszustwami internetowymi. „Nowy motyw”",
+      "language": "pl",
+      "title": "CERT Польща застерігає проти онлайн- шахрайства. « Нова тема» Європейська Комісія",
+      "summary": "CERT Польща застерігає проти онлайн- шахрайства. « Нова тема» Європейська Комісія",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "a413bf263ffe2fc0c056": {
+      "source_title": "Żywe jaszczurki ukryte w ciężarówce. Służby udaremniły przemyt wart fortunę",
+      "source_summary": "Żywe jaszczurki ukryte w ciężarówce. Służby udaremniły przemyt wart fortunę",
+      "language": "pl",
+      "title": "Морські ящірки, що були сховані в вантажівці, були розладнані контрабандою, яка коштує багато грошей.",
+      "summary": "Морські ящірки, що були сховані в вантажівці, були розладнані контрабандою, яка коштує багато грошей.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "7ca9aacd90b1c3038489": {
+      "source_title": "Tysiące emerytów tracą 866 zł miesięcznie. Tego dodatku ZUS nie wypłaci sam, potrzebny wniosek",
+      "source_summary": "Tysiące emerytów tracą 866 zł miesięcznie. Tego dodatku ZUS nie wypłaci sam, potrzebny wniosek",
+      "language": "pl",
+      "title": "Тисячі пенсіонерів втрачають 866 доларів за місяць.",
+      "summary": "Тисячі пенсіонерів втрачають 866 доларів за місяць.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "ce6536d7475a428f8455": {
+      "source_title": "Groźny incydent na przejeździe. Wojskowy „Żbik” uderzył w pociąg towarowy",
+      "source_summary": "Groźny incydent na przejeździe. Wojskowy „Żbik” uderzył w pociąg towarowy",
+      "language": "pl",
+      "title": "Військовий « Жінок» вдарив у товарний поїзд.",
+      "summary": "Військовий « Жінок» вдарив у товарний поїзд.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    },
+    "3e3f8897a7f67c96b412": {
+      "source_title": "Kulisy rozmowy z Putinem. „90-minutowy wywód o Słowianach”",
+      "source_summary": "Kulisy rozmowy z Putinem. „90-minutowy wywód o Słowianach”",
+      "language": "pl",
+      "title": "\"Путін\" для розмови з куликами.",
+      "summary": "\"Путін\" для розмови з куликами.",
+      "engine": "opus_mt",
+      "translated_at": 1793188434
+    }
+  },
   "meta": {
-    "engine": "local_opus_mt",
-    "daily_target": 200
+    "engine": "local_opus_mt_with_optional_mymemory_fallback",
+    "daily_target": 200,
+    "new_translations": 200,
+    "remaining_candidates": 0
   }
 }
