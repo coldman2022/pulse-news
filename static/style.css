@@ -1152,3 +1152,78 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{
   .fx-bar{margin-left:auto}
   .brand{font-size:29px}
 }
+
+
+/* Pulse v17 compact editorial home */
+.fx-bar{background:transparent!important;padding:0!important;align-items:flex-end;line-height:1.25}
+.fx-quotes{gap:15px}
+.intro{justify-content:flex-start!important;align-items:flex-start!important;text-align:left!important}
+.intro h1{margin:0;text-align:left!important}
+.events-header{display:flex;flex-direction:column;align-items:flex-start!important;gap:11px}
+.events-controls{display:flex;width:100%;justify-content:flex-start;align-items:center;gap:7px}
+.events-regions{background:transparent!important;margin:0 auto 0 0!important;padding:0!important;display:flex;align-items:center;gap:16px}
+.events-regions button,.events-regions button.active{
+ background:transparent!important;color:#5e676a;text-decoration:none!important;
+ padding:6px 0 8px;position:relative;min-height:33px;
+}
+.events-regions button.active{color:#1c2023!important;font-weight:790}
+.events-regions button.active::after{
+ content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:#819094;
+}
+.event-top{justify-content:space-between;gap:8px}
+#news .story-meta{
+ display:flex;flex:1 1 auto;gap:4px 9px;min-width:0;
+ flex-wrap:nowrap;overflow:hidden;align-items:center;white-space:nowrap;
+}
+#news .story-tag--topic,#news .migration-scope{flex:0 0 auto}
+#news .story-publisher-bottom{
+ flex:0 1 auto;min-width:0;max-width:100%;display:block;
+ overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+#news .story-date{flex:0 0 auto;white-space:nowrap;margin-left:auto}
+#news .story-tools{flex:0 0 auto}
+.reddit-preview{margin:0 0 15px;padding:16px 19px 14px;background:#fff}
+.reddit-preview[hidden]{display:none!important}
+.reddit-preview-header{
+ display:flex;align-items:flex-end;justify-content:space-between;
+ gap:10px 18px;margin:0 0 11px;
+}
+.reddit-preview-kicker{
+ text-transform:uppercase;font-size:10px;font-weight:740;
+ letter-spacing:.055em;margin:0 0 2px;color:#888f91;
+}
+.reddit-preview-header h2{
+ font-size:clamp(19px,2.2vw,25px);font-weight:800;
+ letter-spacing:-.5px;line-height:1.22;margin:0;
+}
+.reddit-preview-more{
+ color:#607075;font-weight:720;font-size:12px;
+ text-decoration:none;white-space:nowrap;
+}
+.reddit-preview-more:hover{text-decoration:underline;text-underline-offset:4px}
+.reddit-preview-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}
+.reddit-preview-item{
+ background:#f6f7f7;padding:11px 13px 10px;min-width:0;
+ display:flex;flex-direction:column;gap:4px;
+}
+.reddit-preview-topic{color:#71818a;font-size:10px;font-weight:760}
+.reddit-preview-title{
+ color:#202629;font-size:13px;line-height:1.3;font-weight:720;
+ text-decoration:none;overflow-wrap:anywhere;display:-webkit-box;
+ -webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden;
+}
+.reddit-preview-title:hover{text-decoration:underline;text-underline-offset:3px}
+.reddit-preview-source{font-size:10px;color:#838e93;margin-top:auto}
+@media(max-width:760px){
+ .fx-quotes{gap:10px}
+ .events-header{gap:7px}
+ .events-regions{gap:14px}
+ #news .story-meta{gap:3px 7px}
+ #news .story-publisher-bottom{font-size:10px}
+ .reddit-preview{padding:13px 14px;margin-bottom:11px}
+ .reddit-preview-header{align-items:flex-start}
+ .reddit-preview-header h2{font-size:19px}
+ .reddit-preview-list{grid-template-columns:minmax(0,1fr);gap:5px}
+ .reddit-preview-item{padding:10px 12px}
+ .reddit-preview-title{font-size:13px}
+}
