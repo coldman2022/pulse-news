@@ -21,7 +21,7 @@ class PaletteV21Tests(unittest.TestCase):
             self.assertIn(token,theme)
         for page in ("index.html","digest.html","opportunities.html","reddit.html"):
             html=(ROOT / page).read_text(encoding="utf-8")
-            self.assertIn('style.css?v=26',html)
+            self.assertIn('style.css?v=27',html)
             self.assertIn('content="#f0f0f3"',html)
         manifest=(ROOT/"manifest.webmanifest").read_text(encoding="utf-8")
         self.assertIn('"background_color": "#f0f0f3"',manifest)
