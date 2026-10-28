@@ -21,11 +21,11 @@ class PaletteV21Tests(unittest.TestCase):
             self.assertIn(token,theme)
         for page in ("index.html","digest.html","opportunities.html","reddit.html"):
             html=(ROOT / page).read_text(encoding="utf-8")
-            self.assertIn('style.css?v=23',html)
-            self.assertIn('content="#fcfbfd"',html)
+            self.assertIn('style.css?v=24',html)
+            self.assertIn('content="#f8f4ee"',html)
         manifest=(ROOT/"manifest.webmanifest").read_text(encoding="utf-8")
-        self.assertIn('"background_color": "#fcfbfd"',manifest)
-        self.assertIn('"theme_color": "#fcfbfd"',manifest)
+        self.assertIn('"background_color": "#f8f4ee"',manifest)
+        self.assertIn('"theme_color": "#f8f4ee"',manifest)
 
     def test_only_color_paint_properties_in_override(self):
         css=(ROOT / "style.css").read_text(encoding="utf-8")
