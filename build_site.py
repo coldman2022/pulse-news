@@ -94,8 +94,15 @@ def build(output):
     opportunity_temp = output / 'opportunities.json.tmp'
     opportunity_temp.write_text(json.dumps(opportunities_payload, ensure_ascii=False), encoding='utf-8')
     opportunity_temp.replace(output / 'opportunities.json')
+    # Reuse only the offline Ukrainian translations to identify near-identical
+    # headlines across languages; never alter the source archive.
+    try:
+        translation_data = json.loads((server.ROOT / 'static' / 'translations.json').read_text(encoding='utf-8'))
+        translated_titles = translation_data.get('articles', {})
+    except (OSError, ValueError):
+        translated_titles = {}
     editorial = editorial_feed.build_editorial_feed(
-        payload['articles'], payload['updated'], payload['sources']
+        payload['articles'], payload['updated'], payload['sources'], translations=translated_titles
     )
     # No second RSS fetch or AI API. A rolling 24-hour briefing built from the
     # same publisher-provided headlines and short RSS descriptions.
