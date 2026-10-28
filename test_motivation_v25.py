@@ -42,7 +42,7 @@ class FounderStoryTests(unittest.TestCase):
         self.assertIn('id="motivation-list"',html)
         self.assertIn('href="https://news.stanford.edu/stories/2005/06/youve-got-find-love-jobs-says"',html)
         self.assertIn("paulgraham.com/ds.html",html)
-        self.assertIn("PulseShare.button(article,'story')",js)
+        self.assertIn("PulseShare.enableLongPress(card,article,'story')",js)
         self.assertIn("safeUrl(article.url)",js)
         self.assertIn('href="./motivation.html"',homepage)
         self.assertIn('data-category="Мотивація"',homepage)
