@@ -1,0 +1,67 @@
+name: Translate new news to Ukrainian (offline)
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'translate_batch.py'
+      - '.github/workflows/translate.yml'
+  schedule:
+    - cron: '43 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pulse-translations
+  cancel-in-progress: false
+
+jobs:
+  offline-translate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    env:
+      HF_HOME: ${{ github.workspace }}/.cache/huggingface
+      HF_HUB_DISABLE_TELEMETRY: "1"
+      TOKENIZERS_PARALLELISM: "false"
+      MYMEMORY_CONTACT_EMAIL: ${{ secrets.MYMEMORY_CONTACT_EMAIL }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: requirements-translation.txt
+      - name: Recover pre-trained model downloads
+        uses: actions/cache@v4
+        with:
+          path: .cache/huggingface
+          key: pulse-marian-models-${{ runner.os }}-v1
+      - name: Download latest published editorial RSS snapshot
+        run: |
+          curl --fail --location --silent --show-error --retry 3 --max-time 50 \
+            'https://coldman2022.github.io/pulse-news/feed.json' \
+            -o _translation_feed.json
+          python -c "import json; p=json.load(open('_translation_feed.json')); assert len(p['articles'])>0"
+      - name: Install CPU-only Marian / OPUS translators
+        run: |
+          python -m pip install --disable-pip-version-check --index-url https://download.pytorch.org/whl/cpu 'torch>=2.4,<3'
+          python -m pip install --disable-pip-version-check -r requirements-translation.txt
+      - name: Translate at most 200 new articles and reuse previous results
+        run: python translate_batch.py --feed _translation_feed.json --cache static/translations.json --limit 200
+      - name: Commit reusable translations (no source articles or secrets)
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add static/translations.json
+          if git diff --cached --quiet; then
+            echo "No translation changes"
+            exit 0
+          fi
+          git commit -m 'data: publish cached Ukrainian headline and preview translations'
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
