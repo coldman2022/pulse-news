@@ -21,7 +21,7 @@ class V23BackgroundTests(unittest.TestCase):
         }
         for original, expected in colors.items():
             calculated = "#" + "".join(
-                f"{round(int(original[i:i+2], 16)*.9+255*.1):02x}"
+                f"{int(int(original[i:i+2], 16)*.9+255*.1+0.5000001):02x}"
                 for i in (1,3,5)
             )
             self.assertEqual(calculated, expected)
@@ -30,13 +30,10 @@ class V23BackgroundTests(unittest.TestCase):
     def test_only_paint_updates_not_typography_or_layout(self):
         css = (ROOT / "style.css").read_text(encoding="utf-8")
         section = css.split("/* Pulse v23 —", 1)[1]
-        forbidden = (
-            "padding:", "margin:", "border-radius:", "font-size:",
-            "line-height:", "width:", "height:", "display:", "position:",
-            "letter-spacing:", "grid-template", "gap:", "text-decoration:"
-        )
-        for token in forbidden:
-            self.assertNotIn(token, section)
+        # Check CSS declarations, not media-query conditions such as max-width.
+        properties = re.findall(r"(?<=[{;])\\s*([a-z-]+)\\s*:", section)
+        self.assertTrue(properties)
+        self.assertTrue(all(property_name == "background" for property_name in properties), properties)
         # Keep the previous request: headline links are never underlined.
         v22 = css.split("/* Pulse v22:", 1)[1].split("/* Pulse v23 —", 1)[0]
         self.assertIn("#news .story-heading a,", v22)
