@@ -114,7 +114,7 @@ DISCOVERY_DOMAINS = (
     'technologyreview.com', 'forbes.com', 'nature.com', 'science.org',
     'openai.com', 'anthropic.com', 'mistral.ai', 'deepmind.google',
     'google.com', 'huggingface.co', 'nvidia.com', 'microsoft.com',
-    'github.com', 'linuxfoundation.org', 'iclr.cc', 'neurips.cc',
+    'linuxfoundation.org', 'iclr.cc', 'neurips.cc',
     'icml.cc', 'acm.org', 'ieee.org',
 )
 
