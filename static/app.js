@@ -1,7 +1,8 @@
 'use strict';
 const $ = s => document.querySelector(s);
 const initialMode = new URLSearchParams(location.search).get('mode');
-let articles = [], archiveArticles = [], archiveCount = 0, focusArticles = [], briefArticles = [], sourceStatuses = [], updated = 0, mode = ['all','focus','saved','archive'].includes(initialMode) ? initialMode : 'all', category = '', saved = {}, visibleLimit = 60;
+let articles = [], archiveArticles = [], archiveCount = 0, focusArticles = [], briefArticles = [], sourceStatuses = [], updated = 0, mode = 'all', category = '', saved = {}, visibleLimit = 60;
+if (['all','focus','saved','archive'].includes(initialMode)) mode = initialMode;
 let storageOK = true;
 const imagesEnabled = true;
 try { saved = JSON.parse(localStorage.getItem('pulse-saved') || '{}'); if (!saved || Array.isArray(saved) || typeof saved !== 'object') saved = {}; } catch { storageOK = false; }
