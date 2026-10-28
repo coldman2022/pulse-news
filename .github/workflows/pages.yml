@@ -47,7 +47,9 @@ jobs:
       - name: Restore the last successful RSS snapshot
         uses: actions/cache/restore@v4
         with:
-          path: _site/news.json
+          path: |
+            _site/news.json
+            _site/reddit.json
           key: rss-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: rss-
       - name: Recover the published news archive if cache is unavailable
@@ -58,12 +60,19 @@ jobs:
               'https://coldman2022.github.io/pulse-news/news.json' -o _site/news.json \
               || rm -f _site/news.json
           fi
+          if [ ! -s _site/reddit.json ]; then
+            curl --fail --location --silent --show-error --max-time 15 \
+              'https://coldman2022.github.io/pulse-news/reddit.json' -o _site/reddit.json \
+              || rm -f _site/reddit.json
+          fi
       - name: Fetch RSS and build the static site
         run: python build_site.py
       - name: Save RSS for partial source outages
         uses: actions/cache/save@v4
         with:
-          path: _site/news.json
+          path: |
+            _site/news.json
+            _site/reddit.json
           key: rss-${{ github.run_id }}-${{ github.run_attempt }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
