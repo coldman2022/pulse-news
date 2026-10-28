@@ -214,7 +214,18 @@ def news():
 class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
         route = urllib.parse.urlsplit(self.path).path
-        if route in ('/opportunities.json', '/api/opportunities'):
+        if route in ('/digest.json', '/api/digest'):
+            try:
+                import daily_digest
+                payload = news()
+                data = json.dumps(daily_digest.build_digest(payload['articles'], payload['updated']),
+                                  ensure_ascii=False).encode()
+                self.send_response(200)
+            except Exception:
+                data = b'{"error":"Cannot prepare daily briefing"}'
+                self.send_response(500)
+            mime = 'application/json; charset=utf-8'
+        elif route in ('/opportunities.json', '/api/opportunities'):
             try:
                 from opportunities import make_opportunities
                 payload = news()
@@ -233,11 +244,11 @@ class Handler(BaseHTTPRequestHandler):
                 data = b'{"error":"Cannot read sources.json"}'
                 self.send_response(500)
             mime = 'application/json; charset=utf-8'
-        elif route in ('/', '/app.js', '/style.css', '/opportunities.html', '/opportunities.js'):
+        elif route in ('/', '/app.js', '/style.css', '/opportunities.html', '/opportunities.js', '/digest.html', '/digest.js'):
             name = 'index.html' if route == '/' else route[1:]
             data = (ROOT / 'static' / name).read_bytes()
             self.send_response(200)
-            mime = {'index.html':'text/html', 'app.js':'text/javascript', 'style.css':'text/css', 'opportunities.html':'text/html', 'opportunities.js':'text/javascript'}[name] + '; charset=utf-8'
+            mime = {'index.html':'text/html', 'app.js':'text/javascript', 'style.css':'text/css', 'opportunities.html':'text/html', 'opportunities.js':'text/javascript', 'digest.html':'text/html', 'digest.js':'text/javascript'}[name] + '; charset=utf-8'
         else:
             self.send_error(404)
             return
