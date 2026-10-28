@@ -2,6 +2,8 @@
 const $ = s => document.querySelector(s);
 let articles = [], sourceStatuses = [], updated = 0, mode = 'all', category = '', saved = {}, visibleLimit = 60;
 let storageOK = true;
+let imagesEnabled = true;
+try { imagesEnabled = localStorage.getItem('pulse-show-images') !== 'off'; } catch {}
 try { saved = JSON.parse(localStorage.getItem('pulse-saved') || '{}'); if (!saved || Array.isArray(saved) || typeof saved !== 'object') saved = {}; } catch { storageOK = false; }
 $('#today').textContent = new Intl.DateTimeFormat('uk-UA', {day:'numeric',month:'long',year:'numeric'}).format(new Date());
 const el = (tag, text, cls) => {const n = document.createElement(tag); if(text) n.textContent=text; if(cls) n.className=cls; return n;};
@@ -100,7 +102,19 @@ async function drainAutoQueue() {
         }
         const translated=translatedParts.join(' ');
         storeTitle(article.id,translated);
-        render();
+        // Update the visible title without replacing all images and article cards.
+        const card=$('#news').querySelector('[data-pulse-article-id="'+article.id+'"]');
+        if(card&&autoEnabled&&translationState[article.id]?.shown!==false){
+          const heading=card.querySelector('.story-heading a');
+          if(heading) heading.textContent=translated;
+          const button=card.querySelector('.story-translate');
+          if(button&&!translationState[article.id]?.shown){
+            button.title='Показати оригінал';
+            button.setAttribute('aria-label','Показати оригінал: '+article.title);
+            const label=button.querySelector('.translate-label');
+            if(label) label.textContent='Оригінал';
+          }
+        }
       } catch (error) {
         console.warn('Pulse lazy translation paused:',error);
         autoPaused=true;
@@ -206,6 +220,42 @@ function storeTranslation(id, value) {
   try { localStorage.setItem('pulse-translations', JSON.stringify(translationCache)); } catch { /* Optional cache. */ }
 }
 
+function newsIcon(kind) {
+ const svg=document.createElementNS('http://www.w3.org/2000/svg','svg');
+ svg.setAttribute('viewBox','0 0 24 24');
+ svg.setAttribute('width','19');svg.setAttribute('height','19');
+ svg.setAttribute('fill','none');svg.setAttribute('stroke','currentColor');
+ svg.setAttribute('stroke-width','1.8');svg.setAttribute('stroke-linecap','round');
+ svg.setAttribute('stroke-linejoin','round');svg.setAttribute('aria-hidden','true');
+ const paths={
+  bookmark:['M6 3.8h12a1 1 0 0 1 1 1V21l-7-4.8L5 21V4.8a1 1 0 0 1 1-1z'],
+  languages:['m5 8 6 6','m4 14 6-6 2-3H2','M2 5h12','M7 2h1','m22 22-5-10-5 10','M14 18h6'],
+  external:['M13 5h6v6','M19 5l-9 9','M19 13v6H5V5h6'],
+ };
+ for(const d of (paths[kind]||[])) {
+  const p=document.createElementNS('http://www.w3.org/2000/svg','path');p.setAttribute('d',d);
+  svg.append(p);
+ }
+ return svg;
+}
+function safePreviewImage(value) {
+ try {
+  const u=new URL(value);
+  if(u.protocol!=='https:' || !u.hostname || u.username || u.password || value.length>1800)return '';
+  return u.href;
+ } catch{return '';}
+}
+function articleDate(ts) {
+ if(!ts)return 'Без дати';
+ const date=new Date(ts*1000);
+ return Number.isNaN(date.getTime())?'Без дати':date.toLocaleDateString('uk-UA',{day:'numeric',month:'short',year:'numeric'});
+}
+function editorialLayout(index) {
+ if(index===0)return 'story--feature';
+ const p=(index-1)%8;
+ return p===0 || p===5 ? 'story--wide' : p===1 || p===4 ? 'story--compact' : 'story--standard';
+}
+
 function render(){
  $('#saved-count').textContent=Object.keys(saved).length;
  const q=$('#search').value.trim().toLocaleLowerCase('uk');
@@ -220,7 +270,8 @@ function render(){
       const score=a=>(a.published||0)+3600*(weight[a.category]||0)+(a.origin==='official'?12*3600:0)+(a.origin==='developer'?3*3600:0);
       return score(b)-score(a);
    });
- $('#news').replaceChildren();
+ const news=$('#news');
+ news.replaceChildren();
  const viewportRows=new Map();
  const failed=sourceStatuses.filter(s=>!s.ok).map(s=>s.name+(s.cached?' (кеш)':''));
  const working=sourceStatuses.filter(s=>s.ok).length;
@@ -230,58 +281,115 @@ function render(){
  else for(const name of failed) issues.append(el('li',name));
  $('#load-more').hidden=list.length<=visibleLimit;
  $('#load-more').textContent=`Показати ще ${Math.min(60,list.length-visibleLimit)} із ${list.length-visibleLimit} матеріалів`;
- if(!list.length) $('#news').append(el('p',mode==='saved'?'Збережених новин за цими фільтрами немає. Натисніть «Зберегти» біля матеріалу або змініть фільтри.':articles.length?'Нічого не знайдено. Змініть пошук або фільтри.':'Джерела не повернули новин. Повторіть спробу пізніше.','empty'));
- for(const a of list.slice(0,visibleLimit)){
-  const row=el('article',null,'story'), stamp=el('div',a.published?new Date(a.published*1000).toLocaleTimeString('uk-UA',{hour:'2-digit',minute:'2-digit'}):'Без дати','stamp');
-  row.dataset.pulseArticleId=a.id;
+ if(!list.length) news.append(el('p',mode==='saved'?'Збережених новин немає. Додайте матеріал іконкою закладки або змініть фільтри.':articles.length?'Нічого не знайдено. Змініть пошук або фільтри.':'Джерела не повернули новин. Повторіть спробу пізніше.','empty'));
+ const originNames={official:'Держорган',developer:'Розробник AI',discovery:'Google News',research:'Дослідження',expert:'Експерт',community:'Спільнота',media:'Медіа'};
+ for(const [index,a] of list.slice(0,visibleLimit).entries()){
+  const layout=editorialLayout(index);
+  const image=imagesEnabled&&(index===0||index%3===0||layout==='story--wide')?safePreviewImage(a.image_url):'';
+  const card=el('article',null,'story '+layout+' story--tone-'+(index%5)+(image?' story--with-image':' story--no-image'));
+  card.dataset.pulseArticleId=a.id;
   viewportRows.set(a.id,a);
-  stamp.append(el('span',a.published?new Date(a.published*1000).toLocaleDateString('uk-UA',{day:'numeric',month:'short'}):''));
-  const body=el('div'), meta=el('div',null,'meta');meta.append(el('b',a.publisher||a.source),el('span',a.category));
-  if(a.country && a.country!=='Світ') meta.append(el('span',a.country));
-  const originNames={official:'Держорган',developer:'Розробник AI',discovery:'Через Google News',research:'Наукова публікація',expert:'Експертний блог',community:'Спільнота',media:'Медіа'};
-  const origin=el('span',originNames[a.origin]||'Джерело','origin origin-'+(a.origin||'media'));
-  meta.append(origin);
-  const translation=translationState[a.id] || {};
-  const shown=translation.shown === true;
-  const userSelectedOriginal=translation.shown === false;
-  const autoTitle=autoEnabled && !userSelectedOriginal ? translatedTitles[a.id] : '';
-  const h=el('h2');h.append(link(shown ? translation.title : (autoTitle || a.title),a.url));
-  const actions=el('div',null,'actions');
-  actions.append(link('Читати оригінал',a.url));
-  const preview=el('p',shown ? translation.summary : a.summary,'summary');
+
+  const top=el('div',null,'story-top');
+  const source=el('div',null,'story-source');
+  source.append(el('span','PULSE / '+(a.publisher||a.source),'story-publisher'));
+  const saver=el('button',null,'story-bookmark'+(saved[a.id]?' is-saved':''));
+  saver.type='button';saver.append(newsIcon('bookmark'));
+  saver.title=saved[a.id]?'Прибрати зі збереженого':'Зберегти статтю';
+  saver.setAttribute('aria-label',(saved[a.id]?'Прибрати зі збереженого: ':'Зберегти статтю: ')+a.title);
+  saver.setAttribute('aria-pressed',String(Boolean(saved[a.id])));
+  saver.onclick=()=>{
+    if(saved[a.id]) delete saved[a.id];
+    else saved[a.id]=a;
+    persist();render();
+  };
+  top.append(source,saver);
+
+  const translation=translationState[a.id]||{};
+  const shown=translation.shown===true;
+  const userSelectedOriginal=translation.shown===false;
+  const autoTitle=autoEnabled&&!userSelectedOriginal?translatedTitles[a.id]:'';
+  const content=el('div',null,'story-content');
+  const copy=el('div',null,'story-copy');
+  if(index===0) copy.append(el('span','ГОЛОВНА ТЕМА','story-eyebrow'));
+  const h=el('h2',null,'story-heading');
+  h.append(link(shown?translation.title:(autoTitle||a.title),a.url));
+  const summary=el('p',shown?translation.summary:a.summary,'story-summary');
+  copy.append(h,summary);
+
+  const readerActions=el('div',null,'story-actions');
+  const original=link('До статті',a.url);original.className='story-read';
+  original.append(newsIcon('external'));readerActions.append(original);
   const lang=articleLanguage(a);
-  if (lang!=='uk') {
-    const translate=el('button',translation.loading?'Перекладаємо…':shown?'Показати оригінал':'Перекласти анонс','translate-btn');
-    translate.type='button';
-    translate.disabled=Boolean(translation.loading);
-    translate.setAttribute('aria-label',(shown?'Показати оригінал: ':'Перекласти українською: ')+a.title);
-    translate.onclick=async ()=>{
-      if (translationState[a.id]?.shown) {translationState[a.id]={...translationState[a.id],shown:false};render();return;}
-      if (translationCache[a.id]) {translationState[a.id]={...translationCache[a.id],shown:true};render();return;}
-      autoSeen.add(a.id);
-      translationState[a.id]={loading:true};render();
-      try {
-        const result=await translateArticlePreview(a);
-        storeTranslation(a.id,result);
-        translationState[a.id]={...result,shown:true};
-      } catch {
-        translationState[a.id]={error:true};
-      }
-      render();
-    };
-    actions.append(translate);
-    if (translation.error) {
-      const fallback='https://translate.google.com/?sl=auto&tl=uk&text='+encodeURIComponent(a.title+'\n\n'+(a.summary||''))+'&op=translate';
-      const warning=el('span','Автопереклад тимчасово недоступний.','translation-error');
-      actions.append(warning,link('Відкрити текст у Google Translate',fallback));
+  if(lang!=='uk'){
+   const tButton=el('button',null,'translate-btn story-translate');
+   tButton.type='button';tButton.disabled=Boolean(translation.loading);
+   const text=translation.loading?'Перекладаємо':shown||autoTitle?'Показати оригінал':'Переклад';
+   tButton.append(newsIcon('languages'),el('span',text,'translate-label'));
+   tButton.title=translation.loading?'Перекладаємо':shown||autoTitle?'Показати оригінал':'Перекласти опис українською';
+   tButton.setAttribute('aria-label',tButton.title+': '+a.title);
+   tButton.onclick=async()=>{
+    if(translationState[a.id]?.shown||(!translationState[a.id]?.loading && translatedTitles[a.id] && translationState[a.id]?.shown!==false)){
+      translationState[a.id]={...translationState[a.id],shown:false};render();return;
     }
+    if(translationCache[a.id]){translationState[a.id]={...translationCache[a.id],shown:true};render();return;}
+    autoSeen.add(a.id);
+    translationState[a.id]={loading:true};render();
+    try{
+     const result=await translateArticlePreview(a);
+     storeTranslation(a.id,result);
+     translationState[a.id]={...result,shown:true};
+    }catch{
+     translationState[a.id]={error:true};
+    }
+    render();
+   };
+   readerActions.append(tButton);
+   if(translation.error){
+    const fallback='https://translate.google.com/?sl=auto&tl=uk&text='+encodeURIComponent(a.title+'\n\n'+(a.summary||''))+'&op=translate';
+    const warning=el('span','Не вдалося перекласти.','translation-error');
+    const backup=link('Google Translate',fallback);backup.className='story-fallback';
+    readerActions.append(warning,backup);
+   }
   }
-  const save=el('button',saved[a.id]?'Збережено ✓':'Зберегти');save.setAttribute('aria-pressed',String(Boolean(saved[a.id])));save.setAttribute('aria-label',(saved[a.id]?'Вилучити зі збереженого: ':'Зберегти: ')+a.title);
-  save.onclick=()=>{saved[a.id]?delete saved[a.id]:saved[a.id]=a;persist();render(); const focus=[...document.querySelectorAll('.actions button')].find(b=>b.getAttribute('aria-label').endsWith(a.title));if(focus)focus.focus();};actions.append(save);body.append(meta,h,preview,actions);row.append(stamp,body);$('#news').append(row);
+  copy.append(readerActions);
+  content.append(copy);
+
+  if(image){
+    const figure=el('figure',null,'story-media');
+    const mediaLink=link('',a.url);
+    mediaLink.setAttribute('aria-label','Відкрити статтю: '+a.title);
+    const img=document.createElement('img');
+    img.alt='';img.loading='lazy';img.decoding='async';
+    img.referrerPolicy='no-referrer';
+    img.src=image;
+    img.addEventListener('error',()=>{
+      figure.remove();
+      card.classList.remove('story--with-image');
+      card.classList.add('story--no-image');
+      if(index===0) content.append(el('div',null,'story-abstract'));
+    },{once:true});
+    mediaLink.append(img);figure.append(mediaLink);
+    if(a.image_credit)figure.append(el('figcaption',a.image_credit,'story-credit'));
+    content.append(figure);
+  }else if(index===0){
+    content.append(el('div',null,'story-abstract'));
+  }
+  const bottom=el('div',null,'story-bottom');
+  const date=document.createElement('time');date.className='story-date';
+  date.textContent=articleDate(a.published);
+  if(a.published) date.dateTime=new Date(a.published*1000).toISOString();
+  bottom.append(date);
+  bottom.append(el('span',a.category||'Новини','story-tag story-tag--topic'));
+  if(a.country&&a.country!=='Світ')bottom.append(el('span',a.country,'story-tag'));
+  bottom.append(el('span',originNames[a.origin]||'Джерело','story-tag story-tag--origin'));
+  card.append(top,content,bottom);
+  news.append(card);
  }
  translationStatus();
  watchVisibleHeadlines(viewportRows);
 }
+
 async function load(){
  $('#refresh').disabled=true;$('#refresh').textContent='Оновлення…';$('#status').textContent='Завантажуємо новини з джерел…';
  try{const r=await fetch('./news.json', {cache:'no-store'});if(!r.ok)throw Error();const data=await r.json();articles=data.articles;sourceStatuses=data.sources;updated=data.updated;
@@ -298,6 +406,12 @@ function resetFilter(){visibleLimit=60;render();}
  $('#search').oninput=resetFilter;$('#source').onchange=resetFilter;$('#country').onchange=resetFilter;
  $('#origin').onchange=resetFilter;$('#sort').onchange=resetFilter;$('#refresh').onclick=load;
  $('#load-more').onclick=()=>{visibleLimit+=60;render();};
+$('#show-images').checked=imagesEnabled;
+$('#show-images').onchange=()=>{
+  imagesEnabled=$('#show-images').checked;
+  try{localStorage.setItem('pulse-show-images',imagesEnabled?'on':'off');}catch{}
+  render();
+};
 $('#auto-translate').checked=autoEnabled;
 $('#auto-translate').onchange=()=>{
   autoEnabled=$('#auto-translate').checked;

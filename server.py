@@ -4,6 +4,90 @@ import argparse, concurrent.futures, datetime, email.utils, hashlib, html, json,
 import urllib.request, urllib.parse, xml.etree.ElementTree as ET
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+from html.parser import HTMLParser
+
+# RSS images are hyperlinks only. GitHub Actions never downloads image bytes.
+MEDIA_NS = '{http://search.yahoo.com/mrss/}'
+CONTENT_NS = '{http://purl.org/rss/1.0/modules/content/}'
+
+
+def safe_image_url(url):
+    """Allow external HTTPS images, not embedded data or local addresses."""
+    if not isinstance(url, str) or len(url) > 1800:
+        return ''
+    try:
+        parts = urllib.parse.urlsplit(url.strip())
+        host = (parts.hostname or '').lower()
+        if parts.scheme != 'https' or not host or parts.username or parts.password:
+            return ''
+        if host in ('localhost', '127.0.0.1', '0.0.0.0', '::1') or host.endswith(('.local', '.internal')):
+            return ''
+        if any(parts.path.lower().endswith(ext) for ext in ('.svg', '.pdf', '.mp4', '.webm', '.gif')):
+            return ''
+        return url.strip()
+    except ValueError:
+        return ''
+
+
+class _FirstHtmlImage(HTMLParser):
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.image = ''
+
+    def handle_starttag(self, tag, attrs):
+        if tag != 'img' or self.image:
+            return
+        meta = dict(attrs)
+        # Avoid typical 1x1 tracking pixels.
+        if any(str(meta.get(k, '')).strip() in ('0', '1') for k in ('width', 'height')):
+            return
+        self.image = safe_image_url(meta.get('src', ''))
+
+
+def feed_image(item):
+    """Choose a publisher-provided thumbnail, with optional RSS copyright."""
+    image = ''
+    credit = ''
+    for node in item.iter():
+        if node.tag == MEDIA_NS + 'thumbnail':
+            image = safe_image_url(node.get('url', ''))
+            if image:
+                break
+    if not image:
+        for node in item.iter():
+            if node.tag == MEDIA_NS + 'content':
+                medium = (node.get('medium') or '').lower()
+                media_type = (node.get('type') or '').lower()
+                if medium == 'image' or media_type.startswith('image/'):
+                    image = safe_image_url(node.get('url', ''))
+                    if image:
+                        break
+    if not image:
+        for node in item.findall('enclosure'):
+            if (node.get('type') or '').lower().startswith('image/'):
+                image = safe_image_url(node.get('url', ''))
+                if image:
+                    break
+    if not image:
+        for key in ('description', CONTENT_NS + 'encoded', '{http://www.w3.org/2005/Atom}content'):
+            element = item.find(key)
+            if element is None:
+                continue
+            raw = ''.join(element.itertext())
+            if '<img' not in raw.lower():
+                continue
+            parser = _FirstHtmlImage()
+            parser.feed(raw)
+            if parser.image:
+                image = parser.image
+                break
+    if image:
+        for node in item.iter():
+            if node.tag == MEDIA_NS + 'copyright':
+                credit = clean(''.join(node.itertext()))[:120]
+                break
+    return image, credit
+
 ROOT = Path(__file__).resolve().parent
 LOCK = threading.Lock()
 CACHE = {}
@@ -82,8 +166,10 @@ def parse_feed(raw, source):
                 stamp = datetime.datetime.fromisoformat(date.replace('Z', '+00:00')).timestamp()
             except (ValueError, TypeError):
                 stamp = 0
+        image_url, image_credit = feed_image(item)
         result.append(dict(id=hashlib.sha256(url.encode()).hexdigest()[:20], title=title, url=url,
-                           summary=summary, publisher=publisher, origin=source.get('origin', 'media'),
+                           summary=summary, image_url=image_url, image_credit=image_credit,
+                           publisher=publisher, origin=source.get('origin', 'media'),
                            country=source.get('country', ''), source=source['name'],
                            category=source['category'], language=source.get('language', 'en'), published=stamp))
     return result
