@@ -37,8 +37,8 @@ class MobileMenuBackdropTests(unittest.TestCase):
         for page in ("index.html","motivation.html","digest.html",
                      "reddit.html","opportunities.html"):
             html = (ROOT/page).read_text(encoding="utf-8")
-            self.assertIn('style.css?v=28', html)
-            self.assertIn('mobile.js?v=6', html)
+            self.assertIn('style.css?v=29', html)
+            self.assertIn('mobile.js?v=7', html)
 
 
 if __name__ == "__main__":
