@@ -4,6 +4,7 @@ const params = new URLSearchParams(location.search);
 const initialMode = params.get('mode');
 let sharedArticleId = /^[a-f0-9]{20}$/.test(params.get('article')||'')?params.get('article'):null;
 let sharedScrolled = false;
+let unreadOnly = false;
 let articles = [], archiveArticles = [], archiveCount = 0, focusArticles = [], baseFocusArticles = [], focusPool = [], briefArticles = [], sourceStatuses = [], updated = 0, mode = 'all', category = '', saved = {}, votes = {}, visibleLimit = 60;
 if (['all','focus','saved','archive'].includes(initialMode)) mode = initialMode;
 let storageOK = true;
@@ -345,6 +346,7 @@ function render(){
  const archiveCutoff = Date.now()/1000 - 7*86400;
  const list=(mode==='saved'?Object.values(saved):mode==='focus'?focusArticles:mode==='archive'?archiveArticles:articles)
    .filter(a=>(mode!=='archive'||!a.published||a.published<archiveCutoff||a.id===sharedArticleId)
+      &&(!unreadOnly||!window.PulseHub||!window.PulseHub.isRead(a.id))
       &&(!category||a.category===category)
       &&(!$('#source').value||a.source===$('#source').value||
          (a.related_sources||[]).some(r=>r.source===$('#source').value))
@@ -379,6 +381,7 @@ function render(){
   const tone=topicTone[a.category]||'neutral';
   const card=el('article',null,'story '+layout+' story--topic-'+tone+(image?' story--with-image':' story--no-image'));
   card.dataset.pulseArticleId=a.id;
+  if(window.PulseHub?.isRead(a.id))card.classList.add('pulse-is-read');
   viewportRows.set(a.id,a);
 
   const translation=translationState[a.id]||{};
@@ -520,6 +523,7 @@ function renderBrief(){
  if(mode!=='focus'){section.hidden=true;return;}
  const q=$('#search').value.trim().toLocaleLowerCase('uk');
  const filtered=briefArticles.filter(a=>
+    (!unreadOnly||!window.PulseHub||!window.PulseHub.isRead(a.id))&&
    (!category||a.category===category)&&
    (!$('#source').value||a.source===$('#source').value)&&
    (!$('#country').value||a.country===$('#country').value)&&
@@ -529,6 +533,8 @@ function renderBrief(){
  section.hidden=!filtered.length;
  for(const a of filtered){
    const row=el('div',null,'brief-item');
+    row.dataset.pulseArticleId=a.id;
+    if(window.PulseHub?.isRead(a.id))row.classList.add('pulse-is-read');
    const translation=translationState[a.id]||{};
    const shared=sharedTranslation(a);
    const currentTitle=translation.shown===false?a.title:(translation.shown&&translation.title)||shared?.title||translatedTitles[a.id]||a.title;
@@ -658,6 +664,13 @@ for(const b of document.querySelectorAll('[data-category]')){b.onclick=()=>{cate
 $('#how-focus-works').onclick=()=>{const b=$('#how-focus-works');const expanded=b.getAttribute('aria-expanded')==='true';$('#focus-help').hidden=expanded;b.setAttribute('aria-expanded',String(!expanded));};
 $('#feedback-reset').onclick=()=>{votes={};saveFeedback();focusArticles=personalizedFocus();render();};
 void loadSharedTranslations();
+document.addEventListener('DOMContentLoaded',()=>{
+  const button=document.querySelector('#hub-unread-filter');
+  if(button)button.onclick=()=>{
+    unreadOnly=!unreadOnly;button.setAttribute('aria-pressed',String(unreadOnly));
+    button.textContent=unreadOnly?'Усі новини':'Непрочитані';visibleLimit=60;render();
+  };
+});
 load();setInterval(load,300000);
 
 
