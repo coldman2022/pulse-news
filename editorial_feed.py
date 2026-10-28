@@ -8,7 +8,7 @@ import personal_feed
 
 NOISE = re.compile(
     r"корупц\w*|коррупц\w*|хабар\w*|крадіж\w*|затриман\w*|"
-    r"зґвалтуван\w*|вбивств\w*|убийств\w*|"
+    r"зґвалтуван\w*|вбивств\w*|убийств\w*|злочин\w*|затрим\w*|"
     r"корупцій\w*|зловживан\w*|скандал\w*|"
     r"corrupt\w*|briber\w*|fraud\w*|embezzl\w*|"
     r"murder\w*|homicid\w*|stabbed|stabbing|"
@@ -30,7 +30,7 @@ IMMIGRATION_SYSTEM = re.compile(
     r"pobyt\w*|zezwolen\w*|obywatel\w*|"
     r"asylum|refugee\w*|temporary protection|"
     r"PESEL|CUKR|UKR status|work permit|"
-    r"settlement|immigra\w*|migracj\w*|"
+    r"settlement|"
     r"express entry|green card|blue card|"
     r"migrant\w*|cudzoziemc\w*|przedłuż\w*", re.I
 )
@@ -125,7 +125,7 @@ def relevant(article):
             return False
         if SPECIFIC_OTHER_NATIONALITY.search(title) and not personal_feed.UKRAINIAN.search(title):
             return False
-        return bool(IMMIGRATION_SYSTEM.search(title) or personal_feed.UKRAINIAN.search(title))
+        return bool(IMMIGRATION_SYSTEM.search(title) or personal_feed.UKRAINIAN.search(title) or (personal_feed.IMMIGRATION.search(title) and personal_feed.LAW_CHANGE.search(title)))
     if category == "Україна":
         # National coverage is deliberately broad; exclude only explicit noise.
         return True
