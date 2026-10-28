@@ -26,7 +26,7 @@ class PersonalFeedTests(unittest.TestCase):
 
     def test_not_every_immigration_article_is_urgent(self):
         item=article("IRCC department publishes annual report", "Імміграція", origin="official")
-        self.assertEqual(personal_feed.classify(item)[0], "brief")
+        self.assertIsNone(personal_feed.classify(item)[0])
 
     def test_ai_release_is_featured_but_ai_opinion_is_not(self):
         feature=article("OpenAI launches new GPT model", "AI", origin="developer")

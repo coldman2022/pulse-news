@@ -341,6 +341,8 @@ function render(){
   const bottom=el('div',null,'story-bottom');
   const metadata=el('div',null,'story-meta');
   metadata.append(el('span',a.category||'Новини','story-tag story-tag--topic'));
+  if(a.category==='Імміграція'&&a.migration_scope==='ukrainian')metadata.append(el('span','Для українців','migration-scope'));
+  if(a.category==='Імміграція'&&a.migration_scope==='general')metadata.append(el('span','Загальні правила','migration-scope'));
   metadata.append(el('span',a.publisher||a.source||'Джерело','story-publisher-bottom'));
   const date=document.createElement('time');date.className='story-date';
   date.textContent=articleDate(a.published);

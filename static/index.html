@@ -1,7 +1,7 @@
 <!doctype html>
-<html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f4f6fa"><meta name="description" content="Pulse — особиста стрічка новин із RSS-джерел."><title>Pulse — новини у вашому ритмі</title><link rel="icon" href="data:,"><link rel="stylesheet" href="./style.css?v=12"><script defer src="./app.js?v=12"></script><script defer src="./events.js?v=3"></script></head>
+<html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f4f6fa"><meta name="description" content="Pulse — особиста стрічка новин із RSS-джерел."><title>Pulse — новини у вашому ритмі</title><link rel="icon" href="data:,"><link rel="stylesheet" href="./style.css?v=13"><script defer src="./app.js?v=13"></script><script defer src="./events.js?v=4"></script></head>
 <body><header><a class="brand" href="./" aria-label="Pulse — головна">pulse<span>●</span></a><button id="refresh">Оновити стрічку</button></header>
-<div class="shell"><aside><nav aria-label="Розділи"><a class="opp-nav" href="./digest.html">Огляд дня <span>↗</span></a><a class="opp-nav" href="./opportunities.html">Імміграційні можливості <span>↗</span></a><button data-mode="focus">Для мене <span>↗</span></button><button class="active" data-mode="all">Стрічка <span>↗</span></button><button data-mode="archive">Весь архів <span>↗</span></button><button data-mode="saved">Збережене <span id="saved-count">0</span></button></nav></aside>
+<div class="shell"><aside><nav aria-label="Розділи"><a class="opp-nav" href="./digest.html">Огляд дня <span>↗</span></a><a class="opp-nav" href="./opportunities.html">Імміграційні можливості <span>↗</span></a><a class="opp-nav" href="./reddit.html">Reddit · спільноти <span>↗</span></a><button data-mode="focus">Для мене <span>↗</span></button><button class="active" data-mode="all">Стрічка <span>↗</span></button><button data-mode="archive">Весь архів <span>↗</span></button><button data-mode="saved">Збережене <span id="saved-count">0</span></button></nav></aside>
 <main><div class="intro"><div><p id="today" class="eyebrow"></p><h1>Новини</h1></div></div>
 <section id="events-section" class="events-section" aria-labelledby="events-heading" hidden>
   <div class="events-header">
@@ -16,6 +16,15 @@
     </div>
   </div>
   <div id="events-track" class="events-track" role="region" aria-label="Найближчі події AI, продукту і дизайну" tabindex="0"></div>
+  <div class="event-sources">
+    <span>Календарі:</span>
+    <a href="https://gdg.community.dev/" target="_blank" rel="noopener noreferrer">GDG</a>
+    <a href="https://dny.ai/en/program" target="_blank" rel="noopener noreferrer">Dny AI</a>
+    <a href="https://prg.ai/en/" target="_blank" rel="noopener noreferrer">prg.ai</a>
+    <a href="https://humantechsummit.com/" target="_blank" rel="noopener noreferrer">HumanTech</a>
+    <a href="https://www.digitale-leute.de/summit/26/" target="_blank" rel="noopener noreferrer">Digitale Leute</a>
+    <a href="https://midi2026.opi.org.pl/" target="_blank" rel="noopener noreferrer">MIDI</a>
+  </div>
 
 </section>
 <div class="toolbar">

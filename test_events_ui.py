@@ -8,7 +8,7 @@ class EventCarouselTests(unittest.TestCase):
     def test_events_are_curated_organizer_links(self):
         payload = json.loads((ROOT / "static" / "events.json").read_text(encoding="utf-8"))
         events = payload["events"]
-        self.assertGreaterEqual(len(events), 6)
+        self.assertGreaterEqual(len(events), 16)
         self.assertEqual(len(events), len({event["id"] for event in events}))
         self.assertTrue(any(event["region"] == "PL" for event in events))
         self.assertTrue(any(event["region"] == "EU" for event in events))
@@ -21,15 +21,18 @@ class EventCarouselTests(unittest.TestCase):
                 self.assertTrue(event["url"].startswith("https://"))
                 self.assertEqual(event["verified_on"], payload["curated"])
                 self.assertTrue(event["description"])
+                self.assertIn(event['fee'], {'free','paid','mixed','unknown'})
+                self.assertTrue(event['fee_label'])
 
     def test_mobile_slider_and_filters_are_accessible(self):
         html = (ROOT / "static" / "index.html").read_text(encoding="utf-8")
         js = (ROOT / "static" / "events.js").read_text(encoding="utf-8")
         css = (ROOT / "static" / "style.css").read_text(encoding="utf-8")
         for item in ('id="events-section"', 'id="events-track"', 'id="events-prev"',
-                     'id="events-next"', 'data-events-region="PL"', 'events.js?v=3'):
+                     'id="events-next"', 'data-events-region="PL"', 'events.js?v=4'):
             self.assertIn(item, html)
         self.assertIn("event.end >= eventDay()", js)
+        self.assertIn("event-fee",js)
         self.assertIn("eventTrack.scrollBy", js)
         self.assertIn("requestAnimationFrame(updateEventArrows)", js)
         self.assertIn("eventSection.hidden = false", js)

@@ -625,3 +625,29 @@ nav button.active, #categories button.active, .events-regions button.active {
 /* Cinema gets a distinct fixed topic hue, not a position-based card color. */
 .story--topic-cinema{--card-bg:#f5eaf2;--card-accent:#873c74}
 #news .story--topic-cinema .story-tag--topic{color:#873c74}
+
+/* Ticket status: distinct from category color and never imply unknown = free. */
+.event-top{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.event-fee{font-size:10px;font-weight:680;letter-spacing:.02em;line-height:1.3;padding:3px 5px;border:1px solid currentColor;white-space:normal}
+.event-fee--free{color:#24674a}
+.event-fee--paid{color:#8c4538}
+.event-fee--mixed{color:#744e94}
+.event-fee--unknown{color:#677584}
+.event-sources{display:flex;align-items:baseline;flex-wrap:wrap;gap:5px 12px;margin:6px 0 8px;font-size:11px;color:var(--muted)}
+.event-sources a{color:inherit;text-decoration:underline;text-underline-offset:2px}
+.migration-scope{font-size:10px;font-weight:680;color:#285d9d}
+.reddit-home{color:inherit;font-size:13px;text-decoration:none}
+.reddit-shell{width:min(1140px,calc(100% - 36px));margin:22px auto 65px}
+.reddit-shell h1{font-size:clamp(27px,4vw,44px);margin:5px 0 10px;letter-spacing:-.025em}
+.reddit-intro{max-width:700px;color:var(--muted);font-size:15px;line-height:1.5}
+.reddit-scope{max-width:840px;padding:12px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:12px;line-height:1.6;color:var(--muted);margin:19px 0 28px}
+.reddit-shell section{margin:24px 0}
+.reddit-shell section h2{font-size:21px;letter-spacing:-.02em;margin:0 0 11px}
+.reddit-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.reddit-community{min-width:0;border:1px solid var(--line);padding:17px 16px;background:#fff}
+.reddit-community h3{font-size:17px;margin:0 0 7px}
+.reddit-community p{font-size:13px;line-height:1.55;color:var(--muted);margin:0 0 15px;min-height:42px}
+.reddit-community div{display:flex;align-items:center;gap:15px;flex-wrap:wrap}
+.reddit-community a{color:#275898;text-decoration:underline;font-size:12px;text-underline-offset:2px;font-weight:600}
+.reddit-footer{margin:30px 0;color:var(--muted);font-size:12px;line-height:1.5}
+@media(max-width:760px){.reddit-grid{grid-template-columns:minmax(0,1fr)}.reddit-community{padding:13px 14px}.reddit-community p{min-height:0}}

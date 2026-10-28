@@ -47,6 +47,7 @@ function eventIsValid(event) {
     /^\d{4}-\d{2}-\d{2}$/.test(event.end || '') && event.start <= event.end &&
     event.end >= eventDay() && accessibleCountries[event.country] === event.region &&
     ['AI', 'Product', 'Design'].includes(event.topic) && safeEventUrl(event.url) &&
+    ['free', 'paid', 'mixed', 'unknown'].includes(event.fee) &&
     typeof event.title === 'string' && typeof event.city === 'string';
 }
 function updateEventArrows() {
@@ -68,7 +69,8 @@ function renderEvents() {
     const top = element('div', 'event-top');
     const date = element('time', 'event-date', eventRange(event));
     date.dateTime = event.start;
-    top.append(date, element('span', 'event-topic', event.topic));
+    const fee = element('span', 'event-fee event-fee--' + event.fee, event.fee_label || 'Ціну уточнюйте');
+    top.append(date, element('span', 'event-topic', event.topic), fee);
     const title = element('h3', 'event-title', event.title);
     const description = element('p', 'event-description', event.description || '');
     const location = element('p', 'event-location', event.city + ' · ' + event.country);
