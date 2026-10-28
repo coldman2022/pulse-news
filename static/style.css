@@ -313,3 +313,6 @@ header { min-width: 0; width: 100%; }
 @media(prefers-reduced-motion:reduce){
  .story-bookmark,.story-media img,.story-read svg{transition:none}
 }
+
+.photo-toggle{margin-left:auto;color:var(--muted);font-weight:550;font-size:12px}
+@media(max-width:760px){.photo-toggle{margin-left:0}}
