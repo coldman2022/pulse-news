@@ -75,7 +75,9 @@ function renderEvents() {
     const description = element('p', 'event-description', event.description || '');
     const location = element('p', 'event-location', event.city + ' · ' + event.country);
     const bottom = element('div', 'event-bottom');
-    bottom.append(element('span', 'event-organizer', event.organizer || ''));
+    const organizer = element('span', 'event-organizer', event.organizer || '');
+    organizer.title = event.organizer || '';
+    bottom.append(organizer);
     const action = element('a', 'event-action', 'Програма та участь ↗');
     action.href = safeEventUrl(event.url);
     action.target = '_blank';
