@@ -11,6 +11,7 @@ import opportunities
 import daily_digest
 import personal_feed
 import editorial_feed
+import reddit_feed
 
 
 # The previous snapshot is restored by GitHub Actions cache when available.
@@ -68,7 +69,7 @@ def build(output):
     ]
 
     output.mkdir(parents=True, exist_ok=True)
-    for name in ('index.html', 'app.js', 'style.css', 'reddit.html', 'opportunities.html', 'opportunities.js', 'digest.html', 'digest.js', 'events.json', 'events.js'):
+    for name in ('index.html', 'app.js', 'style.css', 'reddit.html', 'reddit.js', 'opportunities.html', 'opportunities.js', 'digest.html', 'digest.js', 'events.json', 'events.js'):
         shutil.copyfile(server.ROOT / 'static' / name, output / name)
     # Make the curated event slider resilient if the browser cannot fetch events.json.
     events_data = json.loads((server.ROOT / 'static' / 'events.json').read_text(encoding='utf-8'))
@@ -109,6 +110,16 @@ def build(output):
     personal_temp = output / 'personal.json.tmp'
     personal_temp.write_text(json.dumps(personal_payload, ensure_ascii=False), encoding='utf-8')
     personal_temp.replace(output / 'personal.json')
+    # Reddit remains an independent opt-in preview. Failed access must never
+    # block the core RSS/news deployment.
+    try:
+        reddit_feed.build_reddit_preview(output / 'reddit.json')
+    except Exception as error:
+        print('Reddit preview failed without affecting news:', type(error).__name__)
+        (output / 'reddit.json').write_text(
+            json.dumps({'status': 'unavailable', 'posts': [], 'sources': [],
+                        'message': 'Reddit тимчасово недоступний.'}, ensure_ascii=False),
+            encoding='utf-8')
     (output / '.nojekyll').touch()
     print(f"Editorial {len(editorial['articles'])} of {len(payload['articles'])} archived articles")
     print(f"Built {len(payload['articles'])} articles; sources: {payload['sources']}")

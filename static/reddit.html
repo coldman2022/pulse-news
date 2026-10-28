@@ -6,7 +6,8 @@
 <meta name="theme-color" content="#f4f6fa">
 <meta name="description" content="Обговорення та спільноти Reddit про AI, технології, Україну, імміграцію й кіно.">
 <title>Reddit · Pulse</title>
-<link rel="stylesheet" href="./style.css?v=13">
+<link rel="stylesheet" href="./style.css?v=14">
+<script defer src="./reddit.js?v=1"></script>
 </head>
 <body>
 <header><a class="brand" href="./" aria-label="Pulse — головна">pulse<span>●</span></a><a class="reddit-home" href="./">← До новин</a></header>
@@ -15,8 +16,24 @@
 <h1>Що обговорюють</h1>
 <p class="reddit-intro">Окремий простір для ідей та досвіду спільнот. Ці дописи не перевірені редакцією Pulse.</p>
 <div class="reddit-scope">
-Reddit припиняє підтримку RSS 13 листопада 2026 року, тому тут — прямі посилання на актуальні обговорення, а не вигадані новини або нестабільне копіювання дописів.
+До 13 листопада 2026 року тестуємо автоматичну стрічку з Reddit RSS. Після завершення підтримки RSS залишаться прямі посилання на спільноти; інші способи доступу розглянемо лише за правилами Reddit.
 </div>
+<section class="reddit-live" aria-labelledby="reddit-live-heading">
+<h2 id="reddit-live-heading">Нові дописи <span id="reddit-feed-count"></span></h2>
+<p id="reddit-feed-status" role="status">Перевіряємо пробну стрічку Reddit…</p>
+<div class="reddit-tabs" role="group" aria-label="Тема дописів">
+<button class="active" type="button" data-reddit-topic="" aria-pressed="true">Усі</button>
+<button type="button" data-reddit-topic="AI" aria-pressed="false">AI</button>
+<button type="button" data-reddit-topic="Технології" aria-pressed="false">Технології</button>
+<button type="button" data-reddit-topic="Україна" aria-pressed="false">Україна</button>
+<button type="button" data-reddit-topic="Польща" aria-pressed="false">Польща</button>
+<button type="button" data-reddit-topic="Імміграція" aria-pressed="false">Імміграція</button>
+<button type="button" data-reddit-topic="Дизайн" aria-pressed="false">Дизайн</button>
+<button type="button" data-reddit-topic="Кіно" aria-pressed="false">Кіно</button>
+</div>
+<div id="reddit-feed-list" class="reddit-posts" aria-label="Дописи зі спільнот Reddit"></div>
+</section>
+<h2 class="reddit-directory-title">Усі спільноти</h2>
 <section aria-labelledby="reddit-ai">
 <h2 id="reddit-ai">AI і технології</h2>
 <div class="reddit-grid">
