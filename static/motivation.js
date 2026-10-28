@@ -52,6 +52,8 @@
       if(!url)continue;
       const card=element('article',null,'motivation-story');
       card.dataset.motivationId=article.id;
+      card.dataset.pulseArticleId=article.id;
+      if(window.PulseHub?.isRead(article.id))card.classList.add('pulse-is-read');
       const top=element('div',null,'motivation-story-top');
       top.append(element('span',article.story_type||'Історія','motivation-tag'));
       const time=document.createElement('time');
@@ -67,7 +69,10 @@
       heading.append(link);
       card.append(top,heading);
       if(article.summary){
-        card.append(element('p',shared?.summary||article.summary,'motivation-story-summary'));
+        const excerpt=element('details',null,'motivation-excerpt');
+        const trigger=element('summary','Анонс від видавця');
+        excerpt.append(trigger,element('p',shared?.summary||article.summary,'motivation-story-summary'));
+        card.append(excerpt);
       }
       const footer=element('div',null,'motivation-story-footer');
       footer.append(element('span',article.publisher||article.source||'Видання','motivation-story-source'));
@@ -75,6 +80,23 @@
       const open=element('a','Читати ↗');
       open.href=url;open.target='_blank';open.rel='noopener noreferrer';
       actions.append(open);
+      const savedKey='pulse-saved';
+      const bookmarked=()=>{
+        try{return Boolean(JSON.parse(localStorage.getItem(savedKey)||'{}')[article.id]);}
+        catch{return false;}
+      };
+      const bookmark=element('button',bookmarked()?'Збережено':'Зберегти','motivation-save');
+      bookmark.type='button';bookmark.setAttribute('aria-pressed',String(bookmarked()));
+      bookmark.addEventListener('click',()=>{
+        try{
+          const all=JSON.parse(localStorage.getItem(savedKey)||'{}');
+          if(all[article.id])delete all[article.id];else all[article.id]=article;
+          localStorage.setItem(savedKey,JSON.stringify(all));
+          bookmark.textContent=all[article.id]?'Збережено':'Зберегти';
+          bookmark.setAttribute('aria-pressed',String(Boolean(all[article.id])));
+        }catch{bookmark.textContent='Не вдалося зберегти';}
+      });
+      actions.append(bookmark);
       footer.append(actions);
       card.append(footer);
       if(window.PulseShare)window.PulseShare.enableLongPress(card,article,'story');

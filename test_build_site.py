@@ -38,7 +38,7 @@ class BuildTests(unittest.TestCase):
             self.assertEqual(json.loads((output / 'news.json').read_text()), payload)
             html = (output / 'index.html').read_text()
             self.assertIn('href="./style.css?v=28"', html)
-            self.assertIn('src="./app.js?v=21"', html)
+            self.assertIn('src="./app.js?v=22"', html)
             self.assertTrue((output / '.nojekyll').exists())
             self.assertTrue((output / 'opportunities.html').exists())
             self.assertTrue((output / 'opportunities.js').exists())
@@ -64,6 +64,8 @@ class BuildTests(unittest.TestCase):
             self.assertTrue((output / 'motivation.js').exists())
             self.assertTrue((output / 'share.js').exists())
             self.assertTrue((output / 'translations.json').exists())
+            for page in ('pulse-hub.js','pulse-extras.css','today.html','radar.html','search.html','collections.html'):
+                self.assertTrue((output / page).exists(), page)
             self.assertIn('articles', json.loads((output / 'translations.json').read_text()))
             motivation=json.loads((output / 'motivation.json').read_text())
             self.assertIn('articles', motivation)

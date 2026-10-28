@@ -71,7 +71,7 @@ def build(output):
     ]
 
     output.mkdir(parents=True, exist_ok=True)
-    for name in ('index.html', 'app.js', 'style.css', 'reddit.html', 'reddit.js', 'currency.js', 'mobile.js', 'manifest.webmanifest', 'pulse-icon.svg', 'pulse-icon-180.png', 'pulse-icon-512.png', 'opportunities.html', 'opportunities.js', 'digest.html', 'digest.js', 'events.json', 'events.js', 'motivation.html', 'motivation.js', 'share.js', 'translations.json'):
+    for name in ('index.html', 'app.js', 'style.css', 'reddit.html', 'reddit.js', 'currency.js', 'mobile.js', 'manifest.webmanifest', 'pulse-icon.svg', 'pulse-icon-180.png', 'pulse-icon-512.png', 'opportunities.html', 'opportunities.js', 'digest.html', 'digest.js', 'events.json', 'events.js', 'motivation.html', 'motivation.js', 'share.js', 'translations.json', 'pulse-hub.js', 'pulse-extras.css', 'today.html', 'radar.html', 'search.html', 'collections.html'):
         shutil.copyfile(server.ROOT / 'static' / name, output / name)
     # Make the curated event slider resilient if the browser cannot fetch events.json.
     events_data = json.loads((server.ROOT / 'static' / 'events.json').read_text(encoding='utf-8'))
@@ -94,8 +94,15 @@ def build(output):
     opportunity_temp = output / 'opportunities.json.tmp'
     opportunity_temp.write_text(json.dumps(opportunities_payload, ensure_ascii=False), encoding='utf-8')
     opportunity_temp.replace(output / 'opportunities.json')
+    # Reuse only the offline Ukrainian translations to identify near-identical
+    # headlines across languages; never alter the source archive.
+    try:
+        translation_data = json.loads((server.ROOT / 'static' / 'translations.json').read_text(encoding='utf-8'))
+        translated_titles = translation_data.get('articles', {})
+    except (OSError, ValueError):
+        translated_titles = {}
     editorial = editorial_feed.build_editorial_feed(
-        payload['articles'], payload['updated'], payload['sources']
+        payload['articles'], payload['updated'], payload['sources'], translations=translated_titles
     )
     # No second RSS fetch or AI API. A rolling 24-hour briefing built from the
     # same publisher-provided headlines and short RSS descriptions.

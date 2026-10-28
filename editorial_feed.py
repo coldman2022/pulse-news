@@ -169,7 +169,7 @@ def recent_feed_candidate(article, updated):
     return True
 
 
-def build_editorial_feed(articles, updated, sources=()):
+def build_editorial_feed(articles, updated, sources=(), translations=None):
     seen_urls = set()
     selected = []
     for article in sorted(articles, key=lambda x: x.get("published") or 0, reverse=True):
@@ -180,7 +180,7 @@ def build_editorial_feed(articles, updated, sources=()):
         if article.get("category") == "Імміграція":
             article = dict(article, migration_scope=migration_relevance.migration_scope(article))
         selected.append(article)
-    grouped = story_clusters.group_articles(selected)
+    grouped = story_clusters.group_articles(selected, translations=translations)
     return {
         "articles": grouped,
         "sources": list(sources),
@@ -188,7 +188,7 @@ def build_editorial_feed(articles, updated, sources=()):
         "archive_total": len(articles),
         "selected_total": len(grouped),
         "grouped_count": len(selected) - len(grouped),
-        "method": "all_fresh_topics_7d+obvious_noise_filter+story_groups_v1",
+        "method": "all_fresh_topics_7d+story_groups_validated_translations_v2",
         "window_days": FRESH_WINDOW_DAYS,
         "note": "У стрічці усі свіжі теми за 7 днів, крім очевидного спаму; архів зберігає історію."
     }
