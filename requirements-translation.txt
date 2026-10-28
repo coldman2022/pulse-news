@@ -1,0 +1,4 @@
+# Only the separate daily translation runner installs these dependencies.
+transformers>=4.45,<5
+sentencepiece>=0.2,<1
+sacremoses>=0.1,<1
