@@ -25,14 +25,17 @@ MAX_POSTS_PER_COMMUNITY = 15
 ATOM = "{http://www.w3.org/2005/Atom}"
 COMMUNITIES = (
     ("LocalLLaMA", "AI"),
-    ("technology", "Технології"),
+    ("ClaudeAI", "AI"),
     ("ChatGPT", "AI"),
+    ("vibecoding", "Застосунки"),
+    ("FigmaDesign", "Дизайн"),
+    ("UXDesign", "Дизайн"),
+    ("selfhosted", "Автоматизація"),
+    ("technology", "Технології"),
     ("ukraine", "Україна"),
     ("Polska", "Польща"),
     ("ImmigrationCanada", "Імміграція"),
-    ("UXDesign", "Дизайн"),
     ("movies", "Кіно"),
-    ("MovieSuggestions", "Кіно"),
 )
 USER_AGENT = "PulseNews/0.1 (personal RSS preview; https://github.com/coldman2022/pulse-news)"
 
@@ -51,6 +54,62 @@ def _post_url(raw: str, community: str) -> str:
     except ValueError:
         return ""
 
+
+
+# A deliberately conservative, title-only selection; no model-generated summaries.
+AI_WORDS = re.compile(
+    r"\b(ai|llm|gpt|chatgpt|claude|copilot|codex|cursor|gemini|"
+    r"agent(?:s|ic)?|prompt(?:ing)?|mcp|vibe.?cod(?:ing|e)|"
+    r"n8n|ollama|lovable|replit|windsurf|midjourney)\b", re.I
+)
+WORK_WORDS = re.compile(
+    r"\b(build|built|building|made|making|develop(?:ed|ing)?|app|apps|"
+    r"website|software|saas|ui|ux|design(?:ing|er)?|figma|workflow|"
+    r"prototype|prototyping|production|deployment|deploy|docker|"
+    r"server|devops|admin(?:istration)?|self.?host|automation|automate|"
+    r"integrat(?:e|ion|ing)|tool(?:s)?|project(?:s)?|create|created|"
+    r"code|coding|cod(?:er|ers)|debug|issue|test(?:ing)?|"
+    r"setup|set up|security|mcp|work|using|use|daily|prompt|"
+    r"database|backend|frontend|skill(?:s)?|api)\b", re.I
+)
+DESIGN_WORDS = re.compile(r"\b(figma|design|designer|ui|ux|wireframe|prototype|webflow|photoshop|illustrator)\b", re.I)
+OPS_WORDS = re.compile(r"\b(self.?host|server|docker|devops|homelab|admin|infrastructure|deployment|deploy|linux|nginx|kubernetes|sysadmin|security)\b", re.I)
+APP_WORDS = re.compile(r"\b(app|apps|website|web app|saas|software|code|coding|build|built|building|mvp|backend|frontend|repository|project|api|database|prototype)\b", re.I)
+PRACTICE_WORDS = re.compile(
+    r"\b(how|using|use|used|built|build|building|workflow|"
+    r"experience|my|our|i|we|tips|lessons|practical|"
+    r"automate|automation|tool|tools|integrat|shipping|"
+    r"deploy|setup|production|review|working)\b", re.I
+)
+NOISE_WORDS = re.compile(
+    r"\b(giveaway|promo code|discount|affiliate|referral|"
+    r"meme|shitpost|free karma|sponsored|hiring)\b", re.I
+)
+
+
+def practical_work_signal(title: str, community: str) -> tuple[str, int]:
+    """Classify *titles* about hands-on AI work; do not infer what comments say."""
+    if not isinstance(title, str) or NOISE_WORDS.search(title):
+        return "", 0
+    inferred_ai = community in {"ClaudeAI", "ChatGPT", "LocalLLaMA", "vibecoding"}
+    if not inferred_ai and not AI_WORDS.search(title):
+        return "", 0
+    if not WORK_WORDS.search(title) or not PRACTICE_WORDS.search(title):
+        return "", 0
+    if DESIGN_WORDS.search(title):
+        topic = "Дизайн"
+    elif OPS_WORDS.search(title):
+        topic = "Адміністрування"
+    elif APP_WORDS.search(title):
+        topic = "Розробка"
+    else:
+        topic = "AI у роботі"
+    score = 3
+    if re.search(r"\b(i|we|my|our|how i|how we|i've|we've)\b", title, re.I):
+        score += 2
+    if re.search(r"\b(production|lessons|workflow|built|my setup|case study|real-world)\b", title, re.I):
+        score += 1
+    return topic, score
 
 def parse_atom(raw: bytes, community: str, topic: str, now: float) -> list[dict]:
     root = ET.fromstring(raw)
@@ -76,7 +135,10 @@ def parse_atom(raw: bytes, community: str, topic: str, now: float) -> list[dict]
                 continue
         if not title or not link or not (now - MAX_AGE_SECONDS <= stamp <= now + 300):
             continue
+        work_topic, work_score = practical_work_signal(title, community)
         posts.append({
+            "work_topic": work_topic,
+            "work_score": work_score,
             "id": hashlib.sha256(link.encode()).hexdigest()[:20],
             "title": title,
             "url": link,
@@ -112,12 +174,13 @@ def build_reddit_preview(destination: str | Path, now: float | None = None) -> d
             pass
     if now >= RETIRES_AT:
         result = {
-            "status": "ended", "updated": now, "last_fetch_at": 0,
+            "status": "ended", "schema": 2, "updated": now, "last_fetch_at": 0,
             "posts": [], "sources": [],
             "message": "Reddit припинив підтримку RSS. Дивіться спільноти за прямими посиланнями.",
         }
     elif (prior.get("last_fetch_at", 0) > now - REFRESH_SECONDS
-          and prior.get("status") in ("ok", "unavailable", "cached")):
+          and prior.get("status") in ("ok", "unavailable", "cached")
+          and prior.get("schema") == 2):
         result = prior
     else:
         posts = []
@@ -138,6 +201,7 @@ def build_reddit_preview(destination: str | Path, now: float | None = None) -> d
         else:
             result = {
                 "status": "ok" if posts else "unavailable",
+                "schema": 2,
                 "updated": now,
                 "last_fetch_at": now,
                 "posts": posts, "sources": statuses,
