@@ -5,8 +5,8 @@ const fmt=ts=>{
   if(!ts)return '';
   const date=new Date(ts*1000);
   if(Number.isNaN(date.getTime()))return '';
-  return date.toLocaleDateString('uk-UA',{day:'numeric',month:'short'})+' · '+
-    date.toLocaleTimeString('uk-UA',{hour:'2-digit',minute:'2-digit',hour12:false});
+  return date.toLocaleTimeString('uk-UA',{hour:'2-digit',minute:'2-digit',hour12:false})+' · '+
+    date.toLocaleDateString('uk-UA',{day:'numeric',month:'short'});
 };
 function readCached(key){
  try{
