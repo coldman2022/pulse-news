@@ -2,6 +2,14 @@
 const $=s=>document.querySelector(s);
 const make=(tag,txt,cls)=>{const e=document.createElement(tag);if(txt!=null)e.textContent=String(txt);if(cls)e.className=cls;return e;};
 const fmt=ts=>ts?new Date(ts*1000).toLocaleDateString('uk-UA',{day:'numeric',month:'short'}):'';
+function readCached(key){
+ try{
+   const data=JSON.parse(localStorage.getItem(key)||'{}');
+   return data&&typeof data==='object'&&!Array.isArray(data)?data:{};
+ }catch{return {};}
+}
+const cachedTitles=readCached('pulse-title-translations');
+const cachedPreviews=readCached('pulse-translations');
 async function loadDigest(){
  const target=$('#digest-sections');
  try{
@@ -24,11 +32,14 @@ async function loadDigest(){
       const list=make('ol',null,'digest-items');
       for(const item of section.items){
         const row=make('li',null,'digest-item');
-        const anchor=make('a',item.title,'digest-item-title');
+        const translated=cachedPreviews[item.id]||{};
+        const title=typeof translated.title==='string'&&translated.title?translated.title:cachedTitles[item.id]||item.title;
+        const summary=typeof translated.summary==='string'&&translated.summary?translated.summary:item.summary;
+        const anchor=make('a',title,'digest-item-title');
         try{const url=new URL(item.url);if(url.protocol!=='https:')continue;anchor.href=url.href;}catch{continue;}
         anchor.target='_blank';anchor.rel='noopener noreferrer';
         row.append(anchor);
-        if(item.summary)row.append(make('p',item.summary,'digest-item-summary'));
+        if(summary)row.append(make('p',summary,'digest-item-summary'));
         const meta=make('div',null,'digest-item-meta');
         meta.append(make('span',item.publisher||'Джерело'),make('span',fmt(item.published)));
         row.append(meta);list.append(row);
