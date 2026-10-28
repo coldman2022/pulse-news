@@ -60,9 +60,9 @@
       const open=element('a','Читати ↗');
       open.href=url;open.target='_blank';open.rel='noopener noreferrer';
       actions.append(open);
-      if(window.PulseShare)actions.append(window.PulseShare.button(article,'story'));
       footer.append(actions);
       card.append(footer);
+      if(window.PulseShare)window.PulseShare.enableLongPress(card,article,'story');
       list.append(card);
     }
     if(sharedStory){

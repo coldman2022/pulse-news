@@ -1986,16 +1986,6 @@ body,header{background:var(--paper)}
 /* Pulse v25: simple sharing affordance and a sourced motivation reading section.
    Keep square cards, neutral gray canvas, soft topic backgrounds. */
 .story--topic-motivation{--card-bg:#fbf7f1;--card-accent:#925c51}
-#news .story-share,.brief-tools .story-share{
-  display:grid;place-items:center;
-  flex:0 0 30px;width:30px;height:32px;padding:5px;
-  border:0!important;border-radius:0;background:transparent;
-  color:var(--card-accent,#5a4291);cursor:pointer
-}
-#news .story-share:hover,.brief-tools .story-share:hover{
-  color:#25158a;background:#efebf9
-}
-#news .story-share svg,.brief-tools .story-share svg{display:block;width:18px;height:18px}
 .motivation-home{margin-left:auto;color:#4e2bb8;font-size:13px;font-weight:750;text-decoration:none}
 .motivation-home:hover{text-decoration:underline;text-underline-offset:3px}
 .motivation-shell{max-width:1110px;margin:0 auto;padding:24px 26px 110px}
@@ -2043,11 +2033,6 @@ body,header{background:var(--paper)}
 .motivation-story-source{font-size:10px;color:#7b7281;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .motivation-story-actions{display:flex;align-items:center;gap:5px;flex:0 0 auto}
 .motivation-story-actions a{font-size:11px;font-weight:790;color:#4e2bb8;white-space:nowrap;text-decoration:underline;text-underline-offset:3px}
-.motivation-story-actions .story-share{
-  display:grid;place-items:center;width:33px;height:33px;padding:7px;
-  border:0!important;border-radius:0;background:#f0ecf9;color:#4e2bb8
-}
-.motivation-story-actions .story-share:hover{background:#e9e2f8}
 .motivation-disclaimer{color:#756e80;font-size:11px;line-height:1.55;max-width:77ch;margin:18px 0 0}
 @media(max-width:760px){
   .motivation-shell{padding:13px 15px 110px}
@@ -2057,5 +2042,57 @@ body,header{background:var(--paper)}
   .motivation-thoughts h2,.motivation-list-header h2{font-size:20px}
   .motivation-list-header{align-items:flex-start;flex-direction:column;gap:3px}
   .motivation-story{padding:16px}
-  #news .story-share{flex-basis:28px;width:28px;height:30px}
+}
+
+
+/* Pulse v26: hold-to-share action sheet; no permanent share icon on cards. */
+.pulse-share-backdrop{
+  position:fixed;inset:0;z-index:125;
+  background:rgba(23,19,42,.38);
+}
+.pulse-share-backdrop[hidden],.pulse-share-sheet[hidden]{display:none!important}
+.pulse-share-sheet{
+  position:fixed;z-index:130;
+  left:50%;bottom:24px;transform:translateX(-50%);
+  width:min(440px,calc(100% - 30px));
+  display:flex;flex-direction:column;gap:7px;
+  padding:15px;background:#fff;
+  box-shadow:0 -8px 30px rgba(40,28,87,.14);
+  border:0!important;border-radius:0;
+}
+.pulse-share-heading{
+  display:flex;align-items:center;justify-content:space-between;gap:12px;
+  min-width:0;margin-bottom:3px
+}
+.pulse-share-heading strong{
+  font-size:14px;font-weight:820;line-height:1.35;color:#25212d;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+}
+.pulse-share-close{
+  display:grid;place-items:center;flex:0 0 35px;width:35px;height:35px;
+  padding:0;font-size:24px;line-height:1;
+  background:#f3f0fa;color:#4e2bb8;border:0!important;border-radius:0;
+}
+.pulse-share-action{
+  display:block;min-height:48px;width:100%;padding:13px 14px;
+  text-align:left;font-size:14px;font-weight:780;
+  border:0!important;border-radius:0;
+}
+.pulse-share-native{background:#4e2bb8;color:#fff}
+.pulse-share-copy{background:#f1ecfc;color:#352394}
+.pulse-share-native:active{background:#382196}
+.pulse-share-copy:active{background:#e9e0fb}
+.pulse-holdable{cursor:context-menu}
+@media(max-width:760px){
+  .pulse-share-sheet{
+    bottom:calc(76px + env(safe-area-inset-bottom,0px));
+    left:0;right:0;width:100%;transform:none;
+    padding:15px 16px 16px;
+  }
+}
+@media(hover:none) and (pointer:coarse){
+  .pulse-holdable,.pulse-holdable a{
+    -webkit-touch-callout:none;
+    -webkit-user-select:none;user-select:none;
+  }
 }

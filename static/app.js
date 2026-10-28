@@ -455,7 +455,7 @@ function render(){
     persist();render();
   };
   tools.append(saver);
-  if(window.PulseShare) tools.append(window.PulseShare.button(a));
+  // Sharing is invoked by holding anywhere on the card, not a toolbar icon.
   if(mode==='focus') {
     const reactions=el('div',null,'story-feedback');
     reactions.setAttribute('role','group');
@@ -472,6 +472,7 @@ function render(){
   }
   bottom.append(metadata,tools);
   card.append(content,bottom);
+  if(window.PulseShare)window.PulseShare.enableLongPress(card,a);
   news.append(card);
  }
  renderBrief();
@@ -540,12 +541,8 @@ function renderBrief(){
      persist();render();
    };
    tools.append(translate,saver);
-   if(window.PulseShare) {
-     const shareButton=window.PulseShare.button(a);
-     shareButton.classList.add('brief-action');
-     tools.append(shareButton);
-   }
    row.append(title,meta,tools);
+   if(window.PulseShare)window.PulseShare.enableLongPress(row,a);
    root.append(row);
  }
 }
