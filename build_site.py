@@ -7,6 +7,7 @@ import time
 from pathlib import Path
 
 import server
+import opportunities
 
 
 # The previous snapshot is restored by GitHub Actions cache when available.
@@ -55,11 +56,18 @@ def build(output):
         raise RuntimeError('All RSS sources failed; keep the previous deployment and retry later.')
     payload['articles'] = retain_recent(payload['articles'], previous_articles, time.time())
     output.mkdir(parents=True, exist_ok=True)
-    for name in ('index.html', 'app.js', 'style.css'):
+    for name in ('index.html', 'app.js', 'style.css', 'opportunities.html', 'opportunities.js'):
         shutil.copyfile(server.ROOT / 'static' / name, output / name)
     temporary = output / 'news.json.tmp'
     temporary.write_text(json.dumps(payload, ensure_ascii=False), encoding='utf-8')
     temporary.replace(snapshot)
+    opportunities_payload = {
+        'updated': payload['updated'],
+        'cards': opportunities.make_opportunities(payload['articles']),
+    }
+    opportunity_temp = output / 'opportunities.json.tmp'
+    opportunity_temp.write_text(json.dumps(opportunities_payload, ensure_ascii=False), encoding='utf-8')
+    opportunity_temp.replace(output / 'opportunities.json')
     (output / '.nojekyll').touch()
     print(f"Built {len(payload['articles'])} articles; sources: {payload['sources']}")
     return payload
