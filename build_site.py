@@ -20,14 +20,14 @@ def retain_recent(current, previous, now):
     # Keep an article until its topic-specific expiry, but never duplicate a URL.
     seen = set()
     retained = []
-    for article in list(current) + list(previous):
+    for index, article in enumerate(list(current) + list(previous)):
         url = article.get('url')
         if not url or url in seen:
             continue
         date = article.get('published') or 0
         days = RETENTION_DAYS.get(article.get('category'), DEFAULT_RETENTION_DAYS)
         # Accept undated articles only in the freshly fetched snapshot.
-        if not date and article not in current:
+        if not date and index >= len(current):
             continue
         if date and now - date > days * 86400:
             continue
