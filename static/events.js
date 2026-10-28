@@ -70,7 +70,7 @@ function renderEvents() {
     const date = element('time', 'event-date', eventRange(event));
     date.dateTime = event.start;
     const fee = element('span', 'event-fee event-fee--' + event.fee, event.fee_label || 'Ціну уточнюйте');
-    top.append(date, element('span', 'event-topic', event.topic), fee);
+    top.append(date, fee);
     const title = element('h3', 'event-title', event.title);
     const description = element('p', 'event-description', event.description || '');
     const location = element('p', 'event-location', event.city + ' · ' + event.country);
