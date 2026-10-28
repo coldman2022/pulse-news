@@ -44,8 +44,8 @@ class PressHoldShareTests(unittest.TestCase):
         index=(ROOT/"index.html").read_text(encoding="utf-8")
         motivation=(ROOT/"motivation.html").read_text(encoding="utf-8")
         self.assertIn('share.js?v=2',index)
-        self.assertIn('app.js?v=20',index)
-        self.assertIn('motivation.js?v=2',motivation)
+        self.assertIn('app.js?v=21',index)
+        self.assertIn('motivation.js?v=3',motivation)
         for file in ("index.html","motivation.html","digest.html","reddit.html","opportunities.html"):
             self.assertIn("style.css?v=28",(ROOT/file).read_text(encoding="utf-8"))
 
