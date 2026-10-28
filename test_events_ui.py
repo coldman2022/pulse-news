@@ -29,7 +29,7 @@ class EventCarouselTests(unittest.TestCase):
         js = (ROOT / "static" / "events.js").read_text(encoding="utf-8")
         css = (ROOT / "static" / "style.css").read_text(encoding="utf-8")
         for item in ('id="events-section"', 'id="events-track"', 'id="events-prev"',
-                     'id="events-next"', 'data-events-region="PL"', 'events.js?v=4'):
+                     'id="events-next"', 'data-events-region="PL"', 'events.js?v=5'):
             self.assertIn(item, html)
         self.assertIn("event.end >= eventDay()", js)
         self.assertIn("event-fee",js)
