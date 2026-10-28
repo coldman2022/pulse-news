@@ -71,7 +71,7 @@ WORLD_IMPORTANT = re.compile(
     r"central bank|interest rate\w*|"
     r"disaster\w*|earthquake\w*|hurricane\w*|"
     r"evacuat\w*|flood\w*|climate agreement|"
-    r"\\beu\\b|nato|united nations|"
+    r"\beu\b|nato|united nations|"
     r"rząd\w*|prezydent\w*|wybor\w*|wojn\w*|"
     r"світов\w*|вибор\w*|президент\w*|"
     r"уряд\w*|війна\b|перемир\w*|"
