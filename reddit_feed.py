@@ -117,7 +117,7 @@ def build_reddit_preview(destination: str | Path, now: float | None = None) -> d
             "message": "Reddit припинив підтримку RSS. Дивіться спільноти за прямими посиланнями.",
         }
     elif (prior.get("last_fetch_at", 0) > now - REFRESH_SECONDS
-          and prior.get("status") == "ok"):
+          and prior.get("status") in ("ok", "unavailable", "cached")):
         result = prior
     else:
         posts = []
