@@ -1753,3 +1753,165 @@ body[data-pulse-mode="focus"] aside nav [data-mode="focus"].active{
     to{opacity:1;transform:translateY(0)}
   }
 }
+
+
+/* Pulse v21 — COLORS ONLY. Existing layout, typography, radii and spacing unchanged.
+   Inspired by the supplied NOVA/KARO color references: indigo, lilac,
+   acid lime, warm orange, cream, charcoal. No machine-green UI accents. */
+:root{
+  --ink:#222222;
+  --blue:#4e2bb8;
+  --paper:#f7f3ec;
+  --line:#e8e2eb;
+  --muted:#716d78;
+  --pulse-subtle:#f4eef8;
+  --pulse-accent:#4e2bb8;
+  --pulse-accent-strong:#25158a;
+  --pulse-accent-light:#eee8fb;
+  --pulse-click:#4e2bb8;
+  --pulse-lime:#e2e739;
+  --pulse-purple:#9557d2;
+  --pulse-orange:#ff8b57;
+}
+body,header{background:var(--paper);color:var(--ink)}
+.brand{color:#222222}
+.brand span{color:var(--pulse-purple)}
+.header-date{color:#63559e}
+.fx-symbol{color:#6c6284}
+.fx-quote strong{color:#222222}
+.fx-quote + .fx-quote{border-left-color:#dcd4e9}
+aside nav{background:#ffffff}
+aside nav > .opp-nav{color:#4e2bb8}
+aside nav > .opp-nav:hover{color:#25158a;background:#eee8fb}
+aside nav > button.active{
+  color:#25158a!important;background:#e2e739!important;box-shadow:none!important
+}
+aside nav > button:hover{color:#25158a;background:#f2edfc}
+.events-section,.reddit-preview{background:#ffffff}
+.events-header h2,.reddit-preview-header h2,.brief-head h2{color:#222222}
+.events-header h2::before{background:#e2e739}
+.reddit-preview-header h2::before{background:#ff8b57}
+.brief-head h2::before{background:#9557d2}
+.events-regions button.active{color:#25158a!important}
+.events-regions button.active::after{background:#4e2bb8}
+.events-regions button:not(.active):hover{color:#4e2bb8}
+.event-arrow{background:#eee8fb;color:#4e2bb8}
+.event-arrow:not(:disabled):hover{background:#4e2bb8;color:#ffffff}
+.events-calendar-toggle{color:#4e2bb8}
+.events-calendar-toggle:hover,.events-calendar-toggle[aria-expanded=true]{
+  color:#25158a!important;background:#eee8fb!important
+}
+.events-calendar{background:#f4eef8}
+.events-calendar-day.has-events{background:#eee8fb;color:#25158a}
+.events-calendar-day.is-selected{background:#4e2bb8!important;color:#ffffff}
+.events-calendar-day.is-today{box-shadow:inset 0 -3px #e2e739!important}
+.event-card{background:#f5f0fa}
+.event-card::before{background:transparent}
+.event-card[data-topic="AI"]{background:#f1eafa;--event-accent:#6e35b8}
+.event-card[data-topic="Product"]{background:#f6f6d9;--event-accent:#4e2bb8}
+.event-card[data-topic="Design"]{background:#fff0e8;--event-accent:#a44728}
+.event-date{background:#ffffff;color:var(--event-accent,#4e2bb8)}
+.event-title{color:#222222}
+.event-description{color:#645d70}
+.event-location,.event-organizer{color:#6e6780}
+.event-fee{background:#f0ebf7;color:#4e2bb8}
+.event-fee--free{background:#e2e739;color:#25158a}
+.event-fee--paid{background:#ffe5d9;color:#853916}
+.event-fee--mixed{background:#eadbf7;color:#522194}
+.event-fee--unknown{background:#ece7f2;color:#675b78}
+.event-bottom .event-action{color:#4e2bb8;text-decoration-color:#b997e2}
+.event-bottom .event-action:hover{color:#25158a;text-decoration-color:currentColor}
+.reddit-preview-more{color:#4e2bb8}
+.reddit-preview-more:hover{color:#25158a}
+.reddit-preview-item{background:#f5effb;box-shadow:none!important}
+.reddit-preview-topic{color:#8741af}
+.reddit-preview-title{color:#262032;text-decoration-color:#c7ace4}
+.reddit-preview-title:hover{color:#4e2bb8;text-decoration-color:#4e2bb8}
+.reddit-preview-source{color:#756e7d}
+.search:focus-within,.filter-icon-button[aria-expanded=true]{
+  background:#eee8fb!important;color:#25158a!important
+}
+.search:focus-within{box-shadow:none}
+#categories button.active{color:#25158a!important}
+#categories button.active::after{background:#4e2bb8}
+#categories button:not(.active):hover{color:#4e2bb8;background:#eee8fb!important}
+#focus-explainer button{color:#4e2bb8;text-decoration-color:#b997e2}
+#status{color:#736d80}
+.story--topic-migration{--card-bg:#f2eefb;--card-accent:#4e2bb8}
+.story--topic-ai{--card-bg:#f0e9fa;--card-accent:#6e35b8}
+.story--topic-events{--card-bg:#f5eafb;--card-accent:#7437a7}
+.story--topic-world{--card-bg:#eeeffd;--card-accent:#3e38a8}
+.story--topic-ukraine{--card-bg:#f9f6e6;--card-accent:#6c5414}
+.story--topic-poland{--card-bg:#fff0e8;--card-accent:#9c422d}
+.story--topic-business{--card-bg:#f3f1fe;--card-accent:#4e2bb8}
+.story--topic-tech{--card-bg:#eef0fd;--card-accent:#3f43a9}
+.story--topic-science{--card-bg:#f6f6e7;--card-accent:#5a5e18}
+.story--topic-design{--card-bg:#faecf9;--card-accent:#8b3f94}
+.story--topic-cinema{--card-bg:#f7edfb;--card-accent:#7b38a6}
+.story--topic-neutral{--card-bg:#ffffff;--card-accent:#4e2bb8}
+#news .story{box-shadow:none!important}
+#news .story-heading a{color:#222222;text-decoration-color:#d1b8ea}
+#news .story-heading a:hover{color:var(--card-accent,#4e2bb8)}
+#news .story-summary,#news .story--feature .story-summary{color:#5e5967}
+#news .story-date,#news .story-publisher-bottom{color:#746d7d}
+#news .story-translate,#news .story-bookmark{color:var(--card-accent,#4e2bb8)}
+#news .story-feedback-button{color:#72658d}
+#news .story-feedback-button[aria-pressed=true]{
+  background:#e2e739;color:#25158a
+}
+#news .story-feedback-button:hover{background:#eee8fb}
+#news .story-sources-toggle{color:#4e2bb8}
+#news .story-source-links a:hover{color:#25158a}
+.load-more,.clear-filters{background:#eee8fb;color:#25158a}
+.load-more:hover,.clear-filters:hover{background:#e2e739;color:#25158a}
+.focus-hero{
+  background:linear-gradient(122deg,#25158a 0%,#4330ba 72%,#7240c6 100%);
+  color:#ffffff
+}
+.focus-kicker{color:#eee7ff}
+.focus-kicker-mark{background:#e2e739}
+.focus-hero h2{color:#ffffff}
+.focus-hero h2 span{color:#e2e739}
+.focus-hero-copy{color:#f1eaff}
+.focus-hero-stat{color:#25158a;background:#e2e739}
+.focus-hero-orb{
+  background:radial-gradient(circle,#b78fe8 0%,rgba(183,143,232,.08) 71%,transparent 72%)
+}
+body[data-pulse-mode="focus"]{background:#f1ecfa}
+body[data-pulse-mode="focus"] #news .story{
+  background:#ffffff;box-shadow:none!important
+}
+body[data-pulse-mode="focus"] #news .story--feature{background:#f5efff}
+body[data-pulse-mode="focus"] #status{color:#55458c}
+body[data-pulse-mode="focus"] .brief-section{background:#ece4fa}
+body[data-pulse-mode="focus"] .brief-item{background:#ffffff}
+body[data-pulse-mode="focus"] aside nav [data-mode="focus"].active{
+  background:#e2e739!important;color:#25158a!important;box-shadow:none!important
+}
+.pulse-up{background:#25158a;color:#ffffff}
+.pulse-up:hover{background:#4e2bb8;color:#ffffff}
+@media(max-width:760px){
+  .header-date{color:#63559e}
+  .pulse-dock{background:#ffffff}
+  .pulse-dock-item{color:#7a7288}
+  .pulse-dock-item.is-active{color:#25158a}
+  .pulse-dock-item.is-active::before{background:#e2e739}
+  .pulse-dock-sheet{background:#ffffff}
+  .pulse-dock-sheet a{background:#f0eafa;color:#4e2bb8}
+  .pulse-dock-sheet a:hover{background:#e8dcf8;color:#25158a}
+  .pulse-dock-backdrop{background:rgba(26,16,69,.36)}
+  .pulse-dock-search{background:#ffffff;box-shadow:0 -10px 32px rgba(44,25,94,.13)}
+  .pulse-dock-search-top strong{color:#222222}
+  .pulse-dock-search-close{background:#eee8fb;color:#25158a}
+  .pulse-dock-search-field{background:#f1eafa;box-shadow:none}
+  .pulse-dock-search-field svg{color:#4e2bb8}
+  .pulse-dock-search-field input{color:#222222}
+  .pulse-dock-search-field input::placeholder{color:#7d7190}
+  .pulse-dock-search-count,.pulse-dock-search-hint{color:#645a7b}
+  .pulse-dock-search-quick button{background:#e2e739;color:#25158a}
+  .pulse-dock-search-result{background:#f6f1fb;box-shadow:none}
+  .pulse-dock-search-result-topic{color:#4e2bb8}
+  .pulse-dock-search-result strong{color:#222222}
+  .pulse-dock-search-result-source{color:#756b85}
+  .pulse-dock-search-result:hover{background:#eee8fb}
+}
