@@ -29,10 +29,18 @@ class EventCarouselTests(unittest.TestCase):
         js = (ROOT / "static" / "events.js").read_text(encoding="utf-8")
         css = (ROOT / "static" / "style.css").read_text(encoding="utf-8")
         for item in ('id="events-section"', 'id="events-track"', 'id="events-prev"',
-                     'id="events-next"', 'data-events-region="PL"', 'events.js?v=5'):
+                     'id="events-next"', 'data-events-region="PL"', 'events.js?v=6'):
             self.assertIn(item, html)
         self.assertIn("event.end >= eventDay()", js)
         self.assertIn("event-fee",js)
+        self.assertIn('id="events-calendar"', html)
+        self.assertIn('id="events-calendar-grid"', html)
+        self.assertIn('id="events-calendar-toggle"', html)
+        self.assertIn('function renderCalendar()', js)
+        self.assertIn('selectedEventDay', js)
+        self.assertIn('margin-left:-29px', css)
+        self.assertIn('width:calc(100% + 58px)', css)
+
         self.assertIn("eventTrack.scrollBy", js)
         self.assertIn("requestAnimationFrame(updateEventArrows)", js)
         self.assertIn("eventSection.hidden = false", js)
