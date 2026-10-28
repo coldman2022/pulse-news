@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "updated": 0,
+  "articles": {},
+  "meta": {
+    "engine": "local_opus_mt",
+    "daily_target": 200
+  }
+}

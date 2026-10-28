@@ -7,6 +7,20 @@
   const requested=new URLSearchParams(location.search).get('story');
   const sharedStory=/^[a-f0-9]{20}$/.test(requested||'')?requested:null;
   let articles=[],selectedType='',visible=18;
+  let sharedTranslations={};
+  async function loadSharedTranslations(){
+    try{
+      const response=await fetch('./translations.json',{cache:'no-store'});
+      if(!response.ok)return;
+      const payload=await response.json();
+      if(payload.schema===1 && payload.articles && typeof payload.articles==='object' &&
+         !Array.isArray(payload.articles))sharedTranslations=payload.articles;
+    }catch{/* The publisher's original always remains available. */}
+  }
+  function translated(article){
+    const result=sharedTranslations[article.id];
+    return result && result.source_title===article.title ? result : null;
+  }
 
   function element(tag,text,css){
     const node=document.createElement(tag);
@@ -46,13 +60,14 @@
         time.textContent=new Date(article.published*1000).toLocaleDateString('uk-UA',{day:'numeric',month:'short',year:'numeric'});
       }
       top.append(time);
+      const shared=translated(article);
       const heading=element('h3',null,'motivation-story-title');
-      const link=element('a',article.title||'Історія засновника');
+      const link=element('a',shared?.title||article.title||'Історія засновника');
       link.href=url;link.target='_blank';link.rel='noopener noreferrer';
       heading.append(link);
       card.append(top,heading);
       if(article.summary){
-        card.append(element('p',article.summary,'motivation-story-summary'));
+        card.append(element('p',shared?.summary||article.summary,'motivation-story-summary'));
       }
       const footer=element('div',null,'motivation-story-footer');
       footer.append(element('span',article.publisher||article.source||'Видання','motivation-story-source'));
@@ -82,6 +97,7 @@
     render();
   }));
   more.addEventListener('click',()=>{visible+=18;render();});
+  loadSharedTranslations().then(()=>{if(articles.length)render();});
   fetch('./motivation.json',{cache:'no-store'}).then(async response=>{
     if(!response.ok)throw Error('Network');
     const data=await response.json();
