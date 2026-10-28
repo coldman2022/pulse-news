@@ -1,13 +1,24 @@
 <!doctype html>
-<html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f2f3f3"><meta name="description" content="Pulse — особиста стрічка новин із RSS-джерел."><title>Pulse — новини у вашому ритмі</title><link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" sizes="180x180" href="./pulse-icon-180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="Pulse"><link rel="icon" type="image/svg+xml" href="./pulse-icon.svg"><link rel="stylesheet" href="./style.css?v=20"><script defer src="./app.js?v=17"></script><script defer src="./events.js?v=6"></script><script defer src="./currency.js?v=3"></script><script defer src="./mobile.js?v=2"></script></head>
-<body><header><a class="brand" href="./" aria-label="Pulse — головна">pulse<span>●</span></a><div id="fx-bar" class="fx-bar" aria-label="Курси валют Monobank">
+<html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f2f3f3"><meta name="description" content="Pulse — особиста стрічка новин із RSS-джерел."><title>Pulse — новини у вашому ритмі</title><link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" sizes="180x180" href="./pulse-icon-180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="Pulse"><link rel="icon" type="image/svg+xml" href="./pulse-icon.svg"><link rel="stylesheet" href="./style.css?v=21"><script defer src="./app.js?v=18"></script><script defer src="./events.js?v=6"></script><script defer src="./currency.js?v=3"></script><script defer src="./mobile.js?v=3"></script></head>
+<body><header><a class="brand" href="./" aria-label="Pulse — головна">pulse<span>●</span></a><div id="fx-bar" class="fx-bar" aria-label="Дата і курси валют Monobank">
+  <time id="today" class="header-date"></time>
   <div class="fx-quotes">
     <span class="fx-quote"><span class="fx-symbol">PLN</span><strong id="fx-pln">—</strong></span>
     <span class="fx-quote"><span class="fx-symbol">USD</span><strong id="fx-usd">—</strong></span>
   </div>
 </div></header>
 <div class="shell"><aside><nav aria-label="Розділи"><a class="opp-nav" href="./digest.html">Огляд дня <span>↗</span></a><a class="opp-nav" href="./opportunities.html">Імміграційні можливості <span>↗</span></a><a class="opp-nav" href="./reddit.html">Reddit · спільноти <span>↗</span></a><button data-mode="focus">Для мене <span>↗</span></button><button class="active" data-mode="all">Стрічка <span>↗</span></button><button data-mode="archive">Весь архів <span>↗</span></button><button data-mode="saved">Збережене <span id="saved-count">0</span></button></nav></aside>
-<main><div class="intro"><div><p id="today" class="eyebrow"></p><h1>Новини</h1></div></div>
+<main>
+<h1 class="visually-hidden">Стрічка Pulse</h1>
+<section id="focus-hero" class="focus-hero" aria-labelledby="focus-title" hidden>
+  <div class="focus-hero-content">
+    <p class="focus-kicker"><span class="focus-kicker-mark" aria-hidden="true"></span> Персональна стрічка</p>
+    <h2 id="focus-title">Для мене<span aria-hidden="true">.</span></h2>
+    <p class="focus-hero-copy">Тільки найважливіше для твоїх інтересів. Оцінюй матеріали — і добірка стане точнішою.</p>
+    <p id="focus-hero-stat" class="focus-hero-stat" aria-live="polite"></p>
+  </div>
+  <span class="focus-hero-orb" aria-hidden="true"></span>
+</section>
 <section id="events-section" class="events-section" aria-labelledby="events-heading" hidden>
   <div class="events-header">
     <div><h2 id="events-heading">Події, які варто відвідати</h2></div>
