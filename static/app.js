@@ -498,3 +498,81 @@ for(const b of document.querySelectorAll('[data-category]')){b.onclick=()=>{cate
 $('#how-focus-works').onclick=()=>{const b=$('#how-focus-works');const expanded=b.getAttribute('aria-expanded')==='true';$('#focus-help').hidden=expanded;b.setAttribute('aria-expanded',String(!expanded));};
 load();setInterval(load,300000);
 
+
+
+/* Pulse Reddit preview: only practical AI discussions, no inferred summaries.
+   Reddit is optional: show subreddit shortcuts when RSS is unavailable. */
+(() => {
+  const section=document.querySelector('#reddit-preview');
+  const root=document.querySelector('#reddit-preview-list');
+  if(!section||!root)return;
+  const allowedCommunities=new Set([
+    'LocalLLaMA','ClaudeAI','ChatGPT','vibecoding','FigmaDesign','UXDesign','selfhosted'
+  ]);
+  const topics=new Set(['Розробка','Дизайн','Адміністрування','AI у роботі']);
+  const safeRedditUrl=(raw,community)=>{
+    try{
+      const url=new URL(raw);
+      return url.origin==='https://www.reddit.com' &&
+        new RegExp('^/r/'+community+'/comments/[a-z0-9]+(?:/|$)','i').test(url.pathname) &&
+        !url.username&&!url.password ? url.href : '';
+    }catch{return '';}
+  };
+  const node=(tag,cls,value)=>{
+    const n=document.createElement(tag);
+    n.className=cls;n.textContent=value;
+    return n;
+  };
+  const shortcuts=()=>{
+    const suggestions=[
+      ['ClaudeAI','Практика з Claude і Claude Code'],
+      ['vibecoding','Створення застосунків з AI'],
+      ['FigmaDesign','AI у дизайні'],
+      ['selfhosted','Автоматизація та сервери']
+    ];
+    for(const [community,label] of suggestions){
+      const card=node('article','reddit-preview-item','');
+      const name=node('a','reddit-preview-title',label);
+      name.href='https://www.reddit.com/r/'+community+'/new/';
+      name.target='_blank';name.rel='noopener noreferrer';
+      card.append(name,node('span','reddit-preview-source','r/'+community));
+      root.append(card);
+    }
+    section.hidden=false;
+  };
+  async function loadPreview(){
+    try{
+      const response=await fetch('./reddit.json',{cache:'no-store'});
+      if(!response.ok)throw Error('Reddit data failed');
+      const data=await response.json();
+      if(!['ok','cached'].includes(data.status)||!Array.isArray(data.posts)){
+        shortcuts();return;
+      }
+      const recent=data.posts.filter(p=>p&&
+        allowedCommunities.has(p.community)&&topics.has(p.work_topic)&&
+        Number.isFinite(p.work_score)&&p.work_score>=3&&
+        typeof p.title==='string'&&p.title.length>9&&
+        Number.isFinite(p.published)&&safeRedditUrl(p.url,p.community)
+      ).sort((a,b)=>b.work_score-a.work_score||b.published-a.published);
+      const chosen=[],seen=new Set();
+      for(const post of recent){
+        if(chosen.length===4)break;
+        const key=post.title.trim().toLowerCase();
+        if(seen.has(key))continue;
+        seen.add(key);chosen.push(post);
+      }
+      if(!chosen.length){shortcuts();return;}
+      for(const p of chosen){
+        const card=node('article','reddit-preview-item','');
+        const subject=node('span','reddit-preview-topic',p.work_topic);
+        const title=node('a','reddit-preview-title',p.title);
+        title.href=safeRedditUrl(p.url,p.community);
+        title.target='_blank';title.rel='noopener noreferrer';
+        card.append(subject,title,node('span','reddit-preview-source','r/'+p.community));
+        root.append(card);
+      }
+      section.hidden=false;
+    }catch{shortcuts();}
+  }
+  loadPreview();
+})();
