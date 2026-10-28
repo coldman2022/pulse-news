@@ -93,7 +93,7 @@ def build(output):
     opportunity_temp.replace(output / 'opportunities.json')
     # No second RSS fetch or AI API. A rolling 24-hour briefing built from the
     # same publisher-provided headlines and short RSS descriptions.
-    digest = daily_digest.build_digest(payload['articles'], payload['updated'])
+    digest = daily_digest.build_digest(editorial['articles'], payload['updated'])
     digest_temp = output / 'digest.json.tmp'
     digest_temp.write_text(json.dumps(digest, ensure_ascii=False), encoding='utf-8')
     digest_temp.replace(output / 'digest.json')
@@ -104,7 +104,7 @@ def build(output):
     curated_temp.write_text(json.dumps(editorial, ensure_ascii=False), encoding='utf-8')
     curated_temp.replace(output / 'feed.json')
     # Personal front page is a small ranked view; the complete archive is preserved.
-    personal_payload = personal_feed.build_personal_feed(payload['articles'], payload['updated'])
+    personal_payload = personal_feed.build_personal_feed(editorial['articles'], payload['updated'])
     personal_payload['sources'] = payload['sources']
     personal_temp = output / 'personal.json.tmp'
     personal_temp.write_text(json.dumps(personal_payload, ensure_ascii=False), encoding='utf-8')
