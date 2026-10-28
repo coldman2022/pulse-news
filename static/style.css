@@ -2131,7 +2131,7 @@ body,header{background:var(--paper)}
     overflow-y:auto;
     flex:1 1 auto;
   }
-  body.pulse-search-open:has(.pulse-dock-search--editing) .pulse-dock{
+  .pulse-dock-search--editing ~ .pulse-dock{
     visibility:hidden;
     pointer-events:none;
   }
