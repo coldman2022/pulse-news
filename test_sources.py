@@ -4,7 +4,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parent
-CATEGORIES = {"Світ", "Україна", "Польща", "Бізнес", "Технології", "AI", "Наука", "Дизайн", "Імміграція", "AI-події", "Кіно"}
+CATEGORIES = {"Світ", "Україна", "Польща", "Бізнес", "Технології", "AI", "Наука", "Дизайн", "Імміграція", "AI-події", "Кіно", "Мотивація"}
 
 
 class SourceConfigurationTests(unittest.TestCase):
