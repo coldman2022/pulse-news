@@ -13,6 +13,10 @@ class EditorialDesignTests(unittest.TestCase):
         self.assertIn("saver.setAttribute('aria-pressed'",js)
         self.assertIn("newsIcon('languages')",js)
         self.assertIn("bottom.append(date)",js)
+        self.assertIn("if(translateButton)bottom.append(translateButton)",js)
+        self.assertNotIn("bottom.append(el('span',a.country",js)
+        self.assertNotIn("story--tone-",js)
+        self.assertIn("story--topic-migration", (ROOT/"static"/"style.css").read_text(encoding="utf-8"))
         self.assertIn("card.append(top,content,bottom)",js)
         self.assertIn("story--feature",js)
         self.assertIn("story--wide",js)
@@ -33,8 +37,12 @@ class EditorialDesignTests(unittest.TestCase):
     def test_photo_toggle_and_versioning(self):
         html=(ROOT/"static"/"index.html").read_text(encoding="utf-8")
         self.assertIn('id="show-images"',html)
-        self.assertIn('style.css?v=6',html)
-        self.assertIn('app.js?v=6',html)
+        self.assertIn('id="filter-toggle"',html)
+        self.assertIn('id="filter-panel"',html)
+        self.assertIn('href="./digest.html"',html)
+        self.assertNotIn('id="sort"',html)
+        self.assertIn('style.css?v=7',html)
+        self.assertIn('app.js?v=7',html)
 
 
 if __name__=="__main__":
