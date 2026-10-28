@@ -57,7 +57,7 @@ def build(output):
         raise RuntimeError('All RSS sources failed; keep the previous deployment and retry later.')
     payload['articles'] = retain_recent(payload['articles'], previous_articles, time.time())
     output.mkdir(parents=True, exist_ok=True)
-    for name in ('index.html', 'app.js', 'style.css', 'opportunities.html', 'opportunities.js', 'digest.html', 'digest.js'):
+    for name in ('index.html', 'app.js', 'style.css', 'opportunities.html', 'opportunities.js', 'digest.html', 'digest.js', 'events.json', 'events.js'):
         shutil.copyfile(server.ROOT / 'static' / name, output / name)
     temporary = output / 'news.json.tmp'
     temporary.write_text(json.dumps(payload, ensure_ascii=False), encoding='utf-8')
