@@ -568,5 +568,33 @@
     "category": "Кіно",
     "language": "en",
     "origin": "media"
+  },
+  {
+    "name": "Y Combinator — історії засновників",
+    "url": "https://www.ycombinator.com/blog/rss/",
+    "category": "Мотивація",
+    "language": "en",
+    "origin": "expert"
+  },
+  {
+    "name": "Entrepreneur's Handbook — шлях підприємців",
+    "url": "https://entrepreneurshandbook.co/feed",
+    "category": "Мотивація",
+    "language": "en",
+    "origin": "expert"
+  },
+  {
+    "name": "Історії засновників — Forbes",
+    "url": "https://news.google.com/rss/search?q=site%3Aforbes.com%20founder%20%22journey%22%20OR%20%22failure%22%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
+    "category": "Мотивація",
+    "language": "en",
+    "origin": "discovery"
+  },
+  {
+    "name": "Історії бізнесу — TechCrunch",
+    "url": "https://news.google.com/rss/search?q=site%3Atechcrunch.com%20%22founder%22%20%22started%22%20OR%20%22bootstrapped%22%20when%3A30d&hl=en-US&gl=US&ceid=US:en",
+    "category": "Мотивація",
+    "language": "en",
+    "origin": "discovery"
   }
 ]

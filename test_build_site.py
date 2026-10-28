@@ -37,8 +37,8 @@ class BuildTests(unittest.TestCase):
                              dict(name='The Guardian', ok=False, cached=True))
             self.assertEqual(json.loads((output / 'news.json').read_text()), payload)
             html = (output / 'index.html').read_text()
-            self.assertIn('href="./style.css?v=25"', html)
-            self.assertIn('src="./app.js?v=18"', html)
+            self.assertIn('href="./style.css?v=26"', html)
+            self.assertIn('src="./app.js?v=19"', html)
             self.assertTrue((output / '.nojekyll').exists())
             self.assertTrue((output / 'opportunities.html').exists())
             self.assertTrue((output / 'opportunities.js').exists())
@@ -60,6 +60,11 @@ class BuildTests(unittest.TestCase):
             self.assertIn('brief', personal)
             self.assertIn('sources', personal)
             self.assertTrue((output / 'events.json').exists())
+            self.assertTrue((output / 'motivation.html').exists())
+            self.assertTrue((output / 'motivation.js').exists())
+            self.assertTrue((output / 'share.js').exists())
+            motivation=json.loads((output / 'motivation.json').read_text())
+            self.assertIn('articles', motivation)
             self.assertTrue((output / 'events.js').exists())
             for name in ('mobile.js','manifest.webmanifest','pulse-icon.svg',
                          'pulse-icon-180.png','pulse-icon-512.png'):

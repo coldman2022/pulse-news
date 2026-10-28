@@ -11,13 +11,14 @@ import opportunities
 import daily_digest
 import personal_feed
 import editorial_feed
+import motivation_feed
 import reddit_feed
 import currency_rates
 
 
 # The previous snapshot is restored by GitHub Actions cache when available.
 # Without it, the current RSS contents still produce a valid fresh build.
-RETENTION_DAYS = {'Імміграція': 120, 'AI-події': 120, 'AI': 45, 'Світ': 21}
+RETENTION_DAYS = {'Імміграція': 120, 'AI-події': 120, 'AI': 45, 'Світ': 21, 'Мотивація': 120}
 DEFAULT_RETENTION_DAYS = 30
 MAX_ARTICLES = 3500
 
@@ -70,7 +71,7 @@ def build(output):
     ]
 
     output.mkdir(parents=True, exist_ok=True)
-    for name in ('index.html', 'app.js', 'style.css', 'reddit.html', 'reddit.js', 'currency.js', 'mobile.js', 'manifest.webmanifest', 'pulse-icon.svg', 'pulse-icon-180.png', 'pulse-icon-512.png', 'opportunities.html', 'opportunities.js', 'digest.html', 'digest.js', 'events.json', 'events.js'):
+    for name in ('index.html', 'app.js', 'style.css', 'reddit.html', 'reddit.js', 'currency.js', 'mobile.js', 'manifest.webmanifest', 'pulse-icon.svg', 'pulse-icon-180.png', 'pulse-icon-512.png', 'opportunities.html', 'opportunities.js', 'digest.html', 'digest.js', 'events.json', 'events.js', 'motivation.html', 'motivation.js', 'share.js'):
         shutil.copyfile(server.ROOT / 'static' / name, output / name)
     # Make the curated event slider resilient if the browser cannot fetch events.json.
     events_data = json.loads((server.ROOT / 'static' / 'events.json').read_text(encoding='utf-8'))
@@ -105,6 +106,9 @@ def build(output):
     curated_temp = output / 'feed.json.tmp'
     curated_temp.write_text(json.dumps(editorial, ensure_ascii=False), encoding='utf-8')
     curated_temp.replace(output / 'feed.json')
+    # Real founder paths stay available longer than the 7-day news front page.
+    motivation_data = motivation_feed.build_motivation_feed(payload['articles'], payload['updated'])
+    (output / 'motivation.json').write_text(json.dumps(motivation_data, ensure_ascii=False), encoding='utf-8')
     # Personal front page is a small ranked view; the complete archive is preserved.
     personal_payload = personal_feed.build_personal_feed(editorial['articles'], payload['updated'])
     personal_payload['sources'] = payload['sources']

@@ -32,6 +32,9 @@ jobs:
       - run: node --check static/events.js
       - run: node --check static/reddit.js
       - run: node --check static/currency.js
+      - run: node --check static/mobile.js
+      - run: node --check static/share.js
+      - run: node --check static/motivation.js
 
   build:
     if: github.event_name != 'pull_request'
