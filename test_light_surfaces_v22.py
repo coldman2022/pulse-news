@@ -1,4 +1,4 @@
-"""Pulse v22 regression: subtle surfaces, clean headlines, unchanged UI structure."""
+"""Pulse v22 title style regression; v23 restores slightly richer cards."""
 import unittest
 from pathlib import Path
 
@@ -33,11 +33,11 @@ class LightSurfaceTests(unittest.TestCase):
     def test_i_phone_background_and_cache_version(self):
         for name in ("index.html", "digest.html", "opportunities.html", "reddit.html"):
             page = (ROOT / name).read_text(encoding="utf-8")
-            self.assertIn("style.css?v=23", page)
-            self.assertIn('content="#fcfbfd"', page)
+            self.assertIn("style.css?v=24", page)
+            self.assertIn('content="#f8f4ee"', page)
         manifest = (ROOT / "manifest.webmanifest").read_text(encoding="utf-8")
-        self.assertIn('"background_color": "#fcfbfd"', manifest)
-        self.assertIn('"theme_color": "#fcfbfd"', manifest)
+        self.assertIn('"background_color": "#f8f4ee"', manifest)
+        self.assertIn('"theme_color": "#f8f4ee"', manifest)
 
 
 if __name__=="__main__":
