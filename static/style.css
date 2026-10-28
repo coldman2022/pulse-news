@@ -1365,3 +1365,78 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{
   }
   #news,#events-section,#reddit-preview{scroll-margin-top:12px}
 }
+
+
+/* Pulse v19: clipped event carousel, edge-to-edge scroll tabs and safe-area dock. */
+.events-section{
+  /* The white event surface owns and clips its own horizontal carousel. */
+  overflow:hidden;
+}
+.events-track,
+.events-section .events-track{
+  box-sizing:border-box;
+  width:100%;
+  min-width:0;
+  max-width:100%;
+  margin:0;
+  padding:0!important;
+  overflow-x:auto;
+  overflow-y:hidden;
+  overscroll-behavior-x:contain;
+  scroll-padding-inline:0;
+}
+.events-calendar-toggle{
+  width:34px;
+  height:34px;
+  min-width:34px;
+  min-height:34px;
+  flex:0 0 34px;
+  padding:0!important;
+  display:grid;
+  place-items:center;
+}
+.events-calendar-toggle svg{width:19px;height:19px}
+@media(max-width:760px){
+  .shell aside{
+    padding-left:15px;
+    padding-right:0;
+    padding-bottom:12px;
+  }
+  .shell aside nav{
+    box-sizing:border-box;
+    width:100%;
+    max-width:100%;
+    min-width:0;
+    margin-right:0;
+    overflow-x:auto;
+    overflow-y:hidden;
+    overscroll-behavior-inline:contain;
+    -webkit-overflow-scrolling:touch;
+    scroll-padding-left:7px;
+    scroll-padding-right:15px;
+  }
+  .shell aside nav::after{
+    content:"";
+    flex:0 0 10px;
+  }
+  .events-section{overflow:hidden}
+  .events-section .events-track{
+    margin:0;
+    padding:0!important;
+    width:100%;
+    max-width:100%;
+    scroll-padding-inline:0;
+  }
+  .events-calendar-toggle{
+    width:32px;height:32px;min-width:32px;min-height:32px;
+    padding:0!important;flex-basis:32px;
+  }
+  /* 10px more space between iOS home indicator and the dock items. */
+  body{padding-bottom:calc(86px + env(safe-area-inset-bottom,0px))}
+  .pulse-dock{
+    height:calc(76px + env(safe-area-inset-bottom,0px));
+    padding:5px 7px calc(16px + env(safe-area-inset-bottom,0px));
+  }
+  .pulse-dock-sheet{bottom:calc(76px + env(safe-area-inset-bottom,0px))}
+  .pulse-up{bottom:calc(89px + env(safe-area-inset-bottom,0px))}
+}
