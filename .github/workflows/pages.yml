@@ -67,11 +67,11 @@ jobs:
             curl --fail --location --silent --show-error --max-time 15 \
               'https://coldman2022.github.io/pulse-news/reddit.json' -o _site/reddit.json \
               || rm -f _site/reddit.json
+          fi
           if [ ! -s _site/currency.json ]; then
             curl --fail --location --silent --show-error --max-time 12 \
               'https://coldman2022.github.io/pulse-news/currency.json' -o _site/currency.json \
               || rm -f _site/currency.json
-          fi
           fi
       - name: Fetch RSS and build the static site
         run: python build_site.py
