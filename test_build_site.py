@@ -37,8 +37,8 @@ class BuildTests(unittest.TestCase):
                              dict(name='The Guardian', ok=False, cached=True))
             self.assertEqual(json.loads((output / 'news.json').read_text()), payload)
             html = (output / 'index.html').read_text()
-            self.assertIn('href="./style.css?v=17"', html)
-            self.assertIn('src="./app.js?v=15"', html)
+            self.assertIn('href="./style.css?v=18"', html)
+            self.assertIn('src="./app.js?v=16"', html)
             self.assertTrue((output / '.nojekyll').exists())
             self.assertTrue((output / 'opportunities.html').exists())
             self.assertTrue((output / 'opportunities.js').exists())
@@ -61,6 +61,12 @@ class BuildTests(unittest.TestCase):
             self.assertIn('sources', personal)
             self.assertTrue((output / 'events.json').exists())
             self.assertTrue((output / 'events.js').exists())
+            for name in ('mobile.js','manifest.webmanifest','pulse-icon.svg',
+                         'pulse-icon-180.png','pulse-icon-512.png'):
+                self.assertTrue((output / name).exists(), name)
+            manifest=json.loads((output/'manifest.webmanifest').read_text())
+            self.assertEqual(manifest['display'],'standalone')
+
             bundled_events = (output / 'events.js').read_text()
             self.assertIn('Product Management Day 2026', bundled_events)
             self.assertNotIn('PULSE_BUILD_EVENTS_JSON', bundled_events)
