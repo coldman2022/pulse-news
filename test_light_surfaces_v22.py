@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parent / "static"
 class LightSurfaceTests(unittest.TestCase):
     def test_color_adjustments_do_not_change_geometry(self):
         css = (ROOT / "style.css").read_text(encoding="utf-8")
-        override = css.split("/* Pulse v22: softer near-white surfaces", 1)[1]
+        override = css.split("/* Pulse v22: softer near-white surfaces", 1)[1].split("/* Pulse v24:",1)[0]
         for token in ("--paper:#fcfbfd", "--card-bg:#f9f8ff",
                       "background:#faf7ff", "background:#fbfbed",
                       "background:#fff9f5"):
@@ -20,7 +20,7 @@ class LightSurfaceTests(unittest.TestCase):
 
     def test_article_titles_are_not_underlined(self):
         css = (ROOT / "style.css").read_text(encoding="utf-8")
-        override = css.split("/* Pulse v22: softer near-white surfaces", 1)[1]
+        override = css.split("/* Pulse v22: softer near-white surfaces", 1)[1].split("/* Pulse v24:",1)[0]
         self.assertIn("#news .story-heading a,", override)
         self.assertIn(".reddit-preview-title,", override)
         self.assertIn(".reddit-post-title,", override)
