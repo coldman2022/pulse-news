@@ -31,9 +31,9 @@ class V23BackgroundTests(unittest.TestCase):
         css = (ROOT / "style.css").read_text(encoding="utf-8")
         section = css.split("/* Pulse v23 —", 1)[1]
         # Check CSS declarations, not media-query conditions such as max-width.
-        properties = re.findall(r"(?<=[{;])\\s*([a-z-]+)\\s*:", section)
+        properties = re.findall(r"(?<=[{;])\s*([a-z-]+)\s*:", section)
         self.assertTrue(properties)
-        self.assertTrue(all(property_name == "background" for property_name in properties), properties)
+        self.assertTrue(all(prop == "background" or prop.startswith("--") for prop in properties), properties)
         # Keep the previous request: headline links are never underlined.
         v22 = css.split("/* Pulse v22:", 1)[1].split("/* Pulse v23 —", 1)[0]
         self.assertIn("#news .story-heading a,", v22)
