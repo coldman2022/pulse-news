@@ -1977,7 +1977,7 @@ aside nav > button.active{background:#f0f3ae!important}
   .pulse-dock-sheet a:hover{background:#f2edfc}
 }
 
-/* Pulse v24: ONLY the global page/header background is 10% lighter than v21.
+/* Pulse v24: ONLY the global background shifts to neutral light gray.
    Topic cards, Reddit, events, 'For me' and every other color remain v22. */
-:root{--paper:#f8f4ee}
+:root{--paper:#f0f0f3}
 body,header{background:var(--paper)}
