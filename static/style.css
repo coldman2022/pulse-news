@@ -530,3 +530,94 @@ nav button.active, #categories button.active, .events-regions button.active {
 @media (prefers-reduced-motion: reduce) {
   .events-track { scroll-behavior: auto; }
 }
+
+/* Pulse v9: personal news first; secondary world/tech news as compact headlines. */
+.focus-explainer { display:flex; flex-wrap:wrap; align-items:center; gap:5px 7px; font-size:12px; line-height:1.5; color:var(--muted); margin:12px 0 7px; }
+.focus-explainer[hidden], .focus-help[hidden] { display:none !important; }
+.focus-explainer button { border:0; padding:0; background:transparent; font-size:12px; color:var(--blue); text-decoration:underline; text-underline-offset:3px; }
+.focus-help { background:transparent; border-left:2px solid var(--blue); padding:6px 12px; color:var(--muted); font-size:12px; line-height:1.5; margin:8px 0; }
+.brief-section { border-top:1px solid var(--line); margin-top:25px; padding-top:16px; }
+.brief-section[hidden] { display:none !important; }
+.brief-head { display:flex; align-items:baseline; flex-wrap:wrap; gap:7px 15px; margin-bottom:7px; }
+.brief-head h2 { font-size:clamp(21px,2.4vw,27px); letter-spacing:-.5px; line-height:1.2; margin:0; }
+.brief-head span { color:var(--muted); font-size:11px; line-height:1.4; }
+.brief-list { display:grid; grid-template-columns:minmax(0,1fr); }
+.brief-item { display:flex; align-items:baseline; justify-content:space-between; gap:12px; padding:9px 0; border-bottom:1px solid var(--line); min-width:0; }
+.brief-title { font-size:14px; line-height:1.38; font-weight:620; text-decoration:none; overflow-wrap:anywhere; min-width:0; }
+.brief-title:hover { color:var(--blue); text-decoration:underline; text-underline-offset:3px; }
+.brief-meta { flex:0 0 auto; display:flex; align-items:center; gap:11px; font-size:10px; color:var(--muted); white-space:nowrap; }
+.brief-topic { color:#285aa0; font-weight:730; }
+@media(max-width:760px) {
+ .focus-explainer { gap:3px 7px; font-size:11px; }
+ .brief-section { margin-top:18px; padding-top:12px; }
+ .brief-item { display:block; padding:9px 0 8px; }
+ .brief-title { display:block; font-size:14px; }
+ .brief-meta { margin-top:3px; gap:9px; font-size:10px; }
+}
+
+/* v10: pure editorial metadata, actions only in the bottom row. */
+.intro { align-items:center; margin-bottom:16px; }
+.intro .eyebrow { margin-bottom:5px; }
+.intro h1 { font-size:clamp(27px,3vw,39px); letter-spacing:-.8px; }
+.events-section { padding-top:14px; }
+.events-header { margin-bottom:12px; }
+#news .story,#news .story--feature { padding-top:13px; }
+#news .story-top { display:none !important; }
+#news .story-bottom,#news .story--feature .story-bottom {
+  display:flex;justify-content:space-between;align-items:center;gap:12px;
+  margin-top:9px;padding-top:7px;min-height:32px;
+}
+#news .story-meta {
+  display:flex;align-items:baseline;flex-wrap:wrap;gap:3px 9px;
+  flex:1 1 auto;min-width:0;font-size:11px;line-height:1.4;
+}
+#news .story-publisher-bottom {
+  font-size:11px;color:#526174;white-space:normal;
+  overflow-wrap:anywhere;
+}
+#news .story-date { white-space:nowrap; }
+#news .story-tools { display:flex;justify-content:flex-end;align-items:center;gap:2px;flex:0 0 auto; }
+#news .story-bookmark,#news .story--feature .story-bookmark,
+#news .story-translate,#news .story--feature .story-translate {
+  display:grid;place-items:center;flex:0 0 32px;min-width:32px;
+  width:32px;height:32px;padding:5px;margin:0;border:0;
+  background:transparent;color:var(--card-accent,var(--blue));border-radius:0;
+}
+#news .story-bookmark svg,#news .story-translate svg {width:19px;height:19px;display:block;}
+#news .story-translate:disabled { color:#8993a0;opacity:.5;cursor:default; }
+#news .story-bookmark:hover,#news .story-translate:not(:disabled):hover {
+  background:rgba(0,0,0,.05);
+}
+#feed-health { flex:1 1 100%; margin:6px 0 0; font-size:12px; }
+#focus-explainer { margin:6px 0 0; }
+#status {margin:8px 0 9px;font-size:12px;}
+#brief .brief-head { margin-bottom:5px; }
+@media(max-width:760px) {
+  .intro { margin-bottom:12px; }
+  .intro h1 { font-size:28px; }
+  #news .story,#news .story--feature { padding-top:11px; }
+  #news .story-meta { gap:2px 7px; font-size:10px; }
+  #news .story-publisher-bottom,#news .story-date {font-size:10px;}
+  #news .story-bottom,#news .story--feature .story-bottom {gap:5px;padding-top:5px;margin-top:7px;}
+  #news .story-tools {gap:0;}
+  #news .story-bookmark,#news .story-translate {width:30px;height:32px;flex-basis:30px;}
+}
+
+/* Compact brief keeps the same two actions while avoiding article-size cards. */
+.brief-item { align-items:center; }
+.brief-item .brief-title {flex:1 1 auto;}
+.brief-item .brief-meta {display:flex;flex:0 1 auto;align-items:baseline;flex-wrap:wrap;gap:3px 9px;max-width:40%;white-space:normal;justify-content:flex-end;}
+.brief-publisher {overflow-wrap:anywhere;}
+.brief-meta time {white-space:nowrap;}
+.brief-tools {display:flex;align-items:center;gap:2px;flex:0 0 auto;}
+.brief-action {display:grid;place-items:center;flex:0 0 30px;width:30px;height:32px;min-width:30px;padding:5px;margin:0;background:transparent;border:0;color:#285aa0;}
+.brief-action svg {display:block;width:18px;height:18px;}
+.brief-action:hover:not(:disabled) {background:rgba(0,0,0,.05);}
+.brief-action:disabled {color:#8993a0;opacity:.5;cursor:default;}
+.brief-save.is-saved svg {fill:currentColor;}
+@media (max-width:760px) {
+ .brief-item {display:grid;grid-template-columns:minmax(0,1fr) auto;gap:3px 6px;}
+ .brief-item .brief-title {grid-column:1 / -1;margin:0;}
+ .brief-item .brief-meta {grid-column:1;max-width:100%;justify-content:flex-start;margin:0;gap:3px 7px;}
+ .brief-item .brief-tools {grid-column:2;grid-row:2;}
+}
