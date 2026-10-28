@@ -40,17 +40,11 @@ jobs:
       - run: node --check static/pulse-hub.js
 
   build:
-    needs: test
-    # Scheduled/manual refresh must still run if tests are skipped. Push
-    # deployments remain gated on successful tests.
-    if: >-
-      ${{
-        always() &&
-        github.event_name != 'pull_request' &&
-        (github.event_name != 'push' || needs.test.result == 'success')
-      }}
+    # RSS collection must not wait for UI tests. Changes to code are still
+    # checked before the corresponding production deployment.
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     permissions:
       contents: read
       pages: read
@@ -102,7 +96,15 @@ jobs:
           path: _site
 
   deploy:
-    needs: build
+    needs: [test, build]
+    # On the schedule/manual trigger test is intentionally skipped. Push
+    # deployments still require all regression tests to pass.
+    if: >-
+      ${{
+        always() &&
+        needs.build.result == 'success' &&
+        (github.event_name != 'push' || needs.test.result == 'success')
+      }}
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
