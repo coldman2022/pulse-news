@@ -1440,3 +1440,27 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{
   .pulse-dock-sheet{bottom:calc(76px + env(safe-area-inset-bottom,0px))}
   .pulse-up{bottom:calc(89px + env(safe-area-inset-bottom,0px))}
 }
+
+
+/* Pulse story groups and optional local relevance feedback (no new frame/card). */
+#news .story-sources {margin:9px 0 0;color:var(--card-accent,#4f626a);font-size:11px;line-height:1.4}
+#news .story-sources-toggle {display:list-item;list-style:disclosure-closed inside;cursor:pointer;font-weight:650}
+#news .story-sources[open] .story-sources-toggle {list-style:disclosure-open inside}
+#news .story-source-links {margin:7px 0 0;padding:0 0 0 15px}
+#news .story-source-links li {margin:0 0 5px;overflow-wrap:anywhere}
+#news .story-source-links a {color:inherit;text-decoration:underline;text-underline-offset:2px}
+#news .story-feedback {display:flex;align-items:center;gap:1px;margin-right:5px}
+#news .story-feedback-button {
+  display:grid;place-items:center;width:30px;height:32px;padding:5px;border:0;
+  border-radius:0;background:transparent;color:#65777d;cursor:pointer
+}
+#news .story-feedback-button[aria-pressed="true"] {color:var(--card-accent,#276a65);background:rgba(46,76,76,.08)}
+#news .story-feedback-button:hover {background:rgba(46,76,76,.07)}
+#news .story-feedback-button svg {width:17px;height:17px;display:block}
+#feedback-reset {margin-left:12px}
+@media(max-width:760px) {
+  #news .story-bottom {flex-wrap:wrap}
+  #news .story-feedback {gap:0;margin-right:2px}
+  #news .story-feedback-button {width:28px;height:30px}
+  #news .story-sources {font-size:11px}
+}

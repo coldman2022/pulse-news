@@ -249,10 +249,20 @@ def build_personal_feed(articles, now):
     used = set()
     featured = _select(candidates["featured"], FEATURED_LIMITS, MAX_FEATURED, used)
     brief = _select(candidates["brief"], BRIEF_LIMITS, MAX_BRIEF, used)
+    # Browser-only reactions reselect from this bounded editorial pool. Every
+    # candidate has already passed the existing relevance and age checks.
+    # Do not upload personal preferences to the published JSON.
+    pool = [
+        dict(article, relevance_score=score)
+        for score, article in sorted(
+            candidates["featured"], key=lambda pair: pair[1].get("published", 0),
+            reverse=True
+        )[:180]
+    ]
     return {
         "updated": now, "window_hours": WINDOW_HOURS,
-        "method": "transparent_keyword_rules",
+        "method": "transparent_keyword_rules+optional_local_reactions",
         "disclaimer": "Персональна добірка за заголовками, не повна картина і не юридична перевірка. Усі новини доступні окремо.",
-        "featured": featured, "brief": brief,
+        "featured": featured, "brief": brief, "candidates": pool,
         "featured_count": len(featured), "brief_count": len(brief)
     }
