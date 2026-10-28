@@ -1,6 +1,6 @@
 {
   "curated": "2026-10-28",
-  "note": "Події тільки в Польщі, Німеччині, Чехії, Словаччині, Румунії, Італії, Угорщині та Австрії; перевірені за сторінками організаторів.",
+  "note": "Події у Польщі та лише 7 вибраних країнах Європи; вартість за сторінками організаторів, якщо не підтверджена — позначка «Ціну уточнюйте».",
   "events": [
     {
       "id": "pmday-bologna-2026",
@@ -14,6 +14,24 @@
       "organizer": "GrUSP · 20tab",
       "description": "Продуктова стратегія, робота команд та вплив AI на роль PM. Конференція переважно італійською.",
       "url": "https://www.productmanagementday.com/",
+      "verified_on": "2026-10-28",
+      "fee": "unknown",
+      "fee_label": "Ціну не вказано"
+    },
+    {
+      "id": "dny-ai-czechia-2026",
+      "title": "Dny AI 2026",
+      "start": "2026-11-02",
+      "end": "2026-11-15",
+      "city": "Різні міста Чехії",
+      "country": "Чехія",
+      "region": "EU",
+      "topic": "AI",
+      "organizer": "CNAIP · prg.ai",
+      "description": "Великий AI-фестиваль у Празі, Брно та інших містах. Понад 200 зустрічей і конференцій.",
+      "url": "https://dny.ai/en",
+      "fee": "mixed",
+      "fee_label": "Переважно безкоштовно",
       "verified_on": "2026-10-28"
     },
     {
@@ -28,6 +46,88 @@
       "organizer": "Google Cloud · GDG Warszawa",
       "description": "Gemini, AI-агенти, Google Cloud, демонстрації та знайомства з інженерами.",
       "url": "https://cloudonair.withgoogle.com/events/summit-builder-connect-poland-2026",
+      "verified_on": "2026-10-28",
+      "fee": "unknown",
+      "fee_label": "Ціну уточнюйте"
+    },
+    {
+      "id": "ai-for-business-prague-2026",
+      "title": "AI for Business 2026",
+      "start": "2026-11-04",
+      "end": "2026-11-04",
+      "city": "Прага",
+      "country": "Чехія",
+      "region": "EU",
+      "topic": "AI",
+      "organizer": "prg.ai",
+      "description": "Великі бізнес-кейси AI, практичні сесії, обмін досвідом і нетворкінг.",
+      "url": "https://ai4biz.cz/",
+      "fee": "paid",
+      "fee_label": "4 000 CZK",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "id": "ai-now-prague-2026",
+      "title": "AI-NOW! 2026",
+      "start": "2026-11-04",
+      "end": "2026-11-04",
+      "city": "Прага",
+      "country": "Чехія",
+      "region": "EU",
+      "topic": "AI",
+      "organizer": "GrowJOB Institute",
+      "description": "Практичні AI-агенти та інструменти для компаній, маркетологів і креативних фахівців.",
+      "url": "https://asociace.ai/akce/konference-ai-now-2026/",
+      "fee": "paid",
+      "fee_label": "2 490 CZK",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "id": "ncbr-science-ai-2026",
+      "title": "Jak robić naukę w erze AI",
+      "start": "2026-11-05",
+      "end": "2026-11-05",
+      "city": "Варшава",
+      "country": "Польща",
+      "region": "PL",
+      "topic": "AI",
+      "organizer": "NCBR",
+      "description": "AI у науці, інновації та міжнародне партнерство. Онлайн-трансляція безкоштовна; очна участь за реєстрацією.",
+      "url": "https://konferencja2026ai.pl/",
+      "fee": "unknown",
+      "fee_label": "Очна ціна не вказана",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "id": "young-ai-research-forum-2026",
+      "title": "Young AI Research Forum",
+      "start": "2026-11-10",
+      "end": "2026-11-10",
+      "city": "Прага",
+      "country": "Чехія",
+      "region": "EU",
+      "topic": "AI",
+      "organizer": "CZAI · CIIRC CTU · prg.ai",
+      "description": "AI-дослідники, стартапи, технологічний трансфер і особистий нетворкінг англійською.",
+      "url": "https://czechsemiconductorcentre.cz/event/young-ai-research-forum-2026/",
+      "fee": "free",
+      "fee_label": "Безкоштовно · реєстрація",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "id": "gdg-devfest-wroclaw-2026",
+      "title": "Google DevFest Wrocław 2026",
+      "start": "2026-11-13",
+      "end": "2026-11-14",
+      "city": "Вроцлав",
+      "country": "Польща",
+      "region": "PL",
+      "topic": "AI",
+      "organizer": "GDG Wrocław",
+      "description": "Два дні зустрічей про AI, Web, Mobile і Cloud; нетворкінг, дискусії та воркшопи.",
+      "url": "https://gdg.community.dev/v0/events/details/google-gdg-wroclaw-presents-google-devfest-2026-wroclaw/",
+      "fee": "unknown",
+      "fee_label": "Ціну уточнюйте",
       "verified_on": "2026-10-28"
     },
     {
@@ -42,7 +142,9 @@
       "organizer": "Digitale Leute",
       "description": "Product Design, Product Management та AI. Доповідачі з Google DeepMind, OpenAI, Miro, SAP.",
       "url": "https://www.digitale-leute.de/summit/26/",
-      "verified_on": "2026-10-28"
+      "verified_on": "2026-10-28",
+      "fee": "paid",
+      "fee_label": "Платно"
     },
     {
       "id": "gdg-devfest-poznan-2026",
@@ -56,6 +158,24 @@
       "organizer": "GDG Poznań · Sii",
       "description": "Безкоштовна зустріч з виступами про AI, Google-технології та обговоренням із фахівцями.",
       "url": "https://gdg.community.dev/events/details/google-gdg-poznan-presents-devfest-poznan-2026-x-sii-poznan-x-techweek-pozitivetech/",
+      "verified_on": "2026-10-28",
+      "fee": "free",
+      "fee_label": "Безкоштовно"
+    },
+    {
+      "id": "js-poland-2026",
+      "title": "JS Poland 2026",
+      "start": "2026-11-18",
+      "end": "2026-11-18",
+      "city": "Варшава",
+      "country": "Польща",
+      "region": "PL",
+      "topic": "Product",
+      "organizer": "JS Poland",
+      "description": "Фронтенд, веб, AI-інструменти для розробки та професійне спілкування.",
+      "url": "https://js-poland.pl/",
+      "fee": "paid",
+      "fee_label": "Платно",
       "verified_on": "2026-10-28"
     },
     {
@@ -70,6 +190,24 @@
       "organizer": "AI Europe Congress",
       "description": "AI-рішення, IT-лідери, компанії та професійні знайомства у Варшаві.",
       "url": "https://aieuropecongress.pl/",
+      "verified_on": "2026-10-28",
+      "fee": "unknown",
+      "fee_label": "Ціну уточнюйте"
+    },
+    {
+      "id": "pycon-wroclaw-2026",
+      "title": "PyCon Wrocław 2026",
+      "start": "2026-11-20",
+      "end": "2026-11-21",
+      "city": "Вроцлав",
+      "country": "Польща",
+      "region": "PL",
+      "topic": "AI",
+      "organizer": "PyCon Wrocław",
+      "description": "Python, AI-агенти, сучасна розробка і нетворкінг; студентський квиток від 250 PLN.",
+      "url": "https://www.pyconwroclaw.com/",
+      "fee": "paid",
+      "fee_label": "Платно · студентам 250 PLN",
       "verified_on": "2026-10-28"
     },
     {
@@ -84,6 +222,40 @@
       "organizer": "GDG Warszawa",
       "description": "Практичний AI, Gemini, хмара, доповіді, демо та нетворкінг для дизайнерів і розробників.",
       "url": "https://warsaw.devfest.pl/",
+      "verified_on": "2026-10-28",
+      "fee": "unknown",
+      "fee_label": "Ціну уточнюйте"
+    },
+    {
+      "id": "humantech-summit-2026",
+      "title": "HumanTech Summit 2026",
+      "start": "2026-12-03",
+      "end": "2026-12-05",
+      "city": "Варшава",
+      "country": "Польща",
+      "region": "PL",
+      "topic": "AI",
+      "organizer": "SWPS · HumanTech",
+      "description": "Люди й AI, етика, продукт і технології. Стартап-день 3 грудня — безкоштовний.",
+      "url": "https://humantechsummit.com/tickets/",
+      "fee": "mixed",
+      "fee_label": "500 PLN · стартап-день безкоштовно",
+      "verified_on": "2026-10-28"
+    },
+    {
+      "id": "midi-conference-2026",
+      "title": "MIDI Conference 2026",
+      "start": "2026-12-10",
+      "end": "2026-12-10",
+      "city": "Варшава",
+      "country": "Польща",
+      "region": "PL",
+      "topic": "Design",
+      "organizer": "OPI PIB · MIDI",
+      "description": "Інтерфейси, люди й інтелектуальні системи. Безкоштовна очна участь за реєстрацією.",
+      "url": "https://midi2026.opi.org.pl/registration/",
+      "fee": "free",
+      "fee_label": "Безкоштовно · реєстрація",
       "verified_on": "2026-10-28"
     }
   ]
