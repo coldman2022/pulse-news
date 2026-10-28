@@ -237,6 +237,17 @@ class Handler(BaseHTTPRequestHandler):
                 data = b'{"error":"Cannot prepare opportunities"}'
                 self.send_response(500)
             mime = 'application/json; charset=utf-8'
+        elif route in ('/feed.json', '/api/feed'):
+            try:
+                from editorial_feed import build_editorial_feed
+                payload = news()
+                selection = build_editorial_feed(payload['articles'], payload['updated'], payload['sources'])
+                data = json.dumps(selection, ensure_ascii=False).encode()
+                self.send_response(200)
+            except Exception:
+                data = b'{"error":"Cannot prepare editorial feed"}'
+                self.send_response(500)
+            mime = 'application/json; charset=utf-8'
         elif route in ('/personal.json', '/api/personal'):
             try:
                 from personal_feed import build_personal_feed
