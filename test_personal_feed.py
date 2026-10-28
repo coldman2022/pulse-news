@@ -96,7 +96,7 @@ class PersonalFeedTests(unittest.TestCase):
         self.assertIn("'./personal.json'",js)
         self.assertIn("'./news.json'",js)
         self.assertIn("function renderBrief()",js)
-        self.assertIn("mode==='focus'?focusArticles:articles",js)
+        self.assertIn("mode==='focus'?focusArticles:mode==='archive'?archiveArticles:articles",js)
 
 
 if __name__ == "__main__":
