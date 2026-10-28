@@ -60,8 +60,9 @@ class MigrationAndCommunityTests(unittest.TestCase):
         self.assertTrue(all(x["fee_label"] for x in data["events"]))
         self.assertTrue(any(x["fee"]=="mixed" for x in data["events"]))
         html=(ROOT/"static/index.html").read_text(encoding="utf-8")
-        self.assertIn("https://gdg.community.dev/",html)
-        self.assertIn("https://prg.ai/en/",html)
+        self.assertNotIn('class="event-sources"',html)
+        self.assertNotIn('Календарі:',html)
+        self.assertIn('id="events-track"',html)
         js=(ROOT/"static/events.js").read_text(encoding="utf-8")
         self.assertIn("event.fee_label",js)
 
