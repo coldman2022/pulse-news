@@ -14,8 +14,8 @@ import personal_feed
 
 # The previous snapshot is restored by GitHub Actions cache when available.
 # Without it, the current RSS contents still produce a valid fresh build.
-RETENTION_DAYS = {'Імміграція': 60, 'AI-події': 90, 'AI': 21, 'Світ': 7}
-DEFAULT_RETENTION_DAYS = 14
+RETENTION_DAYS = {'Імміграція': 120, 'AI-події': 120, 'AI': 45, 'Світ': 21}
+DEFAULT_RETENTION_DAYS = 30
 MAX_ARTICLES = 3500
 
 
@@ -57,6 +57,15 @@ def build(output):
     if not payload['articles'] or not any(s['ok'] for s in payload['sources']):
         raise RuntimeError('All RSS sources failed; keep the previous deployment and retry later.')
     payload['articles'] = retain_recent(payload['articles'], previous_articles, time.time())
+    # Keep the historical archive, but never carry forward publications from
+    # sources removed from our deliberately curated, established-publisher list.
+    allowed_sources = {
+        source['name'] for source in json.loads((server.ROOT / 'sources.json').read_text(encoding='utf-8'))
+    }
+    payload['articles'] = [
+        article for article in payload['articles'] if article.get('source') in allowed_sources
+    ]
+
     output.mkdir(parents=True, exist_ok=True)
     for name in ('index.html', 'app.js', 'style.css', 'opportunities.html', 'opportunities.js', 'digest.html', 'digest.js', 'events.json', 'events.js'):
         shutil.copyfile(server.ROOT / 'static' / name, output / name)
