@@ -36,7 +36,7 @@ class BackgroundOnlyV24Tests(unittest.TestCase):
     def test_pwa_and_html_match_gray_background(self):
         for page in ("index.html","digest.html","opportunities.html","reddit.html"):
             html = (ROOT / page).read_text(encoding="utf-8")
-            self.assertIn("style.css?v=25", html)
+            self.assertIn("style.css?v=26", html)
             self.assertIn('content="#f0f0f3"', html)
         manifest = (ROOT / "manifest.webmanifest").read_text(encoding="utf-8")
         self.assertIn('"background_color": "#f0f0f3"', manifest)
