@@ -33,11 +33,11 @@ class LightSurfaceTests(unittest.TestCase):
     def test_i_phone_background_and_cache_version(self):
         for name in ("index.html", "digest.html", "opportunities.html", "reddit.html"):
             page = (ROOT / name).read_text(encoding="utf-8")
-            self.assertIn("style.css?v=24", page)
-            self.assertIn('content="#f8f4ee"', page)
+            self.assertIn("style.css?v=25", page)
+            self.assertIn('content="#f0f0f3"', page)
         manifest = (ROOT / "manifest.webmanifest").read_text(encoding="utf-8")
-        self.assertIn('"background_color": "#f8f4ee"', manifest)
-        self.assertIn('"theme_color": "#f8f4ee"', manifest)
+        self.assertIn('"background_color": "#f0f0f3"', manifest)
+        self.assertIn('"theme_color": "#f0f0f3"', manifest)
 
 
 if __name__=="__main__":
