@@ -13,6 +13,20 @@ const accessibleCountries = {
 };
 let eventRegion = 'PL';
 
+const calendarRoot = document.querySelector('#events-calendar');
+const calendarToggle = document.querySelector('#events-calendar-toggle');
+const calendarGrid = document.querySelector('#events-calendar-grid');
+const calendarMonthName = document.querySelector('#events-calendar-month');
+const calendarMessage = document.querySelector('#events-calendar-status');
+const calendarPrevious = document.querySelector('#events-month-prev');
+const calendarNext = document.querySelector('#events-month-next');
+const calendarClear = document.querySelector('#events-calendar-clear');
+let calendarOffset = 0;
+let selectedEventDay = '';
+const calendarToday = new Date();
+const isoDay = (y, m, d) => [y, String(m + 1).padStart(2, '0'), String(d).padStart(2, '0')].join('-');
+
+
 function eventDay() {
   const now = new Date();
   return [now.getFullYear(), String(now.getMonth() + 1).padStart(2, '0'),
@@ -55,8 +69,66 @@ function updateEventArrows() {
   eventPrev.disabled = overflow <= 2 || eventTrack.scrollLeft <= 2;
   eventNext.disabled = overflow <= 2 || eventTrack.scrollLeft >= overflow - 2;
 }
+
+function renderCalendar(){
+  if (calendarRoot.hidden) return;
+  const first=new Date(calendarToday.getFullYear(),calendarToday.getMonth()+calendarOffset,1);
+  const year=first.getFullYear(),month=first.getMonth();
+  const days=new Date(year,month+1,0).getDate();
+  calendarMonthName.textContent=first.toLocaleDateString('uk-UA',{month:'long',year:'numeric'});
+  calendarPrevious.disabled=calendarOffset<=0;
+  calendarNext.disabled=calendarOffset>=11;
+  calendarGrid.replaceChildren();
+  for (const label of ['Пн','Вт','Ср','Чт','Пт','Сб','Нд']){
+    calendarGrid.append(element('span','events-weekday',label));
+  }
+  const leading=(first.getDay()+6)%7;
+  for(let i=0;i<leading;i++)calendarGrid.append(element('span','events-calendar-spacer'));
+  const regional=curatedEvents.filter(e=>e.region===eventRegion);
+  for(let day=1;day<=days;day++){
+    const key=isoDay(year,month,day);
+    const matches=regional.filter(event=>event.start<=key&&event.end>=key);
+    const button=element('button','events-calendar-day',String(day));
+    button.type='button';
+    button.dataset.date=key;
+    button.setAttribute('aria-label',day+' '+first.toLocaleDateString('uk-UA',{month:'long'})+', '+matches.length+' подій');
+    button.setAttribute('aria-pressed',String(selectedEventDay===key));
+    if(key===eventDay())button.classList.add('is-today');
+    if(selectedEventDay===key)button.classList.add('is-selected');
+    if(matches.length)button.classList.add('has-events');
+    if(key<eventDay()||!matches.length)button.disabled=true;
+    if(matches.length){
+      const dot=element('span','events-calendar-count',String(matches.length));
+      dot.setAttribute('aria-hidden','true');
+      button.append(dot);
+      button.addEventListener('click',()=>{
+        selectedEventDay=key;
+        renderCalendar();
+        renderEvents();
+      });
+    }
+    calendarGrid.append(button);
+  }
+  calendarMessage.textContent=selectedEventDay
+    ?'Події на '+eventDateLabel(selectedEventDay)+'. Натисніть «Усі дати», щоб скинути фільтр.'
+    :'Натисніть дату з позначкою, щоб побачити події цього дня.';
+}
+calendarToggle.addEventListener('click',()=>{
+  calendarRoot.hidden=!calendarRoot.hidden;
+  calendarToggle.setAttribute('aria-expanded',String(!calendarRoot.hidden));
+  if(!calendarRoot.hidden)renderCalendar();
+});
+calendarPrevious.addEventListener('click',()=>{calendarOffset=Math.max(0,calendarOffset-1);renderCalendar();});
+calendarNext.addEventListener('click',()=>{calendarOffset=Math.min(11,calendarOffset+1);renderCalendar();});
+calendarClear.addEventListener('click',()=>{
+  selectedEventDay='';
+  renderCalendar();
+  renderEvents();
+});
+
 function renderEvents() {
-  const events = curatedEvents.filter(item => item.region === eventRegion);
+  const events = curatedEvents.filter(item => item.region === eventRegion &&
+    (!selectedEventDay || (item.start <= selectedEventDay && item.end >= selectedEventDay)));
   eventFilters.forEach(button => {
     const active = button.dataset.eventsRegion === eventRegion;
     button.classList.toggle('active', active);
@@ -87,10 +159,13 @@ function renderEvents() {
     card.append(top, title, description, location, bottom);
     eventTrack.append(card);
   }
-  if (!events.length) eventTrack.append(element('p', 'event-empty', 'Немає найближчих подій для цього регіону.'));
+  if (!events.length) eventTrack.append(element('p', 'event-empty', selectedEventDay
+    ? 'На цю дату немає подій. Оберіть іншу або скиньте календар.'
+    : 'Немає найближчих подій для цього регіону.'));
   eventSection.hidden = false;
   eventTrack.scrollLeft = 0;
   requestAnimationFrame(updateEventArrows);
+  renderCalendar();
 }
 async function loadCuratedEvents() {
   // Embedded at build time, so a failed second request never removes the slider.
@@ -114,6 +189,7 @@ async function loadCuratedEvents() {
 eventFilters.forEach(button => {
   button.addEventListener('click', () => {
     eventRegion = button.dataset.eventsRegion;
+    selectedEventDay = '';
     renderEvents();
   });
 });
