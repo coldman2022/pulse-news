@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="uk"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f4f6fa">
+<meta name="description" content="Pulse — моніторинг потенційних імміграційних програм та офіційних змін.">
+<title>Імміграційні можливості — Pulse</title>
+<link rel="icon" href="data:,"><link rel="stylesheet" href="./style.css?v=4">
+<script defer src="./opportunities.js?v=4"></script></head>
+<body>
+<header><a class="brand" href="./" aria-label="Pulse — новинна стрічка">pulse<span>●</span></a>
+<span class="tagline">Імміграційні можливості</span><a class="opp-return" href="./">← До стрічки</a></header>
+<div class="opp-shell">
+<div class="opp-intro"><p class="eyebrow">Pulse · Моніторинг імміграції</p>
+<h1>Програми та<br>важливі зміни.</h1>
+<p class="opp-lead">Відстежуйте згадки про нові імміграційні програми, прийом заяв і зміни правил. Це <strong>сигнали з новин</strong>, а не автоматично підтверджені відкриті програми.</p></div>
+<div class="opp-stats" aria-label="Статистика">
+<div><strong id="opp-total">—</strong><span>знайдених повідомлень</span></div>
+<div><strong id="opp-official">—</strong><span>із прямих державних джерел</span></div>
+<div><strong id="opp-updated">—</strong><span>час останнього збору</span></div></div>
+<div class="opp-warning" role="note"><b>Перед поданням документів</b> перевіряйте вимоги, строки та доступність програми на офіційному державному сайті. Назва новини не підтверджує, що програма відкрита або що ви відповідаєте критеріям.</div>
+<div class="opp-filters">
+<label>Пошук<input id="opp-search" type="search" placeholder="Назва програми або ключове слово"></label>
+<label>Країна<select id="opp-country"><option value="">Усі країни</option></select></label>
+<label>Тип події<select id="opp-signal"><option value="">Усі сигнали</option></select></label>
+<label>Походження<select id="opp-evidence"><option value="">Усі публікації</option><option value="офіційне повідомлення">Прямі державні джерела</option><option value="потребує перевірки">Потребують перевірки</option></select></label>
+<label>Перегляд<select id="opp-view"><option value="all">Усі сигнали</option><option value="saved">Збережене</option></select></label>
+</div><p id="opp-status" role="status">Отримуємо дані…</p>
+<div id="opp-list" class="opp-grid" aria-label="Імміграційні сигнали"></div>
+<button id="opp-more" class="load-more" type="button" hidden>Показати більше</button>
+<footer><b>Що означає «офіційне повідомлення»?</b> Статтю отримано безпосередньо з державної RSS-стрічки і посилання веде на урядовий домен. Це не правовий висновок. Для інших джерел потрібна перевірка. Умови, відкриття прийому і дедлайн не виводяться з неповного анонсу.
+<div class="reference-links"><span>Офіційні портали:</span><a href="https://www.canada.ca/en/immigration-refugees-citizenship.html" target="_blank" rel="noopener noreferrer">IRCC · Канада</a><a href="https://www.gov.pl/web/udsc" target="_blank" rel="noopener noreferrer">UdSC · Польща</a><a href="https://www.gov.uk/government/organisations/uk-visas-and-immigration" target="_blank" rel="noopener noreferrer">UKVI</a><a href="https://home-affairs.ec.europa.eu/" target="_blank" rel="noopener noreferrer">Єврокомісія</a></div></footer>
+</div></body></html>
