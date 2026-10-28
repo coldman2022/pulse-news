@@ -1981,3 +1981,81 @@ aside nav > button.active{background:#f0f3ae!important}
    Topic cards, Reddit, events, 'For me' and every other color remain v22. */
 :root{--paper:#f0f0f3}
 body,header{background:var(--paper)}
+
+
+/* Pulse v25: simple sharing affordance and a sourced motivation reading section.
+   Keep square cards, neutral gray canvas, soft topic backgrounds. */
+.story--topic-motivation{--card-bg:#fbf7f1;--card-accent:#925c51}
+#news .story-share,.brief-tools .story-share{
+  display:grid;place-items:center;
+  flex:0 0 30px;width:30px;height:32px;padding:5px;
+  border:0!important;border-radius:0;background:transparent;
+  color:var(--card-accent,#5a4291);cursor:pointer
+}
+#news .story-share:hover,.brief-tools .story-share:hover{
+  color:#25158a;background:#efebf9
+}
+#news .story-share svg,.brief-tools .story-share svg{display:block;width:18px;height:18px}
+.motivation-home{margin-left:auto;color:#4e2bb8;font-size:13px;font-weight:750;text-decoration:none}
+.motivation-home:hover{text-decoration:underline;text-underline-offset:3px}
+.motivation-shell{max-width:1110px;margin:0 auto;padding:24px 26px 110px}
+.motivation-intro{
+  background:#f6effe;padding:29px 31px;margin-bottom:17px;
+}
+.motivation-kicker{margin:0 0 9px;color:#6637a7;font-size:11px;font-weight:810;letter-spacing:.08em;text-transform:uppercase}
+.motivation-intro h1{font-size:clamp(33px,4vw,48px);margin:0 0 9px;color:#25158a;letter-spacing:-1px}
+.motivation-intro h1 span{color:#a865e2}
+.motivation-intro>p:last-child{font-size:13px;color:#615771;line-height:1.55;max-width:65ch;margin:0}
+.motivation-thoughts{margin:0 0 22px}
+.motivation-thoughts h2,.motivation-list-header h2{
+  margin:0;font-size:22px;font-weight:830;letter-spacing:-.5px;color:#26212c
+}
+.motivation-quotes{margin-top:11px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.motivation-quote{background:#fff;padding:20px 22px;min-width:0}
+.motivation-quote:nth-child(2){background:#f9f8ed}
+.motivation-quote-text{font-size:clamp(18px,2.1vw,24px);line-height:1.32;font-weight:790;color:#302547;letter-spacing:-.3px;margin:0 0 13px}
+.motivation-quote-author{margin:0 0 9px;font-size:11px;color:#716783}
+.motivation-quote a{font-size:12px;color:#4e2bb8;font-weight:760;text-decoration:underline;text-underline-offset:3px}
+.motivation-list-header{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin-bottom:12px}
+.motivation-list-header p{font-size:11px;color:#7b7486;margin:0}
+.motivation-filters{display:flex;flex-wrap:nowrap;gap:4px;overflow-x:auto;scrollbar-width:none;margin-bottom:12px}
+.motivation-filters::-webkit-scrollbar{display:none}
+.motivation-filters button{
+  border:0!important;border-radius:0;background:#fff;color:#726783;
+  flex:0 0 auto;padding:10px 13px;min-height:38px;
+  font-size:12px;font-weight:740
+}
+.motivation-filters button.active{background:#4e2bb8;color:#fff}
+.motivation-filters button:hover:not(.active){background:#f2edfa;color:#4e2bb8}
+#motivation-status{font-size:12px;color:#746a83}
+.motivation-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.motivation-story{background:#fff;padding:19px 21px;min-width:0;display:flex;flex-direction:column;gap:11px}
+.motivation-story:nth-child(4n+2){background:#faf7fe}
+.motivation-story:nth-child(4n+3){background:#fffaf5}
+.motivation-story-top{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.motivation-tag{font-size:11px;color:#5c3296;font-weight:800}
+.motivation-story-top time{font-size:10px;color:#77707e;white-space:nowrap}
+.motivation-story-title{font-size:19px;line-height:1.32;font-weight:820;letter-spacing:-.3px;margin:0}
+.motivation-story-title a{color:#222126;text-decoration:none!important}
+.motivation-story-title a:hover{color:#4e2bb8;text-decoration:none!important}
+.motivation-story-summary{color:#66616c;font-size:12px;line-height:1.55;margin:0;flex:1}
+.motivation-story-footer{display:flex;align-items:center;justify-content:space-between;gap:7px;margin-top:auto}
+.motivation-story-source{font-size:10px;color:#7b7281;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.motivation-story-actions{display:flex;align-items:center;gap:5px;flex:0 0 auto}
+.motivation-story-actions a{font-size:11px;font-weight:790;color:#4e2bb8;white-space:nowrap;text-decoration:underline;text-underline-offset:3px}
+.motivation-story-actions .story-share{
+  display:grid;place-items:center;width:33px;height:33px;padding:7px;
+  border:0!important;border-radius:0;background:#f0ecf9;color:#4e2bb8
+}
+.motivation-story-actions .story-share:hover{background:#e9e2f8}
+.motivation-disclaimer{color:#756e80;font-size:11px;line-height:1.55;max-width:77ch;margin:18px 0 0}
+@media(max-width:760px){
+  .motivation-shell{padding:13px 15px 110px}
+  .motivation-intro{padding:23px 20px;margin-bottom:14px}
+  .motivation-quotes,.motivation-list{grid-template-columns:minmax(0,1fr);gap:7px}
+  .motivation-quote{padding:17px 18px}
+  .motivation-thoughts h2,.motivation-list-header h2{font-size:20px}
+  .motivation-list-header{align-items:flex-start;flex-direction:column;gap:3px}
+  .motivation-story{padding:16px}
+  #news .story-share{flex-basis:28px;width:28px;height:30px}
+}
