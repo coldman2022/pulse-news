@@ -12,6 +12,7 @@ import daily_digest
 import personal_feed
 import editorial_feed
 import reddit_feed
+import currency_rates
 
 
 # The previous snapshot is restored by GitHub Actions cache when available.
@@ -69,7 +70,7 @@ def build(output):
     ]
 
     output.mkdir(parents=True, exist_ok=True)
-    for name in ('index.html', 'app.js', 'style.css', 'reddit.html', 'reddit.js', 'opportunities.html', 'opportunities.js', 'digest.html', 'digest.js', 'events.json', 'events.js'):
+    for name in ('index.html', 'app.js', 'style.css', 'reddit.html', 'reddit.js', 'currency.js', 'opportunities.html', 'opportunities.js', 'digest.html', 'digest.js', 'events.json', 'events.js'):
         shutil.copyfile(server.ROOT / 'static' / name, output / name)
     # Make the curated event slider resilient if the browser cannot fetch events.json.
     events_data = json.loads((server.ROOT / 'static' / 'events.json').read_text(encoding='utf-8'))
@@ -120,6 +121,8 @@ def build(output):
             json.dumps({'status': 'unavailable', 'posts': [], 'sources': [],
                         'message': 'Reddit тимчасово недоступний.'}, ensure_ascii=False),
             encoding='utf-8')
+    # Independent official currency data: failure never blocks news deployment.
+    currency_rates.build_rates(output / 'currency.json')
     (output / '.nojekyll').touch()
     print(f"Editorial {len(editorial['articles'])} of {len(payload['articles'])} archived articles")
     print(f"Built {len(payload['articles'])} articles; sources: {payload['sources']}")

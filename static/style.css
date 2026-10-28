@@ -669,3 +669,145 @@ nav button.active, #categories button.active, .events-regions button.active {
 .reddit-no-posts{font-size:13px;color:var(--muted);padding:10px 0}
 .reddit-directory-title{font-size:22px;letter-spacing:-.03em;margin-top:30px}
 @media(max-width:760px){.reddit-post{display:block;padding:9px 0}.reddit-post-title{display:block}.reddit-post-meta{margin-top:5px;justify-content:flex-start}.reddit-tabs{gap:2px 12px}}
+
+/* v15 — quiet editorial palette. Soft theme cues, no card outlines. */
+:root {
+  --ink:#263547;
+  --blue:#486b90;
+  --muted:#718093;
+  --line:#eff2f6;
+  --paper:#fbfcfe;
+}
+body{background:var(--paper);color:var(--ink)}
+header{background:var(--paper);border:0;box-shadow:none}
+aside{border:0}
+nav button.active,.opp-nav:hover{background:transparent}
+.opp-nav{color:var(--ink)}
+.opp-nav:hover{color:var(--blue)}
+#news{gap:10px}
+.story--topic-migration{--card-bg:#f5faf7;--card-accent:#537b65}
+.story--topic-ai{--card-bg:#f8f7fc;--card-accent:#75668e}
+.story--topic-events{--card-bg:#f9f7fc;--card-accent:#806b94}
+.story--topic-world{--card-bg:#f7f9fc;--card-accent:#58748e}
+.story--topic-ukraine{--card-bg:#fcfaf5;--card-accent:#947b58}
+.story--topic-poland{--card-bg:#fcf8f8;--card-accent:#936b76}
+.story--topic-business{--card-bg:#f6faf9;--card-accent:#657f82}
+.story--topic-tech{--card-bg:#f5faf9;--card-accent:#5b8380}
+.story--topic-science{--card-bg:#fafaf7;--card-accent:#83846a}
+.story--topic-design{--card-bg:#fbf8fa;--card-accent:#8f6d83}
+.story--topic-cinema{--card-bg:#fbf8fb;--card-accent:#8d728c}
+.story--topic-neutral{--card-bg:#f8fafb;--card-accent:#758399}
+#news .story,#news .story--feature{
+  border:0!important;
+  background:var(--card-bg,#f8fafb);
+  color:var(--ink);
+  box-shadow:none;
+}
+#news .story-abstract,#news .story--feature .story-abstract{
+  background:#f2f5f8;
+  box-shadow:none;
+}
+#news .story-media{background:#f1f3f7;border:0}
+#news .story-tag--topic{color:var(--card-accent,#748293)}
+#news .story--topic-cinema .story-tag--topic{color:#8d728c}
+#news .story-summary,#news .story--feature .story-summary{color:#6b7787}
+#news .story-publisher-bottom{color:#788391}
+#news .story-date{color:#84909e}
+
+/* Borderless visual system: keep visible keyboard focus (outline only on focus). */
+button,select,textarea,input,.search,
+.filter-icon-button,.filter-panel,
+.tabs,aside,header,.events-section,.events-header,.events-track,
+.event-card,.event-fee,.event-sources,.event-arrow,.events-regions button,
+#news .story,#news .story-bottom,#news .story-media,
+.brief-section,.brief-item,.load-more,.source-label select,
+.opp-stats>div,.opp-warning,.opp-facts,.opp-card,
+.opp-filters input,.opp-filters select,.opp-grid,
+.opp-save,.digest-note,.digest-section,.digest-item,
+.reddit-scope,.reddit-community,.reddit-live,.reddit-tabs,
+.reddit-tabs button,.reddit-post,.reddit-grid,.reddit-footer,.fx-bar {
+  border:0!important;
+  box-shadow:none!important;
+}
+input:focus-visible,select:focus-visible,button:focus-visible,a:focus-visible {
+  outline:2px solid #8aa8c8!important;
+  outline-offset:3px;
+}
+.search,.opp-filters input,.opp-filters select,.filter-panel select{
+  background:#f3f6f9;
+  border:0;
+}
+.search:focus-within{background:#eef3f8}
+.filter-icon-button,.clear-filters,.load-more,.opp-save{
+  background:#eef2f6;
+  color:#48637e;
+}
+.filter-icon-button:hover,.load-more:hover,.opp-save:hover{
+  background:#e8eef4;color:#3a5878
+}
+#categories,.tabs,.events-regions{border:0!important}
+#categories button.active,.events-regions button.active,nav button.active{
+  background:transparent;color:var(--blue);
+  text-decoration:underline;text-underline-offset:6px;
+}
+.event-card{
+  background:#f6f8fa;
+  border:0!important;
+}
+.event-card[data-topic="AI"]{background:#f8f7fc;--event-accent:#75668e}
+.event-card[data-topic="Product"]{background:#f6f9fb;--event-accent:#58748e}
+.event-card[data-topic="Design"]{background:#faf7f9;--event-accent:#8f6d83}
+.event-fee{padding:0;color:#657282;font-size:10px;font-weight:680}
+.event-fee--free{color:#527c66}
+.event-fee--paid{color:#846c62}
+.event-fee--mixed{color:#806a90}
+.event-fee--unknown{color:#83909c}
+.event-topic{text-decoration:none}
+.event-sources{color:#83909c}
+.opp-stats>div,.opp-card,.reddit-community{
+  background:#f7f9fb;
+}
+.opp-warning{background:#faf9f4;color:#665e50}
+.opp-country,.opp-evidence,.opp-evidence.is-official{
+  background:#eef2f6;color:#637587
+}
+.digest-note{background:#f5f7fa;color:#687687}
+.reddit-post{padding:11px 0}
+.reddit-tabs button.active{border:0!important;text-decoration:underline;text-underline-offset:5px}
+.reddit-scope,.reddit-footer{color:#758394}
+.brief-item{padding:10px 0}
+
+/* Header exchange rates: official reference, deliberately unobtrusive. */
+.fx-bar{
+  margin-left:auto;
+  display:flex;
+  align-items:flex-end;
+  flex-direction:column;
+  justify-content:center;
+  gap:0;
+  min-width:0;
+  flex:0 0 auto;
+  line-height:1.35;
+}
+.fx-quotes{display:flex;align-items:baseline;gap:19px}
+.fx-quote{display:inline-flex;align-items:baseline;white-space:nowrap;gap:7px}
+.fx-symbol{font-size:10px;font-weight:720;letter-spacing:.04em;color:#8793a2}
+.fx-quote strong{font-size:16px;font-weight:720;font-variant-numeric:tabular-nums;color:#4f6175}
+.fx-source{font-size:10px;color:#8995a3;text-decoration:none}
+.fx-source:hover{color:var(--blue);text-decoration:underline}
+@media(max-width:760px){
+  header{min-height:76px;height:auto;padding:12px 18px;gap:12px}
+  .fx-quotes{gap:12px}
+  .fx-quote{gap:5px}
+  .fx-quote strong{font-size:13px}
+  .fx-symbol{font-size:9px}
+  .fx-source{font-size:9px}
+  aside{border:0;padding-top:10px;padding-bottom:8px}
+  #news{gap:8px}
+}
+@media(max-width:355px){
+  header{padding:10px 12px}
+  .brand{font-size:27px}
+  .fx-quotes{gap:8px}
+  .fx-quote strong{font-size:12px}
+}
