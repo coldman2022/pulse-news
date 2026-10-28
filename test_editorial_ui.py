@@ -49,7 +49,7 @@ class EditorialDesignTests(unittest.TestCase):
         self.assertIn('id="filter-panel"',html)
         self.assertIn('href="./digest.html"',html)
         self.assertNotIn('id="sort"',html)
-        self.assertIn('style.css?v=22',html)
+        self.assertIn('style.css?v=23',html)
         self.assertIn('app.js?v=18',html)
         self.assertIn('id="reddit-preview-heading">Обговорення Reddit</h2>',html)
         self.assertIn('href="./reddit.html">Усі ↗</a>',html)
