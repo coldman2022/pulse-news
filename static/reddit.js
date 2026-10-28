@@ -8,8 +8,8 @@
   const controls = [...document.querySelectorAll('[data-reddit-topic]')];
   let posts = [];
   let topic = '';
-  const allowlist = new Set(['LocalLLaMA','technology','ChatGPT','ukraine','Polska','ImmigrationCanada','UXDesign','movies','MovieSuggestions']);
-  const allowedTopics = new Set(['AI','Технології','Україна','Польща','Імміграція','Дизайн','Кіно']);
+  const allowlist = new Set(['LocalLLaMA','ClaudeAI','ChatGPT','vibecoding','FigmaDesign','UXDesign','selfhosted','technology','ukraine','Polska','ImmigrationCanada','movies']);
+  const allowedTopics = new Set(['AI','Застосунки','Автоматизація','Технології','Україна','Польща','Імміграція','Дизайн','Кіно']);
   const safeLink = raw => {
     try {
       const u = new URL(raw);
@@ -42,6 +42,9 @@
       title.rel = 'noopener noreferrer';
       const meta = el('div',null,'reddit-post-meta');
       meta.append(el('span','r/'+p.community), el('span',p.topic));
+      if(p.work_topic && ['Розробка','Дизайн','Адміністрування','AI у роботі'].includes(p.work_topic)){
+        meta.append(el('span',p.work_topic,'reddit-work-topic'));
+      }
       if(Number.isFinite(p.published) && p.published > 0){
         const date = new Date(p.published*1000);
         if(!Number.isNaN(date.getTime())){
