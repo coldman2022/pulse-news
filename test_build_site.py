@@ -35,8 +35,8 @@ class BuildTests(unittest.TestCase):
                              dict(name='The Guardian', ok=False, cached=True))
             self.assertEqual(json.loads((output / 'news.json').read_text()), payload)
             html = (output / 'index.html').read_text()
-            self.assertIn('href="./style.css?v=10"', html)
-            self.assertIn('src="./app.js?v=10"', html)
+            self.assertIn('href="./style.css?v=11"', html)
+            self.assertIn('src="./app.js?v=11"', html)
             self.assertTrue((output / '.nojekyll').exists())
             self.assertTrue((output / 'opportunities.html').exists())
             self.assertTrue((output / 'opportunities.js').exists())
@@ -51,6 +51,9 @@ class BuildTests(unittest.TestCase):
             self.assertIn('sources', personal)
             self.assertTrue((output / 'events.json').exists())
             self.assertTrue((output / 'events.js').exists())
+            bundled_events = (output / 'events.js').read_text()
+            self.assertIn('Product Management Day 2026', bundled_events)
+            self.assertNotIn('PULSE_BUILD_EVENTS_JSON', bundled_events)
             digest = json.loads((output / 'digest.json').read_text())
             self.assertEqual(digest['method'], 'publisher_rss_excerpts')
             self.assertEqual(len(digest['sections']), 4)
@@ -61,7 +64,7 @@ class BuildTests(unittest.TestCase):
             return dict(url=url, category=category, published=now-age*86400)
         past = [row('https://example.org/immigration', 'Імміграція', 40),
                 row('https://example.org/conference', 'AI-події', 75),
-                row('https://example.org/old-world', 'Світ', 20)]
+                row('https://example.org/old-world', 'Світ', 40)]
         fresh = [row('https://example.org/today', 'AI', 1)]
         retained = build_site.retain_recent(fresh, past, now)
         urls = {item['url'] for item in retained}

@@ -1,6 +1,6 @@
 'use strict';
 const $ = s => document.querySelector(s);
-let articles = [], focusArticles = [], briefArticles = [], sourceStatuses = [], updated = 0, mode = 'focus', category = '', saved = {}, visibleLimit = 60;
+let articles = [], focusArticles = [], briefArticles = [], sourceStatuses = [], updated = 0, mode = 'all', category = '', saved = {}, visibleLimit = 60;
 let storageOK = true;
 const imagesEnabled = true;
 try { saved = JSON.parse(localStorage.getItem('pulse-saved') || '{}'); if (!saved || Array.isArray(saved) || typeof saved !== 'object') saved = {}; } catch { storageOK = false; }
@@ -250,6 +250,7 @@ function editorialLayout(index) {
 }
 
 function render(){
+ const pageTitle=$('.intro h1');if(pageTitle)pageTitle.textContent=mode==='all'?'Новини':mode==='focus'?'Для мене':'Збережене';
  $('#saved-count').textContent=Object.keys(saved).length;
  const q=$('#search').value.trim().toLocaleLowerCase('uk');
  const list=(mode==='saved'?Object.values(saved):mode==='focus'?focusArticles:articles)

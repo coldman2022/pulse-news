@@ -8,6 +8,8 @@ class DiscoveryTests(unittest.TestCase):
         self.assertTrue(server.recognized_publisher('https://news.bbc.co.uk/'))
         self.assertFalse(server.recognized_publisher('https://canada.ca.fake.example'))
         self.assertFalse(server.recognized_publisher('https://random-news.example'))
+        self.assertFalse(server.recognized_publisher('https://github.com/random-user/random-repo'))
+        self.assertTrue(server.recognized_publisher('https://www.cnbc.com/'))
         self.assertFalse(server.recognized_publisher('https://www.reuters.com.fake.example'))
 
     def test_google_news_source_is_not_official_even_if_state_publisher(self):

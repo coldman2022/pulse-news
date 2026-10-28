@@ -6,6 +6,7 @@ const eventFilters = [...document.querySelectorAll('[data-events-region]')];
 const eventPrev = document.querySelector('#events-prev');
 const eventNext = document.querySelector('#events-next');
 let curatedEvents = [];
+const embeddedEvents = /* PULSE_BUILD_EVENTS_JSON */ [];
 let eventRegion = 'all';
 
 function eventDay() {
@@ -78,22 +79,28 @@ function renderEvents() {
     card.append(top, title, description, location, bottom);
     eventTrack.append(card);
   }
-  const noEvents = !curatedEvents.length;
-  eventSection.hidden = noEvents;
+  if (!events.length) eventTrack.append(element('p', 'event-empty', 'Немає найближчих подій для цього регіону.'));
+  eventSection.hidden = false;
   eventTrack.scrollLeft = 0;
   requestAnimationFrame(updateEventArrows);
 }
 async function loadCuratedEvents() {
+  // Embedded at build time, so a failed second request never removes the slider.
+  curatedEvents = embeddedEvents.filter(eventIsValid)
+    .sort((a, b) => a.start.localeCompare(b.start));
+  renderEvents();
   try {
     const response = await fetch('./events.json', { cache: 'no-store' });
     if (!response.ok) throw new Error('Events data unavailable');
     const data = await response.json();
-    curatedEvents = (Array.isArray(data.events) ? data.events : [])
+    const incoming = (Array.isArray(data.events) ? data.events : [])
       .filter(eventIsValid).sort((a, b) => a.start.localeCompare(b.start));
-    renderEvents();
+    if (incoming.length || !curatedEvents.length) {
+      curatedEvents = incoming;
+      renderEvents();
+    }
   } catch (error) {
-    console.warn('Pulse events:', error);
-    eventSection.hidden = true;
+    console.warn('Pulse events: using local event data', error);
   }
 }
 eventFilters.forEach(button => {

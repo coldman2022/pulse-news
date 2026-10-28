@@ -105,6 +105,7 @@ DISCOVERY_DOMAINS = (
     'homeaffairs.gov.au', 'immigration.govt.nz', 'uscis.gov', 'gov.pt',
     'reuters.com', 'apnews.com', 'bbc.com', 'bbc.co.uk', 'dw.com',
     'theguardian.com', 'euronews.com', 'ft.com', 'bloomberg.com',
+    'cnbc.com', 'npr.org', 'france24.com', 'skynews.com',
     'cbc.ca', 'ctvnews.ca', 'globalnews.ca', 'cnn.com', 'nytimes.com',
     'washingtonpost.com', 'politico.eu', 'politico.com', 'nbcnews.com',
     'pap.pl', 'rmf24.pl', 'tvn24.pl', 'notesfrompoland.com',
@@ -113,7 +114,7 @@ DISCOVERY_DOMAINS = (
     'technologyreview.com', 'forbes.com', 'nature.com', 'science.org',
     'openai.com', 'anthropic.com', 'mistral.ai', 'deepmind.google',
     'google.com', 'huggingface.co', 'nvidia.com', 'microsoft.com',
-    'github.com', 'linuxfoundation.org', 'iclr.cc', 'neurips.cc',
+    'linuxfoundation.org', 'iclr.cc', 'neurips.cc',
     'icml.cc', 'acm.org', 'ieee.org',
 )
 

@@ -50,6 +50,14 @@ jobs:
           path: _site/news.json
           key: rss-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: rss-
+      - name: Recover the published news archive if cache is unavailable
+        run: |
+          if [ ! -s _site/news.json ]; then
+            mkdir -p _site
+            curl --fail --location --silent --show-error --retry 2 --max-time 25 \
+              'https://coldman2022.github.io/pulse-news/news.json' -o _site/news.json \
+              || rm -f _site/news.json
+          fi
       - name: Fetch RSS and build the static site
         run: python build_site.py
       - name: Save RSS for partial source outages
