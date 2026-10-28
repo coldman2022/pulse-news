@@ -1227,3 +1227,14 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{
  .reddit-preview-item{padding:10px 12px}
  .reddit-preview-title{font-size:13px}
 }
+
+
+/* One-line event organizer, full name in native tooltip. */
+.event-bottom{display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;min-width:0;gap:9px}
+.event-organizer{
+  flex:0 1 auto;display:block;min-width:0;overflow:hidden;
+  max-width:100%;text-overflow:ellipsis;white-space:nowrap;
+}
+.event-bottom .event-action{
+  flex:0 0 auto;white-space:nowrap;font-size:11px;
+}
