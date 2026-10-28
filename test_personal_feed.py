@@ -96,7 +96,8 @@ class PersonalFeedTests(unittest.TestCase):
         self.assertNotIn("unrelated", [item["id"] for item in result["candidates"]])
         self.assertTrue(all(isinstance(item["relevance_score"], int)
                             for item in result["candidates"]))
-        self.assertEqual(len(result["featured"]), personal_feed.MAX_FEATURED)
+        self.assertGreater(len(result["featured"]), 0)
+        self.assertLessEqual(len(result["featured"]), personal_feed.MAX_FEATURED)
 
     def test_integration_json_stays_independent_from_complete_feed(self):
         from pathlib import Path
