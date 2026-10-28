@@ -67,7 +67,7 @@
       const data=await response.json();
       posts=Array.isArray(data.posts)?data.posts:[];
       if(data.status==='ended'){
-        status.textContent='Пробний RSS-доступ завершився 13 листопада 2026 року. Посилання на спільноти нижче залишаються доступними.';
+        status.textContent='Тестовий RSS-період у Pulse завершився 13 листопада 2026 року. Посилання на спільноти нижче залишаються доступними.';
       }else if(data.status==='unavailable'){
         status.textContent='Reddit зараз не надає дописи для Pulse. Можливе блокування RSS — відкрий спільноти нижче.';
       }else if(data.status==='cached'){
