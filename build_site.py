@@ -10,6 +10,7 @@ import server
 import opportunities
 import daily_digest
 import personal_feed
+import editorial_feed
 
 
 # The previous snapshot is restored by GitHub Actions cache when available.
@@ -96,6 +97,12 @@ def build(output):
     digest_temp = output / 'digest.json.tmp'
     digest_temp.write_text(json.dumps(digest, ensure_ascii=False), encoding='utf-8')
     digest_temp.replace(output / 'digest.json')
+    editorial = editorial_feed.build_editorial_feed(
+        payload['articles'], payload['updated'], payload['sources']
+    )
+    curated_temp = output / 'feed.json.tmp'
+    curated_temp.write_text(json.dumps(editorial, ensure_ascii=False), encoding='utf-8')
+    curated_temp.replace(output / 'feed.json')
     # Personal front page is a small ranked view; the complete archive is preserved.
     personal_payload = personal_feed.build_personal_feed(payload['articles'], payload['updated'])
     personal_payload['sources'] = payload['sources']
