@@ -3,7 +3,6 @@
 (() => {
   const bar = document.querySelector('#fx-bar');
   if (!bar) return;
-  const source = document.querySelector('#fx-source');
   const rows = {PLN:document.querySelector('#fx-pln'), USD:document.querySelector('#fx-usd')};
   const formatter = new Intl.NumberFormat('uk-UA',{minimumFractionDigits:2,maximumFractionDigits:2});
   const valid = value => typeof value === 'number' && Number.isFinite(value) && value > 0;
@@ -21,10 +20,6 @@
       node.closest('.fx-quote').setAttribute('aria-label','1 '+code+' — '+formatter.format(rate.uah)+' гривні, '+description);
       node.closest('.fx-quote').title=description;
     }
-    source.textContent=data.status==='cached'?'Monobank · збережено':'Monobank';
-    source.title=data.status==='cached'
-      ? 'Останній збережений курс Monobank'
-      : 'Курси валют Monobank: PLN — крос-курс, USD — курс продажу';
   }
   async function refresh() {
     try {
@@ -33,8 +28,6 @@
       paint(await response.json());
     } catch {
       rows.PLN.textContent='—';rows.USD.textContent='—';
-      source.textContent='Monobank · недоступно';
-      source.title='Не вдалося отримати курси Monobank';
     }
   }
   refresh();
