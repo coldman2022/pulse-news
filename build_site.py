@@ -60,6 +60,17 @@ def build(output):
     output.mkdir(parents=True, exist_ok=True)
     for name in ('index.html', 'app.js', 'style.css', 'opportunities.html', 'opportunities.js', 'digest.html', 'digest.js', 'events.json', 'events.js'):
         shutil.copyfile(server.ROOT / 'static' / name, output / name)
+    # Make the curated event slider resilient if the browser cannot fetch events.json.
+    events_data = json.loads((server.ROOT / 'static' / 'events.json').read_text(encoding='utf-8'))
+    events_js = output / 'events.js'
+    original_events_js = events_js.read_text(encoding='utf-8')
+    fallback_marker = '/* PULSE_BUILD_EVENTS_JSON */ []'
+    if fallback_marker not in original_events_js:
+        raise RuntimeError('Missing event fallback marker in events.js')
+    events_js.write_text(
+        original_events_js.replace(fallback_marker, json.dumps(events_data['events'], ensure_ascii=False)),
+        encoding='utf-8',
+    )
     temporary = output / 'news.json.tmp'
     temporary.write_text(json.dumps(payload, ensure_ascii=False), encoding='utf-8')
     temporary.replace(snapshot)
