@@ -1,5 +1,6 @@
 import json
 import tempfile
+import time
 import unittest
 from pathlib import Path
 from unittest.mock import patch
@@ -14,7 +15,7 @@ class BuildTests(unittest.TestCase):
 
     def article(self, source, url):
         return dict(id=url, title='Test', url=url, source=source, category='Світ',
-                    summary='', published=1)
+                    summary='', published=time.time())
 
     def test_static_artifact_and_persistent_partial_failure(self):
         with tempfile.TemporaryDirectory() as folder:
@@ -37,6 +38,21 @@ class BuildTests(unittest.TestCase):
             self.assertIn('href="./style.css?v=3"', html)
             self.assertIn('src="./app.js?v=3"', html)
             self.assertTrue((output / '.nojekyll').exists())
+
+    def test_history_retains_immigration_but_expires_world_news(self):
+        now = 1_800_000_000
+        def row(url, category, age):
+            return dict(url=url, category=category, published=now-age*86400)
+        past = [row('https://example.org/immigration', 'Імміграція', 40),
+                row('https://example.org/conference', 'AI-події', 75),
+                row('https://example.org/old-world', 'Світ', 20)]
+        fresh = [row('https://example.org/today', 'AI', 1)]
+        retained = build_site.retain_recent(fresh, past, now)
+        urls = {item['url'] for item in retained}
+        self.assertIn('https://example.org/immigration', urls)
+        self.assertIn('https://example.org/conference', urls)
+        self.assertNotIn('https://example.org/old-world', urls)
+        self.assertIn('https://example.org/today', urls)
 
     def test_total_failure_preserves_previous_snapshot(self):
         with tempfile.TemporaryDirectory() as folder:
