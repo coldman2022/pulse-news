@@ -246,7 +246,10 @@ function safePreviewImage(value) {
 function articleDate(ts) {
  if(!ts)return 'Без дати';
  const date=new Date(ts*1000);
- return Number.isNaN(date.getTime())?'Без дати':date.toLocaleDateString('uk-UA',{day:'numeric',month:'short',year:'numeric'});
+ if(Number.isNaN(date.getTime()))return 'Без дати';
+ const dayMonth=date.toLocaleDateString('uk-UA',{day:'numeric',month:'short'});
+ const time=date.toLocaleTimeString('uk-UA',{hour:'2-digit',minute:'2-digit',hour12:false});
+ return dayMonth+' · '+time;
 }
 function editorialLayout(index) {
  if(index===0)return 'story--feature';

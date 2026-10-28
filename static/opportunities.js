@@ -22,7 +22,13 @@ function safeLink(value) {
     return url.protocol === 'https:' ? url.href : '';
   } catch { return ''; }
 }
-const fmtDate = stamp => stamp ? new Date(stamp * 1000).toLocaleDateString('uk-UA',{day:'numeric',month:'short',year:'numeric'}) : 'Не вказано';
+const fmtDate = stamp => {
+  if (!stamp) return 'Не вказано';
+  const date = new Date(stamp * 1000);
+  if (Number.isNaN(date.getTime())) return 'Не вказано';
+  return date.toLocaleDateString('uk-UA', {day:'numeric',month:'short'}) +
+    ' · ' + date.toLocaleTimeString('uk-UA', {hour:'2-digit',minute:'2-digit',hour12:false});
+};
 const evidenceOfficial = card => card.evidence === 'офіційне повідомлення';
 function render() {
   const q = $('#opp-search').value.trim().toLocaleLowerCase('uk');

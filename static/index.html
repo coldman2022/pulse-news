@@ -1,8 +1,25 @@
 <!doctype html>
-<html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f4f6fa"><meta name="description" content="Pulse — особиста стрічка новин із RSS-джерел."><title>Pulse — новини у вашому ритмі</title><link rel="icon" href="data:,"><link rel="stylesheet" href="./style.css?v=7"><script defer src="./app.js?v=7"></script></head>
+<html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f4f6fa"><meta name="description" content="Pulse — особиста стрічка новин із RSS-джерел."><title>Pulse — новини у вашому ритмі</title><link rel="icon" href="data:,"><link rel="stylesheet" href="./style.css?v=8"><script defer src="./app.js?v=8"></script><script defer src="./events.js?v=1"></script></head>
 <body><header><a class="brand" href="./" aria-label="Pulse — головна">pulse<span>●</span></a><span class="tagline">Ваш ритм новин</span><button id="refresh">Оновити стрічку</button></header>
 <div class="shell"><aside><p class="eyebrow">Моя стрічка</p><nav aria-label="Розділи"><a class="opp-nav" href="./digest.html">Огляд дня <span>↗</span></a><a class="opp-nav" href="./opportunities.html">Імміграційні можливості <span>↗</span></a><button class="active" data-mode="all">Усі новини <span>↗</span></button><button data-mode="saved">Збережене <span id="saved-count">0</span></button></nav><div class="aside-bottom"><b>Різні джерела.<br>Власний погляд.</b><p>Читайте оригінали та порівнюйте висвітлення подій.</p><small>Pulse · RSS-новини</small></div></aside>
-<main><div class="intro"><div><p id="today" class="eyebrow"></p><h1>Тримайте руку<br>на пульсі.</h1></div><p class="intro-note">Новини за темами. Усе найновіше<br>та короткий огляд дня.</p></div><div class="toolbar">
+<main><div class="intro"><div><p id="today" class="eyebrow"></p><h1>Тримайте руку<br>на пульсі.</h1></div><p class="intro-note">Новини за темами. Усе найновіше<br>та короткий огляд дня.</p></div>
+<section id="events-section" class="events-section" aria-labelledby="events-heading" hidden>
+  <div class="events-header">
+    <div><p class="eyebrow">PULSE / КАЛЕНДАР ПОДІЙ</p><h2 id="events-heading">Події, які варто відвідати</h2></div>
+    <div class="events-controls">
+      <div class="events-regions" role="group" aria-label="Регіон подій">
+        <button type="button" class="active" data-events-region="all" aria-pressed="true">Усі</button>
+        <button type="button" data-events-region="PL" aria-pressed="false">Польща</button>
+        <button type="button" data-events-region="EU" aria-pressed="false">Інша Європа</button>
+      </div>
+      <button id="events-prev" class="event-arrow" type="button" aria-label="Попередні події" aria-controls="events-track">←</button>
+      <button id="events-next" class="event-arrow" type="button" aria-label="Наступні події" aria-controls="events-track">→</button>
+    </div>
+  </div>
+  <div id="events-track" class="events-track" role="region" aria-label="Найближчі події AI, продукту і дизайну" tabindex="0"></div>
+  <p class="events-note">Дати перевірено за сайтами організаторів. Перед поїздкою уточнюйте наявність квитків та програму.</p>
+</section>
+<div class="toolbar">
 <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Пошук у новинах" aria-label="Пошук у новинах"></label>
 <button id="filter-toggle" type="button" class="filter-icon-button" aria-label="Показати фільтри" aria-controls="filter-panel" aria-expanded="false" title="Фільтри"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M7 12h10m-7 5h4"/><circle cx="8" cy="7" r="2" fill="currentColor" stroke="none"/><circle cx="16" cy="12" r="2" fill="currentColor" stroke="none"/></svg></button>
 </div>
