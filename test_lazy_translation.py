@@ -18,7 +18,7 @@ class LazyTranslationTests(unittest.TestCase):
             '650', 'AUTO_MAX_CHARS = 2400',
             'pulse-auto-usage', 'pulse-title-translations',
             'autoQueue.length=0', 'translationChunks(title)',
-            "localStorage.setItem('pulse-auto-headlines'",
+            "const autoEnabled = true",
         ]:
             self.assertIn(expected, js)
         self.assertIn("const title = translatedTitles[article.id]",js)
