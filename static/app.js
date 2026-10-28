@@ -360,8 +360,9 @@ function render(){
     const mediaLink=link('',a.url);
     mediaLink.setAttribute('aria-label','Відкрити статтю: '+a.title);
     const img=document.createElement('img');
-    img.src=image;img.alt='';img.loading='lazy';img.decoding='async';
+    img.alt='';img.loading='lazy';img.decoding='async';
     img.referrerPolicy='no-referrer';
+    img.src=image;
     img.addEventListener('error',()=>{
       figure.remove();
       card.classList.remove('story--with-image');
