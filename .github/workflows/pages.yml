@@ -35,6 +35,7 @@ jobs:
       - run: node --check static/mobile.js
       - run: node --check static/share.js
       - run: node --check static/motivation.js
+      - run: node --check static/pulse-hub.js
 
   build:
     if: github.event_name != 'pull_request'
