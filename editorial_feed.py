@@ -145,12 +145,36 @@ def relevant(article):
     return False
 
 
+FRESH_WINDOW_DAYS = 7
+FRESH_CATEGORIES = {
+    "Імміграція", "AI", "AI-події", "Світ", "Україна", "Польща",
+    "Бізнес", "Технології", "Наука", "Дизайн", "Кіно", "Мотивація"
+}
+
+
+def recent_feed_candidate(article, updated):
+    """All fresh topics, no narrow keyword scoring; conservative obvious-noise filter."""
+    title = (article.get("title") or "").strip()
+    if not title or article.get("category") not in FRESH_CATEGORIES:
+        return False
+    published = article.get("published") or 0
+    if not isinstance(published, (float, int)) or published <= 0:
+        return False
+    if published > updated + 3600 or updated - published > FRESH_WINDOW_DAYS * 86400:
+        return False
+    if NOISE.search(title) or personal_feed.CRIME_NOISE.search(title):
+        return False
+    if article.get("category") == "Імміграція" and SPECIFIC_OTHER_NATIONALITY.search(title):
+        return False
+    return True
+
+
 def build_editorial_feed(articles, updated, sources=()):
     seen_urls = set()
     selected = []
     for article in sorted(articles, key=lambda x: x.get("published") or 0, reverse=True):
         url = article.get("url") or ""
-        if not url or url in seen_urls or not relevant(article):
+        if not url or url in seen_urls or not recent_feed_candidate(article, updated):
             continue
         seen_urls.add(url)
         if article.get("category") == "Імміграція":
@@ -164,6 +188,7 @@ def build_editorial_feed(articles, updated, sources=()):
         "archive_total": len(articles),
         "selected_total": len(grouped),
         "grouped_count": len(selected) - len(grouped),
-        "method": "editorial_topic_rules_v1+conservative_story_groups_v1",
-        "note": "Повтори об'єднані з посиланнями на видання. Повний архів збережено."
+        "method": "all_fresh_topics_7d+obvious_noise_filter+story_groups_v1",
+        "window_days": FRESH_WINDOW_DAYS,
+        "note": "У стрічці усі свіжі теми за 7 днів, крім очевидного спаму; архів зберігає історію."
     }
