@@ -1,53 +1,47 @@
-"""Pulse v23 only restores v21 backgrounds 10% closer to white."""
-import re
+"""Regression guard: only the shared background changed in v24."""
 import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent / "static"
 
 
-class V23BackgroundTests(unittest.TestCase):
-    def test_original_card_colors_are_lifted_by_ten_percent(self):
+class BackgroundOnlyV24Tests(unittest.TestCase):
+    def test_v24_override_only_paints_global_page(self):
         css = (ROOT / "style.css").read_text(encoding="utf-8")
-        section = css.split("/* Pulse v23 —", 1)[1]
-        colors = {
-            "#f7f3ec": "#f8f4ee",  # Page background
-            "#f1eafa": "#f2ecfb",  # AI event
-            "#f2eefb": "#f3f0fb",  # Immigration stories
-            "#f0e9fa": "#f2ebfb",  # AI stories
-            "#eeeffd": "#f0f1fd",  # World stories
-            "#f5effb": "#f6f1fb",  # Reddit
-            "#f1ecfa": "#f2eefb",  # Personal mode background
-        }
-        for original, expected in colors.items():
-            calculated = "#" + "".join(
-                f"{int(int(original[i:i+2], 16)*.9+255*.1+0.5000001):02x}"
-                for i in (1,3,5)
-            )
-            self.assertEqual(calculated, expected)
-            self.assertIn(expected, section)
+        section = css.split("/* Pulse v24: ONLY the global background", 1)[1]
+        self.assertIn(":root{--paper:#f0f0f3}", section)
+        self.assertIn("body,header{background:var(--paper)}", section)
+        self.assertNotIn(".event-card", section)
+        self.assertNotIn(".story--topic-", section)
+        self.assertNotIn(".reddit-preview-item", section)
+        self.assertNotIn(".focus-hero", section)
+        self.assertNotIn('body[data-pulse-mode="focus"]', section)
+        self.assertNotIn("text-decoration:", section)
 
-    def test_only_paint_updates_not_typography_or_layout(self):
+    def test_v22_soft_topic_cards_and_plain_titles_survive(self):
         css = (ROOT / "style.css").read_text(encoding="utf-8")
-        section = css.split("/* Pulse v23 —", 1)[1]
-        # Check CSS declarations, not media-query conditions such as max-width.
-        properties = re.findall(r"(?<=[{;])\s*([a-z-]+)\s*:", section)
-        self.assertTrue(properties)
-        self.assertTrue(all(prop == "background" or prop.startswith("--") for prop in properties), properties)
-        # Keep the previous request: headline links are never underlined.
-        v22 = css.split("/* Pulse v22:", 1)[1].split("/* Pulse v23 —", 1)[0]
-        self.assertIn("#news .story-heading a,", v22)
-        self.assertIn("text-decoration:none!important", v22)
+        v22 = css.split("/* Pulse v22:", 1)[1].split("/* Pulse v24:", 1)[0]
+        for token in (
+            '.event-card[data-topic="AI"]{background:#faf7ff}',
+            '.event-card[data-topic="Product"]{background:#fbfbed}',
+            '.event-card[data-topic="Design"]{background:#fff9f5}',
+            '.reddit-preview-item{background:#faf8fe}',
+            '.story--topic-ai{--card-bg:#faf7ff}',
+            '.story--topic-migration{--card-bg:#f9f8ff}',
+            'body[data-pulse-mode="focus"]{background:#f9f7fd}',
+            'text-decoration:none!important',
+        ):
+            self.assertIn(token, v22)
 
-    def test_theme_assets_match_earlier_more_contrasting_background(self):
-        for page in ("index.html", "digest.html", "opportunities.html", "reddit.html"):
+    def test_pwa_and_html_match_gray_background(self):
+        for page in ("index.html","digest.html","opportunities.html","reddit.html"):
             html = (ROOT / page).read_text(encoding="utf-8")
-            self.assertIn("style.css?v=24", html)
-            self.assertIn('content="#f8f4ee"', html)
+            self.assertIn("style.css?v=25", html)
+            self.assertIn('content="#f0f0f3"', html)
         manifest = (ROOT / "manifest.webmanifest").read_text(encoding="utf-8")
-        self.assertIn('"background_color": "#f8f4ee"', manifest)
-        self.assertIn('"theme_color": "#f8f4ee"', manifest)
+        self.assertIn('"background_color": "#f0f0f3"', manifest)
+        self.assertIn('"theme_color": "#f0f0f3"', manifest)
 
 
-if __name__=="__main__":
+if __name__ == "__main__":
     unittest.main()
