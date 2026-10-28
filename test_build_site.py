@@ -29,15 +29,16 @@ class BuildTests(unittest.TestCase):
                 return [self.article(source['name'], 'https://example.org/' + source['name'])]
 
             with patch.object(server, 'fetch_source', side_effect=fetch), \
-                 patch.object(build_site.reddit_feed, 'build_reddit_preview', return_value={}):
+                 patch.object(build_site.reddit_feed, 'build_reddit_preview', return_value={}), \
+                 patch.object(build_site.currency_rates, 'build_rates', return_value={}):
                 payload = build_site.build(output)
             self.assertIn(old, payload['articles'])
             self.assertEqual(next(s for s in payload['sources'] if s['name'] == 'The Guardian'),
                              dict(name='The Guardian', ok=False, cached=True))
             self.assertEqual(json.loads((output / 'news.json').read_text()), payload)
             html = (output / 'index.html').read_text()
-            self.assertIn('href="./style.css?v=13"', html)
-            self.assertIn('src="./app.js?v=13"', html)
+            self.assertIn('href="./style.css?v=15"', html)
+            self.assertIn('src="./app.js?v=14"', html)
             self.assertTrue((output / '.nojekyll').exists())
             self.assertTrue((output / 'opportunities.html').exists())
             self.assertTrue((output / 'opportunities.js').exists())
@@ -47,6 +48,7 @@ class BuildTests(unittest.TestCase):
             self.assertTrue((output / 'digest.js').exists())
             self.assertTrue((output / 'reddit.html').exists())
             self.assertTrue((output / 'reddit.js').exists())
+            self.assertTrue((output / 'currency.js').exists())
             self.assertTrue((output / 'feed.json').exists())
             editorial = json.loads((output / 'feed.json').read_text())
             self.assertIn('articles', editorial)
