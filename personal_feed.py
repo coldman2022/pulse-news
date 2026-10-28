@@ -8,13 +8,13 @@ from collections import Counter
 import re
 from urllib.parse import urlsplit
 
-WINDOW_HOURS = 72
-FEATURED_LIMITS = {"Імміграція": 9, "AI": 7, "Польща": 5, "Дизайн": 2}
+WINDOW_HOURS = 168
+FEATURED_LIMITS = {"Імміграція": 18, "AI": 20, "Польща": 10, "Дизайн": 6, "Україна": 25, "Кіно": 8}
 BRIEF_LIMITS = {"Світ": 6, "Технології": 7, "Україна": 4,
                 "Бізнес": 3, "Наука": 2, "AI-події": 3,
-                "Імміграція": 4, "AI": 4, "Польща": 3, "Дизайн": 2}
-MAX_FEATURED = 18
-MAX_BRIEF = 12
+                "Імміграція": 8, "AI": 10, "Польща": 5, "Дизайн": 4, "Кіно": 8}
+MAX_FEATURED = 72
+MAX_BRIEF = 40
 
 IMMIGRATION = re.compile(
     r"immigra\w*|migracj\w*|migrant\w*|residen\w*|resydencj\w*|"
@@ -117,7 +117,7 @@ def classify(article):
         return None, 0
     # Exclude routine murders, violent-crime and lifestyle stories even when
     # they mention Poland or refugees; they remain in the full archive.
-    if CRIME_NOISE.search(title) or LIFESTYLE_NOISE.search(title):
+    if CRIME_NOISE.search(title) or (category != 'Кіно' and LIFESTYLE_NOISE.search(title)):
         return None, 0
     has_immigration = bool(IMMIGRATION.search(title))
     law = bool(LAW_CHANGE.search(title))
@@ -132,6 +132,12 @@ def classify(article):
     if category in ("Польща", "Світ", "Україна") and (CRIME_NOISE.search(title) or LIFESTYLE_NOISE.search(title)):
         return None, 0
 
+    if category == "Україна":
+        return "featured", 9
+    if category == "Кіно":
+        if re.search(r"best movies|best films|top \d+|movies to watch|what to watch|підбірк\w*|добірк\w*", title):
+            return "featured", 7
+        return "brief", 4
     if category == "AI":
         relevant = bool(AI_CORE.search(title))
         if relevant and AI_MAJOR.search(title):
