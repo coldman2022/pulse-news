@@ -39,7 +39,7 @@ class EventCarouselTests(unittest.TestCase):
         self.assertIn('aria-label="Календар подій"',html)
         self.assertNotIn('<span>Календар</span>',html)
         self.assertNotIn('class="event-sources"',html)
-        self.assertIn('mobile.js?v=4',html)
+        self.assertIn('mobile.js?v=5',html)
         mobile=(ROOT / "static" / "mobile.js").read_text(encoding="utf-8")
         self.assertIn('menu:\'<rect x="4" y="4"',mobile)
         self.assertIn('/* Pulse v19: clipped event carousel',css)
