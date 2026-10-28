@@ -602,3 +602,22 @@ nav button.active, #categories button.active, .events-regions button.active {
   #news .story-tools {gap:0;}
   #news .story-bookmark,#news .story-translate {width:30px;height:32px;flex-basis:30px;}
 }
+
+/* Compact brief keeps the same two actions while avoiding article-size cards. */
+.brief-item { align-items:center; }
+.brief-item .brief-title {flex:1 1 auto;}
+.brief-item .brief-meta {display:flex;flex:0 1 auto;align-items:baseline;flex-wrap:wrap;gap:3px 9px;max-width:40%;white-space:normal;justify-content:flex-end;}
+.brief-publisher {overflow-wrap:anywhere;}
+.brief-meta time {white-space:nowrap;}
+.brief-tools {display:flex;align-items:center;gap:2px;flex:0 0 auto;}
+.brief-action {display:grid;place-items:center;flex:0 0 30px;width:30px;height:32px;min-width:30px;padding:5px;margin:0;background:transparent;border:0;color:#285aa0;}
+.brief-action svg {display:block;width:18px;height:18px;}
+.brief-action:hover:not(:disabled) {background:rgba(0,0,0,.05);}
+.brief-action:disabled {color:#8993a0;opacity:.5;cursor:default;}
+.brief-save.is-saved svg {fill:currentColor;}
+@media (max-width:760px) {
+ .brief-item {display:grid;grid-template-columns:minmax(0,1fr) auto;gap:3px 6px;}
+ .brief-item .brief-title {grid-column:1 / -1;margin:0;}
+ .brief-item .brief-meta {grid-column:1;max-width:100%;justify-content:flex-start;margin:0;gap:3px 7px;}
+ .brief-item .brief-tools {grid-column:2;grid-row:2;}
+}
