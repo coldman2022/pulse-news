@@ -71,7 +71,7 @@ def build(output):
     ]
 
     output.mkdir(parents=True, exist_ok=True)
-    for name in ('index.html', 'app.js', 'style.css', 'reddit.html', 'reddit.js', 'currency.js', 'mobile.js', 'manifest.webmanifest', 'pulse-icon.svg', 'pulse-icon-180.png', 'pulse-icon-512.png', 'opportunities.html', 'opportunities.js', 'digest.html', 'digest.js', 'events.json', 'events.js', 'motivation.html', 'motivation.js', 'share.js'):
+    for name in ('index.html', 'app.js', 'style.css', 'reddit.html', 'reddit.js', 'currency.js', 'mobile.js', 'manifest.webmanifest', 'pulse-icon.svg', 'pulse-icon-180.png', 'pulse-icon-512.png', 'opportunities.html', 'opportunities.js', 'digest.html', 'digest.js', 'events.json', 'events.js', 'motivation.html', 'motivation.js', 'share.js', 'translations.json'):
         shutil.copyfile(server.ROOT / 'static' / name, output / name)
     # Make the curated event slider resilient if the browser cannot fetch events.json.
     events_data = json.loads((server.ROOT / 'static' / 'events.json').read_text(encoding='utf-8'))
