@@ -27,6 +27,7 @@ jobs:
           python-version: '3.12'
       - run: python -m unittest -v
       - run: node --check static/app.js
+      - run: node --check static/opportunities.js
 
   build:
     if: github.event_name != 'pull_request'
