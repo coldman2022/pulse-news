@@ -73,7 +73,7 @@ class MigrationAndCommunityTests(unittest.TestCase):
         self.assertIn("https://www.reddit.com/r/LocalLLaMA/new/",html)
         self.assertIn("https://www.reddit.com/r/ukraine/new/",html)
         self.assertNotIn(".rss",html)
-        self.assertIn("reddit.js?v=1",html)
+        self.assertIn("reddit.js?v=2",html)
         self.assertIn('id="reddit-feed-list"',html)
         self.assertNotIn("fetch(",html)
 
