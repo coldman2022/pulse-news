@@ -294,20 +294,6 @@
     "origin": "media"
   },
   {
-    "name": "Simon Willison — LLM",
-    "url": "https://simonwillison.net/atom/everything/",
-    "category": "AI",
-    "language": "en",
-    "origin": "expert"
-  },
-  {
-    "name": "Import AI — research",
-    "url": "https://importai.substack.com/feed",
-    "category": "AI",
-    "language": "en",
-    "origin": "expert"
-  },
-  {
     "name": "arXiv — AI papers",
     "url": "https://export.arxiv.org/rss/cs.AI",
     "category": "AI",
@@ -505,5 +491,54 @@
     "country": "Світ",
     "language": "en",
     "origin": "discovery"
+  },
+  {
+    "name": "CNBC World",
+    "url": "https://www.cnbc.com/id/100727362/device/rss/rss.html",
+    "category": "Світ",
+    "language": "en",
+    "origin": "media"
+  },
+  {
+    "name": "CNBC Technology",
+    "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html",
+    "category": "Технології",
+    "language": "en",
+    "origin": "media"
+  },
+  {
+    "name": "POLITICO Europe",
+    "url": "https://www.politico.eu/feed/",
+    "category": "Світ",
+    "language": "en",
+    "origin": "media"
+  },
+  {
+    "name": "The New York Times World",
+    "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+    "category": "Світ",
+    "language": "en",
+    "origin": "media"
+  },
+  {
+    "name": "France 24",
+    "url": "https://www.france24.com/en/rss",
+    "category": "Світ",
+    "language": "en",
+    "origin": "media"
+  },
+  {
+    "name": "NPR News",
+    "url": "https://feeds.npr.org/1001/rss.xml",
+    "category": "Світ",
+    "language": "en",
+    "origin": "media"
+  },
+  {
+    "name": "Sky News World",
+    "url": "https://feeds.skynews.com/feeds/rss/world.xml",
+    "category": "Світ",
+    "language": "en",
+    "origin": "media"
   }
 ]
