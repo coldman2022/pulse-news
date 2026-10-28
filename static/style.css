@@ -1915,3 +1915,64 @@ body[data-pulse-mode="focus"] aside nav [data-mode="focus"].active{
   .pulse-dock-search-result-source{color:#756b85}
   .pulse-dock-search-result:hover{background:#eee8fb}
 }
+
+
+/* Pulse v22: softer near-white surfaces and unadorned news headlines.
+   Paint-only overrides. Keep the current shapes, typography and positioning. */
+:root{
+  --paper:#fcfbfd;
+  --pulse-subtle:#faf9fd;
+  --pulse-accent-light:#f4f1fd;
+}
+body,header{background:var(--paper)}
+.events-section,.reddit-preview{background:#fff}
+.event-card{background:#fbfaff}
+.event-card[data-topic="AI"]{background:#faf7ff}
+.event-card[data-topic="Product"]{background:#fbfbed}
+.event-card[data-topic="Design"]{background:#fff9f5}
+.events-calendar{background:#faf9fd}
+.reddit-preview-item{background:#faf8fe}
+.story--topic-migration{--card-bg:#f9f8ff}
+.story--topic-ai{--card-bg:#faf7ff}
+.story--topic-events{--card-bg:#fbf8ff}
+.story--topic-world{--card-bg:#f8f9ff}
+.story--topic-ukraine{--card-bg:#fdfbf4}
+.story--topic-poland{--card-bg:#fffaf7}
+.story--topic-business{--card-bg:#faf9ff}
+.story--topic-tech{--card-bg:#f8faff}
+.story--topic-science{--card-bg:#fbfbf5}
+.story--topic-design{--card-bg:#fff9fc}
+.story--topic-cinema{--card-bg:#fcf8ff}
+.story--topic-neutral{--card-bg:#ffffff}
+body[data-pulse-mode="focus"]{background:#f9f7fd}
+body[data-pulse-mode="focus"] #news .story--feature{background:#faf8ff}
+body[data-pulse-mode="focus"] .brief-section{background:#f7f3fc}
+.focus-hero{
+  background:linear-gradient(122deg,#37269e 0%,#5441b4 72%,#7560bf 100%)
+}
+.events-calendar-day.has-events{background:#f4f0fd}
+.event-fee--free,
+.focus-hero-stat,
+body[data-pulse-mode="focus"] aside nav [data-mode="focus"].active,
+aside nav > button.active{background:#f0f3ae!important}
+#news .story-feedback-button[aria-pressed=true]{background:#f0f3ae}
+.reddit-preview-title,
+.reddit-preview-title:hover,
+.reddit-post-title,
+.reddit-post-title:hover,
+.digest-item-title,
+.digest-item-title:hover,
+.brief-title,
+.brief-title:hover,
+#news .story-heading a,
+#news .story-heading a:hover{
+  text-decoration:none!important
+}
+@media(max-width:760px){
+  .pulse-dock-search-field{background:#f9f7fe}
+  .pulse-dock-search-result{background:#fbf9ff}
+  .pulse-dock-search-result:hover{background:#f5f1fd}
+  .pulse-dock-search-quick button{background:#f0f3ae}
+  .pulse-dock-sheet a{background:#f8f5fe}
+  .pulse-dock-sheet a:hover{background:#f2edfc}
+}
