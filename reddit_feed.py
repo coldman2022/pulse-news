@@ -176,7 +176,7 @@ def build_reddit_preview(destination: str | Path, now: float | None = None) -> d
         result = {
             "status": "ended", "schema": 2, "updated": now, "last_fetch_at": 0,
             "posts": [], "sources": [],
-            "message": "Reddit припинив підтримку RSS. Дивіться спільноти за прямими посиланнями.",
+            "message": "Тестовий RSS-період у Pulse завершено. Прямі посилання на спільноти залишаються доступними.",
         }
     elif (prior.get("last_fetch_at", 0) > now - REFRESH_SECONDS
           and prior.get("status") in ("ok", "unavailable", "cached")
