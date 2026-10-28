@@ -45,6 +45,11 @@
 
   // This panel belongs to the bottom navigation and searches the existing
   // static editorial feed, even when opened from a different Pulse section.
+  // Keep the menu above a subtle dimming layer, without reusing the search backdrop.
+  const menuBackdrop=document.createElement('div');
+  menuBackdrop.className='pulse-dock-menu-backdrop';
+  menuBackdrop.hidden=true;
+  menuBackdrop.setAttribute('aria-hidden','true');
   const backdrop=document.createElement('div');
   backdrop.className='pulse-dock-backdrop';
   backdrop.hidden=true;
@@ -62,7 +67,7 @@
     icon('search')+
     '<input id="pulse-dock-search-input" type="search" autocomplete="off" enterkeyhint="search" placeholder="Тема, новина або джерело" aria-label="Пошук у Pulse"></label>'+
     '<div id="pulse-dock-search-results" class="pulse-dock-search-results" aria-live="polite"></div>';
-  document.body.append(backdrop,searchPanel,sheet,dock);
+  document.body.append(menuBackdrop,backdrop,searchPanel,sheet,dock);
   const searchInput=searchPanel.querySelector('#pulse-dock-search-input');
   const searchResults=searchPanel.querySelector('#pulse-dock-search-results');
   const searchButton=buttons.get('search');
@@ -86,6 +91,7 @@
   }
   function closeSheet() {
     sheet.hidden=true;
+    menuBackdrop.hidden=true;
     menu.setAttribute('aria-expanded','false');
     if(searchPanel.hidden)selected(primaryMode);
   }
@@ -197,6 +203,7 @@
   menu.addEventListener('click',()=>{
     closeSearch();
     sheet.hidden=!sheet.hidden;
+    menuBackdrop.hidden=sheet.hidden;
     menu.setAttribute('aria-expanded',String(!sheet.hidden));
     selected(sheet.hidden?primaryMode:'menu');
   });
@@ -207,6 +214,7 @@
   searchPanel.querySelector('.pulse-dock-search-close').addEventListener('click',closeSearch);
   searchInput.addEventListener('input',renderSearch);
   backdrop.addEventListener('click',closeSearch);
+  menuBackdrop.addEventListener('click',closeSheet);
   document.addEventListener('keydown',event=>{
     if(event.key==='Escape') {
       if(!searchPanel.hidden)closeSearch();
