@@ -47,7 +47,9 @@ function personalizedFocus() {
   }
   return selection.sort((a,b)=>(b.published||0)-(a.published||0));
 }
-$('#today').textContent = new Intl.DateTimeFormat('uk-UA', {day:'numeric',month:'long',year:'numeric'}).format(new Date());
+const today=new Date();
+$('#today').textContent = new Intl.DateTimeFormat('uk-UA', {day:'numeric',month:'long',year:'numeric'}).format(today) + ' р.';
+$('#today').dateTime=[today.getFullYear(),String(today.getMonth()+1).padStart(2,'0'),String(today.getDate()).padStart(2,'0')].join('-');
 const el = (tag, text, cls) => {const n = document.createElement(tag); if(text) n.textContent=text; if(cls) n.className=cls; return n;};
 function link(text, url) {const a=el('a',text); a.href=url; a.target='_blank'; a.rel='noopener noreferrer'; return a;}
 function persist() {try{localStorage.setItem('pulse-saved',JSON.stringify(saved));}catch{storageOK=false;}}
@@ -303,7 +305,11 @@ function render(){
  if(mode==='focus')focusArticles=personalizedFocus();
  const resetFeedback=$('#feedback-reset');
  resetFeedback.hidden=mode!=='focus'||!Object.keys(votes).length;
- const pageTitle=$('.intro h1');if(pageTitle)pageTitle.textContent=mode==='all'?'Новини':mode==='archive'?'Архів':mode==='focus'?'Для мене':'Збережене';
+ document.body.dataset.pulseMode=mode;
+ const personalHero=$('#focus-hero');
+ personalHero.hidden=mode!=='focus';
+ const heroStat=$('#focus-hero-stat');
+ heroStat.textContent=mode==='focus' ? (focusArticles.length ? focusArticles.length+' головних матеріалів у добірці' : 'Добірка оновлюється') : '';
  $('#saved-count').textContent=Object.keys(saved).length;
  const q=$('#search').value.trim().toLocaleLowerCase('uk');
  const list=(mode==='saved'?Object.values(saved):mode==='focus'?focusArticles:mode==='archive'?archiveArticles:articles)
