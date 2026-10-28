@@ -477,3 +477,56 @@ header { min-width: 0; width: 100%; }
  .digest-item-title{font-size:16px}
  .digest-item{padding:12px 0}
 }
+
+/* Pulse v8: sharp edges, text-first selection, and curated events. */
+*, *::before, *::after { border-radius: 0 !important; }
+nav button.active, #categories button.active, .events-regions button.active {
+  background: transparent; color: var(--blue); border-color: transparent;
+  text-decoration: underline; text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+}
+#categories button { padding: 9px 8px; }
+#categories button:hover, .events-regions button:hover { color: var(--blue); }
+.filter-icon-button[aria-expanded="true"] {
+  background: #fff; color: var(--blue); border-color: var(--line);
+  border-bottom: 2px solid var(--blue);
+}
+.opp-nav:hover, nav button:hover { color: var(--blue); text-decoration: underline; text-underline-offset: 5px; }
+.events-section { margin: 0 0 24px; padding: 18px 0 16px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); min-width: 0; }
+.events-section[hidden] { display: none !important; }
+.events-header { display: flex; justify-content: space-between; align-items: end; gap: 18px; margin-bottom: 15px; }
+.events-header .eyebrow { margin: 0 0 3px; font-size: 10px; letter-spacing: .9px; font-weight: 700; }
+.events-header h2 { margin: 0; font-size: clamp(21px, 2.4vw, 29px); line-height: 1.2; letter-spacing: -.5px; font-weight: 760; }
+.events-controls { display: flex; align-items: center; gap: 7px; flex-shrink: 0; }
+.events-regions { display: flex; gap: 11px; align-items: center; margin-right: 8px; }
+.events-regions button { border: 0; background: transparent; font-size: 12px; padding: 4px 0; color: var(--muted); white-space: nowrap; }
+.event-arrow { width: 31px; height: 31px; display: grid; place-items: center; padding: 0; border: 1px solid var(--line); background: #fff; }
+.event-arrow:disabled { opacity: .32; cursor: default; color: var(--muted); border-color: var(--line); }
+.events-track { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(244px, calc((100% - 24px) / 2.45)); gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; overscroll-behavior-inline: contain; scrollbar-width: none; padding: 2px 0; }
+.events-track::-webkit-scrollbar { display: none; }
+.event-card { --event-accent: #6341a0; min-width: 0; min-height: 226px; padding: 15px 16px 13px; border: 1px solid var(--line); background: #fff; scroll-snap-align: start; display: flex; flex-direction: column; }
+.event-card[data-topic="Product"] { --event-accent: #285aa0; }
+.event-card[data-topic="Design"] { --event-accent: #9d4778; }
+.event-top { display: flex; justify-content: space-between; align-items: baseline; gap: 9px; }
+.event-date { color: var(--event-accent); font-weight: 800; font-size: 13px; white-space: nowrap; }
+.event-topic { color: var(--event-accent); font-size: 11px; font-weight: 730; text-decoration: underline; text-underline-offset: 4px; }
+.event-title { font-size: 19px; line-height: 1.22; letter-spacing: -.25px; margin: 12px 0 7px; overflow-wrap: anywhere; }
+.event-description { font-size: 12px; line-height: 1.45; color: var(--muted); margin: 0 0 8px; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.event-location { margin: 0 0 10px; font-size: 11px; font-weight: 700; color: var(--ink); }
+.event-bottom { display: flex; align-items: end; flex-wrap: wrap; justify-content: space-between; gap: 8px; margin-top: auto; padding-top: 8px; border-top: 1px solid var(--line); font-size: 11px; }
+.event-organizer { color: var(--muted); }
+.event-action { color: var(--event-accent); font-weight: 750; text-decoration: underline; text-underline-offset: 3px; }
+.events-note { color: var(--muted); font-size: 11px; line-height: 1.5; margin: 8px 0 0; }
+@media (max-width: 760px) {
+  .events-section { padding: 14px 0 12px; margin-bottom: 19px; }
+  .events-header { flex-direction: column; align-items: flex-start; gap: 10px; margin-bottom: 11px; }
+  .events-header h2 { font-size: 22px; }
+  .events-controls { width: 100%; justify-content: flex-end; }
+  .events-regions { margin-right: auto; gap: 10px; }
+  .events-track { grid-auto-columns: min(83vw, 294px); gap: 10px; }
+  .event-card { min-height: 220px; padding: 13px 14px; }
+  .event-title { font-size: 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .events-track { scroll-behavior: auto; }
+}
