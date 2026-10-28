@@ -4,7 +4,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parent
-CATEGORIES = {"Світ", "Україна", "Польща", "Бізнес", "Технології", "AI", "Наука", "Дизайн", "Імміграція", "AI-події"}
+CATEGORIES = {"Світ", "Україна", "Польща", "Бізнес", "Технології", "AI", "Наука", "Дизайн", "Імміграція", "AI-події", "Кіно"}
 
 
 class SourceConfigurationTests(unittest.TestCase):
@@ -13,7 +13,7 @@ class SourceConfigurationTests(unittest.TestCase):
         cls.sources = json.loads((ROOT / "sources.json").read_text(encoding="utf-8"))
 
     def test_broad_coverage(self):
-        self.assertGreaterEqual(len(self.sources), 70)
+        self.assertGreaterEqual(len(self.sources), 75)
         self.assertTrue(CATEGORIES.issubset({s["category"] for s in self.sources}))
         self.assertGreaterEqual(len([s for s in self.sources if s.get("origin") == "official"]), 2)
         self.assertGreaterEqual(len([s for s in self.sources if s.get("origin") == "discovery"]), 15)
