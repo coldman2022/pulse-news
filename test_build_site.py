@@ -35,9 +35,13 @@ class BuildTests(unittest.TestCase):
                              dict(name='The Guardian', ok=False, cached=True))
             self.assertEqual(json.loads((output / 'news.json').read_text()), payload)
             html = (output / 'index.html').read_text()
-            self.assertIn('href="./style.css?v=3"', html)
-            self.assertIn('src="./app.js?v=3"', html)
+            self.assertIn('href="./style.css?v=4"', html)
+            self.assertIn('src="./app.js?v=4"', html)
             self.assertTrue((output / '.nojekyll').exists())
+            self.assertTrue((output / 'opportunities.html').exists())
+            self.assertTrue((output / 'opportunities.js').exists())
+            opportunities = json.loads((output / 'opportunities.json').read_text())
+            self.assertIn('cards', opportunities)
 
     def test_history_retains_immigration_but_expires_world_news(self):
         now = 1_800_000_000
