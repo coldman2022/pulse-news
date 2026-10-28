@@ -127,3 +127,10 @@ header { min-width: 0; width: 100%; }
   aside nav::-webkit-scrollbar {display:none}
   aside nav > button, aside nav > .opp-nav {flex:0 0 auto; white-space:nowrap;}
 }
+
+/* Lazy Ukrainian headlines: small explicit control, safe on iPhone. */
+.translation-tools {display:flex;align-items:center;gap:10px 20px;flex-wrap:wrap;margin:12px 0 8px;min-width:0;font-size:12px;color:var(--muted);}
+.translation-toggle {display:inline-flex;align-items:center;gap:9px;cursor:pointer;min-width:0;font-size:13px;color:var(--ink);font-weight:600}
+.translation-toggle input {width:17px;height:17px;min-width:17px;margin:0;accent-color:var(--blue);cursor:pointer}
+#translation-budget {font-size:12px;overflow-wrap:anywhere}
+@media(max-width:760px){.translation-tools {gap:6px;padding:2px 0 0}.translation-toggle {font-size:13px;line-height:1.5}}
