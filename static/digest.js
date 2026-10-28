@@ -1,0 +1,45 @@
+'use strict';
+const $=s=>document.querySelector(s);
+const make=(tag,txt,cls)=>{const e=document.createElement(tag);if(txt!=null)e.textContent=String(txt);if(cls)e.className=cls;return e;};
+const fmt=ts=>ts?new Date(ts*1000).toLocaleDateString('uk-UA',{day:'numeric',month:'short'}):'';
+async function loadDigest(){
+ const target=$('#digest-sections');
+ try{
+  const response=await fetch('./digest.json',{cache:'no-store'});
+  if(!response.ok)throw new Error('HTTP '+response.status);
+  const data=await response.json();
+  if(!Array.isArray(data.sections))throw new Error('Invalid feed');
+  const date=data.generated?new Date(data.generated*1000):null;
+  $('#digest-period').textContent=(date?date.toLocaleString('uk-UA',{day:'numeric',month:'long',hour:'2-digit',minute:'2-digit',timeZone:'Europe/Warsaw'}):'')+' · час Польщі · '+(data.total||0)+' матеріалів';
+  target.replaceChildren();
+  for(const section of data.sections){
+    const group=make('section',null,'digest-section');
+    group.classList.add('digest-topic-'+(section.category==='Імміграція'?'migration':section.category==='AI'?'ai':section.category==='AI-події'?'events':'world'));
+    const head=make('div',null,'digest-heading');
+    head.append(make('h2',section.heading),make('span',(section.items||[]).length+' матеріалів'));
+    group.append(head);
+    if(!Array.isArray(section.items)||!section.items.length){
+      group.append(make('p','За останні 24 години перевірені стрічки не дали матеріалів для цієї добірки.','digest-empty'));
+    }else{
+      const list=make('ol',null,'digest-items');
+      for(const item of section.items){
+        const row=make('li',null,'digest-item');
+        const anchor=make('a',item.title,'digest-item-title');
+        try{const url=new URL(item.url);if(url.protocol!=='https:')continue;anchor.href=url.href;}catch{continue;}
+        anchor.target='_blank';anchor.rel='noopener noreferrer';
+        row.append(anchor);
+        if(item.summary)row.append(make('p',item.summary,'digest-item-summary'));
+        const meta=make('div',null,'digest-item-meta');
+        meta.append(make('span',item.publisher||'Джерело'),make('span',fmt(item.published)));
+        row.append(meta);list.append(row);
+      }
+      group.append(list);
+    }
+    target.append(group);
+  }
+ }catch{
+  $('#digest-period').textContent='Не вдалося завантажити огляд';
+  target.replaceChildren(make('p','Огляд тимчасово недоступний. Перевірте збірку GitHub Actions або відкрийте загальну стрічку.','empty'));
+ }
+}
+loadDigest();
