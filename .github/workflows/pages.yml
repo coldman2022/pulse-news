@@ -18,6 +18,8 @@ concurrency:
 
 jobs:
   test:
+    # UI regression tests gate code changes, not hourly RSS refreshes.
+    if: github.event_name == 'push' || github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -38,8 +40,15 @@ jobs:
       - run: node --check static/pulse-hub.js
 
   build:
-    if: github.event_name != 'pull_request'
     needs: test
+    # Scheduled/manual refresh must still run if tests are skipped. Push
+    # deployments remain gated on successful tests.
+    if: >-
+      ${{
+        always() &&
+        github.event_name != 'pull_request' &&
+        (github.event_name != 'push' || needs.test.result == 'success')
+      }}
     runs-on: ubuntu-latest
     timeout-minutes: 5
     permissions:
