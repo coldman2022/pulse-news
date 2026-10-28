@@ -6,6 +6,7 @@ headline-and-RSS-category filter, not fact checking or legal eligibility advice.
 import re
 import personal_feed
 import migration_relevance
+import story_clusters
 
 NOISE = re.compile(
     r"корупц\w*|коррупц\w*|хабар\w*|крадіж\w*|затриман\w*|"
@@ -155,12 +156,14 @@ def build_editorial_feed(articles, updated, sources=()):
         if article.get("category") == "Імміграція":
             article = dict(article, migration_scope=migration_relevance.migration_scope(article))
         selected.append(article)
+    grouped = story_clusters.group_articles(selected)
     return {
-        "articles": selected,
+        "articles": grouped,
         "sources": list(sources),
         "updated": updated,
         "archive_total": len(articles),
-        "selected_total": len(selected),
-        "method": "editorial_topic_rules_v1",
-        "note": "Кримінал і корупція прибрані з основної стрічки. Повний архів збережено."
+        "selected_total": len(grouped),
+        "grouped_count": len(selected) - len(grouped),
+        "method": "editorial_topic_rules_v1+conservative_story_groups_v1",
+        "note": "Повтори об'єднані з посиланнями на видання. Повний архів збережено."
     }
