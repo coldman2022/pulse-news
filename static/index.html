@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f2f3f3"><meta name="description" content="Pulse — особиста стрічка новин із RSS-джерел."><title>Pulse — новини у вашому ритмі</title><link rel="icon" href="data:,"><link rel="stylesheet" href="./style.css?v=17"><script defer src="./app.js?v=15"></script><script defer src="./events.js?v=5"></script><script defer src="./currency.js?v=3"></script></head>
+<html lang="uk"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f2f3f3"><meta name="description" content="Pulse — особиста стрічка новин із RSS-джерел."><title>Pulse — новини у вашому ритмі</title><link rel="manifest" href="./manifest.webmanifest"><link rel="apple-touch-icon" sizes="180x180" href="./pulse-icon-180.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="Pulse"><link rel="icon" type="image/svg+xml" href="./pulse-icon.svg""><link rel="stylesheet" href="./style.css?v=18"><script defer src="./app.js?v=16"></script><script defer src="./events.js?v=6"></script><script defer src="./currency.js?v=3"></script><script defer src="./mobile.js?v=1"></script></head>
 <body><header><a class="brand" href="./" aria-label="Pulse — головна">pulse<span>●</span></a><div id="fx-bar" class="fx-bar" aria-label="Курси валют Monobank">
   <div class="fx-quotes">
     <span class="fx-quote"><span class="fx-symbol">PLN</span><strong id="fx-pln">—</strong></span>
@@ -16,9 +16,20 @@
         <button type="button" class="active" data-events-region="PL" aria-pressed="true">Польща</button>
         <button type="button" data-events-region="EU" aria-pressed="false">Європа</button>
       </div>
+      <button id="events-calendar-toggle" type="button" class="events-calendar-toggle" aria-expanded="false" aria-controls="events-calendar" title="Календар подій"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><rect x="3" y="5" width="18" height="16"/><path d="M7 2v6M17 2v6M3 10h18"/></svg><span>Календар</span></button>
       <button id="events-prev" class="event-arrow" type="button" aria-label="Попередні події" aria-controls="events-track">←</button>
       <button id="events-next" class="event-arrow" type="button" aria-label="Наступні події" aria-controls="events-track">→</button>
     </div>
+  </div>
+  <div id="events-calendar" class="events-calendar" hidden>
+    <div class="events-calendar-head">
+      <button type="button" id="events-month-prev" aria-label="Попередній місяць">←</button>
+      <strong id="events-calendar-month"></strong>
+      <button type="button" id="events-month-next" aria-label="Наступний місяць">→</button>
+      <button type="button" id="events-calendar-clear">Усі дати</button>
+    </div>
+    <div id="events-calendar-grid" class="events-calendar-grid" role="group" aria-label="Дні подій"></div>
+    <p id="events-calendar-status" class="events-calendar-status" role="status"></p>
   </div>
   <div id="events-track" class="events-track" role="region" aria-label="Найближчі події AI, продукту і дизайну" tabindex="0"></div>
   <div class="event-sources">
@@ -34,8 +45,8 @@
 </section>
 <section id="reddit-preview" class="reddit-preview" aria-labelledby="reddit-preview-heading" hidden>
  <div class="reddit-preview-header">
-  <div><p class="reddit-preview-kicker">Досвід спільноти Reddit</p><h2 id="reddit-preview-heading">Як використовують AI у роботі</h2></div>
-  <a class="reddit-preview-more" href="./reddit.html">Усі обговорення ↗</a>
+  <div><h2 id="reddit-preview-heading">Обговорення Reddit</h2></div>
+  <a class="reddit-preview-more" href="./reddit.html">Усі ↗</a>
  </div>
  <div id="reddit-preview-list" class="reddit-preview-list" aria-live="polite"></div>
 </section>
