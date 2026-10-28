@@ -12,6 +12,7 @@ on:
 
 permissions:
   contents: write
+  actions: write
 
 concurrency:
   group: pulse-translations
@@ -65,3 +66,6 @@ jobs:
           git fetch origin main
           git rebase origin/main
           git push origin HEAD:main
+          # GITHUB_TOKEN push does not trigger workflows automatically.
+          # workflow_dispatch explicitly does, so publish updated translations now.
+          GH_TOKEN="${{ github.token }}" gh workflow run pages.yml --ref main
