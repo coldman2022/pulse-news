@@ -40,6 +40,7 @@
     '<a href="./digest.html">Огляд дня</a>'+
     '<a href="./opportunities.html">Імміграційні можливості</a>'+
     '<a href="./reddit.html">Обговорення Reddit</a>'+
+    '<a href="./motivation.html">Мотивація · історії підприємців</a>'+
     '<a href="./?mode=archive">Весь архів</a>';
 
   // This panel belongs to the bottom navigation and searches the existing
