@@ -1,7 +1,1483 @@
 {
   "schema": 1,
-  "updated": 1793190725,
+  "updated": 1793264114,
   "articles": {
+    "db525af4b0f26e4cd913": {
+      "source_title": "What we know so far about deadly Spain train crash",
+      "source_summary": "More than 500 passengers were on board the trains when the crash occurred in the province of Toledo, south of Madrid.",
+      "language": "en",
+      "title": "Що нам відомо про смертельну катастрофу іспанського поїзда",
+      "summary": "Коли аварія сталася в провінції Толедо, що на південь від Мадрида, в поїзді було понад 500 пасажирів.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "c61715650711298f9652": {
+      "source_title": "Obama mocks Trump’s response to Cheesecake Factory jibe. ‘They mobilized a whole of government response to that joke!’ – as it happened",
+      "source_summary": "This live blog is now closed.Sign up for the Breaking News US emailFor months, Mary Peltola’s campaign for Alaska’s Senate seat has denied any connection to a separate campaign launched by a man who, coincidentally, shares the exact same name as Peltola’s Republican opponent, Dan Sullivan.New reporting from the New York Times undercuts that claim. The outlet reported, based on interviews, obtained text messages and legal filings, that the Peltola campaign had not only recruited Mr Sullivan (not the Republican), but had sought out a number of Dan Sullivans across the state for potential candida",
+      "language": "en",
+      "title": "Обама реагує на джібе з тортилькою. Вони мобілізували цілу урядову відповідь на цей жарт! ♫ Як тільки це сталося",
+      "summary": "Цей живий блог вже закрито. Визнайте, що лист Break News Allows Allows, Mary Petolas Pasteles deal for alash' s sections sevens sevens described any an operation with a operson that, coi, conceptol (Петола) має таку саму назву, як і спостережувач США, Dan Sivenel. New Surveles from New York Times decuts that described on a consides, getting messages and юститун, that Peltoola durl was not only a surrent a le of Mrend of the state for canpendida",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "5428db86ef6f719f559d": {
+      "source_title": "Flávio Bolsonaro calls himself the ‘leader of Brazil’ after fleeing to Miami",
+      "source_summary": "Far-right senator and family land in US after crossing from Brazil into Argentina and then flying via EcuadorFlávio Bolsonaro declared himself the “true president” of Brazil after losing last Sunday’s presidential election and fleeing to the United States.After landing on a private jet with his family in Miami, Florida, on Wednesday morning, the far-right senator published the claim in a letter – even though his own party has recognised the legitimate victory of Luiz Inácio Lula da Silva, as have all of Brazil’s institutions, and international observers who monitored and endorsed the vote. Con",
+      "language": "en",
+      "title": "Флавіо Болсонаро називає себе лідером Бразилії, після того як вирушив у Майамі.",
+      "summary": "Далекоправий сенатор і сімейна земля США після переходу з Бразилії в Аргентину, а потім політ через Еквадор Флавіо Болсонаро проголосив себе Президентом Бразилії, після того, як він програв останні недільні вибори президентів і втік до Сполучених Штатів. Після приземлення на приватний схід зі своєю сім'єю в Майамі, Флориді, у середу ранком, трансцензатор опублікував заявку в листі, навіть якщо його власна партія визнала законну перемогу Луіза Індула да Сільва, як всі бразильські інституції, і міжнародні спостерігачі спостерігачі, які моніторили голос.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "230f9f76c20509c74398": {
+      "source_title": "Federal Reserve keeps rates unchanged despite elevated inflation - AP News",
+      "source_summary": "Federal Reserve keeps rates unchanged despite elevated inflation AP News",
+      "language": "en",
+      "title": "Федеральна резервна система не змінюється, незважаючи на підвищення інфляції - AP News",
+      "summary": "Федеральна резервна система зберігає незмінні ставки, незважаючи на підвищення інфляції в AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "6d3ac62b8e5335162974": {
+      "source_title": "A US cruise ship suspends a global voyage in Asia due to fuel costs, stranding 200 passengers - AP News",
+      "source_summary": "A US cruise ship suspends a global voyage in Asia due to fuel costs, stranding 200 passengers AP News",
+      "language": "en",
+      "title": "Круїзний корабель США призупиняє подорож по світу в Азії через витрати на пальне, обв'язуючи 200 пасажирів - AP News",
+      "summary": "Круїзний корабель США призупиняє подорож по світу в Азії через витрати на пальне, об'єднавши 200 пасажирів в AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "a46c124bc6fa2fef1b3f": {
+      "source_title": "Netanyahu bloc loses majority as most ballots counted – as it happened",
+      "source_summary": "This live blog is now closed – you can read the latest elections news hereOne apparent loser from Tuesday’s election was far-right national security minister Itamar Ben-Gvir, who was expected to better his party’s result of six seats from the 2022 elections.But instead there was stunned silence at the watch party for Otzma Yehudit (Jewish Power) in central Israel as results from the exit polls flashed across the screen, with most channels suggesting the party would remain on just six seats. Continue reading...",
+      "language": "en",
+      "title": "Блок Нетаньягу втрачає більшість з того, що більшість балатів враховували, як це сталося.",
+      "summary": "Цей живий блог вже закритий, ви можете прочитати останні новини про вибори. Один очевидний невдаха з вівторгівлі були далеко справа міністром національної безпеки Ітамар Бен-Гвір, який очікував кращого його партії в результаті шести місць з 2022 виборів. Але замість цього, було приголомшено тиша на варті Оцми Єгудт (єврейської сили) в центральному Ізраїлі, як результати від виходу з виїзду на екран, більшість каналів, які пропонують партії, залишилися на шістьох сидіннях....",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "b60f36130ad6a7d2156e": {
+      "source_title": "Brewers beat the Rays 4-1 in Game 5 to win the first World Series title in franchise history - AP News",
+      "source_summary": "Brewers beat the Rays 4-1 in Game 5 to win the first World Series title in franchise history AP News",
+      "language": "en",
+      "title": "Brewers переміг Rays 4-1 у грі 5 для того, щоб виграти першу світову серію в історії Franchise - News AP",
+      "summary": "Brewers переміг Rays 4-1 у грі 5 щоб виграти першу світову серію в Franchise Історія AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "323d78d3cb6facf0bda1": {
+      "source_title": "Charming, cantankerous Pat Murphy at age 67 leads Brewers to first World Series title - AP News",
+      "source_summary": "Charming, cantankerous Pat Murphy at age 67 leads Brewers to first World Series title AP News",
+      "language": "en",
+      "title": "Чарівний Пат Мерфі, якому 67 років, веде до першої світової серії серій під назвою \" Новини AP \"",
+      "summary": "Чарівний Пат Мерфі, якому 67 років, веде до першої світової серії серій під назвою AP News.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "3f2ce7d6b07277151823": {
+      "source_title": "Israel election: Netanyahu-led bloc holds lead with nearly 90% of votes counted",
+      "source_summary": "With nearly 90% of votes counted, the pro-Netanyahu bloc is just ahead of the anti-Netanyahu bloc, but neither grouping is expected to win a majority, with tough coalition talks ahead. Follow DW.",
+      "language": "en",
+      "title": "Вибори в Ізраїлі: блок, побудований на Нетаньягу, веде майже 90% голосів.",
+      "summary": "За підрахунками майже 90% голосів, блок про-Netanjo є попереду блоку проти Неєньягу, але не очікується, що більшість виграє, з складними коаліціями попереду. Слідкуйте за DW.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "977940ef1cea87d0ae62": {
+      "source_title": "Defence backed claim that social media footage of public servants could invite bullying",
+      "source_summary": "Official’s controversial September request for Senate hearing footage to not be shared on social media has been heavily criticisedGet our daily political email, free app or daily news podcastThe secretary of the defence department approved a senior official’s controversial idea to tell a Senate hearing that footage of public servants giving evidence should not be shared on social media because it could invite online bullying and raise national security concerns.Emails obtained by Guardian Australia under freedom of information reveal deputy secretary Celia Perkins’ planned request to the parli",
+      "language": "en",
+      "title": "Обвинувачення, що соціальні медіа можуть запросити до залякування.",
+      "summary": "У вересні з'являється вимога, щоб не ділитися кадрами із слухання сенатів у соціальних медіа, і тому вони дуже критикують нас за наші щоденні політичні повідомлення, безкоштовний додаток або щоденний трансляція відділу захисту затвердила пріоритетну офіційну ідею, щоб повідомити сенат, що не слід надавати свідчення громадським медіа, оскільки він може запросити до онлайн-страдаждання і підвищити національні проблеми безпеки. Листи, отримані Ост-Іорією, які мають свободу інформації, показують заступника секретаря Селії Перкінс.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "4dd579edd050ef39f24c": {
+      "source_title": "Spain begins mourning period after deadly train crash",
+      "source_summary": "Emergency services combed through the wreckage overnight as Civil Guard sets up clinics for relatives to provide DNA samples and help identify victimsSpain has begun three days of mourning after a high-speed rail collision – its second this year – killed 68 people and injured scores, with relatives desperately seeking news about their loved ones.The trains, one from Spain’s state-owned Renfe and the other from the private rail company Iryo, were travelling on Wednesday morning in the same direction on the line that stretches from the Spanish capital, Madrid, to the southern region of Andalusia",
+      "language": "en",
+      "title": "Іспанія починає оплакувати після смертельної аварії поїзда.",
+      "summary": "Служби невідкладної допомоги, що прочісувалися через уламки за одну ніч, коли Громадянська гвардія запустила клініки для родичів, щоб забезпечити зразки ДНК, і допомогла виявити жертви, що Іспанія розпочалася через три дні після того, як високошвидкісна рейка зійшлася на неї секунда цього року, убив 68 людей і поранень, з родичами відчайдушно шукали новини про своїх улюблених. Двигуни, один з Іспанії, з самого штату Ренфе, а інший від приватної залізничної компанії Іріо, подорожували в середу вранці в тому ж напрямку, що і на лінії від іспанської столиці Мадрида до південного регіону Андалусіа.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "d9563dde0a9f5088afe7": {
+      "source_title": "Can Turkiye’s Libya breakthrough reshape Eastern Mediterranean diplomacy?",
+      "source_summary": "Ankara wins backing from former adversaries in Libya for maritime border agreement, but other diplomatic tests remain.",
+      "language": "en",
+      "title": "Чи може Туркійса прорватися у Лівію, щоб знову перетворити дипломатію Східного Середземномор'я?",
+      "summary": "Анкара отримує підтримку від колишніх ворогів у Лівії за прикордонну угоду, але залишаються й інші дипломатичні тести.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "25c715202ef46e8f9ba7": {
+      "source_title": "Israel election results live: count of absentee ballots under way as coalition talks set to begin",
+      "source_summary": "With the final count unlikely to shift results significantly, experts say Gadi Eisenkot’s hopes of unseating Benjamin Netanyahu rest on his willingness to work with Palestinian partiesFull report: Coalition talks loom in IsraelAnalysis: Israel’s choice: Netanyahu remaining in power or a Palestinian-backed coalitionHours before the final results from Israel’s elections were in, several things were clear. Benjamin Netanyahu’s far-right coalition had lost its mandate, and the opposition had a firm majority.But most of Israel’s Jewish opposition ruled out governing with Palestinian-led parties, in",
+      "language": "en",
+      "title": "Результатами виборів в Ізраїлі є: кількість пропущених балотів, які ведуться під час переговорів між коаліціями.",
+      "summary": "З останнім підрахунком малоймовірно змінити результати, експерти кажуть, що Гаді Ейзентот має надію на те, що не буде їсти Бенджаміна Нетаньягу, який буде готовий працювати з палестистильськими партіями.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "e8ed956b8a66002e1467": {
+      "source_title": "Russia says more than 600 drones launched towards Moscow overnight",
+      "source_summary": "The attack is the latest in a series of major drone assaults targeting the Moscow region.",
+      "language": "en",
+      "title": "Росія каже, що до Москви за одну ніч прибуло понад 600 дронів.",
+      "summary": "Атака - це найсвіжіший напад на Москву.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "14d6ae63e5fa4ac70924": {
+      "source_title": "How Israel’s Election Could End",
+      "source_summary": "Neither Benjamin Netanyahu nor Gadi Eisenkot won a majority in Israel’s Parliament, leaving both with a chance to form a government. Our Jerusalem bureau chief, David M. Halbfinger, explains the possible coalitions and the obstacles to an opposition alliance that could include Arab parties.",
+      "language": "en",
+      "title": "Як Ізраїль може закінчитися",
+      "summary": "Ані Бенджамін Нетаньягу, ані Ґаді Айзенкот не виграли більшості в Ізраїлі, залишаючи обидва з шансом сформувати уряд.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "71d00eda50eb2beb7f7c": {
+      "source_title": "Airbus eyes UK-Japan-Italy fighter jet deal after rival collapse",
+      "source_summary": "Airbus chief Guillaume Faury said on Wednesday that the European plane maker could join a British-Japanese-Italian consortium to build a next generation fighter jet after the collapse of a Franco-German rival.",
+      "language": "en",
+      "title": "Аеробуси в очі Великобританії-японсько-Італія після зіткнення зі збитком",
+      "summary": "Голова повітряного автобуса Гілламе Фаурі сказав у середу, що європейський виробник літака може приєднатися до британсько-японського-італійського консорціуму, щоб побудувати реактивний літак наступного покоління після падіння франко-німецького суперника.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "c1d6061043b01a674bd5": {
+      "source_title": "Bolsonaro claims he is Brazil's true leader after fleeing to US",
+      "source_summary": "US President Donald Trump's administration has strong links to Bolsonaro and his father Jair Bolsonaro, who is under house arrest in Brazil after attempting to overturn his own electoral loss to Lula in 2022.",
+      "language": "en",
+      "title": "Болсонаро стверджує, що він справжній бразильський лідер після втечі до США.",
+      "summary": "У адміністрації США Дональда Трампа є сильні зв'язки з Болсонаро і його батьком Яір Болсонаро, який перебуває під домашнім арештом у Бразилії після спроби перекинути свою виборчу втрату Лалу в 2022 році.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "eb202e00dec56c6e4f2c": {
+      "source_title": "Judge rejects Trump effort to block California ‘noncitizen’ ballots",
+      "source_summary": "More than 100 subpoenas issued across 13 states as government ramps up search for alleged noncitizen voters.",
+      "language": "en",
+      "title": "Судді відкидають зусилля зупинити каліфорнійську еру",
+      "summary": "У 13 штатах було видано понад 100 бюлетенців, які з'їхалися на територію.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "c6093a46b8561d87e7d9": {
+      "source_title": "The great EU-Canada lovefest",
+      "source_summary": "European leaders are descending on Montreal in a bid to forge closer ties with Canada. On today’s show, host Zoya Sheftalovich catches up with Sarah Wheaton, who’s on the ground at the EU-Canada summit. They unpack what the talks could actually deliver — from defense and critical raw materials to space and AI — and […]",
+      "language": "en",
+      "title": "Великий клуб любові ЄС-Канада.",
+      "summary": "Європейські лідери збираються на Монреаль в вищому пункті, щоб створити тісні зв'язки з Канадою. що ці промови можуть принести від захисту і критичних сирих матеріалів у космос і АІ і [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "58483805f162a6d3d478": {
+      "source_title": "What to Make of Israel’s Ambiguous Election",
+      "source_summary": "Neither Benjamin Netanyahu nor his rivals won a majority, leaving Arab lawmakers as potential kingmakers in the new Parliament.",
+      "language": "en",
+      "title": "Що робити з Ізраїлем?",
+      "summary": "Ні Бенджамін Нетаньягу, ні його суперники не виграли більшості, залишивши арабських законодавців потенційними володарями у новому парламенті.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "a0145a91e313a70fcbe0": {
+      "source_title": "How will John Healey’s energy support package affect you?",
+      "source_summary": "Chancellor’s ‘new course’ includes a £100 one-off payment, low-carbon upgrade loans and an end to standing chargesJohn Healey has unveiled a package of support for households being buffeted by “global economic storms”.“I’m setting a new course to get energy costs down in line with Europe,” the chancellor said in his maiden budget. In the long term, he hopes that changes in how Britain covers the cost of renewables and grid upgrades will “drive down all aspects of energy bills”. Continue reading...",
+      "language": "en",
+      "title": "Як на вас впливатиме посилка з підтримкою енергії Джона Хайліса?",
+      "summary": "Канцлер використовує новий курс, який включає 100 фунтів (один відхідних плат), знизення викидів вуглецю і кінець видатків Джона Гілі, який виступає за підтримку домогосподарств, що були вбиті глобальними економічними бурями.' ІМП встановити новий шлях для зниження витрат на енергію у черзі з Європою, ♫ Канцлер сказав у своєму початковому бюджеті.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "9dffdd6adf66b4630432": {
+      "source_title": "How did a fishmonger who starred in an adult movie make Rocky? The film about Sylvester Stallone’s amazing triumph",
+      "source_summary": "Belittled for his speech and looks, and so short of cash he had to sell his dog, Stallone managed to write and star in one of the greatest boxing movies ever. How does Anthony Ippolito feel about playing his hero?Fifty years ago this December, cinema’s greatest underdog story hit the screen, a tale about a Philadelphia ham-and-egger who takes the world heavyweight boxing champ all the way to the final bell, losing the fight on a judge’s decision but winning the hearts of a nation. That film, of course, was Rocky. Its creation, famously, was no less remarkable an underdog story – one about an o",
+      "language": "en",
+      "title": "Як риболовний ловець, який знімався у дорослому фільмі, зробив Рокі?",
+      "summary": "Замазавши за свою промову і дивлячись, і так мало готівки він повинен був продати свого собаку, Сталон зміг написати і зіркою в одному з найкращих фільмів боксу. Як Антоні Іпполіто відчуває про гру на своєму героя? П'ятдесят років тому цей грудень, } Найкраще під догмою на екрані, казка про вуса Філадельфії, який бере світ ваговоза чемпіона в вазі весь шлях до фінального живота, програючи боротьбу за рішення судді, але перемагаючи серця нації.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "311a1686b5509d0ed7da": {
+      "source_title": "North Korea fires around 10 ballistic missiles into sea",
+      "source_summary": "The latest ballistic missile launch comes amid rising border tensions with South Korea and uncertainty over potential nuclear talks with the US.",
+      "language": "en",
+      "title": "Північна Корея стріляє близько 10 балістичних ракет у море.",
+      "summary": "Останні балістичні ракети наступають серед зростаючих на границі напруженості між Південною Кореєю і непевності щодо потенційних ядерних переговорів з США.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "5d591f10c0ef930a3c87": {
+      "source_title": "Billionaire Ambani cries tears of joy as Jio Platforms becomes the second most valued Indian firm",
+      "source_summary": "Ahead of Jio's listing, Mukesh Ambani teared up as his three children shared the journey of building Jio and vowed to create value for investors over the next 50 years.",
+      "language": "en",
+      "title": "Мільйонер Амбані плаче від радості, коли платформи Джіо стають другою найціннішою індійською фірмою.",
+      "summary": "Перед тим як Джіо написав свій список, Мюкеш Амбані розплакався, коли його троє дітей брали участь у будівництві Джіо і поклялися протягом наступних 50 років створити для інвесторів цінність.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "ea239b93919b7b5716c8": {
+      "source_title": "Brewers beat the Rays to win the first World Series title in franchise history",
+      "source_summary": "The small-ball Milwaukee Brewers playing in the smallest market in the majors are World Series champions for the first time. The championship comes in the 58th season for a franchise that began as the Seattle Pilots in 1969.",
+      "language": "en",
+      "title": "Брюери перемогли Рейса, щоб виграти першу світову серію в історії франкізі.",
+      "summary": "Чемпіонат Мілваукі Бреверс, що вперше з'явився на найменшому ринку, - чемпіони з фінішних ігор світу. 1969 року.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "c5251ad9de981cad43ff": {
+      "source_title": "Outcry after Call of Duty maker uses real footage of deadly Seoul crowd crush in new video game",
+      "source_summary": "Bereaved families have urged the publisher of Call of Duty: Modern Warfare 4 to remove a clip from the game that shows a figure performing CPR and bodies lying in the streetBereaved families in South Korea have demanded that the makers of Call of Duty remove harrowing footage of the deadly 2022 Seoul crowd crush from the latest instalment of the video game.The clips, which are seconds-long, appear in the opening moments of Call of Duty: Modern Warfare 4, and are used to represent a scenario of civilian casualties during a fictional North Korean invasion. Continue reading...",
+      "language": "en",
+      "title": "Після того, як буде викликано виробника Duty, в новій відеоіграх буде використано реальні кадри смертельного вибуху натовпу Сеула.",
+      "summary": "Сім' ї, що стоять на вулицях Південної Кореї вимагали, щоб виробники Дзвінка 4 усунули музичний уривок з гри, де показано фігуру, що виконує роль CPR, і тіла, що лежать на вулиці. Сім' ї, що лежать на вулиці, вимагали, щоб виробники Дзвінка Дюті видалили жахливі кадри смертельного натовпу 2022 року Сеула, розчавленого з найстаціональнішої гри. Композиції, які є секундами, з' явилися у момент відкриття Дзвінка Дюті: 4 і використовуються для відображення сценарію цивільного життя під час уявного вторгнення в Корейську Корейську....",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "633b486e41bb3054a7b0": {
+      "source_title": "Europe’s oil bill: EU pays €10bn more per month than in 2025",
+      "source_summary": "Euronews Business takes a closer look at how Europe’s petroleum oil import bill has risen amid tensions in the Middle East - and experts do not expect costs to fall in the near future.",
+      "language": "en",
+      "title": "Європа платить олійний закон: ЄС платить 10b за місяць більше, ніж у 2025 р.",
+      "summary": "Євро-бізнес - бізнес придивляється ближче до того, як європейський закон про дальню нафти зріс серед напружень на Близькому Сході, і експерти не сподіваються, що витрати в недалекому майбутньому впадуть.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "9578034954316b2b907d": {
+      "source_title": "Obama mocks Trump team’s Cheesecake Factory response",
+      "source_summary": "Obama mocks Trump team’s Cheesecake Factory response",
+      "language": "en",
+      "title": "Обама висміює команду Переводу Фабрики",
+      "summary": "Обама висміює команду Переводу Фабрики",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "b0ffbfe4ae45a332a6ba": {
+      "source_title": "Gold slips as markets assess Fed signals, await US inflation data - Reuters",
+      "source_summary": "Gold slips as markets assess Fed signals, await US inflation data Reuters",
+      "language": "en",
+      "title": "Золото прослизає, коли ринки оцінюють сигнали ФРС, очікуючи на інформацію про інфляцію США - Рейтер.",
+      "summary": "Золото прослизає, коли ринки оцінюють сигнали ФРС, очікуючи інформаційного агентства з інфляції США.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "4527f9717cd56cc786b9": {
+      "source_title": "Ukraine sends drones towards Moscow, Russia strikes Kharkiv, officials say - Reuters",
+      "source_summary": "Ukraine sends drones towards Moscow, Russia strikes Kharkiv, officials say Reuters",
+      "language": "en",
+      "title": "Росія направляє дронів до Москви, а Росія б'є Харків, кажуть представники агентства Рейтер.",
+      "summary": "Росія атакує Харків, каже Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "9fbed71b50d954afa3ba": {
+      "source_title": "Sánchez pledges tough line on possible safety failures after Toledo train crash",
+      "source_summary": "One of Europe's deadliest train disasters this century has raised fresh questions about safety on Spain's rail network after the transport minister reported an \"error\" and \"inexplicable circumstances\" that led to the crash.",
+      "language": "en",
+      "title": "Санчез обіцює ненадійну лінію про можливі небезпеки після аварії поїзда в Толедо.",
+      "summary": "Одна з найсмертоносніших трагедій європейського поїзда цього століття викликала нові питання про безпеку в іспанській залізничній мережі після того, як міністр транспорту повідомив про \"провину\" та \"незбагнені обставини,\" які призвели до аварії.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "3c0d2bc1ba1140ddddb8": {
+      "source_title": "Cuauhtémoc Cárdenas, Who Helped End One-Party Rule in Mexico, Dies at 92",
+      "source_summary": "Mr. Cárdenas, the only son of a Mexican president, never won the office but became a leading figure in the country’s democratic transformation.",
+      "language": "en",
+      "title": "Куаухтеок Карденас, який допоміг закінчити правління однієї групи в Мексиці, помирає у 92 роки",
+      "summary": "Пан Карденас, єдиний син мексіканського президента, ніколи не вигравав посади, але став головною особою в країні, є демократичне перетворення.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "7b65e5d252225d772755": {
+      "source_title": "A Ukrainian City in the Kill Zone Relishes a Moment of Peace",
+      "source_summary": "A rare localized peace deal announced by the first lady, Melania Trump, offered a brief respite for Kherson, where Russian drones and artillery have long terrorized civilians.",
+      "language": "en",
+      "title": "Українське місто у зоні знищення змінює момент миру",
+      "summary": "Рідко колишня угода про мир, оголошена першою дамою Меленією Трамп, запропонувала короткий перепочинок для Герсона, де російські дрони та артилерія вже довгий час тероризували цивільних.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "c489d1bf57c33d875a1a": {
+      "source_title": "U.S. workers’ connection to their jobs hits lowest level since 2011, Gallup poll finds",
+      "source_summary": "Gallup finds U.S. worker engagement on the job sinking to a level not seen since 2011, with remote and hybrid employees and AI primary factors.",
+      "language": "en",
+      "title": "Американські працівники, починаючи з 2011 року, з'єднуються зі своїми завданнями, мають найнижчий рівень.",
+      "summary": "Галлоп знаходить, що заручення між робітниками в СШ, яке падає до рівня, якого ще не бачили з 2011 р., з віддаленими й гібридними робітниками й основними факторами штучного інтелекту.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "6b405e62ca125a10d87c": {
+      "source_title": "Trump methane policy rollback may have minimal impact on crude prices, EPA says",
+      "source_summary": "The EPA projects Trump’s methane rollback would only lower 2027 U.S. crude prices 11 cents a barrel, while lifting domestic oil output 0.09%.",
+      "language": "en",
+      "title": "Відставання марсоходів, можливо, має мінімальний вплив на сирі ціни, говорить EPA",
+      "summary": "Проект EPA, що складається з метану, знизив би тільки 2027 США. сирі ціни 11 центів за барель, піднімаючись на виробітки домашнього жиру 0.09%.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "266a56bb2649013e44f2": {
+      "source_title": "In the Middle East, the next front line is the narrative",
+      "source_summary": "In the post-war era, the struggle to control perception and relay truthful information matters just as much as navigating real-life events.",
+      "language": "en",
+      "title": "На Близькому Сході, наступна лінія - це історія.",
+      "summary": "У післявоєнні часи боротьба за контроль сприйняття і поширення правдивої інформації має значення так само, як і пересування подіями реального життя.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "b24dc8e8d8eff674fbfc": {
+      "source_title": "Don’t turn a methane pause into a retreat",
+      "source_summary": "A three-year delay would undermine investor confidence, weaken preparation and leave Europe less competitive.",
+      "language": "en",
+      "title": "Don't перетворити метан паузи в відхід",
+      "summary": "Трирічна затримка підірве довіру інвестора, ослабить підготовку і залишить Європу менш конкурентоспроможною.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "4914c5519070c105539c": {
+      "source_title": "North Korea fires around 10 ballistic missiles toward sea off east coast, Seoul says - Reuters",
+      "source_summary": "North Korea fires around 10 ballistic missiles toward sea off east coast, Seoul says Reuters",
+      "language": "en",
+      "title": "Північна Корея стріляє біля 10 балістичних ракет, що ведуть до моря на східному узбережжі, каже Сеул - Рейтер.",
+      "summary": "За словами Рейтера, Північна Корея стріляє біля 10 балістичних ракет, які ведуть до моря на східному узбережжі.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "8e2edd37ea5512a5f583": {
+      "source_title": "Incredible celebrations as last patient leaves a DRC Ebola centre",
+      "source_summary": "Footage shows healthcare workers celebrating at an Ebola treatment centre in DR Congo after the last patient left.",
+      "language": "en",
+      "title": "Неймовірні свята, коли пацієнт востаннє залишає центр ДРК - Ебола.",
+      "summary": "Угустки показують, що працівники охорони здоров'я святкують у лікувальному центрі Еболи в ДР Конго після останнього від'їзду пацієнта.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "dbc659959c59b339e5c6": {
+      "source_title": "Chinese AI model carries out complex cyberattacks in controlled tests, researchers say - Reuters",
+      "source_summary": "Chinese AI model carries out complex cyberattacks in controlled tests, researchers say Reuters",
+      "language": "en",
+      "title": "Китайська модель комп'ютерного інтелекту проводить складні кібератаки у контрольованих тестах, як кажуть дослідники - Рейтер.",
+      "summary": "Китайська модель комп'ютерних технологій проводить складні кібератаки у контрольованих тестах, як кажуть дослідники Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "e95846d8eea0c1e3f68e": {
+      "source_title": "First Sunrise On The Reaping Reactions Tease Another Hit For The Hunger Games Franchise",
+      "source_summary": "If reactions from critics are any indication, The Hunger Games: Sunrise on the Reaping looks to be another enormous hit for the long-running film franchise.",
+      "language": "en",
+      "title": "Перше сонце сходить після жативної реакції, яка ще більше шкодить голодуючим змаганням",
+      "summary": "Якщо реакція критиків є будь-якою, то \"Голодні ігри\": \"Сончерство\" на пологах здається ще одним величезним ударом для фільму \"Франшиз.\"",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "0ae734ad706e607396bc": {
+      "source_title": "Is There a ‘Safest Seat’ in a Train Crash? Experts Say It’s Not So Simple.",
+      "source_summary": "After a high-speed collision near Toledo, Spain, killed at least 68 people, rail safety experts said the rough consensus that it is best to sit in the middle of a train has its limits.",
+      "language": "en",
+      "title": "Чи існує \" автотрансляція \" в \" Двигун \"? Експерти кажуть, що це не так просто.",
+      "summary": "Після високошвидкісного зіткнення поблизу Толедо, Іспанії, загинуло щонайменше 68 чоловік, експерти з питань безпеки залізничних колій сказали, що краще сидіти посередині поїзда, ніж сидіти.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "5447372ee9e21e4c0076": {
+      "source_title": "Hello Kitty maker cuts ties with Japanese spy drama after China backlash",
+      "source_summary": "Sanrio has apologised after its merchandise line with Japanese TV series Vivant drew criticism.",
+      "language": "en",
+      "title": "Привіт, творець Кітті порвав зв'язки з японською шпигунською драмою після китайського зворотного удару.",
+      "summary": "Санріо вибачився за свою лінію торгівлі японським телесеріалом Вівант, і це критикувало його.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "fd61cdc3092d26865488": {
+      "source_title": "Activists accuse Israeli settlers of assault in occupied West Bank",
+      "source_summary": "Footage shows men, some armed, beating a US journalist and an Israeli-Russian activist in Umm al-Khair.",
+      "language": "en",
+      "title": "Активісти звинувачують ізраїльських поселенців у нападі на окупований Західний берег.",
+      "summary": "У лагерях показують чоловіків, озброєних, б'ючих американського журналіста і ізраїльського-російського активіста в Ум- аль-Кейрі.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "1692af305bfe0ffbf51c": {
+      "source_title": "How students toppled Serbia’s strongman – podcast",
+      "source_summary": "After two years of protests, a student-led movement has defeated Serbia’s authoritarian leader, Aleksander Vučić, at the ballot box. But can a leaderless movement govern a country? Send your comments and questions to tif.questions@theguardian.comSerbia’s political landscape has been upended. On Sunday, record numbers of people went to the polls and voted to end the 12-year rule of Aleksandar Vučić. And who did they back instead? A list of candidates, half of whom have PhDs, put forward by student activists whose protests have rocked the Balkan country for the past two years.Helen Pidd speaks t",
+      "language": "en",
+      "title": "Те, як студенти стають Серіою, говорить про жорстку людину",
+      "summary": "Після двох років протестувань, рух студентів переміг Сербії, авторитарного лідера, Александера Вучіа, на бюлетені, але чи може безпровідний рух керувати країною? Надсилайте ваші коментарі і питання до тіф. Питання@ guardian.comSerbias } Передивний політичний пейзаж. У неділю, запис кількості людей пішов на опитування і проголосував, щоб закінчити 12-річне правило Олександра Vucicilutes.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "b576291bd950df411e76": {
+      "source_title": "EU and Canada eye now-or-never window to Trump-proof their ties",
+      "source_summary": "Brussels and Ottawa aim for ambitious upgrade in their relationship while the U.S. president is occupied by the midterms — and before Europe’s political landscape shifts.",
+      "language": "en",
+      "title": "Взаємозв'язок між ЄС та Канадою",
+      "summary": "Брюссель і Оттава прагнуть амбітного оновлення у своїх стосунках, тоді як президент США зайнятий середніми частинами, і перед Європою йде на політичні зміни.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "15e816f3aad343d010c5": {
+      "source_title": "US warns allies to prepare for possible Iran strikes, retaliation after elections, AP sources say - AP News",
+      "source_summary": "US warns allies to prepare for possible Iran strikes, retaliation after elections, AP sources say AP News",
+      "language": "en",
+      "title": "США застерігає союзників, щоб підготуватись до можливих страйків в Ірані, відімстившись після виборів, джерела АС кажуть - AP News",
+      "summary": "США застерігає союзників, щоб підготуватись до можливих страйків Ірану, відімститись після виборів. Джерела А.П.С. кажуть AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "711e1bfc5f949876f0e8": {
+      "source_title": "Samsung Electronics shares slid despite record profit in the third-quarter",
+      "source_summary": "Samsung Electronics reported third-quarter earnings on Thursday.",
+      "language": "en",
+      "title": "Акції Самсунґа Електроніка стрибають, незважаючи на рекордний прибуток у третій чверті.",
+      "summary": "Електроніка Самсунга повідомила, що в четвер заробітку на третій четвер.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "b05edcfc262a02f56e0f": {
+      "source_title": "Strikes on Darfur market in Sudan killed more than 100, rights group says",
+      "source_summary": "Women and children killed as witnesses say attack struck civilian shopkeepers, RSF fighters.",
+      "language": "en",
+      "title": "Страти на ринку Дарфурів у Судані вбили понад 100 осіб.",
+      "summary": "Жінки і діти загинули, як кажуть свідки, напад на цивільних крамарів, бійці РСФ.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "6e994b4c804d00f20131": {
+      "source_title": "Israeli settlers savagely attack journalists in occupied West Bank",
+      "source_summary": "Videos circulating on social media show Israeli settlers assaulting three foreign journalists in the West Bank",
+      "language": "en",
+      "title": "Ізраїльські поселенці жорстоко нападають на журналістів у окупованому Західному березі.",
+      "summary": "Відеофільми, що циркулюють у соціальних медіа, де ізраїльські поселенці нападали на трьох іноземних журналістів у Західному банку.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "d2c719fadd1a83835da6": {
+      "source_title": "Al Jazeera speaks to El-Sayed as religion becomes flashpoint in Senate race",
+      "source_summary": "Democratic candidate Abdul El-Sayed is pushing back against attacks over his Muslim faith.",
+      "language": "en",
+      "title": "Аль-Джазіра розмовляє з Ел-Сеаї, коли релігія стає спалахом у гонках сенатів.",
+      "summary": "Кандидат демократичної революції Абдул ЕлСаїд знову виступає проти нападів на його мусульманську віру.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "17c3e76e2706cba33c35": {
+      "source_title": "Trevor Kraus - Canada.ca",
+      "source_summary": "Trevor Kraus Canada.ca",
+      "language": "en",
+      "title": "Тревор Краус - Канада.ca",
+      "summary": "Тревор Краус Канада.ca",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "c29a39126f667d71275d": {
+      "source_title": "Kalshi, cofounders hit with criminal charges in US state of Utah",
+      "source_summary": "The charges come after a federal judge ruled that Utah could enforce its anti-gambling laws against prediction markets.",
+      "language": "en",
+      "title": "Калші, співзасновники отримали кримінальні звинувачення в штаті Юта (США).",
+      "summary": "Обвинувачення прийшли після того, як федеральний суддя видав рішення, що Юта може втілювати свої анти-гамуючі закони проти провіщення ринків.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "06975372184df6654699": {
+      "source_title": "Asian shares fall as Alphabet earnings miss drags Wall St futures lower - Reuters",
+      "source_summary": "Asian shares fall as Alphabet earnings miss drags Wall St futures lower Reuters",
+      "language": "en",
+      "title": "Азартні ресурси Азії зменшуються, коли альфабет не отримує платні від Волла Св.",
+      "summary": "Азартні ресурси Азії падають, коли альфабет не отримує зарплати через Уолл-Стерт-Вайерс, нижчої Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "0fe9ae49728d7687979e": {
+      "source_title": "Israel’s Parties Gird for Wrangling to Form a Government, With No Clear Path",
+      "source_summary": "Votes are still being counted, but it appears that neither Prime Minister Benjamin Netanyahu’s right-wing coalition nor the opposition alliance headed by Gadi Eisenkot will have a majority.",
+      "language": "en",
+      "title": "Ізраїль складається з частин, підперезаних для встановлення уряду без чистого шляху",
+      "summary": "Vets все ще підраховують, але, здається, що ні прем'єр-міністр Бенджамін Нетаньягу не підтримує пряму коаліцію, ні опірний союз, який очолюватиме Гаді Ейскентет, не матиме більшості.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "c9f62522d0b662ab900a": {
+      "source_title": "Taiwan flags 'obvious' threat from 50 Chinese vessels in wide sweep of waters - Reuters",
+      "source_summary": "Taiwan flags 'obvious' threat from 50 Chinese vessels in wide sweep of waters Reuters",
+      "language": "en",
+      "title": "Тайванські прапори \"небезпеки\" від 50 китайських суден у широких заливах вод - Рейтер",
+      "summary": "Тайванські прапори \"небезпеки\" від 50 китайських суден у широкому розсіку водних Рейтер",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "cfd5e9071be8aa35edf3": {
+      "source_title": "Anduril now says its BlueChip laptop will meet Buy American standards at launch",
+      "source_summary": "On Tuesday, defense contractor Anduril and chipmaker Qualcomm announced a partnership to build laptops entirely in the United States, starting with a single model in 2027. They also announced a \"long-term goal\" of pushing the computer industry to create \"a fully domestic supply chain.\" Even a single Made-in-USA laptop would be a surprise, because no […]",
+      "language": "en",
+      "title": "Андуріль зараз каже, що її ноутбук Blue Chipp буде відповідати стандартам \" Купить\" американців під час запуску",
+      "summary": "У вівторок, підрядчик захисту Anduril і мікросхема Квалком оголосив партнерство, щоб повністю побудувати ноутбуки у Сполучених Штатах, починаючи з однієї моделі у 2027 році.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "3e06000f2a3a850c99d2": {
+      "source_title": "Forecasters are predicting a warmer and wetter winter. Here's how El Niño will affect your region.",
+      "source_summary": "El Niño years typically lead to more precipitation and higher-than-average temperatures. The latest data shows the different potential impacts by region.",
+      "language": "en",
+      "title": "Ось як Ель Ніньо вплине на ваш регіон.",
+      "summary": "Ель- Ніньо роки, як правило, призводять до більшої кількості опадів і підвищення температури. Останні дані показують різні потенційні наслідки для регіону.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "b57274baf87c124ed27c": {
+      "source_title": "Vance Proposes Restarting Peace Talks in Outreach to Iranian Official",
+      "source_summary": "In his letter, the vice president suggested an immediate resumption of comprehensive talks, including about Iran’s nuclear program.",
+      "language": "en",
+      "title": "Vance Proposions Перезапустити переговори про мир у перемаганні до іранських офіційних",
+      "summary": "У своєму листі віце - президент запропонував негайно перевизначення повних промов, у тому числі про ядерну програму.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "35b4c318a3bf0bd6f781": {
+      "source_title": "China’s tech darlings are losing their shine. Here’s what’s behind the sell-off",
+      "source_summary": "China's tech rally is being tested as as investors question whether AI profits can justify lofty valuations.",
+      "language": "en",
+      "title": "У Китаї, глядачі, втрачають свій блиск.",
+      "summary": "Китайський технологічний мітинг перевіряється як інвестори ставлять під сумнів те, чи доходи ШІ можуть виправдати високі оцінки.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "4d12618f8b5bab9963fb": {
+      "source_title": "‘They mobilized a whole government response to that joke’: Obama laughs off Trump attacks in rally for Ossoff",
+      "source_summary": "Former US president comes to Georgia to support Jon Ossoff for US Senate and Keisha Lance Bottoms for governorBarack Obama, speaking at a Wednesday campaign rally in suburban Atlanta, offered a closing argument for Democrats in the final week of the midterm election campaign.“These are not serious people,” he said of Donald Trump and the Republican party. “And we’re all paying the price for their lack of seriousness.” Continue reading...",
+      "language": "en",
+      "title": "Обама виступає з наступів Трамп в з'їзді за Осроф.",
+      "summary": "Колишній президент США прийшов до Грузії, щоб підтримати Джона Ософфа для Сенату США і Кеші Ланса Дейдса для губернатора Барака Обама, виступаючи на мітингу в Приміській Атланті, запропонував кінцевий аргумент для демократів в останній тиждень виборних виборів.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "e992d424f6f4578ba2fa": {
+      "source_title": "Girl seriously injured in wolf attack at German wildlife park",
+      "source_summary": "An eight-year-old girl has been seriously injured in a wolf attack at a wildlife park in Germany.",
+      "language": "en",
+      "title": "Дівчата серйозно поранені під час нападу вовків у німецькому парку дикої природи.",
+      "summary": "Восьмирічна дівчинка була серйозно поранена під час нападу вовків у німецькому парку.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "4fa021c3deff66f40dea": {
+      "source_title": "Serbians storm TV studio as pro-Vucic media faces reckoning",
+      "source_summary": "Serbians stormed a TV studio and confronted its editor-in-chief after a student-led protest movement swept into power.",
+      "language": "en",
+      "title": "Серби штурмують телестудії як про-вукові медіа відрахування",
+      "summary": "Серби штурмували телестудію і стикнулися зі своїм редактором після того, як студентський рух протесту проник у владу.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "8144c2c691fe96d03064": {
+      "source_title": "Bolsonaro in Miami: I am the ‘true president-elect’",
+      "source_summary": "Flavio Bolsonaro claimed to be the ‘true president-elect’ of Brazil in his first statement since fleeing to the US.",
+      "language": "en",
+      "title": "Болсонаро в Майамі: я президент-електрон",
+      "summary": "Флавіо Больсонаро заявив, що є президентом Бразилії у його першому заяві з моменту втечі до США.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "85c19d704ac6bc6ce6aa": {
+      "source_title": "Mark Carney isn’t the climate hero Europeans think",
+      "source_summary": "Canada's prime minister used to be an eco-warrior. Now, not so much.",
+      "language": "en",
+      "title": "Марк Карні - це те, що європейці думають про кліматичного героя.",
+      "summary": "Прем'єр-міністр Канади колись був еко-воїром.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "d0adcc04bc19d78cdeb9": {
+      "source_title": "Utah files criminal charges against prediction market Kalshi and company co-founders",
+      "source_summary": "Firm calls charges, which include violating state gambling ban and profiting from illegal activity, ‘crazy overreach’Utah on Wednesday filed criminal charges against prediction market operator Kalshi and two of its executives, months after a federal judge rejected Kalshi’s effort to prevent Utah from enforcing its strict anti-gambling laws against the activity.The felony charges could represent a new tactic in how states try to assert regulatory authority over the fast-expanding activity, a clash that appears headed to a showdown at the US supreme court. Continue reading...",
+      "language": "en",
+      "title": "Файли в Юта, що звинувачують у злочині проти продажу прогнозів на ринку Калші та компанії співзасновників",
+      "summary": "Фірмові дзвінки, які містять порушення державної азартної заборони і вигоду від нелегальної діяльності, \"Отта\" в середу, включали кримінальні звинувачення проти передбачувача ринку Калші і двох її керівників, через місяці після того, як федеральний суддя відхилив зусилля Калшіса, щоб запобігти строгим антигамінантним законам Юти проти діяльності. Кримінальні звинувачення можуть представляти нову тактику в тому, як штати намагаються затвердити регуляторні права над швидкою діяльністю, конфлікт, який, здається, прямує до висунення на вищому суді США. Продовжуйте читання...",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "007c02af63041f601d8c": {
+      "source_title": "Euro steady before ECB decision, dollar holds ground as Fed stands pat - Reuters",
+      "source_summary": "Euro steady before ECB decision, dollar holds ground as Fed stands pat Reuters",
+      "language": "en",
+      "title": "Євро стійкий перед прийняттям рішення ECB, долар стоїть на місці, як ФРС - Рейтер.",
+      "summary": "Євро стійкий перед прийняттям рішення ECB, долар стоїть на місці як Fed stands parsed Reuters",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "b2370ad9961630caca29": {
+      "source_title": "‘The Mosquito Bowl’ Review: Football Heroes Take to the Battlefield in Peter Berg’s Emptily Macho WWII Epic",
+      "source_summary": "No one familiar with the oeuvre of Peter Berg — the action merchant behind the Afghanistan war drama “Lone Survivor” and the improbably pumped-up boardgame adaptation “Battleship” — should approach “The Mosquito Bowl” expecting great restraint or good taste. Ostensibly, Berg’s Netflix-backed combat epic is fighting the same fight as Terrence Malick’s “The Thin Red […]",
+      "language": "en",
+      "title": "Футбольний героїс Вхід до поля бою у Пітера Бергас Емптіо Мачо ВВІІ",
+      "summary": "Ніхто не знайомий з об'єктом Петра Берга, який перебуває за війною в Афганістані, де відбувається ♫ Конегенція, а також адаптація до настільної гри, що базується на ній, повинна підходити до \" Москіто Боуль\" і очікувати на велику стриманість або добрий смак.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "1c275b5608fa93993867": {
+      "source_title": "Rays ace Drew Rasmussen starts World Series Game 5 on short rest, allows 1 run over 4 innings - AP News",
+      "source_summary": "Rays ace Drew Rasmussen starts World Series Game 5 on short rest, allows 1 run over 4 innings AP News",
+      "language": "en",
+      "title": "Raes ace Drew Rasmussen запускає Світову серію ігор 5 з коротким відпочинком, дозволяє 1 running over 4 innings - AP News",
+      "summary": "Raes ace Drew Rasmussen запускає Світову серію ігор 5 з коротким відпочинком, дозволяє 1 running over 4 innings AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "0fb97cbc377bdc7efb98": {
+      "source_title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+      "source_summary": "The defeated Brazilian candidate claims to be the victim of a coup d’état and political persecution, recycling unsubstantiated allegations of “electoral fraud”.",
+      "language": "en",
+      "title": "Флавіо Болсонаро заперечує втечу Бразилії після посадки в Майамі.",
+      "summary": "Переможений бразільський кандидат заявляє бути жертвою перевороту дсетатата й політичного переслідування, піддаючи непоправних заяв про селекторальну підробку.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "38597037ad3ea821cd31": {
+      "source_title": "Our next steps for Alphabet stock after earnings disappoint at nearly every turn",
+      "source_summary": "Alphabet whiffed.",
+      "language": "en",
+      "title": "Наші наступні кроки для акції Альбету після заробітку, розчарованих майже на кожному кроці.",
+      "summary": "Алфабет хлюпнув.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "888df042e229f4c7d2ee": {
+      "source_title": "Canada and EU drop associate membership plan in bid to deepen ties",
+      "source_summary": "Canada and the European Union will pursue closer ties but have dropped a proposal for associate EU membership, according to a joint declaration ahead of Thursday’s summit in Montreal. Prime Minister Mark Carney is seeking to reduce Canada’s reliance on the US, despite warnings from Donald Trump.",
+      "language": "en",
+      "title": "У Канаді та ЄС задля посилення зв'язків з метою скоротити план членство та ЄС.",
+      "summary": "Європейський Союз домагатиметься ближчих зв'язків, але не зробить пропозиції про партнерство з ЄС, згідно з спільною декларацією напереду в Монреалі.П'єр-міністр Марк Карні намагається зменшити споживання Канади, незважаючи на попередження Дональда Трампа.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "b80753e8d8b8da5f6453": {
+      "source_title": "Samsung sees AI chip shortage worsening, keeps investors in suspense on returns - Reuters",
+      "source_summary": "Samsung sees AI chip shortage worsening, keeps investors in suspense on returns Reuters",
+      "language": "en",
+      "title": "Самсунг бачить, що кількість чіпів AI погіршується, сприяє тому, що інвестори в напрузі на віддачу - Reuters",
+      "summary": "Самсунг бачить, що кількість мікросхеми AI погіршується, допомагає інвесторам в напрузі на Reuters Reuters",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "0884e8514b63839104d3": {
+      "source_title": "Judge denies the Justice Department's bid to stop processing California ballots",
+      "source_summary": "While the judge rejected the Department of Justice's unprecedented demand in California, the case isn't over yet. The federal government immediately filed notice that it will appeal.",
+      "language": "en",
+      "title": "Судья отрицает предложения департамента судьи о перестанении работы в Калифорнии.",
+      "summary": "Тоді як суддя відхилив безпрецедентний попит Міністерства юстиції в Каліфорнії, справа ще не закінчилась.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "bc87cc2eb3842c137d5c": {
+      "source_title": "EU countries block Canada's 'associate membership' plan",
+      "source_summary": "European Commission President Ursula von der Leyen wanted to give Canada a special status within the EU. But Germany and other member states have raised objections ahead of a summit in Montreal.",
+      "language": "en",
+      "title": "Країни-члени ЄС блокують план \"узгодження\" канадського членства.",
+      "summary": "Президент Європейської Комісії Урсула фон дер Лейен хотів надати Канаді особливого статусу в межах ЄС, але Німеччина та інші країни-члени висунули заперечення перед самітом у Монреалі.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "58dce71ac0def9e891a0": {
+      "source_title": "Judge says Trump bid to set aside California ballots would ‘wreak havoc’ on democracy - Reuters",
+      "source_summary": "Judge says Trump bid to set aside California ballots would ‘wreak havoc’ on democracy Reuters",
+      "language": "en",
+      "title": "\"Суд\" каже: \"Дивись, я хочу відкласти каліфорнійські балаки, щоб вони стали на захист демократії.",
+      "summary": "Суд каже, що \"Часи\" відкинуть каліфорнійські балаки, а саме, на благо демократії Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "d9a72121c5f4ecf7510d": {
+      "source_title": "Riot police deployed in Madrid as protests erupt over deadly train crash",
+      "source_summary": "A deadly train crash fuelled anger in Spain as far-right demonstrators clashed with police",
+      "language": "en",
+      "title": "У Мадриді, коли протести проти смертельного краху поїзда, що вибухнув, ввелися поліцейські - пілоти.",
+      "summary": "Смертоносна аварія розпалила гнів в Іспанії, коли правоправі демонстранти зіткнулися з поліцією.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "18f69200d08648a174a1": {
+      "source_title": "Israelis rally for Jewish-Arab government after election gains",
+      "source_summary": "Israelis rallied for a Jewish-Arab gov’t after parties representing Israel’s Arab citizens made gains in the election.",
+      "language": "en",
+      "title": "Ізраїльські збори для єврейського арабського уряду після виборів",
+      "summary": "Ізраїль зібрався для єврейської Араб говт за партією, що представляла Ізраїль, арабські громадяни отримували прибуток під час виборів.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "7d2845e9ed9c6db39a26": {
+      "source_title": "Australian SAS officers knew about unlawful ‘throwdowns’ on dead Afghans, report says",
+      "source_summary": "Nothing done to stop planting weapons on dead Afghans, ADF inspector says, as ‘breakdown of command’ allowed ‘egregious behaviour’Get our daily political email, free app or daily news podcastSome Australian SAS officers knew that soldiers under their command were using “throwdowns” – planting weapons on dead Afghan civilians to portray them as combatants – but did nothing to stop the unlawful practice, a previously unpublished military report has said.Posted online this week, the executive summary of a 2021 investigation into the “cultural context” of the special operations command by the insp",
+      "language": "en",
+      "title": "Згідно з повідомленням, австралійські офіцери SES знали, що незаконні ходи мають відношення до мертвих афганців.",
+      "summary": "І ніщо не зупинило наситиння зброї над мертвими афганцями, сказав інспектор АДФ, як ♫ Виходячи з команди, ♫ дозволено } epegrego------приходьте до нашого щоденного політичного листа, безкоштовного додатку або щоденного трансляції новин деяких австралійських офіцерів СС знали, що солдати під їхньою командою використовують }Висаджують зброю над мертвими афганськими цивільними людьми, щоб показати їх як бійців, але нічого не зробили, щоб зупинити незаконні дії, колишній непущений військовий звіт сказав. У цьому тижні офіційний огляд 2021 року в культурному контексті цих операцій за допомогою інсп",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "1358dcf28f5682ed1892": {
+      "source_title": "Surprise Showing by Arab Parties in Israeli Vote Puts Them in Spotlight",
+      "source_summary": "The Arab parties have long been kept on the political sidelines. But stunning turnout by their supporters makes the Arab minority an Israeli political reality that cannot be ignored.",
+      "language": "en",
+      "title": "Несподівана несподіванка, яку показують арабські партії в ізраїльській воєводі, ставить їх у прикрих осередках",
+      "summary": "Арабські партії вже довгий час підтримували політичні партії, але вражаючий відступ їхніх прихильників робить арабську меншість ізраїльською політичною реальністю, яку неможливо ігнорувати.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "bdcc13627966087bf9b3": {
+      "source_title": "‘The Hunger Games: Sunrise on the Reaping’ First Reactions Call Prequel the ‘Rogue One’ of the Franchise and Praise Joseph Zada as Haymitch",
+      "source_summary": "“The Hunger Games: Sunrise on the Reaping” has officially premiered, and members of the film press are already calling the sixth installment a “perfect adaptation” that breathes “new life” into the franchise. “Sunrise on the Reaping” is the second “Hunger Games” prequel movie following 2023’s “The Ballad of Songbirds & Snakes.” Film critic Griffin Schiller […]",
+      "language": "en",
+      "title": "Ігри \"Готів\": Сонце сходить на лінії, яка йде на схід. Перша з них - \"Прекель.\"",
+      "summary": "Ігри: Сонце, що сходить на дріт, офіційно переді мною, і члени плівки вже називають шосту частину фільму, яка відповідає передінню, що дихає новим життям у франшизі. }Виходить на жування, це другий фільм \"Гонґел\" після 2023 року, \"Медка Songpings & Snakes.\" } Критик Гріффін Шейлер [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "8a37811e7663759659f1": {
+      "source_title": "CoreWeave and other neocloud stocks drop after Microsoft capex comes in below expectations",
+      "source_summary": "Shares of CoreWeave, Nebius and IREN fell as Microsoft's lower-than-expected capex figure points to infrastructure partners taking longer to deliver capacity.",
+      "language": "en",
+      "title": "CoreWeave та інші неохмарні акції падіння після того, як Microsoft Capex буде нижче очікувань",
+      "summary": "Спільні ресурси CoreWeave, Nebius і IREN впали, як фігури з нижніми планами Microsoft, які визначаються, що стосуються інфраструктурних партнерів, які потребують більше часу для передачі потужності.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "5f4afe2ec34f07fb7af4": {
+      "source_title": "Inside India newsletter: New Delhi approves $22 billion in military spending amid China border tensions",
+      "source_summary": "American, Israeli, and Russian defense manufacturers are likely to find substantial opportunities in India's expanding defense market",
+      "language": "en",
+      "title": "В індійському інформаційному бюлетені: Нью Делі схвалює 22 мільярди доларів вартості військових витрат серед кордонних напруг Китаю",
+      "summary": "Американські, ізраїльські та російські виробники захисту, ймовірно, знайдуть істотні можливості на ринку захисту, який розшириться.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "aabf40f29df8bb47efe9": {
+      "source_title": "‘Smile 3’ Sets David Bruckner to Direct While Franchise Creator Parker Finn Helms ‘Possession’ Remake (EXCLUSIVE)",
+      "source_summary": "Put on a happy face, because “Smile 3” is officially in the works. Paramount has hired David Bruckner to direct and Nick Antosca to write the screenplay. They’re taking over for Parker Finn, who created the series and will remain involved as a producer alongside Temple Hill. (Finn pitched the framework for the third installment.) […]",
+      "language": "en",
+      "title": "} 3- вказує Девід Брюкнер на пряму директиву, тоді як Творець Frankshise Parker Fingn Hems ⇩Pos} remake (EXCLUSIVE)",
+      "summary": "Знайдіть на щасливому обличчі, тому що Смілу 3 } офіційно в роботах. Параунд найняв Девіда Брюка, а Ніка Антоска написати екранну мелодію.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "c742e73967eef2b7a1ac": {
+      "source_title": "No clear winner in Israel election with nearly 90 percent of votes counted",
+      "source_summary": "Netanyahu's right-wing bloc leads but is falling short of the votes needed to form a government.",
+      "language": "en",
+      "title": "В Ізраїлі немає ясного переможця виборів, який мав би кількісно 90 відсотків голосів.",
+      "summary": "Правий блок Нетаньягу веде, але йому не вистачає голосів, необхідних для створення уряду.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "2eb401fedf29c3ecfbcf": {
+      "source_title": "'I live with a ghost': Japan's haunted homes attract bargain hunters",
+      "source_summary": "Properties where someone has died in tragic circumstances can have big reductions in price.",
+      "language": "en",
+      "title": "\"Я живу з привидом\": будинки з привидами в Японії приваблюють торгових мисливців",
+      "summary": "Властивості, в яких хтось помер за трагічних обставин, можуть значно зменшити ціни.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "29ffb4371bb454486a8d": {
+      "source_title": "Iran war live: Trump says he approved Vance outreach over medical supplies",
+      "source_summary": "Trump denies directing his VP to restart talks, but says he approved outreach on Iran's need for medical supplies.",
+      "language": "en",
+      "title": "Иранская война живёт: Трумп говорит, что он ухваляет Винс переговоры о медицинском поставке.",
+      "summary": "Трамп отрицает вказывать вице, чтобы перезапустить выступление, но говорит, что он ухаживает за потребностью Ирана в медицинской материи.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "57c39c10edb20c83aaef": {
+      "source_title": "Wall Street ends higher as Fed holds key rate steady, focus turns to earnings - Reuters",
+      "source_summary": "Wall Street ends higher as Fed holds key rate steady, focus turns to earnings Reuters",
+      "language": "en",
+      "title": "Волл-стріт закінчується вище, коли ФРС тримає ключову ставку сталою, фокус повертається до прибутків - Рейтер.",
+      "summary": "Уолл-стріт закінчується вище, коли ФРС тримає ключову ставку сталою, фокус повертається до агентства заробітку",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "7ed731f6914c6242d079": {
+      "source_title": "US makes interest rate decision - as Bank of England verdict looms",
+      "source_summary": "The Federal Reserve has left interest rates unchanged - despite persistently high inflation and repeated calls from Donald Trump to lower borrowing costs.",
+      "language": "en",
+      "title": "Сполучені Штати приймають рішення відносно процентів - так як вердикт банк Англії не приймає",
+      "summary": "Федеральна резервна система не змінює процентних ставок - незважаючи на постійну інфляцію й повторні дзвінки від Дональда Трампа до зниження витрат на позичання грошей.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "b9ad07cb26b9c61f896e": {
+      "source_title": "Cyberattack concealed political spending by big donors before US midterm elections - Reuters",
+      "source_summary": "Cyberattack concealed political spending by big donors before US midterm elections Reuters",
+      "language": "en",
+      "title": "Кібератака приховувала політичні витрати великих донорів перед проміжними виборами США - Рейтер.",
+      "summary": "Кібератака приховала політичні витрати великих донорів до американського проміжного виборчого агентства США.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "45e03deb37cc9297e891": {
+      "source_title": "Romania extends pre-trial detention of far-right politician Calin Georgescu",
+      "source_summary": "The Bucharest court has extended the pre-trial detention of Calin Georgescu by 30 days, appealing a lower court ruling.",
+      "language": "en",
+      "title": "Румунія відпускає передспільно-правий політик Калін Жоржску",
+      "summary": "Бухарестський суд на 30 днів розширив передвиробне ув'язнення Каліну Жоржку, звертаючись до рішення нижчого суду.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "7d4f9ab06629c8961572": {
+      "source_title": "One passport isn’t enough for some wealthy Chinese. Here’s where they’re looking next",
+      "source_summary": "For some wealthy Chinese, securing a foreign passport is becoming worth the ultimate trade-off: giving up their citizenship.",
+      "language": "en",
+      "title": "Одна десята - достатньо для деяких заможних китайців.",
+      "summary": "Для деяких заможних китайців забезпечення іноземного паспорта стає вартим кінцевого виторгування: відмова від громадянства.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "b2025da5ccdc7ec567ff": {
+      "source_title": "Trump Officials Discussing Sanctions Relief for Russian Fund, Russia Acknowledges",
+      "source_summary": "A Russian official said potential relief for a state investment fund was part of talks. Russia has sought to wring economic benefits from the negotiations on ending the war with Ukraine.",
+      "language": "en",
+      "title": "Державні діячі, які обговорюють допомогу від бездіяльності для російського фонду, визнають, що Росія",
+      "summary": "Росія намагалася зменшити економічні вигоди з переговорів про закінчення війни разом з Україною.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "9e36afe7eeae0355b1d0": {
+      "source_title": "DoorDash's deal to buy Instacart coming as early as Thursday morning, sources tell CNBC",
+      "source_summary": "Speculation of a deal has swirled since last week, and several outlets reported the acquisition could value Instacart at roughly $17 billion.",
+      "language": "en",
+      "title": "Договорились о том, чтобы купить инстакарт, приезжающий в четверг утром, источники говорят, что CNBC",
+      "summary": "Видіння угоди закрутилося з минулого тижня, і кілька програм повідомили, що закуп може оцінити Instacart приблизно 17 мільярдів доларів.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "bff4693b952180cf16be": {
+      "source_title": "How To Fit A Kitchen, Bed And Heater In A Tiny Ford Maverick - Forbes",
+      "source_summary": "How To Fit A Kitchen, Bed And Heater In A Tiny Ford Maverick Forbes",
+      "language": "en",
+      "title": "Як вмістити кухню, ліжко та тепло в крихітному Форді - Мамрік - Форбс",
+      "summary": "Як вмістити кухню, ліжко і тепло в крихітних Фордових плантаторах",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "ee5e2424785d3c859a2f": {
+      "source_title": "Upwind raises $400M after walking away from Datadog acquisition offer",
+      "source_summary": "The cloud security startup raised a Series C at a $3.8B valuation, instead of selling itself for the same price.",
+      "language": "en",
+      "title": "Уповільнення підвищує розмір 400M після виходу з ситуації з отриманням Datadog",
+      "summary": "За допомогою запуску спостереження за хмарами було піднято серію C за ціною 3,8Б, замість того, щоб продавати себе за ту ж ціну.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "1e44e68309919ceb5492": {
+      "source_title": "Spain: Madrid mourns train crash victims as rescuers work through the night",
+      "source_summary": "Spain reels from the deadly Toledo high-speed train collision that killed 68 and injured more than 100, sparking grief, protests and calls for resignations.",
+      "language": "en",
+      "title": "Іспанія: Мадрид оплакує аварію поїзда, коли рятувальники працюють цілу ніч.",
+      "summary": "Іспанські рейки від смертельного зіткнення швидкісного поїзда з Толедо, яке вбило 68 і поранило більше 100 чоловік, розпалило горе, протести і заклики до відставки.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "6764f0b6a313829adbe4": {
+      "source_title": "FCC chair wants to let prisons jam illegal cellphones",
+      "source_summary": "The agency will vote next month on relaxing its long-standing opposition to jammers.",
+      "language": "en",
+      "title": "ФЦС стілець хоче дозволити в'язницям в'язням в'язням варити нелегальні мобільні телефони.",
+      "summary": "Наступного місяця адміністрація проголосує за полегшення своєї довгої опозиції до зап'ястка.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "3b64f2126ca310fc1aab": {
+      "source_title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+      "source_summary": "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like AI, and it's not just young people and creatives. Appearing on the Colin and Samir podcast to talk about the launch of widescreen and […]",
+      "language": "en",
+      "title": "Адам Моссі каже, що негативність навколо ІІ є ще гіршою",
+      "summary": "Коли Інтаграма голову Адама Моссері запитали про те, що багато людей не люблять ШІ, і це не тільки молоді люди та творчі люди.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "71da021e7edc3c14aed8": {
+      "source_title": "Flávio Bolsonaro Lands in Miami After Fleeing Brazil",
+      "source_summary": "Mr. Bolsonaro, who lost Sunday’s presidential election, fled Brazil for the United States via Argentina after the police canceled his passport in relation to an investigation.",
+      "language": "en",
+      "title": "Фулавіо Болсонаро.",
+      "summary": "Пан Больсонаро, який програв у неділю на вибори президентів, втік з Бразилії до Сполучених Штатів через Аргентину, коли поліція скасувала його паспорт у зв'язку з розслідуванням.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "a8d487a07856b2aa6164": {
+      "source_title": "Jim Cramer sees major implications from SK Hynix's home-run quarter",
+      "source_summary": "CNBC’s Jim Cramer said SK Hynix’s blockbuster earnings showed that AI stocks can still rally.",
+      "language": "en",
+      "title": "Jim Cramer бачить значні наслідки з домашнього кварталу SK Hynix",
+      "summary": "Доктор Джим Крамер сказав, що заробітки комп'ютерних активів можуть збиратись.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "eb6eac181883322ae4ca": {
+      "source_title": "What will it take for Europe’s automotive transition to succeed?",
+      "source_summary": "POLITICAL ADVERTISEMENT More information here",
+      "language": "en",
+      "title": "Що потрібно для успіху в Європі?",
+      "summary": "ПОЛІТИЧНА ДОРОГА",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "0a0625211da44fa08617": {
+      "source_title": "‘Pixels and Pencils’ Panelists Talk the Dangers of AI, Demanding Animation Processes and the Importance of Human Creativity",
+      "source_summary": "As artificial intelligence continues to advance, animators are increasingly facing questions about the future of their craft and the role of human creativity in filmmaking. But the majority are not interested in letting AI into their art of storytelling. At Variety‘s “Pixels and Pencils” panel in Savannah, Georgia on Monday, leading filmmakers discussed the process […]",
+      "language": "en",
+      "title": "Естіки та пенцили говорять про небезпеки ШІ, вимагають анімації і про важливість діяльності людини.",
+      "summary": "Оскільки штучний інтелект продовжує розвиватися, оператори все більше й більше стикаються з питаннями щодо майбутнього своєї справи і ролі людської творчості у створенні фільмів.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "bb28a168ce30403db0dc": {
+      "source_title": "Hands-on with Apple's first touchscreen laptop: Touch is totally optional",
+      "source_summary": "Any button that can be clicked can also be touched.",
+      "language": "en",
+      "title": "Ручки з першим екранним ноутбуком Apple: Дотик є абсолютно необов' язковим",
+      "summary": "Крім того, ви можете торкнутися будь- якої кнопки, яку можна натиснути.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "0c9c5da2c2166495f09c": {
+      "source_title": "As US ties fray, Europe plans first undersea cable link to Greenland",
+      "source_summary": "Europe's Pan-Arctic Cable will bypass US to link Canada, Japan, and South Korea.",
+      "language": "en",
+      "title": "Коли США зв'язує бійку, Європа планує перший підводний кабель, що з'єднується з Гренландією.",
+      "summary": "Європейський \"Пан-Аркт,\" обминає США, щоб з'єднати Канаду, Японію та Південну Корею.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "b3f68b86919a1535c69e": {
+      "source_title": "Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat",
+      "source_summary": "Microsoft reported better-than-expected results driven by 48% growth in Azure revenue.",
+      "language": "en",
+      "title": "Microsoft stocks 4%, як хмарний ріст призводить до прибутків та доходів",
+      "summary": "Microsoft повідомив про кращі, ніж очікувані результати, за допомогою 48% зростання доходу Азури.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "cb5286c761ef1de3c404": {
+      "source_title": "UN experts sound alarm at excessive use of force in French student protests",
+      "source_summary": "UN experts have condemned police crackdowns, warning they deter demonstrators from exercising their rights.",
+      "language": "en",
+      "title": "Експерти ООН висловлюють тривогу через надмірне застосування сили в протестах студентів французької мови.",
+      "summary": "Спеціалісти ООН осуджують порушення порядку поліції, перестерігаючи, щоб демонстратори не користувались своїми правами.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "3e9762d48b7b710fef5e": {
+      "source_title": "King tides inundate streets and flood homes and businesses along both US coasts - AP News",
+      "source_summary": "King tides inundate streets and flood homes and businesses along both US coasts AP News",
+      "language": "en",
+      "title": "King W припливи затоплюють вулиці й затоплюють доми та підприємства по обох берегах США - AP News",
+      "summary": "Корейські припливи затоплюють вулиці, затоплюють доми та підприємства вздовж обох берегів США вісті AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "f26cd7b9c81bd3cdac36": {
+      "source_title": "Jim Cramer says these tech giants can weather market turbulence",
+      "source_summary": "Cramer said a select group of technology stocks are less vulnerable to economic pressures.",
+      "language": "en",
+      "title": "Джим Крамер каже, що ці технічні гіганти можуть витримати турбулентність на ринку.",
+      "summary": "Крамер сказав, що вибірка групи технологій менш вразлива до економічного тиску.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "47f081073bd6b00481fc": {
+      "source_title": "Trump administration will allow pharmacies to make popular peptides",
+      "source_summary": "The Department of Health and Human Services will let small compounding pharmacies make six peptides that haven't been approved by the Food and Drug Administration. It may not be enough to meet demand.",
+      "language": "en",
+      "title": "Диспетчерська адміністрація дозволить аптекам робити популярні пептиди.",
+      "summary": "Департамент охорони здоров'я та громадських служб дозволить маленьким складникам аптек виробляти шість пептидів, які не були схвалені Адміністрацією харчування та медикаментів.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "8c81e459f024c6a2cf0d": {
+      "source_title": "Flavio Bolsonaro lands in US, declares himself 'leader' of Brazil",
+      "source_summary": "Flavio Bolsonaro declared himself the rightful leader of his country despite losing the presidential election runoff on Sunday. He and his family have fled to the US.",
+      "language": "en",
+      "title": "Флавіо Болсонаро приземляється в США, оголошує себе лідером Бразилії.",
+      "summary": "Флавіо Болсонаро оголосив себе законним лідером своєї країни, незважаючи на те, що в неділю президентські вибори були програні, він та його сім'я втекли до США.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "9f3ba473e7dd22937db8": {
+      "source_title": "Bangladesh Soccer League, Indonesian Film Venture Drive U.K. Firm Goldfinch’s Asia Push (EXCLUSIVE)",
+      "source_summary": "A proposed Bangladeshi soccer league and an Indonesian film joint venture sit at the center of Goldfinch International’s move into Bangladesh and Indonesia. The company is the emerging-markets division of London-based entertainment financier and producer Goldfinch. In both countries, Goldfinch International is following the approach it took in the Gulf with Fablemill, building ties with […]",
+      "language": "en",
+      "title": "Бангладешська футбольна ліга, індонезійська кінострічка \" Венчур драйв U. Formad Goldfinch's Push \" (EXCLUSIVE)",
+      "summary": "Пропонується \"Бангладешська футбольна ліга\" і індонезійська комісія \"сидить\" в центрі \"Голфінч\" і йде в Бангладеш та Індонезію.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "89ee35d7e675397fc695": {
+      "source_title": "Embattled CBS leader Bari Weiss downplays concerns about weak 60 Minutes ratings",
+      "source_summary": "CBS News editor-in-chief sidesteps viewership concerns and says flagship show doing ‘tremendously well’CBS News editor-in-chief Bari Weiss has spoken publicly for the first time about the ratings challenges the network has experienced under her year-long tenure, sidestepping concerns about diminished viewership at the Sunday show 60 Minutes by saying it was not her top priority.“I could never build anything if I were focused on the precise number of people that happen to tune in to the second feature on 60 Minutes on a given Sunday,” she said at an industry conference on Wednesday organized by",
+      "language": "en",
+      "title": "Похищений керівник CBS Барі Вайс стурбований слабкостями 60 хвилин",
+      "summary": "Редактор новин CBS News News News Editor-in-префектьної Baris вперше публічно говорив про оцінки і каже, що lagications showing doing ⁄tremendously goodly goodly course News Editor-in-префективний Baris вперше про те, що оцінки, які з'явилися у мережі під її річною тенденцією, крок за кроком про відсутнє глядачство на недільному шоу 60 хвилин, сказавши, що це не було її найвищим пріоритетом.'I ніколи не міг би збудувати нічого, якщо б я був зосереджений на точній кількості людей, які відповідають на другій точці на 60 хвилин у неділю, вона сказала на конференції на середи, організованій.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "b0c1a588a27ed3e1b8c4": {
+      "source_title": "Libya's eastern administration bars entry to Iranians, Afghans - Reuters",
+      "source_summary": "Libya's eastern administration bars entry to Iranians, Afghans Reuters",
+      "language": "en",
+      "title": "В'їзд східних адміністрацій в Іран, Афганістан - Рейтер.",
+      "summary": "В'їзд у Іранську, афганський Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "1abee842d07479405c4e": {
+      "source_title": "Man whose 'hijack' text caused plane to turn back said it was banter with co-worker, police say - AP News",
+      "source_summary": "Man whose 'hijack' text caused plane to turn back said it was banter with co-worker, police say AP News",
+      "language": "en",
+      "title": "Людина, чий текст \"ікрадж\" змусив літак повернутися сказав, що він був банкрутом з колегою, поліція каже - AP News",
+      "summary": "Людина, чий текст \"ікраю\" змусив літак повернутися сказав, що він був банкрутом з колегою, поліція каже новин з AP",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "86bc1d0d410b0a423ba4": {
+      "source_title": "Peptide peddlers cheer as RFK Jr. unilaterally grants access, overruling FDA",
+      "source_summary": "Six unproven peptides popular with MAHA now under \"enforcement discretion policy.\"",
+      "language": "en",
+      "title": "Торгівля Pptide радіє, коли RFK Jr. одностороннє надає доступ, перевантажуючи ФДА",
+      "summary": "Шість непідтверджених пептидів, популярних у MAHA, тепер під \"командуванням на розсудку.\"",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "770d2aa956a5b7dd7cc4": {
+      "source_title": "Barbara Barrie, Oscar-Nominated Star of ‘Barney Miller’ and ‘Breaking Away,’ Dies at 95",
+      "source_summary": "Barbara Barrie, the Oscar-, Emmy- and Tony-nominated actress who starred in the original production of “Company” and in films including “Breaking Away,” died Wednesday in Manhattan. She was 95. Her daughter confirmed her death to the New York Times and said Barrie’s death was medically assisted following a terminal cancer diagnosis. On stage, Barrie made […]",
+      "language": "en",
+      "title": "Barbara Barri, Оскар-Ноумовила Зірка від \"Барні Міллер\" та \"Органг,\" сягаючи 95-го року.",
+      "summary": "Барбара Баррі, Оскар-, Еммі і Тоні-замісні акторки, які знімалися в початковому постановці }Пасті і в фільмах, включаючи \"Оскар,\" померла середа в Манхеттені, їй було 95.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "3d7fcfc4ef99145df79f": {
+      "source_title": "Chipotle shares rise 7% after CEO says same-store sales growth will continue",
+      "source_summary": "For the first time this year, low-income consumers during the quarter outperformed the high-income cohort at its restaurants, CEO Scott Boatwright said.",
+      "language": "en",
+      "title": "Акції чіпотле зростають на 7%, після того як генеральний директор стверджує, що ріст продажів буде продовжуватися.",
+      "summary": "Перший раз цього року, некомерційні споживачі протягом чверті перевершили високі ціни в ресторанах, сказав директор Скотт Човенрайт.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "10624eadb6c1da126224": {
+      "source_title": "Trump says imported robotics pose national security risks but does not impose tariffs - Reuters",
+      "source_summary": "Trump says imported robotics pose national security risks but does not impose tariffs Reuters",
+      "language": "en",
+      "title": "Трамп каже, що імпортні роботи становлять національну небезпеку, але не нав'язують тарифів - Рейтер.",
+      "summary": "Трамп каже, що імпортні роботи становлять національну небезпеку, але не нав'язують тарифів Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "9c4ef79853c5330b3b16": {
+      "source_title": "Rail safety questioned after Spain suffers second fatal high-speed train crash in a year",
+      "source_summary": "Questions are being raised about Spain's rail safety as authorities launch an official investigation into the cause of Wednesday's high-speed train collision, which killed at least 68 people and wounded around 100 more, in the country's second fatal rail crash this year.",
+      "language": "en",
+      "title": "Після другої смертельної високошвидкісної аварії в Іспанії протягом року стається гостра аварія.",
+      "summary": "Вопрос подняется о безопасности Испании, в то время, как власти начало официальное расследование причиной случая средного скорости поезда, которая убила по крайне 68 человек и поранила около 100, второго смертельного крушения в стране в этом году.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "2a727be03a40c55d6efb": {
+      "source_title": "Alphabet sinks 10% as it holds 2026 capex unchanged, expects significant increase in 2027",
+      "source_summary": "Alphabet missed Q3 expectations on earnings and revenue, its first top-and-bottom-line miss in nearly four years.",
+      "language": "en",
+      "title": "Alphabet тоне 10%, оскільки вміщується в 2026 капекс без змін, очікується значне збільшення у 2027 році.",
+      "summary": "Alphabe не враховував очікувань Q3 на прибуток і дохід, його перша найкраща помилка за чотири роки.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "a196f029144b5b8fa7c9": {
+      "source_title": "Apple brings touch to the Mac, reversing years-old stance on touchscreen laptop",
+      "source_summary": "Apple announces a new touchscreen laptop, the company's third major launch under new CEO John Ternus.",
+      "language": "en",
+      "title": "Apple приносить дотик до Mac, відмінна похила позиція на сенсорному ноутбуці",
+      "summary": "Apple оголошує новий сенсорний ноутбук, третій головний запуск компанії під керівництвом нового генерального директора Джона Тернуса.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "0489d72ee65cb426e718": {
+      "source_title": "Chinese Sci-Fi Thriller ‘Variant’ Lands North American, European and Asian Deals (EXCLUSIVE)",
+      "source_summary": "Chinese film “Variant,” a sci-fi action thriller from director Qilin Li, is headed to North America with International Media Network (IMN), which acquired U.S. and Canadian rights. Sales company Cappu Films unveiled that deal and others across Europe, Asia and Latin America at TIFFCOM, the market of the Tokyo International Film Festival. MT Trading has […]",
+      "language": "en",
+      "title": "Китайські Sci-fi Fiurzer }Вадіарт що Північно-Американські, європейські та Азіатські диси (EXCLUSIVE)",
+      "summary": "Китайський фільм \" Variant ,\" \" sci-fi\" - \"захоплива ідея\" від директора Кілін Лі, прямує до Північної Америки за міжнародною медіамережею (IMN), яка здобула права США та Канади.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "3e15a49e5a6c983a1532": {
+      "source_title": "EU natural gas prices top €100 for first time since 2022",
+      "source_summary": "As winter approaches, the price of European natural gas topped €100 / megawatt hour, its highest level since 2022. The EU says it's not worried about supplies, although its storage facilities are only 72% full, but warns households of a 'difficult' season to come. Also in the show - the UK government tries to cushion the impact of high energy bills, and 200 passengers are stranded in Cambodia after their multi-year cruise was cancelled because of high fuel costs.",
+      "language": "en",
+      "title": "Перший раз з 2022 року, ціни на природний газ в ЄС сягають 100 євро.",
+      "summary": "З наближенням зими ціна природного газу в Європі перевищила 100 / мегаватний час, тобто найвищий рівень з 2022 року. ЄС стверджує, що не турбується про запаси, хоча його склади є лише 72%, але попереджає домогосподарств про прийдешній сезон \" диффікультури .\" Крім того, у шоу - уряд Великобританії намагається пом'якшити вплив високої енергетичної заборгованості, а 200 пасажирів у Камбоджі після того, як їхній багаторічний рейс було скасовано через високу вартість пального.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "fc766357a734289ef66d": {
+      "source_title": "Trump, Vance and Obama are making closing stretch appeals to midterm voters in pivotal states - AP News",
+      "source_summary": "Trump, Vance and Obama are making closing stretch appeals to midterm voters in pivotal states AP News",
+      "language": "en",
+      "title": "Трумп, Vance і Обама роблять кінцеві заклики до проміжних виборців в центральних штатах - AP News",
+      "summary": "Трамп, Vance і Обама роблять кінцеві заклики до проміжних виборців в центральних штатах AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "29b711c11caf05758667": {
+      "source_title": "New book makes fiery claims about Jared Kushner’s finances in Trump’s first term",
+      "source_summary": "Kushner threatens to sue, denying allegations that two slush funds were set up to influence his Middle East roleA new book containing incendiary claims about Jared Kushner’s financial dealings during Donald Trump’s first term has ignited a political and media firestorm.The book by author Matthew Cole is called Princes and Thieves: Jared Kushner and Mohamed bin Zayed’s Secret Plot to Remake the Middle East and was released in the US this week. An excerpt was published by Vanity Fair last Thursday, and immediately drew a furious response from Kushner, who called its claims “completely insane”. T",
+      "language": "en",
+      "title": "Нова книга яскраво заявляє про Джереда Кушніра фінансами в першому терміні",
+      "summary": "Кушнер загрожує податися в суд, заперечуючи, що два хабарні фонди були створені для впливу на його нову книгу на Близькому Сході, яка містить претенденти про Джеред Кушнір під час Дональда Трампса, вперше висвітили пожежу з політичних і медіа. Книжка автора Метью Коула називається \" Князями та грабіжниками \": Джаред Кушнер і Мохамед Б'єр та П' єрт, щоб відновити вихід на Близькому Сході і був випущений у США цього тижня.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "12079e0ac694ff1e4656": {
+      "source_title": "Does Godzilla Minus Zero Have A Post-Credits Scene? A Spoiler-Free Guide",
+      "source_summary": "If you're wondering if Godzilla Minus Zero has any credits scenes that are worth sticking around for, check out our totally spoiler-free guide right here.",
+      "language": "en",
+      "title": "\"Божевілля - нуль\" - сцена пост-корептів? \"Стопери без перешкод\"",
+      "summary": "Якщо ви цікавитесь, чи є у Годзилла Мінус Нуль якісь виплатні сцени, які варті того, щоб стояти тут, подивіться наш абсолютно вільний провідник.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "bf0afbfc9c306a9cbb8f": {
+      "source_title": "Anthropic’s public benefit structure creates unusual risks for IPO investors",
+      "source_summary": "Anthropic’s PBC structure could put its AI mission ahead of shareholder returns",
+      "language": "en",
+      "title": "Структура громадської вигоди створює незвичний ризик для інвесторів IPO",
+      "summary": "Athrocies PBC структура може поставити своє завдання AI вище акціонера.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "68d0dd1acf3d9beab0d9": {
+      "source_title": "Ukraine peace talks: 5 things to know about the chances of a deal",
+      "source_summary": "Volodymyr Zelenskyy worries that a new escalation in the U.S.-Iran war could derail negotiations over a truce in Ukraine.",
+      "language": "en",
+      "title": "Українські мирні переговори: 5 речей, які повинні знати про шанси угоди.",
+      "summary": "Володимир Зеленський стурбований тим, що нова ескалація у війні США-Іран може порушити переговори щодо перемир'я в Україні.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "343b8be7e667e4bfa641": {
+      "source_title": "Barbara Barrie, Oscar-Nominated ‘Breaking Away’ and ‘Private Benjamin’ Star, Dies at 95",
+      "source_summary": "The character actress death was \"medically assisted\" following a terminal cancer diagnosis.",
+      "language": "en",
+      "title": "Барбара Баррі, Оскар-Ноузен, що розходиться) та \"Привати Бенджаміна,\" йде на 95-й рік.",
+      "summary": "Лицограмма \"помогу медико\" проследила смертельный диагноз рака.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "ed30f11d7c362f6275ca": {
+      "source_title": "Brazilian political drama unfolds as defeated Flavio Bolsonaro arrives in Miami",
+      "source_summary": "Defeated presidential candidate Flavio Bolsonaro and his family have arrived in the U.S. after Brazilian authorities ordered him to surrender his passport. He is facing multiple investigations in Brazil.",
+      "language": "en",
+      "title": "У Майамі розгорнулася бразільська політична драма.",
+      "summary": "Поборений кандидат президента Флавіо Больсонаро та його сім'я прибули до США після того, як бразильські органи влади наказали йому здати свій паспорт.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "6b41250c773895738736": {
+      "source_title": "Support for UN vote to end US embargo on Cuba falls to 30-year low",
+      "source_summary": "Similar resolutions have been approved almost every year since 1992, but usually by overwhelming margins.",
+      "language": "en",
+      "title": "Підтримка голосування ООН, яка покладе край американському ембарго на Кубі, опустилася на 30 років.",
+      "summary": "Подібні резолюції було схвалено майже кожного року з 1992 року, але зазвичай за непереборними полями.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "152bcbfec3c8e405c5e0": {
+      "source_title": "Ford reports mixed third-quarter results, says 2027 earnings will be in line with this year",
+      "source_summary": "Ford Motor reported earnings that beat Wall Street’s estimates but slightly missed on revenue.",
+      "language": "en",
+      "title": "\"Форд\" повідомляє, що змішані результати на третьому курсі, каже, що 2027 заробітки будуть у відповідності з цим роком.",
+      "summary": "\"Фод Мотор\" повідомляв про прибутки, які б'ють \"Волл стріт\" приблизно, але трохи пропали на доході.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "1c79458d084d33c2fad9": {
+      "source_title": "US bans imports from BGI Genomics, MGI Tech, citing ties to forced labor in Xinjiang - Reuters",
+      "source_summary": "US bans imports from BGI Genomics, MGI Tech, citing ties to forced labor in Xinjiang Reuters",
+      "language": "en",
+      "title": "США забороняють імпорт з геноміки BGI, MGI Tech, пов'язуючи зв'язки з примусовою працею в Xinjiang - Reuters",
+      "summary": "США забороняють імпорт з геноміки BGI, MGI Tech, посилаючись на зв'язки з примусовою працею в Sinjiang Reuters",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "d1ae2609366117593445": {
+      "source_title": "South Carolina police close investigation into Hayden Panettiere's death after coroner's ruling - AP News",
+      "source_summary": "South Carolina police close investigation into Hayden Panettiere's death after coroner's ruling AP News",
+      "language": "en",
+      "title": "Поліція Південної Кароліни закінчує розслідування смерті Гейдена Пентікера після його правлячих новин",
+      "summary": "Поліція Південної Кароліни закриває розслідування про смерть Гейдена Пентікера після керуючих новин AP",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "99093cee53b4403ad70f": {
+      "source_title": "High-speed train crash kills at least 68 people in Spain",
+      "source_summary": "The crash, between a moving train and another that was stopped further up the track, was caused by an \"inexplicable\" error, the transport minister said.",
+      "language": "en",
+      "title": "В Іспанії від падіння швидкісного поїзда померло принаймні 68 чоловік.",
+      "summary": "Крах, між рухомим поїздом та іншим, який зупинився далі на доріжці, була спричинена \"незрозумілою\" помилкою, сказав міністр транспорту.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "020314ea17c3bf3d5e5d": {
+      "source_title": "Microsoft recorded $10 billion in revenue from OpenAI",
+      "source_summary": "Microsoft said it made $10 billion in revenue from commercial arrangements with OpenAI, including revenue-sharing payments, in the quarter ending September 30. It underscores the still-enormous financial dependency of the partnership.",
+      "language": "en",
+      "title": "Microsoft записав 10 мільярдів доларів прибутку від OpenAI",
+      "summary": "Microsoft сказав, що вона заробила 10 мільярдів доларів прибутку від комерційних домовленостей з OpenAI, включаючи сплати за доходами, в чверть кінця 30 вересня, це підкреслює все ще очевидну фінансову залежність від партнерства.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "cf0b445a13fca74cd4d1": {
+      "source_title": "Akai is embracing vibe-coded mods with an open-source MPC",
+      "source_summary": "The MPC Sample Key isn't even formally announced yet, but Akai is already showing off what the modding community is cooking up through vibe coding. Akai has decided to embrace the explosion of hackers and custom firmware developers by giving them early access to the device, which will have open-source firmware. It will likely run […]",
+      "language": "en",
+      "title": "Akai охоплює коди, закодовані для активації за допомогою MPC з відкритим кодом",
+      "summary": "Ключ MPC ще навіть не офіційно оголошено, але Akai вже показує те, що робить спільнота комбінації за допомогою кодування. Akai вирішив прийняти вибух хакерів і нетипових розробників програм, надавши їм своєчасний доступ до пристрою, у якому буде відкрито програмне забезпечення з відкритим кодом. Ймовірно, програма запустить [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "2af8b4e1fb9df432cb60": {
+      "source_title": "Warsh says politics played no role in Fed's rate decision by group he is 'honored' to lead - Reuters",
+      "source_summary": "Warsh says politics played no role in Fed's rate decision by group he is 'honored' to lead Reuters",
+      "language": "en",
+      "title": "Варш каже, що політика не відіграла ролі у рішенні норми ФРС групою, яку він \"пошанував\" для лідера - Рейтер.",
+      "summary": "Варш каже, що політика не відіграла ролі у рішенні ставки ФРС групою, яку він \"шанував\" очолити Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "6b773588cc7f7bd97965": {
+      "source_title": "Here are five key takeaways from the Fed rate decision and Warsh news conference",
+      "source_summary": "Even though the interest-rate vote went as expected, there were a few surprises out of this week's Federal Open Market Committee meeting.",
+      "language": "en",
+      "title": "Здесь пять ключей от принятия по данным ФРС и конференции Уорш.",
+      "summary": "Хоча голосування за відсоткову ставку, як і очікувалося, відбулося кілька сюрпризів з зустрічі Федерального Open Market Commission.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "63c55dd21983a5db1e06": {
+      "source_title": "Election polls in New Zealand continue to show no clear outcome - Reuters",
+      "source_summary": "Election polls in New Zealand continue to show no clear outcome Reuters",
+      "language": "en",
+      "title": "Опитування, проведені в Новій Зеландії, не показують жодних чітких результатів - Рейтер.",
+      "summary": "Опитування, проведені в Новій Зеландії, досі не показують чіткого результату Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "45f0663a35ff7e9e50a0": {
+      "source_title": "Russell Brand tells trial it was wrong to use fame to ‘facilitate’ sex with women",
+      "source_summary": "Former comedian, in court on rape and sexual assault charges, says he misused position but ‘consent is more important than sex itself’Russell Brand has told a court that he was wrong to have used his fame and success to “facilitate” sexual activity with women.The 51-year-old comedian said he had “misused” his position “very selfishly” and dedicated his life to “reckless philandering and idiocy”. Continue reading...",
+      "language": "en",
+      "title": "Рассел Бранд виступає перед судом проти жінок.",
+      "summary": "Колишній комедійний, у суді на тему гвалтування та сексуальних актів, каже, що він зловживав позицією, але }concende є більш важливим, ніж сам секс\" Русселл Бранд сказав, що він був неправий використовувати свою славу і успіх у випадку з жінками. 51-й річний комік сказав, що він мав mis ♫ його позицію дуже егоїстично і присвятив своє життя безповоротному філангу і сідологічності. Продовжіть читання...",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "a918cd485d6f46c12bd2": {
+      "source_title": "You Can See Everything Deemed Ineligible For A Major Award On The Road To The Oscars",
+      "source_summary": "You Can See Everything, the doc sensation from Lance Oppenheim and Nathan Fielder, is not allowed to compete for a key award in the lead-up to the Oscars.",
+      "language": "en",
+      "title": "Ви можете побачити все, що є обов'язковим для великої нагороди по дорозі до Оскарів",
+      "summary": "Ви можете бачити все, дотики док від Ланса Оппенхайма та Натана Філдера, не дозволені змагатися за ключову нагороду у переданні Оскарам.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "0fad5419a54221c493ed": {
+      "source_title": "Russia woos African leaders at Moscow summit",
+      "source_summary": "In tonight's edition, a summit with nearly two dozen African leaders opens in Moscow with the Kremlin describing their countries as natural allies against the West. Also, Nigerian investigators say that dozens of detained miners who died in a crowded jail cell screamed for help as jailors ignored their suffering. And ahead of the Youth Olympics in Senegal, Kenya's ramping up support of its women's sportspeople.",
+      "language": "en",
+      "title": "Російські вауси африканські лідери на московському саміті.",
+      "summary": "Крім того, нігерійські дослідники кажуть, що десятки затриманих гірників, які загинули у переповненій камері, в той час, як ув'язнені не звертали уваги на свої страждання, і перед Юнайтедними Олімпіадою в Сенегалі, Кенія посилила підтримку спортивних людей своїх жінок.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "49ff0fa053451c8bc8ba": {
+      "source_title": "EU backs away from offer to Canada to start ‘associate member’ talks",
+      "source_summary": "Watered-down version of statement to be issued at end of Montreal summit instead offers ‘ever closer association’The EU has backed away from its offer to Canada to start talks on becoming an “associate member” after disagreements between members states just as an EU-Canada summit was set to begin in Montreal.A draft of a joint statement to be issued after the end of the summit, which runs Thursday and Friday, showed a watered-down version offering “an ever closer association of Canada to the EU, short of full membership itself”. Continue reading...",
+      "language": "en",
+      "title": "ЕВ відступає від пропозиції до Канади розпочати 'saсоціацію члена",
+      "summary": "Знизу до кінця Монреальської вершини, замість цього, ми маємо відступили від пропозиції до Канади розпочати переговори про те, як стати членом команди \"оступу\" після того, як вже було встановлено \"Самуди ЄС\" у Монреалі. чернетку спільної заяви, яка повинна була виголошуватися після закінчення вершини, яка виконується у четвер і п'ятницю, було показано водну версію, що представляє чимраз ближчу співпрацю Канади з ЄС, яка не має повного членства. Продовжуйте читати...",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "acb566103b1edafc0ab1": {
+      "source_title": "Bloodied, dazed and angry - how passengers' rail journey turned to disaster in Spain",
+      "source_summary": "Survivors of the train crash in Spain have spoken of their shock, panic and anger at the accident in Toledo province on Wednesday.",
+      "language": "en",
+      "title": "Кровожерлива, обурювана й розлючена - як поїздка пасажирів обернулась на нещастя в Іспанії",
+      "summary": "Ті, хто пережив аварію поїзда в Іспанії, говорили про їхній шок, паніку та гнів через аварію в Толедо в середу.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "70ed570426bde2290231": {
+      "source_title": "Indonesian students demand action on wildfires and rising costs",
+      "source_summary": "Hundreds of Indonesian students protested against the government's handling of forest fires and rising costs.",
+      "language": "en",
+      "title": "Індонезійські студенти вимагають заходів проти пожеж та підвищення витрат.",
+      "summary": "Сотні індонезійських студентів протестували проти того, щоб уряд не вдавався до лісових пожеж і не брав до уваги зростаючі витрати.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "7d66f9a10e1ec9180ca3": {
+      "source_title": "Mission Unclear: A $1 Million Contract In Hawaii Involving Invasive Species - AP News",
+      "source_summary": "Mission Unclear: A $1 Million Contract In Hawaii Involving Invasive Species AP News",
+      "language": "en",
+      "title": "Дітар місії: 1 мільйон доларів США за шкалою на Гаваях.",
+      "summary": "Дітар місії: 1 мільйон доларів США за шкалою на Гаваях.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "0ace3ab86ef3dabfbe17": {
+      "source_title": "Wendy’s, struggling with beef prices and growing competition, gets a buyout offer - AP News",
+      "source_summary": "Wendy’s, struggling with beef prices and growing competition, gets a buyout offer AP News",
+      "language": "en",
+      "title": "ДІЗ, борючись з цінами на яловичину та змаганнями з вирощування, отримується пропозиція покупок - AP News",
+      "summary": "ДІЗ, борючись з цінами на яловичину та змаганнями з зростання, отримується пропозиція з AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "f739caebbf710f614512": {
+      "source_title": "What We Know About the Deadly Train Crash in Spain",
+      "source_summary": "A train accident near Toledo, Spain, which killed at least 68 people, was one of the deadliest in the country’s history.",
+      "language": "en",
+      "title": "Що ми знаємо про смертельний крах поїзда в Іспанії",
+      "summary": "Нещасний випадок у поїзді поблизу Толедо (Іспанія), який вбив щонайменше 68 чоловік, був одним з наймертвіших у цій країні, - це історія.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "67474274470bd7af7e3d": {
+      "source_title": "Dutch Zookeeper Dies After Rare Mauling by a Leopard",
+      "source_summary": "A woman working with big cats was attacked on Saturday. She died from her injuries on Tuesday, the zoo said.",
+      "language": "en",
+      "title": "Голландський зоолог помирає",
+      "summary": "У суботу на жінку, яка працювала з великими котами, напали, вона померла від травм у вівторок, сказав зоопарк.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "172511e4d8212d97b340": {
+      "source_title": "Death of US actress Hayden Panettiere ruled accidental, ending local police probe",
+      "source_summary": "The Heroes and Nashville star died in August from the toxic effects of fentanyl, Xanax and several other drugs.",
+      "language": "en",
+      "title": "Смерть американської акторки Гейден Пентіре керувала випадковим рішенням, закінчуючи місцевий поліцейський зонд.",
+      "summary": "Зірка Герої та Нэшвіль померла в серпні від отруйного впливу фентаніла, Xanax та кількох інших наркотиків.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "411e81e2de54ba41b1a2": {
+      "source_title": "Readwise is taking on Kindle and Kobo for ebook supremacy",
+      "source_summary": "For the last several years, Readwise has been building tools for power readers. There's the eponymous product, Readwise, which stores and categorizes your Kindle highlights to help you remember what you've read. There's Readwise Reader, an app for reading newsletters, PDFs, and web articles you've saved for later. And now there's Readwise Books, a full-fledged […]",
+      "language": "en",
+      "title": "Читання набуває популярності Kindle і Kobo за перевагу в електронній книзі",
+      "summary": "Упродовж останніх декількох років у \" Читанню \" використовується інструмент для створення інструментів для читання. Існує епонімний продукт, Читаний, який зберігає і розподіляє увагу Kindle, щоб допомогти вам запам' ятати прочитане. Існує \" Читець почитальника ,\" програма для читання інформаційних бюлетелів, PDFs і веб- статей, які ви зберегли на пізніше. А тепер є книжки \" Читчитані книги ,\" повноцінна книга [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "eda4f2e22f56a9031c1d": {
+      "source_title": "Trump administration wants to remove regulations on a super planet-heating gas",
+      "source_summary": "The Trump administration wants to undo a Biden-era rule that would reduce methane emissions from the oil and gas industry.",
+      "language": "en",
+      "title": "Диспетчерська адміністрація хоче видалити правила на надземному газі",
+      "summary": "Адміністрація Трамп хоче скасувати правило Біден-реа, яке зменшить викиди метану з нафтової та газової промисловості.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "5bfcf23528a62936b159": {
+      "source_title": "US sways more countries to oppose UN resolution condemning its Cuba embargo - Reuters",
+      "source_summary": "US sways more countries to oppose UN resolution condemning its Cuba embargo Reuters",
+      "language": "en",
+      "title": "Сполучені Штати перемагають у більшій кількості країн, щоб протидіяти резолюції ООН, яка засуджує свою Кубу ембарго - Рейтер",
+      "summary": "Сполучені Штати перемагають у більшій кількості країн, щоб протистояти резолюції ООН, яка засуджує Кубу ембарго Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "05b2feb089b5115ed5e3": {
+      "source_title": "RFK Jr. eases access to unproven peptides despite opposition from FDA scientists - AP News",
+      "source_summary": "RFK Jr. eases access to unproven peptides despite opposition from FDA scientists AP News",
+      "language": "en",
+      "title": "RFK Jr. полегшення доступу до непідтверджених пептидів, незважаючи на опір вчених ФДА - AP News",
+      "summary": "RFK Jr. полегшення доступу до непідтверджених пептидів, незважаючи на протидію вчених з AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "446bacdeb5f443a5faca": {
+      "source_title": "Całkowity zakaz czy ograniczenia dla e-hulajnóg? Nowy sondaż nie pozostawia złudzeń",
+      "source_summary": "Całkowity zakaz czy ograniczenia dla e-hulajnóg? Nowy sondaż nie pozostawia złudzeń",
+      "language": "pl",
+      "title": "Повна заборона чи обмеження для e-hujnog?",
+      "summary": "Повна заборона чи обмеження для e-hujnog?",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "8d5c3f1a12ab74e2fde7": {
+      "source_title": "Kolejne MiG-29 z Polski dla Ukrainy. MON potwierdza doniesienia",
+      "source_summary": "Kolejne MiG-29 z Polski dla Ukrainy. MON potwierdza doniesienia",
+      "language": "pl",
+      "title": "Ще один MIG-29 з Польщі для України.",
+      "summary": "Ще один MIG-29 з Польщі для України.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "95af3b7f3c75e2451c76": {
+      "source_title": "Rosyjskie firmy zamawiają pracowników w Korei Północnej. „Nie uciekną”",
+      "source_summary": "Rosyjskie firmy zamawiają pracowników w Korei Północnej. „Nie uciekną”",
+      "language": "pl",
+      "title": "Російські компанії замовляють робітників у Північній Кореї. « Вони не втечуть!»",
+      "summary": "Російські компанії замовляють робітників у Північній Кореї. « Вони не втечуть!»",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "4929c7ddbb95647f0888": {
+      "source_title": "Poszukiwany ksiądz wrócił do parafii. Przyjechał zaginionym samochodem",
+      "source_summary": "Poszukiwany ksiądz wrócił do parafii. Przyjechał zaginionym samochodem",
+      "language": "pl",
+      "title": "Один священик повернувся до парафії і приїхав загубленим автомобілем.",
+      "summary": "Один священик повернувся до парафії і приїхав загубленим автомобілем.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "c69b337ef589045d67d2": {
+      "source_title": "Czy jest szansa na repolonizację strategicznych aktywów? Zapytamy Wojciecha Balczuna",
+      "source_summary": "Czy jest szansa na repolonizację strategicznych aktywów? Zapytamy Wojciecha Balczuna",
+      "language": "pl",
+      "title": "Чи є шанс відновлення стратегічних активів?",
+      "summary": "Чи є шанс відновлення стратегічних активів?",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "6ccafe9968be907fc7ff": {
+      "source_title": "Bolsonaro uciekł do USA i ogłosił się prezydentem. Szef trybunału wyborczego reaguje",
+      "source_summary": "Bolsonaro uciekł do USA i ogłosił się prezydentem. Szef trybunału wyborczego reaguje",
+      "language": "pl",
+      "title": "Больсонаро втік до Сполучених Штатів і оголосив себе президентом.",
+      "summary": "Больсонаро втік до Сполучених Штатів і оголосив себе президентом.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "7dc135f7a9d4558b987b": {
+      "source_title": "Zamieszki w Madrycie po katastrofie kolejowej. Policja użyła gazu łzawiącego",
+      "source_summary": "Zamieszki w Madrycie po katastrofie kolejowej. Policja użyła gazu łzawiącego",
+      "language": "pl",
+      "title": "У Мадриді, після аварії залізничної станції, поліція використала газ, який ліквідував людей.",
+      "summary": "У Мадриді, після аварії залізничної станції, поліція використала газ, який ліквідував людей.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
+    "069aa3eb1cafc955291e": {
+      "source_title": "Polityczna burza wokół szczytu G20. „Stoją na czele państwa-pariasa”",
+      "source_summary": "Polityczna burza wokół szczytu G20. „Stoją na czele państwa-pariasa”",
+      "language": "pl",
+      "title": "Політична буря навколо піку Г20.",
+      "summary": "Політична буря навколо піку Г20.",
+      "engine": "opus_mt",
+      "translated_at": 1793264114
+    },
     "d7104bfcd17c1bd841b6": {
       "source_title": "At least 30 dead and 80 injured after two trains collide in Spain – latest updates",
       "source_summary": "President of Castilla-La Mancha region says numbers likely to rise after crash in ToledoFull report from SpainAt least 30 people are believed to have died after two high-speed trains collided in the province of Toledo in Spain, with concerns the death toll could be much higher.The number of people affected is expected to rise (10:46), local authorities said, with growing concerns about a “major tragedy” (11:03).The affected trains are understood to be Iryo 7076 with 146 passengers plus one baby on board, and AVE 2080 with 397 passengers on board, making it 544 people in total on board of both",
@@ -26,15 +1502,6 @@
       "language": "en",
       "title": "Історичний вияв сили для ізраїльтян",
       "summary": "Голоси, які підтримували дві головні арабські партії, виявились у рекордних числах, щоб висловити свою протидію уряду Нетанягу у вівторок.",
-      "engine": "opus_mt",
-      "translated_at": 1793190725
-    },
-    "db525af4b0f26e4cd913": {
-      "source_title": "What we know so far about deadly Spain train crash",
-      "source_summary": "More than 500 passengers were on board the trains when the incident occurred in the province of Toledo, south of Madrid.",
-      "language": "en",
-      "title": "Що нам відомо про смертельну катастрофу іспанського поїзда",
-      "summary": "Коли цей випадок стався в провінції Толедо, що на південь від Мадрида, в поїзді було понад 500 пасажирів.",
       "engine": "opus_mt",
       "translated_at": 1793190725
     },
@@ -71,15 +1538,6 @@
       "language": "en",
       "title": "Надійні особи Бафти, можливо, порушили закон про благодійність, прийнявши безкоштовні квитки на гостей.",
       "summary": "Голови ради членства кажуть, що юридична порада, отримана за власним коштом, свідчить про те, що злочини могли бути порушені на Бафті, які могли порушити право на благодійність та компанії, приймаючи безкоштовні квитки на засіданнях організації, а також на церемонії, де було прийнято рішення Ради.",
-      "engine": "opus_mt",
-      "translated_at": 1793190725
-    },
-    "c61715650711298f9652": {
-      "source_title": "Judge rules Trump-appointed US prosecutor in Los Angeles is not serving legally – US politics live",
-      "source_summary": "Department of Justice says it intends to appeal as administration tries to keep president’s ally Bill Essayli in officeSign up for the Breaking News US emailThe US Federal Reserve is expected to leave interest rates unchanged on Wednesday during its last rate-setting meeting before the midterm elections, keeping rates at one of the highest pre-election levels seen in over 20 years.Last month, Fed officials raised rates for the first time since 2023, citing rising inflation. Inflation has hovered for years above the Fed’s target rate of 2%, and for most of this year, the annualized inflation ra",
-      "language": "en",
-      "title": "Судья ограничивает назначенную вами прокурор в Лос-Анджелесе не дает законно политики США живёт",
-      "summary": "Департамент Правосуддя каже, що він має намір апелювати до адміністрування, щоб тримати президенти, але Білл Есселі в офісі Визнаний для пошти BreakN News US The Feder Reservation очікується залишити відсоткові ставки незмінними у середу протягом її останньої зустрічі на основі показників перед проміжними виборами, затримувати ставки на одному з найвищих передвиборних рівнів понад 20 років. Останній місяць, федеративні чиновники вперше підняли ставки з 2023 року, посилаючись на зростання інфляції. Інфляція роками перевищує цільовий показник ФРСД 2%, і протягом більшої частини цього року, щорічна інфляція",
       "engine": "opus_mt",
       "translated_at": 1793190725
     },
@@ -134,15 +1592,6 @@
       "language": "en",
       "title": "Високий виборець серед палестинських громадян Ізраїлю загрожує Нетаньягу.",
       "summary": "Історичний поворот серед палестинських громадян Ізраїлю займає арабські партії як королі проти правого боку.",
-      "engine": "opus_mt",
-      "translated_at": 1793190725
-    },
-    "5428db86ef6f719f559d": {
-      "source_title": "Flávio Bolsonaro on flight to Miami after fleeing Brazil amid election defeat",
-      "source_summary": "Far-right senator and family expected to land in US after crossing into Argentina and then flying out of EcuadorA jet carrying the far-right Brazilian senator Flávio Bolsonaro has left Guayaquil in Ecuador and is on its way to Miami, Florida, where it is expected to arrive mid-morning on Wednesday.After losing Sunday night’s election to the incumbent president, Luiz Inácio Lula da Silva, Bolsonaro disappeared for more than 24 hours, until Argentina’s migration authorities said he had entered the country by land on Tuesday night. Continue reading...",
-      "language": "en",
-      "title": "Флавіо Болсонаро летів у Майамі після втечі з Бразилії, де вибори зазнали поразки.",
-      "summary": "Верхні права сенатор і сім'я очікували, що висадиться в США після переходу в Аргентину, а потім полетить з еквадорської аеропланетії, перевозячи далекоправо-праворуч бразильського сенатора Флавіо Болсонаро, залишив Гуаяйалікіла в Еквадорі і прямує до Маямі, Флорида, де очікувалося, що прилетить у середу. Після того, як недільні ночі вийдуть на вибори до президента, Луїз Інасіо да Сільва, Болсонаро зник понад 24 години, до того часу, коли аргентінці сказали, що він увійшов в країну на вівторгні.",
       "engine": "opus_mt",
       "translated_at": 1793190725
     },
@@ -506,15 +1955,6 @@
       "engine": "opus_mt",
       "translated_at": 1793190725
     },
-    "230f9f76c20509c74398": {
-      "source_title": "Federal Reserve likely to skip rate hike despite elevated inflation - AP News",
-      "source_summary": "Federal Reserve likely to skip rate hike despite elevated inflation AP News",
-      "language": "en",
-      "title": "Федеральна резервна система, ймовірно, пропускатиме пішоходи, незважаючи на підвищення інфляції.",
-      "summary": "Федеральна резервна система, ймовірно, пропускатиме пішоходи, незважаючи на підвищення інфляції в AP News",
-      "engine": "opus_mt",
-      "translated_at": 1793190725
-    },
     "a120e727996db8335332": {
       "source_title": "Trucker strikes emptied my local supermarket shelves: Shopping locally made all the difference",
       "source_summary": "I didn’t think a trucker strike would really affect me - until supermarkets and petrol pumps were empty.",
@@ -674,15 +2114,6 @@
       "language": "en",
       "title": "Ізраїльський президент, Ісаак Герцог, перед лицем важкого вибору",
       "summary": "Президент виконує більшу роль церемоніальної ролі, за винятком після виборів, коли має відповідальність обирати кандидата на прем'єр-міністра.",
-      "engine": "opus_mt",
-      "translated_at": 1793190725
-    },
-    "6d3ac62b8e5335162974": {
-      "source_title": "A US cruise ship ends a global voyage in Asia due to fuel costs and 200 passengers lose their homes - AP News",
-      "source_summary": "A US cruise ship ends a global voyage in Asia due to fuel costs and 200 passengers lose their homes AP News",
-      "language": "en",
-      "title": "Американський круїзний корабель закінчує всесвітню подорож в Азію через витрати на пальне і 200 пасажирів втрачають свої домівки - AP News",
-      "summary": "Кругова подорож на американському лайнері закінчується в Азії через витрати на пальне і 200 пасажирів втрачають свої домівки.",
       "engine": "opus_mt",
       "translated_at": 1793190725
     },
@@ -1475,15 +2906,6 @@
       "language": "en",
       "title": "Перемоги в Ізраїлі відібрали від перемоги, але результати далеко нестільні",
       "summary": "Звернення до прихильників після півночі, прем'єр-міністр Бенджамін Нетанягу і Ґаді Ейзенкот, які очолюють блок опозиційних партій, висловили впевненість, що вони вестимуть Ізраїль, наступний уряд.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "a46c124bc6fa2fef1b3f": {
-      "source_title": "Israel election results live: Netanyahu bloc and main opposition set to fall short of majority as 84% of ballots counted",
-      "source_summary": "Opposition bloc and Netanyahu’s coalition predicted to fall short of 61 seats needed to form a government, while Palestinian parties set for big gainsFull report: Coalition talks loom as Israel exit polls suggest Netanyahu and Eisenkot blocs tiedAnalysis: Rise of Palestinian parties in Knesset will redraw Israel’s political landscapeIsrael election: what we know so farOne apparent loser from Tuesday’s election was far-right national security minister Itamar Ben-Gvir, who was expected to better his party’s result of six seats from the 2022 elections.But instead there was stunned silence at the",
-      "language": "en",
-      "title": "В Ізраїлі відбуваються вибори: блок Нетаньягу і головний опір, який не відповідає більшості, становлять 84% від кількості балотів.",
-      "summary": "Протистояння та союз Нетаньягу, які передбачають, що не будуть 61 місця, потрібні для встановлення уряду, а палестинські партії, які встановлюються для великих вигод, звіт: Коаліція говорить \"обговорення\" про вихід Ізраїлю, що передбачає, що Nalananajo та Eisencot блоки зв'язані Аналікс: \"Вибори палестинських партій\" на Кнесет відб'є Ізраїль на політичній площі: те, що ми знаємо настільки помітний невдаха з вівторгів у вівторок був далекою національним міністром безпеки Імар Бен-Гарі, який очікував кращого результату його партій з 2022 виборів. Але замість цього, було приголомшено на в залі Сполучених Штатах,",
       "engine": "opus_mt",
       "translated_at": 1793188434
     },
@@ -3165,7 +4587,7 @@
   "meta": {
     "engine": "local_opus_mt_with_optional_mymemory_fallback",
     "daily_target": 200,
-    "new_translations": 154,
-    "remaining_candidates": 46
+    "new_translations": 164,
+    "remaining_candidates": 36
   }
 }
