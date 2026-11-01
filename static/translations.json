@@ -1,7 +1,1384 @@
 {
   "schema": 1,
-  "updated": 1793436811,
+  "updated": 1793526317,
   "articles": {
+    "53726931d97697a2ace4": {
+      "source_title": "AO3 Fan Fiction Site Is Hacked and Could Be Offline for Weeks",
+      "source_summary": "Home to tales inspired by the likes of “Harry Potter” and “Heated Rivalry,” the archive was taken down after “an intrusion,” one of its founders said. It could be down for weeks.",
+      "language": "en",
+      "title": "АО3 фан - фан - сайт обірваний і може бути поза мережею протягом тижня",
+      "summary": "Дом до н.е. надихнулось на те, що типу \"Херрі П'ята\" і \"Витоки,\" ♫ Архів було знято після няня, і, можливо, один із засновників сказав, що він може бути знизився тижнями.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "282a16a7116ccf12390f": {
+      "source_title": "EU Commission: Polish Parliament has right to appoint judges to the Constitutional Court",
+      "source_summary": "The statement comes after a confrontation outside the Constitutional Tribunal building on Friday night, broadcast live on television, that has pushed a decade-old dispute into the wider European political debate.",
+      "language": "en",
+      "title": "Комісія: Польський парламент має право призначати суддів у конституційний суд",
+      "summary": "Це твердження відбувається після конфронтації за межами Конституційного трибуналу в п'ятницю ввечері, трансляції живого по телевізору, що втягнуло десятиліття у ширші політичні дебати Європи.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "0f7c88dee6fa61b1f046": {
+      "source_title": "Europe’s crumbling coastlines face a €800 billion crisis. Is it time to move inland?",
+      "source_summary": "Economic losses from coastal erosion exceed €1 billion per year across 28 European countries",
+      "language": "en",
+      "title": "Європа, яка розкинулась на берег, зіткнулася з кризою 800 мільярдів євро.",
+      "summary": "Економічні втрати через ерозію у 28 європейських країнах щороку перевищують 1 мільярд євро.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "53bd69f21bd1d2b50f35": {
+      "source_title": "Doha stopover travel guide: What to see and do on a city break in Qatar's capital",
+      "source_summary": "Qatar’s capital Doha offers plenty for travellers on a stopover, whether it’s a 24-hour stay or a few days. Here’s what to see, where to dine and what to experience beyond the airport.",
+      "language": "en",
+      "title": "Екскурсовод з Doha зупинок на дорозі: що робити під час міської перерви в столиці Катару?",
+      "summary": "Столиця Катоса пропонує багато для мандрівників на зупинці, будь то вона триває 24 години, чи кілька днів.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "3018013b08ee49265917": {
+      "source_title": "Companies promised AI gains— here's how the payoff showed up in earnings",
+      "source_summary": "Santander, Novartis and other companies say AI is beginning to boost revenue, cut costs or improve profitability as investors seek returns.",
+      "language": "en",
+      "title": "Компании обещали ШІ выращиваться здесь, как выплаты появились в доходе.",
+      "summary": "Сантандер, Новартіс та інші компанії кажуть, що ШІ починає збільшувати дохід, скоротити витрати або покращувати прибутковість, коли інвестори шукають повернення.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "c96e5b5557027d544965": {
+      "source_title": "Mistral Large 4 (Le Chonk) is now open weight - mistral.ai",
+      "source_summary": "Mistral Large 4 (Le Chonk) is now open weight mistral.ai",
+      "language": "en",
+      "title": "Містраль Великий 4 (Le Chonk) тепер є відкритим осередком ваги - містраль.ai",
+      "summary": "Містраль Великий 4 (Le Chonk) тепер є відкритим осередком ваги.ai",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "505a789f952097713d4e": {
+      "source_title": "India news: Opposition holds major rally in Delhi over voter roll revisions",
+      "source_summary": "Thousands are expected to take part in the Indian opposition's planned mega march in New Delhi over a controversial revision of electoral rolls. DW has more.",
+      "language": "en",
+      "title": "Новини з Індії: Протистояння проводить масове мітинг у Делі над модифікацією виборців",
+      "summary": "Тисячі людей братимуть участь у планованому мегамарсі індійського опору в Нью-Делі через суперечливе модифікування виборчих кишок.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "ed8d9e2a9f0230792552": {
+      "source_title": "‘Like Kashmir’: How a toxic marble dump yard became a tourist spot in India",
+      "source_summary": "Vast 'snow yard' in otherwise arid Rajasthan attracts hundreds of tourists daily, but residents face major health risks.",
+      "language": "en",
+      "title": "Як токсичне мармурове подвір'я стало туристичним місцем в Індії?",
+      "summary": "Вежаний двір у посушливому Раджастані щодня приваблює сотні туристів, але мешканці міста перебувають у великій небезпеці для здоров'я.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "ae1a41884e2396b190aa": {
+      "source_title": "Roger’s cynical gift basket for El-Sayed on his birthday",
+      "source_summary": "Republican Michigan Senate candidate Mike Rogers mocked Democratic rival Abdul El-Sayed with a sarcastic gift basket.",
+      "language": "en",
+      "title": "\"Родіанський подарунок\" для \"Ел-Сі\" на свій день народження.",
+      "summary": "Кандидат у сенату в республікані Мічигані Майк Роджерс насміхався з демократичного суперника Абдула Ела із саркастичною корзиною подару.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "5fe3dcc9d1c5a84a138d": {
+      "source_title": "UN demands investigation after staffer’s death in Houthi custody in Yemen",
+      "source_summary": "Mohammad el-Shami had been held since June 2024, when he and many other UN and NGO workers were accused of being spies.",
+      "language": "en",
+      "title": "ООН вимагає, щоб вона продовжувалася після косички смерті в нагляді Гуті в Ємені.",
+      "summary": "Мохаммед ел-Шамі був проведений з червня 2024 року, коли він і багато інших працівників ООН та НГО були звинувачені у шпигунстві.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "d6ce5e11dbf51dc775c7": {
+      "source_title": "France protests enter third week as police fire tear gas",
+      "source_summary": "Police used tear gas to disperse protesters as demonstrations entered a third week ahead in France.",
+      "language": "en",
+      "title": "У Франції входив третій тиждень протестування, коли поліція скидала газ.",
+      "summary": "Під час демонстрацій у Франції на третій тиждень впроваджено слизовий газ.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "70b32a71b4de3f5a289c": {
+      "source_title": "Indian authorities tighten security ahead of big opposition march in Delhi - Reuters",
+      "source_summary": "Indian authorities tighten security ahead of big opposition march in Delhi Reuters",
+      "language": "en",
+      "title": "Влада Індії наглядає за великою опозиційною позицією в Делі - Рейтер.",
+      "summary": "Влада Індії наглядає за великою опозиційною адією в Делі Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "f7978bf7fb76ba2986f4": {
+      "source_title": "He’s the Top Snake Catcher, and Business Is Booming. There’s Just One Problem.",
+      "source_summary": "Bangkok’s firefighters do more snake catching than firefighting, and Pinyo Pukpinyo trains them. But he refuses to kill the snakes, and he’s running out of containers.",
+      "language": "en",
+      "title": "Він говорить про \"Головну ловлю змій\" і \"Бумеризація,\" де є лише одна проблема.",
+      "summary": "Бангкок робить більше змій, ніж стрільби, і Піно Пукпін тренує їх, але він відмовляється вбивати змій, і він вириває з контейнерів.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "0e3beaaf3a30a8516df0": {
+      "source_title": "Thailand’s Most Famous Snake Catcher",
+      "source_summary": "Pinyo Pukpinyo, Thailand’s most famous snake catcher, has found the critters slithering in nooks and crannies all over Bangkok. He refuses to kill them.",
+      "language": "en",
+      "title": "Таїда - найвідоміший ловець змій",
+      "summary": "Піні Пукпіні, у Таїланді, знайшов найвідоміший ловець змії, що різався в мотоки і крунки по всьому Бангкоку.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "e0202c1b40241c221daa": {
+      "source_title": "Korean Language Picks Up in Japan",
+      "source_summary": "The rise of Korean terms in Japanese is a striking reversal from colonial times and a sign of the global appeal of South Korean culture.",
+      "language": "en",
+      "title": "Корейська мова вивчається в Японії",
+      "summary": "Поява корейських слів японською мовою - це разюче завернення колоніальних часів і ознака глобального заклику південнокорейської культури.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "52474b2aa7e22a101c2d": {
+      "source_title": "Haley Stevens advised to stay away from Abdul El-Sayed campaign events to limit ‘distractions’",
+      "source_summary": "A public spat has cast Democratic tensions in the spotlight as the close US Senate race draws to a headAbdul El-Sayed, the Democratic nominee for Michigan’s tightly fought US Senate race, wants Democratic congresswoman Haley Stevens to stay away from his campaign events.“I don’t want any distractions,” El-Sayed told reporters after a campaign rally, according to the New York Times. “It seems as though other folks are more interested in making this race about things that it’s not about.” Continue reading...",
+      "language": "en",
+      "title": "Хейлі Стівенс порадив триматися подалі від Абдула Ель-Сейдла, щоб обмежити дистанції",
+      "summary": "Громадська частина ставить демократичні відносини в центрі уваги, коли тісна сенатна гонка США наближається до голови Ель-Сі, Демократична номіна для гонки в Мічигані, хоче, щоб Демократична конвенція Хейлі Стівенс відстояла від своїх загонів. Я не хочу відволікати увагу, ♫ E-Syed сказав репортерам після мітингу, згідно з Нью-Йорк Таймс. ♫ Здається, що інші люди більше зацікавлені у тому, щоб робити цю расу про те, про що вона не говорить. ♫ Продовжити читання...",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "603cd29052594273654b": {
+      "source_title": "Ukrainian evacuees from Russian-occupied Oleshky reunite with family",
+      "source_summary": "Starved and exhausted residents of Oleshky arrive in Ukraine after months of isolation, but some stay behind.",
+      "language": "en",
+      "title": "Українська евакуація з російського Олешкі з сім'єю.",
+      "summary": "Після кількох місяців ізоляції в Україні прибувають виснажені та виснажені мешканці, але деякі залишаються самі.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "2d714aaa121b187b1616": {
+      "source_title": "What we know about latest efforts to end US war on Iran",
+      "source_summary": "The foreign ministers of the US and Iran say a diplomatic end to the war is still possible.",
+      "language": "en",
+      "title": "Що ми знаємо про останні спроби покласти край США війні в Ірані?",
+      "summary": "Міністри закордонних справ США та Іран кажуть, що дипломатичне закінчення війни все ще можливе.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "61e0c3f5ab9f6c36cd82": {
+      "source_title": "India’s largest dam planned to counter China faces Indigenous revolt",
+      "source_summary": "Indigenous people of Arunachal Pradesh are protesting a mega dam planned to counter China's upstream hydropower project.",
+      "language": "en",
+      "title": "Найбільша дамба Індії, планована на зустріч з Китаєм, стоїть перед огидним повстанням.",
+      "summary": "Природоохоронні жителі Аруначала Прадеш протестують проти мегабабда, яка планується протидіяти проекту гідроелектростанції Китаю.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "0c59c0a273678a4239f9": {
+      "source_title": "The King to speak about slavery with 'unflinching honesty'",
+      "source_summary": "The King will speak about slavery with \"unflinching honesty\" and \"sincere sorrow\" in a speech to Commonwealth leaders amid increasing pressure for Britain to offer an apology over its role in the transatlantic slave trade.",
+      "language": "en",
+      "title": "Король, який говорив про рабство з \"безчесною чесністю\"",
+      "summary": "Король говоритиме про рабство з \"неприборканою чесністю\" і \"відновлюю смуток\" у промові до лідерів Співдружностей серед зростаючого тиску Британії, щоб висловити вибачення за свою роль у трансатлантичній работоргівлі.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "1cf8f670adac64720d77": {
+      "source_title": "Data centers are now a midterm issue, even in Brooklyn",
+      "source_summary": "At a Brooklyn midterm party five days before Election Day, every conversation, from a council member’s fireside chat to a debate about the Democratic Party, kept circling back to AI and data centers.",
+      "language": "en",
+      "title": "Нині актуальне питання щодо центрів даних навіть у Брукліні.",
+      "summary": "На проміжній вечірці в Брукліні за п'ять днів до Дня есесівців кожна розмова від члена Ради йде в балачку з приводу паузи, до дебатів про Демократичну партію, що відходили назад до центрів ШІ та даних.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "4bb2f8a876104d13d61b": {
+      "source_title": "Data centers are now a midterm issue, even in Brooklyn - TechCrunch",
+      "source_summary": "Data centers are now a midterm issue, even in Brooklyn TechCrunch",
+      "language": "en",
+      "title": "Нині центри даних є проміжним питанням навіть у Брукліні - TechCrunch",
+      "summary": "Центри даних тепер є проміжним питанням навіть у Брукліні TechCrunch",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "583d33efd45768f67b98": {
+      "source_title": "Thousands rally in Israel urging ‘Jewish-Arab’ coalition to oust Netanyahu",
+      "source_summary": "In a counterprotest, Netanyahu supporters demand that Israel should not have a government with 'terrorists'.",
+      "language": "en",
+      "title": "Тисячі зборів в Ізраїлі заохочують }Ос-Араб'а коаліцію скинути Нетаньягу",
+      "summary": "У контрпротестації прихильники Нетаньягу вимагають, щоб Ізраїль не мав уряду з \"терористами.\"",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "f845da07825410f4870f": {
+      "source_title": "Shops looted as German cost of living protests turn violent",
+      "source_summary": "Police in Frankfurt say \"violent riots\" took place in the city centre, with unrest also reported in Berlin, Hamburg and Cologne.",
+      "language": "en",
+      "title": "Магазини, які грабували в Німеччині, були обкрадені коштами протестів за життя, що ставали жорстокими.",
+      "summary": "Поліція у Франкфурті каже, що \"насильний заколот\" стався в центрі міста, з неспокою також звітовано в Берліні, Гамбурзі і Кельні.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "de7377484e8d562198bd": {
+      "source_title": "These firms you've never heard of are feeding fears the AI bubble could burst",
+      "source_summary": "The amount of debt held by data centres is measured in the tens of billions of pounds.",
+      "language": "en",
+      "title": "Эти фирмы, о которых вы никогда не слышали, поджигают страхы, которые бульбашка ШІ может разорвать.",
+      "summary": "Обсяг боргу, який мають центри даних, вимірюється у десятках мільярдів фунтів.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "b904d7c4698a86bdf294": {
+      "source_title": "Taiwan says China harassing shipping with east coast patrol - Reuters",
+      "source_summary": "Taiwan says China harassing shipping with east coast patrol Reuters",
+      "language": "en",
+      "title": "Тайвань говорить, що Китай, занепокоєний доставкою східного узбережжя, - Рейтер.",
+      "summary": "Тайвань говорить, що Китай завдає шкоди кораблям зі східним береговим патрулем Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "9d6167d39ddca154b71f": {
+      "source_title": "UN demands investigation into death of staff member in Houthi custody",
+      "source_summary": "A Yemeni staff member of the UN Human Rights Office has died in Houthi custody after being arbitrarily held for more ​than two years, the UN human rights chief has said.",
+      "language": "en",
+      "title": "ООН вимагає розслідування щодо смерті члена персоналу в Houthi",
+      "summary": "Працівник Єменського бюро з питань прав людини в Гуті помер після двох років самоврядування, як сказав голова ООН з питань прав людини.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "a53453343860f8275f14": {
+      "source_title": "Talarico draws a packed campus rally, but can he win over young voters?",
+      "source_summary": "Al Jazeera’s @EmmaWithrow attended a packed rally for Democrat Senate Candidate James Talarico at Texas A&M.",
+      "language": "en",
+      "title": "Таларіко створює переповнений кампус, але чи може він завоювати молодих виборців?",
+      "summary": "Аль-Джазеалес -- Еммаутеров був на переповненому мітингу демократа Сенат Кандиту Джеймса Таларіко в Техасі.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "9196d3f52904b910cc1d": {
+      "source_title": "Tusk defends overhaul of Poland’s constitutional court despite protests",
+      "source_summary": "Prime minister says shake-up is vital to restore tribunal crippled by years of political disputesPoland’s prime minister, Donald Tusk, has vowed to see through a contested overhaul of the country’s constitutional court, declaring that “in certain matters, there can be no compromise”.In a prime-time television address on Saturday night, Tusk was defiant, despite overnight protests that saw riot police drafted to protect the court’s building, saying the shake-up was vital to restore a tribunal crippled by years of political disputes. Continue reading...",
+      "language": "en",
+      "title": "Туск захищає Польщу від конституції, незважаючи на протести.",
+      "summary": "Прем'єр-міністр каже, що струс над країною життєво важливий для відновлення трибуналу, який стирає роками політичних диспутів Поландса прем'єр-міністра Дональда Туска, поклявся бачити через змагання, проведене над країною, конституційний суд, заявляючи, що у деяких справах не може бути жодного компромісу. У прадавній телевізійній промові в суботу ввечері Туск був зухвалим, незважаючи на нічні протести, які бачили, що поліція була призвана для захисту будинку суду, кажучи, що струси було необхідно відновити трибунал, який паралізувався роками політичних виборів.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "fea61251420c3db95997": {
+      "source_title": "How the downfall of Serbia's Vučiċ mirrored that of Hungary's Orbán",
+      "source_summary": "Defeat for Serbia's Aleksandar Vučiċ in last weekend's vote was a carbon copy of Viktor Orbán's fall in Hungary.",
+      "language": "en",
+      "title": "Як падіння Сербії відбивало орбан з Угорщини",
+      "summary": "Поборення сербії Александара Вужі в голосуванні за минулі вихідні було вуглецевою копією падіння Віктора Орбана в Угорщині.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "2af5afc80048ed372ec3": {
+      "source_title": "Pandemic-Era Longing to Gather Fed Qiu Jiongjiong’s Tokyo Competition Title ‘Fuxi: Four Tales of Feasting’",
+      "source_summary": "Chinese painter and filmmaker Qiu Jiongjiong began shaping his new film during the pandemic. With the world suddenly forced to pause, he tells Variety, people felt an urgent desire to return to everyday life and to gather around a table. That idea became the starting point for “Fuxi: Four Tales of Feasting,” which is competing […]",
+      "language": "en",
+      "title": "Пандеміка-Ера Довгота, щоб зібрати Fed Qiu Jongjongs Tokyo Tito Title Title Title Fuuxi: чотири шестерні з гри",
+      "summary": "Китайський художник і кінорежисер Кві Джіонґ почав формувати свою нову плівку під час пандемії.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "db98d0f633b0345f531f": {
+      "source_title": "Trump says Flavio Bolsonaro can stay in US 'as long as he wants' - Reuters",
+      "source_summary": "Trump says Flavio Bolsonaro can stay in US 'as long as he wants' Reuters",
+      "language": "en",
+      "title": "Трамп каже, Флавіо Болсонаро може залишатися в США скільки захоче.",
+      "summary": "Трамп каже, Флавіо Болсонаро може залишатися в США, поки хоче.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "00eaf7b4b05cf7c9d79f": {
+      "source_title": "Stephen King Has 2 Wildly Different 2026 Movie Recommendations That You Can Stream",
+      "source_summary": "Horror icon Stephen King has recommended two 2026 movies that could not be more different in tone and execution - and neither of them is a horror film.",
+      "language": "en",
+      "title": "Stephen King has 2 різні різні фільми 2026, які ви можете переглядати",
+      "summary": "Ікона жаху Стівена Кінга рекомендувала два 2026 фільмів, які не можуть бути більш відмінними у тоні й виконанні, і жодне з них не є фільмом жахів.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "4de1b7a8757ec94ad746": {
+      "source_title": "South Korea exports nearly double in October on AI investment boom - Reuters",
+      "source_summary": "South Korea exports nearly double in October on AI investment boom Reuters",
+      "language": "en",
+      "title": "У жовтні майже вдвічі більше експортують в Південну Корею.",
+      "summary": "У жовтні Південна Корея експортує майже вдвічі більше коштів на інформаційному бум-репортажі.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "449fb61ba5f785efb24d": {
+      "source_title": "Polish president holds crisis talks in court standoff",
+      "source_summary": "A dispute over the politicisation of Poland's constitutional court is deepening, with no side appearing to back down.",
+      "language": "en",
+      "title": "Польський президент проводить переговори про кризу в суді.",
+      "summary": "Суперечка щодо політики конституційного суду в Польщі поглиблюється, і немає жодної сторони, яка б відступила.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "5fe7d2e3b7f829d0aa45": {
+      "source_title": "5 expensive hobbies where owning a 3D printer actually saves you money",
+      "source_summary": "While a personal 3D printer is certainly an investment, if you regularly engage with an expensive hobby, it might actually save you some cash.",
+      "language": "en",
+      "title": "5 дорогих хобі, де володіння 3D-принтером насправді заощаджує гроші.",
+      "summary": "Тоді як особистий 3D - принтер - це, безперечно, інвестиція, але якщо ви регулярно займаєтесь коштовним хобі, то насправді він може зберегти вам трохи готівки.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "6c9b24994b1bb8f76b68": {
+      "source_title": "Gen Z-led protests in Germany turn violent",
+      "source_summary": "Protesters clashed with police as thousands took to the streets across 34 cities in Germany.",
+      "language": "en",
+      "title": "У Німеччині протести стали жорстокими.",
+      "summary": "Протестудачі зіткнулися з поліцією, коли тисячі людей переїжджали по вулицях 34 міст Німеччини.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "9fdd859de5445198a141": {
+      "source_title": "India's opposition set to hold mega rally seeking election chief's resignation",
+      "source_summary": "It comes amid growing protests over a voter roll revision exercise feared to leave 130 million voters off rolls.",
+      "language": "en",
+      "title": "Опозиція Індії почала проводити мегаконгрегацію, шукаючи відставки голови виборчих.",
+      "summary": "Це відбувається серед дедалі більших протестів через перевидалізацію виборців, які бояться залишити 130 мільйонів виборців.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "bd39f4ca443224798b3d": {
+      "source_title": "It: Welcome To Derry Halloween Episode Features Live-Action Debut Of Iconic Stephen King Character",
+      "source_summary": "It: Welcome to Derry's special Halloween prequel episode features the very first on-screen appearance of a powerful, iconic Stephen King character.",
+      "language": "en",
+      "title": "It: Ласкаво просимо до Derry Halphine These sequences Live- Action Draft of Iconic Stephen King Char",
+      "summary": "Ласкаво просимо до спеціального епізоду з Хелловіну у фільмі про Галовін, де розповідається про перший екранний вигляд могутнього іконічного персонажа Стівена Кінга.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "e527f4893069ce3fac75": {
+      "source_title": "Iran war live: Tehran eyes 2-day Hormuz plan; Trump says talks ‘going fine’",
+      "source_summary": "Top diplomat says Iran and Qatar have reached a plan to reopen Hormuz in two days if the US meets Tehran's conditions.",
+      "language": "en",
+      "title": "Іранна війна жива: очі Тегерана 2-денний план Хормуза; Шамп каже, що говорить ♫ } Що добре ♪",
+      "summary": "Эплджек-диалог говорит, что Иран и Катар дошли план, чтобы снова открыть Гормуз за два дня, если США согласится с условиями Тегерана.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "41426dc995ece46c2050": {
+      "source_title": "Amazon made the AUX input on older Alexa devices less useful",
+      "source_summary": "Amazon has made a quiet change to older Echo speakers that will leave owners rethinking how they use their devices and manage their home audio setups.",
+      "language": "en",
+      "title": "Amazon зробив введення AUX для старих пристроїв Alexa менш корисним",
+      "summary": "Amazon змінила застарілі гучномовці, і власники переосмислюють, як вони використовують свої пристрої та керують домашніми звуковими настроями.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "c35ab1a02974d0363604": {
+      "source_title": "Trump defamation suit against Murdoch, WSJ over Epstein letter dismissed with prejudice",
+      "source_summary": "President Donald Trump denied writing a birthday letter to sex offender Jeffrey Epstein, which was the subject of a 2025 Wall Street Journal article.",
+      "language": "en",
+      "title": "Дилемативний позов проти Мёрдока, WSJ over Epstein Bitch відхилив з упередженням",
+      "summary": "Президент Дональд Трамп відмовив у написанні повідомлення про день народження Джефрі Епштейну, який був темою статті в Уолл - стрит джорнел 2025.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "0f870e86a6ad2260d2c1": {
+      "source_title": "Salvadoran families demand fair trials, mourn prison dead on Day of the Dead - Reuters",
+      "source_summary": "Salvadoran families demand fair trials, mourn prison dead on Day of the Dead Reuters",
+      "language": "en",
+      "title": "Сальвадорські сім'ї вимагають справедливих випробувань, оплакують ув'язнення у День померлих.",
+      "summary": "Сальвадорські сім'ї вимагають справедливих випробувань, оплакують ув'язнення у День мертвого Рейтера.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "203a79d4dcb8f77d26c0": {
+      "source_title": "ICE agent’s violent shove propels woman through the air",
+      "source_summary": "A witness has captured video of an ICE agent violently shoving a teacher who was blocking his car in Chicago.",
+      "language": "en",
+      "title": "ICE People's grand moves moves жінка через повітря",
+      "summary": "Один свідок захопив відеоапаратуру агента ICE, який сильно штовхав вчителя, який загороджував свою машину в Чикаго.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "4b11d8e8063dacdb61b0": {
+      "source_title": "How big and powerful is SpaceX's Starship rocket?",
+      "source_summary": "SpaceX's Starship has a big role to play in NASA's plans to land astronauts on the Moon. Here's how big this rocket is and how its two stages work together.",
+      "language": "en",
+      "title": "Наскільки великою і потужною є ракета космічного корабля SpaceX?",
+      "summary": "Starship SpaceX відіграє велику роль у планах NASA насадити астронавтів на Місяць.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "b045fb05a51ee1e8a410": {
+      "source_title": "Why your Apple AirPods' battery drains so fast and how to make it last longer",
+      "source_summary": "It's annoying when your Apple AirPods run out of juice, but the culprit might not be what you think. Here's what's going on and what you can do about it.",
+      "language": "en",
+      "title": "Чому батарея вашого AirPods Apple стікає так швидко і як зробити так, щоб вона тривала довше",
+      "summary": "Це дратує, коли у ваших AirPods закінчується сік, але винуватцем може бути не те, що ви думаєте.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "2242e01731c6e881b891": {
+      "source_title": "I've been stuck on a tiny Pacific island for years and can't get a transit visa to fly home",
+      "source_summary": "Ruchira Ranasingha, 50, has been stranded in the Cook Islands since 2023 and wants to return to Sri Lanka.",
+      "language": "en",
+      "title": "Я роками застряг на крихітному острові Тихого океану і не можу отримати транзитну візу, щоб полетіти додому.",
+      "summary": "З 2023 року Ручира Ранасінга, 50 - річна дівчина, знепритомніла на островах Кука, і хоче повернутися на Шрі - Ланку.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "734e81321ea2f8244acd": {
+      "source_title": "The Slate vs Ford Fathom debate might be settled by this one key tech feature",
+      "source_summary": "Slate and Ford are both building affordable electric pickups, and that means compromises. But the two automakers are taking very different paths to get there.",
+      "language": "en",
+      "title": "Дебати Slates vord Fathom можуть бути вирішені цією ключовою технікою",
+      "summary": "Склянки і Форд будують доступні електричні пікапи, а це означає компроміси, але двоє автоматів рухаються дуже різними шляхами, щоб дістатися туди.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "99476243f0644badb297": {
+      "source_title": "The Arcane Knowledge Directors Wish They Could Summon",
+      "source_summary": "As part of SCAD Savannah Film Fest's Behind Their Lens panel, directors like Sophy Romvari and Kenna Harris told IndieWire about the areas of filmmaking they'd love to explore more.",
+      "language": "en",
+      "title": "Режисери з аркнейським знанням бажають їм грошей",
+      "summary": "Як частина кінопрофесій SkyAD Savanna Fest, що стоїть за їх рекламною панеллю, режисери, такі як Софі Ромварі та Кенна Гарріс розповіли Інді-Вівер, де вони хотіли б дослідити більше.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "51a089fca95cd37b9349": {
+      "source_title": "Judge ends Trump's attempts to sue Wall Street Journal over Epstein reporting - Reuters",
+      "source_summary": "Judge ends Trump's attempts to sue Wall Street Journal over Epstein reporting Reuters",
+      "language": "en",
+      "title": "Суддя завершує спроби Трампа подати в суд на Уолл - стрит джорнел через звіт про Епштейн.",
+      "summary": "Суддя завершує спроби Трампа подати в суд на Уолл - стрит джорнел через інформаційне агентство Epstein",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "0f11667727c829c461ae": {
+      "source_title": "Virginia and D.C. sue to block construction of Trump arch",
+      "source_summary": "U.S. District Court Judge Tanya Chutkin ordered both sides to talk and to agree on a proposed briefing schedule on the motion for a temporary restraining order by Saturday evening.",
+      "language": "en",
+      "title": "Вірджинія і Д.К. суд, щоб блокувати побудову арки Трамп",
+      "summary": "Суддя Районного суду США Таня Чаткін наказала обом сторонам говорити і домовитися про заплановане інструктаж про тимчасове обмеження до суботнього вечора.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "8753f563ec357288fd6f": {
+      "source_title": "4 important features you should know if you use Microsoft Teams",
+      "source_summary": "A wealth of not-so-well-known features on Microsoft Teams make the experience easier and more stress-free than you may have previously thought.",
+      "language": "en",
+      "title": "4 Важливі можливості, які вам слід знати, якщо ви використовуєте команди Microsoft",
+      "summary": "Багатство невідомих особливостей у Microsoft Командах робить досвід легшим і вільнішим, ніж ви раніше могли собі уявити.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "4756fc59b3352f0a84bd": {
+      "source_title": "Dutch authorities rescue 38 people adrift in rubber boat",
+      "source_summary": "Migrant boats are rarely found in Dutch waters, and authorities are still trying to establish where this one came from.",
+      "language": "en",
+      "title": "Нідерландська влада рятує 38 чоловік, які потрапляють у катер з гумовим човном.",
+      "summary": "У голландських водах рідко можна побачити човни - мігранти, а влада й досі намагається визначити звідки вони походять.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "6d02390d07491873d3cb": {
+      "source_title": "Trump loses legal battle over Epstein-linked Wall Street Journal case",
+      "source_summary": "Judge permanently drops Trump's $10bn WSJ lawsuit, ruling he failed to prove actual malice in the newspaper's reporting.",
+      "language": "en",
+      "title": "Трамп програє правничу битву за справу, пов'язану з Epstein у Уолл-стріт Джорнел",
+      "summary": "Судья навсегда высунул 10bn судебного иска Трампа, исправил решение, что он не доказал настоящего злоби в газете.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "ff30a4166a7e8138485a": {
+      "source_title": "The reason most electrical plug prongs have holes in them",
+      "source_summary": "If you've ever looked at the end of a plug, you've probably wondered why some have holes, and some don't - and no, it's not actually a big conspiracy theory.",
+      "language": "en",
+      "title": "Причина, по якій більшість пропорцій електричного заряду мають дірки в собі",
+      "summary": "Якщо ви коли-небудь зазирнули в кінець антену, то, мабуть, цікавитесь, чому у деяких є отвори, а у деяких - ні, насправді це не велика теорія змови.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "fa9843e95dd707cf71c1": {
+      "source_title": "‘Before the Rain’ Director Milcho Manchevski on Tokyo Competition Title ‘Sister Brother Manhole Cover,’ Whistleblowing and the ‘Death of Beauty’ in Cinema",
+      "source_summary": "Milcho Manchevski, the North Macedonian director whose 1994 debut “Before the Rain” won Venice’s Golden Lion and earned an Oscar nomination, is back in competition at the Tokyo International Film Festival with “Sister Brother Manhole Cover,” a project stalled for years after he accused his country’s film agency of corruption. The dark comedy centers on […]",
+      "language": "en",
+      "title": "далі ми маємо кінцевий результат, який ми маємо, а саме, Міхо Манчевський на токійському \"Тіні\" Брат Маноуше, миттєва обкладинка, і \"Шістоїд\" і \"Місша\" в Конемі.",
+      "summary": "Македонський директор Міхо Манчевський, де 1994 р., деб'юр, виграв Золотий Лев, і отримав номінацію Оскара, знову на конкурсі Міжнародного фестивалю з \"Меріо Мароу,\" проект затримався багато років після того, як звинуватив його країну у корупції.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "ac1ada03b98d3f979e03": {
+      "source_title": "'Fascinating' rare beetle found in Wales again after 60 years",
+      "source_summary": "It was feared The Short-Necked Oil Beetle had become extinct in Wales after recent surveys",
+      "language": "en",
+      "title": "Рідкісний жук, знайдений у Уельсі після 60 років",
+      "summary": "Було страшно, що коротконагальний жук вимер в Уельсі після нещодавніх опитувань",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "b35678435c46fdf09252": {
+      "source_title": "When global diplomacy is done, it’s time for American football - AP News",
+      "source_summary": "When global diplomacy is done, it’s time for American football AP News",
+      "language": "en",
+      "title": "Коли виконується всесвітня дипломатія, то настав час для американських футбольних новин.",
+      "summary": "Коли виконується всесвітня дипломатія, то настав час для американських футбольних новин.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "7e5e58e9c3f164cd74c5": {
+      "source_title": "5 Netflix tips we all wish we knew sooner",
+      "source_summary": "If there are aspects of Netflix streaming that aren't to your liking, there are several changes you can make to optimize your viewing experience.",
+      "language": "en",
+      "title": "5 Порада для Netflix",
+      "summary": "Якщо існують аспекти потоку Netflix, які вам не подобаються, ви можете зробити декілька змін, щоб оптимізувати свій досвід перегляду.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "d01677b8ff1fce41a277": {
+      "source_title": "FBI links North Korea to theft of $6 billion from Binance - Reuters",
+      "source_summary": "FBI links North Korea to theft of $6 billion from Binance Reuters",
+      "language": "en",
+      "title": "ФБР пов'язує Північну Корею зі крадіжкою у 6 мільярдів доларів США з Бінанс - Рейтер.",
+      "summary": "ФБР з'єднує Північну Корею з крадіжкою у 6 мільярдів доларів США з агентства Бінс - Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "8e600cbb9a5d718fc71a": {
+      "source_title": "‘We Are Coming From Hell’: A Ukrainian City’s Evacuees Tell Survival Stories",
+      "source_summary": "Safely out of Oleshky after enduring years in the combat zone and a harrowing 24-hour journey, weary civilians reunited with family and friends.",
+      "language": "en",
+      "title": "Українські міста розповідають історії",
+      "summary": "Безпечно з Олескі після довгих років перебування у зоні бою та виснажливої 24-годинної подорожі виснажені цивільні люди возз'єдналися з сім'єю та друзями.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "d9269f49d95d2fae76a0": {
+      "source_title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "source_summary": "Apple's new CEO defended the company's current position in the AI landscape.",
+      "language": "en",
+      "title": "Головний директор Apple каже, що компанія не має права на відправку \"АІ\" для \"Ай-Ай-у-у-у-у-у-у-у-у-у\"",
+      "summary": "Новий виконавчий директор Apple захищав поточну позицію компанії в пейзажі штучного інтелекту.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "c50c32d0894131919b98": {
+      "source_title": "Legal filing questions Trump’s claims of non-citizen voting in California",
+      "source_summary": "Data scientists find that many 'likely non-citizens' identified by the Trump administration were erroneously flagged.",
+      "language": "en",
+      "title": "юридичні питання щодо голосування в Каліфорнії",
+      "summary": "Вчені з даних виявили, що багато \"подібно не-громадян,\" які були виявлені адміністрацією Трамп, були помилково відсторонені.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "204d5faf405d3242c5f3": {
+      "source_title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "source_summary": "An NAACP lawsuit accuses the SpaceX-owned AI company of violating the Clean Air Act.",
+      "language": "en",
+      "title": "Суддя дозволяє позову NAACP над центром даних xAI рухатися вперед",
+      "summary": "Судовий позов НААКП звинувачує в порушенні Акту про \"Суперкс,\" що порушив закон про \"чисте повітря.\"",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "7134f0761dc6eb35a36d": {
+      "source_title": "Judge dismisses Trump's Wall Street Journal lawsuit",
+      "source_summary": "A US judge has dismissed President Donald Trump's lawsuit against The Wall Street Journal over a story about a birthday card he allegedly sent Jeffrey Epstein.",
+      "language": "en",
+      "title": "Судья отключает иск Трампа в Уолл-стрит Journal",
+      "summary": "Судья США отказался от иска президента Дональда Трампа против Уолл-Стріт Journal по истории о карте дня рождения, которую он, предположительно, послал Джеффри Эпштейн.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "0ea8290add9ffa01cf5f": {
+      "source_title": "Taika Waititi Slams ‘Klara and the Sun’ Critics as ‘Irrelevant,’ ‘Sad Lost Souls’ and Says He Hasn’t ‘Read a Review’ in 15 Years: ‘But I Do Listen to the People’",
+      "source_summary": "Taika Waititi has taken to social media to defend “Klara and the Sun,” his latest directorial effort, amid poor reviews and bleak box office numbers, sharing an Instagram post featuring the film’s poster and its Rotten Tomatoes audience score of 78%. (In contrast, the critic score is 28% — the “Jojo Rabbit” director’s lowest yet). […]",
+      "language": "en",
+      "title": "Таїка Вейтті Слайс, Арла, і Сонце, як і Смертелева, ♪Sad Losties і каже, що він має прочитати короткий огляд за 15 годин: ведь я слухаю людей",
+      "summary": "Таіка Вейті звернувся до соціальних медіа, щоб захистити Клара і Сонце, ♫ його останні режисерські зусилля, серед бідних відгуків і похмурих номерів в офісах, спільно з Instagram using the pircles saver and it Rotten Tomatos score 78% (На відміну від цього, кількість критиків становить 28% } Іоджо crol craws } Найнижчий рівень)....",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "d9fc988cc4638c1256de": {
+      "source_title": "Mixed economic forecast weighs heavy ahead of midterms",
+      "source_summary": "There was a mixed Halloween bag of economic news this week. GDP growth is up, but so are prices. For now at least, interest rates are staying the same. What does that mean for the midterm elections?",
+      "language": "en",
+      "title": "Замішаний економічний прогноз важить багато більше, ніж проміжні.",
+      "summary": "Цього тижня відбулося змішане повідомлення про Хелловін, зростання ВВП зросло, але й ціни залишаються незмінними.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "8f2b650e7fdc4b4ee882": {
+      "source_title": "Polish PM Tusk vows support for tribunal amid court crisis - Reuters",
+      "source_summary": "Polish PM Tusk vows support for tribunal amid court crisis Reuters",
+      "language": "en",
+      "title": "Польський ПМС Туск підтримує трибунал серед судової кризи - Рейтер.",
+      "summary": "Польський ПМС Туск підтримує трибунал серед судових криз.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "bab2507c3758d3e7434e": {
+      "source_title": "Fiery confrontations between protestors and police in Albania",
+      "source_summary": "Fiery confrontations between protestors and police in Albania",
+      "language": "en",
+      "title": "Підбурювальні сутички між протестуючими і поліцейськими в Албанії",
+      "summary": "Підбурювальні сутички між протестуючими і поліцейськими в Албанії",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "19725790775c90257719": {
+      "source_title": "Canada advancing its 'middle power' strategy with new trade deals, Anand says - Reuters",
+      "source_summary": "Canada advancing its 'middle power' strategy with new trade deals, Anand says Reuters",
+      "language": "en",
+      "title": "Канада просуває свою стратегію \"середньої сили\" з новими торговими угодами, каже Ананд Рейтер",
+      "summary": "Канада просуває свою стратегію \"середньої сили\" з новими торговими угодами, каже Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "d3f9477c8fd14c94cd16": {
+      "source_title": "Get in the spirit with these horrors from YouTube",
+      "source_summary": "Rather than recommend a single horror film or an unsettling album for our final installment of spooky season recs, I present you with a small selection of creepy, disturbing, and just plain weird videos from YouTube. There's a little something for everyone here. Whether you're a fan of surreal art house shorts, cosmic horror, or […]",
+      "language": "en",
+      "title": "Зайдіть у дух з цими жахами з YouTube",
+      "summary": "Замість того, щоб запропонувати один фільм жахів чи невгамовний альбом для нашого кінцевого етапу жахаючих пір року, я представляю вам невеликий вибір моторошних, тривожних і просто дивних відео з YouTube.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "88d9ac3cfd2f5b0478a8": {
+      "source_title": "Health authorities probe two suspected Ebola cases in northeast Nigeria",
+      "source_summary": "The two individuals have been isolated while officials carry out contact tracing and laboratory testing.",
+      "language": "en",
+      "title": "У північно - східній частині Нігерії діє фахівець з питань охорони здоров'я, який займається дослідженням двох випадків Еболи.",
+      "summary": "Ці дві особи були ізольовані під час проведення контакту та лабораторних тестів.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "babfa56edbd34fff7a1d": {
+      "source_title": "Why your Apple AirPods won't connect to your iPhone and how can you fix it",
+      "source_summary": "When your AirPods refuse to show up on your iPhone, the cause is usually simpler than you'd think. Here's where to look first and what to try next.",
+      "language": "en",
+      "title": "Чому ваші AirPods Apple не можуть з'єднатися з вашим iPhone і як ви можете це виправити",
+      "summary": "Коли ваші AirPods відмовляються з'являтися на вашому iPhone, причина, зазвичай, простіша, ніж ви думаєте.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "c6bb60936e04a809154c": {
+      "source_title": "Tommy Castellanos earns start, leads No. 13 Texas Tech to 34-26 win over No. 22 Arizona - AP News",
+      "source_summary": "Tommy Castellanos earns start, leads No. 13 Texas Tech to 34-26 win over No. 22 Arizona AP News",
+      "language": "en",
+      "title": "Томмі Кастелланос почав свою справу, і він веде No 13 Texas Techo до перемоги 34-26 над Арізоною 22 AP News",
+      "summary": "Томмі Кастелланос почав свою справу, ведучи No 13 Texas Techo до 34-26 перемог у No 22 Aрізона AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "e2fd0099343edd43d643": {
+      "source_title": "Evacuees reunite with family at the Ukrainian-Belarusian border after fleeing Oleshky - AP News",
+      "source_summary": "Evacuees reunite with family at the Ukrainian-Belarusian border after fleeing Oleshky AP News",
+      "language": "en",
+      "title": "Евакуї з'єднуються з сім'єю на українсько-бережній кордон після втечі з Олескі - AP News",
+      "summary": "Евакуї з'єднуються з сім'єю на українсько-бережному кордоні після втечі з Олескі AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "afdccfe3eadcd6063e3c": {
+      "source_title": "District of Columbia and Virginia sue to block Trump’s triumphal arch plans",
+      "source_summary": "The monument has sparked fierce opposition from local governments fearing disruption to traffic and historic views.",
+      "language": "en",
+      "title": "Район Колумбія та Віргінія висунуто на блоки тріумфальні плани арок",
+      "summary": "Цей пам'ятник викликав сильну протидію з боку місцевих урядів, які бояться порушення правил дорожнього руху та історичних поглядів.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "a5fa9902f7f4352fd68f": {
+      "source_title": "Alex Gibney-Produced ‘Mohabat,’ Directed by James Longley, Wins at Ji.hlava: The Film Is ‘Meticulously Researched and Exquisitely Crafted’",
+      "source_summary": "James Longley’s “Mohabat” won the Opus Bonum section at Ji.hlava Documentary Film Festival on Saturday. Produced by Mohammad Sharif Hotak, Longley and Oscar-winning filmmaker Alex Gibney, it follows a 12-year-old boy Mohabat, whose father dies in a drone strike. Left without parental care, he’s taken to a city orphanage. “By patiently observing the boy’s interactions […]",
+      "language": "en",
+      "title": "Алекс Gibni-Produced }Мохабат, }Пішов Джеймс Лонглі, Вінс на Джі.hlava: The'I'I's moseulusly expected і Exquisite Casted's",
+      "summary": "Джеймс Лонгйзйоззззйомзграв відділ опух Бонума в Ji.hlava Documentary Pictory Documenty on Sunday. ...початок Мохамма Шаріф Хоттак, Лонглі та Оскар Виконавчого кінорежисера Алекса Ґібні, це йде за 12-річним хлопчиком Мохабатом, чий батько помирає в безпілотному ударі.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "74fdbf78a15fba9f65fd": {
+      "source_title": "Israel’s allegations of Qatari election interference rejected",
+      "source_summary": "Israel’s allegations of Qatari election interference rejected",
+      "language": "en",
+      "title": "Ізраїль відмовляється від виборчих справ у Катарі.",
+      "summary": "Ізраїль відмовляється від виборчих справ у Катарі.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "1ddaeb2566da5e3607b9": {
+      "source_title": "Man in Belfast charged with possessing explosives and firearms",
+      "source_summary": "The 35-year-old was charged after police searched properties in Shankill Road and Edwina Street areasA man has been charged under the Explosives Act and Firearms Order after police searched properties in Belfast.The 35-year-old was charged with offences including two counts of possessing explosives under suspicious circumstances, and possession of a prohibited weapon (discharge of electricity or noxious gas). Continue reading...",
+      "language": "en",
+      "title": "Чоловік у Белфасті має вибухівку та вогнепальну зброю.",
+      "summary": "35-річну дитину було звинувачено після обшуку майна у Шенкел Роуд і Едвіна-стріт. людину було звинувачено під керівництвом Акту про вибухівку і Пожежу, після того, як поліція обшукала майно Белфаста. 35-річну дитину звинувачували у порушенні, зокрема, у двох об'ємах вибухівки за підозрілих обставин, і у володінні забороненою зброєю (заряди електроенергії або газового газу). Продовжуйте читання...",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "1795b5f535849156df5f": {
+      "source_title": "Poland crisis: Donald Tusk strikes defiant tone vowing ‘no compromise’ on rule of law after Tribunal clash",
+      "source_summary": "Tusk addressed the nation as tensions over Poland’s Constitutional Tribunal escalated, accusing PiS and President Nawrocki of undermining the rule of law and pledging support for the newly elected judges and the court’s work.",
+      "language": "en",
+      "title": "Польщанська криза: Дональд Туск виконує зухвалу присягу щоно йде на компроміс із правилом закону після трибуналу.",
+      "summary": "Туськ звернувся до народу як до напруженості над Польщею, як до Конституційного трибуналу, дедалі більше звинувачував ПіС і президента Наукраті у порушенні закону та у підтримці новообраних суддів та судових справ.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "3ca50ab6f8f762706474": {
+      "source_title": "SpaceX loses bid to toss NAACP lawsuit over Memphis data center air pollution",
+      "source_summary": "The Colossus data centers and a power plant that SpaceXAI is also building in Southaven, Mississippi, have faced community backlash for years.",
+      "language": "en",
+      "title": "SpaceX програє рекламу, щоб викинути позов NAACP через Мемфіс центр забруднення повітря",
+      "summary": "Центри даних Колосса та електростанція, які також будують SpaceXAI у Саутахібі (штат Міссісіпі), роками зустрічалися з громадською реакцією.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "fdfb6fc6498f4b0eb0ed": {
+      "source_title": "What is ranked-choice voting and how does it work in US elections?",
+      "source_summary": "Ranked-choice voting in Alaska could shape a key 2026 race, amid a US lawsuit involving two candidates named Dan Sullivan.",
+      "language": "en",
+      "title": "Що таке голосування з рейтингом і як він працює на виборах США?",
+      "summary": "Виборчі голосування з бігу на Алясці могли б сформувати гонку за ключем 2026 року, серед позову США з двома кандидатами на ім'я Ден Саллівен.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "cc5e68dfb70f0b966931": {
+      "source_title": "Turkiye’s Erdogan urges Russia and Ukraine to stop Black Sea attacks",
+      "source_summary": "Turkish president hosts Zelenskyy in Istanbul as the two leaders agree to work on a new Black Sea grain corridor.",
+      "language": "en",
+      "title": "Туркис Ердоган заохочує Росію та Україну зупинити атаки Чорного моря",
+      "summary": "Турецький президент об'єднує Зеленського в Стамбулі, коли два лідери погоджуються працювати на новому коридорі зерна Чорного моря.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "f6f258801a5f140ab74a": {
+      "source_title": "Abu Dhabi Grand Slam 2026: Heavyweights deliver a spectacular finale",
+      "source_summary": "The Abu Dhabi Grand Slam concluded with thrilling heavyweight action! Ivaylo Ivanov, Yelyzaveta Lytvynenko, Idar Bifov, Helena Vukovic and Irakli Demetrashvili claimed gold, while judo legend Teddy Riner joined the celebrations.",
+      "language": "en",
+      "title": "Абу-Дабі Гранд-Слам 2026: Вагові ваги приносять вражаючий фінал",
+      "summary": "Абу-Дабі Гранд Слам закінчив з вражаючою рішучістю! Івайло Іванов, Єлизавета Літвінко, Ідар Біфов, Хелена Вукович і Іраклі Деметаравілі заявляли золото, а легенда Тедді Рінер приєдналася до свят.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "1625df0571109c9d3436": {
+      "source_title": "'Gen Z' demonstrations across Germany demand more education funding",
+      "source_summary": "Police and protesters clashed Saturday in Germany, where tens of thousands of young people took to the streets, inspired by similar movements in other European countries. At the call of a collective called \"GenZ regelt!\" (\"Gen Z has got this!\"), protesters formed marches across the country to demand more funding for education and to protest the high cost of living.",
+      "language": "en",
+      "title": "Демонстрації \"Gen Z\" по всій Німеччині вимагають більшого фінансування освіти",
+      "summary": "У суботу в Німеччині протистояли поліції та протестуючим, де десятки тисяч молодих людей взялись на вулиці, надихнувшись подібними рухами в інших європейських країнах.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "bb84041fcf7df45cc3f6": {
+      "source_title": "Iran Braces for More War, No Matter the Outcome of the U.S. and Israeli Elections",
+      "source_summary": "With Prime Minister Benjamin Netanyahu fighting to stay in power and President Trump facing a tough midterm, Iran’s leaders expect no major shift in policy.",
+      "language": "en",
+      "title": "Іранські Брети для більшої війни, не робить різниці, що Сполучені Штати й ізраїльські електи",
+      "summary": "З Прем'єр-міністром Бенджаміном Нетаньягу, який бореться за перебування у владі, а президент Трамп стоїть на передньому етапі, лідери не очікують значних змін у політиці.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "76bd6d62dfee37862e82": {
+      "source_title": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms - Reuters",
+      "source_summary": "Iranian envoys meet Qatari mediators as threat looms of US strikes after midterms Reuters",
+      "language": "en",
+      "title": "Іранські посланці зустрічаються з посередниками у Катарі, як об'єкти, що загрожують США після проміжних виплат - Рейтер.",
+      "summary": "Іранські посланці зустрічаються з посередниками у Катарі як об'єкти, що загрожують США після проміжних страйків Рейтер",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "5e5e91f6829ac9a155ff": {
+      "source_title": "Xbox manager says AI is already being used in game development",
+      "source_summary": "Brandon Stirrup deleted his comments from X a day after saying that AI usage is widespread in the gaming industry.",
+      "language": "en",
+      "title": "Менеджер Xbox повідомляє, що ШІ вже використовується у розробці ігор",
+      "summary": "Брендон Стірруп видаляв коментарі з X на день після того, як сказав, що використання комп'ютерної індустрії дуже поширене.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "bf6ad7f1e280ca534c92": {
+      "source_title": "‘The Mosquito Bowl’: How a Parrot Proved to Be Peter Berg’s Biggest Challenge",
+      "source_summary": "Director Peter Berg faced numerous challenges shooting his latest film, “The Mosquito Bowl.” Based on Buzz Bissinger’s book, the film tells the true story of four college football stars — Tom Francis as David Schreiner, Nicholas Galitzine as John McLaughry, Ray Nicholson as Tony Butkovich and Bill Skarsgård as Bob Baumann — who are called […]",
+      "language": "en",
+      "title": "Як пародіїв продемонстрував бути Петром Бергс найбільша трудність",
+      "summary": "Президент Пітер Берг зіткнувся з численними викликами, які викликали його останній фільм \" Москвіто овлю .\") } Пляшов на \" Баз Бісінг \" (\" Bassing \").",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "0417cf41a0a99470472f": {
+      "source_title": "Lanterns VFX Reel Shows How The HBO Series Spent Its Massive Budget",
+      "source_summary": "HBO's Lanterns clearly wasn't a cheap show to make, and a newly-released reel reveals how much 'invisible' VFX work went into the DC Studios series.",
+      "language": "en",
+      "title": "Рельєф VFX показує, як Серія HBO перенесла свій Масивний бюджет",
+      "summary": "Очевидно, що Лантерни HBO не були дешевим шоу, яке треба було зробити, і щойно відновлений реель показує, наскільки \"невидима\" робота VFX увійшла в серію DC Studios.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "8b544c4b1ef1f25bc295": {
+      "source_title": "OpenAI pares fundraising goal, now seeking up to $20 billion in latest round",
+      "source_summary": "The funding round is still in progress and has not closed, so the figures are subject to change, a person directly familiar with the deal told CNBC.",
+      "language": "en",
+      "title": "Метою збору коштів OpenAI, що тепер шукає до 20 мільярдів доларів у останньому раунді",
+      "summary": "Коефіцієнт фінансування все ще триває і ще не закритий, тому цифри можуть змінитися, людина, яка безпосередньо знайома з угодою CNBC.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "ababf0f756b8353255d3": {
+      "source_title": "Serbia after Vucic: The winners are losing patience",
+      "source_summary": "After the Student List's election victory, Aleksandar Vucic's power apparatus is disintegrating. People want justice as soon as possible. But the losers still hold sway in the judiciary and administration.",
+      "language": "en",
+      "title": "Сербія після Вуціка: Переможці втрачають терпіння",
+      "summary": "Після перемоги над виборами у Списку студентів Александрар Vucicar втрачає свою силу, а люди якомога швидше прагнуть справедливості, але невдахи все ще мають владу в юридичній і адміністрації.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "7274e1047cf5403702a5": {
+      "source_title": "Tusk defends suspension of Poland’s Constitutional Tribunal president as protesters gather again - AP News",
+      "source_summary": "Tusk defends suspension of Poland’s Constitutional Tribunal president as protesters gather again AP News",
+      "language": "en",
+      "title": "Туск захищає висяння Польща Конституційного трибуналу, коли протестуючі знову збираються - AP News",
+      "summary": "Туск захищає висяння Польща Конституційного трибуналу, коли протестуючі знову збираються в AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "6e2ae12dae354c803e9f": {
+      "source_title": "Here is the latest.",
+      "source_summary": "Thousands, potentially in masks and costumes, are expected on the streets on Saturday, prompting the authorities to prepare another vast security response.",
+      "language": "en",
+      "title": "Ось останні новини.",
+      "summary": "У суботу на вулицях чекають тисячі масок і костюмів, і це спонукує представників влади підготувати ще одну величезну реакцію безпеки.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "e6cbfbb4c7621f106d60": {
+      "source_title": "Evacuees Arrive to Safety From Besieged Ukrainian City of Oleshky",
+      "source_summary": "A few days of truce allowed the removal of remaining civilians from Oleshky, which continual Russian attacks have made all but uninhabitable.",
+      "language": "en",
+      "title": "Евакуї прибули до безпечного міста Олешкі, що в Україні.",
+      "summary": "Кілька днів перемир'я дозволили усунути цивільне населення з Олескі, через що постійні російські напади зробили все, крім того, непридатним для життя.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "4e1bae547d973b0e1321": {
+      "source_title": "Police clear new Lisbon housing protest camp after thousands rally - Reuters",
+      "source_summary": "Police clear new Lisbon housing protest camp after thousands rally Reuters",
+      "language": "en",
+      "title": "Поліція розчистила новий табір протесту в Лісабоні після тисячі демонстрацій - Рейтер.",
+      "summary": "Поліція розчистила новий табір протесту в Лісабоні після тисячного демонстраційного агентства Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "a90304fc83cb91dc2c95": {
+      "source_title": "Keyboards of The Verge",
+      "source_summary": "What is a keyboard if not the original brain-computer interface? You can tap on a touchscreen or talk to the computer, but if your work involves getting information out of your head and into the computer, you're probably spending a lot of time using a keyboard. We've written about many keyboards over the years, from […]",
+      "language": "en",
+      "title": "Клавіатура Верге",
+      "summary": "Що таке клавіатура, якщо не інтерфейс комп' ютера для мозку? Ви можете за допомогою сенсорного екрану або розмови з комп' ютером, але якщо ваша робота полягає у наданні інформації з вашої голови і комп' ютера, ви, ймовірно, витрачаєте багато часу на використання клавіатури. Ми написали про багато клавіатур протягом років, з [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "fa7549bd0fb2323a159f": {
+      "source_title": "Pope Leo tells Villanova and Notre Dame basketball teams he is neutral. Prevost has other ideas - AP News",
+      "source_summary": "Pope Leo tells Villanova and Notre Dame basketball teams he is neutral. Prevost has other ideas AP News",
+      "language": "en",
+      "title": "Папа Лев каже Вільянова і Нотр Дамові, що він нейтральний.",
+      "summary": "Папа Лев каже Вільянова і Нотр Дам, що він нейтральний.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "2eb9ed0951b88425f1ea": {
+      "source_title": "'We came back from hell', say Ukrainians after years in Russia-occupied front-line city",
+      "source_summary": "One evacuated couple says they crossed minefields in Oleshky in search of food.",
+      "language": "en",
+      "title": "\"Ми повернулися з пекла,\" скажімо, українці через багато років у російському місті на фронті",
+      "summary": "Одна евакуйована пара каже, що вони перетнули мінні поля в Олескі в пошуках їжі.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "24a976ea1f5a88480415": {
+      "source_title": "Ghouls, scary clowns and Barbie: The world dresses up for Halloween, in photos - AP News",
+      "source_summary": "Ghouls, scary clowns and Barbie: The world dresses up for Halloween, in photos AP News",
+      "language": "en",
+      "title": "Гаулз, перелякані клоуни й Барбі: Світ вдягається на Хелловін у фото - AP News",
+      "summary": "Гаульс, перелякані клоуни та Барбі: Світ вдягається на Хелловін у фото AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "838ee323517c4c110a95": {
+      "source_title": "How vulnerable are cryptocurrency platforms?",
+      "source_summary": "Hackers have targeted Binance, the world’s largest exchange.",
+      "language": "en",
+      "title": "Наскільки вразливі криптуальні платформи?",
+      "summary": "Хакери були цільовими Бінтансами, світ має найбільший обмін.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "381f98db56e2b9ff3c24": {
+      "source_title": "Palestinians ‘Stealing their own olives’",
+      "source_summary": "In the occupied West Bank, Israeli settlers have turned olive harvesting into a deadly activity for Palestinians.",
+      "language": "en",
+      "title": "Палестинські оливки",
+      "summary": "У окупованому Західному березі ізраїльські поселенці перетворили збирання оливок на смертоносну діяльність для палестинців.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "f598be3f44ab4ad80b9d": {
+      "source_title": "Oleshky evacuees reunite with families after truce allows crossing back into Ukraine",
+      "source_summary": "Residents of nearby villages line highway waving flags to greet the evacuees’ convoy from the Russian-occupied cityEvacuees from Russian-occupied Oleshky have been reunited with their families after crossing into Ukrainian-held territory on Saturday.The major rescue operation began on Friday and was carried out under the most significant truce since Russia’s full-scale invasion of Ukraine four and a half years ago. Continue reading...",
+      "language": "en",
+      "title": "Після перемир'я сім'ї знову з'єднуються евакуйовані Олеші.",
+      "summary": "Мешканці поблизьких сіл, що махали прапорами, щоб привітати евакуйських земель, що сягають російського міста Евакуї з російського населення Олескі возз'єдналися зі своїми сім'ями після переходу в українську територію в суботу. Основна операція порятунку почалася в п'ятницю і була проведена під найзначнішим переговором з того часу, як Росія сягнула повномасштабного вторгнення України чотири з половиною роки тому.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "48359a071e4ceeca74f9": {
+      "source_title": "🔴Senegal kicks off Africa's first ever Olympics with Youth Games",
+      "source_summary": "",
+      "language": "en",
+      "title": "Енегалта виходить з перших в історії Африки Олімпійських ігор",
+      "summary": "",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "10684feb9920260f72c0": {
+      "source_title": "G20 foreign ministers end Atlanta meeting without consensus on key issues - AP News",
+      "source_summary": "G20 foreign ministers end Atlanta meeting without consensus on key issues AP News",
+      "language": "en",
+      "title": "G20 іноземні міністри закінчують зібрання Атланти без консенсусу щодо ключових питань - AP News",
+      "summary": "G20 іноземні міністри закінчують зібрання Атланти без консенсусу щодо ключових питань AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "cd6212ad92036b5e8302": {
+      "source_title": "The best Roku Streaming Stick depends on your picture quality needs",
+      "source_summary": "Roku only sells one streaming device that doesn't support 4K output.",
+      "language": "en",
+      "title": "Найкраща річкова поточка Року залежить від якості вашої картини.",
+      "summary": "Року продає лише один потік пристрою, який не підтримує виведення 4K.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "133cacccd3832827b9fb": {
+      "source_title": "Who is Arafat Minhas, Pakistan cricket’s rising star all-rounder?",
+      "source_summary": "A calm head on young shoulders, Arafat Minhas has swiftly earned the reputation of a match-winner for Pakistan.",
+      "language": "en",
+      "title": "Хто такий Арафат Мінха, пакистанський цокає зірки, що здіймаються навколо?",
+      "summary": "Спокійний голова на плечах Арафат Мінха швидко заслужив репутацію кондитерського конкуратора для Пакистану.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "c786c78ca39ed41e1cd6": {
+      "source_title": "Why your AirPods keep disconnecting without warning: These settings can fix it",
+      "source_summary": "Handy features of your AirPods can be overzealous, leading to disconnections and unwanted device swapping.",
+      "language": "en",
+      "title": "Чому ваші повітряні супутники продовжують роз' єднання без попередження: Ці параметри можуть це виправити",
+      "summary": "Ручні характеристики ваших повітряних покладів можуть бути надто гарячими, що призводить до роз'єднання та небажаних розмінів пристроїв.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "8e880bb425de13e41e9a": {
+      "source_title": "Key takeaways from this week's political meeting in Beijing",
+      "source_summary": "The Communist party central committee meeting was focused on discipline and fighting corruption. It comes ahead of next year when Xi is widely expected to try to secure a fourth term.",
+      "language": "en",
+      "title": "Ключі від політичної зустрічі цього тижня в Пекіні.",
+      "summary": "Центральний комітет Комуністичної партії був зосереджений на дисциплінуванні та боротьбі з корупцією.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "2820692299a17de6ffe4": {
+      "source_title": "Indo-Pacific Quad ministers work on supply chains, denounce arbitrary export restrictions - Reuters",
+      "source_summary": "Indo-Pacific Quad ministers work on supply chains, denounce arbitrary export restrictions Reuters",
+      "language": "en",
+      "title": "Міністри інтернет-професії працюють над системами постачання, осуджують довільні обмеження на експорт - Рейтер.",
+      "summary": "Прем'єр-міністри-додаткові міністри працюють над системами постачання, засуджуючи довільний експортний інформаційний інформаційний інформаційний інформаційний інформаційний інформаційний сервіс.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "db4b3599b29593ec1c95": {
+      "source_title": "Evacuees of Russian-occupied Oleshky reunited with families",
+      "source_summary": "Ukrainian residents evacuated from Russian-occupied city of Oleshky have arrived in Ukrainian-controlled territory.",
+      "language": "en",
+      "title": "Евакуї з російського Олескі возз'єдналися з сім'ями",
+      "summary": "Українці евакуювалися з російського міста Олескі на території, контрольовану Україною.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "b9e718a99c9ff57744e1": {
+      "source_title": "Protests under way in Germany and France as minister warns against use of Halloween masks – as it happened",
+      "source_summary": "France’s interior minister, Laurent Nuñez, has warned protesters that covering their faces with Halloween costumes could result in finesFull report: Police clash with masked rioters after largely peaceful protests across FranceProtesters in Paris have begun marching from Porte de Bagnolet, with demonstrations also taking place in Lille and Lyon.Crowds of people have gathered in Paris for the protests, where two French student unions have called for a blockade of schools and universities on Tuesday and Thursday. Continue reading...",
+      "language": "en",
+      "title": "Тести, що відбуваються в Німеччині та Франції, як міністри застерігають проти використання Хелловіну.",
+      "summary": "Фрейзер, Лорент Нуньєс, перестеріг протестуючих, що коли б вони закривали свої обличчя костюмами на Галовін, то це могло б довести до провалу: Поліція вступає в бій з заколотниками, після головно мирних протестів між французами в Парижі, почали марширувати з Порте де Баґноле, з демонстраціями, які також відбувалися в Ліл і Ліон. Крони людей зібралися в Парижі на протест, де два французькі студентські союзи вимагали засідання шкіл і університетів у вівторок та четвер....",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "11edecc9503867709928": {
+      "source_title": "How to use Claude Duet when it rolls out to you",
+      "source_summary": "For now, you'll need to first join a waitlist.",
+      "language": "en",
+      "title": "Як користуватися Клодом Дуетом, коли він до тебе повертається.",
+      "summary": "Поки що тобі доведеться приєднатися до до тимчасового списку.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "d5858f78060a653600a1": {
+      "source_title": "US Senate candidate El-Sayed wants Democratic rival to stay away, source says - Reuters",
+      "source_summary": "US Senate candidate El-Sayed wants Democratic rival to stay away, source says Reuters",
+      "language": "en",
+      "title": "Кандидат сенату США Ел-Сайд хоче, щоб демократичний суперник тримався подалі, як каже агентство Рейтер.",
+      "summary": "Кандиент сенату США Ел-Сайд хоче, щоб демократичний суперник тримався подалі, як каже Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "5dec305a973229e494b1": {
+      "source_title": "Jack Nicholson Has ‘Disappeared’ but Is ‘Well,’ Says Michael Douglas: ‘I Still See Him’",
+      "source_summary": "Michael Douglas is giving fans an update on Jack Nicholson. While promoting his new memoir, “One Helluva Ride,” at a recent event, Douglas was asked about Nicholson and his relationship with the “Something’s Gotta Give” actor. “I would have liked to have acted with Jack,” Douglas said. “He’s not working anymore. He’s well. He has […]",
+      "language": "en",
+      "title": "Jack Nicolson має }Дісіда, але є ведь, каже Майкл Дуглас: 'I Still see him ♪",
+      "summary": "Майкл Дуґлас надає фанам оновлення на Джек Ніксон. Проповідуючи свою нову мелодію, \" галауда ,\" } На недавню подію, Дугласа запитали про Ніколсона та його стосунки з }Аса Дайс. ' Я б хотів, щоб він жив з Джеком, ♫ Дуглас сказав.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "4725ecc3446d95a10505": {
+      "source_title": "Poland Deploys Riot Police in Standoff Over Country’s Top Court",
+      "source_summary": "After years of legal wrangling, judges backed by the current government suspended the chief justice, as a feud escalated with the right-wing party that last held power.",
+      "language": "en",
+      "title": "Польща відступає від поліції Ріот у Верхньому Суді",
+      "summary": "Після багатьох років законних чвар, судді, підтримані теперішнім урядом, призупинили головне правосуддя, так як ворожнеча поширювалася з правою партією, яка в останній час мала владу.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "c4ca8174a3b5ed61d8c5": {
+      "source_title": "4 drawbacks you should know before buying a PlayStation 5",
+      "source_summary": "The PS5 isn't as good of a buy today as it was early in its life, so you should be aware of the drawbacks in this awkward console generation.",
+      "language": "en",
+      "title": "4 Недоліки, про які вам слід знати, перш ніж купувати PlayStation 5",
+      "summary": "PS5 сьогодні не така вже й цінна, як у ранньому віці, тому слід пам'ятати про недоліки цього незграбного покоління консолі.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "099cfbbce7eb76967d84": {
+      "source_title": "Syria Weighs Joining Saudi Mutual Defense Pact as Yemen War Rages",
+      "source_summary": "A move to join Saudi Arabia’s agreement with Turkey and Pakistan could entangle more countries in the kingdom’s escalating conflict between the Iran-backed Houthis.",
+      "language": "en",
+      "title": "Сирія Вагс приєднався до уніфікованого договору оборони Саудівської Аравії як військові акти Ємену",
+      "summary": "Рух, щоб приєднатися до Саудівської Аравії, у згоді з Туреччиною та Пакистаном може вплутати більше країн у королівство, що йде вперед конфліктом між Іраном-задушеним Гутісом.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "d233383b973b016366a1": {
+      "source_title": "Daily life around the world, in photos - AP News",
+      "source_summary": "Daily life around the world, in photos AP News",
+      "language": "en",
+      "title": "Щоденне життя по цілому світі, у фото - AP News",
+      "summary": "Щоденне життя по всьому світу, у фото AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "deefa82a83a2bcadfaf0": {
+      "source_title": "Ukrainian evacuees reunite with family after years trapped in Russia-occupied city",
+      "source_summary": "Oleshky residents had been without food, water and electricity, with many resorting to cooking garden weeds to survive.",
+      "language": "en",
+      "title": "Українська евакуація возз'єднується з сім'єю після багатьох років ув'язнення в російському місті.",
+      "summary": "Мешканці Олескі не мали харчів, води та електрики, і багато з них готували бур'яни, щоб вижити.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "55f26f4757f11c25f4cd": {
+      "source_title": "Coventry win leaves Man United on brink of Premier League relegation zone",
+      "source_summary": "Manchester United one place outside the EPL's bottom three as Coventry City climb with 3-1 win over Sunderland.",
+      "language": "en",
+      "title": "Переможець Ковентрі залишає людину Об'єднану на межі релегаційної зони Прем'єр - ліги.",
+      "summary": "Манчестер Юнайтед в одному місці за три низу ОВР, коли місто Ковентрі, вилізши з 3-1 в Сундерленді.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "32606a87e2459c66a62e": {
+      "source_title": "Other women contacted police about previous incidents with Packers' Josh Jacobs after his arrest - AP News",
+      "source_summary": "Other women contacted police about previous incidents with Packers' Josh Jacobs after his arrest AP News",
+      "language": "en",
+      "title": "Інші жінки зв'язалися з поліцією про попередні випадки з Пакерсом Йошем Якобсом після його арешту - AP News",
+      "summary": "Інші жінки зв'язалися з поліцією про попередні випадки з Пакерсом Йошем Якобсом після його арешту AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "3009be915916e5a04be5": {
+      "source_title": "COP17 Biodiversity Talks in Yerevan, Armenia",
+      "source_summary": "Countries renewed their promises to protect wildlife at U.N. talks in Armenia, but how to cover the costs remains a question.",
+      "language": "en",
+      "title": "Розмови біорозмаїття COP17 в Єревані (Вірменія).",
+      "summary": "У Вірменії країни поновили свої обіцянки захистити дику природу, але питання залишається питанням, як покрити витрати.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "a3dcd77ebad09cce841d": {
+      "source_title": "US, Canada see growing interest in limited ceasefire in Black Sea - Reuters",
+      "source_summary": "US, Canada see growing interest in limited ceasefire in Black Sea Reuters",
+      "language": "en",
+      "title": "Сполучені Штати Америки, Канада бачить зростаюче зацікавлення обмеженим припиненням вогню в Чорному морі - Рейтер.",
+      "summary": "Сполучені Штати Америки, Канада бачить зростаюче зацікавлення обмеженим припиненням вогню в агентстві Чорного моря",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "d623927f37aeedeb247a": {
+      "source_title": "Michigan Muslims helped elect Trump. Now their faith is under fire",
+      "source_summary": "Michigan Muslims helped elect Trump. Now their faith is under fire",
+      "language": "en",
+      "title": "Мічіганські мусульмани допомогли вибрати Трумпа.",
+      "summary": "Мічіганські мусульмани допомогли вибрати Трумпа.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "c3b9282193b865b99e2b": {
+      "source_title": "Jordan stops armed group from attempting to enter from Syria, armed forces say - Reuters",
+      "source_summary": "Jordan stops armed group from attempting to enter from Syria, armed forces say Reuters",
+      "language": "en",
+      "title": "Джордан зупиняє озброєні групи, щоб не в'їхати з Сирії, озброєні війська кажуть: \" Рейтер .\"",
+      "summary": "Джордан зупиняє озброєні групи, щоб не в'їхати з Сирії, а озброєні війська кажуть, що Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "daa690fb7297234789f0": {
+      "source_title": "Hundreds of thousands of protesters march across France for third week in a row",
+      "source_summary": "Cities across Europe faced wave of protests against rising cost of living.",
+      "language": "en",
+      "title": "Сотні тисяч протестуючих марширують по Франції на третій тиждень підряд.",
+      "summary": "По всій Європі процвітала хвиля протестів проти зростаючого кошту прожитку.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "ab9f1c0f76e8f98d92fb": {
+      "source_title": "Bolt Graphics powers on its first Zeus GPU",
+      "source_summary": "Bolt Graphics has been working on its simulation-centric Zeus GPU for a while now and has reached a significant milestone: a successful test run.",
+      "language": "en",
+      "title": "Больтова графічна потужність на першому Зевсі ГПУ",
+      "summary": "Уже деякий час Больша графіка працює над симуляцією Зевса GPU і досягла значної віхи: успішної перевірки.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "12f14b23cce7e027703d": {
+      "source_title": "Jerusalem Daily: Who will form Israel’s next government?",
+      "source_summary": "Netanyahu and Eisenkot are locked in a struggle to form a governing coalition in the Knesset.",
+      "language": "en",
+      "title": "Хто сформує Ізраїль, починаючи з наступного уряду?",
+      "summary": "Нетанягу та Ейзенкотт ведуть боротьбу за створення керівної коаліції в Кінзеті.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "52ea995c05e396d9db60": {
+      "source_title": "Pakistan beat Sri Lanka as Zaman’s century turns thrilling tri-series final",
+      "source_summary": "Fakhar Zaman's century outdoes Kamindu Mendis and propels Pakistan to three-wicket win against Sri Lanka in cricket final.",
+      "language": "en",
+      "title": "Пакистан переміг Шрі-Ланку, коли Замано століття обернулося захоплююче три-виграшування.",
+      "summary": "\"Факхар Заман\" століття перевершує Камінду Мендіс і веде Пакистан до перемоги над Sri Lankon, в фіналі.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "8cbd71deb0c3efc2c41d": {
+      "source_title": "A cure for Trump? Why Democratic doctors are running in the 2026 midterms",
+      "source_summary": "Democratic doctors aim to convert the backlash against the Trump administration’s health policies into midterm votes.",
+      "language": "en",
+      "title": "Чому демократичні лікарі працюють у 2026 році в середніх роках?",
+      "summary": "Демократичні лікарі мають на меті перетворити адлергацію проти адміністрації Трамп, що ставить політику здоров'я в проміжні голоси.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "077b2a68dc61eea594a0": {
+      "source_title": "Dakar Youth Olympics: Who gets to hold the flame?",
+      "source_summary": "Senegal makes history by becoming the first African country to host an Olympic event.",
+      "language": "en",
+      "title": "Хто встоїть за вогнем?",
+      "summary": "Сенегал робить історію, ставши першою африканською країною, яка організувала олімпійську подію.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "77e0e5da91fefe11df5e": {
+      "source_title": "These Samsung Galaxy Watches won't be getting the new One UI update",
+      "source_summary": "Samsung has released the latest version of its wearable OS, One UI 9 Watch, and most of its watch lineup will get the update - except these.",
+      "language": "en",
+      "title": "Ці спостереження за Галактикою Самсунг не отримають нові дані щодо інтерфейсу користувача.",
+      "summary": "Самсунг випустив останню версію своєї операційної ОС, One UI 9 - спостереження, і більшість його годинників буде оновлено, окрім цих.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "6669e01f99c4e9743af7": {
+      "source_title": "Flavio Bolsonaro says he may run again for Brazilian presidency",
+      "source_summary": "Flavio Bolsonaro says he may run again for Brazilian presidency",
+      "language": "en",
+      "title": "Флавіо Болсонаро каже, що він може знову балотуватися на бразільську президентство",
+      "summary": "Флавіо Болсонаро каже, що він може знову балотуватися на бразільську президентство",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "8b427efa34f1f8198469": {
+      "source_title": "Producer Will Packer Stumps to Get Out the Vote and Launch a Private HBCU Fundraising Campaign",
+      "source_summary": "Producer Will Packer has never been shy about sharing his opinion, even as he’s become a public figure. In a season when so many of Hollywood’s boldface names have kept a low profile when it comes to politics, Packer has taken to stages in recent weeks to advocate for causes and candidates that he believes […]",
+      "language": "en",
+      "title": "Виробник заціпить, щоб вийти з виборчої компанії та розпочати рядову кампанію складання фонду HBCU",
+      "summary": "У певний період, коли так багато голлівудських імен прозрів провіщали політичні справи, пакер в останні тижні брався до етапів, щоб обстоювати свої переконання [...] задля мотивів і кандидатів, які, на його думку, [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "b698d27bff87823a61aa": {
+      "source_title": "France's third weekend of social protests sees lower turnout and early clashes in major cities",
+      "source_summary": "According to the Interior Ministry, the authorised marches proceeded peacefully. But tensions rose during their dispersal in Paris, Lyon, Marseille and other major cities.",
+      "language": "en",
+      "title": "Третьі вихідні в Франції суспільні протести бачать, що в головних містах кількість випадків розриву населення зменшується, а перші конфлікти стають меншими.",
+      "summary": "Згідно з міністерством внутрішніх справ, офіційні марші йшли мирно, але напруженість зросла під час їхнього розсіювання в Парижі, Ліоні, Марселі та інших великих містах.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "ffe715e07f069d830843": {
+      "source_title": "Iran's Khamenei warns US and Israel against new attacks",
+      "source_summary": "Iran's Supreme Leader Mojtaba Khamenei warned the United States and Israel on Saturday against further strikes as fears mount over a resumption of fighting in the Middle East. US President Donald Trump and his Israeli ally Benjamin Netanyahu have recently threatened military action on the Islamic republic but US Secretary of State Marco Rubio said Trump had not yet made a decision about fresh strikes.",
+      "language": "en",
+      "title": "Іранський каменеї попереджає США та Ізраїль про нові напади.",
+      "summary": "Верховний лідер Ірану Мохтаба Камінья перестеріг Сполучених Штатів і Ізраїль в суботу проти подальших страйків, коли страхи поглинули війну на Близькому Сході. Президент США Дональд Трамп і його союзник Ізраїлю Бенджамін Нетаньягу нещодавно погрожували військовим діям в Ісламській Республіці, але міністр державної республіки США Марко Рубіо сказав, що Трумп ще не прийняв рішення щодо свіжих страйків.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "ed9867aff32e6c716a4f": {
+      "source_title": "How to fix your phone screen when it's unresponsive to touch​",
+      "source_summary": "Few things are more annoying than an unresponsive touchscreen. Before you give up on your phone, here's what to try to get it working again.",
+      "language": "en",
+      "title": "Як виправити екран телефону, коли дотик нечутливий.",
+      "summary": "Небагато речей є більш набридливим, ніж несприйнятливий сенсорний екран. ось що спробувати зробити це знову.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "6cc7660d86b64f20ec54": {
+      "source_title": "„Zrobiłbym to. Bez problemu”. Trump o Putinie i Zełenskim na szczycie G20",
+      "source_summary": "„Zrobiłbym to. Bez problemu”. Trump o Putinie i Zełenskim na szczycie G20",
+      "language": "pl",
+      "title": "« Я міг би зробити це.",
+      "summary": "« Я міг би зробити це.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "9e26f02f56aca7df8747": {
+      "source_title": "Trzęsienie ziemi w TK. Komisja Europejska zabiera głos: Stanowisko przekazane RMF FM",
+      "source_summary": "Trzęsienie ziemi w TK. Komisja Europejska zabiera głos: Stanowisko przekazane RMF FM",
+      "language": "pl",
+      "title": "Європейська комісія висловлює свій голос: Рада, передана RMF FM",
+      "summary": "Європейська комісія висловлює свій голос: Рада, передана RMF FM",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "4b5e142cf773bf65cdd6": {
+      "source_title": "Frycz, Traczyk-Stawska, Magiera, Litewka i nie tylko. Tych wybitnych Polaków pożegnaliśmy w ostatnich miesiącach",
+      "source_summary": "Frycz, Traczyk-Stawska, Magiera, Litewka i nie tylko. Tych wybitnych Polaków pożegnaliśmy w ostatnich miesiącach",
+      "language": "pl",
+      "title": "Фрич, Трачік-Стовська, Мажира, Литва і не тільки цих видатних поляків, ми попрощалися за останні місяці.",
+      "summary": "Фрич, Трачік-Стовська, Мажира, Литва і не тільки цих видатних поляків, ми попрощалися за останні місяці.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "8067d8c7c5931ab315fd": {
+      "source_title": "To jeszcze nie koniec sezonu. Te grzyby zbierzesz w listopadzie",
+      "source_summary": "To jeszcze nie koniec sezonu. Te grzyby zbierzesz w listopadzie",
+      "language": "pl",
+      "title": "Це ще не кінець сезону.",
+      "summary": "Це ще не кінець сезону.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "20ea482865988de20c4b": {
+      "source_title": "Komisja Europejska zabrała głos ws. TK. Jasny komunikat dla polskich władz",
+      "source_summary": "Komisja Europejska zabrała głos ws. TK. Jasny komunikat dla polskich władz",
+      "language": "pl",
+      "title": "Європейська Комісія взяла участь в обговоренні.",
+      "summary": "Європейська Комісія взяла участь в обговоренні.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "488da9e04ea64e14a636": {
+      "source_title": "Mocne oświadczenie rzeczniczki TK. „Sędziowie nie dadzą się złamać”",
+      "source_summary": "Mocne oświadczenie rzeczniczki TK. „Sędziowie nie dadzą się złamać”",
+      "language": "pl",
+      "title": "Могутня заява соціалістів TK. « Судді не зламаються!»",
+      "summary": "Могутня заява соціалістів TK. « Судді не зламаються!»",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "c13654bd99b6f94e7f7e": {
+      "source_title": "Kryzys wokół TK. Dlaczego KO nie wzięła udziału w konsultacjach u prezydenta?",
+      "source_summary": "Kryzys wokół TK. Dlaczego KO nie wzięła udziału w konsultacjach u prezydenta?",
+      "language": "pl",
+      "title": "Чому я не брала участь у консультації президента?",
+      "summary": "Чому я не брала участь у консультації президента?",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "bc702bf8b1f7332493c0": {
+      "source_title": "Nie żyje Zdzisław Kostrzewiński. Legendę Widzewa Łódź żegna Zbigniew Boniek",
+      "source_summary": "Nie żyje Zdzisław Kostrzewiński. Legendę Widzewa Łódź żegna Zbigniew Boniek",
+      "language": "pl",
+      "title": "У легенді про сідницю Мигдалевого Збіґнєв Боніку немає.",
+      "summary": "У легенді про сідницю Мигдалевого Збіґнєв Боніку немає.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "5f03f69e676132a53e5e": {
+      "source_title": "Sąd Najwyższy zwołuje pilne zgromadzenie ws. „omówienia zagrożeń”",
+      "source_summary": "Sąd Najwyższy zwołuje pilne zgromadzenie ws. „omówienia zagrożeń”",
+      "language": "pl",
+      "title": "Верховний суд скликає критичний конгрес в списку « пункти небезпеки»",
+      "summary": "Верховний суд скликає критичний конгрес в списку « пункти небезпеки»",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "84abd91fddf2ed7677be": {
+      "source_title": "Sikorski o decyzji Nawrockiego. „Chodzi o wprowadzenie ludzi Brauna”",
+      "source_summary": "Sikorski o decyzji Nawrockiego. „Chodzi o wprowadzenie ludzi Brauna”",
+      "language": "pl",
+      "title": "Сівкорська за рішення нацистів: « Ми хотіли б ввести людей в Брауна»",
+      "summary": "Сівкорська за рішення нацистів: « Ми хотіли б ввести людей в Брауна»",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "5e0d1a943926056bf9d1": {
+      "source_title": "Tragiczny wypadek na Lubelszczyźnie. Zderzenie osobówek i ciągnika",
+      "source_summary": "Tragiczny wypadek na Lubelszczyźnie. Zderzenie osobówek i ciągnika",
+      "language": "pl",
+      "title": "Трагічна аварія на Любельшові.",
+      "summary": "Трагічна аварія на Любельшові.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "3b1955674c9ed0020995": {
+      "source_title": "Premier Tusk: Nawet prezydent nie może wchodzić na teren TK i wydawać poleceń",
+      "source_summary": "Premier Tusk: Nawet prezydent nie może wchodzić na teren TK i wydawać poleceń",
+      "language": "pl",
+      "title": "Навіть президент не може увійти в TK і давати команди",
+      "summary": "Навіть президент не може увійти в TK і давати команди",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "b01ed7ead4982c17a7da": {
+      "source_title": "Mentzen przekonał prezydenta Nawrockiego? „Założenia okazały się spójne”",
+      "source_summary": "Mentzen przekonał prezydenta Nawrockiego? „Założenia okazały się spójne”",
+      "language": "pl",
+      "title": "Менцсен переконав президента Наурока?",
+      "summary": "Менцсен переконав президента Наурока?",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "d3079b0d8e04cd1c1be3": {
+      "source_title": "Gaz pieprzowy i armatki wodne. Starcia z policją w Niemczech",
+      "source_summary": "Gaz pieprzowy i armatki wodne. Starcia z policją w Niemczech",
+      "language": "pl",
+      "title": "Шпигун і водяні гармати.",
+      "summary": "Шпигун і водяні гармати.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
+    "4f422de8029bff9d0d4e": {
+      "source_title": "Ostra reakcja Rosji na wydarzenia w Polsce. „Metoda jak w Ukrainie”",
+      "source_summary": "Ostra reakcja Rosji na wydarzenia w Polsce. „Metoda jak w Ukrainie”",
+      "language": "pl",
+      "title": "Росія дуже реагує на події в Польщі.",
+      "summary": "Росія дуже реагує на події в Польщі.",
+      "engine": "opus_mt",
+      "translated_at": 1793526317
+    },
     "664d96dd18c9183d0237": {
       "source_title": "Albanese looks for reset on world stage as ‘spot fires burn’ domestically and likely interest rate hike looms",
       "source_summary": "The prime minister will speak with King Charles and others at the Commonwealth heads of government meeting in Antigua and BarbudaGet our daily political email, free app or daily news podcastAs “summit season” begins, reaffirming ties with fellow leaders on the world stage could be a circuit breaker for Anthony Albanese amid domestic and economic woes, analysts have said.But a likely interest rate hike triggered by higher-than-expected inflation while the prime minister is overseas will make his job – and the treasurer’s – even harder.Sign up for Guardian Australia’s Politics, really newsletter",
@@ -206,15 +1583,6 @@
       "language": "en",
       "title": "Іранська війна жива: 4 танкери врізаються в Гормуз; Трумп каже, що конфлікт скоро закінчиться",
       "summary": "IRGC каже, що чотири танкери ввірвалися в протоку Гормуз, як сказав Трумп, війна з Іраном скоро загорнеться.",
-      "engine": "opus_mt",
-      "translated_at": 1793436811
-    },
-    "53726931d97697a2ace4": {
-      "source_title": "Hack Could Leave AO3, a Popular Fan Fiction Site, Offline for Weeks",
-      "source_summary": "AO3, which hosts 18 million stories spun off from the likes of “Harry Potter” and “Heated Rivalry,” was taken offline after “an intrusion,” one of its founders said.",
-      "language": "en",
-      "title": "Hack could leave AO3, популярний фантастичний сайт, поза мережею протягом тижнів",
-      "summary": "АО3, в якій міститься 18 мільйонів історій, починаючи від подібних до 'Hadry Pource і 'Heep Rythy, сягнув поза мережею після 'ance, сказав один із засновників.",
       "engine": "opus_mt",
       "translated_at": 1793436811
     },
@@ -7692,7 +9060,7 @@
   "meta": {
     "engine": "local_opus_mt_with_optional_mymemory_fallback",
     "daily_target": 200,
-    "new_translations": 173,
-    "remaining_candidates": 27
+    "new_translations": 153,
+    "remaining_candidates": 47
   }
 }
