@@ -1,7 +1,1645 @@
 {
   "schema": 1,
-  "updated": 1793700294,
+  "updated": 1793785949,
   "articles": {
+    "5d94ba1588f191d3a724": {
+      "source_title": "What Trump losing power over Congress means for Iran, Ukraine and foreign policy",
+      "source_summary": "Democratic control of Congress could bring greater scrutiny of Trump’s handling of the Iran and Ukraine wars, while leaving him broad foreign-policy powers.",
+      "language": "en",
+      "title": "Що Трамп втрачає владу над конгресом означає для Ірану, України та закордонної політики",
+      "summary": "Демократичний контроль Конгресу міг би провести більш детальний розгляд подій, які вели Іран та Україну, залишаючи його широкопоширеними іноземними силами.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "163a76b4a79623e5ca63": {
+      "source_title": "US midterm elections 2026 live updates: Democrats win control of Congress as voters punish Trump",
+      "source_summary": "Democrats flip Senate seats in Michigan, Texas, Iowa, Kansas, North Carolina, South Carolina and Ohio; voters reject Trump’s agenda in ‘blue wave’ Track live results from all 50 statesFull report: Democrats win control of Congress in ‘blue wave’Tell us: what do you want to know about the results?As we bring you the latest from around the country, Donald Trump is certainly paying attention. From the White House, the president said that he was tuning into coverage on Fox News.“I can’t stand Jessica Tarlov’s voice,” Trump said of the Democratic strategist and Fox News contributor in a post on Tru",
+      "language": "en",
+      "title": "Американські проміжні вибори 2026 р. живих новин: Демократи перемагають владу Конгресу, як виборці карають Трамп",
+      "summary": "Демократи перевертаються сенатами в Мічигані, Техасі, Айові, Канзасі, Північній Кароліні, Південній Кароліні та Огайо; виборці відкидають mops ends in }blue whour } Direct sources from all 50 statesFull report: демократи перемагають контроль Конгресу в точці Блюз-Хвиля ®: Що ви хочете знати про результати? Як ми робимо останні з усієї країни Дональд Трамп, безумовно, звертає увагу.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "a143994be5486339ff99": {
+      "source_title": "EU to lead talks on support for Ukraine with US, Nato, partners – Europe live",
+      "source_summary": "European Commission will hold talks with the US, France, Germany, Britain, Nato, and the World Bankin MadridSpain’s socialist prime minister, Pedro Sánchez – who has been Donald Trump’s most vociferous European critic – is celebrating last night’s results in the US, hailing them as proof of a progressive fightback and of the “crumbling” of what he called the “ultra wave”.“It happened in Brazil. It just happened in the US. And it will happen soon in Spain.” Continue reading...",
+      "language": "en",
+      "title": "Євро - провідні виступи на підтримку України з США, Нато, партнери Європи живуть.",
+      "summary": "Європейська комісія буде вести переговори з США, Франції, Німеччини, Британії, Нато та Світовим Банкен Мадридом прем'єр-міністром, Педро Санчез, який був Дональдом, найбільш в'язним європейським критиком, що святкує останню ніч у США, звертаючись до них як до доказу поступової боротьби і до того, що він назвав \"бурбальна хвиля.\" ♫ Це сталося в Бразилії.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "601829d83817338678c6": {
+      "source_title": "‘Not been this excited in a long time’: US expats ride the blue wave at Australian midterms watch parties",
+      "source_summary": "US voters, their Australian partners and British spectators crowd around pub TVs to watch the historic election results roll inOn the second floor of a Sydney pub, the mood shifts from nervous, browser-refreshing anxiety to champagne-popping within a matter of hours.More than 100 US expats and election enthusiasts pack into the function space at the Keg and Brew in the inner-east suburb of Surry Hills to watch the midterm results roll in. Continue reading...",
+      "language": "en",
+      "title": "Американська переправа верхи на блакитну хвилю в австралійській середині.",
+      "summary": "Виборці США, австралійці та британські глядачі товпляться по пабі, щоб подивитися історичні вибори, які стрибають на другий поверх пабу у Сіднеї, настрій змінюється від нервових, браузерів-регуляторів до шампанського протягом декількох годин. Більше ніж 100 американських експедиторів і ентузіастів виборців пакують у функціонарний простір в Ког і Брю в внутрішньому передмісті Суррі-Хіллс, щоб подивитися на результати середнього етапу. Продовжуйте читати...",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "8e2576529f35a1d3102b": {
+      "source_title": "Countries Weigh, and Worry About, What Trump Will Do After Midterm Defeat",
+      "source_summary": "Commentators abroad wondered what the president’s electoral losses might mean for oil prices, the war on Iran and the end of the Trump era.",
+      "language": "en",
+      "title": "Що за труднощі після довгої поразки зроблять країни, про що вони тривожаться і про що тривожаться",
+      "summary": "Коментатори за кордоном цікавились знати, що президент має на увазі для цін на нафту, війна з Іраном і кінець епохи Трамп.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "3a0038a1a515bce70b89": {
+      "source_title": "Key moments from a night of midterm election firsts",
+      "source_summary": "Democrats have taken control of Congress for the rest of Donald Trump's presidency - proving moments of celebration.",
+      "language": "en",
+      "title": "Ключові моменти з першої вечори проміжних виборів",
+      "summary": "Демократи взяли контроль над Конгресом для решти президентства Дональда Трампа - доведення моментів святкування.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "49484135891686c9fe2b": {
+      "source_title": "Merry Christmas Aubrey Flint review – Dickensian festive Britpic decorated by selection box of familiar faces",
+      "source_summary": "A cast including Richard E Grant, Celia Imrie, Kiell Smith-Bynoe and Nigel Planer warm up a formulaic narrative about a imperilled retirement communityThe annual drive to expand the festive film canon begins unseasonably early with a modest, sentimentally inclined Britpic that opens like a penny-pinching John Lewis ad; thankfully, it improves from there. The titular Mr Flint (John Bradley) is a Napoleonic history buff whose animus towards late December dates from seeing his (French) mother drop dead amid the Christmas decorations; now he spends the holidays cavilling at carollers and insisting",
+      "language": "en",
+      "title": "З Різдвом Обрей Флінт, рецензій \"Висяча британська британська тема, прикрашена скринькою відбіру знайомих облич.\"",
+      "summary": "Критерії включаючи Річарда Е Ґранта, целію Імрі, Кілл Сміт- Біно та Найджел Планера розігріває формуличну розповідь про невтрутувану пенсійну спільноту Річний рух за розширення канону святкової плівки починається дуже рано з скромної, сентиментально нахиленої британці, яка відкривається як пенні, що відривається від пенні, Джон Люїс реклама; з радістю, вона покращується звідти. Titular Myr Frith (Іван Бреді) є буффлі, чиї анімії до пізнього грудня, які гинуть від часу, коли його (французькою) мати померла серед різдвяних прикрас; тепер він проводить тижневе обрам' єднення на каверах і наполягає на тому, що вони роблять це.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "f8c11d69e1a2da3f80fe": {
+      "source_title": "Miliband criticises Blair’s slavery statement and defends Burnham’s plan for proper apology – UK politics live",
+      "source_summary": "The foreign secretary added that the UK will not shift its position on reparations Good morning. Wednesdays are normally the most exciting day of the week at Westminster, because it’s PMQs, but today (unless we get some mega surprise) all the action is taking place somewhere else. In part, that’s because Andy Burnham is still at the Commonwealth summit in Antigua. But mostly because anyone in SW1 with even a passing interest in politics will be far more interested in the outcome of the US midterm elections. You can catch up with all the drama on our US politics live blog.While the US results a",
+      "language": "en",
+      "title": "Мілібанські критики Блера кажуть про рабство і обороняють Burnhams планують для належного використання політики Великобританії",
+      "summary": "Іноземний секретар додав, що Великобританія не змінить свою позицію на репарації Доброго ранку. Середи зазвичай є найбільш захоплюючим днем тижня у Вестмінстері, тому що він йде туди, але сьогодні (якщо ми не здивуємося) всі дії відбуваються десь в іншому місці. Частково, тому що Енді Бернхам все ще на вершині Співдружності в Антигуа. Але здебільшого тому, що будь-хто у СВ1 з навіть перехідним інтересом до політики буде більш зацікавлений у результатах проміжних виборів США. Ви можете наздоганити всю драму на нашому політичному блозі США, поки США не буде вести блог.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "48d46ddc01722f3d0dc7": {
+      "source_title": "US midterms: Democrats gain control of House and Senate from Republicans",
+      "source_summary": "The Democratic Party gained control of the House and Senate, delivering a stinging rebuke to US President Donald Trump and his Republican Party. Follow DW's live updates.",
+      "language": "en",
+      "title": "В середині: демократи отримують контроль над домом і сенатом з республіканців.",
+      "summary": "Демократична партія здобула владу над домом і Сенатом, донісши жалобний докір президенту США Дональду Трампу та його республіканської партії.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "845719e5504e052a4a23": {
+      "source_title": "5 midterm election takeaways: Tech billionaires suffer as Democrats drub Republicans",
+      "source_summary": "Elon Musk's spending may have become a liability as voters in exit polls raised concerns about government corruption and the growing influence of billionaires.",
+      "language": "en",
+      "title": "5 проміжних виборів: Мільярдери технологій страждають як демократи",
+      "summary": "Виборці під час виборчих опитувань, можливо, стали причиною занепокоєння, пов'язаних з корупцією уряду, і дедалі більший вплив мільярдерів.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "32bd92d01d5c5796bd7d": {
+      "source_title": "What US midterm elections mean for Ukraine, Iran and elsewhere",
+      "source_summary": "Donald Trump's Republicans will no longer control the US Congress after the Democrats flipped both chambers in the midterm elections. The outcome could impact conflicts in Europe and the Middle East.",
+      "language": "en",
+      "title": "Що означають проміжні вибори США для України, Ірану та інших країн",
+      "summary": "Республіканці Дональда Трампа більше не контролюватимуть Конгрес США після того, як демократи перевернули обидві камери під час проміжних виборів.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "22b84652753a0ad6244b": {
+      "source_title": "Supermarket cyberattacks in Europe hit Italy's Coop stores in Catania and Palermo",
+      "source_summary": "On Monday night a cyberattack hit dozens of supermarkets in six European countries, raising fridge temperatures to 50°C and spoiling tonnes of food. Four Coop stores in Sicily were also damaged.",
+      "language": "en",
+      "title": "Супермаркетні кібератаки в Європі завдали удару італійським крамницям Куп у Катанії та Палермо.",
+      "summary": "У понеділок ввечері у шести європейських країнах кібератаки влучили у десятки супермаркетів, підвищуючи температуру холодильника до 50°C і зіпсуючи так багато їжі.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "48388886199bc45d0fd7": {
+      "source_title": "Republicans fuming after Democrat Talarico flips Texas Senate blue",
+      "source_summary": "Republicans in Texas are trying to make sense of how they lost to the Democrats for the first time in almost 40 years.",
+      "language": "en",
+      "title": "Піраміди запилюють, коли демократ Таларіко перевертає техаський сенат.",
+      "summary": "Республіканці Техасу намагаються зрозуміти, як вони втратили демократів вперше за майже 40 років.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "b2a51463b5265fc8d0c1": {
+      "source_title": "Progressive Abdul El-Sayed wins Michigan Senate race to become first Muslim US senator",
+      "source_summary": "Democrat defeats Mike Rogers in race marked by Islamophobic attacks from Trump and Republican alliesUS midterm elections – live updatesTrack live results from all 50 statesTell us: what do you want to know about the midterm election results?Abdul El-Sayed, the doctor and progressive insurgent, has made history in winning the closely watched US Senate race in Michigan, defeating the Republican Mike Rogers to become the country’s first Muslim senator.El-Sayed’s victory adds to a decisive Democratic majority in the Senate after the party wrested control of the upper chamber on Tuesday with shock",
+      "language": "en",
+      "title": "Прогресивний абдул El-Sayed виграє гонку сенату Мічігану, щоб стати першим мусульманським сенатором США",
+      "summary": "Демократ завдає поразки Майку Роджеру у перегонах, що зазначені нападами ісламофобії від Трамп і республіканські союзники в середині виборів, ♫ Живе оновленняTrack є результатом від усіх 50 штатів те, що кажуть нам: що ви хочете знати про результати проміжних виборів? Абдул Ель-Сейзайд, лікар і прогресивні повстанці, зробили історію у виграші гонки сенатів США в Мічигані, поборюючи республіканський Майк Роджерс, щоб стати першими мусульманським сенатором.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "1015f48c4095cd2d5195": {
+      "source_title": "Gold, silver and precious metals prices jump, dollar dips as Democrats take control of Congress",
+      "source_summary": "Precious metals saw strong gains on Tuesday morning, as investors digested a Democratic sweep in the U.S. midterm elections.",
+      "language": "en",
+      "title": "Сстрибає ціна золота, срібла і дорогоцінних металів, коли демократи беруть контроль над конгресом, то вкладають долари в долар.",
+      "summary": "Дорогі метали бачили великі прибутки у вівторок вранці, коли інвестори перетравили демократичний об'їзд під час проміжних виборів США.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "e4c76261043ef8a74565": {
+      "source_title": "Democrat Troy Jackson unseats Republican Senator Susan Collins in Maine",
+      "source_summary": "Democrat Troy Jackson unseats Republican Senator Susan Collins in Maine",
+      "language": "en",
+      "title": "Демократ Трой Джексон роз'їдає республіканця сенатора Сузан Коллінз в штаті Мен.",
+      "summary": "Демократ Трой Джексон роз'їдає республіканця сенатора Сузан Коллінз в штаті Мен.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "b90e240c990561b9e6ec": {
+      "source_title": "EU cancer groups fear funding squeeze under next long-term budget",
+      "source_summary": "As European Union countries negotiate funding allocations for the bloc’s next long-term budget, cancer organisations fear that projects spanning from research to personalised care and patient support could be discontinued, weakening cancer care across Europe.",
+      "language": "en",
+      "title": "Групи з питань раку ЄС бояться стискання фінансування за наступним довгостроковим бюджетом.",
+      "summary": "Коли країни Європейського Союзу вступають у переговори про фінансування всіх заходів для цієї організації, наступний довгостроковий бюджет, організації раку побоюються, що, починаючи з досліджень, з надання особистої допомоги та підтримки пацієнтів, можна припинити, ослаблюючи догляд за раком по всій Європі.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "6b7968c9bddf51f45e78": {
+      "source_title": "Valve just changed its Steam release rules amid a flood of AI games",
+      "source_summary": "Valve is updating its game release rules to try to unclog a backlog of approvals due to a recent flood of new game titles, many created with AI.",
+      "language": "en",
+      "title": "Valve щойно змінив свої правила випуску Steam серед повеней ігор AI",
+      "summary": "Valve оновлює свої правила випуску гри, щоб створити список схвалення, спричинених нещодавнім потоком нових заголовків гри, багато з яких було створено за допомогою ШІ.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "d3c6c6f318b332aea9aa": {
+      "source_title": "US midterm elections: Cheers erupt as Talarico's Texas victory is projected",
+      "source_summary": "Supporters erupted in celebration in Austin as Democrat James Talarico was projected to win a US Senate seat in Texas, a state where his party has not won a Senate election since 1988.",
+      "language": "en",
+      "title": "Вибори в середині США: \"Нащастя\" вибухає з перемогою Техаського Техасу",
+      "summary": "Підтримувачі вибухнули під час святкування в Аустіні, коли було заплановано, що демократ Джеймс Таларіко виграє місце сенату США в Техасі, штаті, де його партія з 1988 року не виграє виборів у сенаті.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "d2fefe33a1f443a42ccc": {
+      "source_title": "Palestinians return to ruined Hebron homes after Israel’s 10-day siege",
+      "source_summary": "Returning Hebron residents face significant economic and structural devastation after Israeli military operation.",
+      "language": "en",
+      "title": "Палестина повертається до зруйнованих домів Хеврон після ізраїльтян 10-денної облоги",
+      "summary": "Після військової операції в Ізраїлі люди, які повернулися додому, зазнали значного економічного та структурного спустошення.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "56710b0014f1e888fc9d": {
+      "source_title": "US elects its first Black woman governor",
+      "source_summary": "The US has elected its first Black woman governor after Democrat Keisha Lance Bottoms won Georgia’s gubernatorial poll.",
+      "language": "en",
+      "title": "US обирають свого першого губернатора Чорної жінки.",
+      "summary": "США обрали першого губернатора Чорної жінки після демократа Кейси Ланса Даунса.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "58e6aad3debc8be6e1e0": {
+      "source_title": "Democrat Abdul El-Sayed wins election to US Senate from Michigan",
+      "source_summary": "Democrat Abdul El-Sayed gave an impassioned victory speech as he beat Republican Mike Rogers in the Michigan senate race",
+      "language": "en",
+      "title": "Демократ Абдул Ель-Сауль виграє вибори до Сенату США з Мічигану.",
+      "summary": "демократ Абдул Ел-Сайд виголосив невпізнану промову перемоги, коли переміг республіканця Майка Роджерса в гонці сенату в Мічигані.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "62c15a814bbd30da49d3": {
+      "source_title": "Democrat from Kansas elected to US Senate for first time since 1932",
+      "source_summary": "A Democrat from Kansas has been elected to the US Senate for the first time in 94 years.",
+      "language": "en",
+      "title": "Демократ з Канзасу, обраний до Сенату США вперше з 1932 року",
+      "summary": "Демократ з Канзасу був обраний до Сенату США вперше за 94 роки.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "69a79ab8ae1a2de5a450": {
+      "source_title": "Novo shares jump 6% as Wegovy pill sales impress, drugmaker hikes outlook",
+      "source_summary": "Novo posted quarterly earnings ahead of expectations early Wednesday as sales of its Wegovy pill blew past estimates",
+      "language": "en",
+      "title": "Зрост Novo зростає на 6%, коли продавці пілюль Вегови вражають, а наркомани дивляться у майбутнє.",
+      "summary": "Ново виділив чверть прибутку вище очікувань ранньої середи, коли продаж таблетки Вегови просував за попередніми оцінками",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "433bc681e04b06aa0d07": {
+      "source_title": "Poundland supplier 'will lose millions' if retailer collapses",
+      "source_summary": "One of Poundland's suppliers will lose millions if it collapses, while other suppliers have said they would go under.",
+      "language": "en",
+      "title": "Постачальник Фунтленду \" втратить мільйони ,\" якщо роздрібний роздрібний роздріб",
+      "summary": "Один з постачальників Фунтленду втратить мільйони, якщо він впаде, в той час як інші постачальники кажуть, що вони підуть вниз.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "7581eda52f97ee5fba00": {
+      "source_title": "'Largest House majority' in decades, says election expert Boyd Wagner on US midterm elections",
+      "source_summary": "Stefan Grobe speaks to Boyd Wagner, an elections expert on the surprise result of the US midterm elections. The Democratic Party blew away expectations overnight, with historic results in long-time Republican states such as Kansas and Texas electing their first Democratic senators in decades.",
+      "language": "en",
+      "title": "\"Більшість будинків\" десятиліттями, говорить експерт виборчих виборів Бойд Вагнер на проміжних виборах США.",
+      "summary": "Стефан Гробе розмовляє з Бойдом Вагнером, експертом виборів на здивування внаслідок проміжних виборів США. Демократична партія за одну ніч придумала очікувані очікування, а історичні результати були в давно-часних республіканських штатах, таких як Канзас і Техас, обираючи своїх перших Демократичних сенаторів за кілька десятиліть.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "1c97d51cf627e3a26644": {
+      "source_title": "Judicial crisis is 'weakening Poland' in a 'very unfortunate' time, says former EU Commissioner Jourová",
+      "source_summary": "Věra Jourová, former European Commissioner for Justice, believes this \"judicial schism\" is \"very unpleasant\" and \"decreasing\" the trust of Polish people in their justice and the independent judiciary system.",
+      "language": "en",
+      "title": "Криза судових справ \"зменшує\" Польщу за \"дуже невдалий\" час, каже колишній комісар ЄС Журова",
+      "summary": "В'єра Журова, колишній Європейський комісар юстиції, вважає, що \"судовий схизма\" дуже неприємна, і \"вимога\" довір'я польських людей до їх справедливості і незалежної судової системи.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "348a1026384221091ffa": {
+      "source_title": "Democrats aim to sweep most US governor elections after wins in key states",
+      "source_summary": "Party sees historic victories with Gina Hinojosa’s win in Texas and Georgia’s Keisha Lance Bottoms becoming first Black female governor in USUS midterm elections – live updatesTrack live results from all 50 statesVoters across the US have elected Democrats to lead many of the biggest states in the nation, marking a sea change in traditional Republican strongholds such as Georgia and Texas in what could have a profound effect on Donald Trump’s remaining term and the 2028 presidential election.From Keisha Lance Bottoms’ victory in Georgia, making the former Atlanta mayor the first Black woman to",
+      "language": "en",
+      "title": "Демократи намагаються провести вибори після перемог у ключових штатах США.",
+      "summary": "Парта бачить історичні перемоги Джини Гіноджоса в Техасі і Джорджія йде на користь до першого Чорної жінки губернатора в середині виборів США, яка веде трансляцію, і показує результати усіх 50 штатів Вертерів через США обраних демократів, щоб очолити багато найбільших держав у країні, відзначаючи морську зміну в традиційних республіканських твердинях, таких як Джорджія і Техас, що може мати глибокий вплив на Дональда Трампса, і на 2028 президентських виборів. Від Кіри Ланса Дамс у Джорджії, роблячи колишній мер Атланти, перша чорна жінка до",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "3dd67f089b214534d55b": {
+      "source_title": "South Africans vote in local elections that could continue the decline of the once-mighty ANC - AP News",
+      "source_summary": "South Africans vote in local elections that could continue the decline of the once-mighty ANC AP News",
+      "language": "en",
+      "title": "Південноафриканські голосують на місцевих виборах, які можуть продовжувати занепад колись потужних новин з ЧПУ",
+      "summary": "Південноафриканські голосують на місцевих виборах, які можуть продовжити спад колись потужних новин АНС",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "4ebc2111589b6128790a": {
+      "source_title": "‘We defeated Goliath’: Texas Democrat James Talarico wins Senate seat",
+      "source_summary": "Democrat James Talarico wins the Texas Senate race in a historic midterm upset.",
+      "language": "en",
+      "title": "Texas демократ Джеймс Таларіко отримує сенат місце",
+      "summary": "Демократ Джеймс Таларіко виграє перегони в Техасі в історичному проміжному засмученні.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "7ccdb851f21b89bfebaf": {
+      "source_title": "Democrats’ blue wave and a bad night for Trump: key US midterms takeaways",
+      "source_summary": "Republicans suffer historic losses, Democrats win control of Congress – and Trump backs away from losing candidatesFull report: Democrats win control of Congress in ‘blue wave’Track live results from all 50 statesUS midterms live – latest updatesDemocrats have swept key US midterm races, flipping long-held Republican seats and securing a majority in Congress as voters rebuked Donald Trump’s policies at the ballot box.In an unexpected performance, Democrats defeated incumbent Republicans candidates for historically conservative Senate seats in Iowa, Kansas, North Carolina, South Carolina and Te",
+      "language": "en",
+      "title": "Демократи} блакитна хвиля і погана ніч для Трампа: ключові проміжні етапи США",
+      "summary": "Республіканці отримують історичні втрати, демократи виграють контроль над конгресом і відступають від того, що кандидати від програють над конгресом: демократи виграють контроль над конгресом в точці блакитної хвилі], що живе у світі, результати всіх 50 штатів США серед цих періодів є живими новими оновленнями Демократів, що пронеслися в США середні дистанції, показують довгі республіканські сидіння і забезпечує більшість в Конгресі, як виборці осуджують Дональда Трампса. У неочікуваній виставі демократи перемогли кандидатів-репортори для історично консервативних сенатів в Айові, Канзасі, Північній Кароліні, Південній Кароліні та Тей.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "a243bc0d582f09088f52": {
+      "source_title": "Asian shares and US futures are mixed as Democrats gain majorities in both the US House and Senate - AP News",
+      "source_summary": "Asian shares and US futures are mixed as Democrats gain majorities in both the US House and Senate AP News",
+      "language": "en",
+      "title": "Акції Азії та майбутнє США змішані з демократами, що здобувають основні переваги як в палаті США, так і в Сенаті - AP News.",
+      "summary": "Акції Азії та майбутнє США змішані з демократами, що отримують основні переваги як у Домі США, так і в Сенаті вісті",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "eb396b009b6703253d3c": {
+      "source_title": "Democrats deliver a historic routing to Republicans in US midterms",
+      "source_summary": "For the first time in nearly 30 years, a Democrat will now represent South Carolina in the US Senate.",
+      "language": "en",
+      "title": "Демократи доносять історичний перехід республіканцям у середині американських перельотів.",
+      "summary": "Перший раз за майже 30 років демократ тепер представляє Південну Кароліну в Сенаті США.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "f032d238c11619440d23": {
+      "source_title": "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
+      "source_summary": "On Wednesday morning, Delhi's air quality index reading stood at 377, in the \"very poor\" category.",
+      "language": "en",
+      "title": "Якість повітря в Делі погіршується перед Дівалі, коли вогнегасники вступають у силу",
+      "summary": "У середу вранці, коли Делі читав індекс якості повітря, було 377, в категорії \"дуже бідних.\"",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "48eaede5b85e35f57601": {
+      "source_title": "FIFA’s Infantino ineligible for re-election, says former governance chief",
+      "source_summary": "Miguel ⁠⁠Maduro insists Gianni Infantino cannot serve more than three terms, pointing to FIFA's statutes.",
+      "language": "en",
+      "title": "\"Фі-ті\" означає \"безперешкодно\" для перевибору, каже колишній керівник управління",
+      "summary": "Міґель Мадуро наполягає на Джанні Пітіно не може служити більше трьох термінів, вказуючи на правила ФІФА.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "f4574f1ca940d0e0e336": {
+      "source_title": "Abdul El-Sayed becomes first Muslim elected to US Senate - Reuters",
+      "source_summary": "Abdul El-Sayed becomes first Muslim elected to US Senate Reuters",
+      "language": "en",
+      "title": "Abdul El-Sayed стає першим мусульманом обраним до Сенату США - Reuters",
+      "summary": "Abdul El-Sayed стає першим мусульманським обраним до Рейтеру Сенату США",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "971279aba4e38fbd417b": {
+      "source_title": "50 million Europeans can’t heat their homes. What is the EU doing to help?",
+      "source_summary": "Europe enters winter with its gas tanks emptier than at any point since 2011, and EU ministers have offered few binding answers on how to shield households from another energy shock. Watch the video!",
+      "language": "en",
+      "title": "50 мільйонів європейців можуть нагрівати свої доми.",
+      "summary": "З 2011 року Європа вступає в зиму, де газові балони відмиваються значно швидше, ніж будь-коли, а міністри ЄС пропонують мало пов'язуючих відповідей на питання, як захистити домогосподарства від іншого енергетичного шоку.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "fb0e681b52e3514f4abe": {
+      "source_title": "South Carolina elects Democratic senator for first time in almost three decades",
+      "source_summary": "Annie Andrews is projected to defeat Darline Graham, who was handpicked by President Trump to take her brother's seat after his death.",
+      "language": "en",
+      "title": "Південна Кароліна вперше за майже три десятиліття обрала демократичного сенатора.",
+      "summary": "Энни Эндрюс предполагает покончить с Дарлин Грэмом, которого президент Трумп подручил, чтобы занять место ее брата после его смерти.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "a955a58182c2697126a9": {
+      "source_title": "Bomb Threats Disrupt Several Flights Across Europe",
+      "source_summary": "Officials are investigating threats against at least seven planes. The aircraft landed safely and no explosives were found, the authorities said.",
+      "language": "en",
+      "title": "Загроза від вибуху бомби відхилила кілька рейсів по Європі",
+      "summary": "За словами влади, офіційні особи розслідують загрозу принаймні проти семи літаків.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "4bfdcf6dc789e893eab2": {
+      "source_title": "Democrat Abdul El-Sayed defeats Republican Mike Rogers in key Michigan Senate race",
+      "source_summary": "El-Sayed's campaign tested how an antiestablishment candidate on the left would fare in a perennial Midwest battleground. With the win, he'll become the first Muslim American to serve in the Senate.",
+      "language": "en",
+      "title": "Демократ Абдул El-Sayed поразки республіканець Майк Роджерс в ключовій гонці сенату Мічігана",
+      "summary": "Кампанія ЕлСейд протестувала, як кандидат на альманах зліва буде жити на багаторічному середньозахідному полі бою, з виграшем він стане першим мусульманським американцем, який служитиме в Сенаті.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "2781b15c74e39a97c044": {
+      "source_title": "Treasury yields fall as investors crowd into bonds for safety amid election stock sell-off",
+      "source_summary": "Treasury yields fell on Tuesday night, as investors sought shelter from a sell-off in equity futures sparked by big victories from Democrats in the U.S. midterm elections.",
+      "language": "en",
+      "title": "Фінансовий прибуток падає, як натовп інвесторів в облігації задля безпеки серед виборів акції продажу",
+      "summary": "Фінансовий прибуток впав у вівторок ввечері, коли інвестори шукали притулок від продажу в капіталі майбутнього, що було викликане великими перемогами демократів під час проміжних виборів США.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "a94a7e02014fa7315939": {
+      "source_title": "‘Democrats did a good job’: Trump congratulates Democrats on midterm wins",
+      "source_summary": "US President Donald Trump has acknowledged that rising petrol prices linked to the war in Iran contributed to his Republican Party's defeat in the midterm elections. He said voters supported his actions against Iran but were reluctant to pay more at the pump. Trump also praised Democrats.",
+      "language": "en",
+      "title": "Демократи зробили гарну роботу: бере участь демократи на середині виграють",
+      "summary": "Президент США Дональд Трамп визнав, що підвищення цін на бензин, пов'язаних з війною в Ірані, сприяло поразці республіканської партії під час проміжних виборів.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "9035bb625b9d0a0d2af7": {
+      "source_title": "Brussels to host talks on Ukraine's reconstruction with key allies",
+      "source_summary": "Good morning. I’m Mared Gwyn, holding the newsletter pen this Wednesday morning. Today: Brussels becomes the stage for intensified diplomacy on Ukraine, and I break down the key takeaways from Euronews’ Enlargement Summit.",
+      "language": "en",
+      "title": "Брюссель з господарями говорить про реконструкцію України з ключовими союзниками.",
+      "summary": "Доброго ранку. я зламаю ключову дію з Євронового саміту.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "faf2b866811252b85d0f": {
+      "source_title": "How America voted in maps and charts",
+      "source_summary": "See the maps and charts that show how America voted in the US midterm elections.",
+      "language": "en",
+      "title": "Як Америка голосувала в картах і діаграмах",
+      "summary": "Дивіться карти та графіки, які показують, як Америка голосувала під час проміжних виборів в США.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "b710aec9af05628a19eb": {
+      "source_title": "Democrats win Congress: How they did it, and what it means",
+      "source_summary": "With control of Congress, Democrats can challenge Trump’s agenda through subpoenas, confirmation votes.",
+      "language": "en",
+      "title": "Демократи виграли Конгрес: як вони це зробили і що це означає",
+      "summary": "З контролем Конгресу, демократи можуть виставляти денний виклик через підпори, голосування підтвердження.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "0e401494bd0c538cad87": {
+      "source_title": "Republicans tried to gerrymander their way out of big congressional losses. It didn't work",
+      "source_summary": "Among the sweeping victories by Democrats on Tuesday were wins in several congressional districts that Republicans had redrawn explicitly to boost their party ahead of the midterms.",
+      "language": "en",
+      "title": "Республіканці намагалися Геррімандрувати з того, що сталося з великими конгресовими втратами, але це не спрацювало.",
+      "summary": "Серед перемог демократів у вівторок були перемоги в декількох конвенціях, які республіканці явно переглянули, щоб підвищити свою партію перед проміжними.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "b54570daf115fc04033d": {
+      "source_title": "Spanish transport minister resigns after train crash killed 69 people",
+      "source_summary": "Oscar Puente says he could not 'continue in office' after two major train accidents in less than a year.",
+      "language": "en",
+      "title": "Іспанський міністр транспортування залишає відставку після аварії поїзда й вбиває 69 чоловік.",
+      "summary": "Оскар Пуенте каже, що він не зміг би \"бути в офісі\" після двох серйозних дорожньо-транспортних пригод менш ніж за рік.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "686a08ca0b1bb4aea9d6": {
+      "source_title": "Four tankers destroyed by naval mines in Strait of Hormuz, Iran's IRGC says",
+      "source_summary": "Iran's Islamic Revolutionary Guard Corps says the vessels had hit sea mines while trying to cross a prohibited route.",
+      "language": "en",
+      "title": "Чотири танкери зруйновані морськими мінами в протоці Гормуз, Іранська IRGC каже:",
+      "summary": "Ісламський революціональний корпус охорони природи в Ірані каже, що кораблі атакували морські міни і намагалися перейти заборонений шлях.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "0a02afb05cabbf5abc3c": {
+      "source_title": "Florida Republicans fend off Democrats as state elects first black governor",
+      "source_summary": "Republican Byron Donalds, who was backed by President Donald Trump, will be the first black governor of Florida.",
+      "language": "en",
+      "title": "Флоридські республіканці відбили демократів, як уряд вибирає першого чорного губернатора.",
+      "summary": "Республіканський Байрон Дональдс, якого підтримував президент Дональд Трамп, стане першим чорним губернатором Флориди.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "5f4b4149ff9cd3629233": {
+      "source_title": "US House Speaker Johnson rants about Marxism after Democrat gains",
+      "source_summary": "US House Speaker Johnson rants about Marxism after Democrat gains",
+      "language": "en",
+      "title": "Дім промовців США Джонсон борсається про марксизм після досягнення демократів",
+      "summary": "Дім промовців США Джонсон борсається про марксизм після досягнення демократів",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "3d64be0d73ce6c37fbde": {
+      "source_title": "US midterms: What Trump's defeat means for Europe and global markets",
+      "source_summary": "Democrats have won both chambers of the US Congress. For Europe, the big questions are tariffs and Ukraine, where Trump still holds much of his power.",
+      "language": "en",
+      "title": "Американські проміжні: що поразка Трампа означає для Європи та глобальних ринків",
+      "summary": "Демократи виграли обидва камери Конгресу США. де Трумп все ще володіє своєю владою.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "fd96b165964f243d8b64": {
+      "source_title": "Democrat Troy Jackson wins Maine US Senate seat in blow to Republicans",
+      "source_summary": "Longtime Republican Senator Susan Collins had held the seat for three decades, but was swept away in the blue wave.",
+      "language": "en",
+      "title": "Демократ Трой Джексон виграє сенату США в стані удару республіканцям",
+      "summary": "Впродовж довгого часу республіканський сенатор Сьюзан Коллінз сидів на місці протягом трьох десятиліть, але під час блакитної хвилі його було зметено.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "57cbc14d8bc311c33bfb": {
+      "source_title": "Aukus is ‘worst, riskiest and most costly’ Australian defence decision ever, public inquiry into submarine deal says",
+      "source_summary": "Report led by Peter Garrett and former defence chief Adm Chris Barrie says agreement should be suspended and calls for royal commissionGet our daily political email, free app or daily news podcastA public inquiry into the $368bn Aukus nuclear submarine agreement has called the plan “the worst, riskiest and most costly defence decision ever made by an Australian government”, urging its immediate termination.Former Labor MP and Midnight Oil frontman Peter Garrett, alongside former chief of defence Adm Chris Barrie, led the inquiry dominated by critics of the deal with the UK and US, recommending",
+      "language": "en",
+      "title": "Аукус - це найкритичніший і найкритичніший з усіх рішень Австралії, коли-небудь громадські дослідження у справи підводних човнів кажуть:",
+      "summary": "Звіт, який очолив Пітер Гаррет і колишній голова захисту Адам Кріс Баррі каже, що угоду слід призупинити і викликати королівською комісією отримати нашу щоденну політичну пошту, безкоштовну програму або щоденну газетну трансляцію громадського розслідування в угоду про розмір ядерного підводного човна $68bn Aukus назвав найгіршим, найкритичнішим і найдорожчим рішенням захисту, що будь-коли було зроблене австралійським урядом, закликаючи до негайного припинення його дій. Former Laying MP і Midnight Parstus, поруч з колишнім головним борцем Adm Chrisie, очолювало розслідування критики угоди з UKAr і США, рекомендуючи,",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "4884cc1b95ccc4b2d5e2": {
+      "source_title": "Europe Today: Democrats win Senate in rebuke of Trump as Poland’s constitutional crisis drags on",
+      "source_summary": "A blue wave has swept the US in the midterm elections, with Democrats winning the Senate and heading for a big House majority as votes are still being counted on the West Coast. We bring live analysis from Philadelphia and Brussels, plus Poland’s crisis, Ukraine talks and the EU enlargement race.",
+      "language": "en",
+      "title": "Європа сьогодні: демократи виграють сенат на боці Трамп, як Польща використовує конституційну кризу",
+      "summary": "Під час проміжних виборів на Сполучені Штати прокотилася блакитна хвиля, де демократи вигравали сенат і йшли до більшості голосів, як і раніше враховуються на західному узбережжі.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "142942f675c8b11f5951": {
+      "source_title": "Election Day unfolded with relatively few problems, despite worries over Trump election interference - AP News",
+      "source_summary": "Election Day unfolded with relatively few problems, despite worries over Trump election interference AP News",
+      "language": "en",
+      "title": "У день виборчої зустрічі було відносно мало проблем, незважаючи на стурбованість виборцями Трамп - AP News",
+      "summary": "День виборчої діяльності почався з відносно невеликими проблемами, незважаючи на тривогу щодо виборів Трамп",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "c711712980208eec8a17": {
+      "source_title": "First 10 Australian songs inducted into the National Songbook after ‘very robust’ judging",
+      "source_summary": "Yothu Yindi’s Treaty, Midnight Oil’s Beds Are Burning and Helen Reddy’s I Am Woman are among the first songs to be honoured on new list that will grow every yearWarning: Aboriginal and Torres Strait Islander readers are advised that this article contains images and names of Indigenous Australians who have diedMidnight Oil’s Beds Are Burning, Yothu Yindi’s Treaty and Helen Reddy’s I Am Woman are among the first 10 Australian songs to be inducted into the National Songbook – a new digital archive that celebrates and preserves songs that have shaped Australia’s national cultural identity.Launched",
+      "language": "en",
+      "title": "Перші 10 австралійських пісень вносяться до Національної пісні після ♫'Інжелеса",
+      "summary": "Йотху Янді Договір, у середні ночі читачі протоки Спалюють, і Хелен Реддіс Я є серед перших пісень, які вшановуються у новому списку, що зростатиме кожного року: аборигени і Торрес Протока Айлендс (англ.), радять, що ця стаття містить зображення та імена індігенів австралійців, які померли на цілу ніч, Тореди Палахають, Йоту Юнді Дого Договір і Хелен Реддіс Я є серед перших 10 австралійських пісень, які повинні бути включені в Національній пісні, що представляє і зберігає пісні, які сформовані у національній культурі Австралії.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "e2b8fcf85669d86b62c0": {
+      "source_title": "Amazing Grace review – blazing Hannah Walters struggles to save a lonely caller at the end of his tether",
+      "source_summary": "Daniel P Lewis stars in his own script as an isolated man beset by trauma as a helpline counsellor Walters tries to heal his painWhile working for a helpline one night, counsellor Grace (a terrific Hannah Walters) gets a call from Walter (Daniel P Lewis, also the film’s screenwriter), an isolated working-class man beset by trauma and loneliness who is contemplating killing himself. Grace quickly ascertains that Walter is in profound emotional distress, and although he keeps hanging up on her when her probing questions become too painful, he also keeps calling back until he feels safe enough to",
+      "language": "en",
+      "title": "Дивовижний відгук \" Ганна Волтерс\" намагається врятувати самотній телефон при кінці свого тіла.",
+      "summary": "Данія П Льюїса зірки у своєму власному сценарії, як ізольована людина, охоплена травмою, як радник Волтерс, який працює з допомогою, намагаючись зцілити свій біль в той час, як він працює з допомогою однієї ночі, адвокат Ґрейс (велика Анна Волтерс) отримує дзвінок від Уолтера (Данина П Льюїса, також художника-резерна), відокремлений працівника робітничого класу, що переживає травму і самотність, який планує вбити себе. Грейс швидко переконується, що Волтер перебуває у глибокому емоційному стані, і хоча він продовжує чіплятися до неї, коли її питання занадто болючі, він також звертається до себе достатньо безпечно, щоб він відчував себе достатньо емоційно, щоб",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "a32ef4c407331bfe05da": {
+      "source_title": "Paul Krugman backs temporary rent caps to curb housing speculation in Europe",
+      "source_summary": "Paul Krugman says modern income-stabilisation models preserve construction incentives while easing a currently \"impossible\" situation. He also warns French public debt could be \"catastrophic\" and urges Europe to adopt \"temporary protectionism\".",
+      "language": "en",
+      "title": "Пол Кругман підтримує тимчасові орендні щити, щоб стримати припущення про житло в Європі.",
+      "summary": "Пол Крюгман каже, що сучасні моделі прибутків- стабілізації зберігають стимули до будівництва, у той час як зменшують поточну \" неможливу \" ситуацію. Він також попереджає, що французький державний борг може бути \" катастрофічним\" і заохочує Європу прийняти \"сучасний захист.\"",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "381ce8c309c20a7bef95": {
+      "source_title": "South Africans vote in local elections seen as test for embattled ANC",
+      "source_summary": "Municipal failures have contributed to declining public trust, President Cyril Ramaphosa has admitted.",
+      "language": "en",
+      "title": "Південноафриканські голосування під час місцевих виборів стало випробуванням відстоювання ЧПУ",
+      "summary": "Як визнав президент Кирило Рамафоса, Мініципальні невдачі призвели до зменшення довір'я громадськості.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "b248ccd277c75aa3e8f6": {
+      "source_title": "Firsts for women and minorities in US midterm elections",
+      "source_summary": "The elections, which saw Democrats make big gains, also marked firsts for women and minorities in major offices.",
+      "language": "en",
+      "title": "Першості для жінок і меншин під час проміжних виборів у США.",
+      "summary": "Вибори, які бачили демократів, зробили великий внесок, також позначали першими серед жінок і меншин у головних офісах.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "a57e01296f1d3283b069": {
+      "source_title": "Anthony Zurcher: Democrats push deep into Trump heartland on historic night",
+      "source_summary": "Two Senate races that a year ago were thought to be battlegrounds turned out to be slam-dunks for the Democrats.",
+      "language": "en",
+      "title": "Anthony Zurcher: демократи втискають глибоко в серце Трумпи історичної ночі",
+      "summary": "Дві сенатські перегони, які рік тому вважалися полем бою, виявилися \"заборонами\" демократів.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "c6cf2e06a152a4e1382b": {
+      "source_title": "House Democratic Leader Hakeem Jeffries declares \"America is back\"",
+      "source_summary": "Jeffries, who addressed supporters after House control was called for Democrats, argued voters have sent Congress a message to end extremism and \"corruption.\"",
+      "language": "en",
+      "title": "Провідник Демократичного руху Хакім Джефріс заявив: \"Америка повернулася.\"",
+      "summary": "Джефрісе, які зверталися до прихильників після управління домом, як до демократів, стверджував, що виборці послали Конгресу повідомлення, щоб покінчити з екстремізмом і \"корупцією.\"",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "73381ba63438936430c4": {
+      "source_title": "Democrat Amy Acton makes history in Ohio",
+      "source_summary": "Democrat Amy Acton defeats Republican Vivek Ramaswamy to become the first ever woman to be elected as governor in Ohio.",
+      "language": "en",
+      "title": "Демократ Емі Актон робить історію в Огайо",
+      "summary": "Демократ Емі Актон завдає поразки республіканці, Вівку Рамасвамі, стати першою в історії жінкою, яку обрали губернатором в Огайо.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "354a64fb6b5f32bcec85": {
+      "source_title": "Americans have said 'NO TO WAR,' Iran speaker says as Democrats take Congress",
+      "source_summary": "Ghalibaf said that \"Conscience or the cost of living, Americans said NO TO WAR, and we endorse this message.\"",
+      "language": "en",
+      "title": "Американці кажуть \"Не ВІЙНИ,\" іранський оратор каже, що демократи приймають Конгрес",
+      "summary": "Гхаліб сказав, що \"Конуативна або вартість життя, американці сказали НІ ВІЙНИ, і ми схвалюємо це повідомлення.\"",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "338a98d29c02a6a7980a": {
+      "source_title": "‘We defeated Goliath’: Talarico says after historic Texas Senate win",
+      "source_summary": "Democrat James Talarico has won the US Senate race in Texas, according to US media projections, marking a major breakthrough in a traditionally Republican state.",
+      "language": "en",
+      "title": "Таларіко каже, що після перемоги історичного сенату Техасу",
+      "summary": "Демократ Джеймс Таларіко виграв перегони на сенатах США в Техасі, згідно з прогнозами ЗМІ США, що відзначили великий прорив у традиційно республіканському штаті.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "336aa0abf102d99c0496": {
+      "source_title": "Democratic Party gains US House majority in 2026 midterm elections",
+      "source_summary": "All 435 seats in the lower chamber of Congress were on the ballot in Tuesday's midterm race.",
+      "language": "en",
+      "title": "Демократична партія здобуває більшість дому США під час проміжних виборів 2026 року.",
+      "summary": "Усі 435 місць у нижній камері Конгресу були на бюлетні у вівторок під час проміжних гонок.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "60a18e91ab978b04e8e2": {
+      "source_title": "US midterm election results: Democrats flip House and Senate. Here's what else the data tells us",
+      "source_summary": "Democrats have won the majority in both House and Senate. Vote counts are still ongoing. DW takes a look at who voted Republican, who voted Democrat and what it all means.",
+      "language": "en",
+      "title": "Результати проміжних виборів в США: демократи перевертають будинок та сенат.",
+      "summary": "Демократи виграли більшість у і Домі, і в Сенаті.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "fc214f20e97216e533e5": {
+      "source_title": "BMW reports lower Q3 earnings as restructuring spells more pain towards end of year - Reuters",
+      "source_summary": "BMW reports lower Q3 earnings as restructuring spells more pain towards end of year Reuters",
+      "language": "en",
+      "title": "BMW повідомляє про зниження доходів Q3 в тому, що реструктуризації приносить більше болю до кінця року.",
+      "summary": "BMW повідомляє про зниження доходів Q3, коли реструктуризація приносить більше болю до кінця року Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "d316a7d6d75b89146ca1": {
+      "source_title": "Europe wakes up to a blue tsunami in the US midterms",
+      "source_summary": "Overnight, the Democratic party has won the U.S. Senate and made decisive gains in the House. But this might not necessarily be good news for Europe. On this special episode, Zoya Sheftalovich is joined by Sarah Wheaton in Brussels and our Global Politics Bureau Chief Jack Blanchard, who is ringing in from Washington. Jack will […]",
+      "language": "en",
+      "title": "Європа пробуджується до блакитного цунамі в середині США.",
+      "summary": "За ніч Демократична партія виграла сенат США і зробила рішучі успіхи в домі, але це може бути не зовсім доброю новиною для Європи.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "79ce9f95ceca06dd943f": {
+      "source_title": "Historic leadership firsts for minorities across US in midterm vote",
+      "source_summary": "The first Black female governor, the first openly gay male senator and the first female Native American governor all won groundbreaking elections in the vote that racked up resounding wins for Democrats.",
+      "language": "en",
+      "title": "Історичне лідерство в першу чергу для меншості по всій території США під час проміжного голосування.",
+      "summary": "Перша Чорна жіноча жінка губернатора, перша явно-гейського сенатора і перша жінка-американський губернатор, всі виграли приголомшливі вибори в голосуванні, що загарбали перемогу для демократів.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "aed4ecd44a3dfed6db51": {
+      "source_title": "US midterms: What the blue wave means for Britain",
+      "source_summary": "The Democrats have won the Senate and the House, taking control of Congress for the rest of Donald Trump’s presidency. On this special episode of Westminster Insider, Patrick Baker is joined from Washington D.C. by our Global Politics Bureau Chief Jack Blanchard to unpack the election results and to explore what they could mean for […]",
+      "language": "en",
+      "title": "Посередні іспити США: що означає блакитна хвиля для Британії",
+      "summary": "Демократи виграли Сенат і дім, взяли контроль над Конгресом для решти Дональда Ремпсіку. На цьому спеціальному епізоді Вестмінстера Унітера Патріка Бейкера приєднали з Вашингтона до нашого Всесвітнього бюро політики Джека Бланхарда, щоб розпакувати результати виборів і дослідити, що вони можуть означати для [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "d83d54e67a8bcc128a77": {
+      "source_title": "House Democratic leader Hakeem Jeffries hails midterm victory",
+      "source_summary": "Top US Democratic politician Hakeem Jeffries has called the midterm results the start of a ‘great American comeback’.",
+      "language": "en",
+      "title": "Лідер дому, Хакім Джефріс, вітає проміжну перемогу",
+      "summary": "Демократичний політик США Хакім Джефріс назвав проміжні результати початком \"велика американка.\"",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "f21df90c3b26b6a8453d": {
+      "source_title": "Kate McClymont questioned over ‘nail in the coffin’ and poo emoji texts at Alan Jones trial",
+      "source_summary": "Award-winning investigative journalist says she ‘probably’ texted an alleged victim’s mother saying ‘I hope the shit does hit the fan for him’, court hearsGet our breaking news email, free app or daily news podcastInvestigative journalist Kate McClymont has told a Sydney court that an audio recording in which she said new information would be “an absolute nail in the coffin” did not refer to “killing” Alan Jones.In a phone call with the mother of the youngest alleged victim of Jones, which was played in court, the Sydney Morning Herald’s chief investigative reporter expressed excitement when t",
+      "language": "en",
+      "title": "Kate Mcallymont висунуто над nail в няні і oo emoji тексти на суд Алана Джонса",
+      "summary": "Журналіст з розслідування каже, що вона говорить на передній сторінці, що мати каже ♪I надіються, що це лайно нападає на фан за нього, суд чує повідомлення про порушення новин, безкоштовний додаток або щоденний журналіст Кейт Маккімонт сказав сіднейському дворі, що аудіозапис в якому, як вона сказала, нова інформація буде абсолютною ніготь у передніх засіданнях не стосувався вбивства Алана Джонса. Під телефонним дзвінком з матір'ю наймолодшої жертви Джонса, яка грала в суді, сіднейський ранковий Геральдс було висловлено захоплення, коли t",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "f875a86fe186ff30c7b5": {
+      "source_title": "Tiktoker 'super excited' to co-host BBC nature show",
+      "source_summary": "Naturewatch, hosted by Chris Packham, Megan McCubbin and Kyle Thomas, is being made in Bristol.",
+      "language": "en",
+      "title": "Tiktoker 'супер-захоплений' для спів-вузлом шоу природи BBC",
+      "summary": "Природоохоронець, якого веде Кріс Пакем, Меган Маккуббін і Кайл Томас, роблять у Брістолі.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "79d8a4e50f13c9fb96b0": {
+      "source_title": "Leisure centre price hikes on the way",
+      "source_summary": "The rises would impact Perdiswell, St John's Sports Centre and Nunnery Wood Sports Complex.",
+      "language": "en",
+      "title": "По дорозі ходять ціни на центр.",
+      "summary": "Це може вплинути на Пердівелла, Спортивного центру Святого Джона і на Спортивний склад Нуннейського Вуду.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "b89eb4403862f9c335bd": {
+      "source_title": "Lula’s victory is a stress test for the Global South",
+      "source_summary": "Trump can still punish Brazil for pursuing an independent course. Can China offer lasting alternatives to US dominance?",
+      "language": "en",
+      "title": "\"Лласіс-Зіра\" - це випробування стресу для світової Півдня",
+      "summary": "Трамп все ще може покарати Бразилію за те, що вона пішла незалежним шляхом.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "de8616af94f83aa17ddc": {
+      "source_title": "Prince William says UK faces terrifying risk of more wildfires due to climate change",
+      "source_summary": "The prince says 2026 was the first summer he felt \"worried about the scale of the wildfires\".",
+      "language": "en",
+      "title": "Принц Вільям каже, що Великобританія має жахливий ризик збільшення кількості пожеж через зміну клімату.",
+      "summary": "Принц каже, що 2026-е було перше літо, яке він відчував \"тривожений масштабами пожеж.\"",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "7f2348e1a53c47600075": {
+      "source_title": "US contractor gave Ethiopia secrets to help kill Tigray fighters",
+      "source_summary": "The Ethiopian-born American citizen admitted sharing dozens of classified documents with senior Ethiopian officials.",
+      "language": "en",
+      "title": "Підрядник США дав Ефіопії секрети, щоб допомогти вбити винищувачів Tigray",
+      "summary": "Американський громадянин Ефіопії визнав, що поділився десятками секретних документів з високопоставленими ефіопськими чиновниками.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "5647a4d57e5c4dfed43b": {
+      "source_title": "This lifestyle change saves money, improves your health and cuts emissions. But there’s a catch",
+      "source_summary": "Making this small change to your daily routine could be as impactful as recycling.",
+      "language": "en",
+      "title": "Ця зміна способу життя відбирає гроші, поліпшує ваше здоров'я і випаровування.",
+      "summary": "Якщо ти зміниш свій щоденний розпорядок, то це може мати такий вплив, як переробка відходів.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "c52b7b3616e350817a73": {
+      "source_title": "Troy Jackson wins Maine Senate race over Susan Collins, in major coup for Democrats",
+      "source_summary": "The result is a crucial victory for Democrats in their push to retake the Senate majority, flipping a seat that Collins has held for nearly 30 years.",
+      "language": "en",
+      "title": "Трой Джексон виграє перегони Мейн над Сюзан Коллінзом, в головному перевороті для демократів.",
+      "summary": "Результатом цього є вирішальна перемога для демократів, які намагаються повернути більшість сенатів, перекриваючи місце, яке Коллінз провів майже 30 років.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "b24c111ba2b3a5ff119c": {
+      "source_title": "EXCLUSIVE: Lindt investors seek board shake-up at chocolate maker after CEO ouster - Reuters",
+      "source_summary": "EXCLUSIVE: Lindt investors seek board shake-up at chocolate maker after CEO ouster Reuters",
+      "language": "en",
+      "title": "КРИСТОБАЛ: інвестори Ліндсу шукають дошки потроху у виробника шоколаду після видалення директорів - Рейтер.",
+      "summary": "КРИСТОБАЛ: инвесторы Линдтов ищут к суде в разваре шоколада после выключателя ремеска.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "2c3a9feb2631ffeda0a1": {
+      "source_title": "Get your skates on: Visit some of Europe’s top outdoor ice rinks this winter",
+      "source_summary": "From castle backdrops to illuminated ice trails, these outdoor skating spots bring a little extra magic to a European winter break.",
+      "language": "en",
+      "title": "Взяти свої ковзани на: Відвідайте деякі європейські континенти вище криги цієї зими",
+      "summary": "Від замка до освітлених крижаними стежками, ці ковзани просто неба приносять трохи додаткової чарівності до європейської зимової перерви.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "f5794a84539213a05ce2": {
+      "source_title": "Judi Dench says Daniel Craig ordered her death. James Bond just got a lot scarier",
+      "source_summary": "Not only did Craig insist his 007 die at the end of his run, but now we learn from Dench’s memoir that it was his idea to kill her off too. How will the next Bond top that? Shoot a puppy?Now that the next James Bond actor is on the brink of being unveiled, it may be a good time to take a proper look at the prior 007 with clear eyes. Because, while the reputations of all the previous Bonds have ossified over the years – in chronological order: sexy, wooden, camp, boring and silly – the Daniel Craig era is finally coming into focus. And it turns out that he was actually the angel of death.Obviou",
+      "language": "en",
+      "title": "Джуді Денч каже, що Даніель Крейг наказав їй померти.",
+      "summary": "Креґ не лише наполягав на своєму 007 смерть при кінці свого бігу, але тепер ми дізнаємося з Dench'sepir, що це була його ідея вбити її також. Як буде наступний зв'язок зверху, що? Застрелити щеня? Тепер, що наступний актор Бонд є на порозі відкриття, це може бути гарний час, щоб поглянути на перед 007 з ясними очима, тому що, в той час, як репутація всіх попередніх зв'язків ого, була у хронологічному порядку: сексуальний, дерев'яний, табір, нудний і дурний , , , Може бути, що він був ангелом смерті. Obviouu.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "87359a6a335a15456f3b": {
+      "source_title": "India news: Election body opens door for voter reinclusion",
+      "source_summary": "The Indian poll body said no action will be taken against deleted voters for using Form 6 for re-enrolment in voter rolls. Follow DW for more.",
+      "language": "en",
+      "title": "Новини з Індії: тіло есекції відкриває двері для переосмислення голосування",
+      "summary": "Індіанське опитування показало, що проти вилучених виборців не буде вжито жодних заходів для використання Форми 6 для перерозподілу голосів.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "c55bcd61500bb10e5207": {
+      "source_title": "Trust vows to 'maintain spirit' of nature reserve",
+      "source_summary": "Flatford Wildlife Garden is bought by the National Trust after being run by the RSPB for 15 years.",
+      "language": "en",
+      "title": "Довіряйте обітницям \"підтримувати дух\" заповідника",
+      "summary": "Національний фонд \" Trust \" купує Плетфордський сад після 15 років їзди на РСПБ.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "d546bc913a8c25bc6154": {
+      "source_title": "Democrats seize control of US Congress after long night for Republican party",
+      "source_summary": "It would give the Democrats a significant check on Trump, potentially allowing the party to investigate his administration and to increase pressure on the White House over its policies.",
+      "language": "en",
+      "title": "Демократи захоплюють управління Конгресом США після довгої ночі республіканської партії.",
+      "summary": "Це дасть демократам значний контроль за Трампом, що потенційно дозволить партії дослідити його адміністрацію і підвищити тиск на Білий Дом через його політику.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "fba76cc65391d944638e": {
+      "source_title": "'Expect the worst': What results mean for the world | Dominic Waghorn",
+      "source_summary": "Trump restrained or Trump rampant? That is the question for the world now as it looks on at his humiliation in the midterms.",
+      "language": "en",
+      "title": "\"Перегляньте найгірше\": результати означають для світу ♫ Dominic Waghorn",
+      "summary": "Це питання для світу тепер, коли він дивиться на його приниження в середині періоду.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "714bce91ad763afc729d": {
+      "source_title": "Russia hits power stations in Ukraine's regions of Kyiv, Zhytomyr - Reuters",
+      "source_summary": "Russia hits power stations in Ukraine's regions of Kyiv, Zhytomyr Reuters",
+      "language": "en",
+      "title": "Росія влучила в електростанції в Україні Київ, Житомир - Рейтер.",
+      "summary": "Росія влучила в електростанції в Україні Київ, Рейтер Житомир.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "40217d27202ee18ce1aa": {
+      "source_title": "U.S. midterm elections in pictures: Democrats' sweeping victories deliver rebuke to Trump",
+      "source_summary": "Democrats scored sweeping victories in the U.S. midterm elections on Wednesday, flipping key Republican-held seats in Congress.",
+      "language": "en",
+      "title": "Посередні вибори в США на фотографіях: великі перемоги демократів доносять докору Трампові.",
+      "summary": "Демократи набрали великі перемоги під час проміжних виборів США у середу, перевертаючи ключові республіканські місця в Конгресі.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "f07d97ee9d51dc7269ff": {
+      "source_title": "North Korea launches missiles toward the sea as Pyongyang protests against US claims on Binance hack - AP News",
+      "source_summary": "North Korea launches missiles toward the sea as Pyongyang protests against US claims on Binance hack AP News",
+      "language": "en",
+      "title": "Північна Корея запускає ракети на морі, коли Пхеньян проти США твердить, що Бінс хап - AP News",
+      "summary": "Північна Корея запускає ракети до моря, коли Пхеньян протестує проти США, заявляючи про Бінс хап AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "3494030d3f8fe4063dfa": {
+      "source_title": "Photos: Champions League and Tenerife fans pay tribute to De Miguel",
+      "source_summary": "CD Tenerife forward Jesus de Miguel died after suffering cardiac arrest following an on-field collision.",
+      "language": "en",
+      "title": "Фотографії: Чемпіони Ліги і фанати Тенеріфе платять данину де Міґель.",
+      "summary": "Ссерверагом вперед, Иисус де Мигель умер после остановки сердца после случая на поле.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "82cdf972d5c4a5d98243": {
+      "source_title": "Asian stocks and dollar fall as Democrats gain ground in US midterms",
+      "source_summary": "Technology shares led losses in Asia as investors weighed the prospect of tighter AI regulation and political gridlock in Washington. Oil prices also fell.",
+      "language": "en",
+      "title": "Американські проміжні акції та долари падають, коли демократи набирають землі.",
+      "summary": "Акції з технології призвели до втрат в Азії, коли інвестори зважували перспективу посилити регулювання ШІ та політичного блокування у Вашингтоні.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "3771b3d86e9dfb4a3989": {
+      "source_title": "Democrats Win Big",
+      "source_summary": "The party has flipped key seats in Republican strongholds, as voters rebuked Trump.",
+      "language": "en",
+      "title": "Демократи виграють велику",
+      "summary": "Партія перекрутила ключові місця в республіканських фортецях, як виборці докоряли Трамп.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "8ed305fe8f6ccb19d84c": {
+      "source_title": "Here's how some key demographic groups voted in the midterms",
+      "source_summary": "These charts show how various demographic groups voted in the midterm election. The data comes from a poll of tens of thousands of voters, conducted by the firm SSRS for a number of news outlets.",
+      "language": "en",
+      "title": "Ось як деякі основні демографічні групи проголосували в серединіterm",
+      "summary": "Ці діаграми показують, як різні демографічні групи голосували під час проміжних виборів. Дані надаються опитуванням десятків тисяч виборців, яке проводить фірма ССРС для декількох випусків новин.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "a3ec3fde22cb854a07c1": {
+      "source_title": "Morning Bid: Markets fret blue wave will drown data centres - Reuters",
+      "source_summary": "Morning Bid: Markets fret blue wave will drown data centres Reuters",
+      "language": "en",
+      "title": "Ранковий бум: голуба хвиля ринку затопить центри даних - Reuters",
+      "summary": "Ранковий бум: голуба хвиля Маркетів затопить інформаційні центри Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "644d6479773719fbb617": {
+      "source_title": "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
+      "source_summary": "\"This wasn't just a tsunami, not just a referendum, but this was a bloodbath,\" one expert told the BBC on Democrats' historic wins in Texas.",
+      "language": "en",
+      "title": "Джеймс Таларіко став першим демократом, який здобув сенат Техасу з 1988 року.",
+      "summary": "\"Це був не просто цунамі, не лише референдум, але й кровопролиття,\" - сказав один експерт БіБіБіС з історичних перемог демократів у Техасі.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "29e80fd50290b3b9fd7a": {
+      "source_title": "Democrat Xavier Becerra wins California governor’s race, defeating Republican Steve Hilton - AP News",
+      "source_summary": "Democrat Xavier Becerra wins California governor’s race, defeating Republican Steve Hilton AP News",
+      "language": "en",
+      "title": "Демократ Xavier Becerra отримує марку каліфорнійських губернаторів, поборюючи республіканське Стіва Хілтона - AP News",
+      "summary": "Демократ Xavier Becerra отримує марку каліфорнійських губернаторів, поборюючи республіканське Стіва Хілтона AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "e296921dbffa641d9cc8": {
+      "source_title": "5 things Europe needs to monitor as Democrats blitz Trump in US midterms",
+      "source_summary": "From Texas to Ohio, the Republicans had a disastrous night at the polls. How will the results impact Europe?",
+      "language": "en",
+      "title": "5 речей, які необхідно Європі, щоб стежити за тим, як демократи бліц Трамп США в середині курсу",
+      "summary": "Від Техасу до Огайо, республіканці мали катастрофічну ніч під час опитувань.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "ceb2c19bfd825f5c1f1d": {
+      "source_title": "Oracle abandons $7 billion Tencent AI deal under Trump pressure, FT reports - Reuters",
+      "source_summary": "Oracle abandons $7 billion Tencent AI deal under Trump pressure, FT reports Reuters",
+      "language": "en",
+      "title": "За даними ФТ - Рейтер, \" Pudia\" залишає 7 мільярдів Tencent AI, які мають справу під тиском Трампа.",
+      "summary": "За повідомленням агентства Рейтер, опухоль втрачає 7 мільярдів Tencent AI, які мають справу під тиском Трамп.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "f5429c044db36af840bb": {
+      "source_title": "From rotten food to political opponents: Researchers explore how disgust relates to our beliefs, and why the connection is complicated",
+      "source_summary": "Some studies have linked disgust sensitivity to socially conservative attitudes. But does disgust shape our politics, or do our beliefs shape what we find disgusting?",
+      "language": "en",
+      "title": "Від гнилої їжі до політичних опонентів.",
+      "summary": "Але чи огида формує нашу політику, чи наші переконання формують те, що ми вважаємо огидним?",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "41c04f7802836ff27d8c": {
+      "source_title": "Cruise ship leaves Cambodia after forcing hundreds of passengers off - Reuters",
+      "source_summary": "Cruise ship leaves Cambodia after forcing hundreds of passengers off Reuters",
+      "language": "en",
+      "title": "Крузський корабель виїжджає з Камбоджі після того, як висилає сотні пасажирів.",
+      "summary": "Крузський корабель виїжджає з Камбоджі, змушуючи сотні пасажирів покинути Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "14fdc2d4511ccc97e7f9": {
+      "source_title": "Trump acknowledges Iran role in Democratic sweep - Reuters",
+      "source_summary": "Trump acknowledges Iran role in Democratic sweep Reuters",
+      "language": "en",
+      "title": "Трамп визнає роль Ірану в демократичному замітці - Рейтер",
+      "summary": "Трамп визнає роль Ірану в Демократичному загоні Рейтер",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "a909684b814966db9cea": {
+      "source_title": "Former Arkansas governor says Democrats' gains are 'more significant than ever anticipated'",
+      "source_summary": "NPR's Scott Detrow speaks with former Arkansas Gov. Asa Hutchinson about Democratic victories in states typically considered Republican strongholds.",
+      "language": "en",
+      "title": "Колишній губернатор Арканзасу каже, що досягнення демократів \"є більш значними, ніж будь-коли очікувалося\"",
+      "summary": "Скот Детроу з НПР розмовляє з колишнім Арканзасом Ґовом Аса Гутчінсоном про демократичні перемоги в штатах, які вважаються республіканськими фортецями.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "8bff8870dc639fa64f1b": {
+      "source_title": "Indonesia president sacks chief of staff over alleged wiretap - Reuters",
+      "source_summary": "Indonesia president sacks chief of staff over alleged wiretap Reuters",
+      "language": "en",
+      "title": "Президент Індонезії накидає на себе підозрюваного дроту - Рейтер.",
+      "summary": "Президент Індонезії насипає персонал на гадане Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "f1da47e02ee4fc97911e": {
+      "source_title": "Keisha Lance Bottoms becomes Georgia’s first black governor",
+      "source_summary": "Democrat Keisha Lance Bottoms has been elected Governor-elect of Georgia becoming the state's first black governor",
+      "language": "en",
+      "title": "Кейша Ланс Даунс стає Джорджією, перший чорний губернатор",
+      "summary": "демократ Кешіса Ланс Данс був обраний губернатором Грузії і став першим чорним губернатором держави.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "b9575bbd3512e08d8441": {
+      "source_title": "China is leading the clean energy industry. Will it redraw the lines of global power?",
+      "source_summary": "China secured 23 of the world’s 36 major clean industrial projects financed last year, as emerging economies advanced past both Europe and the US.",
+      "language": "en",
+      "title": "Китай очолює екологічно чисту енергетичну індустрію, чи перемістить лінії глобальної енергії?",
+      "summary": "Китай забезпечив 23 світового значення 36 основних індустріальних проектів, які фінансувалися минулого року, коли нові економії просувалися повз Європу, як також США.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "8321a7d062039e43d2cd": {
+      "source_title": "Senator Jon Ossoff wins reelection, holding Georgia for Democrats - Reuters",
+      "source_summary": "Senator Jon Ossoff wins reelection, holding Georgia for Democrats Reuters",
+      "language": "en",
+      "title": "Сенатор Джон Оссоф перевибирає, втримуючи Грузію для демократів - Рейтер.",
+      "summary": "Сенатор Джон Оссоф перевибирає, втримуючи Грузію для демократів Рейтер",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "bf558c91a891d0161d56": {
+      "source_title": "U.K. Supreme Court to Hear Challenge to Ban on Palestine Action: What to Know",
+      "source_summary": "The government designated the protest group as a terrorist organization last year, prompting criticism. The country’s Supreme Court is set to begin hearing a challenge to the ban on Wednesday.",
+      "language": "en",
+      "title": "Верховний суд Великобританії, щоб почути виклик заборонити Палестину",
+      "summary": "Уряд назвав групу протестів терористською організацією минулого року, спричиняючи критику.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "ed5d10bf28490ab47249": {
+      "source_title": "UK apologises to Ukrainian child refugees who were told to study Russian",
+      "source_summary": "Exclusive: Schools minister launches new Ukrainian GCSE and says she is sorry students were pushed to study Russian in its absenceThe UK has apologised to Ukrainian child refugees who were told to study Russian in English schools, as it launched funding for a new GCSE in Ukrainian.Ukrainian children who were forced to seek refuge in the UK after Vladimir Putin’s invasion in 2022 say it was “insulting” that their teachers suggested they study Russian in the absence of a GCSE in Ukrainian. Continue reading...",
+      "language": "en",
+      "title": "Великобританія вибачається перед українськими дітьми - біженцями, яким наказали вивчати російську мову.",
+      "summary": "ЕКРЕС: Шкільний міністр започатковує нову Українську КСС і каже, що їй шкода, що студенти були примушені вивчати російську мову в його відсутності Великобританія вибачилася українським дитячим біженцям, яким було сказано вивчати російську мову в англійських школах, оскільки вона почала фінансувати новий GCSE українською мовою.Ukrainian children, які були змушені шукати притулку у Великобританії після вступу Володимира Путінсала у 2022 році, каже, що їх вчителі запропонували вивчати російську мову в умовах відсутності GCSE в Україні. Продовжіть читання...",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "7125bab90c2672967b50": {
+      "source_title": "UK Supreme Court to hear appeal against ban on Palestine Action group",
+      "source_summary": "The two-day hearing, scheduled for Wednesday and Thursday at the Supreme Court, comes as the group's prohibition has failed to quell support for the pro-Palestinian group, leading to mass arrests across the UK.",
+      "language": "en",
+      "title": "Верховний Суд Великобританії, щоб вислухати заклик проти заборони Палестини",
+      "summary": "Дводенне слухання справи, запланованого на середу і четвер у Верховному суді, є причиною заборони групи, не зменшило підтримки пропалестинської групи, що призвело до масових арештів у всьому Сполученому Королівстві.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "d5e39decb9ba7cac8173": {
+      "source_title": "Democrat Josh Turek flips Iowa Senate seat",
+      "source_summary": "Turek beat Republican Ashley Hinson, a US House member.",
+      "language": "en",
+      "title": "Демократ Джош Турек відхиляє місце сенату Айови.",
+      "summary": "Турек побив республіканця Ешлі Гінсона, члена дому США.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "73cea4e0606f375e9003": {
+      "source_title": "India’s EloElo nabs $80M from NBCUniversal to bet on the country’s rising microdrama market",
+      "source_summary": "StoryTV has more than 33 million monthly active users according to Sensor Tower figures",
+      "language": "en",
+      "title": "Індія зазначає, що \" EloElo nabs \" 80M від NBCUniversal має ставити ставки на цій країні, виходячи з ринку мікробдрами.",
+      "summary": "За даними організації \" TorkTV ,\" щомісячно реєструється понад 33 мільйони людей, що працюють.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "67b17cb457056e869097": {
+      "source_title": "India's EloElo nabs $80M from NBCUniversal to bet on the country's rising microdrama market - TechCrunch",
+      "source_summary": "India's EloElo nabs $80M from NBCUniversal to bet on the country's rising microdrama market TechCrunch",
+      "language": "en",
+      "title": "Індійський \" Елоело набс \" з NBCUniversal, щоб поставити ставку на зростаючому ринку мікродрами. Технокрам",
+      "summary": "Індійський ело-набс 80М від NBCUniversal до ставка на зростаючому ринку мікробдрами",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "eb99fd150a182b6757fa": {
+      "source_title": "Democrats win full control of Congress, ushering in a new era of divided government",
+      "source_summary": "The victories in the House and Senate return Democrats to full control of Congress for the first time since 2023 and deepens the level of expected friction between them and President Trump.",
+      "language": "en",
+      "title": "Демократи перемагають конгрес, вводячи нову еру розділеного уряду.",
+      "summary": "Перемоги в домі та сенаті відновлюють демократів у повному контролі Конгресу вперше з 2023 року і поглиблюють очікувані тертя між ними та президентом Трампом.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "ec90b672154995b53f51": {
+      "source_title": "Democrat Josh Turek wins the Senate seat in Iowa",
+      "source_summary": "Democrat Josh Turek has defeated Sen. Ashley Hinson in Iowa, according to a race call by the Associated Press.",
+      "language": "en",
+      "title": "Демократ Джош Турек виграє сенат в Айові.",
+      "summary": "Демократ Джош Турек переміг Сена. згідно з гонкою Ассошіейтед Пресс.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "a5edf7f16be5687fe114": {
+      "source_title": "On a historic night for democratic socialists, Mamdani says midterms show power of working-class voters",
+      "source_summary": "The New York mayor tells NPR's Juana Summers that newly elected democratic socialists need to seize this moment and show voters what politics can deliver.",
+      "language": "en",
+      "title": "У історичну ніч для демократичних соціалістів, Мамдані каже, що в середині іспиту показано силу виборців робітного класу.",
+      "summary": "Мер Нью-Йорка сказав Хуані Саммерс, що новообрані демократичні соціалісти повинні захопити цей момент і показати виборцям те, що може принести політика.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "bd1189a87fa82a72dd7e": {
+      "source_title": "Democrat Josh Turek flips Republican-held US Senate seat in Iowa - Reuters",
+      "source_summary": "Democrat Josh Turek flips Republican-held US Senate seat in Iowa Reuters",
+      "language": "en",
+      "title": "Демократ Джош Турек перевертає республіканський сенат США в Айові - Рейтер",
+      "summary": "Демократ Джош Турек перевертає республіканське сенат в Айова Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "157e3f391a774baf707d": {
+      "source_title": "Democrat David Crowley will be Wisconsin's first Black governor",
+      "source_summary": "Democrat David Crowley defeated Republican Congressman Tom Tiffany in a campaign that focused on \"lowering costs for working families\" and bringing more jobs to Wisconsin.",
+      "language": "en",
+      "title": "Демократ Девід Кроулі буде першим Чорним губернатором Вісконсіна.",
+      "summary": "Демократ Девід Кроулі переміг республіканця Конгресмена Тома Тіффані у кампанії, яка зосередилася на \"нижчих витратах для робочих сімей\" і забезпеченні більшої кількості робочих місць у Вісконсін.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "c004c59bef19fe7d10f0": {
+      "source_title": "Adam Hamilton becomes first Democrat elected to US Senate from Kansas in 94 years - Reuters",
+      "source_summary": "Adam Hamilton becomes first Democrat elected to US Senate from Kansas in 94 years Reuters",
+      "language": "en",
+      "title": "Адам Гамільтон стає першим демократом обраним до Сенату США з Канзасу в 94 роки - Рейтер.",
+      "summary": "Адам Гамільтон стає першим демократом обраним в Сенат США з Канзасу в 94 роки Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "e1648f0ca896fd2ff4a7": {
+      "source_title": "Thousands join Czech protest against public media financing plan",
+      "source_summary": "Critics say the overhaul would give the ruling three-party coalition the means to take control of the media, similar to what populist governments did in Slovakia under Prime Minister Robert Fico and in Hungary before former Prime Minister Viktor Orbán was ousted from power in April.",
+      "language": "en",
+      "title": "Тисячі приєднуються до протесту Чехії проти планів фінансування громадських засобів масової інформації.",
+      "summary": "Критики кажуть, що надулика дасть рішенню тристоронньої коаліції засіб захопити контроль над засобами масової інформації, подібно до того, що зробили уряди популістів у Словаччині під керівництвом прем'єр-міністра Роберта Фіко і в Угорщині, перш ніж у квітні було вигнано з влади колишній прем'єр-міністр Віктора Орбана.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "9220722dcf2453d0c1e8": {
+      "source_title": "China's solar push reshapes traditional ways of life on Tibet's high plateau - Reuters",
+      "source_summary": "China's solar push reshapes traditional ways of life on Tibet's high plateau Reuters",
+      "language": "en",
+      "title": "Китайські сонячні хвилі змінюють традиційний спосіб життя на високому плато Тибету.",
+      "summary": "Китайські сонячні хвилі змінюють традиційний спосіб життя на Тибетському плато Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "69f21b6c148d991408a4": {
+      "source_title": "Democrat Sherrod Brown wins back US Senate seat in Ohio - Reuters",
+      "source_summary": "Democrat Sherrod Brown wins back US Senate seat in Ohio Reuters",
+      "language": "en",
+      "title": "Демократ Шеррод Браун повертає сенат США в Огайо - Рейтер.",
+      "summary": "Демократ Шеррод Браун повертає сенат США в штат Огайо Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "523b4bfa53d38df2b49a": {
+      "source_title": "James Talarico becomes first Democrat to win statewide in Texas since 1994 - Reuters",
+      "source_summary": "James Talarico becomes first Democrat to win statewide in Texas since 1994 Reuters",
+      "language": "en",
+      "title": "Джеймс Таларіко став першим демократом у Техасі з 1994 року - Рейтер.",
+      "summary": "Джеймс Таларіко став першим демократом, який здобув перемогу в Техасі з 1994 року.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "526f07165d304782e598": {
+      "source_title": "Trump says he is willing to accept midterm election results, NYT reports - Reuters",
+      "source_summary": "Trump says he is willing to accept midterm election results, NYT reports Reuters",
+      "language": "en",
+      "title": "Трамп каже, що він готовий прийняти результати проміжних виборів.",
+      "summary": "Трамп каже, що він готовий прийняти результати проміжних виборів, як повідомляє агентство Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "f2bd11c8ea906b4618e7": {
+      "source_title": "‘Very important’ evidence found miles from Learjet crash site in Florida, investigator says - AP News",
+      "source_summary": "‘Very important’ evidence found miles from Learjet crash site in Florida, investigator says AP News",
+      "language": "en",
+      "title": "теперь важные улики находятся в милях от места крушения Лерджета в Флориде, следовательность говорит - AP News",
+      "summary": "У Флориді слідчий говорить, що докази знайдено за багато кілометрів від місця падіння Лер'єта.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "c52c7f695e81412e0c6d": {
+      "source_title": "Iran's IRGC says four tankers ablaze after hitting mines near Strait of Hormuz - Reuters",
+      "source_summary": "Iran's IRGC says four tankers ablaze after hitting mines near Strait of Hormuz Reuters",
+      "language": "en",
+      "title": "Іранська IRGC каже, що чотири танкери, які вибухали мінами біля протоки Гормуз - Рейтер",
+      "summary": "Іранська IRGC каже, що чотири танкери були спалені після того, як атакували міни біля протоки Гормуз Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "e5ca8fbb86a8484e0316": {
+      "source_title": "As Trump’s Midterm Deadline Looms, Gulf Countries Brace for Possible Renewal of Iran War",
+      "source_summary": "The energy-rich Gulf Arab countries are engaged in a flurry of mediation efforts to avert war between the U.S. and Iran, as many fear that the fighting will be worse this time around.",
+      "language": "en",
+      "title": "Так як каже Мідмідс Дедлайн Ломос, Затокові Країни прилаштовуються до можливого відновлення Іранської війни",
+      "summary": "Багаті на енергію арабські країни затоки займаються непродуктивними зусиллями запобігти війні між США та Іраном, оскільки багато хто побоюється, що ця війна буде ще гіршою.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "c0347d95f4fd8286a180": {
+      "source_title": "Midterm elections could jolt stocks as Democrats look poised to sweep Congress",
+      "source_summary": "Wall Street weighs how the 2026 midterms could affect stocks, Treasury yields, artificial intelligence, energy prices, banks, defense and healthcare.",
+      "language": "en",
+      "title": "Посередні вибори можуть скидати акції демократів, які виглядають готовими до підмітання Конгресу.",
+      "summary": "Уолл-стріт важить, як 2026 проміжні періоди можуть вплинути на цінні папери, казначейські активи, штучний інтелект, ціни на енергію, банки, захист та охорона здоров'я.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "e40089cfac44cbbc7abf": {
+      "source_title": "Democrats projected to win majority control of US House, US media project - Reuters",
+      "source_summary": "Democrats projected to win majority control of US House, US media project Reuters",
+      "language": "en",
+      "title": "Демократи прогнозували, що зможуть виграти контроль над більшістю, а саме: проект ЗМІ США - Рейтер.",
+      "summary": "Демократи прогнозували, що зможуть виграти контроль над більшістю США, інформаційний проект Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "88e3a96a20af2380da59": {
+      "source_title": "Democrat Annie Andrews wins US Senate seat in South Carolina upset - Reuters",
+      "source_summary": "Democrat Annie Andrews wins US Senate seat in South Carolina upset Reuters",
+      "language": "en",
+      "title": "Демократ Енні Ендрюс виграє сенат США у Південній Кароліні, засмученій - Рейтер.",
+      "summary": "Демократ Енні Ендрюс виграє сенат США в Південній Кароліні засмучене Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "a50ec5578677e89ed495": {
+      "source_title": "Burnham revives hopes UK’s crumbling parliament will get a fix",
+      "source_summary": "Successive governments have been reluctant to touch the costly overhaul needed to the seat of British democracy.",
+      "language": "en",
+      "title": "Burnham відживляє надію, що парламент Великобританії, який розпадеться, отримає виправлення.",
+      "summary": "Успіхові уряди не хотіли торкатися того коштовного перенасичення, якого було потрібно на місці британської демократії.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "672152d0607533652047": {
+      "source_title": "Democrats win the Senate and House as voters reject Trump",
+      "source_summary": "",
+      "language": "en",
+      "title": "Демократи виграють в Сенат і будинок, як виборці відкидають Трамп",
+      "summary": "",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "798233acb6c6ad94e132": {
+      "source_title": "Indian stocks inch higher as investors assess foreign fund flows, US election results - Reuters",
+      "source_summary": "Indian stocks inch higher as investors assess foreign fund flows, US election results Reuters",
+      "language": "en",
+      "title": "У міру того як інвестори оцінюють потоки іноземних коштів, результати виборів США - Рейтер.",
+      "summary": "У міру того як інвестори оцінюють потоки закордонних коштів, вибори США призводять до Рейтера.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "1548a6ea6069927b2ede": {
+      "source_title": "Rupee claims near two-week high as US midterms singe dollar, flows improve - Reuters",
+      "source_summary": "Rupee claims near two-week high as US midterms singe dollar, flows improve Reuters",
+      "language": "en",
+      "title": "Потужні заяви щодо підвищення рівня рупії близько двотижневого рівня, що в середині висоти США співають долар, потоки підвищення - Рейтер.",
+      "summary": "Потужні заяви на Рупію близько двотижневої висоти, з того часу, як США в середньому перевозить долар. Потоки покращують Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "ec75d857e1d43218d622": {
+      "source_title": "Start an asylum claim - Canada.ca",
+      "source_summary": "Start an asylum claim Canada.ca",
+      "language": "en",
+      "title": "Розпочати заяву про притулок - Канада.ca",
+      "summary": "Започаткувати притулок, претендуючи на Канаду.ca.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "fc76f76254c50a342f44": {
+      "source_title": "Start a claim from inside Canada - Canada.ca",
+      "source_summary": "Start a claim from inside Canada Canada.ca",
+      "language": "en",
+      "title": "Започаткуйте заяву з Канади - Канади.ca",
+      "summary": "Започаткувати заяву з Канади.ca",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "e71dff0dbceac1221c9e": {
+      "source_title": "Complete your eligible claim - Canada.ca",
+      "source_summary": "Complete your eligible claim Canada.ca",
+      "language": "en",
+      "title": "Завершіть свою заяву - Канаду.ca.",
+      "summary": "Завершіть свою умовну заяву на Канаду.ca",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "a795c8de96ce036a71ff": {
+      "source_title": "Escaped Tennessee inmate caught after 10 days on the run when his truck gets stuck in the mud - AP News",
+      "source_summary": "Escaped Tennessee inmate caught after 10 days on the run when his truck gets stuck in the mud AP News",
+      "language": "en",
+      "title": "Втеча в Теннессі зловлена після 10 днів бігу, коли його вантажівка застрягла в багна - AP News",
+      "summary": "Втеча в Теннессі зловлена після 10 днів бігу, коли його вантажівка застрягає в багна-п-носі",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "857ebcda134e287eae5d": {
+      "source_title": "Paul Pelosi prohibited from driving after pleading no contest to misdemeanor hit-and-run charge - AP News",
+      "source_summary": "Paul Pelosi prohibited from driving after pleading no contest to misdemeanor hit-and-run charge AP News",
+      "language": "en",
+      "title": "Пол Пелосі заборонив керувати машиною після того, як він не просив змагатись з тим, що мене підстрелили, а потім відрядити.",
+      "summary": "Пол Пелосі заборонив керувати машиною після того, як він не просив змагатись з тим, що мене підстрелили, а потім відрядити з AP News.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "2d12a0df0d68261644ee": {
+      "source_title": "Keisha Lance Bottoms wins Georgia race, becomes first Black woman elected governor of US state - Reuters",
+      "source_summary": "Keisha Lance Bottoms wins Georgia race, becomes first Black woman elected governor of US state Reuters",
+      "language": "en",
+      "title": "Кешіса Ланс Данс виграє перегони в Джорджії, стає першою чорною жінкою, обраною губернатором штату США - Рейтер.",
+      "summary": "Кешіса Ланс Данс виграє перегони в Грузії, стає першою чорною жінкою, обраною губернатором Державного Рейтеру США.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "dd26cd2f1a9b139ef41f": {
+      "source_title": "Killer who escaped Tennessee prison captured after week-long manhunt",
+      "source_summary": "Jacob Allen Morley was serving a life sentence for murder before he escaped over a prison fence.",
+      "language": "en",
+      "title": "Убийца, который сбежал из тюрьмы Теннессі, побитой после недели, полного мачеха.",
+      "summary": "Якоб Аллен Морлі відбув довічне ув'язнення за вбивство, перш ніж втік через тюремний паркан.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "3f3e9c64a7d8918f19fc": {
+      "source_title": "From Days to Minutes: How AI Could Transform Anti-Submarine Warfare - Canada.ca",
+      "source_summary": "From Days to Minutes: How AI Could Transform Anti-Submarine Warfare Canada.ca",
+      "language": "en",
+      "title": "Від днів до хвилин: Як я міг перетворити антисубмарні війни - Канада.ca",
+      "summary": "Від днів до хвилин: Як я міг перетворити антисабмарні війни Канади.ca",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "c9eff7b1e4e773cd52c8": {
+      "source_title": "Returning Home: CPO1 Murphy Reflects on Freshwater's New War Memorial - Canada.ca",
+      "source_summary": "Returning Home: CPO1 Murphy Reflects on Freshwater's New War Memorial Canada.ca",
+      "language": "en",
+      "title": "Повернення додому: Morphy Morry розмірковує про Спомин Нової Війни - Канади.ca",
+      "summary": "Повернення додому: Morphy Morry розмірковує про Спомин Нової Війни в Канаді.ca",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "383a89d32586e792a6c1": {
+      "source_title": "North Korea fires multiple missiles in fourth weapons launch in a month, Seoul says - Reuters",
+      "source_summary": "North Korea fires multiple missiles in fourth weapons launch in a month, Seoul says Reuters",
+      "language": "en",
+      "title": "Сеул каже, що за місяць у Північній Кореї вчетверте стріляє декілька ракет.",
+      "summary": "Сеул каже, що Сеул, за місяць після четвертого запуску багатьох ракет стріляє на кілька ракет.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "7f20242d67d2d01d1dec": {
+      "source_title": "What Europe hopes to see in the US midterms",
+      "source_summary": "Capitals are watching keenly for any hint that Washington's approach to foreign policy and free trade might change in 2028.",
+      "language": "en",
+      "title": "Те, що Європа сподівається побачити в проміжних роках США",
+      "summary": "Столиці пильно стежать за тим, щоб підхід Вашингтона до зовнішньої політики та вільна торгівля могли змінитися в 2028 році.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "a31a0db1cf5f351c9d3a": {
+      "source_title": "A Test for Israeli Democracy: Should Jews Ask Arabs to Join the Government?",
+      "source_summary": "Arab lawmakers give opponents of Benjamin Netanyahu a clear majority in the Parliament. But many Jewish lawmakers are trying to avoid relying on them.",
+      "language": "en",
+      "title": "Тест для ізраїльської демократії: Чи євреї повинні просити арабів, щоб вони приєднались до уряду?",
+      "summary": "Арабські законодавці дають противникам Бенджаміна Нетанягу ясну більшість у парламенті, але багато єврейських законодавців намагаються не покладатися на них.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "9ac948ff9b2f19fa855a": {
+      "source_title": "Indonesia president sacks his chief of staff for alleged wiretapping - Reuters",
+      "source_summary": "Indonesia president sacks his chief of staff for alleged wiretapping Reuters",
+      "language": "en",
+      "title": "Президент Індонезії розграбовує свою посаду за нібито дрітування - Рейтер.",
+      "summary": "Индонезийский президент угрожает главе сотрудников за предполагаемое прослушивание.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "d6c044454aec12855bdc": {
+      "source_title": "Will Ebenezer Be The Box Office Hit Johnny Depp's Hollywood Comeback Needs?",
+      "source_summary": "Paramount is betting its Johnny Depp comeback vehicle Ebenezer, a new take on A Christmas Carol, will be a box office hit. Let's look at the early projections.",
+      "language": "en",
+      "title": "Чи Ебенцер стане офісом, який би вдарив голлівудські потреби?",
+      "summary": "Параунт ставить свою машину, на якій Ебеньєзер, нову \"Ревечу коляску ,\" на її місце буде внесено удар.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "c3ea56b5c2bad568b6e8": {
+      "source_title": "Dollar slides to one-month low as Democratic gains stoke AI regulation fears - Reuters",
+      "source_summary": "Dollar slides to one-month low as Democratic gains stoke AI regulation fears Reuters",
+      "language": "en",
+      "title": "Доларові слайди знизилися на один місяць, як Демократичні здобутки регулювання регулювання AI - Reuters",
+      "summary": "Доларові слайди до низьких на один місяць, як Демократичні прибутки регулювання страхів агентства AI",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "365962c5fac31a37e41a": {
+      "source_title": "No more rice grains in Kellogg's Rice Krispies due to changing weather",
+      "source_summary": "The new recipes mean cereal packaging will now include a 'contains wheat gluten' warning.",
+      "language": "en",
+      "title": "У рисових рисових рисових коників Келлога більше не буде через зміну погоди.",
+      "summary": "Нові рецепти означають, що упаковка з зерном тепер міститиме попередження про переливання пшениці.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "c1be4a99a5f9f116fcc1": {
+      "source_title": "Weta FX and TAICCA Partner to Turn Taiwan Into an AI Screen Production Hub for Asia (EXCLUSIVE)",
+      "source_summary": "Weta FX, the New Zealand visual effects house behind “The Lord of the Rings” and “Avatar,” is teaming with the Taiwan Creative Content Agency (TAICCA) on a plan to turn Taiwan into a center for AI-driven screen production in Asia. The partnership will be formally launched on Nov. 6 at Taiwan Creative Content Fest (TCCF) […]",
+      "language": "en",
+      "title": "Уета FX і TAICCA Партнер, щоб перетворити Тайвань на кубок для створення екранів для Азії (EXCLUSIVE)",
+      "summary": "Уета FX, новозеландський візуальний ефект знаходиться за \" Господь стінок і сяатар, працює у співпраці з Тайванванським агентством споживання вмісту (TAICCA) з планом перетворити Тайвань на центр виробництва екрана в Азії. Партнерство буде формально запущено на Нув. 6 на Тайвані Creative Fest [TCCF] [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "04f335e35da90b5f4625": {
+      "source_title": "Canada joins coalition refusing to play ice hockey against Russia over Ukraine war",
+      "source_summary": "Growing number of countries are resisting Russia’s reintegration into international hockey after a sports court lifted a ban on competitionCanada has joined a coalition of countries refusing to play ⁠ice ​hockey teams from Russia, with prime minister Mark Carney saying Russian skaters will not be able to compete in ⁠a world junior championship next month due to the war in Ukraine.“While Russia and Belarus are supporting this illegal, unjustified, horrific ‌war in Ukraine, as long as that’s going on, there will be none of ​those athletes competing for their countries in Canada,” Carney told rep",
+      "language": "en",
+      "title": "Канада приєднується до коаліції, яка відмовляється грати в хокей проти Росії у зв'язку з війною в Україні.",
+      "summary": "Дедалі більша кількість країн виступає проти Росії, і прем'єр-міністр Марк Карні каже, що російські ковзанярі не зможуть змагатись у світовому чемпіонаті наступного місяця через війну в Україні.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "27c8d112b85a34cc3b20": {
+      "source_title": "Rep. Katherine Clark says Democrats are on track to win control of the House tonight",
+      "source_summary": "NPR's Ailsa Chang speaks with House Democratic Whip Katherine Clark of Massachusetts about tonight's midterm elections.",
+      "language": "en",
+      "title": "Кэтрин Кларк сказала демократы на пути, чтобы победить в доме сегодня.",
+      "summary": "\"Айльса Чанз\" НПР говорить з Домом Демократичної Кетрін Кларк з Массачусетського міста про випускні вибори.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "755641d0b8ced331f0e9": {
+      "source_title": "Chris Pappas holds New Hampshire US Senate seat for Democrats - Reuters",
+      "source_summary": "Chris Pappas holds New Hampshire US Senate seat for Democrats Reuters",
+      "language": "en",
+      "title": "Кріс Паппас тримає місце в Нью-Гемпширі для сенатів США для демократів - Рейтерів.",
+      "summary": "Кріс Паппас тримає місце в Нью-Гемпширі для сенатів США для демократів Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "4668e0d57815bc256c8a": {
+      "source_title": "UE stawia twarde warunki Ukrainie. „Natychmiast”",
+      "source_summary": "UE stawia twarde warunki Ukrainie. „Natychmiast”",
+      "language": "pl",
+      "title": "ЄС ставить серйозні вимоги ЄС.",
+      "summary": "ЄС ставить серйозні вимоги ЄС.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "4b509049be77cf65cf47": {
+      "source_title": "Grenlandia bardziej dostępna dla turystów. Nowe lotnisko przy słynnym fiordzie",
+      "source_summary": "Grenlandia bardziej dostępna dla turystów. Nowe lotnisko przy słynnym fiordzie",
+      "language": "pl",
+      "title": "Нова аеропорт при знаменитій фіорді",
+      "summary": "Нова аеропорт при знаменитій фіорді",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "754aee73ccb1ab34e561": {
+      "source_title": "Historyczny zwrot w USA. Abdul El-Sayed pierwszym muzułmaninem w Senacie",
+      "source_summary": "Historyczny zwrot w USA. Abdul El-Sayed pierwszym muzułmaninem w Senacie",
+      "language": "pl",
+      "title": "Історія в Сполучених Штатах Америки.",
+      "summary": "Історія в Сполучених Штатах Америки.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "d6f77c84431a53b0b360": {
+      "source_title": "Płonie kolejny magazyn logistycznego giganta Rosji",
+      "source_summary": "Płonie kolejny magazyn logistycznego giganta Rosji",
+      "language": "pl",
+      "title": "Ще один логічний журнал Росії.",
+      "summary": "Ще один логічний журнал Росії.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "9093e260ced23c74bc0f": {
+      "source_title": "Karol Nawrocki o \"pani dwojga nazwisk\". Ostra reakcja marszałka Sejmu",
+      "source_summary": "Karol Nawrocki o \"pani dwojga nazwisk\". Ostra reakcja marszałka Sejmu",
+      "language": "pl",
+      "title": "Чарльз Нарроці про \"два імена\" - жахлива реакція солдата Сейму.",
+      "summary": "Чарльз Нарроці про \"два імена\" - жахлива реакція солдата Сейму.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "46928a348f6cd6b15251": {
+      "source_title": "Szokujące nagranie z drogi. Kierowca Mercedesa zmusił karetkę do ucieczki na pobocze",
+      "source_summary": "Szokujące nagranie z drogi. Kierowca Mercedesa zmusił karetkę do ucieczki na pobocze",
+      "language": "pl",
+      "title": "Водій Мерседеса змусив швидку втекти на погоню.",
+      "summary": "Водій Мерседеса змусив швидку втекти на погоню.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "ac53483c4139d21a2f18": {
+      "source_title": "Głośno o klęsce Trumpa. „Zaczyna się koniec 80-letniego magnata nieruchomości”",
+      "source_summary": "Głośno o klęsce Trumpa. „Zaczyna się koniec 80-letniego magnata nieruchomości”",
+      "language": "pl",
+      "title": "« Почалася кінець 80-річного магнію нерухомості»",
+      "summary": "« Почалася кінець 80-річного магнію нерухомості»",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "089c974b9a3742be6542": {
+      "source_title": "„Krwawa łaźnia w Teksasie”. James Talarico dokonał niemożliwego",
+      "source_summary": "„Krwawa łaźnia w Teksasie”. James Talarico dokonał niemożliwego",
+      "language": "pl",
+      "title": "Джеймс Талайко зробив неможливе.",
+      "summary": "Джеймс Талайко зробив неможливе.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "686a0db398b2c7080c32": {
+      "source_title": "Cztery banki muszą oddać klientom pieniądze. UOKiK wydał ważną decyzję",
+      "source_summary": "Cztery banki muszą oddać klientom pieniądze. UOKiK wydał ważną decyzję",
+      "language": "pl",
+      "title": "УККІК зробив важливе рішення.",
+      "summary": "УККІК зробив важливе рішення.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "e105c4a7a75776a7a02a": {
+      "source_title": "Polska uruchamia program współpracy naukowej z czterema państwami",
+      "source_summary": "Polska uruchamia program współpracy naukowej z czterema państwami",
+      "language": "pl",
+      "title": "Польща запускає програму наукового співробітництва з чотирма країнами.",
+      "summary": "Польща запускає програму наукового співробітництва з чотирма країнами.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "9a0135aa7178e05f2812": {
+      "source_title": "41 minut pod okiem kamer. To ma być najdłuższy odcinkowy pomiar prędkości w kraju",
+      "source_summary": "41 minut pod okiem kamer. To ma być najdłuższy odcinkowy pomiar prędkości w kraju",
+      "language": "pl",
+      "title": "41 хвилин під камерою, це буде найдовший показник швидкості в країні.",
+      "summary": "41 хвилин під камерою, це буде найдовший показник швидкості в країні.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "c475fc49a6d930d12f3f": {
+      "source_title": "„Ja wchodzę pierwszy”. Kulisy wejścia Karola Nawrockiego do TK",
+      "source_summary": "„Ja wchodzę pierwszy”. Kulisy wejścia Karola Nawrockiego do TK",
+      "language": "pl",
+      "title": "« Я перший з вас ».",
+      "summary": "« Я перший з вас ».",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "25805f68c6c11921afed": {
+      "source_title": "Węgrzy szturmują Zakopane. Tysiące turystów pod Tatrami",
+      "source_summary": "Węgrzy szturmują Zakopane. Tysiące turystów pod Tatrami",
+      "language": "pl",
+      "title": "Тисячі туристів у Татрамі нападають на Закопані.",
+      "summary": "Тисячі туристів у Татрамі нападають на Закопані.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "9f862a937890b48996c4": {
+      "source_title": "Izrael zaskoczony decyzją Trumpa. „Najgorszy moment na taki krok”",
+      "source_summary": "Izrael zaskoczony decyzją Trumpa. „Najgorszy moment na taki krok”",
+      "language": "pl",
+      "title": "Ізраїль був здивований рішенням Трумпа. « Найгірший момент для такого кроку!»",
+      "summary": "Ізраїль був здивований рішенням Трумпа. « Найгірший момент для такого кроку!»",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "e504d420b1e30a18ca8f": {
+      "source_title": "Tajemnicze kamery pojawiły się na ulicach Krakowa. Magistrat wyjaśnia",
+      "source_summary": "Tajemnicze kamery pojawiły się na ulicach Krakowa. Magistrat wyjaśnia",
+      "language": "pl",
+      "title": "Загадкова камера з'явилася на вулиці Кракова.",
+      "summary": "Загадкова камера з'явилася на вулиці Кракова.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "0939191f58a560ce2dd0": {
+      "source_title": "Czarzasty o „praniu się po twarzach”. „Ludzie tego nie rozumieją”",
+      "source_summary": "Czarzasty o „praniu się po twarzach”. „Ludzie tego nie rozumieją”",
+      "language": "pl",
+      "title": "\"Потрібно працювати по обличчю”.„ Люди не розуміють цього”",
+      "summary": "\"Потрібно працювати по обличчю”.„ Люди не розуміють цього”",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "4df5558c0a0411a8d879": {
+      "source_title": "PiS dogada się z Braunem? „Koalicja jest pewna”",
+      "source_summary": "PiS dogada się z Braunem? „Koalicja jest pewna”",
+      "language": "pl",
+      "title": "\"Коаліція впевнена\"!",
+      "summary": "\"Коаліція впевнена\"!",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "ae294e896654c9a4123c": {
+      "source_title": "Cyberatak na system do rozliczania dotacji. Możliwy wyciek danych",
+      "source_summary": "Cyberatak na system do rozliczania dotacji. Możliwy wyciek danych",
+      "language": "pl",
+      "title": "Cybertact на систему звітування доток. Можливо, витоки даних",
+      "summary": "Cybertact на систему звітування доток. Можливо, витоки даних",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "8c21291e7bec64ab5a90": {
+      "source_title": "Zaskakujący ruch Bolsonaro. Uciekł z kraju, a teraz zrobił to",
+      "source_summary": "Zaskakujący ruch Bolsonaro. Uciekł z kraju, a teraz zrobił to",
+      "language": "pl",
+      "title": "Він втік з країни, а тепер зробив це.",
+      "summary": "Він втік з країни, а тепер зробив це.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "33006b7845a7c1ef4d09": {
+      "source_title": "Tunele na obwodnicy Krakowa zamknięte. Dla kierowców przygotowano objazdy",
+      "source_summary": "Tunele na obwodnicy Krakowa zamknięte. Dla kierowców przygotowano objazdy",
+      "language": "pl",
+      "title": "Для водіїв з’явилися об’їзди.",
+      "summary": "Для водіїв з’явилися об’їзди.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "82fe2f7c0da30ed8f379": {
+      "source_title": "\"Dążyli do odwetu za rzekomą krzywdę\". Prawomocny wyrok ws. porwania nastolatka",
+      "source_summary": "\"Dążyli do odwetu za rzekomą krzywdę\". Prawomocny wyrok ws. porwania nastolatka",
+      "language": "pl",
+      "title": "Законний вирок у випадку викрадення підлітка",
+      "summary": "Законний вирок у випадку викрадення підлітка",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "bf9e7123be6eebbe6fdc": {
+      "source_title": "Błaszczak o zwycięstwie demokratów w USA: Obawiam się, że baza wojsk USA w Polsce nie powstanie",
+      "source_summary": "Błaszczak o zwycięstwie demokratów w USA: Obawiam się, że baza wojsk USA w Polsce nie powstanie",
+      "language": "pl",
+      "title": "Брус про перемогу демократів у США: боюся, що базу американських військ не буде в Польщі.",
+      "summary": "Брус про перемогу демократів у США: боюся, що базу американських військ не буде в Польщі.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "7649c8fca1c239fd3124": {
+      "source_title": "Barack Obama skomentował wyniki wyborów w USA",
+      "source_summary": "Barack Obama skomentował wyniki wyborów w USA",
+      "language": "pl",
+      "title": "Барак Обама описав результати виборів у США.",
+      "summary": "Барак Обама описав результати виборів у США.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "53a5606b18ef9c429171": {
+      "source_title": "Przełom w USA. Keisha Lance Bottoms rozbiła polityczny szklany sufit",
+      "source_summary": "Przełom w USA. Keisha Lance Bottoms rozbiła polityczny szklany sufit",
+      "language": "pl",
+      "title": "Кеша Ланс Боттомс розколола політичну стелю.",
+      "summary": "Кеша Ланс Боттомс розколола політичну стелю.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "e5be93a05ee4d4e03397": {
+      "source_title": "Wieczorne oświadczenie Korwin-Piotrowskiej. „Po przemyśleniu tej kwestii”",
+      "source_summary": "Wieczorne oświadczenie Korwin-Piotrowskiej. „Po przemyśleniu tej kwestii”",
+      "language": "pl",
+      "title": "Ввечері слова Корвін-Пітровський.",
+      "summary": "Ввечері слова Корвін-Пітровський.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "c285dec2222693c97236": {
+      "source_title": "Tak Donald Trump zareagował na wynik wyborów w USA. Zapowiedział weto",
+      "source_summary": "Tak Donald Trump zareagował na wynik wyborów w USA. Zapowiedział weto",
+      "language": "pl",
+      "title": "Так Дональд Трум, про наслідки виборів США, сказав вето.",
+      "summary": "Так Дональд Трум, про наслідки виборів США, сказав вето.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "6c14dd47e099712c3d1d": {
+      "source_title": "Nieoficjalne wyniki: Demokraci zwyciężają również w Senacie",
+      "source_summary": "Nieoficjalne wyniki: Demokraci zwyciężają również w Senacie",
+      "language": "pl",
+      "title": "Неофіційні результати: демократи також перемагають у Сенаті.",
+      "summary": "Неофіційні результати: демократи також перемагають у Сенаті.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
+    "4950bb1fa9f7a8ea4252": {
+      "source_title": "Media: Demokraci odbijają Izbę Reprezentantów. Trump gotów zaakceptować wyniki",
+      "source_summary": "Media: Demokraci odbijają Izbę Reprezentantów. Trump gotów zaakceptować wyniki",
+      "language": "pl",
+      "title": "Медіа: демократи відбивають палату представників.",
+      "summary": "Медіа: демократи відбивають палату представників.",
+      "engine": "opus_mt",
+      "translated_at": 1793785949
+    },
     "64d013859736e39a2781": {
       "source_title": "North Korea slams FBI claims it was behind €5bn Binance hack and test fires missiles",
       "source_summary": "A 2024 United Nations report said proceeds from North Korean cyberattacks had \"reportedly helped to fund the country's development of weapons of mass destruction\".",
@@ -12111,7 +13749,7 @@
   "meta": {
     "engine": "local_opus_mt_with_optional_mymemory_fallback",
     "daily_target": 200,
-    "new_translations": 165,
-    "remaining_candidates": 35
+    "new_translations": 182,
+    "remaining_candidates": 18
   }
 }
