@@ -1,7 +1,1339 @@
 {
   "schema": 1,
-  "updated": 1793785949,
+  "updated": 1793872290,
   "articles": {
+    "8e2576529f35a1d3102b": {
+      "source_title": "What Trump’s Midterm Defeat Means for Iran and Oil Prices",
+      "source_summary": "Commentators abroad wondered what President Trump’s electoral losses might mean for oil prices, the war on Iran and the future of American politics.",
+      "language": "en",
+      "title": "Що означає середня перемога для Ірану та нафти",
+      "summary": "Коментатори за кордоном цікавились знати, що президент має на увазі для цін на нафту, війна проти Ірану і майбутнє американської політики.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "0d45e8f09d850c033c87": {
+      "source_title": "Joshua Wong, Hong Kong Democracy Activist, Is Sentenced to 10 Years in Prison",
+      "source_summary": "Mr. Wong, one of the most high-profile members of a movement that was quashed in 2020, was accused of conspiracy to collude with foreign forces, a national security offense.",
+      "language": "en",
+      "title": "Ісуса Навина Вонг, активіста демократії в Гонконзі, засуджено до 10 років ув'язнення",
+      "summary": "Г-н Вон, один з найпрофесійніших членів руху, який був заклинений у 2020 році, був звинувачений у змові за змовою з іноземними силами, порушенням національної безпеки.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "e9d67e10e79f37d226df": {
+      "source_title": "US midterm elections 2026 live: Democrats eye historic upset in Mississippi Senate race as Republican blame game begins",
+      "source_summary": "Democrat Scott Colom is leading Republican incumbent Cindy Hyde-Smith in the southern state; JD Vance pointed to the war in Iran as the ‘obvious’ culprit for Republicans’ lossLive results | How do you feel about the results?Sign up for Breaking News US emailAnalysis: Is this the beginning of the end for Trump?Nancy Pelosi has issued a statement after Connie Chan conceded in the race to fill the former speaker’s vacant seat, congratulating Democrat Scott Wiener on his election to the Congress.Chan – also a Democrat and Pelosi’s chosen candidate – said she had no clear path to victory, despite t",
+      "language": "en",
+      "title": "Американські проміжні вибори 2026 р.: Демократи дивляться на історичне розстроєння в гонках Сенат Міссісіпі, коли республіканці починають гратися з обвинуваченнями.",
+      "summary": "Демократ Скотт Голгост очолив республіканський співробітник Синді Гай-Сміт у південному штаті; JD Vance вказує на війну в Ірані, як \"Обхід\" означає для республіканців \"програшує програш,\" що ви відчуваєте про результати? Присвоювання для \"Пустінки Новин США mailAnalix: чи є це початком кінця Трамп? Norce Plosi\" виступила заява після того, як Конні Шанд помер у перегонах, щоб заповнити колишній промовець незаслабний сидіння, moataction Stove Wion Weener на виборах до Конгресу.Chan ♫ Cohan також демократ і Plosis selected кандидат на перемогу, вона незважаючи на те, що вона не має чіткого шляху до перемоги, незважаючи на те, що",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "b1a7a3701a9805643774": {
+      "source_title": "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
+      "source_summary": "Wong, 30, is among hundreds of Hongkongers detained under the controversial national security law.",
+      "language": "en",
+      "title": "Джошуа Вонг, лицо протестов за промократию Гонконга, в тюрьме 10 лет.",
+      "summary": "30 років віку є між сотнями гонконґконгерів, затриманих спірним законом національної безпеки.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "7bc17561e25bb30812f4": {
+      "source_title": "New Zealand braces for knife-edge election: What you need to know",
+      "source_summary": "Smaller parties hold the key, with major contenders expected to fall short of the majority needed to govern alone.",
+      "language": "en",
+      "title": "Новозеландські підготовки до виборів з ножем: Що вам потрібно знати",
+      "summary": "Ключ має менші сторони, і більшість з них сподівалися, що не зможуть правити самі.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "5de1135e1dc5d2bba532": {
+      "source_title": "Germany news: Deportations on the decline",
+      "source_summary": "Despite a decrease in overall deportations, more people were sent back to Turkey than in previous years. At the same time, Volkswagen is facing a fresh 'Dieselgate' trial. DW has more.",
+      "language": "en",
+      "title": "Новини в Німеччині: Депортація за занепадом населення.",
+      "summary": "Незважаючи на зменшення загального депортації, більше людей було відправлено назад в Туреччину, ніж у попередні роки.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "ae649cccf43a821e30aa": {
+      "source_title": "Hong Kong democracy activist Joshua Wong sentenced to 10 more years for collusion",
+      "source_summary": "Wong rose to prominence during Hong Kong's 2014 protests, known as the Umbrella Movement, and has been in and out of jail since 2017.",
+      "language": "en",
+      "title": "Гонконгський активіст демократії, Джошуа Вонг, засуджений на ще 10 років за зговорення.",
+      "summary": "У 2014 році в Гонконзі протести, відомі як рух Умбрели, стали дуже популярними. З 2017 року їх було ув'язнено й ув'язнено.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "b95d857778a0b57eff25": {
+      "source_title": "France braces for fresh protests in test for Macron's policies",
+      "source_summary": "Hundreds of thousands of protesters are expected to march through French cities and public workers to strike on Thursday, in a fresh test for President Emmanuel Macron after weeks of ​unrest that have rattled ‌his government and dominated the agenda five months ahead of a presidential election.",
+      "language": "en",
+      "title": "Франція підготовляє для нових протестів на перевірку політики Макрона.",
+      "summary": "Сотні тисяч протестуючих марширують по французьких містах і публічних робітниках, щоб виступати в четвер, у новому пробі для президента Еммануеля Макрона після тижнів неспокою, які гризли його уряд і панували на п'ять місяців перед президентськими виборами.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "1e572210b01ea3c4a34e": {
+      "source_title": "Seven decades behind the lens: Ghana's James Barnor receives top photography honour",
+      "source_summary": "From his studio in Accra to the pages of \"Drum\" magazine, Barnor documented everyday life and Black culture during a period of profound social change.",
+      "language": "en",
+      "title": "Сім десятиліть позаду лінзи: Ганський Джеймс Барнор отримує найвищу честь фотографувати.",
+      "summary": "Від студії в Аккрі до сторінок журналу \"Друм,\" Барнор документально підтвердив повсякденне життя і чорну культуру протягом періоду глибоких соціальних змін.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "3b7ab4d61abd7cd9c2f0": {
+      "source_title": "Has India’s democracy failed its Muslims? Jailed scholar triggers debate",
+      "source_summary": "Sharjeel Imam questioned foundational ideas of India's nationalism in interview with The Quint, inspiring heated debate.",
+      "language": "en",
+      "title": "Чи індійська демократія підвела мусульман?",
+      "summary": "Шар'єль Імам поставив під сумнів основні ідеї індійського націоналізму, коли інтерв'ював у \" Квінт ,\" надихаючі дебати.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "8069ec729be7e6b33894": {
+      "source_title": "Democrats won on affordability. Can they deliver it?",
+      "source_summary": "Democrats will hold Congress but President Donald Trump still has the power to block their plans.",
+      "language": "en",
+      "title": "Демократи перемогли на доступності. Чи можуть вони доставити їх?",
+      "summary": "Демократи проводитимуть Конгрес, але президент Дональд Трамп все ще має владу блокувати свої плани.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "9500d08bc6f641d4f317": {
+      "source_title": "Norman conquest castle and Dickens chalet among sites added to heritage at risk register",
+      "source_summary": "William the Conquerer-built Hastings Castle and Swiss-style writing retreat in Kent two of nearly 200 additions to listA castle built by William the Conquerer, a Swiss-style chalet where Charles Dickens wrote and a swathe of fire-blasted moorland are among sites that have been added to Historic England’s heritage at risk register.Almost 200 historic places have been added to the already extensive list, including Hastings Castle in East Sussex, Dickens’ wooden writing retreat in Kent and Fylingdales Moor in North Yorkshire, which was devastated by a wildfire in the summer. Continue reading...",
+      "language": "en",
+      "title": "Завойовник Нормана і шале Діккенсів серед місць, які додані до спадку під загрозою",
+      "summary": "Вільям Завойовник, збудований Замоком Гастінгсом, і швейцарський стиль написання відступили у Кенті два з майже 200 додатків до замку ListA, побудований Вільямом Завойовником, швейцарський в стилі халет, де написав Чарльз Дікенс, і смуга вогнього болота серед місць, які були додані до частини Англії в регістрі. Найбільш 200 історичних місць були додані до вже широкий список, включно з Хастінгсом Каслом у Східному Суссексі, Дікенси дерев'яним записом у Кенті і Філінгдальсі мавра в Північному Йоркширі, який був зруйнований пожежею влітку. Продовжуйте читати ...",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "16462baee70b20824965": {
+      "source_title": "Arab airlines set to record a collective net loss of €3.82 billion in 2026, AACO report reveals",
+      "source_summary": "At its AGM held this week in Doha, the Arab Air Carriers’ Organization raised concerns over EU carbon regulations, as airlines look to boost European connectivity amid ongoing regional uncertainty.",
+      "language": "en",
+      "title": "У 2026 році, згідно з звітом AACO, арабські авіалінії встановили реєстрацію втрати в мережі €3.82 мільярдах.",
+      "summary": "На цьому тижні, проведеному в Доха, Арабська аеростатова організація підготувала зв'язки над регулюванням вуглецю в ЄС, оскільки авіакомпанії дивляться на те, як сприяти європейському зв'язку серед постійної регіональної нестабільності.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "a0e8e64259a531a292a2": {
+      "source_title": "Russia, China may be more aggressive if they feel Trump is on 'his way out': Brookings",
+      "source_summary": "Russia and China may be more aggressive if they feel that U.S. President Donald Trump is on \"his way out\" after the Democratic Party flipped the midterms.",
+      "language": "en",
+      "title": "Росія, Китай може бути агресивнішим, якщо вони вважають, що Трамп йде з країни.",
+      "summary": "Росія та Китай можуть бути агресивнішими, якщо вважатимуть, що президент США Дональд Трамп \"вихід\" після того, як Демократична партія перевершила проміжні.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "989be9476c1dd6d52c9a": {
+      "source_title": "Why do sausage rolls and veterinary fees vary in price across London?",
+      "source_summary": "Location is not just the only factor on why prices differ across London, as Anna O'Neill finds out.",
+      "language": "en",
+      "title": "Чому колоски з ковбас і ветеринарні платіжи різняться в ціні по всьому Лондоні?",
+      "summary": "Місце розташування - це не лише єдиний фактор, чому ціни різняться по всій Лондоні, про що дізнається Анна О'Ніл.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "df68eca5a6fb71a5c7e6": {
+      "source_title": "Food prices in Europe: Where are grocery costs rising fastest?",
+      "source_summary": "Food price rises in Europe have been modest this year, but fresh produce is getting pricier, with prices up 8% in France and supply disruptions leaving shelves empty in southern Italy.",
+      "language": "en",
+      "title": "У Європі ціни на продукти харчування зростають найшвидше.",
+      "summary": "Цього року харчові ціни в Європі були скромними, але свіжі продукти стають прибутками, коли ціни у Франції зростають на 8%, а полички на півдні Італії залишаються порожніми.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "c9f8048fbff4f88e26d8": {
+      "source_title": "Israel’s opposition slams ‘toxic Netanyahu’ after Democrats win US Congress",
+      "source_summary": "Netanyahu's rivals say US midterm results show Israel 'cannot afford' to have the prime minister remain in office.",
+      "language": "en",
+      "title": "Ізраель протистоїть після того, як демократи виграють Конгрес США.",
+      "summary": "Соперники Нетаньягу кажуть, що проміжні результати США показують, що Ізраїль 'не може дозволити собі, щоб прем'єр-міністр залишався в посаді.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "dea3d444261ce3eb5997": {
+      "source_title": "Shares advance after Wall Street rally following US midterm elections",
+      "source_summary": "Ahead of the European markets opening, Asian shares mostly gained on Thursday after US stocks rallied following the midterm elections, with the Dow Jones Industrial Average jumping more than 3% after President Donald Trump’s party lost its sole control of Washington.",
+      "language": "en",
+      "title": "Акції відбуваються після мітингу на Волл-стріт після проміжних виборів США.",
+      "summary": "Напередодні відкриття європейських ринків, азіатська частка отримала переважно у четвер після закінчення проміжних виборів США після виборів \"Доу Джонса промислового Середньостатистичного\" стрибок більше ніж 3% після того, як президент Дональд Тьмпс\" втратив свій єдиний контроль над Вашингтоном.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "e257b792aa5cf18484f7": {
+      "source_title": "Hong Kong activist Joshua Wong sentenced to 10 years in prison",
+      "source_summary": "Wong was sentenced for his second conviction under a Beijing-imposed national security law, in a case that critics say reflects the crackdown on the city's once-thriving pro-democracy movement.",
+      "language": "en",
+      "title": "Гонконгський активіст Джошуа Вонг засуджений на 10 років ув'язнення.",
+      "summary": "Вон був засуджений за його друге переконання за законами про безпеку Пекіна, в справі, що критики кажуть, відображає розпад колись-прийнятливого продемократичного руху міста.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "ab6227946c676582cb27": {
+      "source_title": "Republican blame game begins as Democrat’s Mississippi lead grows – as it happened",
+      "source_summary": "This blog has now closed – our live US midterms results coverage continues hereWall Street surged at the open, after Democrats scored historic victories in midterm elections and secured control of US Congress.The Dow Jones rose 2%, while the tech-heavy Nasdaq and the benchmark S&P 500 both gained more than 1%. That’s quite a reversal: Overnight, stock futures fell sharply as investors worried about the prospect of tougher regulation of the AI sector and the impact on economic growth. Continue reading...",
+      "language": "en",
+      "title": "Республіканська гра \"виключає\" починається з демократа Міссісіпі свинець, що починається",
+      "summary": "Цей блог вже закрився, і в середині наших останніх виборчих виборів Сполучені Штати Америки, як і раніше, проходять трансляційні дослідження, після того, як демократи набрали історичні перемоги на проміжних виборах і захищений контроль над конгресом США. Дов Джонс піднявся на 2%, а технічний проект Nasdaq і шахрая S&P 500 отримали більше 1%. Це означає, що майбутнє акцій різко зменшилося, оскільки інвестори почали хвилюватися про більш інтенсивне регулювання сектора AI і вплив на економічне зростання.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "000b54c4acdba0b3068a": {
+      "source_title": "Melania Trump to host Ukrainian, Russian officials at White House",
+      "source_summary": "",
+      "language": "en",
+      "title": "Меланія Трамп до української влади Білого дому.",
+      "summary": "",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "e69c427b4c95bcffca31": {
+      "source_title": "A Trump Reckoning",
+      "source_summary": "The results from the U.S. midterm elections could be the beginning of the end of the Trump era.",
+      "language": "en",
+      "title": "Перешкода",
+      "summary": "Результати проміжних виборів США можуть бути початком кінця ери Трамп.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "771c66e14c9589434ddc": {
+      "source_title": "Adam Driver Says ‘The Ship Has Sailed’ on ‘The Hunt for Ben Solo’ and He’s Done Playing Kylo Ren: ‘It’s Over’",
+      "source_summary": "Bad news for “Star Wars” fans: Adam Driver is squashing any possibility of returning as Kylo Ren to the galaxy. On a recent episode of “The Rich Eisen Show,” Eisen asked Driver if he thought he’d ever play the villain in the franchise again. The “Girls” actor responded: ‘Yeah, it’s over… No more ‘Star Wars.’” […]",
+      "language": "en",
+      "title": "Адам Сход каже: \"Страждання Бена Соло і він готовий грати Кіло Рен.\"",
+      "summary": "\"Хіба новина\" для \"Война\": Адам Водій придушує будь-яку можливість повернення до Галактики, як Кило Рен.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "8cebe3370bc1c94f0708": {
+      "source_title": "Block 10: new German film brings Auschwitz experiments on women to the screen",
+      "source_summary": "A little-known Auschwitz block where hundreds of Jewish women were used as test subjects is now a film by Berlin producer Alice Brauner, who tells Euronews of tearful shoots and renewed anger.",
+      "language": "en",
+      "title": "Блок 10: новий німецький фільм викликає експерименти з Аушвіц на жінок на екрані.",
+      "summary": "маловідомий квартал Освенціма, де сотні єврейських жінок використовувалися як тест-піддослідні жінки, тепер є фільм Берліна продюсера Еліс Браунер, який повідомляє Євронові про сльози і відновлений гнів.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "eaec7ae33b7e3dc3d5ba": {
+      "source_title": "How to find a job in the age of AI",
+      "source_summary": "Artificial intelligence is fundamentally reshaping Europe’s job market. The Commission is hoping to do something about that. Today on the show, Zoya Sheftalovich and Sarah Wheaton discuss the unveiling of Commissioner Roxana Mînzatu’s Education and Skills Package. In it, the EU executive sets out plans to boost vocational education and training for jobs that require […]",
+      "language": "en",
+      "title": "Як знайти роботу в вік комп'ютера",
+      "summary": "Сьогодні на шоу \"Зоя Шефтальович\" і Сара Пеллон обговорюють урочистість комісара Роксата Мсату\" \"Пакет освіти та навичок ЄС\"",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "635725dec371abfe1ebe": {
+      "source_title": "Indian benchmarks near three-month highs as oil slides after US Democratic win - Reuters",
+      "source_summary": "Indian benchmarks near three-month highs as oil slides after US Democratic win Reuters",
+      "language": "en",
+      "title": "Індійські лавонні марки біля трьохмісячних висот на нафтові слайди після перемоги Демократичного Рейтера.",
+      "summary": "Індійські лавонні марки біля трьохмісячних висот на нафтові слайди після того, як Демократичний Рейтер США виграв",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "827ddf4ed1aa58fe2b09": {
+      "source_title": "‘Bring it on’: Pauline Hanson to appeal Mehreen Faruqi racial discrimination ruling in high court",
+      "source_summary": "One Nation leader granted special leave to appeal after full federal court earlier this year agreed Hanson portrayed Faruqi as a ‘second-class citizen’Get our daily political email, free app or daily news podcastAustralia’s high court has agreed to hear Pauline Hanson’s appeal against a ruling that she engaged in racial discrimination against Mehreen Faruqi when she told the Greens senator to “pack your bags and piss off back to Pakistan”.The One Nation leader was granted special leave to appeal on Thursday after the full federal court earlier this year unanimously upheld a 2024 decision. Cont",
+      "language": "en",
+      "title": "Пауліна Гансон, щоб подати апеляцію до Мехрін Фарукі расова дискримінація, що діє у верховному суді.",
+      "summary": "Один лідер нашої організації дав спеціальний відхід на апеляцію після повного федерального суду на початку цього року погодився з тим, що Гансон зображує Фарукі в якості другої половини - десятої ланки громадянства: отримати нашу політичну пошту, безкоштовну програму або щоденну рекламу новин Австралійський суд погодився почути промову Полін Гансоні проти рішення, яке вона вступила у расову дискримінацію проти Мехен Фарукі, коли вона сказала Зеленому сенатору забрати ваші сумки і відлити назад до Пакистану. Один лідер нації отримав особливу апеляцію після цілого федерального суду на початку цього року, стверджуючи рішення 2024 року.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "f4837bd7d15c478e0376": {
+      "source_title": "What teeth from a centuries-old cemetery can teach us about climate shocks and disease",
+      "source_summary": "Scientists say that climate shocks may have been ‘overlooked’ when researching certain diseases in the Industrial Revolution.",
+      "language": "en",
+      "title": "Чого зуби з багатостолітнього кладовища можуть навчити нас про кліматичні шоки та хвороби",
+      "summary": "Науковці кажуть, що кліматичні удари могли відбуватися, коли досліджували деякі хвороби у промисловій революції.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "b2ba26db9c78c75c97c5": {
+      "source_title": "France braces for fresh protests as Macron seeks to prevent repeat of October unrest - Reuters",
+      "source_summary": "France braces for fresh protests as Macron seeks to prevent repeat of October unrest Reuters",
+      "language": "en",
+      "title": "Франція підготовляє підготовчі дії до нових протестів, щоб запобігти повторним заворушенням у жовтні - Reuters",
+      "summary": "Франція підготовляє підготовчі дії до нових протестів, коли макрон намагається запобігти повторенню Жовтневого неспокою Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "da3bb5ce8a1a3360994e": {
+      "source_title": "First, France Had Riots and Protests. Now It’s Bracing for a General Strike.",
+      "source_summary": "More than 220 demonstrations are expected to take place across the country on Thursday, escalating weeks of protests against the rising cost of living.",
+      "language": "en",
+      "title": "По-перше, у Франції були кроки і тести.",
+      "summary": "Очікується, що в четвер по всій країні відбуватиметься понад 220 демонстрацій, а це посилить кількість протестів проти зростання вартості прожитку.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "b125b4e71768f97facfc": {
+      "source_title": "The New Zealand Election That Could ‘Flip the Table’",
+      "source_summary": "Support for the major parties — led by two men called Chris — is cratering, thanks to dissatisfaction with the economy. Minor parties stand to benefit from a desire among voters for change.",
+      "language": "en",
+      "title": "Новозеландська ельфа, що могла повільнити Таблицю",
+      "summary": "Підтримка головних партій ⇩ веде двох чоловіків, які називаються Кріс ⇩, що йдуть вперед, дякуючи невдоволенню з економікою.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "8efd534fff5b81381234": {
+      "source_title": "Voters Are Turning Out in Droves to Cut Autocrats Down to Size",
+      "source_summary": "In country after country stricken by democratic decay, overwhelming turnout in elections is making a difference.",
+      "language": "en",
+      "title": "Голоси виходять у драйв, щоб відрізати автомобілі до розмірів",
+      "summary": "У країні за країною, уражена демократичним занепадом, надзвичайні вибори роблять різницю.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "806fd4811804d7b24b40": {
+      "source_title": "UK found to be ‘dangerously’ reliant on China for critical minerals needed for defence and AI",
+      "source_summary": "Delivering net zero also at risk, say MPs as they call for centralised policy and funding for mines and diversification The UK is “dangerously” dependent on China for critical raw materials needed for the military, renewable energy infrastructure and AI, a parliamentary investigation has found.MPs on the business select committee called for an urgent centralised policy and the creation of a “critical minerals finance facility” to help fund rare earth and other critical mineral mines, and deploy grants, equity and debt to accelerate a diversification programme. Continue reading...",
+      "language": "en",
+      "title": "Великобританія, яку виявили, була правдаз ризикуючим, лежить на Китаї для критичних мінералів, необхідних для оборони та ШІ.",
+      "summary": "Передаючи чистий нуль також ризикує, скажімо, MPs, як вони називають центральною політикою і фінансуванням для мін і диверсифікації Великобританія є ⇩Argessously залежно від Китаю для критичних сировини матеріалів, необхідних для військової, відновленої енергетичної інфраструктури і AI, було знайдено парламентське розслідування.MPs on the business operation called for contaged policy and the application metarcial tagsions collances epponsions Comment",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "ed5fb33ca19b23879468": {
+      "source_title": "Protesters to join nationwide march as France braces for day of strike action",
+      "source_summary": "Hospital workers, air traffic and rail staff expected to join strikes amid renewed protests over education and rising living costsHundreds of thousands are expected to march in demonstrations across France as trade unions call for a nationwide strike expected to extend to hospital workers, air traffic control, the post office, teachers and rail staff.President Emmanuel Macron’s final months in office continue to be marred by domestic crises, as high school students protesting over poor teaching conditions have been joined by workers in weekly protests over the cost of living. Meanwhile, the go",
+      "language": "en",
+      "title": "Протести приєднуються до загальнонаціонального маршу, коли Франція підготується до дня страйку.",
+      "summary": "Лікарські робітники, авіапрофспілки та залізничні працівники сподівалися, що приєднаються до страйків серед відновлених протестів щодо освіти та підвищення життєвих витрат тисячів марширують у демонстраціях по Франції, як то торговельні профспілки, що вимагають загальнонаціонального страйку, щоб поширюватися до працівників лікарень, контролю повітряного руху, пошти, вчителів і залізничних працівників.Презентент Еммануеля Макроса останні місяці в офісі продовжують затьмарюватися внутрішньою кризою, так як студенти середньої школи протестують проти бідних умов навчання, яких долучаються в тижневих протестах за коштом життя.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "f8ab01eadf8a55105f20": {
+      "source_title": "Historians say King Verica persuaded Rome to invade Britain. But could Verica actually have been a queen?",
+      "source_summary": "Controversial theory that Verica, who incited Emperor Claudius’s AD43 landing, was a woman could put a new spin on British history if trueIt was a moment that changed the course of British history: in AD43, Roman troops under the emperor Claudius landed in Kent. Now, an archaeologist has claimed the British ruler who persuaded Claudius to invade was not a king but a queen.The controversial conclusion, made by Dr Miles Russell, the director of archaeological fieldwork at Bournemouth University, could throw new light on Britain’s history. Continue reading...",
+      "language": "en",
+      "title": "Історики кажуть, що король Веріка переконав Рим вторгтися в Британію, але чи справді Веріка була королевою?",
+      "summary": "Теоретично, що Веріка, який підбурив імператора Клавдія AD43, була жінкою, яка могла зробити новий поворот на історію Британії, якщо це був момент, що змінив хід історії Британії: в AD43, римське військо під імператором Клавдія приземлився в Кенті.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "c97053518751d9be92a5": {
+      "source_title": "Nintendo’s designers strove for ‘elegance’ when remaking Ocarina of Time",
+      "source_summary": "The Ocarina of Time remake on the Switch 2 smashes together the past and present. The game retains much of the original N64 experience while updating it with modern graphics and gameplay that make it feel contemporary. But the mingling of time periods also extends to the development team. While Ocarina's remake was led by […]",
+      "language": "en",
+      "title": "Дизайнери Нінтенда, що працюють на \"Елегенсі,\" коли реанімують \"Окарину\" часу.",
+      "summary": "Ocarina Часовий переробка у Switch 2 зіткнеться з минулим і теперішнім. Гра зберігає багато з оригінального досвіду N64 з оновленням її за допомогою сучасної графіки і гри, що робить його сучасним. Але часовий проміжок також поширюється на команду розробки. Хоча реконструкція Ocarina була керована [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "f846b630bec3a503daeb": {
+      "source_title": "Who May Overrule the Agent? Evidence-Gated Authority in LLM Review Institutions",
+      "source_summary": "arXiv:2611.05390v1 Announce Type: new Abstract: Multi-agent language-model systems often add a reviewer to improve an upstream agent's decision. Yet a reviewer can both repair errors and replace decisions that were already correct. We study this as a problem of institutional jurisdiction: conditional on the same proposal, task information, model, and review output, when is the reviewer authorized to make its recommendation binding? We compare broad override authority with an evidence gate that permits replacement only after the reviewer produces a mechanically valid record of a binding-constra",
+      "language": "en",
+      "title": "Хто може керувати агентом?",
+      "summary": "arXiv: 2611. 05390v1 Освітній тип: новий Абстрагований тип: багатоагентної мовної системи часто додають рецензент для покращення рішення агента з випередження. Але рецензент може виправляти помилки і приймати заміну, які вже були правильними. Ми вивчаємо це як проблему інституційної юрисдиції: умову щодо тієї самої пропозиції, інформації про завдання, моделі і переглянути вивід, коли користувач уповноважений робити рекомендацію? Ми порівнюємо загальний контроль за допомогою шлюзу, який дозволяє заміну лише після того, як рецензатор створить механічно коректний запис прив' язки- констра.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "fb43f0f2d5d92507744d": {
+      "source_title": "Agent Harness Awareness: Turning Verified Telemetry into Operational Control for Tool-Using Agents",
+      "source_summary": "arXiv:2611.05391v1 Announce Type: new Abstract: Tool descriptions tell an agent what an action can do, but they do not necessarily reveal whether that action is healthy or suitable at the moment of use. Execution harnesses often possess this information through monitors, traces, and recent failures while the model choosing the next action does not. We call this gap operational blindness. We introduce Agent Harness Awareness, a trust-separated design in which the host supplies a small, fresh, verified state snapshot before a consequential action while retaining measurement, enforcement, evaluat",
+      "language": "en",
+      "title": "Агент \" Опізнання \": перетворення перевіреної телеметрії в операційне керування для агентів, що працюють за допомогою інструментів",
+      "summary": "arXiv: 2611. 05391v1 Тип оголошення: новий абстрагований тип: описи інструментів повідомляють агенту про те, що́ може зробити дія, але вони не обов' язково виявляють, чи є ця дія здоровою чи придатною на момент використання. Прибори виконання часто мають цю інформацію за допомогою моніторів, слідів і нещодавніх невдач, коли вибір моделі наступної дії не призведе до невдачі. Ми називаємо цей проміжок роботи нерухомою сліпотою. Ми ввели агента Harness Acensess, розділений довірою, у якому вузол постачає невеличкий, свіжий, перевірений стан до виконання певної дії з збереженням вимірювання, керування, оцінки, оцінки",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "e7906e0264c0efc13797": {
+      "source_title": "Uncertainty-Aware Resource Orchestration for Agentic AI Systems",
+      "source_summary": "arXiv:2611.05392v1 Announce Type: new Abstract: Agentic artificial intelligence (AI) systems powered by large language models (LLMs) execute as autonomous multi-step pipelines that dynamically invoke tools, integrate observations into memory, and iterate until a task is resolved or a resource budget is exhausted. Unlike classical workflows with fixed graphs, the aggregate compute, bandwidth, and end-to-end latency demands of such pipelines are unknown at dispatch time: they emerge at runtime from intermediate observations and stochastic token sampling, yielding heavy-tailed, multi-modal random",
+      "language": "en",
+      "title": "Оркестрова обробка ресурсів Aty- Achestation для системи Agentic AI",
+      "summary": "arXiv: 2611.05392v1 Освітній тип: новий Абстрагований тип: агентичний штучний інтелект (AI) запущений великими моделями мов (LM) виконує як автономний багатокроковий канал, який динамічно викликає інструменти, інтегрує спостереження у пам' ять, і синхронізується до того часу, доки завдання не буде вичерпано або бюджет ресурсів. На відміну від класичних робочих даних з фіксованими графами, сукупного обчислення, пропускного зв' язку і кінцевих вимог таких трубо- годинних трубок, вони з' являються на час очікування від проміжних спостережень і стохастичних позначень, спростування багато- modal випадкових даних",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "abdb707b0a55aeaa8cbd": {
+      "source_title": "A Feasibility Condition for Confidence-Gated Tiered LLM Inference",
+      "source_summary": "arXiv:2611.05394v1 Announce Type: new Abstract: Tiered inference distributes large language model computation across a hierarchy of devices, from on-device and edge hardware to the datacenter, and is increasingly offered as the route to cheaper, lower-latency, and more private serving. Most such systems orchestrate frozen model checkpoints, and most decide what to resolve locally and what to escalate using a confidence signal produced by a forward-deployed model. We give a closed-form condition for when no threshold on that signal makes a tiered cascade worthwhile relative to sending every que",
+      "language": "en",
+      "title": "Стан надійності на користь забезпеченого ТИХОГО ЛІМА",
+      "summary": "ARXiv: 2611. 053v1 Освітній тип: новий абстрагований тип: Toured Exputive розподіляє велику модель мови ієрархією пристроїв, від мережі і апаратного обладнання до центра даних, і дедалі частіше пропонується як маршрут до дешевшої, низької і конфіденційнішої моделі. Більшість систем оркестрування замороженої моделі визначає, що слід вирішити локально, і що слід зробити для покращення використання сигналу довіри, створеної заздалегідью моделлю. Ми надаємо умову закриті форми, якщо не порог на цьому сигналу не буде призначено для того, щоб прив' язки сигналів були варті до будь- якого з варіантів.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "f6365caf171c45c9ce2e": {
+      "source_title": "Towards Efficient Whole Page Ranking with One-Pass Inference",
+      "source_summary": "arXiv:2611.05542v1 Announce Type: new Abstract: Whole-page ranking jointly optimizes advertisements and organic content to balance business outcomes and user engagement under complex layout and business constraints. Existing non-autoregressive (NAR) approaches enable efficient page generation but typically score candidate items independently of previously selected items, limiting their ability to capture order-dependent interactions. Autoregressive (AR) methods address this limitation through sequential conditioning, but incur substantial inference overhead that challenges large-scale deployme",
+      "language": "en",
+      "title": "До ощадливої цілі сторінки прямуючи з однопрохідною негідністю",
+      "summary": "arXiv: 2611.055542v1 Оголошення Тип: новий Абстрактний: Клас сторінок разом оптимізовує рекламу і органічний вміст для балансування результатів бізнесу та участі користувача у складних компонуванні та обмеженнях ведення бізнесу. реалізація неавторифікованого (NAR) передбачає ефективне створення сторінок, але зазвичай, оцінку кандидатів незалежно від попередньо вибраних елементів, обмежує їх можливості залучення за порядком взаємодії. Авторегресивні (AR) методи надають перевагу цим обмеженням за допомогою послідовних умов, але не враховують значного підвищення рівня, за допомогою якого виникають великі масштабні розв' язання.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "557400751b011523e6e1": {
+      "source_title": "Attributing Agent Failures to Their History Needs an Executed Counterfactual: Toward a Reporting Standard",
+      "source_summary": "arXiv:2611.05650v1 Announce Type: new Abstract: Published explanations of why long-horizon agents fail are commonly taxonomies labeled over completed trajectories: a judge reads a transcript and names the failure. We argue that a claim attributing an agent's behavior to its history should carry intervention-verified evidence, per instance or via a validated estimator: freeze an executable mid-trajectory state, alter only the history the agent sees, and continue - executed rather than inferred from the transcript, at a state whose restoration has been measured, with a replay certificate matched",
+      "language": "en",
+      "title": "Посилання агентів - невдалих у своїй історії потребує виконання контракційних заходів: До стандарту звітування",
+      "summary": "arXiv: 2611. 05650v1 Оголошення Типу помилки: нова абстракція: опубліковані пояснення того, чому довгогоризонні агенти зазнають невдачі, зазвичай, систематики над завершеними траєкторіями: суддя читає протокол і називає помилки. Ми стверджуємо, що заява, пов' язана з поведінкою агента, повинна містити свідчення, дані щодо його історії, за допомогою одного прикладу або за допомогою перевіреного естімулятора: заморозити рівень виконання програми середнього рівня, змінити лише історію, яку бачить агент, і продовжувати - виконувати, а не вказувати на трансляцію, у стані, де було виміряно повторне відновлення, за допомогою сертифіката, що відповідає імітації.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "8dffc68e1db4116b6cf4": {
+      "source_title": "Quantifying Trait-State Hierarchy in EEG Foundation Model and Signal Processing Embeddings",
+      "source_summary": "arXiv:2611.05652v1 Announce Type: new Abstract: Electroencephalography (EEG) measures brain activity through recording electrical potentials of the scalp. EEG recordings capture two distinct sets of characteristics in the signal: (1) \\emph{Traits} -- information that remains relatively constant over the course of a recording session, such as subject identity, age, and sex; (2) \\emph{States} -- signatures that encode responses to external stimuli, including visual, auditory, and motor information. There is limited understanding of how different EEG modeling features (signal processing and found",
+      "language": "en",
+      "title": "Приваблива ієрархія трайт-саму в моделі фундаменту EEG і сигнальних вбудовуваннях",
+      "summary": "arXiv: 2611.05652v1 Освітній тип: новий Абстрактний: Електроенцефалографія (EEG) вимірює діяльність мозку за допомогою запису електричних потенціалів скальпу. EEG відображає два різні набори характеристик сигналу: (1)\\ emph{ Trarits} - інформація, яка відносно стала протягом сеансу запису, зокрема тематичної ідентичності, віку і статі; (2)\\ emph{ Stats} - підписи, які кодують відповіді на зовнішні подразники, зокрема візуальні, слухові та моторові. Обмежені відомості щодо того, наскільки різні можливості EEG- моделі (обробка підпису і знайдена і знайдена)",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "9fdb6f74ae483d9b2394": {
+      "source_title": "Grounded but Not Immune: Confirmation Bias in Agent-as-a-judge",
+      "source_summary": "arXiv:2611.05662v1 Announce Type: new Abstract: Evaluating open-ended agent tasks increasingly falls to an Agent-as-a-Judge: an evaluator handed tools and the agent's full trajectory so it can verify a result against the environment. The premise is that a judge that gathers its own evidence should be grounded by it. We show that this grounding does not immunize the judge against confirmation bias: a single false pre-screening note, attributed to an authority and carrying no evidential bearing on the correct verdict, overturns up to 40% of a tool-using judge's correct verdicts across four judge",
+      "language": "en",
+      "title": "Насаджений, але не імунізований: підтвердження Біас у агенті, як-а-судді",
+      "summary": "arXiv: 2611.05662v1 Освітній тип: новий Абстрактний тип: Обчислення завдань з відкритим доступом чимраз більше падає на агента, що передає інструменти з аналізом і повну траєкторію агента, щоб він міг перевірити результат проти навколишнього середовища. Основним є те, що суддя, який збирає власні докази, повинен бути підкорений цим документом. Ми покажемо, що це основування не заміщає судді проти підтвердження упередження: єдина помилкова попередня нота, яка приписується владі і не має явного впливу на правильний вирок, спрямовує до 40% рішень, що стосуються прав судді, який використовує інструмент для перевірки.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "2ce9d5a5f83ede379aeb": {
+      "source_title": "From Type to Token: Petri Nets, Individual Token Philosophy, and Individualized Causal Effects",
+      "source_summary": "arXiv:2611.05703v1 Announce Type: new Abstract: Structural Causal Models and Bayesian Networks are the dominant framework for representing causal relations. They are fundamentally type-level formalisms since their estimands, Average Treatment Effects and Conditional Average Treatment Effects, are properties of distributions over populations, not of individual units. When treatment effects exhibit unbounded heterogeneity, these estimands collapse. What persists is the structural, token-level core of causation. We argue that Petri Nets under the Individual Token Philosophy are the natural repres",
+      "language": "en",
+      "title": "Від типу до Токен: Petri Nets, Personal Tink Physia, and Personal Cusal Ефекти",
+      "summary": "arXiv: 2611.05703v1 Освітній тип: новий Абстрактний тип: Structument Causal Modes і Balesian Networks є основною оболонкою для представлення зв' язку з причинами. Вони є фундаментально формалізмом типу, починаючи з їх естемандських ефектів, Середньостатистичних Ефектів і Середньостатистичних ефектів, є властивостями розподілів над популяціями, а не окремими одиницями виміру. Якщо ефекти лікування показують необмежені гетероги, ці естемендові об' єкти. Те, що залишається, є структурним ядром калусу. Ми доведемо, що Peri Nets під особистою філософією Токенів є природними регрегами.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "91a344d41c03c7c96de7": {
+      "source_title": "Agents, Think Only When it Helps",
+      "source_summary": "arXiv:2611.05709v1 Announce Type: new Abstract: LLM agent distillation transfers agentic capabilities to student models by training on complete teacher trajectories that typically interleave thoughts and actions. We question how critical thought supervision is for agents' ultimate action performance. To answer this, we disentangle their impacts by independently perturbing teacher thoughts and actions during distillation. On widely adopted agent benchmarks across model scales, altering or discarding thoughts has little effect on student performance. We find, however, that thought supervision be",
+      "language": "en",
+      "title": "Агенти, думайте тільки тоді, коли це допомагає",
+      "summary": "ARXiv: 2611.05709v1 Освітній тип: новий Абстрактний тип: нова абстракція агентів LLM визначає потенційні можливості учнів- моделей шляхом тренування на повноцінні теми вчителя, які зазвичай міжконтракціями і діями. Ми сумніваємося щодо того, наскільки критичним є спостереження за фінальними діями агентів. Щоб відповісти на це питання, ми розшифруємо їх вплив незалежно від того, що турбує вчителів і дії під час дистиляції. На широко прийнятому місці на лавках агентів, які змінюють або відхиджують думки, мало впливає на швидкодію студента. Але, ми бачимо, що ця думка не впливає на результат навчання. Але, ми вважаємо, що, ми вважаємо, що слід стежити за тим, щоб за тим, як інші учні працюють,",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "eaa34d56bdf5502efa8f": {
+      "source_title": "Self-Supervised Pretraining for Label-Efficient Facial Expression Recognition using Smart Glasses",
+      "source_summary": "arXiv:2611.05711v1 Announce Type: new Abstract: Facial Expression Recognition (FER) on optomyographic (OMG) smart glasses such as OCOsense enables privacy-preserving, camera-free affect sensing for health and well-being. Most FER systems are fully supervised, i.e., they rely either on hand-crafted expert features with classical machine learning, or on end-to-end deep models trained from labelled data. Both depend on large quantities of labelled expressions, which are costly to collect and limit deployment in real-world, personalized settings. We investigate Self-Supervised Learning (SSL) as a",
+      "language": "en",
+      "title": "Самоперевірка Вправа для розпізнавання обрисів з використанням кмітливих окулярів",
+      "summary": "ARXiv: 2611.05711v1 Оголошення Типу: новий Абстрагічний вираз: Визнання об' єктів (FER) на користь кмітливих окулярів, таких як OCOsense, надає змогу зберігати конфіденційність, без фотоапаратів впливати на сприйняття здоров' я та благополуччя. Більшість систем FER повністю контролюються, тобто, вони покладаються на можливості майстра з ручним створенням за допомогою класичного машинного навчання, або на вбудовані до кінцевого рівня моделі, які тренуються з написаними даними. Обидві ці системи залежать від великої кількості міток, які дорого коштують для збирання і обмеження в реальному світі, особистих параметрів. Ми дослідимо навчання у Sel- SL (SL) як багато об' єм даних, які об' єм, що коштує для збирання і обмеження їх використання у реальному світі, і особистих параметрах.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "22347c8e791c3d02b597": {
+      "source_title": "PersonaCodeBench: Evaluating Coding Agents in Persona-driven Human-Interactive Sessions",
+      "source_summary": "arXiv:2611.05739v1 Announce Type: new Abstract: Coding agents must deliver correct software while respecting users' expertise, preferences, and working conditions. Existing benchmarks increasingly incorporate interaction, yet personalized requirement fulfillment remains underexplored. We introduce PersonaCodeBench, which turns user characteristics into verifiable obligations in persona-driven multi-turn coding sessions. Our persona pool spans roles, technical abilities, interaction preferences, and practical constraints, yielding task-grounded evolved requirements for implementation, permissio",
+      "language": "en",
+      "title": "MeperaCodeBench: Оцінка агентів, що працюють за комерцією у Special- drived Human- interactive Sesses",
+      "summary": "arXiv: 2611.05739v1 Тип оголошення: новий Абстрактний тип: агенти кодерного забезпечення повинні постачати правильне програмне забезпечення з повагою до досвіду користувачів, у уподобаннях та умов роботи. Існуючі таблиці, дедалі більше включені взаємодії, але індивідуальне виконання вимог залишається недооціненим. Ми ввели PersonaCodeBench, що перетворює характеристики користувача на можливі для перевірки зобов' язання у багатофункціональних сеансах кодування. Наші особисті можливості для набору інструментів, технічні можливості, переваги взаємодії і практичні обмеження, поступаючі вимоги для виконання завдань, які реалізуються, permissioso",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "50a7e0a8c7c012bc9e46": {
+      "source_title": "Toward a Compositional Knowledge Architecture for a Shared Organizational Cortex",
+      "source_summary": "arXiv:2611.05753v1 Announce Type: new Abstract: Organizations accumulate evidence in conversations, documents, decisions and relationships, but they act on interpretations: judgements assembled from several observations, resting on assumptions, and revised as circumstances change. Existing retrieval, knowledge graphs and agent memory keep the records and lose the interpretation. We propose a four-layer architecture, Signals, Domains, Claims and Dimensions, in which interpretations persist with their justifications and standing, a truth-maintenance network revises that standing as evidence chan",
+      "language": "en",
+      "title": "До архітектури об'єднання знань для спільної організації Cortex",
+      "summary": "arXiv: 2611.05753v1 Оголошення Тип: новий Абстрактний: Організації збирають свідчення у розмовах, документах, рішеннях та зв' язкух, але вони діють над інтерпретаціями: судження, зібрані за декількома спостереженнями, що базуються на припущеннях і зберігаються у зміні обставин. Існування даних, графіки знань і пам' яті агентів зберігають записи і втрачають і і тлумачення. Ми пропонуємо чотиришарову архітектуру, сигнали, домени, декларації і виміри, в яких інтерпретації залишаються з їх виправданнями і положенням, мережа з поширенням істин, які є доказами того, що вони є магічними",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "4082cc2a3434c913722e": {
+      "source_title": "RECAP: Context-Aware Prediction Recycling with Request-Local and Persistent Memories for Multimodal Speculative Decoding",
+      "source_summary": "arXiv:2611.05894v1 Announce Type: new Abstract: Recycling a target model's own predictions offers a training-free source of proposals for speculative decoding. In vision-language models, however, existing recycling indexes predictions by the last token alone, conflating predictions computed under different images and prefixes; we find that such reuse fails most often at image-sensitive decoding states. Longer keys reduce this aliasing but match fewer states. We introduce \\method, which stores target predictions under one-, two-, and three-token keys: contextual memories live only for the curre",
+      "language": "en",
+      "title": "RECAP: Передбачення щодо перекодування контексту з запитом- Local і постійними спогадами для багатомодельного спектрального декодування",
+      "summary": "arXiv: 2611.05894v1 Освітній тип: новий Абстрактний: Перерозподіл власних прогнозів цільової моделі пропонує вам безкоштовне джерело пропозицій для спекулятивного декодування. У моделях мови зору, що вже існує, індексує прогнози на основі останніх позначень, Обчислення прогнозів, обчислених під різними зображеннями і префіксами; ми бачимо, що таке повторне використання найчастіше зазнає невдачі у станах декодування зображення. Довші клавіші зменшують ці псевдоніми, але зменшують кількість станів. Ми ввели\\ method, які зберігають прогнози призначення під одним, двома і три- значними ключами: контекстні спогади стосуються лише стану curre",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "11c2913633921112536b": {
+      "source_title": "EchoKV: Self-Corrective KV Cache Eviction via Iterative Query Feedback",
+      "source_summary": "arXiv:2611.05903v1 Announce Type: new Abstract: KV cache eviction is not merely a token-ranking problem: the workspace retained for generating eviction queries also determines the quality of those queries. Consequently, an early workspace error can distort later query observations and reinforce an incorrect final eviction decision, particularly when evidence is dispersed across a long context. We present EchoKV, which discovers and addresses this failure mode with iterative correction. It initializes a feedback-compatible bootstrap workspace using proposals at future decode positions, then use",
+      "language": "en",
+      "title": "EchoKV: Evypt- Correcative KV Cache Eviction за допомогою ітеративних запитів",
+      "summary": "arXiv: 2611.05903v1 Тип оголошення: новий абстрагований тип: вилучення кешу KV не є просто проблемою з пов' язуванням елементів: робочий простір, який зберігається для створення запитів про виселення, також визначає якість цих запитів. Таким чином, перша помилка робочого простору може спотворити пізніші спостереження за запитами і посилити неправильне остаточне остаточне виселення, особливо, якщо дані розкидані по довгому контексту. У програмі передбачено можливість створення ShoopKV, який визначає і відповідає цьому режиму помилок за допомогою інтерпретації. Таким чином, програма може започаткувати робочий простір зворотного зв' язку за допомогою наступних варіантів декодування, а потім використовувати цю можливість для подальшого використання",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "fa225eaf054ebfa5bfe3": {
+      "source_title": "CHARM+: Cross-Hardware Attention with Re-Merge Multistream Mechanism",
+      "source_summary": "arXiv:2611.05906v1 Announce Type: new Abstract: As sequence lengths continue to grow, distributed attention based on sequence parallel (e.g., Ring-Attention) has become a mainstream solution for large language models (LLMs). Nevertheless, inherent communication dependencies limit computation-communication overlap, reducing GPU utilization. Moreover, in cross-hardware (NUMA or node) architectures, due to imbalanced communication bandwidth, frequent communication synchronization will limit overall performance. Based on these insights, we propose CHARM+, Cross-Hardware Attention with Re-Merge Mul",
+      "language": "en",
+      "title": "CHARM+: Поперечна увага з багатосудинним механізмом",
+      "summary": "arXiv: 2611.05906v1 Тип оголошення: новий абстрагування: У міру збільшення послідовності тривалість показу, розподілена увага на основі паралельної послідовності (наприклад, посилання на кількісний елемент) стала основним рішенням для великих моделей мови (LLM). Незважаючи на це, природні залежності від обміну даними обмежують перекриття, зменшення використання GPU. Крім того, за допомогою програмного забезпечення (NUMA або вузолу) архітектури, які відповідають дисбалансованому пропускному зв' язку, частота синхронізація зв' язку обмежуватиме загальну швидкодію. На основі цих знань, ми пропонуємо програмі CHARM+, Cross- Hardware Authority за допомогою Re- Me- agege Mape",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "703236d03558382b5252": {
+      "source_title": "Graph-Mediated Large Language Model Systems in the Agentic Era: Reasoning, Knowledge, Retrieval, Execution, and Coordination",
+      "source_summary": "arXiv:2611.05953v1 Announce Type: new Abstract: Graphs play an increasingly important role in large language model (LLM) systems, supporting structural reasoning, knowledge grounding, retrieval, and memory. As these systems evolve toward the agentic era, graphs also organize execution dependencies and multi-agent communication, linking intermediate observations and retained information to subsequent decisions. However, understanding their contribution requires distinguishing the function of each graph operation, the component responsible for its computation, and the subsequent use of its outpu",
+      "language": "en",
+      "title": "Графічні моделі Великої мови у ері агентів: Обмірковування, знання, отримання, виконання і координація",
+      "summary": "arXiv: 2611.05953v1 Тип оголошення: новий абстраг: Графіки відіграють все важливішу роль у системах великих мовних моделей (LLM), підтримують структурні міркування, створення знань, отримання даних і пам' яті. У міру того, як ці системи розвиваються у період до ери агентів, графіки також впорядковують залежності виконання і багатоагентне спілкування, з' єднують проміжні спостереження і зберігають інформацію з подальших рішень. Але для розуміння їх внесків потрібні визначення функцій кожної з дій, компонента, відповідальної за їх обчислення, а також подальше використання її вихідного процесора.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "dd8544685ed4cbe92691": {
+      "source_title": "High Potential Individual visa: global universities list 2026 - GOV.UK",
+      "source_summary": "High Potential Individual visa: global universities list 2026 GOV.UK",
+      "language": "en",
+      "title": "Висока індивідуальна віза: глобальний університет, список 2026 - GOV.UK",
+      "summary": "Висока індивідуальна віза: глобальний університет, список 2026 GOV.UK",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "1e818f03558d64d2c63c": {
+      "source_title": "‘An insult to his culture’: Italian chef sacked for not putting pineapple on pizza loses bid to get job back",
+      "source_summary": "Australia’s Fair Work Commission heard that Davide Tamburella was sacked after refusing to use the controversial toppingWith its sea foam-green and white decor, exposed brick columns and “classic Italian dishes” served atop European oak tables, La Costa was billed as an elegant slice of Italy in the urban heart of Queensland, Australia’s sunshine state.“We promise, it’ll only take a moment to realize you’re not in Brisbane anymore, you’ve made it to the Italian Riviera,” the now closed restaurant’s website still reads. Continue reading...",
+      "language": "en",
+      "title": "Італійський кухар мішаний за те, що не поклав ананаса на піццу втрачає право діставати роботу назад.",
+      "summary": "Австралійська комісія \"Working Commission \" чула, що Девіда Тамбуреллу було звільнено після того, як він відмовився використати спірне склепіння з морями, а саме, зелений і білий, викрити цегляні блокові колони і класичні італійські страви, які стали напоказ європейським таємним танцем, Ля Коста була обдарована вишуканим шматком Італії у міському серці Квінсленду, Австралія має намір зробити лише одну мить, щоб зрозуміти, що ви більше не в Брісбені, ви зробили це для італійської Рів'єри, тепер закриті ресторани на веб-сайті, що досі читається.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "60ec3ea9ffe5ee6ac8de": {
+      "source_title": "Zelenskyy hopes Democratic Congress will bring more US help for Ukraine",
+      "source_summary": "EU officials also urge new US Congress to step up pressure on Russia to end the four-and-a-half-year war.",
+      "language": "en",
+      "title": "Зеленський сподівається, що Демократичний конгрес надасть більше допомоги Україні.",
+      "summary": "Адміністрація ЄС також закликає новий Конгрес США припинити чотири з половиною роки війну в Росії.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "988f7496370068ca5f01": {
+      "source_title": "NASA's Swift space telescope plunges back to Earth in fiery demise",
+      "source_summary": "NASA's Swift orbital observatory fell back to Earth after running its mission for more than two decades. A rescue attempt to raise its sinking orbit had earlier failed.",
+      "language": "en",
+      "title": "Свіфтовий космічний телескоп НАСА відступає на Землю у вогняному кар'єрі.",
+      "summary": "Свіфтова орбітальна обсерваторія НАСА повернулася на Землю після того, як розпочала свою місію понад два десятиліття.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "e6fd95505fb2fd89b143": {
+      "source_title": "Serbia arrests police over excessive violence against student protesters",
+      "source_summary": "The police officers are accused of having used excessive force and violence against student protesters during anti-government protests last year.",
+      "language": "en",
+      "title": "Сербія арештовує поліцію за надмірне насильство проти студентів - протестуючих",
+      "summary": "Поліцейських звинувачують у надмірній силі та насильстві проти студентів під час антиурядових протестів минулого року.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "1fce86780a5bd7e16f4a": {
+      "source_title": "Mamdani: ‘it’s morning again in America’ after blue wave",
+      "source_summary": "New York City Mayor Zohran Mamdani urged fellow Democrats to ‘fulfill promises’ after sweeping wins.",
+      "language": "en",
+      "title": "Мамдані: \"Тіті\" знову в Америці після блакитної хвилі.",
+      "summary": "Метр Нью-Йорка Цохран Мамдані заохочував своїх демократів до обговорюваних об'єктів після перемог.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "0cb6a43a3e92516d2e77": {
+      "source_title": "Pound rises to its highest level since the Brexit referendum",
+      "source_summary": "Pound reaches highest level against a basket of currencies since the Brexit referendum a decade ago",
+      "language": "en",
+      "title": "Фунт піднімається до найвищого рівня, оскільки референдум Брексита",
+      "summary": "Фунт досягає найвищого рівня у порівнянні з кошиком валют, оскільки пароплав Брексит десять років тому",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "809152ea57ddb70dc752": {
+      "source_title": "Iran's IRGC says two tankers and tugboat caught fire in Strait of Hormuz - Reuters",
+      "source_summary": "Iran's IRGC says two tankers and tugboat caught fire in Strait of Hormuz Reuters",
+      "language": "en",
+      "title": "Іранська ІРГС каже, що два танкери й буксирний човен загорілись у протоці Гормуз - Рейтер.",
+      "summary": "Іранська ІРГС каже, що два танкери й буксирний човен загорілись у протоці Гормуз Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "ff9be59bea66846678f7": {
+      "source_title": "Brazilian airport torn apart by violent storm",
+      "source_summary": "Dramatic footage captured the moment a powerful tornado struck Chapecó Airport in Santa Catarina, Brazil",
+      "language": "en",
+      "title": "Бразильський аеропорт розривається бурею.",
+      "summary": "У той момент, як потужний торнадо вдарив аеропорт Чапео в Санта - Катаріні (Бразилія), відбулося драматичне відео.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "1ec520925dfaeb5cf80b": {
+      "source_title": "ANC narrowly leads DA in early South Africa municipal election results - Reuters",
+      "source_summary": "ANC narrowly leads DA in early South Africa municipal election results Reuters",
+      "language": "en",
+      "title": "ЗГІДНО з ЧІНГими, це призводить до того, що на початку Південно - Африканської Республіки кількість виборців була лише в центрі муніципальних виборів, а саме: Рейтер.",
+      "summary": "У зв'язку з тим Рейтер повідомляє, що на початку Південно - Африканських виборних виборів ЧПУ майже не було.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "a66f3e60fd2aa5df7d67": {
+      "source_title": "Paraguay bank collapses with half of population’s savings",
+      "source_summary": "Protests have erupted across Paraguay after Ueno Bank was shut down in the middle of the night over a solvency crisis.",
+      "language": "en",
+      "title": "Банк Парагваю зменшується з половиною населення.",
+      "summary": "Після того як унону Бенка було закрито серед ночі через кризу розв'язання проблеми, протести вибухнули через Парагвай.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "24bc74708d1b8cce1b53": {
+      "source_title": "Hong Kong activist Joshua Wong sentenced to ten years in jail",
+      "source_summary": "Hong Kong activist Joshua Wong, who became the global face of Hong Kong’s pro-democracy movement has been sentenced.",
+      "language": "en",
+      "title": "Гонконгський активіст Джошуа Вонг засуджений на десять років ув'язнення.",
+      "summary": "Активісти Гонконгу, Джошуа Вонг, який став глобальним обличчям гонконгських про-демократичних рухів, були засуджені.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "39c786a51ec4aad77822": {
+      "source_title": "Hong Kong pro-democracy activist Joshua Wong sentenced to 10 years in prison in national security case",
+      "source_summary": "Wong, 30, has been imprisoned since 2020 and is the only activist in Hong Kong prosecuted twice under national security lawExclusive: Joshua Wong laments city’s fate from inside maximum security prisonHong Kong activist Joshua Wong has been sentenced to 10 years in prison after earlier pleading guilty to “foreign collusion”, his second conviction under a national security law that critics say has been used to silence political opposition in the city.Wong, who rose to prominence as the teenage face of Hong Kong’s 2014 pro-democracy demonstrations, submitted his guilty plea in September. He had",
+      "language": "en",
+      "title": "Гонконгський про-демократичний активіст Джошуа Вон засуджений на 10 років ув'язнення у справі національної безпеки",
+      "summary": "Wong, 30 було ув'язнено з 2020 року, і це єдиний активіст у Гонконзі, який двічі розглядається за законами національної безпеки: Джошуа Вон у своїй справі, згідно з законом національної безпеки, має долю з в'язниці гонг-активіста Джошуа Вонга, якого засудили до 10 років ув'язнення після того, як він благав винних у ведьмбі 2014, його друге рішення під законом національної безпеки, яке критики, як кажуть, було використано для того, щоб замовчувати політичний опір у місті.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "3b64f162aa5725ead87c": {
+      "source_title": "Beyond crisis management: a new policy agenda for schizophrenia",
+      "source_summary": "POLITICAL ADVERTISEMENT More information here.",
+      "language": "en",
+      "title": "Поза межами управління кризами: нова політика для шизофренії",
+      "summary": "ПОЛІТИЧНА ДОРОГА",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "575fe7eaaee2be1ab65a": {
+      "source_title": "Multiple bears may have killed mother and daughter in Canada",
+      "source_summary": "A mother and daughter have been killed in an attack in Canada that authorities say may have involved multiple grizzly bears.",
+      "language": "en",
+      "title": "У Канаді кілька ведмедів, можливо, вбивали матір і дочку.",
+      "summary": "У Канаді під час нападу одна мати з дочкою загинула, за словами фахівців, внаслідок цього потрапили численні ведмеді.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "ec67c0bbceb38999e75d": {
+      "source_title": "Inside the chip talent war: Trade secrets and rising Chinese rivals",
+      "source_summary": "Growing competition for semiconductor talent is fueling a battle over trade secrets as Chinese chipmakers gain ground.",
+      "language": "en",
+      "title": "Внутри чрезвычайной войны: торговые секреты и высшие китайские конкуренты.",
+      "summary": "Конкуренція напівпровідників, що розвивається, розпалює боротьбу за торговельні секрети, коли китайські конструктори набувають землі.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "e6b199bf98c839793348": {
+      "source_title": "Vance walks Trump tightrope with scathing election critique blaming Iran war",
+      "source_summary": "The vice-president's blunt assessment of Republican election defeat marked one of the sharpest breaks with a sitting president in recent memory.",
+      "language": "en",
+      "title": "Vance going Trubmp ciperolli із різкими виборами critique звинувачуючи Іранську війну",
+      "summary": "Порок-президента глубока оцінка поразки республіканських виборів позначила одну з найраніших перерв з сидіючим президентом у недавній пам'яті.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "649d753ee76f43a0c999": {
+      "source_title": "Gold rallies on softer dollar, easing yields after US midterm results - Reuters",
+      "source_summary": "Gold rallies on softer dollar, easing yields after US midterm results Reuters",
+      "language": "en",
+      "title": "Золото збирається на м'якших доларах, зменшуючи врожайність після проміжних результатів США - Рейтер.",
+      "summary": "Золото збирається на м'якших доларах, зменшуючи прибутковість після проміжних результатів США Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "9f482e91d2663052bfe5": {
+      "source_title": "What’s delaying the US Senate election results in Mississippi and Alaska?",
+      "source_summary": "Ranked-choice voting may decide Alaska's Senate outcome, while Mississippi's race hangs on a knife's edge.",
+      "language": "en",
+      "title": "Що затримує вибори сенату в США, що призводить до Міссісіпі та Аляски?",
+      "summary": "Голосование по уши, возможно, решит, что произойдет в Сенат Аляски, в то время как гонка Міссісіпі зависает на краю ножа.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "cff34c35b22b0b5998c3": {
+      "source_title": "David Jones goes into administration, with store closures expected and thousands of jobs at risk",
+      "source_summary": "Future of Australia’s upmarket department store in jeopardy after years of steep losses, and outer suburban and regional locations vulnerableGet our breaking news email, free app or daily news podcastAustralia’s premier upmarket department store David Jones has collapsed into voluntary administration, putting thousands of jobs at risk amid warnings “difficult decisions” lie ahead to salvage the 188-year-old retailer.The upheaval follows years of steep losses and underperforming stores that left the heritage retailer falling behind on rent, culminating in a breakdown of negotiations with its pr",
+      "language": "en",
+      "title": "Девід Джонс займається адміністрацією, з очікуваним закриттям магазинів і тисячами робочих місць у небезпеці.",
+      "summary": "Майбутність Австралії, що ставить під загрозу ринковий відділ після багатьох років стрімких втрат, і зовнішні райони та регіони вразливі до використання нашої новинної пошти, безкоштовної програми або щоденних новин австралійців, які розташовуються на базарній біржі Девід Джонс провалився в добровільну адміністрацію, поставив тисячі робочих місць на небезпеку серед попереджень } Диффікулярні рішення ♫ стоять попереду, щоб врятувати 188-річну роздрібну крамницю.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "2da160d37f180fe44548": {
+      "source_title": "LIV Golf faces liquidation after BC Partners scraps rescue plan",
+      "source_summary": "LIV Golf faces liquidation after BC Partners dropped a proposed $300 million rescue plan amid insufficient player commitments.",
+      "language": "en",
+      "title": "LIV Golf стикається з ліквідацією після того, як BC Партнери Бюджетів план порятунку",
+      "summary": "LIV Golf стикається з ліквідацією після того, як Партнери до БС скинули запропонований 300 мільйонів план порятунку серед недостатньої кількості гравців.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "87a826c390da7429a755": {
+      "source_title": "James Gunn Approves Fan-Made Timeline Showing How Clayface And Blue Beetle Fit In The DC Universe",
+      "source_summary": "It would seem James Gunn agrees with a social media user who recently shared a comprehensive DCU timeline that takes both Clayface and Blue Beetle into account.",
+      "language": "en",
+      "title": "Джеймс Ганн ухвалює \"Частину\" вентилятора, показуючи, як глиняний і синій жук вписується у всесвіт ДС",
+      "summary": "Схоже, Джеймс Ганн погоджується з тим, хто використовує соціальні медіа, який нещодавно поділився всебічною часовою лінією DCU, яка бере до уваги і Клейфс і Блакитний Жук.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "8f537380c40329fd0d25": {
+      "source_title": "Trump has been humbled. Now what? - podcast",
+      "source_summary": "Journalist Molly Ball reports from Washington DC after the Republicans’ resounding midterms defeat. Will the party finally distance itself from Donald Trump? And what will the Democrats do with the power they’ve just gained? Send your comments and questions to tif.questions@theguardian.comHow will Donald Trump react to the Republicans’ midterm drubbing? And do the Democrats have a plan beyond being the anti-Trump party?The veteran political journalist Molly Ball talks through the ramifications of a historic set of midterm results as Trump oversaw a string of losses in red states from Kansas to",
+      "language": "en",
+      "title": "Трамп принизився.",
+      "summary": "Журналіст Моллі Бал повідомляє з Вашингтону після того, як республіканці вже в середині виграють. чи буде партія нарешті віддалятися від Дональда Трампа? і що демократи робитимуть з силою, яку вони щойно отримали? Надсилайте ваші коментарі і питання до тіf. Питання@ guardian.com Як Дональд Трамп реагуватиме на республіканців посередині дріт? і чи демократи мають план, окрім того, щоб бути анти-трумп'єрною партією? Досвідчений політичний журналіст Моллі бала говорить через зміни історичного набору проміжних результатів, як Трампа спостерігає ряд втрат у червоних штатах від Канзасу до",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "635f61a56ed09a8e65cb": {
+      "source_title": "Le Pen keeps Farage hanging over his Paris rendezvous",
+      "source_summary": "The two right-wing leaders were meant to meet in October — but the dynamics in both their parties have shifted.",
+      "language": "en",
+      "title": "Лепельго висить над Паризькою зустріччю.",
+      "summary": "Двох правих лідерів було призначено до зустрічі в жовтні ⇩ але динаміка в обох їхніх партій пішла.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "641f6ba3567356c023ef": {
+      "source_title": "Canada spat exposes widening rift between Merz and von der Leyen",
+      "source_summary": "Berlin’s effort to reserve associate status for Kyiv has collided with the Commission president’s Ottawa initiative.",
+      "language": "en",
+      "title": "У Канаді плювок розсіює розлом між Мерзом і фон - дер - Лейеном.",
+      "summary": "Берлін намагається зберегти спільний статус Києва, але зіткнувся з ініціативою Президенства.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "5fd330466ed78f6e9a03": {
+      "source_title": "Whose Idea Was the Billy Evans Shower Scene in ‘You Can See Everything’?",
+      "source_summary": "Billy Evans, Elizabeth Holmes’s romantic partner, rebutted an account of the origins of the jaw-dropping scene by one of the documentary’s directors.",
+      "language": "en",
+      "title": "Чия ідея була вистава Біллі Еванс в ♫ Ви можете бачити все?",
+      "summary": "Білі Еванс, Елізабет Голдс романтичний партнер, повернув повідомлення про походження дроту дроту, що проходить повз одну з нянь режисера.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "9d1c4be59d254581c774": {
+      "source_title": "Former Israeli generals help Palestinian olive farmers",
+      "source_summary": "A group of former Israeli military generals offered their help to Palestinian olive farmers in the occupied West Bank.",
+      "language": "en",
+      "title": "Колишні ізраїльські полководці допомагають палестинському оливковому фермеру.",
+      "summary": "Колишні ізраїльські військові генерали запропонували свою допомогу палестинським оливним фермерам у окупованому Західному березі.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "326a9b4778ee2923aa9d": {
+      "source_title": "Blue Wave Sweep: What Does Democratic Shift Mean for Hollywood and the Media?",
+      "source_summary": "The Democratic rout in the midterms was a referendum on President Trump, prices and the war in Iran. But it will have impacts that go well beyond the determinative issues — touching topics of key interest to Hollywood studios, broadcasters and their teams of government relations professionals. Here’s a quick rundown of some of the […]",
+      "language": "en",
+      "title": "Що демократичні зміни означають для Голлівуду та засобів масової інформації?",
+      "summary": "Демократичний наступ в середині перелічень був референдумом на Президента Трампа, ціни та війну в Ірані, але він матиме вплив, який далеко за межами визначених висловів ♫ торкаючись ключових тем інтересу до голлівудських студентів, дикторів та їх команд урядових відносин професіоналів.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "74f453d386e17cde6fbc": {
+      "source_title": "Taiwan sees continued US arms sale support after midterm election - Reuters",
+      "source_summary": "Taiwan sees continued US arms sale support after midterm election Reuters",
+      "language": "en",
+      "title": "Тайван бачить, що після проміжних виборів США продовжують продавати зброю.",
+      "summary": "Тайвань бачить, що США продовжує продавати зброю після проміжних виборів Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "8ecf51a6ab54bbf7a263": {
+      "source_title": "Israel's president takes first steps on building new government after accepting election results - AP News",
+      "source_summary": "Israel's president takes first steps on building new government after accepting election results AP News",
+      "language": "en",
+      "title": "Ізраїльський президент робить перші кроки до будівництва нового уряду, коли приймає результати виборів - AP News",
+      "summary": "Президент Ізраїлю робить перші кроки до будівництва нового уряду після прийняття результатів виборів.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "37e442fe8805e1e2593e": {
+      "source_title": "South Korea to deploy military mission to keep Strait of Hormuz open",
+      "source_summary": "South Korea will deploy maritime patrol aircraft and an explosive ordnance disposal team near the Strait of Hormuz to help keep the waterway open, its defence ministry said Thursday. Seoul said it would protect commercial shipping and energy supplies while ruling out military intervention in the ongoing US-Iran war.",
+      "language": "en",
+      "title": "Південна Корея виконує військову місію, щоб відкрити протоку Гормуз.",
+      "summary": "Сеул сказав, що захищатиме комерційні доставки та енергетичні запаси, а в той час як не буде воєнного втручання в США.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "3797d4c86dba4bfe39f7": {
+      "source_title": "El Salvador’s Bukele touts military intervention in Haiti",
+      "source_summary": "Haitian police have found a vehicle used by four missing Salvadoran technicians as Salvadoran troops deploy to Haiti.",
+      "language": "en",
+      "title": "Ель- Сальвадор - Букеле - томітує військові заходи на Гаїті.",
+      "summary": "Гаїтянська поліція знайшла машину, якою користувалися чотири спеціалісти, що зникли з Сальвадору, коли Сальвадорські війська з'їхалися на Гаїті.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "f0adda0821b828198eda": {
+      "source_title": "Pope Leo hosts Bob Dylan at official residence in Rome",
+      "source_summary": "Pope Leo had previously quoted Dylan's work in the preface of a book warning against nuclear rearmament.",
+      "language": "en",
+      "title": "Папа Лев об'єднує Боба Ділана в офіційному домі в Римі.",
+      "summary": "Папа Лев раніше цитував Діланову працю у передмові до книжки \" Попередження проти ядерного визволення .\"",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "647a9e761212c7c3449e": {
+      "source_title": "Election deniers lose races for governor in key US swing states",
+      "source_summary": "State leaders can hold significant sway over election administration, with implications for the 2028 presidential race.",
+      "language": "en",
+      "title": "Елькітес деньєрс програє перегони для губернатора у ключових штатах США.",
+      "summary": "Державні лідери можуть справити значний вплив на виборчу адміністрацію, і це вплине на расу президента 2028 року.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "a080bc2dfe3bf7604d3a": {
+      "source_title": "South Korea to expand anti-piracy unit operations closer to Strait of Hormuz - Reuters",
+      "source_summary": "South Korea to expand anti-piracy unit operations closer to Strait of Hormuz Reuters",
+      "language": "en",
+      "title": "Південна Корея, щоб розширити операції проти пірасійських підрозділів ближче до протоки Гормуз - Рейтер.",
+      "summary": "Південна Корея, щоб розширити операції проти пірасійських підрозділів ближче до протоки Гормуз Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "62d9351445805f59a9f6": {
+      "source_title": "Israel’s Herzog accepts vote results, opens talks on forming a government",
+      "source_summary": "Move deals blow to Netanyahu's efforts to discredit the elections, in which he and his allies lost their majority.",
+      "language": "en",
+      "title": "Ізраель приймає результати голосування, розпочинає виступи про створення уряду.",
+      "summary": "Рухи руйнують зусилля Нтананягу дискредитувати вибори, в яких він і його союзники втратили більшість своїх виборів.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "ad1030df5ce46710e212": {
+      "source_title": "Apple is reportedly cutting budgets for its internal AI usage",
+      "source_summary": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams.",
+      "language": "en",
+      "title": "Згідно з повідомленням, Apple скорочує бюджети для внутрішнього використання комп' ютерного гравця",
+      "summary": "Кажуть, що компанія значно знижує кількість, яку витрачає на ШІ для своєї інженерної команди.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "6297c4f1918efcf9c6a6": {
+      "source_title": "White House panel delays hearing on Fed's Lisa Cook to Dec. 14",
+      "source_summary": "President Donald Trump first tried to fire Lisa Cook in August 2025, but the Supreme Court in June blocked him from doing so, for now.",
+      "language": "en",
+      "title": "Задержка серии Белого Дома отслушивает дело о Лизе Кук до 14-го декабля.",
+      "summary": "У серпні 2025 року президент Дональд Трамп вперше спробував звільнити Лізу Кук, але Верховний суд у червні затримав його від цього.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "00dc4a8f3f59b19fbab5": {
+      "source_title": "Dollar edges lower as US election outcome spurs risk sentiment; sterling gains - Reuters",
+      "source_summary": "Dollar edges lower as US election outcome spurs risk sentiment; sterling gains Reuters",
+      "language": "en",
+      "title": "Краї долларів нижче, коли рішення виборців США стимулюють почуття ризику; винагороди за винагороду - Рейтер.",
+      "summary": "Краї долара нижче, коли рішення виборців США регулюють почуття ризику; штрафи стають Рейтером",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "ab7fc35b01c943b7e1b0": {
+      "source_title": "Government of Canada announces new president for the Canadian Space Agency - Canada.ca",
+      "source_summary": "Government of Canada announces new president for the Canadian Space Agency Canada.ca",
+      "language": "en",
+      "title": "Уряд Канади оголошує нового президента Канадського космічного агентства - Канади.",
+      "summary": "Уряд Канади оголошує нового президента Канадського космічного агентства Канади.ca",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "0ee5115bb8658d796c95": {
+      "source_title": "After the midterms, a bigger clash over data centers could be coming",
+      "source_summary": "Data center opposition crossed party lines in Tuesday’s midterms.",
+      "language": "en",
+      "title": "Після проміжних іспитів може з'явитися більша суперечка через центри даних.",
+      "summary": "Опір з центру даних перетинає лінії партій уотлі в напівсередній час.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "c9b94781fe735ce0f4a9": {
+      "source_title": "As tiger mosquitoes spread, Europe races to stop tropical diseases",
+      "source_summary": "Mosquitoes that were associated with tropical regions are now established in several European countries and are moving north. Health authorities are rushing to ensure that the diseases they spread — such as dengue, chikungunya and Zika — don’t catch up with them. And citizens have an important role.",
+      "language": "en",
+      "title": "Коли поширюються тигрові комарі, Європа переганяється, щоб припинити тропічні хвороби.",
+      "summary": "Влада охорони здоров'я намагається забезпечити поширення таких хвороб, як денґе, чікунгунья та Зіка Не ловить їх.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "a6db43289251d468bd9d": {
+      "source_title": "Analysis: Trump has defied political consequences for years. The midterms changed that - AP News",
+      "source_summary": "Analysis: Trump has defied political consequences for years. The midterms changed that AP News",
+      "language": "en",
+      "title": "Аналіз: Трамп роками засуджував політичні наслідки.",
+      "summary": "Аналіз: Трамп роками нехтував політичними наслідками.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "1016637b7869d8260c2f": {
+      "source_title": "Australia's oldest department store David Jones folds after 188 years",
+      "source_summary": "The brand's 38 physical stores and online site will continue to operate while receivers review its operations.",
+      "language": "en",
+      "title": "Найстарший австралійський універмаг, в якому живе Девід Джонс, складається через 188 років.",
+      "summary": "У 38 фізичних крамницях та на сайті, що працює в Інтернеті, після того як отримувачі перевірять свої операції.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "0b1da993bc5d994515db": {
+      "source_title": "Pixar Promotes Jonathan Garson to President, Taking Reins from Retiring Executive Jim Morris",
+      "source_summary": "Garson, who has worked within Disney for more than 30 years, will assume the role in January.",
+      "language": "en",
+      "title": "Піксар підтримує Джонатана Ґарсона до президента, забираючи рейнса від від відставного виконавчого директора Джима Морріса.",
+      "summary": "Ґарсон, який працював у Діснеї вже понад 30 років, візьме на себе цю роль у січні.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "b5479b81834ca9a3f49b": {
+      "source_title": "Pixar Names Jonathan Garson as President; Jim Morris Moves to Emeritus Role",
+      "source_summary": "Pixar Animation Studios is set to undergo a leadership change, After serving as president for 12 of his 21 years at the studio, Jim Morris will transition to a president emeritus role. Jonathan Garson will become the studio’s new president, partnering with Chief Creative Officer Pete Docter. In his new role as president, Garson will […]",
+      "language": "en",
+      "title": "Pixar імен Йонатан Ґарсон як президент; Джім Морріс переїжджає на роль Емерауїта",
+      "summary": "У студії, 12 з 21 років свого життя, Джім Морріс переміститься до ролі президента у висновці. Джонатан Ґарсон стане лекцією нового президента, партнеркою з головним спеціалізованим офіцером Пітом Доктером.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "cfa5ad8cffc8974daab1": {
+      "source_title": "Africa’s richest man launches mega oil tank farm in Namibia",
+      "source_summary": "Nigerian billionaire Aliko Dangote launched a fuel storage facility in Namibia to future-proof Southern Africa's supply.",
+      "language": "en",
+      "title": "Африка - найбагатша людина запускає в Намібії ферму мегатанку з нафтою.",
+      "summary": "Нігерійський мільярдер Альіко Данготе заснував паливний склад в Намібії для забезпечення майбутніх забезпечень Південно-Африки.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "ebec098bf0df5eb589c3": {
+      "source_title": "Ohio’s voters tell Republicans: don’t take us for granted",
+      "source_summary": "Democrats flipped a Senate seat and recaptured the governor’s mansion in Ohio.",
+      "language": "en",
+      "title": "Огайо каже республіканцям: дзень сприймає нас як належне",
+      "summary": "Демократи перевернули місце сенату і відокремили губернаторський особняк в Огайо.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "36ee90439c7c8c81d329": {
+      "source_title": "Cinematography Legend Robert Richardson Answered a Film Student’s Email — Their Conversation Became ‘The White Devil’",
+      "source_summary": "Jana Hojdová wanted to ask the Oscar-winning cinematographer about his life. A pandemic lockdown and 650 hours of footage later, her documentary captures what it means for a legend to feel understood.",
+      "language": "en",
+      "title": "Контейнерська легенда Роберт Річардсон відповів: \"Після ел. пошти\"",
+      "summary": "\"Яна Ходждова\" хотіла запитати кінематографа про своє життя у фільмі \"Оскарнінґ.\" і 650 годин кадрів пізніше, її документальний фільм охоплює, що означає для легенди відчути себе зрозумілим.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "a9aa5fecbc78ea7a8c20": {
+      "source_title": "Democrats won Congress. But can they deliver on their promises?",
+      "source_summary": "Despite their midterm election victories, Democrats face major obstacles to reining in Trump on Iran, tariffs and more.",
+      "language": "en",
+      "title": "Демократи перемогли Конгрес, але чи можуть вони виконати свої обіцянки?",
+      "summary": "Незважаючи на свої проміжні перемоги на виборах, демократи стикаються з великими перешкодами для повернення в Трумп на Іран, тарифи та інші.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "4450c2fb3717fccdba57": {
+      "source_title": "X says its updated web app is way faster",
+      "source_summary": "X is introducing a new version of its web app that it says is much faster than before, and it's now rolling out the updated app \"one country at a time\" for signed-in users. \"Open a profile on X.com over a slow connection,\" principal engineer Yagiz Nizipli said in a blog post about the changes. […]",
+      "language": "en",
+      "title": "X каже, що його оновлена веб-програма набагато швидша",
+      "summary": "X впроваджує нову версію свого веб-програми, яка, за його словами, набагато швидша, і тепер він видає оновлений додаток \"одна країна за раз\" для користувачів, що підписуються. \"Відкрийте профіль на X.com через повільне з'єднання,\" - сказав головний інженер Ягіц Ніпци в блозі про зміни....",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "718200e7e94d7365aee0": {
+      "source_title": "NextDC shares surge 43% after Goodman, Digital Realty stake purchases",
+      "source_summary": "NextDC shares surged more than 40% Thursday morning after Goodman Group and Digital Realty sought to acquire up to a 9.9% stake.",
+      "language": "en",
+      "title": "Наступний спад акцій DC після Гудмана на 43%, покупка на цифрову реальну особу",
+      "summary": "Акції наступного DC зросли більше ніж 40% у четвер вранці після того, як Гудменська група і Цифрова Реальність вирішили набрати 9.9% ставки.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "33d888588dc691caed1e": {
+      "source_title": "Historic firsts redraw US political map in 2026 midterm elections",
+      "source_summary": "The 2026 US midterms delivered a wave of historic firsts for women, Black, Muslim, gay and Native American politicians.",
+      "language": "en",
+      "title": "Історичні перші перебудували політичну карту США на 2026 році під час проміжних виборів.",
+      "summary": "У 2026 році в США відбулася хвиля історичних першочергів для жінок, чорних, мусульман, геїв та корінних американців.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "532751152dd0be26523f": {
+      "source_title": "Alaskans wait for more votes in US Senate, governor's races. Both could go to ranked tabulations - AP News",
+      "source_summary": "Alaskans wait for more votes in US Senate, governor's races. Both could go to ranked tabulations AP News",
+      "language": "en",
+      "title": "Аляски чекають більше голосів у сенаті США, загонах губернаторів.",
+      "summary": "Аляски чекають більше голосів у сенаті США, на гонках губернаторів.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "54b062ca0a107a55a876": {
+      "source_title": "Snap shares fall over 10% on third-quarter revenue miss",
+      "source_summary": "Snap misses on revenue and daily active users in third-quarter earnings reported Wednesday.",
+      "language": "en",
+      "title": "Прилипання акцій падає на 10% по оплаті прибутку на третьому четверті.",
+      "summary": "Пропущені промахи на доходах і щоденні активні користувачі в середу, звітованій на третьому четверті.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "eede88899ab728d0db12": {
+      "source_title": "Trump-backed Republican redistricting sought a midterm edge. It didn’t work - AP News",
+      "source_summary": "Trump-backed Republican redistricting sought a midterm edge. It didn’t work AP News",
+      "language": "en",
+      "title": "Поворотна республіканська рестрикція шукала середній край.",
+      "summary": "Поворотна республіканська рестрикція шукає середній край.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "114f3a432c570ae6be31": {
+      "source_title": "Inside India newsletter: India weighs a tax cut to win over foreign investors. Will it work?",
+      "source_summary": "Foreign investors are losing their appetite for Indian equities, with their holdings touching an all-time low of 14%.",
+      "language": "en",
+      "title": "В індійському інформаційному бюлетені: Індія важить менше податків, щоб виграти іноземних інвесторів.",
+      "summary": "Іноземні інвестори втрачають апетит до індійських рівноправностей, з їх володіннями, що постійно торкаються 14%.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "9487a686bcc3bbc459a0": {
+      "source_title": "Bank of England poised to hike rates for first time in 3 years - Reuters",
+      "source_summary": "Bank of England poised to hike rates for first time in 3 years Reuters",
+      "language": "en",
+      "title": "Англійський банк, який вперше за 3 роки почав ходити пішки, - Рейтер.",
+      "summary": "Англійський банк готовий до вперше за 3 роки Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "4c82ca33428296deaec9": {
+      "source_title": "Milburn review to call for jobs ’revolution’ for young people with disabilities",
+      "source_summary": "Exclusive: Government should introduce ‘flexi-jobs’ alongside subsidies and skills support, former minister will sayThe British state should create and subsidise paid jobs for thousands of disabled young people as part of an “opportunity revolution” aimed at reversing years of labour market discrimination, the Milburn review of youth employment will recommend.The review, due to report this month, will say the government should introduce “flexi-jobs” alongside employment subsidies and intensive skills support to make it easier for disabled and chronically ill 16- to 24-year-olds to get work. Co",
+      "language": "en",
+      "title": "Мілберн, щоб попросити про робочі місця гнозується для молодих людей з фізичними вадами.",
+      "summary": "Екватор: Уряд повинен представити вам \"Flexi-ux\" } } } Субтитри та вмінь, колишній священик буде підтримувати, каже, що Британська держава повинна створити і субсидувати платні роботи для тисяч молодих інвалідів, які є частиною революції \"Оппортунності,\" яка має на меті скасувати роки дискримінації ринку в перуу, а мілберн-перегляд за молоддю буде рекомендувати. Репет, що стосується звіту про цей місяць, скаже, що уряд повинен представити собі флекси-фузі-хамі-фунти поряд з системами зайнятості та інтенсивними навичками, щоб полегшити це для інвалідів і хронічно хворих 16-до 24-річних людей, які хочуть отримати роботу.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "d24707651820942c4823": {
+      "source_title": "Iran war live: IRGC says two oil tankers and tugboat caught fire in Hormuz",
+      "source_summary": "Iran's IRGC says two tankers and a tugboat caught fire in the Strait of Hormuz after using an \"unauthorised route\".",
+      "language": "en",
+      "title": "Іранська війна жива: ІРГК каже, що два нафтові танкери й буксирний човен загорілись у Гормузі.",
+      "summary": "Іранська ІРГК каже, що два танкери і буксирний човен загорілися у Гормузі після використання \"невластичного маршруту.\"",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "a3ee938c62a80f9a591f": {
+      "source_title": "Watch ‘The Greatest’ Team Discuss How They Made the Impossible ‘Possible’ on Muhammad Ali Series",
+      "source_summary": "Creator Ben Watkins and his team discuss the challenges they faced making the Prime Video series, from costume quick changes at the Colosseum to a last minute original song from Wyclef Jean.",
+      "language": "en",
+      "title": "Спостерігати за командою ♫ Що є неможливим на Махамеда Алі",
+      "summary": "Творець Бен Ваткинс та його команда обговорюють проблеми, з якими вони зіткнулися, роблячи прем'єр- відео-серіал, від костюмованих змін у Колізеї до останньої хвилини початкової пісні з Вінкеф Жана.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "39b4fcdf9293387a3475": {
+      "source_title": "UK and Caribbean to begin ‘dialogue’ within next year after slavery reparations call",
+      "source_summary": "Antigua and Barbuda’s prime minister says there was a consensus at Commonwealth summit on way forwardThe UK has agreed to “structured dialogue” in the next year with Caribbean nations affected by the slave trade and its legacy, Commonwealth leaders have said.Gaston Browne, Antigua and Barbuda’s prime minister, said there was a “consensus” in discussions between governments about a way forward on slavery reparations at the Commonwealth heads of government meeting (Chogm). Continue reading...",
+      "language": "en",
+      "title": "Великобританія та Карибські острови починають ⇩dial} протягом наступного року після того, як рабське відкликання викличе",
+      "summary": "Антигуа і Барбуда Прем'єр-міністр кажуть, що був консенсус на вершині Співдружності на передньому плані Великобританії у наступному році з націями Карибського моря, на які вплинула работоргівля і спадщина, лідери Співдружності сказали, що Антигуа і Барбуда прем'єр-міністр, сказали, що був ́ консенсус'є в дискусіях між урядами про шлях до работоргівлі на головах уряду (Чом). Продовжуючи читати...",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "a169aa09b8956fedfd42": {
+      "source_title": "Mother and daughter die after suspected grizzly bear attack in Canada",
+      "source_summary": "Authorities in British Columbia say evidence suggests an animal may have been involved in the women's deaths.",
+      "language": "en",
+      "title": "Мати й дочка вмирають після того, як у Канаді підозрівали, що на них нападає Ґрізлі.",
+      "summary": "Згідно з доказами, органи влади в Британській Колумбії вважають, що в смерті жінок могла бути причетна тварина.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "19c8aae668f9b3baf920": {
+      "source_title": "Who gets to vote in the US?",
+      "source_summary": "Tati Abu King lost his voting rights after felony convictions.",
+      "language": "en",
+      "title": "Хто голосує в США?",
+      "summary": "Таті Абу Кінг втратив право голосування після кримінальних звинувачень.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "5e40375fa2e155b5b9d2": {
+      "source_title": "Democrats flip dozens of GOP seats. Republicans haven't flipped a single one",
+      "source_summary": "Democrats have flipped seven Senate seats, nearly 30 House districts, five governorships and up to 12 state legislative chambers in a historic 2026 midterm rout.",
+      "language": "en",
+      "title": "Демократи перевертають десятки місць GOP. Республіканці не перевернули жодного з них",
+      "summary": "Демократи пересадили сім сенатів, близько 30 районів дому, п'ять губернаторів і до 12 державних законодавчих залів у історичному 2026 році.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "2110a83279b2d5051fd6": {
+      "source_title": "Ethiopia expels 6 Sudan diplomats, orders closure of consulate, reports say",
+      "source_summary": "Move comes after Sudan lodged official complaints against Ethiopia, accusing Addis Ababa of supporting the RSF group.",
+      "language": "en",
+      "title": "Ефіопія виганяє 6 Судан дипломатів, наказує закрити консульство, повідомляє",
+      "summary": "Після того як Судан подав офіційні скарги на Ефіопію, Аддис - Абеба звинувачував у підтримці групи РСФ.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "d8aad90dfc1c2447283e": {
+      "source_title": "After Republicans routed, Trump devotes first post-midterm event to White House ballroom - Reuters",
+      "source_summary": "After Republicans routed, Trump devotes first post-midterm event to White House ballroom Reuters",
+      "language": "en",
+      "title": "Після того, як республіканці вийшли з ладу, Трумп відкладає першу післястрокову подію у баластну кімнату Білого Дому - Рейтер.",
+      "summary": "Після того, як республіканці вийшли з ладу, Трумп присвячує першу післястрокову подію в баластному залі Білого Дому.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "2e4d40167dfa6259a0c2": {
+      "source_title": "Qualcomm stock drops 7% on weak earnings forecast as memory shortage weighs on smartphone sales",
+      "source_summary": "Qualcomm delivered better-than-expected results but issued a weak earnings forecast.",
+      "language": "en",
+      "title": "Прогноз про слабість заробітку падає на 7%, оскільки брак пам'яті важить продаж смартфонів.",
+      "summary": "Квалкома принесла кращі, ніж очікувані результати, але видала слабкий прогноз заробітку.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "1e7ad515e10291da67e9": {
+      "source_title": "German police investigate death of Bavaria deputy premier, found in hotel room - Reuters",
+      "source_summary": "German police investigate death of Bavaria deputy premier, found in hotel room Reuters",
+      "language": "en",
+      "title": "Німецька поліція досліджує смерть замісника прем'єра Баварії, який знайшовся у кімнаті готелю - Рейтер.",
+      "summary": "Німецька поліція досліджує смерть замісника прем'єра Баварії, який знайшов у готелі Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "2a6f3d684a8e5674ac51": {
+      "source_title": "Seven numbers that explain Democrats' US midterm triumph - Reuters",
+      "source_summary": "Seven numbers that explain Democrats' US midterm triumph Reuters",
+      "language": "en",
+      "title": "Сім чисел, які пояснюють проміжний тріумф демократів США - Рейтер.",
+      "summary": "Сім чисел, які пояснюють Американське проміжне агентство з тріумфу",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "2aab318787859c7cb0e5": {
+      "source_title": "Giant banner of Trump, Vance and Netanyahu burnt at Tehran rally",
+      "source_summary": "A giant banner depicting US President Donald Trump and Israel’s Prime Minister Benjamin Netanyahu was burnt in Tehran",
+      "language": "en",
+      "title": "Велетенський прапор Трумпу, Вонса і Нетанягу спалений на мітингу Тегерана.",
+      "summary": "Гігантський напис, що зображає Президента США Дональда Трампа та Ізраела \"Мініхаміна Бенджаміна Нетаньягу\" був спалений в Тегерані.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "9450cc7dec0e3cf6a222": {
+      "source_title": "Democratic victories bring historic breakthroughs for women and minorities - Reuters",
+      "source_summary": "Democratic victories bring historic breakthroughs for women and minorities Reuters",
+      "language": "en",
+      "title": "Демократичні перемоги приносять історичні досягнення для жінок і меншин - Рейтер.",
+      "summary": "Демократичні перемоги приносять історичні досягнення для жінок та менших меншин.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "4e7c1239794124caa9f1": {
+      "source_title": "Trump says Hegseth doing 'a very good job' as questions swirl about his future - Reuters",
+      "source_summary": "Trump says Hegseth doing 'a very good job' as questions swirl about his future Reuters",
+      "language": "en",
+      "title": "Трамп каже, що Гегсет робить \" дуже добру роботу,\" коли його питання про майбутнє - Рейтер.",
+      "summary": "Трамп каже, що Геґсет робить \"дуже добру роботу,\" як питання про його майбутнє Рейтера",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "b41af73736c40b998927": {
+      "source_title": "Trump blames Iran war for midterms losses",
+      "source_summary": "President Donald Trump said the war in Iran likely contributed to Republican setbacks in the midterm elections",
+      "language": "en",
+      "title": "Трамп звинувачує Іранську війну у втраті проміжних умов.",
+      "summary": "Президент Дональд Трамп сказав, що війна в Ірані, ймовірно, призвела до республікацій під час проміжних виборів.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "e999bb078308b741a642": {
+      "source_title": "A 'demand decade' ahead for energy? BP, Baker Hughes CEOs weigh the investment outlook",
+      "source_summary": "Rising energy demand offers investment opportunities, but geopolitical risks and oil price uncertainty cloud the outlook, executives and an analyst said.",
+      "language": "en",
+      "title": "BP, директори Бейкера Г'юза зважують інвестиційний світогляд.",
+      "summary": "Зростаючий попит на енергію дає можливості інвестувати, але геополітичний ризик і непевність у ціні нафти затьмарюють світогляд, виконавчих директорів та аналітиків.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "0972c050bb663043d739": {
+      "source_title": "Democrats deliver a stunning rout in Texas to retake power for the first time in decades - AP News",
+      "source_summary": "Democrats deliver a stunning rout in Texas to retake power for the first time in decades AP News",
+      "language": "en",
+      "title": "Демократи вперше за десятиліття доносять приголомшливий маршрут у Техасі, щоб відновити владу.",
+      "summary": "Демократи вперше у десятиліттях доносять приголомшливий маршрут у Техасі, щоб прийняти владу в AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "95871d7fcff123b274bf": {
+      "source_title": "Controversial California Billionaire Tax Appears Headed For Failure - Forbes",
+      "source_summary": "Controversial California Billionaire Tax Appears Headed For Failure Forbes",
+      "language": "en",
+      "title": "Сумнівний податок на мільйонний податок у Каліфорнії з'являється на користь невдалих планів",
+      "summary": "Сумнівний податок на мільйонний податок у Каліфорнії, який надається для Форбса про невдачу",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "fa0084c017346506ab4e": {
+      "source_title": "Jim Cramer warns investors may be reading too much into Wall Street's post-election rally",
+      "source_summary": "Cramer warned that Wall Street may be getting ahead of itself following the midterm elections.",
+      "language": "en",
+      "title": "Джим Крамер застерігає інвесторів, що, можливо, вони занадто багато читають у післявиборчому з'їзді на Волл-стріт.",
+      "summary": "Крамер попереджав, що Уолл - стрит може бути попереду після проміжних виборів.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "69874644ca4360145f06": {
+      "source_title": "What Wall Street billionaires are saying about Democrats' midterm sweep",
+      "source_summary": "Billionaire political spending met criticism from ... billionaires in the wake of Tuesday's blue wave election.",
+      "language": "en",
+      "title": "Що мільярдери на Волл-стріт говорять про проміжний завал демократів",
+      "summary": "Мільйонерів політичних витрат було зустрічено з критикою... мільярдерів після вівторкових синіх хвиль.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "b7e2a9b8956426bba9e0": {
+      "source_title": "Bob Dylan Meets With Pope Leo",
+      "source_summary": "Pope Leo wore his usual white vestments. Bob Dylan visited the Vatican in a hooded sweatshirt and polka-dot tie. There was no singing.",
+      "language": "en",
+      "title": "Боб Ділан зустрічається з папою Левом",
+      "summary": "Боб Ділан відвідав Ватикан у каптурній сорочці і буфеті, не було співу.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "8c604d883f90a91a741d": {
+      "source_title": "The Blue Wave Has Tech Bros Scrambling for Data Centers in Space",
+      "source_summary": "After Democrats won big in Texas and other AI infrastructure hot spots on Tuesday, data center enthusiasts looked for comfort in low Earth orbit.",
+      "language": "en",
+      "title": "Синя хвиля має технології Брош, що шукають центри даних у космосі",
+      "summary": "Після того як демократи в Техасі та інших гарячих точках інфраструктури ШІ у вівторок, ентузіасти центрів даних шукали комфорт на малій орбіті Землі.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "63b80da325130f73a469": {
+      "source_title": "Typhoons batter East Asia as El Niño makes Pacific 'burn with fever'",
+      "source_summary": "Even for countries where typhoons are a way of life, the last few months have brought unusually wild weather.",
+      "language": "en",
+      "title": "Тайфуни б'ють Східну Азію, а Ель Ніньо робить Тихий океан \"горячим.\"",
+      "summary": "Навіть для країн, де тайфуни є способом життя, останні кілька місяців принесли незвичну дику погоду.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "901dabac4060af5129ab": {
+      "source_title": "Democrats take Congress in a blue wave. Here's what it means for your money",
+      "source_summary": "Blue wave gives Democrats control of Congress. Here's how their agenda could affect your money, from healthcare and taxes to student loans and Social Security.",
+      "language": "en",
+      "title": "Демократи беруть Конгрес у блакитну хвилю.",
+      "summary": "Ось як їх плани можуть вплинути на ваші гроші: від охорони здоров'я та податків до кредитів студентів та соціального забезпечення.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "bf00f9d8cee4c9d2ec9a": {
+      "source_title": "‘Logan’ Star Dafne Keen Says ‘I Was Offered Cocaine’ as an 11-Year-Old in Hollywood and Hugh Jackman ‘Made Sure No One Abused My Hours’ on Set",
+      "source_summary": "Dafne Keen revealed on the “Inside of You” podcast that she was offered cocaine at Hollywood parties when she was a young teenager (via Entertainment Weekly). Now 21 years old, Keen got her breakthrough in the industry by playing the young mutant Laura/X-23 opposite Hugh Jackman in 2017’s “Logan.” She shot the film when she […]",
+      "language": "en",
+      "title": "\"Зоря Дафна К'єн\" говорить: \"Кокаїна\" вийшла на 11-Йор-Старого в Голлівуді і Х'ю Джекман 'Мад - Без будь-кого з моїх годин на Сет",
+      "summary": "Дафна Кін виявила на Вищому боці, що їй пропонували кокаїн на голлівудських вечірках, коли вона була підлітком (в повсякденному житті) зараз їй 21 рік, Кін отримав свій прорив в індустрії граючи молодого мутанта Лору/X-23 на протилежній стороні Х'ю Джекмана у 2017-му році.' Вона вистрелила фільм, коли вона [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "de770f8fc172bff544ac": {
+      "source_title": "Paraguay bank crisis spurs lawmakers' calls to impeach president - Reuters",
+      "source_summary": "Paraguay bank crisis spurs lawmakers' calls to impeach president Reuters",
+      "language": "en",
+      "title": "Криза банку в Парагваї спонукує законодавців втягнутися в суд президента - Рейтера.",
+      "summary": "Криза банку в Парагваї стимулює виклики законодавців, щоб втягнути президента Рейтера.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "bc55975296b121af0c91": {
+      "source_title": "Zerwana sieć trakcyjna w Warszawie. Utrudnienia w kursowaniu tramwajów",
+      "source_summary": "Zerwana sieć trakcyjna w Warszawie. Utrudnienia w kursowaniu tramwajów",
+      "language": "pl",
+      "title": "Перерване судно в Варшаві.",
+      "summary": "Перерване судно в Варшаві.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "883984d90daab2b8a3b6": {
+      "source_title": "Czy spór o Trybunał Konstytucyjny może uderzyć w portfele Polaków? Odpowie przewodniczący komisji ds. deregulacji",
+      "source_summary": "Czy spór o Trybunał Konstytucyjny może uderzyć w portfele Polaków? Odpowie przewodniczący komisji ds. deregulacji",
+      "language": "pl",
+      "title": "Чи може конституційний суд вдарити гаманці поляків?",
+      "summary": "Чи може конституційний суд вдарити гаманці поляків?",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "578d4f40e83ed0dc9b7f": {
+      "source_title": "8-letnia Zosia „nie istnieje” w Polsce. Decyzja NSA ws. dziecka wychowywanego przez dwie matki",
+      "source_summary": "8-letnia Zosia „nie istnieje” w Polsce. Decyzja NSA ws. dziecka wychowywanego przez dwie matki",
+      "language": "pl",
+      "title": "8-річне Зозі « не існує» В Польщі. Рішення РЗВ.",
+      "summary": "8-річне Зозі « не існує» В Польщі. Рішення РЗВ.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "7851f056dac9c78762e5": {
+      "source_title": "Ataki na systemy chłodnicze. Wiceminister cyfryzacji: Wykorzystanie niefrasobliwości",
+      "source_summary": "Ataki na systemy chłodnicze. Wiceminister cyfryzacji: Wykorzystanie niefrasobliwości",
+      "language": "pl",
+      "title": "Атаки з охолоджувальними системами. віце- міністра цифрізації: Використання неурядових систем",
+      "summary": "Атаки з охолоджувальними системами. віце- міністра цифрізації: Використання неурядових систем",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "f1b4590b08520a04cd9b": {
+      "source_title": "Stacje paliw Moya w nowych rękach. Jest oficjalny komunikat",
+      "source_summary": "Stacje paliw Moya w nowych rękach. Jest oficjalny komunikat",
+      "language": "pl",
+      "title": "Станції палива Моя у нових руках. офіційне повідомлення",
+      "summary": "Станції палива Моя у нових руках. офіційне повідомлення",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "0b0e1a6ac8f466c913c2": {
+      "source_title": "Będzie drożej u notariusza. Za te usługi zapłacimy nawet cztery razy więcej",
+      "source_summary": "Będzie drożej u notariusza. Za te usługi zapłacimy nawet cztery razy więcej",
+      "language": "pl",
+      "title": "Це буде дорожче з нотаріусом, і за ці послуги ми заплатимо в чотири рази більше.",
+      "summary": "Це буде дорожче з нотаріусом, і за ці послуги ми заплатимо в чотири рази більше.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "841337f720cf00bf5f00": {
+      "source_title": "Netanjahu oskarża obce państwa o ingerencję. „Istnieją poważne podejrzenia”",
+      "source_summary": "Netanjahu oskarża obce państwa o ingerencję. „Istnieją poważne podejrzenia”",
+      "language": "pl",
+      "title": "Нефаньягу звинувачує іноземні країни у втручанні. « Вони мають серйозні підозри»",
+      "summary": "Нефаньягу звинувачує іноземні країни у втручанні. « Вони мають серйозні підозри»",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "88673b6218aaf0b50a24": {
+      "source_title": "Żurek wysyła Nawrockiemu konstytucję. „To nie jest kibicowska ustawka”",
+      "source_summary": "Żurek wysyła Nawrockiemu konstytucję. „To nie jest kibicowska ustawka”",
+      "language": "pl",
+      "title": "Жюрек посилає Конституцію Науру. « Це не вболівальникський закон»",
+      "summary": "Жюрек посилає Конституцію Науру. « Це не вболівальникський закон»",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "b744fe4ade7e4b7bc442": {
+      "source_title": "Nagła śmierć niemieckiego polityka. Jego ciało znaleziono w hotelu",
+      "source_summary": "Nagła śmierć niemieckiego polityka. Jego ciało znaleziono w hotelu",
+      "language": "pl",
+      "title": "Його тіло знайшли в готелі.",
+      "summary": "Його тіло знайшли в готелі.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
+    "5ad4aa9a5d781a2594cf": {
+      "source_title": "Kolejna dymisja po tragedii na hiszpańskich torach",
+      "source_summary": "Kolejna dymisja po tragedii na hiszpańskich torach",
+      "language": "pl",
+      "title": "Ще одна династія після трагедії на іспанських залізничних коліях.",
+      "summary": "Ще одна династія після трагедії на іспанських залізничних коліях.",
+      "engine": "opus_mt",
+      "translated_at": 1793872290
+    },
     "5d94ba1588f191d3a724": {
       "source_title": "What Trump losing power over Congress means for Iran, Ukraine and foreign policy",
       "source_summary": "Democratic control of Congress could bring greater scrutiny of Trump’s handling of the Iran and Ukraine wars, while leaving him broad foreign-policy powers.",
@@ -35,15 +1367,6 @@
       "language": "en",
       "title": "Американська переправа верхи на блакитну хвилю в австралійській середині.",
       "summary": "Виборці США, австралійці та британські глядачі товпляться по пабі, щоб подивитися історичні вибори, які стрибають на другий поверх пабу у Сіднеї, настрій змінюється від нервових, браузерів-регуляторів до шампанського протягом декількох годин. Більше ніж 100 американських експедиторів і ентузіастів виборців пакують у функціонарний простір в Ког і Брю в внутрішньому передмісті Суррі-Хіллс, щоб подивитися на результати середнього етапу. Продовжуйте читати...",
-      "engine": "opus_mt",
-      "translated_at": 1793785949
-    },
-    "8e2576529f35a1d3102b": {
-      "source_title": "Countries Weigh, and Worry About, What Trump Will Do After Midterm Defeat",
-      "source_summary": "Commentators abroad wondered what the president’s electoral losses might mean for oil prices, the war on Iran and the end of the Trump era.",
-      "language": "en",
-      "title": "Що за труднощі після довгої поразки зроблять країни, про що вони тривожаться і про що тривожаться",
-      "summary": "Коментатори за кордоном цікавились знати, що президент має на увазі для цін на нафту, війна з Іраном і кінець епохи Трамп.",
       "engine": "opus_mt",
       "translated_at": 1793785949
     },
@@ -13749,7 +15072,7 @@
   "meta": {
     "engine": "local_opus_mt_with_optional_mymemory_fallback",
     "daily_target": 200,
-    "new_translations": 182,
-    "remaining_candidates": 18
+    "new_translations": 148,
+    "remaining_candidates": 52
   }
 }
