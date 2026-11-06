@@ -1,7 +1,1555 @@
 {
   "schema": 1,
-  "updated": 1793872290,
+  "updated": 1793958882,
   "articles": {
+    "e9d67e10e79f37d226df": {
+      "source_title": "US elections 2026 live: Democrats exceed 250 House seats as blue wave sweeping Congress grows",
+      "source_summary": "Democrats widen gap in House chamber by flipping more seats, including in Ohio, Arizona and North Carolina; Ted Cruz calls election a ‘Watergate-level repudiation’Live results | Q&A: Ask your questions about Democrats’ winSign up for Breaking News US emailElection night brought a series of dramatic developments, unexpected results and closely contested races across the US. We have put together this video capturing the key moments and offering a quick overview of one of the most important nights in US politics:The Senate race in Mississippi has become one of the most closely watched contests in",
+      "language": "en",
+      "title": "Вибори США 2026 р.: Демократи перевищують 250 сидінь у міру зростання синьої хвилі Конгресу",
+      "summary": "Демократи розширюють прогалину в домашній кімнаті, піднімаючи більше місць, зокрема в Огайо, Арізоні та Північній Кароліні; Тед Крус називає виборами виборців \" _Gate- Level\" }Пісня робить Q&A: Запитуйте про демократів, які підносяться до \"Пуститися в Новину США\" ввечері, і це призвело до серії драматичних подій, несподіваних результатів і змагань у гонках по всій Сполучених Штатах.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "3d1809fe5e7d2a909bf8": {
+      "source_title": "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
+      "source_summary": "The Trump administration has downplayed reports the pair could be on their way out after heavy Republicans election losses.",
+      "language": "en",
+      "title": "Білий дім заперечує, що Хегсет і Рубіо залишають роботу після втрати республіканських виборів.",
+      "summary": "Адміністрація Трамп применшила звіти про те, що пара може вийти після великих виборчих виборців республіканців.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "45065205d34f05bfc8db": {
+      "source_title": "Gaza turns discarded cooking pots into seawalls",
+      "source_summary": "As winter approaches, Palestinians in Gaza are turning damaged cooking pots into makeshift seawalls to avoid flooding.",
+      "language": "en",
+      "title": "Газа перетворює викинені горщики для готування у морські стіни.",
+      "summary": "З наближенням зими палести в Газі перетворюють пошкоджені горщики для готування у тимчасові дамби, щоб уникнути повеней.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "7f806f4d6ebc196f3a39": {
+      "source_title": "Major tech stocks plunge as US midterms add to fears of AI slowdown",
+      "source_summary": "Markets have been reacting to possible tougher scrutiny of data centre construction and the AI industry following the US midterms.",
+      "language": "en",
+      "title": "Основні технологічні цінні папери зменшуються, коли в США середні іспити додають до страхів перед скороченням Ай-Ай-Ай",
+      "summary": "Ринок реагує на можливу більш детальну перевірку побудови центру даних та промисловість ШІ після проміжних іспитів США.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "ac9ac22bcf1745378a81": {
+      "source_title": "Nasdaq sell-off batters Asian chip stocks as SK Hynix, Samsung, Softbank, TSMC tumble",
+      "source_summary": "Asian technology stocks tumbled Friday, tracking a sharp sell-off on Wall Street overnight that sent the tech-heavy Nasdaq Composite into correction territory.",
+      "language": "en",
+      "title": "Nasdaq продається знешкодження азійських чіпових запасів, як SK Hynix, Samsung, Softbank, TSMC float",
+      "summary": "Азійські технології впали в п'ятницю, відстежуючи різкий продаж на Уолл-стріт за одну ніч, який відправив на корекцію композит з технологічними технологіями Nasdaq.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "f81d9a6f15344d0f73e7": {
+      "source_title": "California governor commutes sentences of more than 500 people on death row",
+      "source_summary": "Gavin Newsom cites state values and flaws in the legal system as he grants largest mass clemency in US history.",
+      "language": "en",
+      "title": "Губернатор Каліфорнії набирає вирок понад 500 осіб у камері смертників.",
+      "summary": "Гевін Ньюсом посилається на державні цінності та недоліки в правничій системі, коли він надає найбільшій критиці мас в історії США.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "2afbe0a37742b380f724": {
+      "source_title": "Democratic socialist defeats incumbent Karen Bass in Los Angeles mayor's race",
+      "source_summary": "The results mean America's two most populous cities - New York and Los Angeles - will be led by democratic socialists.",
+      "language": "en",
+      "title": "Демократичний соціаліст перемагає відповідальну роль Карен Басс у гонках мера Лос - Анджелеса",
+      "summary": "Результатом цього, то демократичні соціалісти очолять два найбільш населених міста в Америці - Нью - Йорк і Лос - Анджелес.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "6050192b65fb2d16a51d": {
+      "source_title": "Could the earliest weakening of the polar vortex on record bring UK snow?",
+      "source_summary": "An unprecedented early weakening of the polar vortex is causing uncertainty amongst experts over the impact it will have on UK weather as Simon King explains.",
+      "language": "en",
+      "title": "Чи може найдавніше ослаблення полярного вихору принести у Великобританії сніг?",
+      "summary": "Безприкладне раннє ослаблення полярного вихору викликає непевність серед фахівців щодо впливу цього явища на погоду у Великобританії, як пояснює Саймон Кінг.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "acbfde134a0c04e9b113": {
+      "source_title": "Hegseth is not under consideration as jockeying begins for Tennessee Senate seat, AP source says - AP News",
+      "source_summary": "Hegseth is not under consideration as jockeying begins for Tennessee Senate seat, AP source says AP News",
+      "language": "en",
+      "title": "Гегсет не враховують того, що змагання починаються для місця сенату Теннессі, як джерело AP каже - AP News",
+      "summary": "Гегсет не враховують того, що змагання починається для сенатів Теннессі, каже AP News, джерело AP",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "89b5f6f07cd9652cf3d4": {
+      "source_title": "Trump signs order preventing future presidents from changing Oval Office",
+      "source_summary": "The order comes after Trump made a series of big changes the Oval Office decor and launched landmark construction projects across Washington.",
+      "language": "en",
+      "title": "Замовлення про порушення правил безпеки, що запобігає зміні овального офісу майбутніх президентів.",
+      "summary": "Після того, як Трумп зробив кілька великих змін, декорація в овальному офісі і проект побудови пам'яток по всьому Вашингтону.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "9991119da1a8bc1e4c93": {
+      "source_title": "Cult.fit builds operational muscle with Codex - OpenAI",
+      "source_summary": "Cult.fit builds operational muscle with Codex OpenAI",
+      "language": "en",
+      "title": "Cult.fit будує придатні м'язи з кодексом - OpenAI",
+      "summary": "Cult.fit будує робочі м'язи з Codex OpenAI",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "109cb891b0f156cf1a66": {
+      "source_title": "LIV and let die: Rival league tells bankruptcy court it will wind down operations - AP News",
+      "source_summary": "LIV and let die: Rival league tells bankruptcy court it will wind down operations AP News",
+      "language": "en",
+      "title": "Лімузин і нехай вмирає: Лігерія каже, що банкрутство буде покривати операції.",
+      "summary": "Лімузин і нехай вмирає: Лігенція каже, що банкрутство буде покривати операції AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "ac381f6199228dac29e0": {
+      "source_title": "Paraguay President Peña under investigation, faces removal from office over bank collapse - AP News",
+      "source_summary": "Paraguay President Peña under investigation, faces removal from office over bank collapse AP News",
+      "language": "en",
+      "title": "Парагвайський президент Пенья під слідством, видалення з бюра над банкрутством - AP News",
+      "summary": "Парагвайський президент Пенья під слідством, видалення з офісу над банкрутством AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "af29ee9a4a9884a81406": {
+      "source_title": "Rosamund Pike Starring in Body Horror Film ‘Feed’ for ‘Star Wars: The Acolyte’ Creator Leslye Headland",
+      "source_summary": "The film will look at \"our obsession with social media and self-improvement\" with the story of an influencer and her mom.",
+      "language": "en",
+      "title": "Розамунд Піке Старпінг у Тіло Горр'юдес за війни: Творець [Аколіта голова]",
+      "summary": "Фільм буде розглядати \"нашу одержимість соціальними медіа та самовдосконаленням\" з історією про впливаючого і її матір.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "ad929875c5a71925cbce": {
+      "source_title": "OpenAI is stepping back from NDAs for data center projects",
+      "source_summary": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data center projects have come under scrutiny for relying on NDAs to hide discussions […]",
+      "language": "en",
+      "title": "OpenAI повертається з NDA для проектів з центру даних",
+      "summary": "Сьогодні, після проміжних виборців, які гучно виступали проти розширення центру даних, OpenAI повідомив про нові зобов' язання спільнотам, де вона працює над проектами центру даних, зокрема, що вона не буде використовувати угоди про нерозголошення (NDAS) з державними чиновниками. Багато проектів з центру даних беруться до уваги, що вони мають право на проведення обговорення з NDA...",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "ebb6db4a8f7c1c461138": {
+      "source_title": "Trump signs proclamation to try to prevent changes to gold-covered Oval Office",
+      "source_summary": "President seeks to make Oval Office a national monument to ensure designs are not ‘ripped down by stupid people’Donald Trump signed a proclamation on Thursday that he says will prevent future administrations from changing his design of the Oval Office and Cabinet Room, spaces which he declared as national monuments that should be preserved.In the days since his party suffered historic defeats in the midterm elections, the president has seemingly turned his attention to the many renovation projects he has begun across the nation’s capital. Sitting behind the Resolute Desk on Thursday, Trump dec",
+      "language": "en",
+      "title": "Знак тремпу, що запобігає зміні в овальному офісі, покритий золотом.",
+      "summary": "Президент намагається зробити Оваль офіс національним пам'ятником, щоб забезпечити проект, не є рівносильним безглуздим людям ♫ Дональд Темп підписав декларацію в четвер, що він стверджує, що не дозволить майбутнім адміністраціям змінити дизайн Овальної канцелярії та палати Кабінету, простори, які він оголосив національними пам'ятниками, які повинні зберігатися. У дні, оскільки його партія зазнала історичних поразок у середині проміжних виборів, здається, президент звернув увагу на багато проектів реконструкції, які він розпочав через столицю нації.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "3b186b1a4937686b85fc": {
+      "source_title": "Israeli settlers set fire to Palestinian olive grove near Ramallah",
+      "source_summary": "Israeli settlers have set fire to olive trees belonging to Palestinian farmers in the village of Burqa, near Ramallah.",
+      "language": "en",
+      "title": "Ізраїльські поселенці підпалили палестинський оливковий гай біля Рамали.",
+      "summary": "Ізраїльські поселенці підпалили оливкові дерева, які належать до палестинських фермерів у селі Бурка, поблизу Рамала.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "84fb227e770ff43f7222": {
+      "source_title": "Blue Origin says it is building a higher-performing rocket engine at 1/4 the cost",
+      "source_summary": "\"This is going to be a game-changer.\"",
+      "language": "en",
+      "title": "Blue Pine каже, що він будує ракетний двигун з вищими цінами за 1/4",
+      "summary": "\"Це змінить гру.\"",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "a091f39b84d6b826a7d1": {
+      "source_title": "Trump takes action to make sure the Oval Office stays oval - Reuters",
+      "source_summary": "Trump takes action to make sure the Oval Office stays oval Reuters",
+      "language": "en",
+      "title": "Трамп вживає заходів, щоб забезпечити, щоб Овальне бюро залишалось овалом - Рейтером.",
+      "summary": "Трамп вживає заходів, щоб переконатися, що Овальне бюро залишається овальнім агентством.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "cf6a238773ad65679343": {
+      "source_title": "Fears of an AI crackdown after midterms spark $2 trillion rout in tech stocks",
+      "source_summary": "Shares sank, with the tech-heavy Nasdaq dropping over 5%, as investors reacted with fear that a Democratic Congress — and states across the country -— would crack down on AI and data centers.",
+      "language": "en",
+      "title": "Страх перед провалом комп'ютера після проміжних іспитів зароджує 2 трильйони доларів проходу в технічних фондах.",
+      "summary": "Спільні ресурси потонули, і технологічний об'єм Насдака сягнув 5%, як інвестори реагували зі страхом, що Демократичний Конгрес ♫ і станів по всій країні ---'що б поглинали центри ШІ та даних.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "e0663f24b5f9f8f61c75": {
+      "source_title": "Turkiye’s parliament ratifies Mecca defence agreement",
+      "source_summary": "Parliament's approval lays the groundwork for further Turkish involvement in Saudi Arabia's conflict with the Houthis.",
+      "language": "en",
+      "title": "Туркийський парламент активізує угоду про Мекку оборону.",
+      "summary": "Ухвалити парламент закладає основу для подальшого втягнення турецької в боротьбу Саудівської Аравії з Гауті.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "236cff811767befd0caf": {
+      "source_title": "Tax measures: Supplementary information | Budget 2026 - Canada.ca",
+      "source_summary": "Tax measures: Supplementary information | Budget 2026 Canada.ca",
+      "language": "en",
+      "title": "Податкові заходи: додаткова інформація} Бюджет 2026 - Канади.ca",
+      "summary": "Податкові заходи: додаткова інформація} Бюджет 2026 Канади.ca",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "81025385c5d05ca66aa5": {
+      "source_title": "Gay Influencer Famed for Dancing in High Heels Faces Middle Age in Nine-Year Taiwan Creative Content Fest Documentary ‘My Silly Flirty Boys’",
+      "source_summary": "A gay influencer in Taiwan who became famous dancing in high heels, and the filmmaker who trained his camera on him for nine years, both stare down middle age in “My Silly Flirty Boys.” The documentary from Taiwan-based Hong Kong filmmaker Frankie Sin is at the Taiwan Creative Content Fest (TCCF) in Taipei. Sin followed […]",
+      "language": "en",
+      "title": "Освітній Ілюстр на Тайвані славиться танцями у високих п'ятках, що стоять перед середнім віком",
+      "summary": "Тайванський імпресіонер, який став відомим танцем на високих підборах, і режисер, який тренував його фотоапарат на ньому протягом дев'яти років, обидва дивляться на середній вік в Тайбеї.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "2a2dee1e1f0d522c44b4": {
+      "source_title": "The New York Times reportedly in talks to buy Letterboxd for $330 million",
+      "source_summary": "Letterboxd, an online platform for movie lovers, has grown dramatically in recent years.",
+      "language": "en",
+      "title": "Кажуть, що Нью - Йоркський час говорить, щоб купити Леттербокс за 330 мільйонів доларів.",
+      "summary": "За останні роки ця онлайн - платформа для любителів кіно надзвичайно зросла.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "5f679abc186bbf22e7e1": {
+      "source_title": "Trump met Russian envoy after he appeared with Melania Trump and Ukrainians",
+      "source_summary": "Trump again said a major Russia-Ukraine deal is 'very close', but gave no specifics.",
+      "language": "en",
+      "title": "Трамп зустрів російського посланця після того, як він з'явився з Меланією Трамп і Українці",
+      "summary": "Трамп ще раз сказав, що велика угода про Росію-Україну є \"дуже близько,\" але не дав конкретної деталі.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "8b33f1382f19de19bb66": {
+      "source_title": "Airbnb is working on an AI travel agent",
+      "source_summary": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or scheduling an appointment,\" Airbnb said. \"But […]",
+      "language": "en",
+      "title": "Airbnb працює на комп'ютерному агенті.",
+      "summary": "Airbnb планує видати агента I у першій половині 2027 року, який допоможе користувачам планувати і подорожувати книгами, компанія сказала, що сьогодні у своєму листі з акціонерами \" Q3 2026\" акціонерів \"Ай-Ай - це прості, звичайні завдання, як, наприклад, зробити резервацію ресторану або планування зустрічі, \"але [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "3880731809dbbf5e7ad5": {
+      "source_title": "The engine parts that 'fight the laws of the universe'",
+      "source_summary": "Investment has surged into the making of jet turbine blades - an extremely difficult component to make.",
+      "language": "en",
+      "title": "Частини двигуна, які \"змагаються законам всесвіту\"",
+      "summary": "Інвестиції вступають у створення реактивних турбінних лез.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "50919d2107ff8b3c81a8": {
+      "source_title": "IRCC to hold media technical briefing on immigration levels - Canada.ca",
+      "source_summary": "IRCC to hold media technical briefing on immigration levels Canada.ca",
+      "language": "en",
+      "title": "IRCC для проведення брифінгів з медіа на рівні імміграції - Канада.ca",
+      "summary": "IRCC для проведення брифінгів з медіа на канадських рівнях імміграції.ca",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "5cc8d795200f1e83dc5e": {
+      "source_title": "Slashing number of police forces in England and Wales is only option, says Met chief",
+      "source_summary": "Mark Rowley calls for ‘revolution’ in policing as major review is expected to propose regional ‘super forces’Police are heading for failure unless the number of forces in England and Wales is slashed, with their ability to catch criminals collapsing and public confidence falling, Britain’s top officer will say on Friday.The stark comments from Sir Mark Rowley, the commissioner of the Metropolitan police, come as some police leaders demand a radical package of reforms. Continue reading...",
+      "language": "en",
+      "title": "За словами керівника Массачусетса, в Англії та Уельсі лише один варіант - бити ряд поліцейських.",
+      "summary": "Марк Роулі закликає до провалу, якщо кількість сил у Англії та Уельсі не перекриється, з їхньою спроможністю спіймати злочинців, а довір'я громадськості падає, британський офіцер у п'ятницю скаже: \"Вищого рангу.\" Точні коментарі від сера Марка Роулі, комісара поліції, приходять, коли деякі поліцейські лідери вимагають радикального пакунку реформ....",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "4d62e703e405ca665bfd": {
+      "source_title": "These are the races in the House and Senate that haven't been called yet",
+      "source_summary": "Democrats are poised to have a strong majority in the upcoming Congress. The final numbers are still being determined. Here's where things stand in the races that are waiting to be called by the AP.",
+      "language": "en",
+      "title": "Це гонки в Домі і Сенат, які ще не були викликані",
+      "summary": "Демократи готові мати сильну більшість на найближчому Конгресі. які будуть називатися АП.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "c3be5729c60de2770991": {
+      "source_title": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
+      "source_summary": "Pope Leo, who had part of a lung removed last month, will visit Uruguay, Argentina and Peru.",
+      "language": "en",
+      "title": "Папа починає довгу подорож до Латинської Америки через кілька тижнів після операції на рак легенів.",
+      "summary": "Папа Лев, у якого минулого місяця видалена легеня, відвідає Уругвай, Аргентину та Перу.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "0e4d5fd14ceb040c6025": {
+      "source_title": "'I was asked if I was a crier': Your worst job interviews revealed",
+      "source_summary": "Bad job interviews can be horrible to experience in the moment, but there is a lot they can teach us about the world of work",
+      "language": "en",
+      "title": "\"Мене запитали, чи я кричив: найгірші інтерв'ю на роботі показали",
+      "summary": "Погане інтерв'ю про роботу може бути жахливим для нас у цей момент, але є багато чого, що вони можуть навчити нас про світ роботи.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "d7ab8a34c701ae8d1332": {
+      "source_title": "Meta, Google, and TikTok sue California AG over teen social media law",
+      "source_summary": "If it goes into effect next year, this California law would restrict social media access for children under 16.",
+      "language": "en",
+      "title": "Мета, Google і TikTok судяться з Каліфорнії через право підлітків на соціальні медіа",
+      "summary": "Якщо наступного року це вступає в дію, цей закон Каліфорнії обмежить доступ до соціальних медіа для дітей до 16 років.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "610f329f1fe6895257a8": {
+      "source_title": "Iran war live: Trump warns US may have to ‘destroy’ rest of Iran",
+      "source_summary": "Trump says the US may have to 'destroy' the rest of Iran, adding that people will 'know soon enough'.",
+      "language": "en",
+      "title": "Іранська війна: Тромп попереджає США, що може бути потрібно спочинок Ірану.",
+      "summary": "Трамп каже, що Сполучені Штати можуть \"знищити\" решту Ірану, додаючи, що люди \"знають досить скоро.\"",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "8591f2d71c6aef1bd951": {
+      "source_title": "Godzilla Minus Zero Ending Explained: Where The Franchise Goes From Here",
+      "source_summary": "Godzilla is back and ready to create all sorts of new havoc is the direct Godzilla Minus One sequel Godzilla Minus Zero. Here's how things play out.",
+      "language": "en",
+      "title": "Годзилла Мінус Нуль Прикінчення Об'ясовано: Звідти йде Франкс",
+      "summary": "Годзилла вернулась и готова создать все типа нового разрушения - прямая \"Гордина Минус Один\" - исключение Годзилии Зеро.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "55795a30c63956829ee4": {
+      "source_title": "Costco is taking aim at its May record high — how it got here and where's it going",
+      "source_summary": "Costco is finally back.",
+      "language": "en",
+      "title": "Коридор бере ціль у своєму травні рекорд найвищої точки ведь як він дістався сюди і куди він іде",
+      "summary": "Коридор нарешті повернувся.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "fce12d9d44ef4b03e40c": {
+      "source_title": "Melania Trump touts rare agreement she brokered between Russia and Ukraine",
+      "source_summary": "The six-day pause from the Russian-occupied city of Oleshky comes as the administration ramps up efforts to secure an agreement to end the war in Ukraine.",
+      "language": "en",
+      "title": "Дуже рідкісний договір про Меланія Трамп Тютюн, яку вона проводжала між Росією та Україною.",
+      "summary": "Шестиденна пауза з російського міста Олескі приходить, коли адміністрація посилює зусилля, щоб забезпечити угоду про припинення війни в Україні.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "03c7b931b4fe99ee2ea3": {
+      "source_title": "Letterboxd Finalizing $330 Million Sale to The New York Times",
+      "source_summary": "A24 was also in the mix to acquire the cinephile social networking site.",
+      "language": "en",
+      "title": "У \" Нью - Йорк таймс \" у \" Нью - Йорк таймс \" заключили 330 мільйонів доларів.",
+      "summary": "А24 був також у суміші, щоб отримати сайт Cinephile в соціальній мережі.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "86c6e9d70bad14a1b507": {
+      "source_title": "Nithya Raman wins LA mayoral race, becoming city’s first South Asian mayor",
+      "source_summary": "DSA-backed Raman will lead the second-largest US city, promising action on homelessness and affordable housing.",
+      "language": "en",
+      "title": "Нітья Раман виграє перегони в Лос-Анжелесі, стаючи містом ♫ Перший мер Південної Азії",
+      "summary": "Расман, взбещенный СА, возглавит вторую большую часть города США, обещающую акцію по по поводу бездомности и доступного квартиры.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "7ad2d3f24420f2354ad0": {
+      "source_title": "The New York Times is in talks to buy Letterboxd for around $330 million",
+      "source_summary": "The New York Times Company is in talks\"exclusive negotations\" to acquire Letterboxd, the social network for film lovers, for around $330 million, The New York Times reports. The Times Company, Sony Pictures Entertainment, and A24 were all recently rumored to be among those interested in buying Letterboxd. The negotiations with the Times Company have included […]",
+      "language": "en",
+      "title": "Нью-Йорк Таймс виступає в виступах, щоб купити \"Літербокс\" за близько 330 мільйонів доларів.",
+      "summary": "Компанія \"Нью- Йорк таймс\" говорить про \"виключені нелогії,\" щоб придбати \"Летербокт,\" соціальну мережу для любителів фільмів, приблизно 330 мільйонів доларів, повідомляє газета \" Нью - Йорк таймс .\" Компанія \"Таймс,\" Sony Pictures Розваги та A24 - всі нещодавно були чутки про те, що цікавилися купівлею \"Літербокед.\" До переговорів з компанією Times включали [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "1d80edceae5c660b896e": {
+      "source_title": "EXCLUSIVE: AI backlash could threaten Anthropic IPO timing, potential investors say - Reuters",
+      "source_summary": "EXCLUSIVE: AI backlash could threaten Anthropic IPO timing, potential investors say Reuters",
+      "language": "en",
+      "title": "AI respectus МОЖЛИВО загрожувати антропічним IPO-часовим термінам, потенційні інвестори кажуть - Reuters",
+      "summary": "AI backvash може загрожувати антропічного часу IPO, потенційні інвестори кажуть Рейтер",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "de01d79b7f4d09c8c089": {
+      "source_title": "Midterm Election Results (Live Updates): Democrat Ousts Lawler In New York—43rd GOP House District Flipped - Forbes",
+      "source_summary": "Midterm Election Results (Live Updates): Democrat Ousts Lawler In New York—43rd GOP House District Flipped Forbes",
+      "language": "en",
+      "title": "Послідовні результати виведення жовтих газів (Live updates): демократи Законодавець у Нью - Йорку +43rd GOP House Ocle - Forbs",
+      "summary": "Послідовні результати виведення жовтих газів (Live updates): Законодавець демократів у Нью- Йорку +43rd GOP House Віддзеркалив Форбс",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "ef4132a4a9d3ee4a7ff0": {
+      "source_title": "Renewed refinery attacks deplete Russian diesel supply as US deal in focus - Reuters",
+      "source_summary": "Renewed refinery attacks deplete Russian diesel supply as US deal in focus Reuters",
+      "language": "en",
+      "title": "Американське агентство з питань переобладнання, що деплемінує російські дизельні постачання, сконцентроване на переобладнанні, - Reuters",
+      "summary": "Реабілітаційні газовані атаки вичерпують запаси російського дизельного газу, коли США розробляє справу у фокусі Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "0767c0e241a7071566ce": {
+      "source_title": "Trump meets with top Putin envoy at the White House — but not visiting Ukrainian officials - AP News",
+      "source_summary": "Trump meets with top Putin envoy at the White House — but not visiting Ukrainian officials AP News",
+      "language": "en",
+      "title": "Трамп зустрічається з верхнім посланцем Путіна у Білому Домі, але не відвідує українських чиновників - AP News",
+      "summary": "Трамп зустрічається з верхнім посланцем Путіна у Білому Домі, але не відвідує українських чиновників з AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "8660be8db293032c3df3": {
+      "source_title": "A safe and sovereign Canada - Canada.ca",
+      "source_summary": "A safe and sovereign Canada Canada.ca",
+      "language": "en",
+      "title": "Безпечна й суверенна Канада - Канада.ca",
+      "summary": "Безпечна і суверенна Канада.ca",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "3804be9bdc929bb3d8e5": {
+      "source_title": "How North Carolina Democrats flipped several House seats in historically GOP districts",
+      "source_summary": "All of these seats were in districts redrawn in 2023 to favor Republican candidates.",
+      "language": "en",
+      "title": "Як демократи Північної Кароліни перекинули кілька місць у історичних округах",
+      "summary": "Всі ці місця були в районах, перемальовані у 2023 році, щоб підтримати республіканських кандидатів.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "783288ff5f56ea8b7972": {
+      "source_title": "Three in four displaced people live in climate danger zones, UN says",
+      "source_summary": "Nearly 90 million forcibly displaced people, or three-quarters of the global total, live in countries highly exposed to climate hazards, the UN refugee agency said on Friday, urging action ahead of the COP31 climate summit in Turkey. It said droughts, floods and extreme heat were making lasting solutions harder to find.",
+      "language": "en",
+      "title": "За даними ООН, три з чотирьох переміщених людей живуть у зонах кліматичної небезпеки.",
+      "summary": "Близько 90 мільйонів примусово переміщених людей, або три четвертих загальної кількості населення, живуть у країнах, які дуже наражаються на кліматичні небезпеки, а агентство ООН для біженців у п'ятницю запропонувало просувати дії попереду кліматичного саміту COP31 в Туреччині.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "60271e881dc25145a9ed": {
+      "source_title": "Trump raises prospect of 'big, beautiful' Russia-Ukraine deal",
+      "source_summary": "US President Donald Trump said the Ukraine war was close to being settled and that ending it might involve \"all of Europe.\"",
+      "language": "en",
+      "title": "Трамп підвищує перспективи \"Великої, прекрасної\" угоди про Росію-Україну",
+      "summary": "Президент США Дональд Трамп сказав, що Україна майже залагодить війну, і що її кінець може включати \"вся Європа.\"",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "67f32b56a358a64f0c42": {
+      "source_title": "How major US stock indexes fared Thursday 11/5/2026 - AP News",
+      "source_summary": "How major US stock indexes fared Thursday 11/5/2026 AP News",
+      "language": "en",
+      "title": "Як великі індекси акції США досягли четвер 11/5/2026 - AP News",
+      "summary": "Як великі індекси акції США перевершили індекси AP 11/5/2026",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "e8d763cd295efe30c839": {
+      "source_title": "Jim Cramer explains why no AI stock seems safe from the market carnage",
+      "source_summary": "CNBC’s Jim Cramer said AI stocks are becoming increasingly difficult to value.",
+      "language": "en",
+      "title": "Джим Крамер пояснює, чому акції комп'ютерного інтелекту не є безпечними від різанини на ринку.",
+      "summary": "За словами Джима Крамера, акції комп'ютерних технологій стають дедалі важчими.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "a3dadbea756c2a7f6129": {
+      "source_title": "Neocloud IREN says $4 billion in annualized revenue being delayed due to customer request",
+      "source_summary": "Following a dramatic plunge in its stock price, IREN said some revenue is being delayed from 2026 until early next year.",
+      "language": "en",
+      "title": "Неохмарна ІРЕН каже, що 4 мільярди доларів прибутку затримується через запит клієнтів.",
+      "summary": "Після стрімкого падіння ціни на акції IREN сказав, що деякий дохід затримується з 2026 до початку наступного року.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "3a3382bdbb1f554fbd6e": {
+      "source_title": "Budget 2026 - Canada.ca",
+      "source_summary": "Budget 2026 Canada.ca",
+      "language": "en",
+      "title": "Бюджет 2026 - Канада.ca",
+      "summary": "Бюджет 2026 Канади.ca",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "feec382b4b464a6b6500": {
+      "source_title": "Trump says he met Putin envoy, sees Ukraine deal soon - Reuters",
+      "source_summary": "Trump says he met Putin envoy, sees Ukraine deal soon Reuters",
+      "language": "en",
+      "title": "Трамп каже, що зустрів Путіна, побачить угоду України - Рейтер.",
+      "summary": "Трамп каже, що зустрів Путіна, побачив, що Україна домовляється про справу незабаром Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "0768eef6b7ffa16e8e0b": {
+      "source_title": "Israel’s Election Ended With No Clear Winner. These Parties Are Trying to Form a Coalition.",
+      "source_summary": "President Isaac Herzog wrapped up two days of talks with party leaders by saying he will ask one of them on Sunday to try to assemble a governing coalition.",
+      "language": "en",
+      "title": "Ізраель закінчується \"Ель\" Незакінченим переможцем.",
+      "summary": "Президент Ісаак Герцоґ обгорнув два дні розмов з лідерами партії, сказавши, що запросить одного з них у неділю спробувати зібрати керівну коаліцію.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "80931f0fbfb96d9c6cf8": {
+      "source_title": "Jim Cramer says the AI sell-off isn't over, but it isn't another dot-com crash",
+      "source_summary": "Cramer warned that the sell-off in AI stocks likely has further to run.",
+      "language": "en",
+      "title": "Джим Крамер говорит, что продажи ШІ не закончились, но это не просто авария дотком.",
+      "summary": "Крамер предупреждал, что продаж в акций ШІ, скорее всего, ещё больше устраивается.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "4d9293c26691393ae6df": {
+      "source_title": "T-Mobile owner on Elon Musk launching a wireless carrier: ‘Welcome to the party’",
+      "source_summary": "The head of T-Mobile's parent company is casting doubt on SpaceX's plans to make Starlink Mobile a \"major\" carrier in the US. During an earnings call on Thursday, Deutsche Telekom CEO Tim Höttges says he takes the Elon Musk-owned company \"super serious,\" but that it will cost at least $200 billion to pull off: He […]",
+      "language": "en",
+      "title": "Власник T-Mobile на Elon Musk запускає бездротовий авіаносець:",
+      "summary": "Голова батьківської компанії T- Mobile ставить під сумнів плани SpaceX зробити Starlink Мобільний в США носієм \" major \" у Сполучених Штатах. Під час виклику заробітку у четвер, директор Тім Хютґеса Дойтше сказав, що він візьме фірму \" супер серйозно \" для компанії \" Елон Мюск ,\" але що це коштуватиме щонайменше 200 мільярдів доларів для від' єднання: He [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "2a46dc0a00e65778f588": {
+      "source_title": "Delhi's toxic winter air is back - is the Indian capital prepared for pollution?",
+      "source_summary": "The Delhi government has announced a four-month winter action plan, but experts say that won't be enough.",
+      "language": "en",
+      "title": "Отруйне зимове повітря Делі повертається - чи індійська столиця приготовлена для забруднення?",
+      "summary": "Уряд Делі оголосив чотиримісячний план дій за зимою, але експерти кажуть, що цього буде недостатньо.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "a3c1afa043d5d02b0ecc": {
+      "source_title": "Taiwan’s Content Agency Chief Sue Wang Puts IP Commercialization at Center of Strategy",
+      "source_summary": "Sue Wang, chair of the Taiwan Creative Content Agency (TAICCA), says Taiwan’s content industry should make IP development and commercialization its top priority. “The challenge is not simply whether we can create good content, but whether companies have the capabilities and business models to turn creative ideas into sustainable revenue, build scalable businesses, and reach […]",
+      "language": "en",
+      "title": "Treat's \"? Agency Key Sieve Wang puts IP Commercification in center of Стратегія",
+      "summary": "Сью Ванг, стілець Тайванського агентства з виробництва вмісту (TAICCA), говорить Тайвань, що індустрія контенту повинна зробити розвиток IP та комерціалізацію пріоритетом. ' Це не просто те, чи можемо ми створити хороший зміст, а те, чи мають компанії можливості і бізнес-моделі, щоб перетворити творчі ідеї на стабільні прибутки, побудувати масштабовані підприємства і досягти [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "b6cc61adf7e9fb2bd3e3": {
+      "source_title": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
+      "source_summary": "Certain configurations of Alpine are affected. Other distros may be as well.",
+      "language": "en",
+      "title": "Познайомтеся з *shole, вразливістю, яка дозволяє хакерам SSH проникати у пристрої Linux",
+      "summary": "Це впливає на деякі альпійські конфігурації.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "ffff2886fc4b1906ffc9": {
+      "source_title": "California governor commutes sentences for state's 548 death row inmates",
+      "source_summary": "California has historically had the largest population of people on death row in the US.",
+      "language": "en",
+      "title": "Губернатор Каліфорнії набирає вирок за 548 в'язнів смертного ув'язнення в штаті.",
+      "summary": "У Каліфорнії було найбільше населення, яке мало смертний вирок у США.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "f442fcbcdfc1cbf01748": {
+      "source_title": "Paraguay's Peña resigns as bank collapse triggers political crisis - Reuters",
+      "source_summary": "Paraguay's Peña resigns as bank collapse triggers political crisis Reuters",
+      "language": "en",
+      "title": "\" Пенья Парагваю \" виходить з ужитку, коли банкова криза викликає політичну кризу - Рейтер.",
+      "summary": "Пенья Парагваю виходить з ужитку, коли банкова банкова криза викликає політичну кризу Рейтер",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "05a34e28e537e1ebb5da": {
+      "source_title": "Midterms upended Congress but Trump still commands foreign policy - Reuters",
+      "source_summary": "Midterms upended Congress but Trump still commands foreign policy Reuters",
+      "language": "en",
+      "title": "Конгрес в середині періоду, але Трамп все ще керує зовнішньою політикою - Рейтер.",
+      "summary": "Конгрес в середині періоду, але Трамп все ще керує іноземними політиками Рейтер",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "d81b0b3a246ae8235e64": {
+      "source_title": "Russia and Ukraine exchange airstrikes as US envoy describes renewed security talks as productive - AP News",
+      "source_summary": "Russia and Ukraine exchange airstrikes as US envoy describes renewed security talks as productive AP News",
+      "language": "en",
+      "title": "Російська та Україна обмінюються повітряними драйвами, коли американський посланець називає відновлені програми безпеки реалізаціями - новин про про продуктивне AP",
+      "summary": "Російська та Україна обмінюються авіастрийками, коли американський посланець називає відновлені програми безпеки продуктивними новинами АС",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "d091da75561168d497d1": {
+      "source_title": "EXCLUSIVE: Silver Lake, PIF have held recent talks to buy gaming software provider Unity, sources say - Reuters",
+      "source_summary": "EXCLUSIVE: Silver Lake, PIF have held recent talks to buy gaming software provider Unity, sources say Reuters",
+      "language": "en",
+      "title": "Срібне озеро, ПІК проводить недавні промови, щоб купити \" Юніон ігрового програмного забезпечення ,\" як каже Рейтер.",
+      "summary": "Срібне озеро, ПІК проводить недавні промови, щоб купити Юніон провайдерів комп'ютерного програмного забезпечення, каже Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "347f51b78e1823dc6790": {
+      "source_title": "Trump says Oval Office to become national monument - Reuters",
+      "source_summary": "Trump says Oval Office to become national monument Reuters",
+      "language": "en",
+      "title": "Трамп говорить, що Овальне бюро стане національним пам'ятником - Рейтер.",
+      "summary": "Трамп говорить, що Овальне бюро стане національним агентством Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "98edc7ccb5c146968910": {
+      "source_title": "Why ASMR Invaded the Soundscape of ‘La Bola Negra’",
+      "source_summary": "Supervising sound editors Alejandro López and Anna Harrington tell IndieWire about using sound to toggle between timelines in 'La Bola Negra.'",
+      "language": "en",
+      "title": "Чому ASMR зачарувала Soundscape ся Бола Негра",
+      "summary": "Наглядати за звуковими редакторами Алехандро Лопез і Анна Гаррінгтон кажуть Інді-Вієр про використання звуку для перемикання між часовими лініями у \"La Boola Negra.\"",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "60e0cdcb036cddfd33ec": {
+      "source_title": "NASA unveils mysterious X-70 experimental aircraft using AI-generated image",
+      "source_summary": "NASA’s X-70 Fractal announcement comes as agency aims to grow X-plane fleet.",
+      "language": "en",
+      "title": "NASA відкриває таємничий дослідницький літак X-70 за допомогою створеного комп' ютерним інтерфейсом зображення",
+      "summary": "НАСА проголошує X-70 Fractal, як агентства, мета якого - збільшити флот для X-планів.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "5ae2a1133405a975f4e5": {
+      "source_title": "West Bank: Palestinians harvest olives under Israeli military restrictions",
+      "source_summary": "Palestinian farmers in the occupied West Bank have been allowed limited access to their olive groves under Israeli military restrictions. Many found damaged trees, while soldiers fired tear gas near the harvest.",
+      "language": "en",
+      "title": "Західний банк: Палестина збирає оливки під військовими обмеженнями Ізраїлю.",
+      "summary": "Палестинські фермери в окупованому Західному банку мали обмежений доступ до оливкових гаїв під забороною ізраїльського війська.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "d97de440ab69ecff506a": {
+      "source_title": "Zelenskiy says Ukraine must adapt to new US political realities, solve Patriot air defence issue - Reuters",
+      "source_summary": "Zelenskiy says Ukraine must adapt to new US political realities, solve Patriot air defence issue Reuters",
+      "language": "en",
+      "title": "Зеленський каже, що Україна повинна адаптуватися до нових політичних реалій США, розв'язати проблему патріотичного повітряного захисту - Рейтер.",
+      "summary": "Зеленський каже, що Україна повинна адаптуватися до нових політичних реалій США, розв'язати проблему захисту повітряного флоту Патріота",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "17b57e4655701f14b981": {
+      "source_title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+      "source_summary": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
+      "language": "en",
+      "title": "Airbnb каже, що вона йде на перевізник ШІ в першій половині 2027 року.",
+      "summary": "Аероб каже, що його найближчий агент ШІ допоможе мандрівникам планувати подорожі, порівнювати варіанти, керувати замовленнями та отримувати допомогу протягом перебування.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "715f3ca6f466da7e8337": {
+      "source_title": "Keanu Reeves Set to Return as John Wick in Animated Prequel Movie",
+      "source_summary": "Break out the nunchucks because Keanu Reeves has officially closed a deal to return as John Wick in Lionsgate’s animated prequel movie about the legendary hitman. As previously announced, the story recounts the origins of Wick as he completes the Impossible Task — the killing of all of his rivals in one night — to […]",
+      "language": "en",
+      "title": "Kenu Reeves Return as John Wick in Aнімований фільм Prequel",
+      "summary": "Як було раніше оголошено, історія говорить про походження Вайка, коли він завершує \"Неможливий завдання\": вбивство всіх своїх суперників за одну ніч до [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "5d7427350e81f87516f4": {
+      "source_title": "Firms told to publish salaries in job adverts ahead of new law",
+      "source_summary": "The government argues the change will help jobseekers and could help to prevent pay discrimination.",
+      "language": "en",
+      "title": "Фірми наказали друкувати платні на робочому місці вище нового закону.",
+      "summary": "Уряд доводить, що ці зміни допоможуть шукачам роботи та відвернути дискримінацію.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "0c2539d4efca98cebc93": {
+      "source_title": "Elon Musk's Tesla and SpaceX lose over $420 billion in combined market cap after midterms",
+      "source_summary": "Elon Musk's Tesla and SpaceX lose $420 billion in combined market cap after midterms",
+      "language": "en",
+      "title": "Тесла і SpaceX Елона Мюска втрачають понад 420 мільярдів доларів на ринку після проміжних виплат",
+      "summary": "Тесла і SpaceX Елона Мюска втрачають 420 мільярдів доларів у об'єднаній ринковій капіталі після проміжних виплат.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "251f9d966bdec298ea5f": {
+      "source_title": "Latinos, motivated by immigration and economic woes, drive Democratic gains in Republican strongholds - Reuters",
+      "source_summary": "Latinos, motivated by immigration and economic woes, drive Democratic gains in Republican strongholds Reuters",
+      "language": "en",
+      "title": "Латинос, спонуканий імміграцією та економічними проблемами, робить демократи набувають у республіканських твердинях - Рейтер.",
+      "summary": "Латинос, спонуканий імміграцією та економічними проблемами, робить демократи здобутками в республіканських фортецях Рейтер",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "2165b65a40c289be1bb3": {
+      "source_title": "Perplexity launches its own take on AI agents for work",
+      "source_summary": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use. Teammates integrate with Perplexity Computer, an AI system that can deploy agents on your device […]",
+      "language": "en",
+      "title": "Упертість розпочинається самостійно, наймаючи агентів комп'ютерного інтелекту для роботи.",
+      "summary": "Ввічливість набуває чинності у OpenAI і Anthropic з власними агентами комп' ютерного забезпечення, які зосереджуються на роботі. Нові супутники запуску завжди можуть виконувати декілька ролей у робочому просторі, а також залучати існуючі проекти, навички і пам' ять з інструментів, які ви вже використовуєте. Групові учасники інтегровано з комп' ютером цілісності, системою комп' ютерного гравця, яка може втілювати агентів на ваш пристрій [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "14f4516ac2dea60756ba": {
+      "source_title": "‘I Play Rocky’ Review: He’s a Champion",
+      "source_summary": "The movie follows Sly (a charming Anthony Ippolito) from hard-scrabbling anonymity in New York to the first flush of success as a screenwriter and actor.",
+      "language": "en",
+      "title": "Він є чемпіоном",
+      "summary": "Фільм слідує за Слі (чарівним Ентоні Іпполіто) від важкої анонімності в Нью-Йорку до першого злиття успіху сценариста та актора.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "1c482a946a334635d5e2": {
+      "source_title": "Godzilla Minus Zero Has Two Cameos Only Hardcore Franchise Fans Noticed",
+      "source_summary": "Godzilla Minus One contains two cameos from people that truly only the most hardcore kaiju movie nerds (complimentary) would recognize.",
+      "language": "en",
+      "title": "Годзилла Нуль Мінус Два камеї тільки твердий франзюзам помічено",
+      "summary": "Годзилла Мінус Один містить два камеї від людей, які дійсно є найжорстокішими кіно-занудаками з кеіджу (компліментаторами) будуть впізнавати.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "53759dbee689be1317ad": {
+      "source_title": "Nvidia's Huang is asked to brief Congress on reported Chinese spy relationship",
+      "source_summary": "President Donald Trump was briefed about a year ago about those intelligence findings, The New York Times reported.",
+      "language": "en",
+      "title": "Хуанг Нвідії проситься на короткий конгрес про звітні зв'язки із шпигунами з Китаю.",
+      "summary": "Приблизно рік тому президент Дональд Трамп проаналізував результати цих досліджень, повідомляє газета \" Нью - Йорк таймс .\"",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "7c3ea55352424eaa7ab5": {
+      "source_title": "Blue Origin's New Glenn launch delay will continue into 2027",
+      "source_summary": "Repairs have been slow after an explosion earlier this year.",
+      "language": "en",
+      "title": "Нова затримка запуску Glenn продовжуватиметься до 2027 року",
+      "summary": "Після вибуху цього року ремонт був повільний.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "c1bfb98653768720933a": {
+      "source_title": "Salon is shutting down after 31 years",
+      "source_summary": "Salon launched 31 years ago as one of the first online-only news magazine outlets, and it announced today in an unsigned post that it's ceasing publication. The company said that the \"business realities of independent digital journalism have changed profoundly over the years,\" and it decided that its publishing model is \"no longer sustainable.\" It […]",
+      "language": "en",
+      "title": "Салон закривається через 31 рік",
+      "summary": "Салон запустив 31 рік тому як один з перших випусків новин в Інтернеті, і він оголосив сьогодні в непідписаному пості, що він припиняється.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "9d03802eea292f7a8ed0": {
+      "source_title": "Shotgun attacker kills 8 across 3 sites in western Turkey before capture - AP News",
+      "source_summary": "Shotgun attacker kills 8 across 3 sites in western Turkey before capture AP News",
+      "language": "en",
+      "title": "Нападник вогнепальної зброї вбиває 8 по 3 місцях на заході Туреччини перед тим, як зловити новини з AP",
+      "summary": "Нападник вогнепальної зброї вбиває 8 по 3 місцях на заході Туреччини перед тим, як захопити AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "cebc638928636479ac16": {
+      "source_title": "Budget 2026: Masters of our destiny - Canada.ca",
+      "source_summary": "Budget 2026: Masters of our destiny Canada.ca",
+      "language": "en",
+      "title": "Бюджет 2026: Майстри нашої долі - Канада.ca",
+      "summary": "Бюджет 2026: Майстри нашої долі Канада.ca",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "f6c87935e2a769199fd1": {
+      "source_title": "Fox News suffers ratings drop on bleak election night for Republicans",
+      "source_summary": "News channel trailed NBC and ABC, but edged out CNN, MS Now and CBS in primetime hours on midterm election nightQ&A: Ask your questions about Democrats’ win in the midtermsOn a midterm election night that was a huge disappointment for Republicans, with Democrats taking control of the US House and Senate, the country’s most prominent conservative television network seemingly felt the brunt of viewer disillusionment with Donald Trump and his party, according to final audience numbers released on Thursday.The Fox News channel, which often leads among all news networks in viewership on election ni",
+      "language": "en",
+      "title": "Fox News страждає від зниження рейтингу похмурої ночі виборів для республіканців",
+      "summary": "Канал новин пройшов NBC і ABC, але з'явився CNN, MS зараз і CBS у прайм-години в середині виборів в нічний вечір +А: Запитайте ваші питання про демократів, що виграють у середині проміжних виборів, що було великим розчаруванням для республіканців, з демократами, що беруть контроль над домом та сенатом США, країна ♫ найбільш відома консервативна телемережа, здається, відчувався ударом переглядача з Дональдом Трампом і його партією, відповідно до кінцевої кількості відвідувачів, випущених у четвер. Канал Fox News, який часто веде між усіма новинами на виборах під час виборів.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "97c31be7ee3847331194": {
+      "source_title": "Supplementary Information for the 2027-2029 Immigration Levels Plan - Canada.ca",
+      "source_summary": "Supplementary Information for the 2027-2029 Immigration Levels Plan Canada.ca",
+      "language": "en",
+      "title": "Додаткова інформація для 2027-2029 рівнів Імміграції План - Канада.ca",
+      "summary": "Додаткова інформація для 2027-2029 рівнів Імміграції План Канади.ca",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "e0272f10e3478250eda4": {
+      "source_title": "Sony revives the original Walkman headphones, adds USB-C",
+      "source_summary": "Orange ear cushions included.",
+      "language": "en",
+      "title": "Sony відновлює початкові навушники Walkman, додає USB-C",
+      "summary": "Вушні подушки теж помаранчі.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "f1cd5e7b8dc40cc2c99c": {
+      "source_title": "The midterms proved once and for all that X is not real life",
+      "source_summary": "A week before the midterm elections, Vice President JD Vance hosted a town hall in Texas with Fox News host Jesse Watters. It was a friendly event with a friendly audience in what should have been a friendly state, and maybe that's why Vance couldn't help himself. When a college student earnestly asked how the […]",
+      "language": "en",
+      "title": "Посередні етапи доказали один раз і на все те, що Х - це не справжнє життя.",
+      "summary": "За тиждень до проміжних виборів віце-президент ДжейД Ванс організував ратуш у Техасі залу \"Фокс ньюсз.\" це була привітна подія з привітною аудиторією у дружній ситуації, і, можливо, саме тому Ванс не зміг допомогти собі.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "467327eb81e4fff3dd4a": {
+      "source_title": "Matt Damon Nearly Starred in ‘Ted’ but ‘I Talked Myself Out of It’: ‘I Don’t Know What I Was Thinking’",
+      "source_summary": "Matt Damon still can’t get “Ted” out of his head. Damon confirmed he passed on starring in the 2012 comedy as the foul-mouthed teddy bear’s best friend, John, who was later played by Mark Wahlberg “I don’t want to live with the regret, but I can tell you that I passed on ‘Ted’ and I’ve […]",
+      "language": "en",
+      "title": "Метт Деймон майже зістарився в \"Тіде,\" але він вийшов з неї:",
+      "summary": "Мат-Дей все ще не може отримати \"Ті дзюрчання\" з голови. що він пройшов під час зоряного циклу в комедії 2012 року, як \"тук з нюкомом\" означає \"найкращий друг, Іван,\" якого пізніше зіграв Марк Вахлберг. Я не хочу жити з каяттям, але я можу сказати, що я пройшов повз \"Тід\" і \"Ів\" [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "36917c8a5b377b5317a2": {
+      "source_title": "Spain: Zelensky urges Latin America to help repair Ukraine's power grid",
+      "source_summary": "Ukrainian President Volodymyr Zelensky has appealed to Spain and Latin American countries for urgent help repairing Ukraine's damaged energy infrastructure. He also met King Felipe VI during the Ibero-American Summit in Madrid.",
+      "language": "en",
+      "title": "Іспанія: Зеленський закликає Латинську Америку допомогти відновити енергосистему України.",
+      "summary": "Український президент Володимир Зеленський звернувся до Іспанії та країн Латинської Америки за нагальною допомогою у полагодженні пошкодженої енергетичної інфраструктури України.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "8d135c45d30ce6c48f06": {
+      "source_title": "Generation Z and young voters help redefine US politics after midterms",
+      "source_summary": "Melat Kiros becomes the first Generation Z woman elected to Congress, embodying a new era of political representation.",
+      "language": "en",
+      "title": "Покоління Z і молоді виборці допомагають переосмислити політику США після проміжних виборців",
+      "summary": "Мелат Кірос стає першою жінкою, обраною на Конгрес, яка втілює нову еру політичного представництва.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "3cabc61b82de91a0a946": {
+      "source_title": "Trump says he met Putin envoy Dmitriev - Reuters",
+      "source_summary": "Trump says he met Putin envoy Dmitriev Reuters",
+      "language": "en",
+      "title": "Трамп каже, що зустрів посла Путіна Дмітрієва - Рейтера",
+      "summary": "Трамп каже, що зустрів посла Датіна Дмітрійєва Рейтера.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "30dc79f7cea16241f6f9": {
+      "source_title": "South Africa’s ANC on track for new lows in local polls",
+      "source_summary": "The ANC was on about 32 percent of the vote with more than 60 percent of votes counted in municipal elections.",
+      "language": "en",
+      "title": "Південно - Африканська Республіка (ACC) на трасі для нових занижень у місцевих опитуваннях",
+      "summary": "У Національному центрі з'явилося 32 відсотки голосів, на які нараховувалось понад 60 відсотків голосів.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "7287e02cd92e797da3ca": {
+      "source_title": "2027 Oscar Predictions: ‘The Odyssey’ Hits the Campaign Trail, ‘You Can See Everything’ Loses DGA Eligibility and Zendaya Makes Her Move",
+      "source_summary": "Variety Awards Circuit section is the home for all awards news and related content throughout the year, featuring the following: the official predictions for the upcoming Oscars, Emmys, Grammys and Tony Awards ceremonies, curated by Variety chief awards editor Clayton Davis. The prediction pages reflect the current standings in the race and do not reflect personal preferences for any individual […]",
+      "language": "en",
+      "title": "2027 Оскар передбачення: ♫ Одіссея йде на наступ кампанії, ♫ Ви можете бачити все ♫ DAGA Eligthy і Zendaya робить її рух",
+      "summary": "Розмаїття об' єктів об' єму - це місце для всіх нагород за новини та пов' язані з ними дані протягом року, на якому показано такі: офіційні прогнози на майбутнє Оскара, Емміса, Грамміса та Тоні Ардера, які було організовано редактором різних нагород Клейтоном Дейвісом. Сторінки прогнозування відображають поточні позиції у перегонах і не відображають особистих уподобань для будь- якої особи [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "60b96da2bd9fa16579ef": {
+      "source_title": "Spanish footballer Jesus de Miguel mourned by family and friends",
+      "source_summary": "The 30-year-old striker suffered cardiac arrest following an on-field collision.",
+      "language": "en",
+      "title": "Іспанський футболіст Ісус де Мігель оплакував від родини та друзів.",
+      "summary": "30-річний ударник отримав зупинка серця після зіткнення на землі.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "c73a8421f0de0a7da639": {
+      "source_title": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+      "source_summary": "Google is technically offering schools more choice but not the choices anyone wants.",
+      "language": "en",
+      "title": "Google: Школи можуть продовжувати пошук під час пропуску Gemini, але пошук у AI не є доступним для обговорення",
+      "summary": "Технически Google предлагает школы больше выбора, но не выбор, который кто-то хочет.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "d9d963c628b2651a9ec3": {
+      "source_title": "Paraguay’s President, Santiago Peña, Quits Amid Ueno Bank Scandal",
+      "source_summary": "The president of the South American nation, Santiago Peña, has apologized for failing to prevent its worst financial crisis in decades.",
+      "language": "en",
+      "title": "Парагвай на чолі, Сантьяго Пенья, виходить з уено-Бланк Скандал",
+      "summary": "Президент Південноамериканської країни Сантьяго Пенья вибачився за те, що не зміг запобігти найгіршій фінансовій кризі за останні десятиліття.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "924aa79a024fe390f44f": {
+      "source_title": "Ads in Chatbots Have Arrived. Here’s What’s Working—and What’s Not",
+      "source_summary": "As Anthropic maintains its vow to keep ads out of Claude, the rest of the AI chatbot industry is racing to win over advertisers without antagonizing users.",
+      "language": "en",
+      "title": "Прийшла Ads in Chatbots. Тут ми бачимо, що відбувається і що не має значення",
+      "summary": "Антропія дотримує свою обітницю не рекламувати Клода, і решта індустрії чат - протеїстів, яка працює ШІ, намагається перемогти рекламодавців, не вдаючись до ворожих користувачів.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "24df13bc1a3f4760bbf8": {
+      "source_title": "Building a stronger Canada through a well-managed, predictable immigration system - Canada.ca",
+      "source_summary": "Building a stronger Canada through a well-managed, predictable immigration system Canada.ca",
+      "language": "en",
+      "title": "Будівництво сильнішої Канади через добре керовану, передбачувану систему імміграції - Канаду.",
+      "summary": "Будівництво сильнішої Канади через добре керовану, передбачувану іміграційну систему Канади.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "68f28f8ac5aefaa6a35b": {
+      "source_title": "Finland Sends 2 Men to Prison for Damaging Undersea Cable in Baltic Sea",
+      "source_summary": "A Finnish court convicted the captain and boatswain of a cargo ship of aggravated criminal damage in relation to an incident last year in the Gulf of Finland.",
+      "language": "en",
+      "title": "Фінляндія відправляє 2 чоловіків до в'язниці за розсадник підводного каучуку в Балтійському морі",
+      "summary": "Фінський суд визнав капітана та судноплавця винним у тому, що минулого року у Фінландській затоці стався нещасний випадок.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "0de762b0b4572a23b38a": {
+      "source_title": "Israeli demolitions displace more than 100 Palestinians in Biddu",
+      "source_summary": "Israeli forces demolished five homes in Biddu, occupied West Bank, displacing more than 100 people.",
+      "language": "en",
+      "title": "Ізраїльські знесення на територію Біду витіснили понад 100 палестинців.",
+      "summary": "Ізраїльські війська зруйнували п'ять домів у Біду, окупували Західний берег, і забрали понад 100 чоловік.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "f4b1800f2a8f4a9632da": {
+      "source_title": "Midterm Election Results (Live Updates): Democrats Win A Montana Seat—36th House District Flipped - Forbes",
+      "source_summary": "Midterm Election Results (Live Updates): Democrats Win A Montana Seat—36th House District Flipped Forbes",
+      "language": "en",
+      "title": "Результати середнього ельфу (Live Revelations): демократи Win A Montana Seet} 36th House Sliped - Fubs",
+      "summary": "Результати середньострокових ельфів (Live updates): демократи Win A Montana Seet} 36th House Sliped Forbs",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "780fa745ea7bbad8888d": {
+      "source_title": "Keanu Reeves' Constantine 2 Could Be Dead After A Major DC Studios Development",
+      "source_summary": "DC Studios is working on a film about comic book character John Constantine. What does that mean for Keanu Reeves' long-brewing sequel?",
+      "language": "en",
+      "title": "Костянтина 2 Квану Рівса можна було б померти після того, як розробляється велика судова студія.",
+      "summary": "DC Studios працює над фільмом про символ коміксу \" Джон Костянтин .\" Що це означає для Kenu Reeves довголисного продовження?",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "b8c3ae5b5d869724d2a5": {
+      "source_title": "Perspective Films Reveals Inaugural Documentary Film Slate (EXCLUSIVE)",
+      "source_summary": "Perspective Films, a new documentary co-production initiative led by independent producer Jess Devaney, has unveiled its inaugural slate of films, Variety can report exclusively. The subjects of Perspective’s first five documentaries include the clash between federal immigration enforcement and the citizens of Minneapolis, the war in Gaza and the invention of C-SPAN. “Every story on […]",
+      "language": "en",
+      "title": "Плівки з перспективою відкривають інаугурований документ \" Плівка \" (EXCLUSIVE)",
+      "summary": "Перспектива, нова документальна ініціатива, під керівництвом незалежного виробника Джесс Деваней, відкрила свій інавгураційний склейок фільмів, розмаїття може звітувати виключно. теми }Перші п'ять документів включають конфлікт між федеральними іміграційними організаціями і громадянами Міннеаполісу, війна в Газі і винахід C-SPAN. } Щоденна історія на [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "838cfba184b417e83d06": {
+      "source_title": "Chapter 1: Canada's Investment Supercycle | Budget 2026 - Canada.ca",
+      "source_summary": "Chapter 1: Canada's Investment Supercycle | Budget 2026 Canada.ca",
+      "language": "en",
+      "title": "Глава 1: Канадська інвестиційна суперстопка} Бюджет 2026 - Канада.ca",
+      "summary": "Глава 1: Канадська інвестиційна суперцикла} Бюджет 2026 Канади.ca",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "a35f52300eb0780abff7": {
+      "source_title": "Two ‘Ramayana’ Cuts Are in Theaters — but Your Best Bet for the Indian Epic Is Clear",
+      "source_summary": "Sony has released two competing versions of the Bollywood epic. How do they compare?",
+      "language": "en",
+      "title": "Дві раміяни, що означає \"Звичайний,\" є в гонорах, але ваша найкраща ставка для індійської точки - чиста",
+      "summary": "Соні випустив дві конкуруючі версії епосу Боллівуда.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "6d136919549180e8473e": {
+      "source_title": "Mexican judge accused in US with taking $2 million bribe in international drug trafficking case - AP News",
+      "source_summary": "Mexican judge accused in US with taking $2 million bribe in international drug trafficking case AP News",
+      "language": "en",
+      "title": "Мексіканський суддя обвинувачував у США, що взяв підкуп 2 мільйони доларів у міжнародній справі торгівлі наркотиками - AP News",
+      "summary": "Мексиканський суддя обвинувачував у Сполучених Штатах, що взяв підкуп 2 мільйони доларів у міжнародній торгівлі наркотиками AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "7ffaef2e7e89cbc7e142": {
+      "source_title": "Salon, internet’s oldest general interest publication, shuts down after 31 years",
+      "source_summary": "Website known for politics, arts and culture coverage announces closure just weeks before anniversarySalon, one of the early internet’s pioneering publications, is closing after more than three decades, the outlet announced on Thursday.“It’s difficult to find the right words for the end of something that has meant so much to so many people. Salon was never just a website,” Salon said in a statement. “It was an idea about what journalism could be, born at a moment when the internet was still a largely unexplored frontier.” Continue reading...",
+      "language": "en",
+      "title": "Салон, інтернет, найдавніша публікація загальної ставки, закривається через 31 рік",
+      "summary": "Веб- сайт, відомий за політику, мистецтво та культуру, оголошує закінчення за кілька тижнів до річниці Селона, одного з перших інтернет- перших публікацій, закінчується через більше ніж три десятиліття, випуски з' являться в четвер. ♫ Складно знайти правильні слова для закінчення чогось, що означало так багато для багатьох людей. Салон ніколи не був просто веб- сайтом, сказав Салон у вислові. ♫ Це була ідея про те, який журналістизм може бути, що може бути, у момент, коли інтернет ще був головним для багатьох нерозвиненим. } Продовжувати читання...",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "7a9c3194109917dfe640": {
+      "source_title": "2026 Annual Report to Parliament on Immigration - Canada.ca",
+      "source_summary": "2026 Annual Report to Parliament on Immigration Canada.ca",
+      "language": "en",
+      "title": "2026 р. Річний Звіт до парламенту під час Імміграції - Канада.ca",
+      "summary": "2026 р. Річний рапорт до парламенту на імміграції Канади.ca",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "c7d2b9b9116e42f3645a": {
+      "source_title": "Hoax bomb threats force emergency landings, evacuations across Europe",
+      "source_summary": "Bomb threats are causing travel disruptions at airports across Europe, targeting at least 27 flights.",
+      "language": "en",
+      "title": "Гокс - бомба загрожує примусовій аварійній посадці, евакуації по всій Європі.",
+      "summary": "Загроза бомб призводить до порушення подорожей в аеропортах по всій Європі, нальоту принаймні на 27 літаків.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "62319296b492198c93bb": {
+      "source_title": "Managing a responsive and sustainable immigration system - Canada.ca",
+      "source_summary": "Managing a responsive and sustainable immigration system Canada.ca",
+      "language": "en",
+      "title": "Керування системою реагування та стійкої імміграції - Канада.ca",
+      "summary": "Керування системою реагування та стійкої імміграції Канади.ca",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "3fcaf74362555b443483": {
+      "source_title": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official tells Reuters - Reuters",
+      "source_summary": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official tells Reuters Reuters",
+      "language": "en",
+      "title": "Іран відіслав до США ядерну пропозицію через Катар, старший іранський чиновник каже Рейтер - Рейтер",
+      "summary": "Іран надіслав США ядерну пропозицію через Катар, старший іранський чиновник каже Рейтер Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "0204950870ca445e5a8b": {
+      "source_title": "Chapter 6: A more efficient government | Budget 2026 - Canada.ca",
+      "source_summary": "Chapter 6: A more efficient government | Budget 2026 Canada.ca",
+      "language": "en",
+      "title": "Глава 6: більш заповзятливий уряд} Бюджет 2026 - Канади.ca",
+      "summary": "Глава 6: більш заповзятливий уряд} Бюджет 2026 Канади.ca",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "ee72a9eda0b71a54cf70": {
+      "source_title": "A strong and united Canada - Canada.ca",
+      "source_summary": "A strong and united Canada Canada.ca",
+      "language": "en",
+      "title": "Міцна і об'єднана Канада - Канада.",
+      "summary": "Сильна і об'єднана Канада.ca",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "30781d6462466890cb7c": {
+      "source_title": "Nigeria court bars opposition candidate two months before election",
+      "source_summary": "In tonight's edition, a Nigerian court disqualifies a leading presidential candidate, adding fresh complications for the electoral process two months before the election. Also, tens of thousands have fled across the border into Kenya as deadly ethnic clashes in southern Ethiopia intensify. And having fled conflict and violence, members of the first Refugee Youth Olympic Team are chasing Olympic dreams at Dakar 2026.",
+      "language": "en",
+      "title": "Нігерійський суд затримує переслідування на два місяці до виборів.",
+      "summary": "Крім того, десятки тисяч людей втекли через кордон до Кенії як смертоносні етнічні конфлікти у Південній Ефіопії, і, втікаючи від конфліктів та насильства, члени першої групи молоді-Спішниці полюють за олімпійськими мріями в Дакарі 2026 року.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "1f40fd57818cf19235ba": {
+      "source_title": "Chapter 3: A more affordable life | Budget 2026 - Canada.ca",
+      "source_summary": "Chapter 3: A more affordable life | Budget 2026 Canada.ca",
+      "language": "en",
+      "title": "Розділ 3: більш доступне життя} Бюджет 2026 - Канади.ca",
+      "summary": "Розділ 3: більш доступне життя} Бюджет 2026 Канади.ca",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "7fcf0434324cb6bf2196": {
+      "source_title": "AI meltdown: Nvidia and Qualcomm drop more than 9%, pushing Nasdaq to worst day since April 2025",
+      "source_summary": "Companies tied to the AI buildout are all selling off as concerns mount about a slowdown following the midterm elections.",
+      "language": "en",
+      "title": "З часів квітня 2025 року Наскак впав на 9%.",
+      "summary": "Компанії, пов'язані з будівництвом ШІ, всі продаються, оскільки занепокоєння зростає через те, що після проміжних виборів зменшиться.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "a8e2722db37803896f7f": {
+      "source_title": "Serve Robotics launches new business to become the AWS for robots",
+      "source_summary": "Serve Robotics announced alonsgside its third-quarter earnings that it will launch a new business line called Physical AI Services to offer customers its connectivity and data tools.",
+      "language": "en",
+      "title": "Послуги робототехнікам розпочинають новий бізнес, ставши AWS для роботів",
+      "summary": "Послуги робототехніки оголосили алонс, що він запустить новий бізнес-сторінку під назвою Служби фізичного інтелекту, щоб запропонувати клієнтам зв'язок та інструменти з даними.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "4f149338cccd235ad8a9": {
+      "source_title": "Table of contents | Budget 2026 - Canada.ca",
+      "source_summary": "Table of contents | Budget 2026 Canada.ca",
+      "language": "en",
+      "title": "Таблиця змісту } Бюджет 2026 - Канада.ca",
+      "summary": "Таблиця змісту } Бюджет 2026 Канади.ca",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "b775bfc99c1ba2494d0f": {
+      "source_title": "Google, Meta and TikTok sue California to block law protecting children from addiction risk",
+      "source_summary": "Law bans social media platforms from providing minors features such as autoplay that lead to compulsive useGoogle, Meta and TikTok have sued California to block enforcement of ⁠a new state law intended ⁠to limit the risk ​of addicting children under 16 to social media platforms.The law, known as Assembly Bill 1709, prohibits such platforms from offering underage children “psychologically exploitative features” that could lead to compulsive use, such as providing ⁠personal recommendations and sending videos through autoplay features. It also requires the deletion of children’s accounts with tho",
+      "language": "en",
+      "title": "Google, Meta і TikTok судяться з Калифорнією, щоб перешкодити закону захищати дітей від згубного ризику.",
+      "summary": "Закон забороняє соціальні медіа платформи, що постачаються з неповноцінними особливостями, такими як автогра, що призводить до використання Гугюла, Мета і ТїкТок подали в суд на блок дії нового державного закону ведь щоб обмежити ризик від наркоманії дітей до 16 до платформ соціальних медіа. Закон, відомий як Асамблея Біл 1709, забороняє такі платформи не пропонувати дітей при штучному видаленні рис, які можуть призвести до нав'язливого використання, як, наприклад, забезпечення індивідуальних рекомендацій і надсилання відео через автопоказки.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "3a0ee38f72e7a2dc6108": {
+      "source_title": "Rockefeller Center Christmas tree headed to New York City - AP News",
+      "source_summary": "Rockefeller Center Christmas tree headed to New York City AP News",
+      "language": "en",
+      "title": "Рокфеллер у центрі різдвяної ялинки, яка попрямувала до Нью - Йоркської AP News",
+      "summary": "Рокфеллер у центрі різдвяної ялинки, яка попрямувала до Нью - Йоркських AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "fc38924a6f41c643e689": {
+      "source_title": "How Melania Trump Became a Dark-Horse Diplomat on Ukraine",
+      "source_summary": "Both Moscow and Kyiv say Mrs. Trump’s team was the driving force behind an evacuation of a besieged city. It was also in their interest to deliver her a humanitarian win.",
+      "language": "en",
+      "title": "Як Меланія Трумп стала темним туманом на Україні",
+      "summary": "Як Москва, так і Київ кажуть, що команда пані Шампс була рушійною силою евакуації оточеного міста.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "1ea99b096e30cd422032": {
+      "source_title": "Budget 2026: Key Measures - Canada.ca",
+      "source_summary": "Budget 2026: Key Measures Canada.ca",
+      "language": "en",
+      "title": "Бюджет 2026: основні виміри - Канада.ca",
+      "summary": "Бюджет 2026: Cieces Canada.ca",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "bf905101babb0a0e60ba": {
+      "source_title": "Government of Canada releases Budget 2026: Masters of our destiny - Canada.ca",
+      "source_summary": "Government of Canada releases Budget 2026: Masters of our destiny Canada.ca",
+      "language": "en",
+      "title": "Уряд Канади випускає бюджет 2026 року: Майстри нашої долі - Канада.ca",
+      "summary": "Уряд Канади випускає бюджет 2026 року: Майстри нашої долі Канада.ca",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "8c20a41f935d9be63a6a": {
+      "source_title": "Remarks by the Minister of Finance and National Revenue - Canada.ca",
+      "source_summary": "Remarks by the Minister of Finance and National Revenue Canada.ca",
+      "language": "en",
+      "title": "Знак міністра фінансів та Національного Об'єднання - Канада.ca",
+      "summary": "Перерахунки міністра фінансів та Національного Об'єднання Канади.ca",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "d6f90cb0462c10ef0c69": {
+      "source_title": "Getting started with Web Answer on Amazon Bedrock AgentCore",
+      "source_summary": "Web Answer on Amazon Bedrock AgentCore returns a synthesized, source-cited answer to a natural-language question in a single tool call, with no search, retrieve, synthesize, and citation pipeline to build. Learn how it works and how to add it to an AgentCore Gateway and call it from an agent.",
+      "language": "en",
+      "title": "Початок роботи з веб- відповіддю на Amazon Bedcroock AgentCore",
+      "summary": "Веб- відповідь на Amazon Bedcock AgentCore повертає синтезовану, кодову відповідь на питання з природною мовою у окремому інструментальному виклику, без пошуку, отримання, синтезу і створення трубопроводу для створення. Дізнайтеся про те, як він працює і як додати його до шлюзу агентаCore і зв' яжіть його від агента.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "cd7cbf5ce63d9d8fa7d1": {
+      "source_title": "Google is ditching Firebase Studio soon, and it wants you to use its newer AI tools instead",
+      "source_summary": "The company is going all-in on Antigravity and Google AI Studio and hopes developers will do the same.",
+      "language": "en",
+      "title": "Гугл скоро пропускає Firebase Studio, і хоче, щоб ви використовували його новіші інструменти комп'ютерного інтелекту.",
+      "summary": "Компанія збирається в Antigravity та Google ШІ Studio і сподівається, що розробники зроблять те саме.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "576a8834ab30015f2ef4": {
+      "source_title": "Trump ally Dhillon, who remade DOJ civil rights unit, resigns - Reuters",
+      "source_summary": "Trump ally Dhillon, who remade DOJ civil rights unit, resigns Reuters",
+      "language": "en",
+      "title": "The Dummp ally Dhillon, який перебудував підрозділ громадянських прав DOJ, відмовляється від посади - Reuters",
+      "summary": "Плавець Трамп Діллон, який перебудував підрозділ громадянських прав DOJ, відмовляється від служби Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "42386846f3c32b7a5201": {
+      "source_title": "Bolsonaro’s Escape From Brazil Was Aided by Milei Adviser at Argentine Airport",
+      "source_summary": "A top adviser to President Javier Milei of Argentina met Flávio Bolsonaro, the defeated Brazilian presidential candidate, at an Argentine airport, three people involved in the operation said.",
+      "language": "en",
+      "title": "Больсоніс Утік з Бразилії Мілі Аддітер в Аргентинському аеропорту.",
+      "summary": "Головний радник президента Аргентіни Хав'єр Майлі зустрів Флавіо Болсонаро, переможеного бразільського кандидата на президента в аргентинському аеропорту, в якому було три особи, що брали участь у операції.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "3ffb00e66b379edace2a": {
+      "source_title": "Saudi coalition intercepts missile fired towards Medina",
+      "source_summary": "Interception comes after Saudi civil defence agency warned of potential danger near the strategic port of Yanbu.",
+      "language": "en",
+      "title": "Саудівська коаліція перехоплює ракету, звільнену до Медини",
+      "summary": "Переговори відбуваються після того, як Агентство Саудівської цивільної оборони попереджало про потенційну небезпеку поблизу стратегічного порту Янбу.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "834b6cc93acf52f7cb8e": {
+      "source_title": "Google plans $17 billion Wyoming data center amid rising threats of curbs - Reuters",
+      "source_summary": "Google plans $17 billion Wyoming data center amid rising threats of curbs Reuters",
+      "language": "en",
+      "title": "План Google запланував 17 мільярдів інформаційних центрів у Вайомінгу, що зростає серед загроз - Рейтерів.",
+      "summary": "Гугл планує 17 мільярдів інформаційних центрів у Вайомінгу, що зростає серед загрожних засобів Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "71fee13db2eee4b7a289": {
+      "source_title": "Israel's president pledges to pick candidate on Sunday to form government - Reuters",
+      "source_summary": "Israel's president pledges to pick candidate on Sunday to form government Reuters",
+      "language": "en",
+      "title": "Ізраїльський президент обіцяє вибрати кандидата в неділю, щоб сформувати уряд - Рейтер.",
+      "summary": "Ізраїльський президент обіцяє вибрати кандидата в неділю, щоб сформувати урядове агентство Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "f95880d64b0a9632bcc8": {
+      "source_title": "BMW bumps battery for the better: The 2027 i7 60 xDrive, driven",
+      "source_summary": "BMW has updated its flagship sedan with the newest EV and infotainment tech.",
+      "language": "en",
+      "title": "Акумулятор BMW робить краще: 2027 i7 60 xDrive, відправлено",
+      "summary": "BMW оновлює свій флагман седан найновішою технікою еВ та інфо-тату.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "681178ad25dac4ffd2a2": {
+      "source_title": "Why are wealthy countries failing developing nations?",
+      "source_summary": "UN report warns climate adaptation funding is falling far short of needs.",
+      "language": "en",
+      "title": "Чому заможні країни не розвиваються?",
+      "summary": "Звіт ООН попереджає, що кліматичні адаптації не мають достатньої потреби.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "b8ee3922e7bdd9c890cc": {
+      "source_title": "Melania Trump hosts Russia-Ukraine meeting after Oleshky ceasefire",
+      "source_summary": "US First Lady Melania Trump has brought Russian and Ukrainian representatives together at the White House.",
+      "language": "en",
+      "title": "Меланія Трамп запрошує з'їзди Росії з Україною після того, як Олешкі припинив вогонь",
+      "summary": "Перша леді Меланія Трамп зібрала російських та українських представників разом у Білий дім.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "6e39ed1d62972dde0c7d": {
+      "source_title": "French protests: 'It's only when public, private sector act together that you can make changes'",
+      "source_summary": "“You can be as repressive as you want. The grievances are still here.” With this stark observation, Ariane Bogain, lecturer in French and politics at Northumbria University, captures the central dilemma confronting the French government: how can political authority be restored when the social and economic grievances driving public anger remain unresolved? Bogain and French politics editor Marc Perelman join Delano D'Souza to examine a protest movement that has evolved beyond its initial demands over purchasing power, fuel prices and education into a broader challenge to the French government.",
+      "language": "en",
+      "title": "Французькі протести: \"Це тільки тоді, коли громадський, приватний сектор діє разом, що ви можете внести зміни\"",
+      "summary": "При цьому чіткому спостереженні Аріана Боуген, лекторка французької та політики в Університеті Нортумбриї, охоплює центральну дилему, що стоїть перед французьким урядом: як можна відновити політичну владу, коли соціальні та економічні образи, що змушують громадську владу залишатися невирішеними?",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "9ae675457f806138e586": {
+      "source_title": "Lana Nusseibeh’s U.N. Bid Collides With U.A.E.’s Role in Sudan",
+      "source_summary": "Lana Nusseibeh, one of the Gulf nation’s top diplomats, has led the effort to deny her country’s role in Sudan. Now it’s complicating her bid to become secretary general of the United Nations.",
+      "language": "en",
+      "title": "Lana Nusseibes U.N. Bid Collides with U.A.E. epa в Судані",
+      "summary": "Лена Нусейб, одна з головних дипломатів затоки, довела зусилля заперечувати роль своєї країни в Судані.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "93fd038859940b285481": {
+      "source_title": "What to Know About the Bomb Threats Disrupting Flights in Europe",
+      "source_summary": "More than two dozen planes that were targeted on Thursday landed safely, officials said, after similar threats earlier this week. The hoaxes have added to airspace anxiety in the region.",
+      "language": "en",
+      "title": "Що знати про загрозу вибуху бомби",
+      "summary": "За словами службовців, понад двадцять літаків, які були направлені на четвер, успішно приземлилися, після подібної загрози на початку цього тижня.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "cb3e86b2f5b479d1490f": {
+      "source_title": "Avengers: Doomsday's Final Writing Credits Confirmed, With Two Marvel Actors Reportedly Involved",
+      "source_summary": "Avengers: Doomsday's main writing credits have been confirmed by the Writers Guild of America, and two cast members might get additional credits.",
+      "language": "en",
+      "title": "Месники: Підтвердження останнього писання Судного дня, з двома акторами, які кажуть брали участь",
+      "summary": "Основні кредити Судного дня підтверджує Гільдія письменників Америки, і два актори можуть отримати додаткові кредити.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "43b3c7125e5eab0361a9": {
+      "source_title": "The Dark Side of K-Pop",
+      "source_summary": "As the popularity of the genre has surged, a dispute between a band and its label has put a spotlight on restrictive artist contracts.",
+      "language": "en",
+      "title": "Темна сторона K-Pop",
+      "summary": "Оскільки популярність цього жанру стрімка, суперечки між групою та її етикеткою проливають світло на обмежуючі контракти художників.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "3ce6ed25750e6d0ff678": {
+      "source_title": "A BioWare documentary is set to arrive next year",
+      "source_summary": "Massive Effect: The BioWare Story started filming two years before EA shut down the studio.",
+      "language": "en",
+      "title": "Документальний фільм \" БіоСар\" має прибути наступного року.",
+      "summary": "Масовий ефект: Історія біосвіту почала зніматися за два роки до того, як EA закрила студію.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "58a211bae865fbf1e6e7": {
+      "source_title": "British Ebola patient evacuated from DR Congo arrives at London hospital",
+      "source_summary": "Doctor who was helping response to outbreak in Africa taken to specialist isolation unit at Royal Free hospitalA British doctor who tested positive for Ebola while working in the Democratic Republic of the Congo has returned to the UK for specialist treatment.The patient, whose identity is unknown, was transported home on a medical evacuation flight, the Department of Health and Social Care said on Thursday. They are now being cared for in a specialised high-level isolation unit at the Royal Free hospital in Hampstead, north London. Continue reading...",
+      "language": "en",
+      "title": "Британський пацієнт Ебола евакуйований з ДР- Конго, прибув до лондонської лікарні.",
+      "summary": "Доктор, який допомагав реагувати на спалахи епідемії в Африці, у британському лікареві Роял Вільна Лікарня, який перевіряв позитивний вплив на Еболу під час роботи в Демократичній Республіці Конго, повернувся до Великобританії для лікування спеціалістом. пацієнт, чиє особистість невідома, був перевезений додому на літаку медичної евакуації, сказав Міністерство охорони здоров'я та соціальної допомоги в четвер, і тепер його доглядають у спеціально ізольованому відділі вищого рівня в Королівській вільної лікарні в Хемстеді, північній Лондоні.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "964ca58f05b93dab909a": {
+      "source_title": "Ukraine's Zelenskiy appeals for energy infrastructure aid at Madrid summit - Reuters",
+      "source_summary": "Ukraine's Zelenskiy appeals for energy infrastructure aid at Madrid summit Reuters",
+      "language": "en",
+      "title": "Зеленські України звертаються за допомогою до енергетичної інфраструктури в Мадриді - Рейтер.",
+      "summary": "Зеленські України звертаються за допомогою до енергетичної інфраструктури в Мадриді, Рейтер.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "87e7d41b07576e2f1593": {
+      "source_title": "Top Democrats call to rein in AI buildout after midterms sweep: 'National data center moratorium now'",
+      "source_summary": "Democratic winners and progressive lawmakers are calling for tougher limits on AI and data centers after the 2026 midterm elections.",
+      "language": "en",
+      "title": "Верхні демократи закликають повернутися в будівництво ШІ після внесення проміжних іспитів: 'Національний центр даних тепер moratorium'",
+      "summary": "Демократичні переможці та прогресивні законодавці вимагають суворіших обмежень для ШІ та центрів даних після 2026-го проміжних виборів.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "16aa287fc5933c06c6c8": {
+      "source_title": "US escalates economic campaign against Cuba and targets China-based suppliers - AP News",
+      "source_summary": "US escalates economic campaign against Cuba and targets China-based suppliers AP News",
+      "language": "en",
+      "title": "США збільшує економічну кампанію проти Куби і мішень на китайських постачальників - AP News",
+      "summary": "США збільшує економічну кампанію проти Куби і мішень на китайських постачальників AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "f0fefa1e10dba9af8581": {
+      "source_title": "OpenAI launches GPT-6 Cyber with 'Critical' cybersecurity rating - Reuters",
+      "source_summary": "OpenAI launches GPT-6 Cyber with 'Critical' cybersecurity rating Reuters",
+      "language": "en",
+      "title": "OpenAI запускає GPT- 6 Cyber з рейтингом \" Cryical\" Cybersecurity - Reuters",
+      "summary": "OpenAI запускає GPT- 6 Cyber з Рейтером Cryryal 'Cybersecurity Reuters",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "69d7995a3d013e899e9a": {
+      "source_title": "Gavin Newsom commutes sentences of all death row inmates in California",
+      "source_summary": "Gavin Newsom, a Democrat and a rumored presidential candidate, moved to commute the death sentences of 548 inmates in California for one of his last acts as governor of the state.",
+      "language": "en",
+      "title": "Гевін Ньюсом перевозить вироки всіх в'язнів смертного ув'язнення в Каліфорнії.",
+      "summary": "Гевін Ньюсом, демократ і кандидат на президента, перейшов на дорогу смертних вироків 548 в'язнів у Каліфорнії за останні дії свого правління.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "b1feafc8620ed538b62a": {
+      "source_title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+      "source_summary": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, AI factories need CPUs that can execute those […]",
+      "language": "en",
+      "title": "Віра рятує найліпші з обох світів: найпожвавіші і найшвидкіші агенти",
+      "summary": "Агенти комп' ютерного гравця не просто створюють відповіді. Пошук за інформацією, базами даних, запис і тестовий код і виконання дій полягає у тому, що кожен з цих кроків працює на процесорі, а агенти, що рухаються між логікою GPU і виконанням процесора протягом виконання певного завдання. Оскільки для роботи підприємств потрібно більше агентів, виробникам комп' ютерного забезпечення потрібні процесори, які можуть виконувати ці функції [...]",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "022e3be027518fdef170": {
+      "source_title": "‘Everytime’ Review: Sandra Wollner’s Infinitely Beguiling Portrait of Grief in the Digital Age Is One of the Most Haunting Films of the Decade",
+      "source_summary": "Picking up where the likes of \"Aftersun\" and \"Personal Shopper\" left off, Wollner's unforgettable third feature explores the modern world's changing relationship to death.",
+      "language": "en",
+      "title": "\"П'ятна частина\" Сандра Волнер, безсумнівно, привертає увагу до смутку у цифровій добі, є однією з найзахопливіших плівок десятиліття.",
+      "summary": "Вибираючи місце, де залишилися такі, як \"Пісня\" та \"Персональний Чопер,\" незабутня особливість Воллнера досліджує зміни відношення сучасного світу до смерті.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "058895c955cd47dfb62c": {
+      "source_title": "'Inhumane punishment': Governor Gavin Newsom to commute all 548 California death sentences",
+      "source_summary": "California Governor Gavin Newsom on Thursday said he would commute all 548 death sentences in the state to life in prison without parole, marking a major step away from capital punishment as he prepares to leave office after eight years.",
+      "language": "en",
+      "title": "\"Нелюдське покарання\": губернатор Гевін Ньюсом наклав на всі 548 смертних вироків у Каліфорнії.",
+      "summary": "Губернатор Каліфорнії Гевін Ньюсом у четвер сказав, що віддасть всі 548 смертних вироків штату до життя у в'язниці без дозволу, відзначаючи великий крок від смертної кари, коли він готується до виходу з посади після восьми років.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "f93c3c74424d507fcb9b": {
+      "source_title": "Software squeezes more data out of Webb Telescope for imaging exoplanets",
+      "source_summary": "Software optimizes a physical model of the telescope to reduce noise.",
+      "language": "en",
+      "title": "Програмне забезпечення виштовхує більше даних з телескопа Web для ексопланетів зображень",
+      "summary": "Програмне забезпечення оптимізує фізичну модель телескопа для зменшення шуму.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "56898cfb97b9aac836c2": {
+      "source_title": "Who could be behind hoax bomb threats to European air travel?",
+      "source_summary": "There is no hard evidence so far linking airline bomb threats to Russia, Iran or any proxy groups.",
+      "language": "en",
+      "title": "Хто може бути відповідальним за необґрунтовану бомбу, яка загрожує європейським повітряним подорожам?",
+      "summary": "Так далеко не поєднуючи загрози вибуху авіалінії з Росією, Іраном або іншими групами.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "85c7d152dab8e1238162": {
+      "source_title": "TikTok just released a standalone Shop app, but it's not in America just yet",
+      "source_summary": "It offers exclusive deals and other goodies.",
+      "language": "en",
+      "title": "TikTok щойно опублікував окремий додаток до магазинів, але він ще не в Америці.",
+      "summary": "Вона пропонує ексклюзивні угоди та інші товари.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "576fcefd773eebb3aca9": {
+      "source_title": "California governor to grant clemency to all 548 death row inmates in state - Reuters",
+      "source_summary": "California governor to grant clemency to all 548 death row inmates in state Reuters",
+      "language": "en",
+      "title": "Губернатор Каліфорнії, щоб дати згоду всім 548 в'язням смертників у штаті - Рейтер",
+      "summary": "Губернатор Каліфорнії, щоб дати згоду всім 548 в'язням смертників в державному Рейтері.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "17ca935ff6fd43ea45aa": {
+      "source_title": "How Did Flávio Bolsonaro Flee Brazil? ‘I’ll Take That to the Grave,’ He Says",
+      "source_summary": "From Miami, Flávio Bolsonaro is making unfounded claims of a stolen election and plotting to sway his nation’s politics from afar, even though his party is not challenging the results.",
+      "language": "en",
+      "title": "Як \"Флавіо Болсонаро\" вступає в Бразилію?",
+      "summary": "З Маямі, Флавіо Болсонаро безпідставно заявляє про вкрадені вибори й замишляє заволодіти політикою здалеку, незважаючи на те, що його партія не ставить виклик на результати.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "7b4e0837e8cd18368377": {
+      "source_title": "Bill Skarsgård Addresses X-Men Casting Rumors And His Interest In A Major DC Comics Superhero Role",
+      "source_summary": "Bill Skarsgård was once rumored to be up for the role of Professor X in Marvel's new X-Men film, but there's a DC Comics character he'd like to play.",
+      "language": "en",
+      "title": "Bill Scarsgrd Aдреси Х-чоловіків, що розпалюють Рамори і його зацікавленість у основній ролі коміксів DC",
+      "summary": "Білл Скарсгорд колись був чутно, що він готовий до ролі професора X в новому фільмі \"Людина-наслідувача-доктора\" Marvel, але він хотів би грати в комікси DC.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "5d1f7927983bf9bd0116": {
+      "source_title": "The Xbox PC app is getting a speed boost",
+      "source_summary": "The updated app, rolling out to Xbox Insiders first, launches up to 60 percent faster.",
+      "language": "en",
+      "title": "Програма Xbox для пришвидшення роботи з ПКName",
+      "summary": "Поновлений додаток, який спочатку з'являється до Xbox Intersers, починає швидше до 60 відсотків.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "ce33817e4026d3a9fdfa": {
+      "source_title": "Meta says US users can now video chat with their Muse AI avatar",
+      "source_summary": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.",
+      "language": "en",
+      "title": "Meta каже, що користувачі США тепер можуть спілкуватися з Muse AI Avawitch",
+      "summary": "Агент ШІ Мета може зараз приймати дзвінки як гнучкий анімований аватар, перед запуском тамаготі, схожого на вдягальню, розроблену для оживлення Музею.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "fc901c6982465d68dd0e": {
+      "source_title": "Harmeet Dhillon, top US civil rights official under Trump, resigns",
+      "source_summary": "New Democratic Congress expected to probe Trump Justice Department office's handling of Epstein files and ICE killings.",
+      "language": "en",
+      "title": "Хармет Діллон, головний службовець з цивільних прав США на чолі з Трампом, звільняється від посади",
+      "summary": "Новий Демократичний конгрес очікував, що розслідить у відділі юстиції Трампа як розробляти файли Epstein та ICE вбивства.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "ae0fdb17d59475a20674": {
+      "source_title": "Child dies of measles in Wisconsin’s first such death since 1990 - AP News",
+      "source_summary": "Child dies of measles in Wisconsin’s first such death since 1990 AP News",
+      "language": "en",
+      "title": "Дитяча смертність від кору в Вісконсіні починається з 1990 до AP News",
+      "summary": "Дитяча смертність від кору у Вісконсіні починається з 1990 року в новинах",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "410d35f0bc7653f7225e": {
+      "source_title": "Kalshi court losses pile up as judges refuse to block state gambling laws",
+      "source_summary": "Kalshi can't avoid gambling law by claiming it doesn't offer gambling, state AG says.",
+      "language": "en",
+      "title": "Загибель суду Калші, коли судді відмовляються заборонити державну азартну азартність",
+      "summary": "Калші не може уникнути закону про азартні ігри, твердячи, що це не означає азартні ігри, каже державна організація АГ.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "bde9b5b0c9abb8cea32e": {
+      "source_title": "‘Raise the Red Lantern’: The Perfect Setting for a Scintillating Star",
+      "source_summary": "At Film Forum, Zhang Yimou’s newly restored feature stars the lovely Gong Li as the fourth wife of a capricious plutocrat more than twice her age.",
+      "language": "en",
+      "title": "\" Червона нічниця\"",
+      "summary": "На Форумі Жанг Йомі щойно відновлені зірки чарівних гонг Лі, як четверта дружина каприкатного плутократа більше ніж вдвічі її віку.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "bf02e2ca4b3e68ba7d7d": {
+      "source_title": "‘La Bola Negra’ Wins Denver Film Festival Top Prize as More Regional Fests Boost Oscar Hopefuls",
+      "source_summary": "The Sly Stallone behind-the-scenes biopic \"I Play Rocky\" won the narrative feature audience award, repeating a pattern that started in Toronto.",
+      "language": "en",
+      "title": "біса Бола Неграйс бере участь у Денверському святкуванні \"Перший день \" як \" Більші регіональні фестивалі Оскара \" Надії",
+      "summary": "\"Слі Сталлоне за біопікією \"Я граю у Роккі\" виграв нагороду аудиторія, повторюючи шаблон, що почався в Торонто.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "a35f95e80388b8d3ec5e": {
+      "source_title": "Bomb Threats Disrupt European Flights and Rattle Passengers",
+      "source_summary": "Passengers recounted landing at a military base and being subjected to security checks and travel delays after threats that turned out to be hoaxes affected planes in Italy, Poland and Spain.",
+      "language": "en",
+      "title": "Загроза бомб роз'єднує європейські рейси та пасажирські пасажири",
+      "summary": "Пасажири говорили, що приземляються на військовій базі, їх перевіряють і затримують дорогу після того, як на літаки в Італії, Польщі та Іспанії з'явилися фальшиві погрози.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "4624e607f01192dbcd38": {
+      "source_title": "Warby Parker seemingly spilled the beans on Google's Android XR smart glasses launch",
+      "source_summary": "\"Intelligent Eyewear\" is apparently only a week away.",
+      "language": "en",
+      "title": "Уорбі Паркер, здавалося б, пролив боби на світлодіоди в Гугловому телескопі для кмітливих окулярів",
+      "summary": "Інтелектуальне взуття очей, очевидно, лише за тиждень.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "4e0262c0bfa6d4e2eada": {
+      "source_title": "California Gov. Newsom says he will commute all death sentences in state to life without parole - AP News",
+      "source_summary": "California Gov. Newsom says he will commute all death sentences in state to life without parole AP News",
+      "language": "en",
+      "title": "Калифорния Ньюсом говорит, что он переведёт все смертные приговоры в штате на жизнь без достроков.",
+      "summary": "Калифорния Ньюсом говорит, что он переведёт все смертные приговоры в штате в жизнь без освобождения AP News",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "6657054c12b0581921a8": {
+      "source_title": "„Wszyscy będą zachwyceni”. Trump: Porozumienie ws. Ukrainy może objąć całą Europę",
+      "source_summary": "„Wszyscy będą zachwyceni”. Trump: Porozumienie ws. Ukrainy może objąć całą Europę",
+      "language": "pl",
+      "title": "\"Всі будуть в захваті!\" Trump: Угода в Україні може охоплювати всю Європу.",
+      "summary": "\"Всі будуть в захваті!\" Trump: Угода в Україні може охоплювати всю Європу.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "48ccedc9e6a717016cf4": {
+      "source_title": "Historyczna decyzja w USA. Gubernator chce oszczędzić życie 548 skazanych na karę śmierci",
+      "source_summary": "Historyczna decyzja w USA. Gubernator chce oszczędzić życie 548 skazanych na karę śmierci",
+      "language": "pl",
+      "title": "Губернатор хоче врятувати 548 засуджених до смертної кари.",
+      "summary": "Губернатор хоче врятувати 548 засуджених до смертної кари.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "7c0b3359ba9cf8eb0832": {
+      "source_title": "Kierwiński: To trzecia próba odwołania, uznanie mojej ciężkiej pracy",
+      "source_summary": "Kierwiński: To trzecia próba odwołania, uznanie mojej ciężkiej pracy",
+      "language": "pl",
+      "title": "Кельнська: Це третя спроба скасувати свою важку працю.",
+      "summary": "Кельнська: Це третя спроба скасувати свою важку працю.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "43bffa6e930e77631dd1": {
+      "source_title": "Koniec sojuszu bez pytań? Politycy USA zaczynają mówić jednym głosem ws. Izraela",
+      "source_summary": "Koniec sojuszu bez pytań? Politycy USA zaczynają mówić jednym głosem ws. Izraela",
+      "language": "pl",
+      "title": "Кінець альянсу без запитань?",
+      "summary": "Кінець альянсу без запитань?",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "a3b6225fd7993287a0b4": {
+      "source_title": "Będzie zmiana w podatkach? Sejm zdecydował",
+      "source_summary": "Będzie zmiana w podatkach? Sejm zdecydował",
+      "language": "pl",
+      "title": "- Удар подушечку?",
+      "summary": "- Удар подушечку?",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "a15cbc16e67e5643ed23": {
+      "source_title": "Sikorski o wyborach w USA: Trzeba myśleć dalej niż do końca własnego nosa",
+      "source_summary": "Sikorski o wyborach w USA: Trzeba myśleć dalej niż do końca własnego nosa",
+      "language": "pl",
+      "title": "Сикорський про вибори в США: треба думати далі, ніж до кінця свого носа.",
+      "summary": "Сикорський про вибори в США: треба думати далі, ніж до кінця свого носа.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "aae694c314e5099800db": {
+      "source_title": "Rosyjski Order Honoru dla separatysty. Mołdawia reaguje sankcjami",
+      "source_summary": "Rosyjski Order Honoru dla separatysty. Mołdawia reaguje sankcjami",
+      "language": "pl",
+      "title": "Російський Ордер Хонору для сепаратистів. Молдова реагує на сантерії.",
+      "summary": "Російський Ордер Хонору для сепаратистів. Молдова реагує на сантерії.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
+    "96aed513e1f4d9daf017": {
+      "source_title": "„Zawsze szuka takiej trochę trzeciej drogi”. Kosiniak-Kamysz rozmawiał z Mentzenem o TK",
+      "source_summary": "„Zawsze szuka takiej trochę trzeciej drogi”. Kosiniak-Kamysz rozmawiał z Mentzenem o TK",
+      "language": "pl",
+      "title": "Косініак-Каміш розмовляв з Ментзеном про ТК.",
+      "summary": "Косініак-Каміш розмовляв з Ментзеном про ТК.",
+      "engine": "opus_mt",
+      "translated_at": 1793958882
+    },
     "8e2576529f35a1d3102b": {
       "source_title": "What Trump’s Midterm Defeat Means for Iran and Oil Prices",
       "source_summary": "Commentators abroad wondered what President Trump’s electoral losses might mean for oil prices, the war on Iran and the future of American politics.",
@@ -17,15 +1565,6 @@
       "language": "en",
       "title": "Ісуса Навина Вонг, активіста демократії в Гонконзі, засуджено до 10 років ув'язнення",
       "summary": "Г-н Вон, один з найпрофесійніших членів руху, який був заклинений у 2020 році, був звинувачений у змові за змовою з іноземними силами, порушенням національної безпеки.",
-      "engine": "opus_mt",
-      "translated_at": 1793872290
-    },
-    "e9d67e10e79f37d226df": {
-      "source_title": "US midterm elections 2026 live: Democrats eye historic upset in Mississippi Senate race as Republican blame game begins",
-      "source_summary": "Democrat Scott Colom is leading Republican incumbent Cindy Hyde-Smith in the southern state; JD Vance pointed to the war in Iran as the ‘obvious’ culprit for Republicans’ lossLive results | How do you feel about the results?Sign up for Breaking News US emailAnalysis: Is this the beginning of the end for Trump?Nancy Pelosi has issued a statement after Connie Chan conceded in the race to fill the former speaker’s vacant seat, congratulating Democrat Scott Wiener on his election to the Congress.Chan – also a Democrat and Pelosi’s chosen candidate – said she had no clear path to victory, despite t",
-      "language": "en",
-      "title": "Американські проміжні вибори 2026 р.: Демократи дивляться на історичне розстроєння в гонках Сенат Міссісіпі, коли республіканці починають гратися з обвинуваченнями.",
-      "summary": "Демократ Скотт Голгост очолив республіканський співробітник Синді Гай-Сміт у південному штаті; JD Vance вказує на війну в Ірані, як \"Обхід\" означає для республіканців \"програшує програш,\" що ви відчуваєте про результати? Присвоювання для \"Пустінки Новин США mailAnalix: чи є це початком кінця Трамп? Norce Plosi\" виступила заява після того, як Конні Шанд помер у перегонах, щоб заповнити колишній промовець незаслабний сидіння, moataction Stove Wion Weener на виборах до Конгресу.Chan ♫ Cohan також демократ і Plosis selected кандидат на перемогу, вона незважаючи на те, що вона не має чіткого шляху до перемоги, незважаючи на те, що",
       "engine": "opus_mt",
       "translated_at": 1793872290
     },
@@ -14662,417 +16201,12 @@
       "summary": "У \" Мрія Атланти \" (англ.) було критиковано WNBA за планування фінальної гри в четвер пополудні, що викликало реакцію від Flavor Flav і Garriel Clinphin.",
       "engine": "opus_mt",
       "translated_at": 1793188434
-    },
-    "cfdb8b538e854fb422b6": {
-      "source_title": "A U.S. cruise ship ends voyage due to fuel costs and passengers lose their homes",
-      "source_summary": "The Odyssey set sail two years ago on a three-year voyage to the seven continents marketed as combining long-term living at sea with global travel.",
-      "language": "en",
-      "title": "Круїзний корабель США закінчується плаванням через витрати на пальне і пасажири втрачають свої домівки.",
-      "summary": "\"Одіссея\" вирушив на пару два роки тому у трирічну подорож до семи континентів, які торгують, поєднуючи довготермінові життя на морі з глобальними подорожами.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "28e9eaa0d06d088e36e3": {
-      "source_title": "German chemicals giant BASF raises profit guidance after Iran war price hikes",
-      "source_summary": "German chemicals giant BASF raised its 2026 outlook for the second time this year on Wednesday after raising prices for some products following the outbreak of the Iran war.",
-      "language": "en",
-      "title": "Німецький хімікалій великий BASF підвищує прибуткове керівництво після походів за війну в Ірані.",
-      "summary": "Німецький велетень \"BASF\" підніс свій 2026-й світогляд у середу, після вибуху Іранської війни, після підвищення цін на деякі продукти.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "713266e7d29b1644de38": {
-      "source_title": "Where does Arsenal’s Fleetwood humiliation place in English cup shocks?",
-      "source_summary": "How big a shock is the Premier League champions' 5-3 defeat on penalties after a 1-1 draw with a fourth-tier club?",
-      "language": "en",
-      "title": "Де ведь в английских шоках от мухи Перетвуда?",
-      "summary": "Наскільки великим шоком є поразка чемпіонів прем'єр-міністра Ліги з покаранням після першого з 1-1 з четвертим клубом?",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "794fbde823643efe4f4b": {
-      "source_title": "Meta- and Google-backed Jio Platforms’ shares soar over 21% on trading debut after record IPO",
-      "source_summary": "Jio had offered 270 million shares in the IPO priced at 1,119 rupees apiece, raising 302 billion rupees ($3.2 billion) in the country's largest-ever IPO.",
-      "language": "en",
-      "title": "Мета- та в Гугл-близнюки Джіо-стоп'є злітають над 21% на продаж після запису IPO",
-      "summary": "Джіо запропонував 270 мільйонів акцій в IPO за ціною 119 рупій, підвищуючи 302 мільярди рупій (3.2 мільярди) у найбільшому в країні IPO.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "194e42f4572404c8c88d": {
-      "source_title": "Kilka mieszkań przestało istnieć. Potężna eksplozja wstrząsnęła blokiem",
-      "source_summary": "Kilka mieszkań przestało istnieć. Potężna eksplozja wstrząsnęła blokiem",
-      "language": "pl",
-      "title": "По одному з будинків було зруйновано, а через сильний вибух стався землетрус.",
-      "summary": "По одному з будинків було зруйновано, а через сильний вибух стався землетрус.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "d2b01ba4565b54b172c7": {
-      "source_title": "Gęsta mgła nad Polską. IMGW wydał ostrzeżenia dla mieszkańców 10 województw",
-      "source_summary": "Gęsta mgła nad Polską. IMGW wydał ostrzeżenia dla mieszkańców 10 województw",
-      "language": "pl",
-      "title": "Глава туманність над Польщею.",
-      "summary": "Глава туманність над Польщею.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "79e0d58a5b9fa118c153": {
-      "source_title": "Koniec TikToka dla dzieci? Rząd szykuje nowe przepisy",
-      "source_summary": "Koniec TikToka dla dzieci? Rząd szykuje nowe przepisy",
-      "language": "pl",
-      "title": "Кінець Тіктока для дітей?",
-      "summary": "Кінець Тіктока для дітей?",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "08356375c8c49ad9d234": {
-      "source_title": "Czerwona plaża „ożywa” właśnie teraz. Gdzie można zobaczyć to niezwykłe zjawisko?",
-      "source_summary": "Czerwona plaża „ożywa” właśnie teraz. Gdzie można zobaczyć to niezwykłe zjawisko?",
-      "language": "pl",
-      "title": "Червоне узбережжя « живе зараз », де можна побачити це дивовижне явище?",
-      "summary": "Червоне узбережжя « живе зараз », де можна побачити це дивовижне явище?",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "2755772649ed810bedf5": {
-      "source_title": "Ryzykowna „pamiątka” na lotnisku. Chciał przewieźć kawałek rafy",
-      "source_summary": "Ryzykowna „pamiątka” na lotnisku. Chciał przewieźć kawałek rafy",
-      "language": "pl",
-      "title": "В аеропорту він хотів перевезти шматок рифу.",
-      "summary": "В аеропорту він хотів перевезти шматок рифу.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "62167ea91b286f0e9834": {
-      "source_title": "Smakołyk jak żaden inny. Przyznano certyfikaty na wypiek rogali świętomarcińskich",
-      "source_summary": "Smakołyk jak żaden inny. Przyznano certyfikaty na wypiek rogali świętomarcińskich",
-      "language": "pl",
-      "title": "Речовина, як і будь-який інший. Виготовили сертифікати для випіків.",
-      "summary": "Речовина, як і будь-який інший. Виготовили сертифікати для випіків.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "ea7a9533c3de1fe259c4": {
-      "source_title": "„Jak wiecie, jestem z branży też kościelnej”. Hołownia o „złotej akcji” w rządzie",
-      "source_summary": "„Jak wiecie, jestem z branży też kościelnej”. Hołownia o „złotej akcji” w rządzie",
-      "language": "pl",
-      "title": "« Як ви знаєте, я є членом церковної індустрії ЄС.",
-      "summary": "« Як ви знаєте, я є членом церковної індустрії ЄС.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "1e447c5d498e260a076e": {
-      "source_title": "Sikorski uderzył w Nawrockiego, Przydacz i Fogiel odpowiadają. „Cham”",
-      "source_summary": "Sikorski uderzył w Nawrockiego, Przydacz i Fogiel odpowiadają. „Cham”",
-      "language": "pl",
-      "title": "Сікорський вдарив Наркотика, Доставка і Фокул відповідають:",
-      "summary": "Сікорський вдарив Наркотика, Доставка і Фокул відповідають:",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "9ea13cbb7a593297ada0": {
-      "source_title": "Przewodnicząca Parlamentu Europejskiego odwiedzi Polskę. Mają paść ważne słowa",
-      "source_summary": "Przewodnicząca Parlamentu Europejskiego odwiedzi Polskę. Mają paść ważne słowa",
-      "language": "pl",
-      "title": "Вони мають бути дуже важливими словами.",
-      "summary": "Вони мають бути дуже важливими словами.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "ae95c379e0f82f104104": {
-      "source_title": "Nie żyje wieloletni prezes wrocławskiego zoo. Radosław Ratajszczak miał 69 lat",
-      "source_summary": "Nie żyje wieloletni prezes wrocławskiego zoo. Radosław Ratajszczak miał 69 lat",
-      "language": "pl",
-      "title": "Ратайський зоопарк, який був багаторічним президентом, помер у віці 69 років.",
-      "summary": "Ратайський зоопарк, який був багаторічним президентом, помер у віці 69 років.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "19ad03557e27a8c6c22c": {
-      "source_title": "Tragedia w Argentynie: 12-dniowy noworodek zmarł po uderzeniu przez spadające awokado",
-      "source_summary": "Tragedia w Argentynie: 12-dniowy noworodek zmarł po uderzeniu przez spadające awokado",
-      "language": "pl",
-      "title": "Трагедія в Аргентині: 12-денний новонароджений помер після удару авокадо, що спадав.",
-      "summary": "Трагедія в Аргентині: 12-денний новонароджений помер після удару авокадо, що спадав.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "f585bcfe313d968b3f45": {
-      "source_title": "Kolizja na morzu. Statek wycieczkowy zderzył się z kontenerowcami",
-      "source_summary": "Kolizja na morzu. Statek wycieczkowy zderzył się z kontenerowcami",
-      "language": "pl",
-      "title": "Колібрі на морі. Екскурсія наткнулася на контейнери.",
-      "summary": "Колібрі на морі. Екскурсія наткнулася на контейнери.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "bcb862a1588806d72a07": {
-      "source_title": "Tylko co czwarty Polak zadowolony ze swoich finansów. Jest gorzej niż przed rokiem",
-      "source_summary": "Tylko co czwarty Polak zadowolony ze swoich finansów. Jest gorzej niż przed rokiem",
-      "language": "pl",
-      "title": "Лише одна з чотирьох Поляків, які задоволені своїми фінансами, є нижчою, ніж раніше, за рік.",
-      "summary": "Лише одна з чотирьох Поляків, які задоволені своїми фінансами, є нижчою, ніж раніше, за рік.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "b01e846a7625a798d931": {
-      "source_title": "To miał być rejs dookoła świata. Nietypowy powód „uziemienia” luksusowego statku w Kambodży",
-      "source_summary": "To miał być rejs dookoła świata. Nietypowy powód „uziemienia” luksusowego statku w Kambodży",
-      "language": "pl",
-      "title": "Неймовірна причина, чому ми плавали навколо світу, це розкішний корабель у Камбоджі.",
-      "summary": "Неймовірна причина, чому ми плавали навколо світу, це розкішний корабель у Камбоджі.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "10b57ea786f023d36d46": {
-      "source_title": "Podwójne koperty zmienią wynik wyborów? Były ich setki tysięcy",
-      "source_summary": "Podwójne koperty zmienią wynik wyborów? Były ich setki tysięcy",
-      "language": "pl",
-      "title": "Два конверти змінять результат виборів?",
-      "summary": "Два конверти змінять результат виборів?",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "1f16c74b7e132a57214d": {
-      "source_title": "Kilka osób trafiło do szpitala. Poważny wypadek autobusu w Olsztynie",
-      "source_summary": "Kilka osób trafiło do szpitala. Poważny wypadek autobusu w Olsztynie",
-      "language": "pl",
-      "title": "Серйозна аварія на автобусі в Олштіні.",
-      "summary": "Серйозна аварія на автобусі в Олштіні.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "94fdfe069db04a1c516f": {
-      "source_title": "1 listopada w Poznaniu. Jak dojechać na cmentarz?",
-      "source_summary": "1 listopada w Poznaniu. Jak dojechać na cmentarz?",
-      "language": "pl",
-      "title": "Як ми доїхати на кладовище?",
-      "summary": "Як ми доїхати на кладовище?",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "d68ebce5bf71864cab69": {
-      "source_title": "Grecja zakazuje social mediów dzieciom. Inne kraje UE chcą iść w jej ślady",
-      "source_summary": "Grecja zakazuje social mediów dzieciom. Inne kraje UE chcą iść w jej ślady",
-      "language": "pl",
-      "title": "Греція забороняє медіа-соціал для дітей. Інші країни ЄС хочуть, щоб це було по-іншому.",
-      "summary": "Греція забороняє медіа-соціал для дітей. Інші країни ЄС хочуть, щоб це було по-іншому.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "76eac92ecdcdcf4bbe37": {
-      "source_title": "Sąd uchylił decyzję ws. doprowadzenia Ziobry. Były minister może żądać odszkodowania",
-      "source_summary": "Sąd uchylił decyzję ws. doprowadzenia Ziobry. Były minister może żądać odszkodowania",
-      "language": "pl",
-      "title": "Колишній міністр може вимагати компенсації",
-      "summary": "Колишній міністр може вимагати компенсації",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "c4c560076338735fadc3": {
-      "source_title": "Sardynia mówi \"nie\" telefonom przy stole. Te restauracje wprowadzają zakaz",
-      "source_summary": "Sardynia mówi \"nie\" telefonom przy stole. Te restauracje wprowadzają zakaz",
-      "language": "pl",
-      "title": "Сардинія каже \"ні\" телефонам за столом, а ресторани заборонили.",
-      "summary": "Сардинія каже \"ні\" телефонам за столом, а ресторани заборонили.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "433c0ef8e4da3f0ef4e3": {
-      "source_title": "Nowy ranking: Gdzie w Polsce żyje się najlepiej? Dwa miasta liderami",
-      "source_summary": "Nowy ranking: Gdzie w Polsce żyje się najlepiej? Dwa miasta liderami",
-      "language": "pl",
-      "title": "Новий рейтинг: де живе найкраще?",
-      "summary": "Новий рейтинг: де живе найкраще?",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "085be71d25a02bf2305d": {
-      "source_title": "Wstrząsające sceny na stacji w Sopocie. Wpadł między peron a pociąg SKM",
-      "source_summary": "Wstrząsające sceny na stacji w Sopocie. Wpadł między peron a pociąg SKM",
-      "language": "pl",
-      "title": "Поворотні сцени на станції в Сопоті.",
-      "summary": "Поворотні сцени на станції в Сопоті.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "617ab429c5eed5a854e6": {
-      "source_title": "Wydano alert RCB. Rosyjski atak powietrzny na Ukrainie",
-      "source_summary": "Wydano alert RCB. Rosyjski atak powietrzny na Ukrainie",
-      "language": "pl",
-      "title": "У Україні було зроблено алерт RCB. Російський повітряний напад",
-      "summary": "У Україні було зроблено алерт RCB. Російський повітряний напад",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "734f9da3c4e3c0a01da8": {
-      "source_title": "Wielkie zmiany na S7. Sprawdź, co czeka kierowców już w najbliższych dniach",
-      "source_summary": "Wielkie zmiany na S7. Sprawdź, co czeka kierowców już w najbliższych dniach",
-      "language": "pl",
-      "title": "Зверніть увагу на те, що станеться з водіями в найближчі дні.",
-      "summary": "Зверніть увагу на те, що станеться з водіями в найближчі дні.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "4197e39fe77ee487e8fa": {
-      "source_title": "Szkielet nanotyrannusa sprzedany za fortunę. Wystarczyło 12 minut",
-      "source_summary": "Szkielet nanotyrannusa sprzedany za fortunę. Wystarczyło 12 minut",
-      "language": "pl",
-      "title": "Скелет нанотирануса проданий за коноплі.",
-      "summary": "Скелет нанотирануса проданий за коноплі.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "4edc45b212ef96b23085": {
-      "source_title": "Zasiłek pogrzebowy wyższy od tego roku. Planowane są kolejne zmiany",
-      "source_summary": "Zasiłek pogrzebowy wyższy od tego roku. Planowane są kolejne zmiany",
-      "language": "pl",
-      "title": "З цього року планується провести похоронні операції.",
-      "summary": "З цього року планується провести похоронні операції.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "3f54cd1f06493349eef2": {
-      "source_title": "Sędzia miała kolizję. Posiedzenie w sprawie posła odwołane przez telefon",
-      "source_summary": "Sędzia miała kolizję. Posiedzenie w sprawie posła odwołane przez telefon",
-      "language": "pl",
-      "title": "Суддя мав зіткнення. що його скасовують по телефону.",
-      "summary": "Суддя мав зіткнення. що його скасовують по телефону.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "84d176cfb9044a678fbb": {
-      "source_title": "Pierwsze śnieżyce możliwe już na początku listopada. Ściśnie też mróz",
-      "source_summary": "Pierwsze śnieżyce możliwe już na początku listopada. Ściśnie też mróz",
-      "language": "pl",
-      "title": "Перші снігові бурі, які можна побачити на початку листопада.",
-      "summary": "Перші снігові бурі, які можна побачити на початку листопада.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "2a50838963096b25098e": {
-      "source_title": "Wielkie role, ważne słowa, niezwykłe biografie. Oni odeszli w 2026 roku",
-      "source_summary": "Wielkie role, ważne słowa, niezwykłe biografie. Oni odeszli w 2026 roku",
-      "language": "pl",
-      "title": "Великі ролі, важливі слова, дивовижні біографії, вони пішли в 2026 році.",
-      "summary": "Великі ролі, важливі слова, дивовижні біографії, вони пішли в 2026 році.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "445799e14329feac7a2b": {
-      "source_title": "Nawet 300 zł za wiązankę na Wszystkich Świętych. Nowy trend na grobach",
-      "source_summary": "Nawet 300 zł za wiązankę na Wszystkich Świętych. Nowy trend na grobach",
-      "language": "pl",
-      "title": "Новий тренд на могилах.",
-      "summary": "Новий тренд на могилах.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "752a3e0ba5d8ad870f46": {
-      "source_title": "Zderzenie pociągów w Hiszpanii. Zawieszono kursowanie kolei dużej prędkości",
-      "source_summary": "Zderzenie pociągów w Hiszpanii. Zawieszono kursowanie kolei dużej prędkości",
-      "language": "pl",
-      "title": "Подорож автомобілем з великою швидкістю призупинилась",
-      "summary": "Подорож автомобілем з великою швидкістю призупинилась",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "a38e1e864fc9b785d255": {
-      "source_title": "Interaktywna mapa pomoże dotrzeć na cmentarz, czyli Wszystkich Świętych w Krakowie",
-      "source_summary": "Interaktywna mapa pomoże dotrzeć na cmentarz, czyli Wszystkich Świętych w Krakowie",
-      "language": "pl",
-      "title": "Інтерактивна карта допоможе нам дістатися до кладовища, тобто до всіх святих у Кракові.",
-      "summary": "Інтерактивна карта допоможе нам дістатися до кладовища, тобто до всіх святих у Кракові.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "4ba99c5ecb9d3d57574b": {
-      "source_title": "Wilki podchodzą pod domy. Wójt tej gminy włącza latarnie na całą noc",
-      "source_summary": "Wilki podchodzą pod domy. Wójt tej gminy włącza latarnie na całą noc",
-      "language": "pl",
-      "title": "Вовки підходять до будинків.",
-      "summary": "Вовки підходять до будинків.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "d22be303aa745392f98f": {
-      "source_title": "Krzyczał „Allahu Akbar”. Nożownik zastrzelony przed ambasadą",
-      "source_summary": "Krzyczał „Allahu Akbar”. Nożownik zastrzelony przed ambasadą",
-      "language": "pl",
-      "title": "Нужник, що застрелив під амбасадором.",
-      "summary": "Нужник, що застрелив під амбасадором.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "3c35853c59e382785bbf": {
-      "source_title": "Setki ciężarówek przekraczają nowy most graniczny. Są zdjęcia satelitarne",
-      "source_summary": "Setki ciężarówek przekraczają nowy most graniczny. Są zdjęcia satelitarne",
-      "language": "pl",
-      "title": "Сотні вантажівок перетнули кордон. Є супутникові знімки.",
-      "summary": "Сотні вантажівок перетнули кордон. Є супутникові знімки.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "076ca78d7ff2358b3a36": {
-      "source_title": "Rozszczelnił się wagon z siarką. Akcja strażaków w Łódzkiem",
-      "source_summary": "Rozszczelnił się wagon z siarką. Akcja strażaków w Łódzkiem",
-      "language": "pl",
-      "title": "Вівся вагон із сіркою.",
-      "summary": "Вівся вагон із сіркою.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "5b88b3aec71183508f42": {
-      "source_title": "CERT Polska ostrzega przed oszustwami internetowymi. „Nowy motyw”",
-      "source_summary": "CERT Polska ostrzega przed oszustwami internetowymi. „Nowy motyw”",
-      "language": "pl",
-      "title": "CERT Польща застерігає проти онлайн- шахрайства. « Нова тема» Європейська Комісія",
-      "summary": "CERT Польща застерігає проти онлайн- шахрайства. « Нова тема» Європейська Комісія",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "a413bf263ffe2fc0c056": {
-      "source_title": "Żywe jaszczurki ukryte w ciężarówce. Służby udaremniły przemyt wart fortunę",
-      "source_summary": "Żywe jaszczurki ukryte w ciężarówce. Służby udaremniły przemyt wart fortunę",
-      "language": "pl",
-      "title": "Морські ящірки, що були сховані в вантажівці, були розладнані контрабандою, яка коштує багато грошей.",
-      "summary": "Морські ящірки, що були сховані в вантажівці, були розладнані контрабандою, яка коштує багато грошей.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "7ca9aacd90b1c3038489": {
-      "source_title": "Tysiące emerytów tracą 866 zł miesięcznie. Tego dodatku ZUS nie wypłaci sam, potrzebny wniosek",
-      "source_summary": "Tysiące emerytów tracą 866 zł miesięcznie. Tego dodatku ZUS nie wypłaci sam, potrzebny wniosek",
-      "language": "pl",
-      "title": "Тисячі пенсіонерів втрачають 866 доларів за місяць.",
-      "summary": "Тисячі пенсіонерів втрачають 866 доларів за місяць.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "ce6536d7475a428f8455": {
-      "source_title": "Groźny incydent na przejeździe. Wojskowy „Żbik” uderzył w pociąg towarowy",
-      "source_summary": "Groźny incydent na przejeździe. Wojskowy „Żbik” uderzył w pociąg towarowy",
-      "language": "pl",
-      "title": "Військовий « Жінок» вдарив у товарний поїзд.",
-      "summary": "Військовий « Жінок» вдарив у товарний поїзд.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
-    },
-    "3e3f8897a7f67c96b412": {
-      "source_title": "Kulisy rozmowy z Putinem. „90-minutowy wywód o Słowianach”",
-      "source_summary": "Kulisy rozmowy z Putinem. „90-minutowy wywód o Słowianach”",
-      "language": "pl",
-      "title": "\"Путін\" для розмови з куликами.",
-      "summary": "\"Путін\" для розмови з куликами.",
-      "engine": "opus_mt",
-      "translated_at": 1793188434
     }
   },
   "meta": {
     "engine": "local_opus_mt_with_optional_mymemory_fallback",
     "daily_target": 200,
-    "new_translations": 148,
-    "remaining_candidates": 52
+    "new_translations": 172,
+    "remaining_candidates": 28
   }
 }
